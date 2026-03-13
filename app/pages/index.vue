@@ -1,5 +1,5 @@
 <template>
-  <div class="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-6 shadow-[0_0_60px_rgba(30,41,59,0.6)] backdrop-blur sm:p-10">
+  <div class="glass-card relative overflow-hidden rounded-3xl p-6 sm:p-10">
     <div class="pointer-events-none absolute inset-0 opacity-80">
       <div class="absolute -left-24 -top-32 h-80 w-80 rounded-full bg-lime-300/20 blur-3xl" />
       <div class="absolute -right-32 top-10 h-96 w-96 rounded-full bg-sky-400/10 blur-3xl" />
@@ -28,10 +28,10 @@
       </div>
 
       <form class="flex flex-col gap-4" @submit.prevent="submit">
-        <div class="rounded-3xl border border-white/10 bg-slate-950/35 p-4 shadow-[0_0_0_1px_rgba(255,255,255,0.03)] backdrop-blur sm:p-5">
+        <div class="glass-panel rounded-3xl p-4 backdrop-blur sm:p-5">
           <div class="flex items-center justify-between gap-3">
             <span class="text-xs font-semibold text-slate-300">The Intent Bar</span>
-            <span class="text-xs text-slate-400">回车执行</span>
+            <span class="kbd">Enter</span>
           </div>
 
           <div class="mt-3 flex flex-col gap-3 sm:flex-row">
@@ -42,7 +42,7 @@
               <input
                 v-model="intent"
                 type="text"
-                class="w-full rounded-2xl border border-white/10 bg-slate-950/60 py-3 pl-8 pr-4 text-sm text-white placeholder:text-slate-500 focus:border-lime-300/40 focus:outline-none focus:ring-2 focus:ring-lime-300/20"
+                class="input pl-8"
                 placeholder="例如：帮我买点稳健的理财（稳定币 / 美债 / 低风险策略）"
                 autocomplete="off"
               />
@@ -50,7 +50,7 @@
 
             <button
               type="submit"
-              class="rounded-2xl bg-lime-300 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-lime-200"
+              class="btn-primary rounded-2xl px-5"
             >
               生成方案
             </button>
@@ -62,7 +62,7 @@
               v-for="quickIntent in quickIntents"
               :key="quickIntent"
               type="button"
-              class="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-200 transition hover:bg-white/10 hover:text-white"
+              class="btn-pill"
               @click="intent = quickIntent"
             >
               {{ quickIntent }}
@@ -72,24 +72,24 @@
       </form>
 
       <div class="grid gap-4 lg:grid-cols-3">
-        <div class="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur lg:col-span-2">
+        <div class="glass-card p-5 lg:col-span-2">
           <div class="flex items-center justify-between gap-3">
             <div class="text-xs font-semibold tracking-wide text-slate-300">Trust Banner</div>
             <div class="text-xs text-slate-400">AI 实时监控 · {{ trustLastUpdated }}</div>
           </div>
 
           <div class="mt-4 grid gap-3 sm:grid-cols-3">
-            <div class="rounded-xl border border-white/10 bg-slate-950/40 p-4">
+            <div class="glass-panel p-4">
               <div class="text-xs text-slate-300">实时审计协议总数</div>
               <div class="mt-2 text-2xl font-semibold">{{ trustProtocolsAudited }}</div>
               <div class="mt-1 text-xs text-slate-400">覆盖主流 DeFi 与 RWA（占位）</div>
             </div>
-            <div class="rounded-xl border border-white/10 bg-slate-950/40 p-4">
+            <div class="glass-panel p-4">
               <div class="text-xs text-slate-300">平均滑点保护率</div>
               <div class="mt-2 text-2xl font-semibold">{{ trustSlippageProtection }}%</div>
               <div class="mt-1 text-xs text-slate-400">路由级保护 + 失败回滚（占位）</div>
             </div>
-            <div class="rounded-xl border border-white/10 bg-slate-950/40 p-4">
+            <div class="glass-panel p-4">
               <div class="text-xs text-slate-300">风险覆盖（链/协议）</div>
               <div class="mt-2 text-2xl font-semibold">{{ trustRiskCoverage }}</div>
               <div class="mt-1 text-xs text-slate-400">波动率 / 流动性 / 安全等级</div>
@@ -104,19 +104,19 @@
         </div>
 
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur">
+          <div class="glass-card p-5">
             <div class="text-xs font-semibold text-slate-300">AI Strategy Copilot</div>
             <div class="mt-2 text-sm text-slate-200">自然语言意图 → 多链最优策略</div>
           </div>
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur">
+          <div class="glass-card p-5">
             <div class="text-xs font-semibold text-slate-300">RWA 投资门户</div>
             <div class="mt-2 text-sm text-slate-200">代币化美债 / 黄金，一键配置</div>
           </div>
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur">
+          <div class="glass-card p-5">
             <div class="text-xs font-semibold text-slate-300">无感链抽象</div>
             <div class="mt-2 text-sm text-slate-200">自动跨链 + Gas 代付</div>
           </div>
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur">
+          <div class="glass-card p-5">
             <div class="text-xs font-semibold text-slate-300">自动化资产看板</div>
             <div class="mt-2 text-sm text-slate-200">实时净值 + AI 每日分析</div>
           </div>

@@ -1,1 +1,51 @@
 @import "tailwindcss";
+
+@layer base {
+  html {
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-lime-300) 30%, transparent);
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur shadow-[0_0_0_1px_rgba(255,255,255,0.03)];
+  }
+
+  .glass-panel {
+    @apply rounded-xl border border-white/10 bg-slate-950/40;
+  }
+
+  .pill {
+    @apply rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200;
+  }
+
+  .btn-primary {
+    @apply rounded-xl bg-lime-300 px-4 py-2.5 text-sm font-semibold text-slate-950 transition hover:bg-lime-200;
+  }
+
+  .btn-secondary {
+    @apply rounded-xl bg-white/10 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-white/15;
+  }
+
+  .btn-pill {
+    @apply rounded-full bg-white/5 px-3 py-1.5 text-xs font-semibold text-slate-200 transition hover:bg-white/10;
+  }
+
+  .input {
+    @apply w-full rounded-2xl border border-white/10 bg-slate-950/60 px-4 py-3 text-sm text-white placeholder:text-slate-500 focus:border-lime-300/40 focus:outline-none focus:ring-2 focus:ring-lime-300/20;
+  }
+
+  .select {
+    @apply w-full rounded-xl border border-white/10 bg-slate-950/60 px-3 py-2 text-sm text-slate-100 focus:border-lime-300/40 focus:outline-none focus:ring-2 focus:ring-lime-300/20;
+  }
+
+  .kbd {
+    @apply rounded-md border border-white/10 bg-white/5 px-2 py-1 text-[11px] font-semibold text-slate-200;
+  }
+}

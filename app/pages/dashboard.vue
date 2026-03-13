@@ -9,10 +9,10 @@
     </div>
 
     <div class="grid gap-4 lg:grid-cols-12">
-      <div class="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur lg:col-span-4">
+      <div class="glass-card p-5 lg:col-span-4">
         <div class="flex items-center justify-between gap-4">
           <div class="text-xs font-semibold tracking-wide text-slate-300">Health Score</div>
-          <div class="rounded-full bg-white/5 px-3 py-1 text-xs text-slate-200">组合健康</div>
+          <div class="pill">组合健康</div>
         </div>
 
         <div class="mt-4 flex items-center justify-between gap-6">
@@ -42,21 +42,21 @@
         </div>
 
         <div class="mt-4 grid grid-cols-3 gap-2">
-          <div class="rounded-xl border border-white/10 bg-slate-950/40 p-3">
+          <div class="glass-panel p-3">
             <div class="text-xs text-slate-300">波动率</div>
             <div class="mt-1 text-sm font-semibold">{{ volatility }}%</div>
           </div>
-          <div class="rounded-xl border border-white/10 bg-slate-950/40 p-3">
+          <div class="glass-panel p-3">
             <div class="text-xs text-slate-300">安全</div>
             <div class="mt-1 text-sm font-semibold">{{ protocolSafety }}/100</div>
           </div>
-          <div class="rounded-xl border border-white/10 bg-slate-950/40 p-3">
+          <div class="glass-panel p-3">
             <div class="text-xs text-slate-300">流动性</div>
             <div class="mt-1 text-sm font-semibold">{{ liquidity }}/100</div>
           </div>
         </div>
 
-        <div class="mt-5 rounded-2xl border border-white/10 bg-slate-950/40 p-4">
+        <div class="glass-panel mt-5 rounded-2xl p-4">
           <div class="text-xs font-semibold text-slate-300">AI 方案对比</div>
           <div class="mt-3 grid gap-2">
             <div class="rounded-xl border border-white/10 bg-white/5 p-3">
@@ -79,27 +79,27 @@
         <div v-if="healthScore < 70" class="mt-4 rounded-2xl border border-lime-300/20 bg-lime-300/10 p-4">
           <div class="text-sm font-semibold text-lime-200">当前风险偏高，是否一键对冲？</div>
           <div class="mt-3 flex gap-2">
-            <button class="rounded-xl bg-lime-300 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-lime-200">
+            <button class="btn-primary px-4 py-2">
               一键对冲
             </button>
-            <button class="rounded-xl bg-white/10 px-4 py-2 text-sm font-semibold text-white transition hover:bg-white/15">
+            <button class="btn-secondary px-4 py-2">
               查看原因
             </button>
           </div>
         </div>
       </div>
 
-      <div class="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur lg:col-span-5">
+      <div class="glass-card p-5 lg:col-span-5">
         <div class="flex items-center justify-between gap-4">
           <div class="text-xs font-semibold tracking-wide text-slate-300">Visual Asset Matrix</div>
           <div class="flex flex-wrap gap-2">
-            <span class="rounded-full bg-white/5 px-3 py-1 text-xs text-slate-200">DeFi</span>
-            <span class="rounded-full bg-white/5 px-3 py-1 text-xs text-slate-200">RWA</span>
+            <span class="pill">DeFi</span>
+            <span class="pill">RWA</span>
           </div>
         </div>
 
         <div class="mt-4 grid gap-4 sm:grid-cols-2">
-          <div class="flex items-center justify-center rounded-2xl border border-white/10 bg-slate-950/40 p-4">
+          <div class="glass-panel flex items-center justify-center rounded-2xl p-4">
             <svg class="h-44 w-44" viewBox="0 0 120 120">
               <circle cx="60" cy="60" r="44" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="16" />
               <g transform="rotate(-90 60 60)">
@@ -127,7 +127,7 @@
             <div
               v-for="asset in assets"
               :key="asset.symbol"
-              class="flex items-center justify-between gap-4 rounded-xl border border-white/10 bg-slate-950/40 px-4 py-3"
+              class="glass-panel flex items-center justify-between gap-4 rounded-xl px-4 py-3"
             >
               <div class="min-w-0">
                 <div class="flex items-center gap-2">
@@ -147,20 +147,20 @@
         </div>
       </div>
 
-      <div class="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur lg:col-span-3">
+      <div class="glass-card p-5 lg:col-span-3">
         <div class="flex items-center justify-between gap-4">
           <div class="text-xs font-semibold tracking-wide text-slate-300">AI 收益预测</div>
           <div class="text-xs text-slate-400">未来 7 天（占位）</div>
         </div>
-        <div class="mt-4 h-44 overflow-hidden rounded-xl border border-white/10 bg-slate-950/40">
+        <div class="glass-panel mt-4 h-44 overflow-hidden rounded-xl">
           <div class="h-full w-full bg-[linear-gradient(90deg,rgba(190,242,100,0.18),rgba(56,189,248,0.08),rgba(190,242,100,0.12))]" />
         </div>
         <div class="mt-4 grid grid-cols-2 gap-3">
-          <div class="rounded-xl border border-white/10 bg-slate-950/40 p-3">
+          <div class="glass-panel p-3">
             <div class="text-xs text-slate-300">预估 APY</div>
             <div class="mt-1 text-sm font-semibold">6.4%</div>
           </div>
-          <div class="rounded-xl border border-white/10 bg-slate-950/40 p-3">
+          <div class="glass-panel p-3">
             <div class="text-xs text-slate-300">执行状态</div>
             <div class="mt-1 text-sm font-semibold">实时监控</div>
           </div>
@@ -169,7 +169,7 @@
     </div>
 
     <div class="grid gap-4 lg:grid-cols-2">
-      <div class="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur">
+      <div class="glass-card p-5">
         <div class="flex items-center justify-between gap-4">
           <div class="text-xs font-semibold tracking-wide text-slate-300">The Execution Log</div>
           <div class="flex items-center gap-2">
@@ -189,29 +189,29 @@
         </div>
 
         <div class="mt-4 flex flex-wrap gap-2">
-          <button class="rounded-full bg-white/5 px-3 py-1.5 text-xs font-semibold text-slate-200 transition hover:bg-white/10">
+          <button class="btn-pill">
             暂停滚动
           </button>
-          <button class="rounded-full bg-white/5 px-3 py-1.5 text-xs font-semibold text-slate-200 transition hover:bg-white/10">
+          <button class="btn-pill">
             导出日志
           </button>
-          <NuxtLink to="/strategies" class="rounded-full bg-white/5 px-3 py-1.5 text-xs font-semibold text-lime-200 transition hover:bg-white/10 hover:text-lime-100">
+          <NuxtLink to="/strategies" class="btn-pill text-lime-200 hover:text-lime-100">
             去策略库
           </NuxtLink>
         </div>
       </div>
 
-      <div class="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur">
+      <div class="glass-card p-5">
         <div class="text-xs font-semibold tracking-wide text-slate-300">AI 每日财务分析</div>
-        <div class="mt-4 rounded-xl border border-white/10 bg-slate-950/40 p-4 text-sm leading-6 text-slate-200">
+        <div class="glass-panel mt-4 rounded-xl p-4 text-sm leading-6 text-slate-200">
           <p>
             今日组合波动率下降，主要来自 RWA 权重提升与稳定币收益策略的再平衡。建议在保持低风险前提下，
             逐步将高成本跨链路径替换为 L2 聚合执行以降低摩擦成本。
           </p>
           <div class="mt-4 flex flex-wrap gap-2">
             <span class="rounded-full bg-lime-300/15 px-3 py-1 text-xs font-semibold text-lime-200">低风险</span>
-            <span class="rounded-full bg-white/5 px-3 py-1 text-xs text-slate-200">跨链成本优化</span>
-            <span class="rounded-full bg-white/5 px-3 py-1 text-xs text-slate-200">收益稳定</span>
+            <span class="pill">跨链成本优化</span>
+            <span class="pill">收益稳定</span>
           </div>
         </div>
       </div>

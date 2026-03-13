@@ -6,14 +6,14 @@
     </div>
 
     <div class="grid gap-4 lg:grid-cols-3">
-      <div class="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur lg:col-span-1">
+      <div class="glass-card p-5 lg:col-span-1">
         <div class="text-xs font-semibold tracking-wide text-slate-300">Passkey Manager</div>
 
         <div class="mt-4 flex flex-col gap-3">
           <div
             v-for="device in passkeys"
             :key="device.id"
-            class="rounded-xl border border-white/10 bg-slate-950/40 p-4"
+            class="glass-panel p-4"
           >
             <div class="flex items-start justify-between gap-4">
               <div class="min-w-0">
@@ -30,16 +30,16 @@
           </div>
 
           <div class="grid gap-2 sm:grid-cols-2">
-            <button class="rounded-xl bg-lime-300 px-4 py-2.5 text-sm font-semibold text-slate-950 transition hover:bg-lime-200">
+            <button class="btn-primary">
               添加设备
             </button>
-            <button class="rounded-xl bg-white/10 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-white/15">
+            <button class="btn-secondary">
               连接钱包
             </button>
           </div>
         </div>
 
-        <div class="mt-5 rounded-2xl border border-white/10 bg-slate-950/40 p-4">
+        <div class="glass-panel mt-5 rounded-2xl p-4">
           <div class="flex items-center justify-between gap-3">
             <div class="text-xs font-semibold text-slate-300">Social Recovery</div>
             <div class="text-xs text-slate-400">2026 标配</div>
@@ -63,14 +63,14 @@
         </div>
       </div>
 
-      <div class="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur lg:col-span-2">
+      <div class="glass-card p-5 lg:col-span-2">
         <div class="flex items-center justify-between gap-4">
           <div class="text-xs font-semibold tracking-wide text-slate-300">Identity & Security</div>
           <div class="text-xs text-slate-400">链抽象 · Gas 代付 · 隐私</div>
         </div>
 
         <div class="mt-4 grid gap-3 lg:grid-cols-2">
-          <div class="rounded-xl border border-white/10 bg-slate-950/40 p-4">
+          <div class="glass-panel p-4">
             <div class="flex items-center justify-between gap-3">
               <div class="text-sm font-semibold">Gas Tank</div>
               <div class="text-xs text-slate-400">全链 Gas 池</div>
@@ -96,7 +96,7 @@
             </div>
           </div>
 
-          <div class="rounded-xl border border-white/10 bg-slate-950/40 p-4">
+          <div class="glass-panel p-4">
             <div class="flex items-center justify-between gap-3">
               <div class="text-sm font-semibold">Privacy Toggle</div>
               <button
@@ -132,7 +132,7 @@
             </div>
           </div>
 
-          <div class="rounded-xl border border-white/10 bg-slate-950/40 p-4">
+          <div class="glass-panel p-4">
             <div class="text-sm font-semibold">风险偏好</div>
             <div class="mt-2 flex flex-wrap gap-2">
               <button
@@ -147,7 +147,7 @@
             </div>
           </div>
 
-          <div class="rounded-xl border border-white/10 bg-slate-950/40 p-4">
+          <div class="glass-panel p-4">
             <div class="text-sm font-semibold">跨链执行</div>
             <div class="mt-2 flex items-center justify-between gap-3">
               <div class="text-xs text-slate-300">自动选择最优路径</div>
@@ -163,7 +163,7 @@
           </div>
         </div>
 
-        <div class="mt-4 rounded-xl border border-white/10 bg-slate-950/40 p-4">
+        <div class="glass-panel mt-4 rounded-xl p-4">
           <div class="text-sm font-semibold">Web3 身份凭证</div>
           <div class="mt-2 grid gap-2 sm:grid-cols-3">
             <div class="rounded-lg bg-white/5 px-3 py-2 text-xs text-slate-200">KYC：未绑定</div>

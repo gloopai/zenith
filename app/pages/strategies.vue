@@ -8,12 +8,12 @@
       <div class="text-xs text-slate-400">Simulation：1000 USDT · 30 天</div>
     </div>
 
-    <div class="grid gap-3 rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur lg:grid-cols-12">
+    <div class="glass-card grid gap-3 p-4 lg:grid-cols-12">
       <div class="lg:col-span-5">
         <label class="text-xs font-semibold text-slate-300">资产来源</label>
         <select
           v-model="sourceFilter"
-          class="mt-2 w-full rounded-xl border border-white/10 bg-slate-950/60 px-3 py-2 text-sm text-slate-100 focus:border-lime-300/40 focus:outline-none focus:ring-2 focus:ring-lime-300/20"
+          class="select mt-2"
         >
           <option value="all">全部</option>
           <option v-for="source in sources" :key="source" :value="source">{{ source }}</option>
@@ -24,7 +24,7 @@
         <label class="text-xs font-semibold text-slate-300">风险等级</label>
         <select
           v-model="riskFilter"
-          class="mt-2 w-full rounded-xl border border-white/10 bg-slate-950/60 px-3 py-2 text-sm text-slate-100 focus:border-lime-300/40 focus:outline-none focus:ring-2 focus:ring-lime-300/20"
+          class="select mt-2"
         >
           <option value="all">全部</option>
           <option v-for="risk in risks" :key="risk" :value="risk">{{ risk }}</option>
@@ -35,7 +35,7 @@
         <label class="text-xs font-semibold text-slate-300">排序</label>
         <select
           v-model="sortKey"
-          class="mt-2 w-full rounded-xl border border-white/10 bg-slate-950/60 px-3 py-2 text-sm text-slate-100 focus:border-lime-300/40 focus:outline-none focus:ring-2 focus:ring-lime-300/20"
+          class="select mt-2"
         >
           <option value="apy_desc">收益率（高→低）</option>
           <option value="apy_asc">收益率（低→高）</option>
@@ -48,7 +48,7 @@
       <div
         v-for="strategy in filteredStrategies"
         :key="strategy.id"
-        class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur"
+        class="glass-card group relative overflow-hidden p-5"
       >
         <div class="absolute inset-0 opacity-0 transition group-hover:opacity-100">
           <div class="absolute -left-24 -top-24 h-56 w-56 rounded-full bg-lime-300/10 blur-3xl" />
@@ -67,7 +67,7 @@
           </div>
 
           <div class="grid gap-3 sm:grid-cols-2">
-            <div class="rounded-xl border border-white/10 bg-slate-950/40 p-4">
+            <div class="glass-panel p-4">
               <div class="flex items-center justify-between gap-3">
                 <div class="text-xs font-semibold text-slate-300">历史回测曲线</div>
                 <div class="text-xs text-slate-400">30D（占位）</div>
@@ -96,7 +96,7 @@
               </div>
             </div>
 
-            <div class="rounded-xl border border-white/10 bg-slate-950/40 p-4">
+            <div class="glass-panel p-4">
               <div class="flex items-center justify-between gap-3">
                 <div class="text-xs font-semibold text-slate-300">协议组合</div>
                 <div class="text-xs text-slate-400">{{ strategy.chains.join(' / ') }}</div>
@@ -116,7 +116,7 @@
                   <div class="text-xs font-semibold text-slate-300">Simulation Mode</div>
                   <button
                     type="button"
-                    class="rounded-full bg-white/5 px-3 py-1 text-xs font-semibold text-slate-200 transition hover:bg-white/10 md:hidden"
+                    class="btn-pill md:hidden"
                     @click="toggleSimulation(strategy.id)"
                   >
                     {{ activeSimulationId === strategy.id ? '收起' : '模拟' }}
@@ -140,7 +140,7 @@
             >
               预览执行计划
             </NuxtLink>
-            <button class="rounded-xl bg-white/10 px-4 py-2 text-sm font-semibold text-white transition hover:bg-white/15">
+            <button class="btn-secondary px-4 py-2">
               一键部署
             </button>
           </div>
