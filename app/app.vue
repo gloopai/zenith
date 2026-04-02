@@ -1,64 +1,61 @@
 <template>
-  <div class="relative min-h-screen bg-slate-950 text-slate-100 antialiased">
-    <div class="pointer-events-none absolute inset-0">
-      <div class="absolute inset-0 bg-[radial-gradient(circle_at_15%_10%,rgba(190,242,100,0.08),transparent_40%),radial-gradient(circle_at_85%_20%,rgba(56,189,248,0.08),transparent_45%),radial-gradient(circle_at_30%_90%,rgba(99,102,241,0.06),transparent_45%)]" />
-      <div class="absolute inset-0 opacity-[0.08] [background-image:linear-gradient(to_right,rgba(255,255,255,0.35)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.35)_1px,transparent_1px)] [background-size:56px_56px]" />
-      <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-slate-950 to-transparent" />
-      <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-slate-950 to-transparent" />
+  <div class="font-sans relative min-h-screen bg-[#06060a] text-zinc-100 antialiased">
+    <div class="pointer-events-none absolute inset-0 overflow-hidden">
+      <div
+        class="absolute -left-[20%] top-[-30%] h-[70vh] w-[70vh] rounded-full bg-violet-600/[0.12] blur-[120px]"
+      />
+      <div
+        class="absolute -right-[15%] top-[10%] h-[55vh] w-[55vh] rounded-full bg-fuchsia-600/[0.08] blur-[100px]"
+      />
+      <div
+        class="absolute bottom-[-20%] left-[20%] h-[50vh] w-[50vh] rounded-full bg-indigo-600/[0.07] blur-[110px]"
+      />
+      <div
+        class="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(120,80,200,0.12),transparent)]"
+      />
     </div>
 
     <NuxtRouteAnnouncer />
 
-    <header class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/70 backdrop-blur">
-      <div class="mx-auto flex w-full max-w-6xl items-center justify-between gap-6 px-4 py-3">
-        <NuxtLink to="/" class="group flex items-center gap-3">
+    <header class="sticky top-0 z-50 border-b border-white/[0.06] bg-[#06060a]/75 backdrop-blur-2xl">
+      <div class="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-5 py-4 lg:px-8">
+        <NuxtLink to="/" class="group flex min-w-0 items-center gap-3.5">
           <span
-            class="relative grid h-9 w-9 place-items-center rounded-xl border border-white/10 bg-slate-950/60 shadow-[0_0_0_1px_rgba(255,255,255,0.03)] transition group-hover:border-white/15 group-hover:bg-slate-950/70"
+            class="relative grid h-10 w-10 shrink-0 place-items-center rounded-2xl border border-white/[0.08] bg-gradient-to-br from-white/[0.08] to-white/[0.02] shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] transition group-hover:border-violet-500/25"
           >
-            <span class="absolute -inset-2 rounded-2xl bg-lime-300/15 blur-xl opacity-0 transition group-hover:opacity-70" />
-            <span class="absolute inset-0 rounded-xl bg-gradient-to-br from-lime-300/18 via-sky-400/10 to-transparent opacity-90" />
-            <span class="absolute inset-0 rounded-xl bg-[radial-gradient(circle_at_30%_25%,rgba(255,255,255,0.16),transparent_55%)] opacity-70" />
-            <svg
-              class="relative h-5 w-5 text-lime-200 drop-shadow-[0_0_18px_rgba(190,242,100,0.32)]"
-              viewBox="0 0 24 24"
-              fill="none"
-              aria-hidden="true"
-            >
+            <span
+              class="absolute inset-0 rounded-2xl bg-gradient-to-br from-violet-500/20 to-fuchsia-600/10 opacity-0 transition group-hover:opacity-100"
+            />
+            <svg class="relative h-5 w-5 text-violet-200" viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <path
-                d="M7.5 20V4h6.2a5.1 5.1 0 0 1 0 10.2H7.5"
+                d="M12 3v18M8 8l4-4 4 4M8 16l4 4 4-4"
                 stroke="currentColor"
-                stroke-width="2.2"
+                stroke-width="1.75"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-              />
-              <path
-                d="M12 9.1h2.2a2.1 2.1 0 0 1 0 4.2H12"
-                stroke="currentColor"
-                stroke-width="2.2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                opacity="0.55"
               />
             </svg>
           </span>
 
-          <span class="flex flex-col leading-none">
-            <span
-              class="text-[13px] font-black tracking-[0.18em] text-transparent bg-clip-text bg-gradient-to-r from-lime-200 via-sky-200 to-slate-100 drop-shadow-[0_0_18px_rgba(56,189,248,0.12)] transition group-hover:from-lime-100 group-hover:via-sky-100"
-            >
-              PLUNGET
+          <span class="min-w-0">
+            <span class="block text-[15px] font-bold tracking-[0.2em] text-white">PLUNGET</span>
+            <span class="mt-0.5 block text-[10px] font-medium uppercase tracking-[0.28em] text-zinc-500">
+              AI 导航 · 资讯
             </span>
-            <span class="mt-1 text-[10px] font-semibold tracking-[0.22em] text-slate-400/90">INTENT HUB</span>
           </span>
         </NuxtLink>
 
-        <nav class="hidden items-center gap-1.5 sm:flex">
+        <nav class="hidden items-center gap-1 md:flex">
           <NuxtLink
             v-for="item in navItems"
             :key="item.to"
             :to="item.to"
-            class="rounded-full px-3 py-1.5 text-sm text-slate-200 transition hover:bg-white/5 hover:text-white"
-            :class="isActive(item.to) ? 'bg-white/10 text-white shadow-[0_0_0_1px_rgba(255,255,255,0.04)]' : ''"
+            class="rounded-full px-4 py-2 text-sm font-medium text-zinc-400 transition hover:bg-white/[0.05] hover:text-white"
+            :class="
+              isActive(item.to)
+                ? 'bg-white/[0.06] text-white shadow-[inset_0_0_0_1px_rgba(255,255,255,0.06)]'
+                : ''
+            "
           >
             {{ item.label }}
           </NuxtLink>
@@ -66,29 +63,66 @@
 
         <div class="flex items-center gap-2">
           <NuxtLink
-            to="/dashboard"
-            class="rounded-full bg-lime-300 px-3 py-1.5 text-sm font-semibold text-slate-950 transition hover:bg-lime-200 shadow-[0_0_18px_rgba(190,242,100,0.18)]"
+            class="hidden rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-600 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-violet-950/30 transition hover:from-violet-400 hover:to-fuchsia-500 sm:inline-flex"
+            to="/nav"
           >
-            打开仪表盘
+            探索工具
           </NuxtLink>
+
+          <button
+            type="button"
+            class="inline-flex items-center justify-center rounded-xl border border-white/[0.08] bg-white/[0.04] px-3.5 py-2 text-sm font-medium text-zinc-200 transition hover:bg-white/[0.08] md:hidden"
+            :aria-expanded="mobileOpen"
+            aria-controls="mobile-nav"
+            @click="mobileOpen = !mobileOpen"
+          >
+            菜单
+          </button>
         </div>
+      </div>
+
+      <div
+        v-show="mobileOpen"
+        id="mobile-nav"
+        class="border-t border-white/[0.06] bg-[#06060a]/95 px-5 py-4 backdrop-blur-xl md:hidden"
+      >
+        <nav class="flex flex-col gap-1">
+          <NuxtLink
+            v-for="item in navItems"
+            :key="item.to"
+            :to="item.to"
+            class="rounded-xl px-3 py-2.5 text-sm font-medium text-zinc-300 transition hover:bg-white/[0.05] hover:text-white"
+            @click="mobileOpen = false"
+          >
+            {{ item.label }}
+          </NuxtLink>
+          <NuxtLink
+            class="mt-2 rounded-xl bg-gradient-to-r from-violet-500 to-fuchsia-600 py-2.5 text-center text-sm font-semibold text-white"
+            to="/nav"
+            @click="mobileOpen = false"
+          >
+            探索工具
+          </NuxtLink>
+        </nav>
       </div>
     </header>
 
-    <main class="relative mx-auto w-full max-w-6xl px-4 py-10 sm:py-12">
+    <main class="relative mx-auto w-full max-w-7xl px-5 py-12 sm:py-16 lg:px-8 lg:py-20">
       <NuxtPage />
     </main>
 
-    <footer class="relative border-t border-white/10 bg-slate-950/40 backdrop-blur">
-      <div class="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 py-8 sm:flex-row sm:items-center sm:justify-between">
-        <div class="flex items-center gap-3">
-          <span class="h-2 w-2 rounded-full bg-lime-300/80 shadow-[0_0_18px_rgba(190,242,100,0.25)]" />
-          <div class="text-xs text-slate-400">© {{ new Date().getFullYear() }} Plunget. All rights reserved.</div>
+    <footer class="relative border-t border-white/[0.06] bg-[#06060a]/50">
+      <div
+        class="mx-auto flex w-full max-w-7xl flex-col gap-6 px-5 py-12 sm:flex-row sm:items-center sm:justify-between lg:px-8"
+      >
+        <div>
+          <div class="text-sm font-semibold text-white">Plunget</div>
+          <p class="mt-1 max-w-sm text-sm leading-relaxed text-zinc-500">精选 AI 工具与行业资讯，一站浏览。</p>
         </div>
-        <div class="flex flex-wrap gap-2 text-xs text-slate-400">
-          <span class="pill">AI-first</span>
-          <span class="pill">Cross-chain</span>
-          <span class="pill">RWA</span>
+        <div class="flex flex-wrap items-center gap-6 text-sm text-zinc-500">
+          <a class="transition hover:text-zinc-300" href="/sitemap.xml">网站地图</a>
+          <span class="text-zinc-700">·</span>
+          <span>© {{ new Date().getFullYear() }}</span>
         </div>
       </div>
     </footer>
@@ -107,12 +141,15 @@ useHead(() => ({
 
 const navItems = [
   { label: '首页', to: '/' },
-  { label: '仪表盘', to: '/dashboard' },
-  { label: '策略库', to: '/strategies' },
-  { label: '个人中心', to: '/identity' },
+  { label: '导航', to: '/nav' },
+  { label: '资讯', to: '/news' },
+  { label: '管理', to: '/admin' },
 ] as const
 
+const mobileOpen = ref(false)
+
 function isActive(path: string) {
-  return route.path === path
+  if (path === '/') return route.path === '/'
+  return route.path === path || route.path.startsWith(`${path}/`)
 }
 </script>

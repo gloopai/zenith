@@ -1,0 +1,31 @@
+{
+  "tools": [
+    {
+      "slug": "chatgpt",
+      "name": "ChatGPT",
+      "description": "OpenAI 的对话式大模型，适合写作、编程、分析与日常问答。",
+      "url": "https://chat.openai.com",
+      "category": "对话 / 通用",
+      "tags": ["对话", "通用", "写作"],
+      "featured": true
+    },
+    {
+      "slug": "claude",
+      "name": "Claude",
+      "description": "Anthropic 的助手型模型，长上下文与代码、文档场景表现突出。",
+      "url": "https://claude.ai",
+      "category": "对话 / 通用",
+      "tags": ["对话", "长文本", "代码"],
+      "featured": true
+    },
+    {
+      "slug": "midjourney",
+      "name": "Midjourney",
+      "description": "以 Discord 为主的图像生成服务，风格多样、社区活跃。",
+      "url": "https://www.midjourney.com",
+      "category": "图像生成",
+      "tags": ["图像", "创意"],
+      "featured": false
+    }
+  ]
+}

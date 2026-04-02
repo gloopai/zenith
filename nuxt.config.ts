@@ -4,6 +4,13 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
+  runtimeConfig: {
+    adminSecret: process.env.ADMIN_SECRET || '',
+    public: {
+      siteName: 'Plunget',
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || '',
+    },
+  },
   app: {
     head: {
       htmlAttrs: {
@@ -16,9 +23,9 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
-          content: 'Plunget 是基于 AI 驱动的意图导向（Intent-based）跨链资产管理平台。',
+          content: 'AI 工具导航与资讯聚合：发现好用的 AI 产品，阅读行业更新。',
         },
-        { name: 'theme-color', content: '#020617' },
+        { name: 'theme-color', content: '#06060a' },
         { name: 'color-scheme', content: 'dark' },
         { property: 'og:site_name', content: 'Plunget' },
         { property: 'og:type', content: 'website' },
@@ -26,16 +33,24 @@ export default defineNuxtConfig({
         { property: 'og:title', content: 'Plunget' },
         {
           property: 'og:description',
-          content: 'AI 驱动的意图导向跨链资产管理平台：一语下达投资目标，自动生成最优执行方案。',
+          content: 'AI 工具导航与资讯聚合：发现好用的 AI 产品，阅读行业更新。',
         },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Plunget' },
         {
           name: 'twitter:description',
-          content: 'AI 驱动的意图导向跨链资产管理平台：一语下达投资目标，自动生成最优执行方案。',
+          content: 'AI 工具导航与资讯聚合：发现好用的 AI 产品，阅读行业更新。',
         },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      link: [
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap',
+        },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      ],
     },
   },
   vite: {

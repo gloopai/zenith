@@ -1,0 +1,103 @@
+<template>
+  <div class="flex flex-col gap-12">
+    <header class="max-w-2xl">
+      <p class="page-eyebrow">目录</p>
+      <h1 class="page-title mt-4">AI 导航</h1>
+      <p class="mt-4 text-lg leading-relaxed text-zinc-500">
+        按分类浏览，或使用搜索快速定位。进入详情页可查看简介与访问官网。
+      </p>
+    </header>
+
+    <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+      <div class="flex flex-wrap gap-2">
+        <button
+          type="button"
+          class="btn-pill"
+          :class="selectedCategory === '' ? 'btn-pill-active' : ''"
+          @click="selectedCategory = ''"
+        >
+          全部
+        </button>
+        <button
+          v-for="c in categories"
+          :key="c"
+          type="button"
+          class="btn-pill"
+          :class="selectedCategory === c ? 'btn-pill-active' : ''"
+          @click="selectedCategory = c"
+        >
+          {{ c }}
+        </button>
+      </div>
+
+      <label class="flex w-full flex-col gap-2 lg:max-w-sm">
+        <span class="text-xs font-medium text-zinc-500">搜索</span>
+        <input v-model="query" type="search" class="input" placeholder="名称、描述或标签" autocomplete="off" />
+      </label>
+    </div>
+
+    <div class="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+      <NuxtLink
+        v-for="tool in filtered"
+        :key="tool.slug"
+        :to="`/nav/${tool.slug}`"
+        class="glass-card group flex flex-col p-6 transition hover:border-violet-500/15 hover:shadow-[0_0_0_1px_rgba(167,139,250,0.12)]"
+      >
+        <div class="flex items-start justify-between gap-3">
+          <div class="min-w-0">
+            <div class="text-base font-semibold text-white group-hover:text-violet-100">{{ tool.name }}</div>
+            <div class="mt-2 line-clamp-3 text-sm leading-relaxed text-zinc-500">{{ tool.description }}</div>
+          </div>
+        </div>
+        <div class="mt-5 flex flex-wrap items-center gap-2 border-t border-white/[0.05] pt-5">
+          <span class="pill text-[11px]">{{ tool.category }}</span>
+          <span
+            v-for="tag in tool.tags ?? []"
+            :key="tag"
+            class="rounded-lg bg-white/[0.03] px-2 py-0.5 text-[11px] text-zinc-500"
+          >
+            {{ tag }}
+          </span>
+        </div>
+      </NuxtLink>
+    </div>
+
+    <p v-if="filtered.length === 0" class="text-center text-sm text-zinc-500">没有符合筛选的结果，可尝试调整分类或关键词。</p>
+  </div>
+</template>
+
+<script setup lang="ts">
+import type { Tool } from '~~/shared/types/site'
+
+const description = '浏览 AI 相关工具与站点：按分类筛选、搜索查找，并进入详情了解产品与外链。'
+
+useSeoMeta({
+  title: 'AI 导航',
+  description,
+  ogTitle: 'AI 导航 · Plunget',
+  ogDescription: description,
+  ogType: 'website',
+})
+
+const { data } = await useAsyncData('nav-tools', () => $fetch<{ tools: Tool[] }>('/api/tools'))
+
+const tools = computed(() => data.value?.tools ?? [])
+const categories = computed(() => {
+  const s = new Set<string>()
+  for (const t of tools.value) s.add(t.category)
+  return [...s].sort((a, b) => a.localeCompare(b, 'zh-CN'))
+})
+
+const selectedCategory = ref('')
+const query = ref('')
+
+const filtered = computed(() => {
+  const q = query.value.trim().toLowerCase()
+  return tools.value.filter((t) => {
+    if (selectedCategory.value && t.category !== selectedCategory.value) return false
+    if (!q) return true
+    const blob = `${t.name} ${t.description} ${(t.tags ?? []).join(' ')}`.toLowerCase()
+    return blob.includes(q)
+  })
+})
+</script>
