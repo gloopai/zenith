@@ -142,8 +142,8 @@ useHead(() => ({
 const navItems = [
   { label: '首页', to: '/' },
   { label: '导航', to: '/nav' },
+  { label: 'OpenClaw', to: '/openclaw' },
   { label: '资讯', to: '/news' },
-  { label: '管理', to: '/admin' },
 ] as const
 
 const mobileOpen = ref(false)

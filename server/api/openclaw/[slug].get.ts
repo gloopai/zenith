@@ -1,15 +1,14 @@
-import { requireAdmin } from '../../../utils/admin-auth'
-import { getNewsEditorPayload } from '../../../utils/news-store'
+import { getOpenClawSkillBySlug, readOpenclawSkills } from '../../utils/openclaw-skills-store'
 
 export default defineEventHandler(async (event) => {
-  requireAdmin(event)
   const slug = getRouterParam(event, 'slug')
   if (!slug) {
     throw createError({ statusCode: 400, statusMessage: 'Missing slug' })
   }
-  const payload = await getNewsEditorPayload(slug)
-  if (!payload) {
+  const skills = await readOpenclawSkills()
+  const skill = getOpenClawSkillBySlug(skills, slug)
+  if (!skill) {
     throw createError({ statusCode: 404, statusMessage: 'Not found' })
   }
-  return payload
+  return { skill }
 })

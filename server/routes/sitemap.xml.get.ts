@@ -1,22 +1,26 @@
+import { readOpenclawSkills } from '../utils/openclaw-skills-store'
 import { readTools } from '../utils/tools-store'
 import { listNewsMeta } from '../utils/news-store'
 
+const SITE_ORIGIN = 'https://plunget.com'
+
 export default defineEventHandler(async (event) => {
-  const config = useRuntimeConfig(event)
-  const base =
-    (config.public?.siteUrl as string | undefined)?.replace(/\/$/, '') ||
-    `${getRequestURL(event).origin}`
+  const base = SITE_ORIGIN
 
   const tools = await readTools()
   const news = await listNewsMeta()
+  const openclawSkills = await readOpenclawSkills()
 
-  const urls: string[] = [`${base}/`, `${base}/nav`, `${base}/news`]
+  const urls: string[] = [`${base}/`, `${base}/nav`, `${base}/news`, `${base}/openclaw`]
 
   for (const t of tools) {
     urls.push(`${base}/nav/${encodeURIComponent(t.slug)}`)
   }
   for (const n of news) {
     urls.push(`${base}/news/${encodeURIComponent(n.slug)}`)
+  }
+  for (const s of openclawSkills) {
+    urls.push(`${base}/openclaw/${encodeURIComponent(s.slug)}`)
   }
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>

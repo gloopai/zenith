@@ -5,7 +5,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
-    adminSecret: process.env.ADMIN_SECRET || '',
     public: {
       siteName: 'Plunget',
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || '',

@@ -12,3 +12,7 @@ export function getToolsJsonPath() {
 export function getNewsDir() {
   return join(getProjectRoot(), 'content', 'news')
 }
+
+export function getOpenclawSkillsJsonPath() {
+  return join(getProjectRoot(), 'data', 'openclaw-skills.json')
+}

@@ -3,28 +3,1117 @@
     {
       "slug": "chatgpt",
       "name": "ChatGPT",
-      "description": "OpenAI 的对话式大模型，适合写作、编程、分析与日常问答。",
-      "url": "https://chat.openai.com",
+      "description": "OpenAI 旗下最广为人知的对话模型，支持多轮对话、联网检索（视账号与地区而定）、文件上传与简单数据分析。适合日常问答、文案草稿、代码片段与学习辅导；复杂任务可配合自定义指令与项目功能分主题长期维护。使用前建议了解各套餐下的模型版本差异与使用政策。",
+      "url": "https://chatgpt.com",
       "category": "对话 / 通用",
-      "tags": ["对话", "通用", "写作"],
+      "tags": ["对话", "通用", "写作", "编程"],
       "featured": true
     },
     {
       "slug": "claude",
       "name": "Claude",
-      "description": "Anthropic 的助手型模型，长上下文与代码、文档场景表现突出。",
+      "description": "Anthropic 推出的助手型大模型，以长上下文、稳健推理与对长文档的友好著称，在代码审阅、技术写作与结构化输出上口碑较好。网页端与 API 均可用，适合需要「一口气读完一整份 PDF/代码库」的场景；与 ChatGPT 相比，风格更偏谨慎、解释更细。",
       "url": "https://claude.ai",
       "category": "对话 / 通用",
-      "tags": ["对话", "长文本", "代码"],
+      "tags": ["对话", "长文本", "代码", "文档"],
+      "featured": true
+    },
+    {
+      "slug": "google-gemini",
+      "name": "Google Gemini",
+      "description": "谷歌的多模态大模型家族，与 Google 账号及 Workspace 生态结合紧密，支持文本、图像理解与（在支持的地区/产品中）更多模态。适合已在用 Gmail、Drive、Android 的用户做搜索增强、邮件草稿与快速摘要；具体能力与模型名称（如 Flash / Pro）请以当前官网说明为准。",
+      "url": "https://gemini.google.com",
+      "category": "对话 / 通用",
+      "tags": ["对话", "多模态", "谷歌生态"],
+      "featured": true
+    },
+    {
+      "slug": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "description": "微软基于大模型的助手，深度集成 Windows、Edge、Microsoft 365 等场景，适合在办公文档、浏览器与系统侧快速生成草稿、总结页面与简单自动化建议。若企业已订阅 M365，可关注与 Word、Excel、Teams 等联动的合规与数据策略。",
+      "url": "https://copilot.microsoft.com",
+      "category": "对话 / 通用",
+      "tags": ["办公", "Windows", "微软生态"],
+      "featured": false
+    },
+    {
+      "slug": "deepseek",
+      "name": "DeepSeek",
+      "description": "国产开源与商用并行的模型与对话产品，在代码、数学与中文场景中有不少用户反馈性价比高。提供网页对话与 API，适合开发者做原型、学生做习题辅助与日常技术问答；部署与合规要求请结合你所在地区与服务条款使用。",
+      "url": "https://chat.deepseek.com",
+      "category": "对话 / 通用",
+      "tags": ["对话", "代码", "中文", "开源友好"],
+      "featured": true
+    },
+    {
+      "slug": "kimi",
+      "name": "Kimi 智能助手",
+      "description": "月之暗面推出的中文友好型助手，强调长文本阅读与网页、文件摘要能力，适合论文、合同、长贴的快速通读与要点提取。若工作流大量依赖中文资料与链接整理，可作为主力或备用工具与其他模型交叉验证。",
+      "url": "https://kimi.moonshot.cn",
+      "category": "对话 / 通用",
+      "tags": ["中文", "长文本", "摘要"],
+      "featured": true
+    },
+    {
+      "slug": "tongyi-qianwen",
+      "name": "通义千问",
+      "description": "阿里云体系内的大模型与应用矩阵，覆盖对话、办公插件、行业方案等。适合已使用阿里云、钉钉或企业数字化产品的团队做知识问答与流程辅助；个人用户也可在网页端体验多轮对话与工具调用类能力。",
+      "url": "https://tongyi.aliyun.com",
+      "category": "对话 / 通用",
+      "tags": ["中文", "企业", "阿里云"],
+      "featured": false
+    },
+    {
+      "slug": "ernie-bot",
+      "name": "文心一言",
+      "description": "百度推出的中文大模型对话产品，与百度搜索、网盘、办公等场景有联动，适合国内用户进行日常问答、创意写作与简单多模态体验。具体开放功能与会员策略以官网为准。",
+      "url": "https://yiyan.baidu.com",
+      "category": "对话 / 通用",
+      "tags": ["中文", "搜索联动"],
+      "featured": false
+    },
+    {
+      "slug": "doubao",
+      "name": "豆包",
+      "description": "字节跳动旗下的 AI 助手与多应用矩阵，覆盖对话、图像、音乐等方向，与抖音、飞书等产品生态有协同。适合普通用户一站式体验国产模型与模板化创作；专业向需求建议对比各子产品的定位与导出格式。",
+      "url": "https://www.doubao.com",
+      "category": "对话 / 通用",
+      "tags": ["中文", "多应用", "大众向"],
+      "featured": false
+    },
+    {
+      "slug": "yuanbao",
+      "name": "腾讯元宝",
+      "description": "腾讯推出的 AI 助手，强调与微信、腾讯文档、内容生态的结合，适合在微信内或腾讯系工作流里做摘要、问答与轻量创作。若团队已在用企业微信与腾讯会议，可关注后续企业场景集成。",
+      "url": "https://yuanbao.tencent.com",
+      "category": "对话 / 通用",
+      "tags": ["中文", "腾讯生态"],
+      "featured": false
+    },
+    {
+      "slug": "perplexity",
+      "name": "Perplexity",
+      "description": "以「带引用来源的问答」著称的研究型搜索界面，适合快速了解一个主题、对比概念与追溯网页出处。不同于传统搜索引擎的十条蓝链，它更偏向综合摘要；重要结论仍建议点进原始文献核对。",
+      "url": "https://www.perplexity.ai",
+      "category": "搜索 / 研究",
+      "tags": ["搜索", "引用", "研究"],
+      "featured": true
+    },
+    {
+      "slug": "poe",
+      "name": "Poe",
+      "description": "Quora 旗下聚合多款第三方模型的聊天平台，可在同一界面切换不同机器人与自定义 Bot，适合想「一次试用多个模型」的用户。部分高级模型需订阅；适合作为轻量对比与 hobby 级自动化入口。",
+      "url": "https://poe.com",
+      "category": "对话 / 通用",
+      "tags": ["聚合", "多模型", "Bot"],
+      "featured": false
+    },
+    {
+      "slug": "hugging-face",
+      "name": "Hugging Face",
+      "description": "全球最大的开源模型与数据集社区之一，提供模型托管、在线演示（Spaces）、数据集与教程。适合开发者查找最新论文实现、微调小模型与参与开源协作；对非技术用户可作为「了解行业进展」的宝库。",
+      "url": "https://huggingface.co",
+      "category": "开源 / 开发者",
+      "tags": ["开源", "模型库", "数据集"],
       "featured": true
     },
     {
       "slug": "midjourney",
       "name": "Midjourney",
-      "description": "以 Discord 为主的图像生成服务，风格多样、社区活跃。",
+      "description": "高人气文生图服务，以 Discord 或独立站点为入口，社区审美与风格化能力强，适合概念艺术、海报与视觉探索。学习成本主要在提示词与参数体系；商业使用请遵守订阅条款与版权说明。",
       "url": "https://www.midjourney.com",
       "category": "图像生成",
-      "tags": ["图像", "创意"],
+      "tags": ["文生图", "艺术", "社区"],
+      "featured": true
+    },
+    {
+      "slug": "dall-e",
+      "name": "DALL·E",
+      "description": "OpenAI 的图像生成系列，与 ChatGPT 生态整合，适合在对话流程里直接出图、改图与迭代创意。写实与插画风格随模型迭代变化，商业与版权规则请查阅 OpenAI 当前政策。",
+      "url": "https://openai.com/dall-e",
+      "category": "图像生成",
+      "tags": ["文生图", "OpenAI"],
+      "featured": false
+    },
+    {
+      "slug": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "description": "Adobe 创意云体系内的生成式工具，强调与 Photoshop、Illustrator 等工作流结合，适合设计师在可控素材与品牌规范下做变体与延展。企业用户可关注内容凭证与商用授权相关说明。",
+      "url": "https://www.adobe.com/products/firefly.html",
+      "category": "图像生成",
+      "tags": ["设计", "Adobe", "商用关注"],
+      "featured": false
+    },
+    {
+      "slug": "leonardo-ai",
+      "name": "Leonardo.Ai",
+      "description": "面向游戏与概念设计的图像生成平台，提供模型与画布工作流，适合角色、道具与场景批量探索。免费额度与会员策略常调整，适合独立开发者与小团队快速出概念图。",
+      "url": "https://leonardo.ai",
+      "category": "图像生成",
+      "tags": ["游戏美术", "概念设计"],
+      "featured": false
+    },
+    {
+      "slug": "ideogram",
+      "name": "Ideogram",
+      "description": "以「图中文字渲染较好」为卖点之一的文生图产品，适合海报、封面与带标题的视觉物料。与其他通用模型相比，可优先用于需要可读文字排版的实验。",
+      "url": "https://ideogram.ai",
+      "category": "图像生成",
+      "tags": ["文生图", "文字排版"],
+      "featured": false
+    },
+    {
+      "slug": "remove-bg",
+      "name": "remove.bg",
+      "description": "专注抠图去背景的经典在线工具，上传人像或产品图即可自动分离主体，适合电商主图、证件照与简单合成的前置步骤。大批量处理可关注 API 与桌面端方案。",
+      "url": "https://www.remove.bg",
+      "category": "图像编辑",
+      "tags": ["抠图", "电商", "效率"],
+      "featured": false
+    },
+    {
+      "slug": "canva",
+      "name": "Canva（Magic Studio）",
+      "description": "在线设计平台内嵌多种 AI 能力，如文案、配图与简单动效，适合非设计专业用户快速出社交媒体图、演示文稿与短视频封面。团队协作与品牌套件适合中小团队统一视觉。",
+      "url": "https://www.canva.com",
+      "category": "设计 / 演示",
+      "tags": ["设计", "模板", "协作"],
+      "featured": false
+    },
+    {
+      "slug": "figma",
+      "name": "Figma",
+      "description": "主流 UI/UX 设计协作工具，持续加入 AI 辅助生成布局、文案与命名等能力。适合产品、设计与前端在同一文件内迭代；大型团队需规划库组件与权限治理。",
+      "url": "https://www.figma.com",
+      "category": "设计 / 演示",
+      "tags": ["UI", "协作", "原型"],
+      "featured": false
+    },
+    {
+      "slug": "runway",
+      "name": "Runway",
+      "description": "视频与多模态创作方向上的知名产品，提供文生视频、视频编辑与多种实验性功能，适合短片、广告与视觉实验。算力与订阅档位影响分辨率与时长，成片建议预留迭代与剪辑时间。",
+      "url": "https://runwayml.com",
+      "category": "视频 / 动效",
+      "tags": ["视频生成", "编辑", "创意"],
+      "featured": true
+    },
+    {
+      "slug": "pika",
+      "name": "Pika",
+      "description": "偏轻量与社交传播向的文生视频工具，适合快速生成几秒到十余秒的创意片段。与电影级长片工作流不同，更强调灵感与病毒传播；细节可控性因版本而异。",
+      "url": "https://pika.art",
+      "category": "视频 / 动效",
+      "tags": ["文生视频", "短视频"],
+      "featured": false
+    },
+    {
+      "slug": "kling-ai",
+      "name": "可灵 Kling",
+      "description": "国内团队推出的视频生成产品，中文提示与本土化场景支持较好，适合短视频、广告分镜与概念验证。具体额度与商用条款以官网为准。",
+      "url": "https://klingai.com",
+      "category": "视频 / 动效",
+      "tags": ["文生视频", "中文"],
+      "featured": false
+    },
+    {
+      "slug": "capcut",
+      "name": "剪映 CapCut",
+      "description": "大众向剪辑工具，内置字幕识别、配音、模板与多种智能剪辑能力，适合短视频创作者与自媒体快速出片。与抖音生态联动强，导出格式与版权音乐需注意平台规则。",
+      "url": "https://www.capcut.com",
+      "category": "视频 / 动效",
+      "tags": ["剪辑", "字幕", "短视频"],
+      "featured": false
+    },
+    {
+      "slug": "suno",
+      "name": "Suno",
+      "description": "现象级 AI 音乐生成应用，可根据文字描述生成带人声或纯音乐的片段，适合灵感 demo、背景音乐与娱乐创作。版权与商用政策演变较快，正式发行前务必查阅最新条款。",
+      "url": "https://suno.com",
+      "category": "语音 / 音乐",
+      "tags": ["音乐生成", "人声"],
+      "featured": true
+    },
+    {
+      "slug": "udio",
+      "name": "Udio",
+      "description": "另一款高关注度的音乐生成产品，风格与 Suno 各有侧重，适合对比试听与不同曲风实验。同样建议在商用与发行场景下单独确认授权。",
+      "url": "https://www.udio.com",
+      "category": "语音 / 音乐",
+      "tags": ["音乐生成"],
+      "featured": false
+    },
+    {
+      "slug": "elevenlabs",
+      "name": "ElevenLabs",
+      "description": "以高自然度语音合成与声音克隆闻名，适合有声书、游戏配音、视频旁白与多语言本地化。涉及声音克隆时务必取得授权并遵守平台与法律要求。",
+      "url": "https://elevenlabs.io",
+      "category": "语音 / 音乐",
+      "tags": ["TTS", "配音", "多语言"],
+      "featured": true
+    },
+    {
+      "slug": "otter",
+      "name": "Otter.ai",
+      "description": "会议与访谈转写工具，支持实时字幕、摘要与简单协作，适合远程会议纪要与采访整理。对隐私敏感的行业需评估云端存储与合规选项。",
+      "url": "https://otter.ai",
+      "category": "语音 / 音乐",
+      "tags": ["转写", "会议", "摘要"],
+      "featured": false
+    },
+    {
+      "slug": "cursor",
+      "name": "Cursor",
+      "description": "基于 VS Code 的 AI 原生代码编辑器，深度集成对话、补全与跨文件改写，适合个人开发者与小团队提升写码与重构效率。习惯传统 IDE 的用户需要适应其「对话驱动开发」的节奏与成本。",
+      "url": "https://cursor.com",
+      "category": "编程 / 开发",
+      "tags": ["IDE", "代码", "Agent"],
+      "featured": true
+    },
+    {
+      "slug": "github-copilot",
+      "name": "GitHub Copilot",
+      "description": "GitHub 与微软推出的代码补全与聊天助手，深度集成编辑器与 Pull Request 流程，适合日常 CRUD、测试与文档注释。企业版可关注代码隐私与模型策略配置。",
+      "url": "https://github.com/features/copilot",
+      "category": "编程 / 开发",
+      "tags": ["代码补全", "GitHub"],
+      "featured": true
+    },
+    {
+      "slug": "windsurf",
+      "name": "Windsurf",
+      "description": "Codeium 推出的 AI 编程环境，强调代理式任务流与多文件编辑，适合希望「少切窗口、多交给 AI 串联」的开发者。与 Cursor 类似，建议对比订阅与团队管理功能。",
+      "url": "https://windsurf.com",
+      "category": "编程 / 开发",
+      "tags": ["IDE", "Agent"],
+      "featured": false
+    },
+    {
+      "slug": "v0",
+      "name": "v0",
+      "description": "Vercel 旗下从自然语言生成 UI 组件与页面的工具，适合前端与产品快速出原型、对接 Tailwind 与 shadcn 生态。生成代码后仍需人工审阅可访问性与业务逻辑。",
+      "url": "https://v0.dev",
+      "category": "编程 / 开发",
+      "tags": ["UI", "前端", "原型"],
+      "featured": false
+    },
+    {
+      "slug": "replit",
+      "name": "Replit",
+      "description": "在线 IDE 与部署平台，集成 AI 辅助写代码与一键运行环境，适合教学、黑客松与轻量全栈原型。复杂生产负载需评估性能与成本。",
+      "url": "https://replit.com",
+      "category": "编程 / 开发",
+      "tags": ["在线IDE", "教学", "部署"],
+      "featured": false
+    },
+    {
+      "slug": "vercel",
+      "name": "Vercel",
+      "description": "前端与全栈应用托管平台，与 Next.js 生态深度整合，提供边缘部署、预览环境与 Serverless 函数。适合个人项目到企业站点；大流量与数据库需搭配外部服务规划。",
+      "url": "https://vercel.com",
+      "category": "编程 / 开发",
+      "tags": ["部署", "前端", "托管"],
+      "featured": false
+    },
+    {
+      "slug": "notion",
+      "name": "Notion",
+      "description": "集文档、数据库与项目管理于一体的知识工具，内置 AI 辅助写作、总结与翻译，适合团队知识库与个人笔记。数据库一复杂，结构治理就变得关键。",
+      "url": "https://www.notion.so",
+      "category": "文档 / 知识库",
+      "tags": ["笔记", "协作", "数据库"],
+      "featured": false
+    },
+    {
+      "slug": "obsidian",
+      "name": "Obsidian",
+      "description": "本地优先的 Markdown 知识库软件，通过插件与图谱视图构建个人维基，AI 能力多由社区插件或第三方接入实现。适合重视数据所有权与长期积累的深度用户。",
+      "url": "https://obsidian.md",
+      "category": "文档 / 知识库",
+      "tags": ["Markdown", "本地", "图谱"],
+      "featured": false
+    },
+    {
+      "slug": "gamma",
+      "name": "Gamma",
+      "description": "从大纲一键生成演示文稿与网页式分享页，适合销售提案、课程与对内汇报的快速排版。审美偏模板化，正式场合建议人工润色叙事与数据页。",
+      "url": "https://gamma.app",
+      "category": "写作 / 演示",
+      "tags": ["PPT", "演示", "生成"],
+      "featured": false
+    },
+    {
+      "slug": "n8n",
+      "name": "n8n",
+      "description": "开源的工作流自动化工具，可自托管，通过节点连接 API、数据库与消息渠道，适合技术团队搭建「人机协作」流水线。学习曲线高于纯无代码工具，但灵活度更高。",
+      "url": "https://n8n.io",
+      "category": "自动化 / 集成",
+      "tags": ["自动化", "工作流", "自托管"],
+      "featured": true
+    },
+    {
+      "slug": "make",
+      "name": "Make",
+      "description": "原 Integromat，可视化连接上千应用服务的自动化平台，适合市场、运营与行政将重复劳动自动化。复杂分支与错误处理需要一定设计经验。",
+      "url": "https://www.make.com",
+      "category": "自动化 / 集成",
+      "tags": ["自动化", "SaaS"],
+      "featured": false
+    },
+    {
+      "slug": "zapier",
+      "name": "Zapier",
+      "description": "老牌应用连接器，非技术用户也能拼出「触发—动作」流程，适合邮件、表格、CRM 之间的轻量同步。步骤多时代价上升明显，适合从简单场景切入。",
+      "url": "https://zapier.com",
+      "category": "自动化 / 集成",
+      "tags": ["自动化", "无代码"],
+      "featured": false
+    },
+    {
+      "slug": "deepl",
+      "name": "DeepL",
+      "description": "以高质量翻译著称的服务，支持多语言与文档翻译，适合论文、商务邮件与产品文案的初稿。专业出版仍建议人工校对术语与风格。",
+      "url": "https://www.deepl.com",
+      "category": "翻译 / 语言",
+      "tags": ["翻译", "文档"],
+      "featured": false
+    },
+    {
+      "slug": "immersive-translate",
+      "name": "沉浸式翻译",
+      "description": "浏览器双语对照翻译扩展，支持网页、PDF 与多种文件格式，适合外文阅读与学习。国产团队维护活跃，对中文用户友好。",
+      "url": "https://immersivetranslate.com",
+      "category": "翻译 / 语言",
+      "tags": ["浏览器", "双语", "阅读"],
+      "featured": false
+    },
+    {
+      "slug": "elicit",
+      "name": "Elicit",
+      "description": "面向科研与文献综述的 AI 研究助手，帮助检索论文、提取表格与对比结论，适合研究生与政策分析师做前期扫盲。不能替代对原文的批判性阅读。",
+      "url": "https://elicit.org",
+      "category": "搜索 / 研究",
+      "tags": ["论文", "科研", "综述"],
+      "featured": false
+    },
+    {
+      "slug": "consensus",
+      "name": "Consensus",
+      "description": "以学术文献为优先来源的问答式搜索，回答常附论文引用，适合查证「学界对某问题的主流看法」。医学与法律等高风险领域仍需专业人士把关。",
+      "url": "https://consensus.app",
+      "category": "搜索 / 研究",
+      "tags": ["学术", "引用"],
+      "featured": false
+    },
+    {
+      "slug": "character-ai",
+      "name": "Character.AI",
+      "description": "角色扮演与虚构对话平台，用户可创建或与各类人格聊天，偏娱乐与创作灵感。不适合作为事实或专业建议来源，未成年人使用需家长关注。",
+      "url": "https://character.ai",
+      "category": "对话 / 通用",
+      "tags": ["角色扮演", "娱乐"],
+      "featured": false
+    },
+    {
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "description": "Claude 背后的 AI 安全与研究公司，官网提供 API 文档、模型说明与负责任扩展相关论述。开发者可在此了解上下文长度、定价与政策更新。",
+      "url": "https://www.anthropic.com",
+      "category": "开源 / 开发者",
+      "tags": ["API", "Claude", "企业"],
+      "featured": false
+    },
+    {
+      "slug": "openai-platform",
+      "name": "OpenAI Platform",
+      "description": "OpenAI 开发者入口，提供 GPT 系列等模型的 API、计费与用量面板，适合自建产品与实验。生产环境需做好限流、监控与提示词版本管理。",
+      "url": "https://platform.openai.com",
+      "category": "开源 / 开发者",
+      "tags": ["API", "GPT", "开发者"],
+      "featured": false
+    },
+    {
+      "slug": "langchain",
+      "name": "LangChain",
+      "description": "构建 LLM 应用的框架与工具生态，涵盖链、代理、检索与评估，适合 Python/JS 开发者快速搭 RAG 与 Agent 原型。生态迭代快，跟文档与版本说明很重要。",
+      "url": "https://www.langchain.com",
+      "category": "开源 / 开发者",
+      "tags": ["RAG", "Agent", "框架"],
+      "featured": false
+    },
+    {
+      "slug": "ollama",
+      "name": "Ollama",
+      "description": "在本地运行开源大模型的桌面/命令行工具，适合隐私敏感场景与离线实验。性能取决于你的显卡与内存，小模型更易在笔记本上跑通。",
+      "url": "https://ollama.com",
+      "category": "开源 / 开发者",
+      "tags": ["本地模型", "开源", "隐私"],
+      "featured": true
+    },
+    {
+      "slug": "miro",
+      "name": "Miro",
+      "description": "在线白板协作工具，内置 AI 生成便利贴、总结与脑图辅助，适合远程头脑风暴与敏捷仪式。白板一变大，信息架构与权限管理就要跟上。",
+      "url": "https://miro.com",
+      "category": "协作 / 白板",
+      "tags": ["白板", "远程协作", "脑图"],
+      "featured": false
+    },
+    {
+      "slug": "linear",
+      "name": "Linear",
+      "description": "面向软件团队的问题跟踪与路线图工具，界面与快捷键体验突出，部分功能结合 AI 辅助 triage 与描述。适合追求效率的工程团队；非研发团队可能过重。",
+      "url": "https://linear.app",
+      "category": "协作 / 白板",
+      "tags": ["项目管理", "研发", "效率"],
+      "featured": false
+    },
+    {
+      "slug": "notebooklm",
+      "name": "NotebookLM",
+      "description": "谷歌推出的「基于你上传资料」的笔记与问答工具，适合把 PDF、文档整理成可对话的知识库，并生成音频概览等衍生内容。答案范围受限于你提供的材料，适合学习、备考与内部资料消化。",
+      "url": "https://notebooklm.google.com",
+      "category": "文档 / 知识库",
+      "tags": ["笔记", "RAG", "学习"],
+      "featured": true
+    },
+    {
+      "slug": "grammarly",
+      "name": "Grammarly",
+      "description": "英文写作辅助与语法检查工具，覆盖浏览器、Office 与桌面端，提供语气、清晰度与一致性建议。适合非母语作者在商务邮件、论文与营销文案中减少低级错误；创意写作仍需保留个人风格。",
+      "url": "https://www.grammarly.com",
+      "category": "写作 / 演示",
+      "tags": ["英文", "语法", "邮件"],
+      "featured": false
+    },
+    {
+      "slug": "jasper",
+      "name": "Jasper",
+      "description": "面向营销团队的 AI 写作平台，强调品牌声音、模板与团队协作，适合博客、广告文案与社交媒体批量产出。需注意事实核查与版权，避免直接发布未审核内容。",
+      "url": "https://www.jasper.ai",
+      "category": "写作 / 演示",
+      "tags": ["营销文案", "品牌", "团队"],
+      "featured": false
+    },
+    {
+      "slug": "heygen",
+      "name": "HeyGen",
+      "description": "数字人与多语言口型同步视频平台，适合企业培训、产品介绍与出海本地化，可把脚本快速转成带「虚拟主播」的视频。成片质量与形象授权、伦理披露需在发布前自行把关。",
+      "url": "https://www.heygen.com",
+      "category": "视频 / 动效",
+      "tags": ["数字人", "口播", "多语言"],
+      "featured": false
+    },
+    {
+      "slug": "synthesia",
+      "name": "Synthesia",
+      "description": "企业向 AI 视频平台，主打多语言讲解与模板化企业培训片，适合 HR、销售与客服标准化内容。偏 B2B 定价，小团队可先评估模板与品牌定制需求。",
+      "url": "https://www.synthesia.io",
+      "category": "视频 / 动效",
+      "tags": ["企业培训", "多语言", "讲解视频"],
+      "featured": false
+    },
+    {
+      "slug": "luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "description": "Luma 推出的文生视频模型与产品，强调运动与物理感，适合概念短片与视觉实验。与 Runway、Pika 等并列时可对比同一提示词下的镜头语言与稳定性。",
+      "url": "https://lumalabs.ai/dream-machine",
+      "category": "视频 / 动效",
+      "tags": ["文生视频", "实验"],
+      "featured": false
+    },
+    {
+      "slug": "pixverse",
+      "name": "PixVerse",
+      "description": "国产团队参与竞争的国际向文生视频产品之一，适合短视频风格与模板化创作，中文提示体验因版本更新可能变化，建议以官网当前能力为准。",
+      "url": "https://pixverse.ai",
+      "category": "视频 / 动效",
+      "tags": ["文生视频", "模板"],
+      "featured": false
+    },
+    {
+      "slug": "stability-ai",
+      "name": "Stability AI",
+      "description": "Stable Diffusion 等开源图像模型的主要推动方之一，官网提供模型下载、商业产品与开发者资源。自托管与微调适合有 GPU 与合规能力的团队；普通用户也可通过合作产品体验生成能力。",
+      "url": "https://stability.ai",
+      "category": "图像生成",
+      "tags": ["开源", "SD", "图像"],
+      "featured": false
+    },
+    {
+      "slug": "cohere",
+      "name": "Cohere",
+      "description": "面向企业的文本模型与嵌入（embedding）API 提供商，强调检索、分类与多语言支持，适合构建搜索、客服与内部知识助手。与 OpenAI 相比更偏 B2B 与私有化选项。",
+      "url": "https://cohere.com",
+      "category": "开源 / 开发者",
+      "tags": ["API", "嵌入", "企业"],
+      "featured": false
+    },
+    {
+      "slug": "assemblyai",
+      "name": "AssemblyAI",
+      "description": "语音转文字与音频理解 API，提供高精度转写、摘要与章节划分，适合播客、客服质检与媒体归档。按分钟计费，需结合存储与隐私策略设计流水线。",
+      "url": "https://www.assemblyai.com",
+      "category": "语音 / 音乐",
+      "tags": ["API", "转写", "摘要"],
+      "featured": false
+    },
+    {
+      "slug": "murf",
+      "name": "Murf",
+      "description": "面向视频与演示的配音工作台，提供多语种声音库与时间轴编辑，适合教育课程、产品演示与内部培训。与 ElevenLabs 相比更偏「整段解说」工作流。",
+      "url": "https://murf.ai",
+      "category": "语音 / 音乐",
+      "tags": ["配音", "视频", "多语言"],
+      "featured": false
+    },
+    {
+      "slug": "feishu",
+      "name": "飞书",
+      "description": "字节跳动旗下协作套件，集成文档、会议、审批与 AI 助手（如妙记、智能会议纪要等），适合国内企业一站式办公。与钉钉、企业微信的选型需结合组织规模与生态依赖。",
+      "url": "https://www.feishu.cn",
+      "category": "协作 / 白板",
+      "tags": ["办公", "会议", "中文"],
+      "featured": false
+    },
+    {
+      "slug": "tencent-meeting",
+      "name": "腾讯会议",
+      "description": "国内常用的视频会议软件，提供实时字幕、录制与纪要类能力（随版本更新），适合政企与个人远程协作。与腾讯文档、企业微信联动时体验更完整。",
+      "url": "https://meeting.tencent.com",
+      "category": "协作 / 白板",
+      "tags": ["会议", "字幕", "中文"],
+      "featured": false
+    },
+    {
+      "slug": "descript",
+      "name": "Descript",
+      "description": "以「像编辑文档一样编辑音视频」为特色的剪辑工具，支持转写、删词同步画面与 Overdub 等高级功能，适合播客与课程制作者。学习曲线存在，大项目需注意工程管理与导出格式。",
+      "url": "https://www.descript.com",
+      "category": "视频 / 动效",
+      "tags": ["播客", "剪辑", "转写"],
+      "featured": false
+    },
+    {
+      "slug": "scribbr",
+      "name": "Scribbr",
+      "description": "面向学生的学术写作与引用格式辅助（APA、MLA 等），提供查重、语法与结构建议，适合论文初稿润色。最终学术诚信责任仍在作者，引用务必人工核对。",
+      "url": "https://www.scribbr.com",
+      "category": "翻译 / 语言",
+      "tags": ["学术", "论文", "引用"],
+      "featured": false
+    },
+    {
+      "slug": "semantic-scholar",
+      "name": "Semantic Scholar",
+      "description": "由 Allen Institute for AI 维护的免费学术搜索引擎，提供论文影响力提示与语义检索，适合做文献调研的第一站。可与 Elicit、Consensus 等工具配合使用。",
+      "url": "https://www.semanticscholar.org",
+      "category": "搜索 / 研究",
+      "tags": ["论文", "检索", "免费"],
+      "featured": false
+    },
+    {
+      "slug": "arxiv",
+      "name": "arXiv",
+      "description": "预印本论文开放平台，覆盖物理、数学、计算机等领域，是跟踪模型与算法论文的第一手来源。文章未经正式同行评审，引用时需结合后续期刊版本与社区反馈。",
+      "url": "https://arxiv.org",
+      "category": "搜索 / 研究",
+      "tags": ["论文", "预印本", "CS"],
+      "featured": true
+    },
+    {
+      "slug": "kaggle",
+      "name": "Kaggle",
+      "description": "数据科学与机器学习竞赛平台，提供数据集、Notebook 与课程，适合练手特征工程与模型调参。竞赛技巧与真实业务部署仍有差距，但非常适合学习。",
+      "url": "https://www.kaggle.com",
+      "category": "学习 / 数据",
+      "tags": ["机器学习", "数据集", "竞赛"],
+      "featured": false
+    },
+    {
+      "slug": "wandb",
+      "name": "Weights & Biases",
+      "description": "实验跟踪与模型可视化平台，记录训练曲线、超参与 artifact，适合深度学习团队复现实验与协作。个人项目可从小规模免费额度开始。",
+      "url": "https://wandb.ai",
+      "category": "学习 / 数据",
+      "tags": ["实验跟踪", "MLOps", "深度学习"],
+      "featured": false
+    },
+    {
+      "slug": "mistral-ai",
+      "name": "Mistral AI",
+      "description": "欧洲团队推出的开源与商用并重的模型厂商，提供对话产品与 API，强调多语言与可部署性。适合希望「非单一美国供应商」的企业做备选与混合路由；模型命名与能力迭代较快，接入前请对照当前文档。",
+      "url": "https://mistral.ai",
+      "category": "对话 / 通用",
+      "tags": ["API", "多语言", "欧洲"],
+      "featured": false
+    },
+    {
+      "slug": "groq",
+      "name": "Groq",
+      "description": "以自研 LPU 推理芯片与极低延迟著称的推理平台，提供多款开源模型的极速对话体验，适合对响应速度敏感的原型与演示。高峰期排队与可用模型列表会变化，生产环境需评估稳定性与条款。",
+      "url": "https://groq.com",
+      "category": "开源 / 开发者",
+      "tags": ["推理", "低延迟", "API"],
+      "featured": true
+    },
+    {
+      "slug": "xai-grok",
+      "name": "Grok",
+      "description": "xAI 推出的对话产品，与 X（Twitter）生态有联动，风格偏直率与时事讨论，适合作为信息获取与观点碰撞的补充渠道。事实核查与严肃决策请勿单独依赖单一聊天窗口。",
+      "url": "https://grok.com",
+      "category": "对话 / 通用",
+      "tags": ["对话", "X平台"],
+      "featured": false
+    },
+    {
+      "slug": "replicate",
+      "name": "Replicate",
+      "description": "按调用计费的模型托管与 API 平台，聚合大量开源图像、语音与语言模型，适合快速试验而无需自管 GPU。成本随调用量上升，建议加缓存与批处理控制账单。",
+      "url": "https://replicate.com",
+      "category": "开源 / 开发者",
+      "tags": ["API", "图像", "按量计费"],
+      "featured": false
+    },
+    {
+      "slug": "fal",
+      "name": "fal",
+      "description": "面向创作者的生成式 API 与工作流，强调低延迟图像/视频推理与队列管理，适合把开源模型封装进产品。开发者需阅读各模型的许可与商用边界。",
+      "url": "https://fal.ai",
+      "category": "开源 / 开发者",
+      "tags": ["API", "图像", "视频"],
+      "featured": false
+    },
+    {
+      "slug": "together-ai",
+      "name": "Together AI",
+      "description": "专注开源模型推理与微调的云平台，提供高吞吐 API 与专用算力，适合需要 Llama、Mixtral 等模型私有化实验的团队。定价与区域节点以官网为准。",
+      "url": "https://www.together.ai",
+      "category": "开源 / 开发者",
+      "tags": ["开源模型", "API", "微调"],
+      "featured": false
+    },
+    {
+      "slug": "fireworks-ai",
+      "name": "Fireworks AI",
+      "description": "面向企业的快速推理与部署平台，强调低延迟与 OpenAI 兼容接口，适合在已有应用内无缝切换模型后端。适合已有工程团队评估与压测。",
+      "url": "https://fireworks.ai",
+      "category": "开源 / 开发者",
+      "tags": ["推理", "企业", "API"],
+      "featured": false
+    },
+    {
+      "slug": "openrouter",
+      "name": "OpenRouter",
+      "description": "统一调用多家模型厂商的聚合网关，一个接口可切换不同模型与定价，适合原型与 A/B 测试。需注意数据路由策略与供应商条款，敏感业务建议走直连与合同。",
+      "url": "https://openrouter.ai",
+      "category": "开源 / 开发者",
+      "tags": ["聚合", "API", "多模型"],
+      "featured": false
+    },
+    {
+      "slug": "siliconflow",
+      "name": "硅基流动 SiliconFlow",
+      "description": "国内团队提供的模型推理与微调平台，支持多种开源模型与中文场景优化，适合国内开发者降低实验门槛。合规与备案要求请按你所在行业自行确认。",
+      "url": "https://siliconflow.cn",
+      "category": "开源 / 开发者",
+      "tags": ["国产", "API", "推理"],
+      "featured": false
+    },
+    {
+      "slug": "modelscope",
+      "name": "魔搭 ModelScope",
+      "description": "阿里等机构支持的模型与数据集社区，提供中文语境下丰富的模型卡片、在线体验与教程，适合检索国产模型与复现论文。部分资源需登录与实名。",
+      "url": "https://modelscope.cn",
+      "category": "开源 / 开发者",
+      "tags": ["国产", "模型库", "社区"],
+      "featured": true
+    },
+    {
+      "slug": "dify",
+      "name": "Dify",
+      "description": "开源的 LLM 应用开发平台，可视化编排提示词、知识库与 Agent，可自托管，适合团队快速搭内部助手与客服机器人。复杂权限与审计需自行加固。",
+      "url": "https://dify.ai",
+      "category": "自动化 / 集成",
+      "tags": ["低代码", "RAG", "自托管"],
+      "featured": false
+    },
+    {
+      "slug": "flowise",
+      "name": "Flowise",
+      "description": "基于 LangChain 的可视化流程构建器，拖拽节点即可拼出链路与工具调用，适合开发者与非开发混合团队做 PoC。生产环境需关注错误处理与监控。",
+      "url": "https://flowiseai.com",
+      "category": "自动化 / 集成",
+      "tags": ["低代码", "LangChain", "自托管"],
+      "featured": false
+    },
+    {
+      "slug": "tabnine",
+      "name": "Tabnine",
+      "description": "老牌 AI 代码补全工具，支持本地与云端模型，强调隐私与团队私有代码学习（需合规配置）。适合不想把整仓代码交给单一云厂商的团队做备选。",
+      "url": "https://www.tabnine.com",
+      "category": "编程 / 开发",
+      "tags": ["代码补全", "隐私", "团队"],
+      "featured": false
+    },
+    {
+      "slug": "amazon-q",
+      "name": "Amazon Q",
+      "description": "亚马逊云科技体系内的生成式助手，覆盖 IDE 插件、控制台问答与企业知识库检索，适合已深度使用 AWS 的组织做运维与文档查询。权限与数据边界需按 IAM 精细配置。",
+      "url": "https://aws.amazon.com/q/",
+      "category": "编程 / 开发",
+      "tags": ["AWS", "企业", "云运维"],
+      "featured": false
+    },
+    {
+      "slug": "sourcegraph-cody",
+      "name": "Sourcegraph Cody",
+      "description": "基于代码索引的 AI 编程助手，强调跨仓库搜索与上下文理解，适合大型单体仓库与微服务集群的开发者。需配合 Sourcegraph 的代码托管与索引策略。",
+      "url": "https://sourcegraph.com/cody",
+      "category": "编程 / 开发",
+      "tags": ["代码库", "搜索", "企业"],
+      "featured": false
+    },
+    {
+      "slug": "continue-dev",
+      "name": "Continue",
+      "description": "开源的 IDE 扩展，可把多种模型接入 VS Code / JetBrains，支持本地模型与自定义上下文，适合想「自己掌控模型与密钥」的开发者。上手需一定配置耐心。",
+      "url": "https://www.continue.dev",
+      "category": "编程 / 开发",
+      "tags": ["开源", "插件", "本地模型"],
+      "featured": false
+    },
+    {
+      "slug": "aider",
+      "name": "Aider",
+      "description": "命令行里的 AI 结对编程工具，直接修改仓库内多文件并生成 commit 信息，适合习惯终端与 Git 工作流的用户。复杂重构仍需人工审 diff 与测试。",
+      "url": "https://aider.chat",
+      "category": "编程 / 开发",
+      "tags": ["CLI", "开源", "Git"],
+      "featured": false
+    },
+    {
+      "slug": "cline",
+      "name": "Cline",
+      "description": "（曾用名相关项目较多，请以官网为准）VS Code 生态中的 AI 编程扩展之一，强调在编辑器内执行终端命令与多步任务，适合尝试「代理式」开发的用户，注意审查自动执行命令的安全性。",
+      "url": "https://github.com/cline/cline",
+      "category": "编程 / 开发",
+      "tags": ["VS Code", "Agent", "自动化"],
+      "featured": false
+    },
+    {
+      "slug": "supermaven",
+      "name": "Supermaven",
+      "description": "主打超大上下文窗口的代码补全服务，适合在单文件极长或需要跨多文件连贯建议时使用。与 Cursor 等工具存在生态整合，订阅前可对比延迟与语言支持。",
+      "url": "https://supermaven.com",
+      "category": "编程 / 开发",
+      "tags": ["补全", "长上下文"],
+      "featured": false
+    },
+    {
+      "slug": "bolt-new",
+      "name": "Bolt.new",
+      "description": "StackBlitz 推出的浏览器内全栈生成与预览环境，适合从一句话需求快速出可运行原型。生成代码的结构与依赖需人工清理后再用于生产。",
+      "url": "https://bolt.new",
+      "category": "编程 / 开发",
+      "tags": ["原型", "全栈", "浏览器"],
+      "featured": true
+    },
+    {
+      "slug": "stackblitz",
+      "name": "StackBlitz",
+      "description": "浏览器内运行 Node/Web 项目的在线 IDE，与 GitHub、教程站点集成广泛，适合分享可运行示例与教学。重计算任务仍受浏览器与配额限制。",
+      "url": "https://stackblitz.com",
+      "category": "编程 / 开发",
+      "tags": ["在线IDE", "前端", "分享"],
+      "featured": false
+    },
+    {
+      "slug": "codesandbox",
+      "name": "CodeSandbox",
+      "description": "云端开发环境托管平台，适合开源演示、面试题与小组协作编程。与本地 Docker 开发相比更轻，但复杂服务编排需评估。",
+      "url": "https://codesandbox.io",
+      "category": "编程 / 开发",
+      "tags": ["云端IDE", "协作"],
+      "featured": false
+    },
+    {
+      "slug": "framer",
+      "name": "Framer",
+      "description": "可视化建站与设计工具，内置 AI 生成布局与文案草稿，适合设计师与独立开发者快速上线营销页与作品集。复杂后端逻辑仍需外挂或自定义代码。",
+      "url": "https://www.framer.com",
+      "category": "设计 / 演示",
+      "tags": ["建站", "设计", "无代码"],
+      "featured": false
+    },
+    {
+      "slug": "webflow",
+      "name": "Webflow",
+      "description": "专业向的无代码建站与 CMS，适合内容与营销团队在不牺牲设计自由度的情况下维护站点。学习曲线陡于模板工具，但上限更高。",
+      "url": "https://webflow.com",
+      "category": "设计 / 演示",
+      "tags": ["建站", "CMS", "设计"],
+      "featured": false
+    },
+    {
+      "slug": "photoroom",
+      "name": "PhotoRoom",
+      "description": "面向电商与社交图的批量抠图与场景合成，移动端体验突出，适合小店主与自媒体快速做主图与广告素材。大批量处理可关注订阅档位。",
+      "url": "https://www.photoroom.com",
+      "category": "图像编辑",
+      "tags": ["抠图", "电商", "移动端"],
+      "featured": false
+    },
+    {
+      "slug": "clipdrop",
+      "name": "Clipdrop",
+      "description": "Stability AI 旗下图像工具套件，集成去背景、放大、重打光等多种小工具，适合作为内容流水线中的一环。与 Midjourney 等生成模型可组合使用。",
+      "url": "https://clipdrop.co",
+      "category": "图像编辑",
+      "tags": ["图像工具", "套件"],
+      "featured": false
+    },
+    {
+      "slug": "chatpdf",
+      "name": "ChatPDF",
+      "description": "上传 PDF 即可针对文档提问的轻量工具，适合快速抓条款、论文方法与手册要点。机密文件请勿上传至不可信第三方，重要合规场景建议本地部署类方案。",
+      "url": "https://www.chatpdf.com",
+      "category": "文档 / 知识库",
+      "tags": ["PDF", "问答", "学习"],
+      "featured": false
+    },
+    {
+      "slug": "humata",
+      "name": "Humata AI",
+      "description": "面向科研与商业文档的问答与摘要工具，支持长 PDF 与技术报告，适合投研与法务初读。回答仍可能产生幻觉，关键数字请回原文核对。",
+      "url": "https://www.humata.ai",
+      "category": "搜索 / 研究",
+      "tags": ["PDF", "科研", "摘要"],
+      "featured": false
+    },
+    {
+      "slug": "scispace",
+      "name": "SciSpace",
+      "description": "辅助读论文与生成综述型笔记的工具，提供解释、对比与引用线索，适合研究生梳理领域地图。不能替代导师与同行评审意见。",
+      "url": "https://typeset.io",
+      "category": "搜索 / 研究",
+      "tags": ["论文", "综述", "学习"],
+      "featured": false
+    },
+    {
+      "slug": "scholarcy",
+      "name": "Scholarcy",
+      "description": "把长文拆成结构化摘要卡片，突出方法、结果与局限，适合文献爆炸时的快速筛选。与 Zotero 等文献管理工具可配合使用。",
+      "url": "https://www.scholarcy.com",
+      "category": "搜索 / 研究",
+      "tags": ["论文", "摘要", "文献管理"],
+      "featured": false
+    },
+    {
+      "slug": "tldraw",
+      "name": "tldraw",
+      "description": "开源的无限画布与白板 SDK，可嵌入产品内做标注与协作，适合开发者自建「Figma 轻量替代」或教学白板。AI 能力多依赖插件与集成。",
+      "url": "https://www.tldraw.com",
+      "category": "协作 / 白板",
+      "tags": ["白板", "开源", "SDK"],
+      "featured": false
+    },
+    {
+      "slug": "logseq",
+      "name": "Logseq",
+      "description": "大纲与双链结合的本地优先笔记软件，适合构建个人知识图谱与项目日志。插件生态丰富，与 Obsidian 相比更偏大纲与任务流。",
+      "url": "https://logseq.com",
+      "category": "文档 / 知识库",
+      "tags": ["笔记", "双链", "本地"],
+      "featured": false
+    },
+    {
+      "slug": "clickup",
+      "name": "ClickUp",
+      "description": "一体化任务与文档协作平台，内置 AI 总结与写作辅助，适合希望减少工具数量的中小团队。功能多也意味着配置与治理成本。",
+      "url": "https://clickup.com",
+      "category": "协作 / 白板",
+      "tags": ["项目管理", "协作", "全能"],
+      "featured": false
+    },
+    {
+      "slug": "airtable",
+      "name": "Airtable",
+      "description": "表格与轻数据库结合的协作工具，适合内容日历、CRM 与运营台账；AI 功能可帮助生成字段与分类规则。大数据量与复杂关系时建议评估性能与导出策略。",
+      "url": "https://www.airtable.com",
+      "category": "协作 / 白板",
+      "tags": ["表格", "数据库", "运营"],
+      "featured": false
+    },
+    {
+      "slug": "lumen5",
+      "name": "Lumen5",
+      "description": "把博客与脚本转成短视频的模板化工具，适合内容团队做社交分发与新闻快报。画面风格偏营销模板，品牌向项目需统一视觉规范。",
+      "url": "https://lumen5.com",
+      "category": "视频 / 动效",
+      "tags": ["短视频", "营销", "模板"],
+      "featured": false
+    },
+    {
+      "slug": "invideo",
+      "name": "InVideo",
+      "description": "模板驱动的在线视频编辑器，内置 AI 文案与配音能力，适合广告片与教程视频的批量生产。精细剪辑与调色仍可能需专业 NLE。",
+      "url": "https://invideo.io",
+      "category": "视频 / 动效",
+      "tags": ["模板", "营销视频"],
+      "featured": false
+    },
+    {
+      "slug": "beautiful-ai",
+      "name": "Beautiful.ai",
+      "description": "强调自动排版与对齐的演示文稿工具，适合商务汇报与融资路演快速出「看起来专业」的页面。高度创意视觉仍需设计师介入。",
+      "url": "https://www.beautiful.ai",
+      "category": "写作 / 演示",
+      "tags": ["PPT", "演示", "商务"],
+      "featured": false
+    },
+    {
+      "slug": "tavily",
+      "name": "Tavily",
+      "description": "面向 AI Agent 与 RAG 的搜索 API，返回带摘要的网页结果，适合给自建助手接「可联网」能力。调用成本与速率限制需写进系统提示与重试策略。",
+      "url": "https://tavily.com",
+      "category": "开源 / 开发者",
+      "tags": ["搜索API", "RAG", "Agent"],
+      "featured": false
+    },
+    {
+      "slug": "exa",
+      "name": "Exa",
+      "description": "原 Metaphor，强调语义搜索与链接质量，适合研究助理与深度检索场景。与关键词搜索引擎互补，适合作为第二路召回。",
+      "url": "https://exa.ai",
+      "category": "搜索 / 研究",
+      "tags": ["语义搜索", "API", "研究"],
+      "featured": false
+    },
+    {
+      "slug": "you-com",
+      "name": "You.com",
+      "description": "结合传统搜索与大模型摘要的引擎，提供多种「模式」切换，适合希望在一个界面里对比网页结果与生成答案的用户。隐私与地域策略请查阅最新说明。",
+      "url": "https://you.com",
+      "category": "搜索 / 研究",
+      "tags": ["搜索", "摘要"],
+      "featured": false
+    },
+    {
+      "slug": "phind",
+      "name": "Phind",
+      "description": "面向开发者的问题搜索引擎，优先展示技术文档与代码片段，适合查报错与框架用法。与官方文档对照可避免过时答案。",
+      "url": "https://www.phind.com",
+      "category": "编程 / 开发",
+      "tags": ["开发者", "搜索", "文档"],
+      "featured": false
+    },
+    {
+      "slug": "jina-ai",
+      "name": "Jina AI",
+      "description": "提供嵌入、重排序与 Reader 等面向 RAG 的基础设施，开源组件丰富，适合自建搜索与问答流水线。企业部署需评估延迟与缓存策略。",
+      "url": "https://jina.ai",
+      "category": "开源 / 开发者",
+      "tags": ["RAG", "嵌入", "开源"],
+      "featured": false
+    },
+    {
+      "slug": "mem0",
+      "name": "Mem0",
+      "description": "为 AI 应用提供长期记忆层的开源框架，帮助 Agent 记住用户偏好与历史事实，适合个性化助手。记忆内容涉及隐私时需加密与可删除设计。",
+      "url": "https://mem0.ai",
+      "category": "开源 / 开发者",
+      "tags": ["Agent", "记忆", "开源"],
+      "featured": false
+    },
+    {
+      "slug": "comet-browser",
+      "name": "Comet",
+      "description": "Perplexity 推出的浏览器产品方向之一（名称与功能随版本迭代），强调在浏览过程中集成 AI 摘要与追问，适合重度网页阅读用户。具体能力以官方最新发布为准。",
+      "url": "https://www.perplexity.ai/comet",
+      "category": "搜索 / 研究",
+      "tags": ["浏览器", "AI摘要"],
+      "featured": false
+    },
+    {
+      "slug": "brave-leo",
+      "name": "Brave Leo",
+      "description": "集成在 Brave 浏览器中的助手，强调隐私与本地/远端混合推理选项，适合重视跟踪防护的用户做轻量问答与页面摘要。模型能力与收费策略随版本变化。",
+      "url": "https://brave.com/leo/",
+      "category": "对话 / 通用",
+      "tags": ["浏览器", "隐私"],
+      "featured": false
+    },
+    {
+      "slug": "raycast",
+      "name": "Raycast",
+      "description": "macOS 上的效率启动器，支持 AI 扩展与脚本，适合开发者与知识工作者用快捷键串联应用。Windows 用户需另寻替代方案。",
+      "url": "https://www.raycast.com",
+      "category": "自动化 / 集成",
+      "tags": ["效率", "macOS", "快捷键"],
+      "featured": false
+    },
+    {
+      "slug": "alfred",
+      "name": "Alfred",
+      "description": "经典 macOS 效率工具，通过工作流与剪贴板历史提升操作速度，可结合脚本与 AI 服务自定义。与 Raycast 功能重叠，择一深耕即可。",
+      "url": "https://www.alfredapp.com",
+      "category": "自动化 / 集成",
+      "tags": ["效率", "macOS", "工作流"],
+      "featured": false
+    },
+    {
+      "slug": "loom",
+      "name": "Loom",
+      "description": "异步视频消息工具，适合用短视频替代冗长会议与文档说明；内置字幕与简单剪辑。已被收购整合进更大协作生态，套餐以官网为准。",
+      "url": "https://www.loom.com",
+      "category": "协作 / 白板",
+      "tags": ["异步视频", "团队", "字幕"],
+      "featured": false
+    },
+    {
+      "slug": "riverside",
+      "name": "Riverside",
+      "description": "远程播客与访谈录制平台，强调分轨高清与本地备份，适合内容创作者做访谈节目。AI 功能多集中在剪辑与文字稿方向。",
+      "url": "https://riverside.fm",
+      "category": "语音 / 音乐",
+      "tags": ["播客", "录制", "访谈"],
+      "featured": false
+    },
+    {
+      "slug": "napkin-ai",
+      "name": "Napkin AI",
+      "description": "把要点文字自动排版成信息图与示意草图，适合培训材料与公众号长图。审美偏「手绘草图」风，正式品牌物料需再设计。",
+      "url": "https://www.napkin.ai",
+      "category": "设计 / 演示",
+      "tags": ["信息图", "演示", "可视化"],
+      "featured": false
+    },
+    {
+      "slug": "tome",
+      "name": "Tome",
+      "description": "叙事型演示与故事板工具，强调一页一镜头的沉浸感，适合创意提案与品牌故事。与 Gamma 相比更偏视觉叙事实验。",
+      "url": "https://tome.app",
+      "category": "写作 / 演示",
+      "tags": ["演示", "叙事", "创意"],
+      "featured": false
+    },
+    {
+      "slug": "spline",
+      "name": "Spline",
+      "description": "浏览器内 3D 设计与轻交互导出，适合产品展示页与简单 Web 3D，无需完整 Blender 工作流。复杂角色动画仍需专业 DCC。",
+      "url": "https://spline.design",
+      "category": "设计 / 演示",
+      "tags": ["3D", "Web", "设计"],
+      "featured": false
+    },
+    {
+      "slug": "meshy",
+      "name": "Meshy",
+      "description": "文本或图片生成 3D 模型与贴图的在线工具，适合独立游戏与概念验证快速出可导入引擎的资产。精细拓扑与动画仍需 DCC 手工修整。",
+      "url": "https://www.meshy.ai",
+      "category": "设计 / 演示",
+      "tags": ["3D", "生成", "游戏"],
       "featured": false
     }
   ]
