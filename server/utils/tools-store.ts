@@ -1,14 +1,12 @@
-import { readFile } from 'node:fs/promises'
 import type { Tool } from '~~/shared/types/site'
-import { getToolsJsonPath } from './paths'
+import { readSiteDataJson } from './site-assets'
 
 interface ToolsFile {
   tools: Tool[]
 }
 
 export async function readTools(): Promise<Tool[]> {
-  const raw = await readFile(getToolsJsonPath(), 'utf-8')
-  const parsed = JSON.parse(raw) as ToolsFile
+  const parsed = await readSiteDataJson<ToolsFile>('tools.json')
   return Array.isArray(parsed.tools) ? parsed.tools : []
 }
 

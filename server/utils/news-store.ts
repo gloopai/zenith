@@ -1,9 +1,7 @@
-import { readdir, readFile } from 'node:fs/promises'
-import { join } from 'node:path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
 import type { NewsArticle, NewsListItem } from '~~/shared/types/site'
-import { getNewsDir } from './paths'
+import { listSiteNewsMdFiles, readSiteNewsFile } from './site-assets'
 
 function parseFrontmatterSlug(data: Record<string, unknown>, fallback: string): string {
   const s = data.slug
@@ -12,19 +10,17 @@ function parseFrontmatterSlug(data: Record<string, unknown>, fallback: string): 
 }
 
 export async function listNewsMeta(): Promise<NewsListItem[]> {
-  const dir = getNewsDir()
-  let files: string[] = []
+  let mdFiles: string[] = []
   try {
-    files = await readdir(dir)
+    mdFiles = await listSiteNewsMdFiles()
   } catch {
     return []
   }
 
-  const mdFiles = files.filter((f) => f.endsWith('.md'))
   const items: NewsListItem[] = []
 
   for (const file of mdFiles) {
-    const raw = await readFile(join(dir, file), 'utf-8')
+    const raw = await readSiteNewsFile(file)
     const { data } = matter(raw)
     const d = data as Record<string, unknown>
     const slug = parseFrontmatterSlug(d, file.replace(/\.md$/i, ''))
@@ -39,12 +35,10 @@ export async function listNewsMeta(): Promise<NewsListItem[]> {
 }
 
 export async function getNewsBySlug(slug: string): Promise<NewsArticle | null> {
-  const dir = getNewsDir()
-  const files = await readdir(dir).catch(() => [] as string[])
-  const mdFiles = files.filter((f) => f.endsWith('.md'))
+  const mdFiles = await listSiteNewsMdFiles().catch(() => [] as string[])
 
   for (const file of mdFiles) {
-    const raw = await readFile(join(dir, file), 'utf-8')
+    const raw = await readSiteNewsFile(file)
     const { data, content } = matter(raw)
     const d = data as Record<string, unknown>
     const fileSlug = parseFrontmatterSlug(d, file.replace(/\.md$/i, ''))

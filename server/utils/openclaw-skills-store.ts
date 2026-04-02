@@ -1,14 +1,12 @@
-import { readFile } from 'node:fs/promises'
 import type { OpenClawSkill } from '~~/shared/types/site'
-import { getOpenclawSkillsJsonPath } from './paths'
+import { readSiteDataJson } from './site-assets'
 
 interface SkillsFile {
   skills: OpenClawSkill[]
 }
 
 export async function readOpenclawSkills(): Promise<OpenClawSkill[]> {
-  const raw = await readFile(getOpenclawSkillsJsonPath(), 'utf-8')
-  const parsed = JSON.parse(raw) as SkillsFile
+  const parsed = await readSiteDataJson<SkillsFile>('openclaw-skills.json')
   return Array.isArray(parsed.skills) ? parsed.skills : []
 }
 

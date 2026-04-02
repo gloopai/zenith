@@ -1,4 +1,8 @@
+import { dirname, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import tailwindcss from '@tailwindcss/vite'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
@@ -54,5 +58,11 @@ export default defineNuxtConfig({
   },
   vite: {
     plugins: [tailwindcss()],
+  },
+  nitro: {
+    serverAssets: [
+      { baseName: 'site-data', dir: resolve(__dirname, 'data') },
+      { baseName: 'site-news', dir: resolve(__dirname, 'content/news') },
+    ],
   },
 })
