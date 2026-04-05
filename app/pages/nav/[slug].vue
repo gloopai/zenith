@@ -44,6 +44,7 @@
 
 <script setup lang="ts">
 import type { Tool } from '~~/shared/types/site'
+import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
@@ -54,7 +55,7 @@ const { data, error } = await useAsyncData(
   () => `tool-${slug.value}-${locale.value}`,
   () =>
     $fetch<{ tool: Tool }>(`/api/tools/${encodeURIComponent(slug.value)}`, {
-      query: { locale: locale.value },
+      query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
     }),
   { watch: [locale, slug] },
 )

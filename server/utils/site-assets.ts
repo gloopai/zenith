@@ -35,10 +35,22 @@ function bytesToUtf8(value: unknown): string {
   throw new Error('Unexpected asset type')
 }
 
+/**
+ * Nitro production bundles news keys like `site-news:locales:en:article.md`; dev FS driver uses
+ * `locales/en/article.md`. Normalize to slash paths so listing and regexes match getItem resolution
+ * (unstorage fs driver replaces `:` with `/`).
+ */
+export function normalizeSiteNewsStorageKey(key: string): string {
+  let k = key.replace(/\\/g, '/')
+  if (k.startsWith('site-news:')) k = k.slice('site-news:'.length)
+  else if (k.startsWith('site-news/')) k = k.slice('site-news/'.length)
+  return k.replace(/:/g, '/')
+}
+
 export async function listSiteNewsMdFiles(): Promise<string[]> {
   const storage = useStorage('assets:site-news')
   const keys = await storage.getKeys()
-  return keys.filter((k) => k.endsWith('.md'))
+  return keys.filter((k) => k.endsWith('.md')).map(normalizeSiteNewsStorageKey)
 }
 
 export async function readSiteNewsFile(fileName: string): Promise<string> {

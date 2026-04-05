@@ -106,6 +106,7 @@
 
 <script setup lang="ts">
 import type { OpenClawSkill } from '~~/shared/types/site'
+import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
@@ -122,7 +123,10 @@ useSeoMeta(
 
 const { data } = await useAsyncData(
   () => `openclaw-skills-${locale.value}`,
-  () => $fetch<{ skills: OpenClawSkill[] }>('/api/openclaw', { query: { locale: locale.value } }),
+  () =>
+    $fetch<{ skills: OpenClawSkill[] }>('/api/openclaw', {
+      query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
+    }),
   { watch: [locale] },
 )
 

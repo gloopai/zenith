@@ -70,6 +70,7 @@
 
 <script setup lang="ts">
 import type { OpenClawSkill } from '~~/shared/types/site'
+import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
@@ -80,7 +81,7 @@ const { data, error } = await useAsyncData(
   () => `openclaw-skill-${slug.value}-${locale.value}`,
   () =>
     $fetch<{ skill: OpenClawSkill }>(`/api/openclaw/${encodeURIComponent(slug.value)}`, {
-      query: { locale: locale.value },
+      query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
     }),
   { watch: [locale, slug] },
 )

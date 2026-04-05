@@ -1,7 +1,7 @@
 import { readOpenclawSkillsLocalized } from '../utils/openclaw-skills-store'
 import { readToolsLocalized } from '../utils/tools-store'
 import { listNewsMeta } from '../utils/news-store'
-import { I18N_LOCALES, localePathPrefix } from '~~/shared/i18n-public'
+import { I18N_DEFAULT_LOCALE, I18N_LOCALES, localePathPrefix } from '~~/shared/i18n-public'
 
 const SITE_ORIGIN = 'https://plunget.com'
 

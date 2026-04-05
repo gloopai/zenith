@@ -31,6 +31,7 @@
 
 <script setup lang="ts">
 import type { NewsListItem } from '~~/shared/types/site'
+import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
@@ -47,7 +48,10 @@ useSeoMeta(
 
 const { data } = await useAsyncData(
   () => `news-list-${locale.value}`,
-  () => $fetch<{ items: NewsListItem[] }>('/api/news', { query: { locale: locale.value } }),
+  () =>
+    $fetch<{ items: NewsListItem[] }>('/api/news', {
+      query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
+    }),
   { watch: [locale] },
 )
 

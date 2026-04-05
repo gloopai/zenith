@@ -24,6 +24,7 @@
 
 <script setup lang="ts">
 import type { NewsArticle } from '~~/shared/types/site'
+import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
@@ -34,7 +35,7 @@ const { data, error } = await useAsyncData(
   () => `news-${slug.value}-${locale.value}`,
   () =>
     $fetch<{ article: NewsArticle }>(`/api/news/${encodeURIComponent(slug.value)}`, {
-      query: { locale: locale.value },
+      query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
     }),
   { watch: [locale, slug] },
 )

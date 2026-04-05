@@ -1,6 +1,6 @@
 /**
  * Writes content/news/locales/{en,zh-TW,ja,ko,ru,hi,es}/*.md from scripted translations.
- * Root content/news/*.md remains zh-CN canonical.
+ * Simplified Chinese lives in content/news/locales/zh-CN/*.md (edit or add source there).
  * Run: node scripts/build-news-locales.mjs
  */
 import fs from 'node:fs'

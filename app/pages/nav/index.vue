@@ -74,6 +74,7 @@
 
 <script setup lang="ts">
 import type { Tool } from '~~/shared/types/site'
+import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
@@ -90,7 +91,10 @@ useSeoMeta(
 
 const { data } = await useAsyncData(
   () => `nav-tools-${locale.value}`,
-  () => $fetch<{ tools: Tool[] }>('/api/tools', { query: { locale: locale.value } }),
+  () =>
+    $fetch<{ tools: Tool[] }>('/api/tools', {
+      query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
+    }),
   { watch: [locale] },
 )
 

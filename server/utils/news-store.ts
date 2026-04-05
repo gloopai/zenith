@@ -1,6 +1,7 @@
 import matter from 'gray-matter'
 import { marked } from 'marked'
 import type { NewsArticle, NewsListItem } from '~~/shared/types/site'
+import { I18N_LOCALES } from '~~/shared/i18n-public'
 import { listSiteNewsMdFiles, readSiteNewsFile, siteNewsAssetExists } from './site-assets'
 
 function parseFrontmatterSlug(data: Record<string, unknown>, fallback: string): string {
@@ -9,26 +10,59 @@ function parseFrontmatterSlug(data: Record<string, unknown>, fallback: string): 
   return fallback
 }
 
-function isBaseNewsFile(key: string): boolean {
-  return key.endsWith('.md') && !key.includes('/')
+/** Normalize storage keys (e.g. Windows) and return `article.md` basename if under locales/{any}/. */
+function basenameFromLocaleFileKey(key: string): string | null {
+  const norm = key.replace(/\\/g, '/')
+  const m = norm.match(/^locales\/[^/]+\/([^/]+\.md)$/)
+  return m ? m[1] : null
+}
+
+/** True for legacy root-level `article.md` (no slash). */
+function isLegacyRootNewsFile(key: string): boolean {
+  const norm = key.replace(/\\/g, '/')
+  return norm.endsWith('.md') && !norm.includes('/')
 }
 
 export async function listBaseNewsFileNames(): Promise<string[]> {
   const keys = await listSiteNewsMdFiles()
-  return keys.filter(isBaseNewsFile).sort()
+  const basenames = new Set<string>()
+  for (const k of keys) {
+    const fromLocale = basenameFromLocaleFileKey(k)
+    if (fromLocale) basenames.add(fromLocale)
+    else if (isLegacyRootNewsFile(k)) basenames.add(k.replace(/\\/g, '/'))
+  }
+  return [...basenames].sort()
 }
 
 async function resolveNewsAssetPath(baseFileName: string, locale: string): Promise<string | null> {
-  if (locale === 'zh-CN') {
-    return (await siteNewsAssetExists(baseFileName)) ? baseFileName : null
+  const inLocale = `locales/${locale}/${baseFileName}`
+  if (await siteNewsAssetExists(inLocale)) return inLocale
+
+  // Canonical UI locales: never fall back to another language (avoids mixed-language lists).
+  if (locale === 'en' || locale === 'zh-CN') return null
+
+  const enPath = `locales/en/${baseFileName}`
+  if (await siteNewsAssetExists(enPath)) return enPath
+
+  const zhPath = `locales/zh-CN/${baseFileName}`
+  if (await siteNewsAssetExists(zhPath)) return zhPath
+
+  if (await siteNewsAssetExists(baseFileName)) return baseFileName
+
+  return null
+}
+
+async function readCanonicalPeekRaw(baseFileName: string): Promise<string | null> {
+  const prioritized = [`locales/zh-CN/${baseFileName}`, `locales/en/${baseFileName}`, baseFileName]
+  for (const p of prioritized) {
+    if (await siteNewsAssetExists(p)) return readSiteNewsFile(p)
   }
-  const localized = `locales/${locale}/${baseFileName}`
-  if (await siteNewsAssetExists(localized)) return localized
-  if (locale !== 'en') {
-    const enOnly = `locales/en/${baseFileName}`
-    if (await siteNewsAssetExists(enOnly)) return enOnly
+  for (const code of I18N_LOCALES) {
+    if (code === 'zh-CN' || code === 'en') continue
+    const p = `locales/${code}/${baseFileName}`
+    if (await siteNewsAssetExists(p)) return readSiteNewsFile(p)
   }
-  return (await siteNewsAssetExists(baseFileName)) ? baseFileName : null
+  return null
 }
 
 export async function listNewsMeta(locale: string): Promise<NewsListItem[]> {
@@ -56,7 +90,8 @@ export async function getNewsBySlug(slug: string, locale: string): Promise<NewsA
   const baseNames = await listBaseNewsFileNames()
 
   for (const baseName of baseNames) {
-    const rawPeek = await readSiteNewsFile(baseName)
+    const rawPeek = await readCanonicalPeekRaw(baseName)
+    if (!rawPeek) continue
     const { data: peekData } = matter(rawPeek)
     const peekD = peekData as Record<string, unknown>
     const fileSlug = parseFrontmatterSlug(peekD, baseName.replace(/\.md$/i, ''))
