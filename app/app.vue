@@ -24,7 +24,7 @@
             class="relative h-10 w-10 shrink-0 overflow-hidden rounded-2xl transition-opacity group-hover:opacity-90"
           >
             <img
-              src="/logo.svg"
+              src="/icon.png"
               alt=""
               width="40"
               height="40"
