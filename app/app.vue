@@ -57,86 +57,23 @@
           </NuxtLink>
         </nav>
 
-        <div class="flex flex-col items-end gap-2 sm:flex-row sm:items-center sm:gap-3">
-          <div ref="langMenuRoot" class="relative shrink-0">
-            <button
-              id="lang-menu-button"
-              type="button"
-              class="inline-flex max-w-[7.25rem] items-center gap-1 rounded-lg border border-white/10 bg-zinc-950/50 px-2 py-2 text-left text-sm font-medium text-zinc-200 transition hover:border-white/15 hover:bg-white/[0.05] sm:max-w-[8rem]"
-              :title="currentLocaleLabel"
-              :aria-expanded="langMenuOpen"
-              aria-haspopup="true"
-              aria-controls="lang-menu-panel"
-              @click="langMenuOpen = !langMenuOpen"
-            >
-              <span class="min-w-0 flex-1">
-                <span class="sr-only">{{ t('layout.language') }}: </span>
-                <span class="block truncate">{{ currentLocaleLabel }}</span>
-              </span>
-              <svg
-                class="h-4 w-4 shrink-0 text-zinc-500 transition-transform"
-                :class="langMenuOpen ? 'rotate-180' : ''"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.94a.75.75 0 111.08 1.04l-4.24 4.5a.75.75 0 01-1.08 0l-4.24-4.5a.75.75 0 01.02-1.06z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </button>
+        <div class="flex shrink-0 items-center gap-2">
+          <NuxtLink
+            class="hidden rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-600 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-violet-950/30 transition hover:from-violet-400 hover:to-fuchsia-500 sm:inline-flex"
+            :to="localePath('/nav')"
+          >
+            {{ t('layout.exploreTools') }}
+          </NuxtLink>
 
-            <Transition
-              enter-active-class="transition duration-150 ease-out"
-              enter-from-class="opacity-0 scale-95"
-              enter-to-class="opacity-100 scale-100"
-              leave-active-class="transition duration-100 ease-in"
-              leave-from-class="opacity-100 scale-100"
-              leave-to-class="opacity-0 scale-95"
-            >
-              <div
-                v-if="langMenuOpen"
-                id="lang-menu-panel"
-                class="absolute right-0 z-[60] mt-2 w-[min(18rem,calc(100vw-2.5rem))] origin-top-right rounded-xl border border-white/[0.08] bg-[#0c0c12]/95 py-1.5 shadow-xl shadow-black/40 backdrop-blur-xl"
-                role="group"
-                :aria-label="t('layout.language')"
-              >
-                <NuxtLink
-                  v-for="loc in localeLinks"
-                  :key="loc.code"
-                  :to="switchLocalePath(loc.code)"
-                  :hreflang="hreflangFor(loc)"
-                  rel="alternate"
-                  class="block px-4 py-2.5 text-sm text-zinc-300 transition hover:bg-white/[0.06] hover:text-white [&[aria-current='page']]:bg-violet-500/10 [&[aria-current='page']]:text-violet-200"
-                  :aria-current="locale === loc.code ? 'page' : undefined"
-                  @click="langMenuOpen = false"
-                >
-                  {{ loc.name }}
-                </NuxtLink>
-              </div>
-            </Transition>
-          </div>
-
-          <div class="flex items-center gap-2">
-            <NuxtLink
-              class="hidden rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-600 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-violet-950/30 transition hover:from-violet-400 hover:to-fuchsia-500 sm:inline-flex"
-              :to="localePath('/nav')"
-            >
-              {{ t('layout.exploreTools') }}
-            </NuxtLink>
-
-            <button
-              type="button"
-              class="inline-flex items-center justify-center rounded-xl border border-white/[0.08] bg-white/[0.04] px-3.5 py-2 text-sm font-medium text-zinc-200 transition hover:bg-white/[0.08] md:hidden"
-              :aria-expanded="mobileOpen"
-              aria-controls="mobile-nav"
-              @click="mobileOpen = !mobileOpen"
-            >
-              {{ t('layout.menu') }}
-            </button>
-          </div>
+          <button
+            type="button"
+            class="inline-flex items-center justify-center rounded-xl border border-white/[0.08] bg-white/[0.04] px-3.5 py-2 text-sm font-medium text-zinc-200 transition hover:bg-white/[0.08] md:hidden"
+            :aria-expanded="mobileOpen"
+            aria-controls="mobile-nav"
+            @click="mobileOpen = !mobileOpen"
+          >
+            {{ t('layout.menu') }}
+          </button>
         </div>
       </div>
 
@@ -252,42 +189,6 @@ const navItems = computed(() => [
 ])
 
 const mobileOpen = ref(false)
-
-const langMenuOpen = ref(false)
-const langMenuRoot = ref<HTMLElement | null>(null)
-
-const currentLocaleLabel = computed(() => {
-  const code = locale.value
-  return localeLinks.value.find((l) => l.code === code)?.name ?? String(code)
-})
-
-function onDocPointerDown(e: PointerEvent) {
-  if (!langMenuOpen.value) return
-  const root = langMenuRoot.value
-  const t = e.target
-  if (root && t instanceof Node && !root.contains(t)) langMenuOpen.value = false
-}
-
-function onGlobalKeydown(e: KeyboardEvent) {
-  if (e.key === 'Escape') langMenuOpen.value = false
-}
-
-onMounted(() => {
-  document.addEventListener('pointerdown', onDocPointerDown, true)
-  document.addEventListener('keydown', onGlobalKeydown)
-})
-
-onUnmounted(() => {
-  document.removeEventListener('pointerdown', onDocPointerDown, true)
-  document.removeEventListener('keydown', onGlobalKeydown)
-})
-
-watch(
-  () => route.fullPath,
-  () => {
-    langMenuOpen.value = false
-  },
-)
 
 function isActiveNav(path: string) {
   const p = route.path
