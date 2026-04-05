@@ -1,0 +1,125 @@
+{
+  "layout": {
+    "tagline": "AI directory · News",
+    "home": "Home",
+    "nav": "Tools",
+    "openclaw": "OpenClaw",
+    "news": "News",
+    "exploreTools": "Explore tools",
+    "menu": "Menu",
+    "footerDescription": "Curated AI tools and industry news in one place.",
+    "sitemap": "Sitemap",
+    "language": "Language",
+    "localeNames": {
+      "en": "English",
+      "zh-CN": "Simplified Chinese",
+      "zh-TW": "Traditional Chinese",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "ru": "Russian",
+      "hi": "Hindi",
+      "es": "Spanish"
+    }
+  },
+  "home": {
+    "eyebrow": "Plunget",
+    "titleLine1": "Discover useful AI tools,",
+    "titleLine2": "and follow what’s changing",
+    "subtitle": "Browse popular products and links, plus timely news and perspectives. A clean layout that reads well on phones and desktops.",
+    "enterNav": "Browse tools",
+    "openclawSkills": "OpenClaw skills",
+    "readNews": "Read news",
+    "featuredTools": "Featured tools",
+    "featuredToolsHint": "Editor’s picks—open a card for details and the official site.",
+    "all": "View all",
+    "latestNews": "Latest news",
+    "latestNewsHint": "Updated by date—tap a title to read the full post.",
+    "openclawSectionTitle": "OpenClaw skills",
+    "openclawSectionHint": "AgentSkills-compatible packs: official skills plus custom examples, with GitHub and docs links.",
+    "allSkills": "All skills",
+    "official": "Official",
+    "example": "Sample"
+  },
+  "navPage": {
+    "eyebrow": "Catalog",
+    "title": "AI tool directory",
+    "subtitle": "Browse by category or search. Detail pages include a short description and a link to the official site.",
+    "all": "All",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Name, description, or tags",
+    "empty": "No results match your filters—try another category or keyword."
+  },
+  "toolPage": {
+    "breadcrumb": "Tools",
+    "visitSite": "Visit website",
+    "opensNewWindow": "Opens in a new tab",
+    "useCasesTitle": "When to use it",
+    "useCasesBody": "The summary should help you decide if this tool fits your needs. When many options look similar, consider how often you’ll use it, budget, and data privacy before choosing one.",
+    "ogSuffix": "AI tool"
+  },
+  "newsPage": {
+    "eyebrow": "Articles",
+    "title": "News",
+    "subtitle": "Industry updates, product releases, and short notes—sorted by time.",
+    "empty": "No articles yet."
+  },
+  "articlePage": {
+    "breadcrumb": "News"
+  },
+  "openclawPage": {
+    "eyebrow": "OpenClaw",
+    "title": "Skills catalog",
+    "introBeforeSkillsLink": "OpenClaw uses skill packs compatible with ",
+    "introAfterSkillsLinkBeforeCode": ", packaged as ",
+    "introAfterCode": " to teach agents how to call CLIs, APIs, and toolchains. Below are entries bundled from the official repo ",
+    "introAfterSkillsDirLink": ", plus common ",
+    "introStrong": "custom naming examples",
+    "introAfterStrong": " you’ll see in docs and tutorials (marked as samples). Explore more on ",
+    "introAfterClawhub": " and ",
+    "introEnd": ".",
+    "docsLink": "Official documentation",
+    "filterAll": "All",
+    "filterOfficial": "Built-in",
+    "filterExample": "Custom examples",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Name, description, or tags",
+    "count": "{count} items",
+    "filterApplied": "Filter active",
+    "empty": "No results match your filters."
+  },
+  "openclawSkillPage": {
+    "breadcrumb": "OpenClaw skills",
+    "badgeOfficial": "Built into the official repo",
+    "badgeExample": "Custom naming example",
+    "featured": "Featured",
+    "viewGithub": "View on GitHub",
+    "createGuide": "Create a skill guide",
+    "opensNewWindow": "Opens in a new tab",
+    "notesTitle": "Notes",
+    "noteOfficial1": "The skill pack lives under ",
+    "noteOfficial2": " in the OpenClaw repo. Whether it appears in your agent session depends on environment variables, binary gating, and your ",
+    "noteOfficial3": " configuration.",
+    "noteExampleBefore": "This entry is a ",
+    "noteExampleStrong": "naming and capability-splitting example",
+    "noteExampleAfter": " common in tutorials and community posts—not a default folder in the repo. To implement it yourself, write ",
+    "noteExampleAfterCode": " following the AgentSkills spec.",
+    "ogSuffix": "OpenClaw Skill"
+  },
+  "errors": {
+    "toolNotFound": "Tool not found",
+    "articleNotFound": "Article not found",
+    "skillNotFound": "Skill not found"
+  },
+  "seo": {
+    "siteDescription": "AI tools directory and news: discover products and read industry updates.",
+    "homeTitle": "Home",
+    "homeDescription": "Plunget: AI tools and news. Explore products and updates on desktop or mobile.",
+    "navTitle": "AI directory",
+    "navDescription": "Browse AI tools: filter by category, search, and open detail pages with outbound links.",
+    "newsTitle": "News",
+    "newsDescription": "AI news and perspectives: article pages with summaries and full text.",
+    "openclawTitle": "OpenClaw skills",
+    "openclawDescription": "OpenClaw AgentSkills catalog: built-in repo skills plus naming examples with links.",
+    "ogHomeTitle": "Plunget"
+  }
+}

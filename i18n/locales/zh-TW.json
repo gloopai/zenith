@@ -1,0 +1,125 @@
+{
+  "layout": {
+    "tagline": "AI 導覽 · 資訊",
+    "home": "首頁",
+    "nav": "導覽",
+    "openclaw": "OpenClaw",
+    "news": "資訊",
+    "exploreTools": "探索工具",
+    "menu": "選單",
+    "footerDescription": "精選 AI 工具與產業資訊，一站瀏覽。",
+    "sitemap": "網站地圖",
+    "language": "語言",
+    "localeNames": {
+      "en": "英語",
+      "zh-CN": "簡體中文",
+      "zh-TW": "繁體中文",
+      "ja": "日文",
+      "ko": "韓文",
+      "ru": "俄文",
+      "hi": "印地語",
+      "es": "西班牙文"
+    }
+  },
+  "home": {
+    "eyebrow": "Plunget",
+    "titleLine1": "發現好用的 AI 工具，",
+    "titleLine2": "讀懂正在發生的變化",
+    "subtitle": "這裡匯集常用產品與站點連結，資訊整理產業動態與觀點。版面簡潔，手機與電腦都能舒適閱讀。",
+    "enterNav": "進入導覽",
+    "openclawSkills": "OpenClaw 技能",
+    "readNews": "閱讀資訊",
+    "featuredTools": "精選工具",
+    "featuredToolsHint": "編輯挑選，點擊查看介紹與官網。",
+    "all": "全部",
+    "latestNews": "最新資訊",
+    "latestNewsHint": "依日期更新，點標題閱讀全文。",
+    "openclawSectionTitle": "OpenClaw 技能",
+    "openclawSectionHint": "AgentSkills 相容技能包：官方倉庫內建與自訂範例，附 GitHub 與文件連結。",
+    "allSkills": "全部技能",
+    "official": "官方",
+    "example": "範例"
+  },
+  "navPage": {
+    "eyebrow": "目錄",
+    "title": "AI 導覽",
+    "subtitle": "依分類瀏覽，或使用搜尋快速定位。進入詳情頁可查看簡介與造訪官網。",
+    "all": "全部",
+    "searchLabel": "搜尋",
+    "searchPlaceholder": "名稱、描述或標籤",
+    "empty": "沒有符合篩選的結果，可嘗試調整分類或關鍵字。"
+  },
+  "toolPage": {
+    "breadcrumb": "導覽",
+    "visitSite": "造訪官網",
+    "opensNewWindow": "新視窗開啟",
+    "useCasesTitle": "使用情境",
+    "useCasesBody": "以上介紹幫助你判斷這款工具是否適合當前需求。同類工具較多時，建議先釐清使用頻率、預算與資料隱私要求，再選擇最順手的一款。",
+    "ogSuffix": "AI 工具"
+  },
+  "newsPage": {
+    "eyebrow": "文章",
+    "title": "資訊",
+    "subtitle": "產業動態、產品更新與觀點隨筆，依時間排序。",
+    "empty": "暫無文章。"
+  },
+  "articlePage": {
+    "breadcrumb": "資訊"
+  },
+  "openclawPage": {
+    "eyebrow": "OpenClaw",
+    "title": "技能目錄",
+    "introBeforeSkillsLink": "OpenClaw 使用與 ",
+    "introAfterSkillsLinkBeforeCode": " 相容的 ",
+    "introAfterCode": " 技能包，教代理如何呼叫 CLI、API 與工具鏈。下列為官方倉庫 ",
+    "introAfterSkillsDirLink": " 已打包條目，以及文件與教學中常見的",
+    "introStrong": "自訂命名範例",
+    "introAfterStrong": "（已標註為範例）。更多可瀏覽 ",
+    "introAfterClawhub": " 與 ",
+    "introEnd": "。",
+    "docsLink": "官方文件",
+    "filterAll": "全部",
+    "filterOfficial": "官方內建",
+    "filterExample": "自訂範例",
+    "searchLabel": "搜尋",
+    "searchPlaceholder": "名稱、描述或標籤",
+    "count": "共 {count} 條",
+    "filterApplied": "篩選已套用",
+    "empty": "沒有符合篩選的結果。"
+  },
+  "openclawSkillPage": {
+    "breadcrumb": "OpenClaw 技能",
+    "badgeOfficial": "官方倉庫內建",
+    "badgeExample": "自訂命名範例",
+    "featured": "精選",
+    "viewGithub": "在 GitHub 查看",
+    "createGuide": "建立技能指南",
+    "opensNewWindow": "新視窗開啟",
+    "notesTitle": "說明",
+    "noteOfficial1": "技能包位於 OpenClaw 倉庫的 ",
+    "noteOfficial2": " 目錄。是否出現在你的代理工作階段中，取決於環境變數、二進位控管與 ",
+    "noteOfficial3": " 設定。",
+    "noteExampleBefore": "本條為教學／社群中常見的",
+    "noteExampleStrong": "命名與能力拆分範例",
+    "noteExampleAfter": "，並非倉庫內預設資料夾；實作時需自行在 ",
+    "noteExampleAfterCode": " 撰寫並遵循 AgentSkills 規範。",
+    "ogSuffix": "OpenClaw Skill"
+  },
+  "errors": {
+    "toolNotFound": "找不到該工具",
+    "articleNotFound": "找不到該文章",
+    "skillNotFound": "找不到該技能"
+  },
+  "seo": {
+    "siteDescription": "AI 工具導覽與資訊匯整：發現好用的 AI 產品，閱讀產業更新。",
+    "homeTitle": "首頁",
+    "homeDescription": "Plunget：AI 工具導覽與資訊。探索產品、閱讀動態，桌機與行動裝置皆可使用。",
+    "navTitle": "AI 導覽",
+    "navDescription": "瀏覽 AI 相關工具與站點：依分類篩選、搜尋查找，並進入詳情了解產品與外連。",
+    "newsTitle": "資訊",
+    "newsDescription": "AI 相關資訊與觀點：獨立文章頁，含摘要與正文。",
+    "openclawTitle": "OpenClaw 技能",
+    "openclawDescription": "OpenClaw AgentSkills 技能目錄：官方倉庫內建技能與自訂命名範例，附說明與連結。",
+    "ogHomeTitle": "Plunget"
+  }
+}

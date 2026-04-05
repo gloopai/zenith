@@ -1,0 +1,458 @@
+{
+  "1password": {
+    "description": "1Password: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/1password/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "セキュリティ／パスワード"
+  },
+  "apple-notes": {
+    "description": "Apple Notes: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/apple-notes/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "Apple エコシステム"
+  },
+  "apple-reminders": {
+    "description": "Apple Reminders: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/apple-reminders/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "Apple エコシステム"
+  },
+  "bear-notes": {
+    "description": "Bear Notes: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/bear-notes/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "Apple エコシステム"
+  },
+  "blogwatcher": {
+    "description": "BlogWatcher: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/blogwatcher/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "情報／購読"
+  },
+  "blucli": {
+    "description": "blucli: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/blucli/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "スマートホーム"
+  },
+  "bluebubbles": {
+    "description": "BlueBubbles: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/bluebubbles/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "メッセージング"
+  },
+  "camsnap": {
+    "description": "CamSnap: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/camsnap/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "メディア／キャプチャ"
+  },
+  "canvas": {
+    "description": "Canvas: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/canvas/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "コラボレーション／キャンバス"
+  },
+  "clawflow": {
+    "description": "Clawflow: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/clawflow/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "自動化／ワークフロー"
+  },
+  "clawflow-inbox-triage": {
+    "description": "Clawflow Inbox Triage: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/clawflow-inbox-triage/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "自動化／ワークフロー"
+  },
+  "clawhub": {
+    "description": "ClawHub: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/clawhub/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "エコシステム／レジストリ"
+  },
+  "coding-agent": {
+    "description": "Coding Agent: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/coding-agent/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "開発／コード"
+  },
+  "discord": {
+    "description": "Discord: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/discord/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "メッセージング"
+  },
+  "eightctl": {
+    "description": "eightctl: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/eightctl/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "ツールチェーン／CLI"
+  },
+  "gemini": {
+    "description": "Gemini CLI: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/gemini/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "開発／コード"
+  },
+  "gh-issues": {
+    "description": "GitHub Issues: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/gh-issues/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "開発／コード"
+  },
+  "gifgrep": {
+    "description": "gifgrep: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/gifgrep/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "メディア／キャプチャ"
+  },
+  "github": {
+    "description": "GitHub: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/github/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "開発／コード"
+  },
+  "gog": {
+    "description": "gog: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/gog/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "ツールチェーン／CLI"
+  },
+  "goplaces": {
+    "description": "goplaces: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/goplaces/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "生活／場所"
+  },
+  "healthcheck": {
+    "description": "Healthcheck: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/healthcheck/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "運用／監視"
+  },
+  "himalaya": {
+    "description": "Himalaya: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/himalaya/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "メール"
+  },
+  "imsg": {
+    "description": "iMessage: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/imsg/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "メッセージング"
+  },
+  "mcporter": {
+    "description": "McPorter: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/mcporter/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "開発／連携"
+  },
+  "model-usage": {
+    "description": "Model Usage: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/model-usage/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "運用／監視"
+  },
+  "nano-pdf": {
+    "description": "nano-pdf: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/nano-pdf/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "ドキュメント／PDF"
+  },
+  "node-connect": {
+    "description": "node-connect: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/node-connect/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "開発／連携"
+  },
+  "notion": {
+    "description": "Notion: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/notion/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "ドキュメント／ナレッジベース"
+  },
+  "obsidian": {
+    "description": "Obsidian: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/obsidian/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "ドキュメント／ナレッジベース"
+  },
+  "openai-whisper": {
+    "description": "OpenAI Whisper（本地）: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/openai-whisper/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "音声／書き起こし"
+  },
+  "openai-whisper-api": {
+    "description": "OpenAI Whisper（API）: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/openai-whisper-api/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "音声／書き起こし"
+  },
+  "openhue": {
+    "description": "OpenHue: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/openhue/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "スマートホーム"
+  },
+  "oracle": {
+    "description": "Oracle: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/oracle/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "ツールチェーン／CLI"
+  },
+  "ordercli": {
+    "description": "ordercli: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/ordercli/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "生活／サービス"
+  },
+  "peekaboo": {
+    "description": "Peekaboo: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/peekaboo/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "システム／デスクトップ"
+  },
+  "sag": {
+    "description": "SAG: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/sag/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "システム／自動化"
+  },
+  "session-logs": {
+    "description": "Session Logs: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/session-logs/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "運用／監視"
+  },
+  "sherpa-onnx-tts": {
+    "description": "Sherpa ONNX TTS: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/sherpa-onnx-tts/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "音声／合成"
+  },
+  "skill-creator": {
+    "description": "Skill Creator: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/skill-creator/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "エコシステム／開発"
+  },
+  "slack": {
+    "description": "Slack: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/slack/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "メッセージング"
+  },
+  "songsee": {
+    "description": "Songsee: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/songsee/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "メディア／音楽"
+  },
+  "sonoscli": {
+    "description": "sonoscli: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/sonoscli/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "スマートホーム"
+  },
+  "spotify-player": {
+    "description": "Spotify Player: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/spotify-player/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "メディア／音楽"
+  },
+  "summarize": {
+    "description": "Summarize: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/summarize/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "ドキュメント／要約"
+  },
+  "things-mac": {
+    "description": "Things（macOS）: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/things-mac/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "Apple エコシステム"
+  },
+  "tmux": {
+    "description": "tmux: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/tmux/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "開発／ターミナル"
+  },
+  "trello": {
+    "description": "Trello: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/trello/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "コラボレーション／プロジェクト"
+  },
+  "video-frames": {
+    "description": "Video Frames: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/video-frames/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "メディア／動画"
+  },
+  "voice-call": {
+    "description": "Voice Call: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/voice-call/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "音声／通話"
+  },
+  "wacli": {
+    "description": "wacli: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/wacli/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "メッセージング"
+  },
+  "weather": {
+    "description": "Weather: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/weather/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "生活／天気"
+  },
+  "xurl": {
+    "description": "xurl: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/xurl/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "ソーシャル"
+  },
+  "bibtex-normalize": {
+    "description": "bibtex-normalize（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/bibtex-normalize/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 学术 / 文献"
+  },
+  "browser-bookmark-digest": {
+    "description": "browser-bookmark-digest（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/browser-bookmark-digest/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 信息 / 订阅"
+  },
+  "calendar-sync": {
+    "description": "calendar-sync（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/calendar-sync/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 日历 / 效率"
+  },
+  "citation-check": {
+    "description": "citation-check（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/citation-check/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 搜索 / 研究"
+  },
+  "codeowners-suggest": {
+    "description": "codeowners-suggest（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/codeowners-suggest/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 开发 / 代码"
+  },
+  "cron-newsletter": {
+    "description": "cron-newsletter（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/cron-newsletter/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 自动化"
+  },
+  "customer-ticket-draft": {
+    "description": "customer-ticket-draft（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/customer-ticket-draft/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 支持 / CRM"
+  },
+  "db-readonly-query": {
+    "description": "db-readonly-query（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/db-readonly-query/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 数据 / SQL"
+  },
+  "discord-announce": {
+    "description": "discord-announce（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/discord-announce/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 通讯 / 消息"
+  },
+  "docker-health": {
+    "description": "docker-health（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/docker-health/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 运维 / 监控"
+  },
+  "edge-config-sync": {
+    "description": "edge-config-sync（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/edge-config-sync/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 边缘 / 部署"
+  },
+  "edu-quiz-gen": {
+    "description": "edu-quiz-gen（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/edu-quiz-gen/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 教育 / 学习"
+  },
+  "email-triage": {
+    "description": "email-triage（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/email-triage/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 邮件 / 效率"
+  },
+  "eval-harness": {
+    "description": "eval-harness（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/eval-harness/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 开发 / 质量"
+  },
+  "figma-to-code": {
+    "description": "figma-to-code（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/figma-to-code/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 设计 / 前端"
+  },
+  "fitness-plan-log": {
+    "description": "fitness-plan-log（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/fitness-plan-log/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 健康 / 生活"
+  },
+  "game-mod-docs": {
+    "description": "game-mod-docs（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/game-mod-docs/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 游戏 / 文档"
+  },
+  "gdrive-export": {
+    "description": "gdrive-export（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/gdrive-export/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 云存储"
+  },
+  "github-pr-review": {
+    "description": "github-pr-review（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/github-pr-review/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 开发 / 代码"
+  },
+  "graphql-introspect-docs": {
+    "description": "graphql-introspect-docs（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/graphql-introspect-docs/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 开发 / API"
+  },
+  "hr-screening-helper": {
+    "description": "hr-screening-helper（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/hr-screening-helper/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 招聘 / 合规"
+  },
+  "i18n-copy-review": {
+    "description": "i18n-copy-review（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/i18n-copy-review/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 翻译 / 语言"
+  },
+  "image-alt-text": {
+    "description": "image-alt-text（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/image-alt-text/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 无障碍 / 媒体"
+  },
+  "invoice-parse": {
+    "description": "invoice-parse（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/invoice-parse/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 财务 / 文档"
+  },
+  "jira-bridge": {
+    "description": "jira-bridge（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/jira-bridge/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 协作 / 项目"
+  },
+  "k8s-logs-tail": {
+    "description": "k8s-logs-tail（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/k8s-logs-tail/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 运维 / 监控"
+  },
+  "kids-story-night": {
+    "description": "kids-story-night（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/kids-story-night/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 家庭 / 趣味"
+  },
+  "latex-build-fix": {
+    "description": "latex-build-fix（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/latex-build-fix/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 学术 / 排版"
+  },
+  "legal-clause-compare": {
+    "description": "legal-clause-compare（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/legal-clause-compare/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 法律 / 合规"
+  },
+  "license-audit": {
+    "description": "license-audit（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/license-audit/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 开发 / 合规"
+  },
+  "linear-roadmap-digest": {
+    "description": "linear-roadmap-digest（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/linear-roadmap-digest/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 协作 / 项目"
+  },
+  "med-terminology-check": {
+    "description": "med-terminology-check（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/med-terminology-check/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 医疗 / 合规"
+  },
+  "meetings-recap": {
+    "description": "meetings-recap（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/meetings-recap/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 会议 / 效率"
+  },
+  "my-weather-skill": {
+    "description": "my-weather-skill（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/my-weather-skill/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 入门模板"
+  },
+  "notion-publish": {
+    "description": "notion-publish（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/notion-publish/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 文档 / 知识库"
+  },
+  "oncall-summary": {
+    "description": "oncall-summary（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/oncall-summary/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 运维 / 值班"
+  },
+  "openai-image-gen": {
+    "description": "openai-image-gen（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/openai-image-gen/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 图像批处理"
+  },
+  "openapi-mock": {
+    "description": "openapi-mock（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/openapi-mock/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 开发 / API"
+  },
+  "pdf-table-extract": {
+    "description": "pdf-table-extract（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/pdf-table-extract/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 文档 / PDF"
+  },
+  "photo-organize": {
+    "description": "photo-organize（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/photo-organize/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 媒体 / 整理"
+  },
+  "pii-redact": {
+    "description": "pii-redact（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/pii-redact/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 安全 / 合规"
+  },
+  "podcast-chapter-markers": {
+    "description": "podcast-chapter-markers（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/podcast-chapter-markers/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 播客 / 媒体"
+  },
+  "prompt-library-sync": {
+    "description": "prompt-library-sync（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/prompt-library-sync/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 开发 / 提示词"
+  },
+  "queue-worker-skill": {
+    "description": "queue-worker-skill（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/queue-worker-skill/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 自动化 / 集成"
+  },
+  "recipe-from-fridge": {
+    "description": "recipe-from-fridge（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/recipe-from-fridge/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 生活 / 饮食"
+  },
+  "redteam-safety": {
+    "description": "redteam-safety（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/redteam-safety/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 安全 / 合规"
+  },
+  "release-notes-gen": {
+    "description": "release-notes-gen（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/release-notes-gen/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 开发 / 发布"
+  },
+  "research-brief": {
+    "description": "research-brief（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/research-brief/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 搜索 / 研究"
+  },
+  "rss-ingest": {
+    "description": "rss-ingest（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/rss-ingest/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 信息 / 订阅"
+  },
+  "s3-presign-upload": {
+    "description": "s3-presign-upload（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/s3-presign-upload/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 云存储"
+  },
+  "sentry-triage": {
+    "description": "sentry-triage（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/sentry-triage/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 运维 / 监控"
+  },
+  "slack-digest": {
+    "description": "slack-digest（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/slack-digest/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 通讯 / 消息"
+  },
+  "smart-home-scenes": {
+    "description": "smart-home-scenes（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/smart-home-scenes/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 智能家居"
+  },
+  "stripe-webhook-helper": {
+    "description": "stripe-webhook-helper（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/stripe-webhook-helper/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 支付 / 集成"
+  },
+  "subtitle-translate": {
+    "description": "subtitle-translate（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/subtitle-translate/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 翻译 / 媒体"
+  },
+  "telegram-notify": {
+    "description": "telegram-notify（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/telegram-notify/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 通讯 / 消息"
+  },
+  "terraform-plan-summary": {
+    "description": "terraform-plan-summary（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/terraform-plan-summary/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 运维 / IaC"
+  },
+  "travel-packing-list": {
+    "description": "travel-packing-list（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/travel-packing-list/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 出行 / 生活"
+  },
+  "voice-memo-transcribe": {
+    "description": "voice-memo-transcribe（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/voice-memo-transcribe/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 语音 / 转写"
+  },
+  "wasm-bundle-analyze": {
+    "description": "wasm-bundle-analyze（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/wasm-bundle-analyze/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 开发 / 性能"
+  },
+  "webhook-ingest": {
+    "description": "webhook-ingest（示例）: コミュニティ由来の命名例。既定の同梱フォルダにない場合があります—必要なら自前の SKILL.md を用意してください。 skills/webhook-ingest/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "カスタム例 · 自动化 / 集成"
+  }
+}

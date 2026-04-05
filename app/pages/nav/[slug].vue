@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col gap-10 lg:gap-12">
+  <div v-if="tool" class="flex flex-col gap-10 lg:gap-12">
     <nav class="flex items-center gap-2 text-sm text-zinc-500">
-      <NuxtLink class="transition hover:text-zinc-300" to="/nav">导航</NuxtLink>
+      <NuxtLink class="transition hover:text-zinc-300" :to="localePath('/nav')">{{ t('toolPage.breadcrumb') }}</NuxtLink>
       <span class="text-zinc-700" aria-hidden="true">/</span>
       <span class="text-zinc-300">{{ tool.name }}</span>
     </nav>
@@ -26,17 +26,17 @@
             rel="noopener noreferrer"
             target="_blank"
           >
-            访问官网
+            {{ t('toolPage.visitSite') }}
           </a>
-          <span class="text-center text-xs text-zinc-600 lg:text-right">新窗口打开</span>
+          <span class="text-center text-xs text-zinc-600 lg:text-right">{{ t('toolPage.opensNewWindow') }}</span>
         </div>
       </div>
     </header>
 
     <section class="border-l-2 border-violet-500/40 pl-6 sm:pl-8">
-      <h2 class="text-sm font-semibold uppercase tracking-widest text-zinc-500">使用场景</h2>
+      <h2 class="text-sm font-semibold uppercase tracking-widest text-zinc-500">{{ t('toolPage.useCasesTitle') }}</h2>
       <p class="mt-3 max-w-2xl text-base leading-relaxed text-zinc-400">
-        以上介绍帮助你判断这款工具是否适合当前需求。同类工具较多时，建议先明确自己的使用频率、预算与对数据隐私的要求，再选择最顺手的一款。
+        {{ t('toolPage.useCasesBody') }}
       </p>
     </section>
   </div>
@@ -45,51 +45,61 @@
 <script setup lang="ts">
 import type { Tool } from '~~/shared/types/site'
 
+const { t, locale } = useI18n()
+const localePath = useLocalePath()
 const route = useRoute()
-const slug = String(route.params.slug ?? '')
+const slug = computed(() => String(route.params.slug ?? ''))
 
 const { data, error } = await useAsyncData(
-  `tool-${slug}`,
-  () => $fetch<{ tool: Tool }>(`/api/tools/${encodeURIComponent(slug)}`),
+  () => `tool-${slug.value}-${locale.value}`,
+  () =>
+    $fetch<{ tool: Tool }>(`/api/tools/${encodeURIComponent(slug.value)}`, {
+      query: { locale: locale.value },
+    }),
+  { watch: [locale, slug] },
 )
 
 if (error.value || !data.value?.tool) {
-  throw createError({ statusCode: 404, statusMessage: '未找到该工具' })
+  throw createError({ statusCode: 404, statusMessage: t('errors.toolNotFound') })
 }
 
-const tool = data.value.tool
+const tool = computed(() => data.value!.tool)
 
 const siteOrigin = useSiteOrigin()
-const canonical = `${siteOrigin.value}/nav/${tool.slug}`
+const canonical = computed(() => `${siteOrigin.value}${localePath(`/nav/${tool.value.slug}`)}`)
 
-const jsonLd = {
+const jsonLd = computed(() => ({
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
-  name: tool.name,
-  description: tool.description,
+  name: tool.value.name,
+  description: tool.value.description,
   applicationCategory: 'WebApplication',
   operatingSystem: 'Web',
-  url: canonical,
+  url: canonical.value,
   offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-}
+}))
 
-useSeoMeta({
-  title: tool.name,
-  description: tool.description,
-  ogTitle: `${tool.name} · AI 工具`,
-  ogDescription: tool.description,
-  ogType: 'article',
-  ogUrl: canonical,
-  twitterTitle: `${tool.name} · AI 工具`,
-  twitterDescription: tool.description,
-})
+useSeoMeta(
+  computed(() => ({
+    title: tool.value.name,
+    description: tool.value.description,
+    ogTitle: `${tool.value.name} · ${t('toolPage.ogSuffix')}`,
+    ogDescription: tool.value.description,
+    ogType: 'article',
+    ogUrl: canonical.value,
+    twitterTitle: `${tool.value.name} · ${t('toolPage.ogSuffix')}`,
+    twitterDescription: tool.value.description,
+  })),
+)
 
-useHead({
-  script: [
-    {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify(jsonLd),
-    },
-  ],
-})
+useHead(
+  computed(() => ({
+    script: [
+      {
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify(jsonLd.value),
+      },
+    ],
+  })),
+)
 </script>

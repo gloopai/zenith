@@ -1,0 +1,458 @@
+{
+  "1password": {
+    "description": "1Password: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/1password/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Безопасность / Пароли"
+  },
+  "apple-notes": {
+    "description": "Apple Notes: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/apple-notes/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Экосистема Apple"
+  },
+  "apple-reminders": {
+    "description": "Apple Reminders: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/apple-reminders/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Экосистема Apple"
+  },
+  "bear-notes": {
+    "description": "Bear Notes: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/bear-notes/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Экосистема Apple"
+  },
+  "blogwatcher": {
+    "description": "BlogWatcher: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/blogwatcher/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Информация / Подписки"
+  },
+  "blucli": {
+    "description": "blucli: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/blucli/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Умный дом"
+  },
+  "bluebubbles": {
+    "description": "BlueBubbles: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/bluebubbles/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Сообщения"
+  },
+  "camsnap": {
+    "description": "CamSnap: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/camsnap/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Медиа / Захват"
+  },
+  "canvas": {
+    "description": "Canvas: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/canvas/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Совместная работа / Холст"
+  },
+  "clawflow": {
+    "description": "Clawflow: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/clawflow/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Автоматизация / Рабочие процессы"
+  },
+  "clawflow-inbox-triage": {
+    "description": "Clawflow Inbox Triage: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/clawflow-inbox-triage/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Автоматизация / Рабочие процессы"
+  },
+  "clawhub": {
+    "description": "ClawHub: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/clawhub/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Экосистема / Реестр"
+  },
+  "coding-agent": {
+    "description": "Coding Agent: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/coding-agent/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Разработка / Код"
+  },
+  "discord": {
+    "description": "Discord: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/discord/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Сообщения"
+  },
+  "eightctl": {
+    "description": "eightctl: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/eightctl/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Инструменты / CLI"
+  },
+  "gemini": {
+    "description": "Gemini CLI: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/gemini/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Разработка / Код"
+  },
+  "gh-issues": {
+    "description": "GitHub Issues: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/gh-issues/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Разработка / Код"
+  },
+  "gifgrep": {
+    "description": "gifgrep: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/gifgrep/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Медиа / Захват"
+  },
+  "github": {
+    "description": "GitHub: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/github/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Разработка / Код"
+  },
+  "gog": {
+    "description": "gog: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/gog/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Инструменты / CLI"
+  },
+  "goplaces": {
+    "description": "goplaces: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/goplaces/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Быт / Места"
+  },
+  "healthcheck": {
+    "description": "Healthcheck: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/healthcheck/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Эксплуатация / Мониторинг"
+  },
+  "himalaya": {
+    "description": "Himalaya: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/himalaya/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Почта"
+  },
+  "imsg": {
+    "description": "iMessage: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/imsg/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Сообщения"
+  },
+  "mcporter": {
+    "description": "McPorter: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/mcporter/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Разработка / Интеграции"
+  },
+  "model-usage": {
+    "description": "Model Usage: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/model-usage/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Эксплуатация / Мониторинг"
+  },
+  "nano-pdf": {
+    "description": "nano-pdf: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/nano-pdf/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Документы / PDF"
+  },
+  "node-connect": {
+    "description": "node-connect: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/node-connect/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Разработка / Интеграции"
+  },
+  "notion": {
+    "description": "Notion: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/notion/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Документы / База знаний"
+  },
+  "obsidian": {
+    "description": "Obsidian: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/obsidian/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Документы / База знаний"
+  },
+  "openai-whisper": {
+    "description": "OpenAI Whisper（本地）: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/openai-whisper/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Речь / Транскрипция"
+  },
+  "openai-whisper-api": {
+    "description": "OpenAI Whisper（API）: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/openai-whisper-api/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Речь / Транскрипция"
+  },
+  "openhue": {
+    "description": "OpenHue: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/openhue/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Умный дом"
+  },
+  "oracle": {
+    "description": "Oracle: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/oracle/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Инструменты / CLI"
+  },
+  "ordercli": {
+    "description": "ordercli: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/ordercli/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Быт / Сервисы"
+  },
+  "peekaboo": {
+    "description": "Peekaboo: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/peekaboo/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Система / Рабочий стол"
+  },
+  "sag": {
+    "description": "SAG: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/sag/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Система / Автоматизация"
+  },
+  "session-logs": {
+    "description": "Session Logs: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/session-logs/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Эксплуатация / Мониторинг"
+  },
+  "sherpa-onnx-tts": {
+    "description": "Sherpa ONNX TTS: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/sherpa-onnx-tts/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Речь / Синтез"
+  },
+  "skill-creator": {
+    "description": "Skill Creator: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/skill-creator/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Экосистема / Разработка"
+  },
+  "slack": {
+    "description": "Slack: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/slack/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Сообщения"
+  },
+  "songsee": {
+    "description": "Songsee: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/songsee/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Медиа / Музыка"
+  },
+  "sonoscli": {
+    "description": "sonoscli: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/sonoscli/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Умный дом"
+  },
+  "spotify-player": {
+    "description": "Spotify Player: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/spotify-player/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Медиа / Музыка"
+  },
+  "summarize": {
+    "description": "Summarize: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/summarize/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Документы / Резюме"
+  },
+  "things-mac": {
+    "description": "Things（macOS）: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/things-mac/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Экосистема Apple"
+  },
+  "tmux": {
+    "description": "tmux: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/tmux/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Разработка / Терминал"
+  },
+  "trello": {
+    "description": "Trello: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/trello/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Совместная работа / Проекты"
+  },
+  "video-frames": {
+    "description": "Video Frames: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/video-frames/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Медиа / Видео"
+  },
+  "voice-call": {
+    "description": "Voice Call: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/voice-call/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Голос / Звонки"
+  },
+  "wacli": {
+    "description": "wacli: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/wacli/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Сообщения"
+  },
+  "weather": {
+    "description": "Weather: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/weather/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Быт / Погода"
+  },
+  "xurl": {
+    "description": "xurl: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/xurl/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Соцсети"
+  },
+  "bibtex-normalize": {
+    "description": "bibtex-normalize（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/bibtex-normalize/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 学术 / 文献"
+  },
+  "browser-bookmark-digest": {
+    "description": "browser-bookmark-digest（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/browser-bookmark-digest/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 信息 / 订阅"
+  },
+  "calendar-sync": {
+    "description": "calendar-sync（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/calendar-sync/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 日历 / 效率"
+  },
+  "citation-check": {
+    "description": "citation-check（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/citation-check/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 搜索 / 研究"
+  },
+  "codeowners-suggest": {
+    "description": "codeowners-suggest（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/codeowners-suggest/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 开发 / 代码"
+  },
+  "cron-newsletter": {
+    "description": "cron-newsletter（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/cron-newsletter/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 自动化"
+  },
+  "customer-ticket-draft": {
+    "description": "customer-ticket-draft（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/customer-ticket-draft/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 支持 / CRM"
+  },
+  "db-readonly-query": {
+    "description": "db-readonly-query（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/db-readonly-query/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 数据 / SQL"
+  },
+  "discord-announce": {
+    "description": "discord-announce（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/discord-announce/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 通讯 / 消息"
+  },
+  "docker-health": {
+    "description": "docker-health（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/docker-health/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 运维 / 监控"
+  },
+  "edge-config-sync": {
+    "description": "edge-config-sync（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/edge-config-sync/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 边缘 / 部署"
+  },
+  "edu-quiz-gen": {
+    "description": "edu-quiz-gen（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/edu-quiz-gen/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 教育 / 学习"
+  },
+  "email-triage": {
+    "description": "email-triage（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/email-triage/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 邮件 / 效率"
+  },
+  "eval-harness": {
+    "description": "eval-harness（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/eval-harness/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 开发 / 质量"
+  },
+  "figma-to-code": {
+    "description": "figma-to-code（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/figma-to-code/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 设计 / 前端"
+  },
+  "fitness-plan-log": {
+    "description": "fitness-plan-log（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/fitness-plan-log/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 健康 / 生活"
+  },
+  "game-mod-docs": {
+    "description": "game-mod-docs（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/game-mod-docs/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 游戏 / 文档"
+  },
+  "gdrive-export": {
+    "description": "gdrive-export（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/gdrive-export/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 云存储"
+  },
+  "github-pr-review": {
+    "description": "github-pr-review（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/github-pr-review/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 开发 / 代码"
+  },
+  "graphql-introspect-docs": {
+    "description": "graphql-introspect-docs（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/graphql-introspect-docs/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 开发 / API"
+  },
+  "hr-screening-helper": {
+    "description": "hr-screening-helper（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/hr-screening-helper/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 招聘 / 合规"
+  },
+  "i18n-copy-review": {
+    "description": "i18n-copy-review（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/i18n-copy-review/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 翻译 / 语言"
+  },
+  "image-alt-text": {
+    "description": "image-alt-text（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/image-alt-text/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 无障碍 / 媒体"
+  },
+  "invoice-parse": {
+    "description": "invoice-parse（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/invoice-parse/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 财务 / 文档"
+  },
+  "jira-bridge": {
+    "description": "jira-bridge（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/jira-bridge/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 协作 / 项目"
+  },
+  "k8s-logs-tail": {
+    "description": "k8s-logs-tail（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/k8s-logs-tail/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 运维 / 监控"
+  },
+  "kids-story-night": {
+    "description": "kids-story-night（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/kids-story-night/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 家庭 / 趣味"
+  },
+  "latex-build-fix": {
+    "description": "latex-build-fix（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/latex-build-fix/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 学术 / 排版"
+  },
+  "legal-clause-compare": {
+    "description": "legal-clause-compare（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/legal-clause-compare/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 法律 / 合规"
+  },
+  "license-audit": {
+    "description": "license-audit（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/license-audit/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 开发 / 合规"
+  },
+  "linear-roadmap-digest": {
+    "description": "linear-roadmap-digest（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/linear-roadmap-digest/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 协作 / 项目"
+  },
+  "med-terminology-check": {
+    "description": "med-terminology-check（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/med-terminology-check/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 医疗 / 合规"
+  },
+  "meetings-recap": {
+    "description": "meetings-recap（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/meetings-recap/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 会议 / 效率"
+  },
+  "my-weather-skill": {
+    "description": "my-weather-skill（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/my-weather-skill/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 入门模板"
+  },
+  "notion-publish": {
+    "description": "notion-publish（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/notion-publish/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 文档 / 知识库"
+  },
+  "oncall-summary": {
+    "description": "oncall-summary（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/oncall-summary/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 运维 / 值班"
+  },
+  "openai-image-gen": {
+    "description": "openai-image-gen（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/openai-image-gen/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 图像批处理"
+  },
+  "openapi-mock": {
+    "description": "openapi-mock（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/openapi-mock/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 开发 / API"
+  },
+  "pdf-table-extract": {
+    "description": "pdf-table-extract（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/pdf-table-extract/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 文档 / PDF"
+  },
+  "photo-organize": {
+    "description": "photo-organize（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/photo-organize/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 媒体 / 整理"
+  },
+  "pii-redact": {
+    "description": "pii-redact（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/pii-redact/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 安全 / 合规"
+  },
+  "podcast-chapter-markers": {
+    "description": "podcast-chapter-markers（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/podcast-chapter-markers/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 播客 / 媒体"
+  },
+  "prompt-library-sync": {
+    "description": "prompt-library-sync（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/prompt-library-sync/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 开发 / 提示词"
+  },
+  "queue-worker-skill": {
+    "description": "queue-worker-skill（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/queue-worker-skill/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 自动化 / 集成"
+  },
+  "recipe-from-fridge": {
+    "description": "recipe-from-fridge（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/recipe-from-fridge/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 生活 / 饮食"
+  },
+  "redteam-safety": {
+    "description": "redteam-safety（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/redteam-safety/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 安全 / 合规"
+  },
+  "release-notes-gen": {
+    "description": "release-notes-gen（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/release-notes-gen/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 开发 / 发布"
+  },
+  "research-brief": {
+    "description": "research-brief（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/research-brief/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 搜索 / 研究"
+  },
+  "rss-ingest": {
+    "description": "rss-ingest（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/rss-ingest/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 信息 / 订阅"
+  },
+  "s3-presign-upload": {
+    "description": "s3-presign-upload（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/s3-presign-upload/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 云存储"
+  },
+  "sentry-triage": {
+    "description": "sentry-triage（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/sentry-triage/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 运维 / 监控"
+  },
+  "slack-digest": {
+    "description": "slack-digest（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/slack-digest/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 通讯 / 消息"
+  },
+  "smart-home-scenes": {
+    "description": "smart-home-scenes（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/smart-home-scenes/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 智能家居"
+  },
+  "stripe-webhook-helper": {
+    "description": "stripe-webhook-helper（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/stripe-webhook-helper/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 支付 / 集成"
+  },
+  "subtitle-translate": {
+    "description": "subtitle-translate（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/subtitle-translate/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 翻译 / 媒体"
+  },
+  "telegram-notify": {
+    "description": "telegram-notify（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/telegram-notify/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 通讯 / 消息"
+  },
+  "terraform-plan-summary": {
+    "description": "terraform-plan-summary（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/terraform-plan-summary/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 运维 / IaC"
+  },
+  "travel-packing-list": {
+    "description": "travel-packing-list（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/travel-packing-list/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 出行 / 生活"
+  },
+  "voice-memo-transcribe": {
+    "description": "voice-memo-transcribe（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/voice-memo-transcribe/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 语音 / 转写"
+  },
+  "wasm-bundle-analyze": {
+    "description": "wasm-bundle-analyze（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/wasm-bundle-analyze/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 开发 / 性能"
+  },
+  "webhook-ingest": {
+    "description": "webhook-ingest（示例）: Пример именования сообщества; в поставке по умолчанию может отсутствовать — при необходимости добавьте свой SKILL.md. Следуйте структуре AgentSkills в skills/webhook-ingest/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Пример · 自动化 / 集成"
+  }
+}

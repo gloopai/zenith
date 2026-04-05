@@ -4,9 +4,12 @@ import tailwindcss from '@tailwindcss/vite'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
+const siteUrl = (process.env.NUXT_PUBLIC_SITE_URL || 'https://plunget.com').replace(/\/$/, '')
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  modules: ['@nuxtjs/i18n'],
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
     public: {
@@ -14,36 +17,41 @@ export default defineNuxtConfig({
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || '',
     },
   },
+  i18n: {
+    restructureDir: 'i18n',
+    defaultLocale: 'en',
+    strategy: 'prefix_except_default',
+    baseUrl: siteUrl,
+    langDir: 'locales',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',
+      fallbackLocale: 'en',
+    },
+    locales: [
+      { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
+      { code: 'zh-CN', language: 'zh-CN', name: '简体中文', file: 'zh-CN.json' },
+      { code: 'zh-TW', language: 'zh-TW', name: '繁體中文', file: 'zh-TW.json' },
+      { code: 'ja', language: 'ja', name: '日本語', file: 'ja.json' },
+      { code: 'ko', language: 'ko', name: '한국어', file: 'ko.json' },
+      { code: 'ru', language: 'ru', name: 'Русский', file: 'ru.json' },
+      { code: 'hi', language: 'hi', name: 'हिन्दी', file: 'hi.json' },
+      { code: 'es', language: 'es-ES', name: 'Español', file: 'es.json' },
+    ],
+  },
   app: {
     head: {
-      htmlAttrs: {
-        lang: 'zh-CN',
-      },
       title: 'Plunget',
       titleTemplate: '%s · Plunget',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        {
-          name: 'description',
-          content: 'AI 工具导航与资讯聚合：发现好用的 AI 产品，阅读行业更新。',
-        },
         { name: 'theme-color', content: '#06060a' },
         { name: 'color-scheme', content: 'dark' },
         { property: 'og:site_name', content: 'Plunget' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:locale', content: 'zh_CN' },
-        { property: 'og:title', content: 'Plunget' },
-        {
-          property: 'og:description',
-          content: 'AI 工具导航与资讯聚合：发现好用的 AI 产品，阅读行业更新。',
-        },
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'Plunget' },
-        {
-          name: 'twitter:description',
-          content: 'AI 工具导航与资讯聚合：发现好用的 AI 产品，阅读行业更新。',
-        },
       ],
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },

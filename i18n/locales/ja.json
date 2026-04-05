@@ -1,0 +1,125 @@
+{
+  "layout": {
+    "tagline": "AI ナビ · ニュース",
+    "home": "ホーム",
+    "nav": "ツール",
+    "openclaw": "OpenClaw",
+    "news": "ニュース",
+    "exploreTools": "ツールを探す",
+    "menu": "メニュー",
+    "footerDescription": "厳選の AI ツールと業界ニュースをひとつの場所で。",
+    "sitemap": "サイトマップ",
+    "language": "言語",
+    "localeNames": {
+      "en": "英語",
+      "zh-CN": "簡体字中国語",
+      "zh-TW": "繁体字中国語",
+      "ja": "日本語",
+      "ko": "韓国語",
+      "ru": "ロシア語",
+      "hi": "ヒンディー語",
+      "es": "スペイン語"
+    }
+  },
+  "home": {
+    "eyebrow": "Plunget",
+    "titleLine1": "使える AI ツールを見つけ、",
+    "titleLine2": "変化を読み解く",
+    "subtitle": "主要な製品リンクとトピック整理、読みやすいレイアウトでスマホでも快適に。",
+    "enterNav": "ツール一覧へ",
+    "openclawSkills": "OpenClaw スキル",
+    "readNews": "ニュースを読む",
+    "featuredTools": "おすすめツール",
+    "featuredToolsHint": "編集部ピック—カードから詳細と公式サイトへ。",
+    "all": "すべて",
+    "latestNews": "最新ニュース",
+    "latestNewsHint": "日付順—タイトルをタップして全文へ。",
+    "openclawSectionTitle": "OpenClaw スキル",
+    "openclawSectionHint": "AgentSkills 互換パック：公式スキルとカスタム例、GitHub とドキュメントリンク付き。",
+    "allSkills": "すべてのスキル",
+    "official": "公式",
+    "example": "サンプル"
+  },
+  "navPage": {
+    "eyebrow": "カタログ",
+    "title": "AI ツール一覧",
+    "subtitle": "カテゴリで閲覧、検索も可能。詳細ページから概要と公式サイトへ。",
+    "all": "すべて",
+    "searchLabel": "検索",
+    "searchPlaceholder": "名前、説明、タグ",
+    "empty": "条件に一致する結果がありません。カテゴリやキーワードを変えてください。"
+  },
+  "toolPage": {
+    "breadcrumb": "ツール",
+    "visitSite": "公式サイトへ",
+    "opensNewWindow": "新しいタブで開きます",
+    "useCasesTitle": "活用シーン",
+    "useCasesBody": "概要がニーズに合うかの目安になります。類似ツールが多い場合は利用頻度、予算、データの取り扱いを踏まえて選んでください。",
+    "ogSuffix": "AI ツール"
+  },
+  "newsPage": {
+    "eyebrow": "記事",
+    "title": "ニュース",
+    "subtitle": "業界動向、製品アップデート、短いコラム—時系列で並びます。",
+    "empty": "記事はまだありません。"
+  },
+  "articlePage": {
+    "breadcrumb": "ニュース"
+  },
+  "openclawPage": {
+    "eyebrow": "OpenClaw",
+    "title": "スキル一覧",
+    "introBeforeSkillsLink": "OpenClaw は ",
+    "introAfterSkillsLinkBeforeCode": " と互換の ",
+    "introAfterCode": " スキルパックを使い、CLI・API・ツールチェーンの呼び出し方を教えます。以下は公式リポジトリの ",
+    "introAfterSkillsDirLink": " に同梱のエントリと、ドキュメントやチュートリアルでよく見る",
+    "introStrong": "カスタム命名の例",
+    "introAfterStrong": "（サンプルとして明示）です。さらに ",
+    "introAfterClawhub": " と ",
+    "introEnd": " もご覧ください。",
+    "docsLink": "公式ドキュメント",
+    "filterAll": "すべて",
+    "filterOfficial": "公式同梱",
+    "filterExample": "カスタム例",
+    "searchLabel": "検索",
+    "searchPlaceholder": "名前、説明、タグ",
+    "count": "{count} 件",
+    "filterApplied": "フィルター適用中",
+    "empty": "条件に一致する結果がありません。"
+  },
+  "openclawSkillPage": {
+    "breadcrumb": "OpenClaw スキル",
+    "badgeOfficial": "公式リポジトリ同梱",
+    "badgeExample": "カスタム命名の例",
+    "featured": "ピックアップ",
+    "viewGithub": "GitHub で見る",
+    "createGuide": "スキル作成ガイド",
+    "opensNewWindow": "新しいタブで開きます",
+    "notesTitle": "メモ",
+    "noteOfficial1": "スキルパックは OpenClaw リポジトリの ",
+    "noteOfficial2": " にあります。セッションに出るかは環境変数、バイナリの制約、",
+    "noteOfficial3": " の設定次第です。",
+    "noteExampleBefore": "これはチュートリアルやコミュニティでよくある",
+    "noteExampleStrong": "命名と機能分割の例",
+    "noteExampleAfter": " で、リポジトリ標準フォルダではありません。実装は ",
+    "noteExampleAfterCode": " を書き、AgentSkills 仕様に従ってください。",
+    "ogSuffix": "OpenClaw Skill"
+  },
+  "errors": {
+    "toolNotFound": "ツールが見つかりません",
+    "articleNotFound": "記事が見つかりません",
+    "skillNotFound": "スキルが見つかりません"
+  },
+  "seo": {
+    "siteDescription": "AI ツールのナビとニュース：製品を発見し業界の動きを読む。",
+    "homeTitle": "ホーム",
+    "homeDescription": "Plunget：AI ツールとニュース。PC とモバイルから探索できます。",
+    "navTitle": "AI ツール一覧",
+    "navDescription": "AI ツールを閲覧：カテゴリで絞り込み、検索、詳細ページから外部リンクへ。",
+    "newsTitle": "ニュース",
+    "newsDescription": "AI ニュースと視点：概要と本文がある記事ページ。",
+    "openclawTitle": "OpenClaw スキル",
+    "openclawDescription": "OpenClaw AgentSkills カタログ：公式スキルと命名例、リンク付き。",
+    "ogHomeTitle": "Plunget"
+  }
+}

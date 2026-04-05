@@ -1,26 +1,36 @@
-import { readOpenclawSkills } from '../utils/openclaw-skills-store'
-import { readTools } from '../utils/tools-store'
+import { readOpenclawSkillsLocalized } from '../utils/openclaw-skills-store'
+import { readToolsLocalized } from '../utils/tools-store'
 import { listNewsMeta } from '../utils/news-store'
+import { I18N_LOCALES, localePathPrefix } from '~~/shared/i18n-public'
 
 const SITE_ORIGIN = 'https://plunget.com'
 
 export default defineEventHandler(async (event) => {
   const base = SITE_ORIGIN
 
-  const tools = await readTools()
-  const news = await listNewsMeta()
-  const openclawSkills = await readOpenclawSkills()
+  const tools = await readToolsLocalized('zh-CN')
+  const news = await listNewsMeta('zh-CN')
+  const openclawSkills = await readOpenclawSkillsLocalized('zh-CN')
 
-  const urls: string[] = [`${base}/`, `${base}/nav`, `${base}/news`, `${base}/openclaw`]
+  const urls: string[] = []
 
-  for (const t of tools) {
-    urls.push(`${base}/nav/${encodeURIComponent(t.slug)}`)
+  for (const code of I18N_LOCALES) {
+    const p = localePathPrefix(code)
+    const home = code === I18N_DEFAULT_LOCALE ? `${base}/` : `${base}${p}`
+    urls.push(home, `${base}${p}/nav`, `${base}${p}/news`, `${base}${p}/openclaw`)
   }
-  for (const n of news) {
-    urls.push(`${base}/news/${encodeURIComponent(n.slug)}`)
-  }
-  for (const s of openclawSkills) {
-    urls.push(`${base}/openclaw/${encodeURIComponent(s.slug)}`)
+
+  for (const code of I18N_LOCALES) {
+    const p = localePathPrefix(code)
+    for (const t of tools) {
+      urls.push(`${base}${p}/nav/${encodeURIComponent(t.slug)}`)
+    }
+    for (const n of news) {
+      urls.push(`${base}${p}/news/${encodeURIComponent(n.slug)}`)
+    }
+    for (const s of openclawSkills) {
+      urls.push(`${base}${p}/openclaw/${encodeURIComponent(s.slug)}`)
+    }
   }
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>

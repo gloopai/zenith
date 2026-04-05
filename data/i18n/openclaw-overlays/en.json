@@ -1,0 +1,458 @@
+{
+  "1password": {
+    "description": "1Password: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/1password/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Security / Passwords"
+  },
+  "apple-notes": {
+    "description": "Apple Notes: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/apple-notes/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Apple ecosystem"
+  },
+  "apple-reminders": {
+    "description": "Apple Reminders: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/apple-reminders/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Apple ecosystem"
+  },
+  "bear-notes": {
+    "description": "Bear Notes: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/bear-notes/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Apple ecosystem"
+  },
+  "blogwatcher": {
+    "description": "BlogWatcher: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/blogwatcher/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Info / Subscriptions"
+  },
+  "blucli": {
+    "description": "blucli: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/blucli/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Smart home"
+  },
+  "bluebubbles": {
+    "description": "BlueBubbles: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/bluebubbles/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Messaging"
+  },
+  "camsnap": {
+    "description": "CamSnap: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/camsnap/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Media / Capture"
+  },
+  "canvas": {
+    "description": "Canvas: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/canvas/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Collaboration / Canvas"
+  },
+  "clawflow": {
+    "description": "Clawflow: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/clawflow/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Automation / Workflow"
+  },
+  "clawflow-inbox-triage": {
+    "description": "Clawflow Inbox Triage: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/clawflow-inbox-triage/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Automation / Workflow"
+  },
+  "clawhub": {
+    "description": "ClawHub: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/clawhub/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Ecosystem / Registry"
+  },
+  "coding-agent": {
+    "description": "Coding Agent: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/coding-agent/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Development / Code"
+  },
+  "discord": {
+    "description": "Discord: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/discord/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Messaging"
+  },
+  "eightctl": {
+    "description": "eightctl: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/eightctl/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Tooling / CLI"
+  },
+  "gemini": {
+    "description": "Gemini CLI: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/gemini/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Development / Code"
+  },
+  "gh-issues": {
+    "description": "GitHub Issues: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/gh-issues/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Development / Code"
+  },
+  "gifgrep": {
+    "description": "gifgrep: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/gifgrep/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Media / Capture"
+  },
+  "github": {
+    "description": "GitHub: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/github/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Development / Code"
+  },
+  "gog": {
+    "description": "gog: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/gog/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Tooling / CLI"
+  },
+  "goplaces": {
+    "description": "goplaces: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/goplaces/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Life / Places"
+  },
+  "healthcheck": {
+    "description": "Healthcheck: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/healthcheck/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Ops / Monitoring"
+  },
+  "himalaya": {
+    "description": "Himalaya: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/himalaya/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Email"
+  },
+  "imsg": {
+    "description": "iMessage: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/imsg/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Messaging"
+  },
+  "mcporter": {
+    "description": "McPorter: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/mcporter/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Development / Integrations"
+  },
+  "model-usage": {
+    "description": "Model Usage: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/model-usage/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Ops / Monitoring"
+  },
+  "nano-pdf": {
+    "description": "nano-pdf: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/nano-pdf/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Docs / PDF"
+  },
+  "node-connect": {
+    "description": "node-connect: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/node-connect/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Development / Integrations"
+  },
+  "notion": {
+    "description": "Notion: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/notion/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Docs / Knowledge base"
+  },
+  "obsidian": {
+    "description": "Obsidian: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/obsidian/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Docs / Knowledge base"
+  },
+  "openai-whisper": {
+    "description": "OpenAI Whisper（本地）: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/openai-whisper/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Speech / Transcription"
+  },
+  "openai-whisper-api": {
+    "description": "OpenAI Whisper（API）: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/openai-whisper-api/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Speech / Transcription"
+  },
+  "openhue": {
+    "description": "OpenHue: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/openhue/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Smart home"
+  },
+  "oracle": {
+    "description": "Oracle: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/oracle/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Tooling / CLI"
+  },
+  "ordercli": {
+    "description": "ordercli: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/ordercli/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Life / Services"
+  },
+  "peekaboo": {
+    "description": "Peekaboo: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/peekaboo/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "System / Desktop"
+  },
+  "sag": {
+    "description": "SAG: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/sag/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "System / Automation"
+  },
+  "session-logs": {
+    "description": "Session Logs: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/session-logs/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Ops / Monitoring"
+  },
+  "sherpa-onnx-tts": {
+    "description": "Sherpa ONNX TTS: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/sherpa-onnx-tts/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Speech / Synthesis"
+  },
+  "skill-creator": {
+    "description": "Skill Creator: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/skill-creator/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Ecosystem / Development"
+  },
+  "slack": {
+    "description": "Slack: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/slack/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Messaging"
+  },
+  "songsee": {
+    "description": "Songsee: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/songsee/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Media / Music"
+  },
+  "sonoscli": {
+    "description": "sonoscli: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/sonoscli/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Smart home"
+  },
+  "spotify-player": {
+    "description": "Spotify Player: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/spotify-player/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Media / Music"
+  },
+  "summarize": {
+    "description": "Summarize: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/summarize/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Docs / Summaries"
+  },
+  "things-mac": {
+    "description": "Things（macOS）: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/things-mac/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Apple ecosystem"
+  },
+  "tmux": {
+    "description": "tmux: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/tmux/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Development / Terminal"
+  },
+  "trello": {
+    "description": "Trello: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/trello/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Collaboration / Projects"
+  },
+  "video-frames": {
+    "description": "Video Frames: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/video-frames/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Media / Video"
+  },
+  "voice-call": {
+    "description": "Voice Call: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/voice-call/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Voice / Calls"
+  },
+  "wacli": {
+    "description": "wacli: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/wacli/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Messaging"
+  },
+  "weather": {
+    "description": "Weather: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/weather/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Life / Weather"
+  },
+  "xurl": {
+    "description": "xurl: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/xurl/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Social"
+  },
+  "bibtex-normalize": {
+    "description": "bibtex-normalize（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/bibtex-normalize/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 学术 / 文献"
+  },
+  "browser-bookmark-digest": {
+    "description": "browser-bookmark-digest（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/browser-bookmark-digest/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 信息 / 订阅"
+  },
+  "calendar-sync": {
+    "description": "calendar-sync（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/calendar-sync/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 日历 / 效率"
+  },
+  "citation-check": {
+    "description": "citation-check（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/citation-check/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 搜索 / 研究"
+  },
+  "codeowners-suggest": {
+    "description": "codeowners-suggest（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/codeowners-suggest/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 开发 / 代码"
+  },
+  "cron-newsletter": {
+    "description": "cron-newsletter（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/cron-newsletter/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 自动化"
+  },
+  "customer-ticket-draft": {
+    "description": "customer-ticket-draft（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/customer-ticket-draft/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 支持 / CRM"
+  },
+  "db-readonly-query": {
+    "description": "db-readonly-query（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/db-readonly-query/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 数据 / SQL"
+  },
+  "discord-announce": {
+    "description": "discord-announce（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/discord-announce/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 通讯 / 消息"
+  },
+  "docker-health": {
+    "description": "docker-health（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/docker-health/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 运维 / 监控"
+  },
+  "edge-config-sync": {
+    "description": "edge-config-sync（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/edge-config-sync/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 边缘 / 部署"
+  },
+  "edu-quiz-gen": {
+    "description": "edu-quiz-gen（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/edu-quiz-gen/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 教育 / 学习"
+  },
+  "email-triage": {
+    "description": "email-triage（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/email-triage/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 邮件 / 效率"
+  },
+  "eval-harness": {
+    "description": "eval-harness（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/eval-harness/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 开发 / 质量"
+  },
+  "figma-to-code": {
+    "description": "figma-to-code（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/figma-to-code/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 设计 / 前端"
+  },
+  "fitness-plan-log": {
+    "description": "fitness-plan-log（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/fitness-plan-log/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 健康 / 生活"
+  },
+  "game-mod-docs": {
+    "description": "game-mod-docs（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/game-mod-docs/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 游戏 / 文档"
+  },
+  "gdrive-export": {
+    "description": "gdrive-export（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/gdrive-export/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 云存储"
+  },
+  "github-pr-review": {
+    "description": "github-pr-review（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/github-pr-review/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 开发 / 代码"
+  },
+  "graphql-introspect-docs": {
+    "description": "graphql-introspect-docs（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/graphql-introspect-docs/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 开发 / API"
+  },
+  "hr-screening-helper": {
+    "description": "hr-screening-helper（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/hr-screening-helper/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 招聘 / 合规"
+  },
+  "i18n-copy-review": {
+    "description": "i18n-copy-review（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/i18n-copy-review/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 翻译 / 语言"
+  },
+  "image-alt-text": {
+    "description": "image-alt-text（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/image-alt-text/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 无障碍 / 媒体"
+  },
+  "invoice-parse": {
+    "description": "invoice-parse（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/invoice-parse/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 财务 / 文档"
+  },
+  "jira-bridge": {
+    "description": "jira-bridge（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/jira-bridge/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 协作 / 项目"
+  },
+  "k8s-logs-tail": {
+    "description": "k8s-logs-tail（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/k8s-logs-tail/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 运维 / 监控"
+  },
+  "kids-story-night": {
+    "description": "kids-story-night（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/kids-story-night/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 家庭 / 趣味"
+  },
+  "latex-build-fix": {
+    "description": "latex-build-fix（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/latex-build-fix/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 学术 / 排版"
+  },
+  "legal-clause-compare": {
+    "description": "legal-clause-compare（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/legal-clause-compare/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 法律 / 合规"
+  },
+  "license-audit": {
+    "description": "license-audit（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/license-audit/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 开发 / 合规"
+  },
+  "linear-roadmap-digest": {
+    "description": "linear-roadmap-digest（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/linear-roadmap-digest/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 协作 / 项目"
+  },
+  "med-terminology-check": {
+    "description": "med-terminology-check（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/med-terminology-check/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 医疗 / 合规"
+  },
+  "meetings-recap": {
+    "description": "meetings-recap（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/meetings-recap/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 会议 / 效率"
+  },
+  "my-weather-skill": {
+    "description": "my-weather-skill（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/my-weather-skill/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 入门模板"
+  },
+  "notion-publish": {
+    "description": "notion-publish（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/notion-publish/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 文档 / 知识库"
+  },
+  "oncall-summary": {
+    "description": "oncall-summary（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/oncall-summary/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 运维 / 值班"
+  },
+  "openai-image-gen": {
+    "description": "openai-image-gen（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/openai-image-gen/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 图像批处理"
+  },
+  "openapi-mock": {
+    "description": "openapi-mock（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/openapi-mock/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 开发 / API"
+  },
+  "pdf-table-extract": {
+    "description": "pdf-table-extract（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/pdf-table-extract/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 文档 / PDF"
+  },
+  "photo-organize": {
+    "description": "photo-organize（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/photo-organize/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 媒体 / 整理"
+  },
+  "pii-redact": {
+    "description": "pii-redact（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/pii-redact/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 安全 / 合规"
+  },
+  "podcast-chapter-markers": {
+    "description": "podcast-chapter-markers（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/podcast-chapter-markers/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 播客 / 媒体"
+  },
+  "prompt-library-sync": {
+    "description": "prompt-library-sync（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/prompt-library-sync/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 开发 / 提示词"
+  },
+  "queue-worker-skill": {
+    "description": "queue-worker-skill（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/queue-worker-skill/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 自动化 / 集成"
+  },
+  "recipe-from-fridge": {
+    "description": "recipe-from-fridge（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/recipe-from-fridge/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 生活 / 饮食"
+  },
+  "redteam-safety": {
+    "description": "redteam-safety（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/redteam-safety/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 安全 / 合规"
+  },
+  "release-notes-gen": {
+    "description": "release-notes-gen（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/release-notes-gen/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 开发 / 发布"
+  },
+  "research-brief": {
+    "description": "research-brief（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/research-brief/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 搜索 / 研究"
+  },
+  "rss-ingest": {
+    "description": "rss-ingest（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/rss-ingest/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 信息 / 订阅"
+  },
+  "s3-presign-upload": {
+    "description": "s3-presign-upload（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/s3-presign-upload/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 云存储"
+  },
+  "sentry-triage": {
+    "description": "sentry-triage（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/sentry-triage/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 运维 / 监控"
+  },
+  "slack-digest": {
+    "description": "slack-digest（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/slack-digest/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 通讯 / 消息"
+  },
+  "smart-home-scenes": {
+    "description": "smart-home-scenes（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/smart-home-scenes/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 智能家居"
+  },
+  "stripe-webhook-helper": {
+    "description": "stripe-webhook-helper（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/stripe-webhook-helper/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 支付 / 集成"
+  },
+  "subtitle-translate": {
+    "description": "subtitle-translate（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/subtitle-translate/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 翻译 / 媒体"
+  },
+  "telegram-notify": {
+    "description": "telegram-notify（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/telegram-notify/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 通讯 / 消息"
+  },
+  "terraform-plan-summary": {
+    "description": "terraform-plan-summary（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/terraform-plan-summary/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 运维 / IaC"
+  },
+  "travel-packing-list": {
+    "description": "travel-packing-list（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/travel-packing-list/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 出行 / 生活"
+  },
+  "voice-memo-transcribe": {
+    "description": "voice-memo-transcribe（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/voice-memo-transcribe/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 语音 / 转写"
+  },
+  "wasm-bundle-analyze": {
+    "description": "wasm-bundle-analyze（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/wasm-bundle-analyze/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 开发 / 性能"
+  },
+  "webhook-ingest": {
+    "description": "webhook-ingest（示例）: Community naming example; may not exist as a default bundled folder—implement your own SKILL.md if needed. Follow the AgentSkills layout under skills/webhook-ingest/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Example · 自动化 / 集成"
+  }
+}

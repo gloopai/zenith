@@ -1,7 +1,9 @@
 <template>
-  <div class="flex flex-col gap-10 lg:gap-12">
+  <div v-if="skill" class="flex flex-col gap-10 lg:gap-12">
     <nav class="flex items-center gap-2 text-sm text-zinc-500">
-      <NuxtLink class="transition hover:text-zinc-300" to="/openclaw">OpenClaw 技能</NuxtLink>
+      <NuxtLink class="transition hover:text-zinc-300" :to="localePath('/openclaw')">{{
+        t('openclawSkillPage.breadcrumb')
+      }}</NuxtLink>
       <span class="text-zinc-700" aria-hidden="true">/</span>
       <span class="line-clamp-1 text-zinc-300">{{ skill.name }}</span>
     </nav>
@@ -14,10 +16,10 @@
               class="rounded-lg px-2.5 py-1 text-xs font-semibold"
               :class="skill.official ? 'bg-emerald-500/15 text-emerald-200' : 'bg-amber-500/15 text-amber-200'"
             >
-              {{ skill.official ? '官方仓库内置' : '自定义命名示例' }}
+              {{ skill.official ? t('openclawSkillPage.badgeOfficial') : t('openclawSkillPage.badgeExample') }}
             </span>
             <span v-if="skill.featured" class="rounded-lg bg-violet-500/15 px-2.5 py-1 text-xs font-semibold text-violet-200">
-              精选
+              {{ t('openclawSkillPage.featured') }}
             </span>
           </div>
           <h1 class="mt-4 text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl">{{ skill.name }}</h1>
@@ -37,27 +39,29 @@
             rel="noopener noreferrer"
             target="_blank"
           >
-            {{ skill.official ? '在 GitHub 查看' : '创建技能指南' }}
+            {{ skill.official ? t('openclawSkillPage.viewGithub') : t('openclawSkillPage.createGuide') }}
           </a>
-          <span class="text-center text-xs text-zinc-600 lg:text-right">新窗口打开</span>
+          <span class="text-center text-xs text-zinc-600 lg:text-right">{{ t('openclawSkillPage.opensNewWindow') }}</span>
         </div>
       </div>
     </header>
 
     <section class="border-l-2 border-violet-500/40 pl-6 sm:pl-8">
-      <h2 class="text-sm font-semibold uppercase tracking-widest text-zinc-500">说明</h2>
+      <h2 class="text-sm font-semibold uppercase tracking-widest text-zinc-500">{{ t('openclawSkillPage.notesTitle') }}</h2>
       <p class="mt-3 max-w-2xl text-base leading-relaxed text-zinc-400">
         <template v-if="skill.official">
-          技能包位于 OpenClaw 仓库的
+          {{ t('openclawSkillPage.noteOfficial1') }}
           <code class="rounded bg-white/10 px-1.5 py-0.5 text-sm text-zinc-200">skills/{{ skill.slug }}/</code>
-          目录。是否出现在你的代理会话中，取决于环境变量、二进制门控与
+          {{ t('openclawSkillPage.noteOfficial2') }}
           <code class="rounded bg-white/10 px-1.5 py-0.5 text-sm text-zinc-200">openclaw.json</code>
-          配置。
+          {{ t('openclawSkillPage.noteOfficial3') }}
         </template>
         <template v-else>
-          本条为教程/社区中常见的<strong>命名与能力拆分示例</strong>，并非仓库内默认文件夹；实现时需自行在
+          {{ t('openclawSkillPage.noteExampleBefore') }}
+          <strong>{{ t('openclawSkillPage.noteExampleStrong') }}</strong>
+          {{ t('openclawSkillPage.noteExampleAfter') }}
           <code class="rounded bg-white/10 px-1.5 py-0.5 text-sm text-zinc-200">skills/{{ skill.slug }}/SKILL.md</code>
-          编写并遵循 AgentSkills 规范。
+          {{ t('openclawSkillPage.noteExampleAfterCode') }}
         </template>
       </p>
     </section>
@@ -67,53 +71,63 @@
 <script setup lang="ts">
 import type { OpenClawSkill } from '~~/shared/types/site'
 
+const { t, locale } = useI18n()
+const localePath = useLocalePath()
 const route = useRoute()
-const slug = String(route.params.slug ?? '')
+const slug = computed(() => String(route.params.slug ?? ''))
 
 const { data, error } = await useAsyncData(
-  `openclaw-skill-${slug}`,
-  () => $fetch<{ skill: OpenClawSkill }>(`/api/openclaw/${encodeURIComponent(slug)}`),
+  () => `openclaw-skill-${slug.value}-${locale.value}`,
+  () =>
+    $fetch<{ skill: OpenClawSkill }>(`/api/openclaw/${encodeURIComponent(slug.value)}`, {
+      query: { locale: locale.value },
+    }),
+  { watch: [locale, slug] },
 )
 
 if (error.value || !data.value?.skill) {
-  throw createError({ statusCode: 404, statusMessage: '未找到该技能' })
+  throw createError({ statusCode: 404, statusMessage: t('errors.skillNotFound') })
 }
 
-const skill = data.value.skill
+const skill = computed(() => data.value!.skill)
 
 const siteOrigin = useSiteOrigin()
-const canonical = `${siteOrigin.value}/openclaw/${skill.slug}`
+const canonical = computed(() => `${siteOrigin.value}${localePath(`/openclaw/${skill.value.slug}`)}`)
 
-const jsonLd = {
+const jsonLd = computed(() => ({
   '@context': 'https://schema.org',
   '@type': 'TechArticle',
-  headline: skill.name,
-  description: skill.description.slice(0, 500),
-  url: canonical,
+  headline: skill.value.name,
+  description: skill.value.description.slice(0, 500),
+  url: canonical.value,
   about: {
     '@type': 'SoftwareApplication',
     name: 'OpenClaw',
     applicationCategory: 'DeveloperApplication',
   },
-}
+}))
 
-useSeoMeta({
-  title: skill.name,
-  description: skill.description.slice(0, 160),
-  ogTitle: `${skill.name} · OpenClaw Skill`,
-  ogDescription: skill.description.slice(0, 200),
-  ogType: 'article',
-  ogUrl: canonical,
-  twitterTitle: `${skill.name} · OpenClaw Skill`,
-  twitterDescription: skill.description.slice(0, 200),
-})
+useSeoMeta(
+  computed(() => ({
+    title: skill.value.name,
+    description: skill.value.description.slice(0, 160),
+    ogTitle: `${skill.value.name} · ${t('openclawSkillPage.ogSuffix')}`,
+    ogDescription: skill.value.description.slice(0, 200),
+    ogType: 'article',
+    ogUrl: canonical.value,
+    twitterTitle: `${skill.value.name} · ${t('openclawSkillPage.ogSuffix')}`,
+    twitterDescription: skill.value.description.slice(0, 200),
+  })),
+)
 
-useHead({
-  script: [
-    {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify(jsonLd),
-    },
-  ],
-})
+useHead(
+  computed(() => ({
+    script: [
+      {
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify(jsonLd.value),
+      },
+    ],
+  })),
+)
 </script>

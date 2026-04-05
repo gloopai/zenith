@@ -1,0 +1,458 @@
+{
+  "1password": {
+    "description": "1Password: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/1password/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "सुरक्षा / पासवर्ड"
+  },
+  "apple-notes": {
+    "description": "Apple Notes: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/apple-notes/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "Apple इकोसिस्टम"
+  },
+  "apple-reminders": {
+    "description": "Apple Reminders: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/apple-reminders/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "Apple इकोसिस्टम"
+  },
+  "bear-notes": {
+    "description": "Bear Notes: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/bear-notes/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "Apple इकोसिस्टम"
+  },
+  "blogwatcher": {
+    "description": "BlogWatcher: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/blogwatcher/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "जानकारी / सदस्यता"
+  },
+  "blucli": {
+    "description": "blucli: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/blucli/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "स्मार्ट होम"
+  },
+  "bluebubbles": {
+    "description": "BlueBubbles: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/bluebubbles/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "मैसेजिंग"
+  },
+  "camsnap": {
+    "description": "CamSnap: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/camsnap/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "मीडिया / कैप्चर"
+  },
+  "canvas": {
+    "description": "Canvas: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/canvas/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "सहयोग / कैनवास"
+  },
+  "clawflow": {
+    "description": "Clawflow: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/clawflow/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "स्वचालन / वर्कफ़्लो"
+  },
+  "clawflow-inbox-triage": {
+    "description": "Clawflow Inbox Triage: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/clawflow-inbox-triage/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "स्वचालन / वर्कफ़्लो"
+  },
+  "clawhub": {
+    "description": "ClawHub: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/clawhub/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "इकोसिस्टम / रजिस्ट्री"
+  },
+  "coding-agent": {
+    "description": "Coding Agent: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/coding-agent/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "डेवलपमेंट / कोड"
+  },
+  "discord": {
+    "description": "Discord: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/discord/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "मैसेजिंग"
+  },
+  "eightctl": {
+    "description": "eightctl: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/eightctl/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "टूलचेन / CLI"
+  },
+  "gemini": {
+    "description": "Gemini CLI: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/gemini/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "डेवलपमेंट / कोड"
+  },
+  "gh-issues": {
+    "description": "GitHub Issues: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/gh-issues/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "डेवलपमेंट / कोड"
+  },
+  "gifgrep": {
+    "description": "gifgrep: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/gifgrep/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "मीडिया / कैप्चर"
+  },
+  "github": {
+    "description": "GitHub: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/github/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "डेवलपमेंट / कोड"
+  },
+  "gog": {
+    "description": "gog: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/gog/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "टूलचेन / CLI"
+  },
+  "goplaces": {
+    "description": "goplaces: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/goplaces/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "जीवन / स्थान"
+  },
+  "healthcheck": {
+    "description": "Healthcheck: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/healthcheck/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "ऑप्स / मॉनिटरिंग"
+  },
+  "himalaya": {
+    "description": "Himalaya: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/himalaya/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "ईमेल"
+  },
+  "imsg": {
+    "description": "iMessage: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/imsg/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "मैसेजिंग"
+  },
+  "mcporter": {
+    "description": "McPorter: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/mcporter/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "डेवलपमेंट / एकीकरण"
+  },
+  "model-usage": {
+    "description": "Model Usage: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/model-usage/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "ऑप्स / मॉनिटरिंग"
+  },
+  "nano-pdf": {
+    "description": "nano-pdf: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/nano-pdf/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "दस्तावेज़ / PDF"
+  },
+  "node-connect": {
+    "description": "node-connect: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/node-connect/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "डेवलपमेंट / एकीकरण"
+  },
+  "notion": {
+    "description": "Notion: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/notion/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "दस्तावेज़ / नॉलेज बेस"
+  },
+  "obsidian": {
+    "description": "Obsidian: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/obsidian/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "दस्तावेज़ / नॉलेज बेस"
+  },
+  "openai-whisper": {
+    "description": "OpenAI Whisper（本地）: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/openai-whisper/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "भाषण / ट्रांसक्रिप्शन"
+  },
+  "openai-whisper-api": {
+    "description": "OpenAI Whisper（API）: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/openai-whisper-api/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "भाषण / ट्रांसक्रिप्शन"
+  },
+  "openhue": {
+    "description": "OpenHue: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/openhue/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "स्मार्ट होम"
+  },
+  "oracle": {
+    "description": "Oracle: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/oracle/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "टूलचेन / CLI"
+  },
+  "ordercli": {
+    "description": "ordercli: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/ordercli/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "जीवन / सेवाएँ"
+  },
+  "peekaboo": {
+    "description": "Peekaboo: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/peekaboo/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "सिस्टम / डेस्कटॉप"
+  },
+  "sag": {
+    "description": "SAG: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/sag/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "सिस्टम / स्वचालन"
+  },
+  "session-logs": {
+    "description": "Session Logs: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/session-logs/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "ऑप्स / मॉनिटरिंग"
+  },
+  "sherpa-onnx-tts": {
+    "description": "Sherpa ONNX TTS: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/sherpa-onnx-tts/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "भाषण / संश्लेषण"
+  },
+  "skill-creator": {
+    "description": "Skill Creator: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/skill-creator/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "इकोसिस्टम / डेवलपमेंट"
+  },
+  "slack": {
+    "description": "Slack: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/slack/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "मैसेजिंग"
+  },
+  "songsee": {
+    "description": "Songsee: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/songsee/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "मीडिया / संगीत"
+  },
+  "sonoscli": {
+    "description": "sonoscli: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/sonoscli/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "स्मार्ट होम"
+  },
+  "spotify-player": {
+    "description": "Spotify Player: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/spotify-player/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "मीडिया / संगीत"
+  },
+  "summarize": {
+    "description": "Summarize: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/summarize/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "दस्तावेज़ / सारांश"
+  },
+  "things-mac": {
+    "description": "Things（macOS）: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/things-mac/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "Apple इकोसिस्टम"
+  },
+  "tmux": {
+    "description": "tmux: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/tmux/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "डेवलपमेंट / टर्मिनल"
+  },
+  "trello": {
+    "description": "Trello: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/trello/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "सहयोग / प्रोजेक्ट"
+  },
+  "video-frames": {
+    "description": "Video Frames: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/video-frames/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "मीडिया / वीडियो"
+  },
+  "voice-call": {
+    "description": "Voice Call: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/voice-call/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "आवाज़ / कॉल"
+  },
+  "wacli": {
+    "description": "wacli: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/wacli/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "मैसेजिंग"
+  },
+  "weather": {
+    "description": "Weather: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/weather/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "जीवन / मौसम"
+  },
+  "xurl": {
+    "description": "xurl: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/xurl/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "सोशल"
+  },
+  "bibtex-normalize": {
+    "description": "bibtex-normalize（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/bibtex-normalize/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 学术 / 文献"
+  },
+  "browser-bookmark-digest": {
+    "description": "browser-bookmark-digest（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/browser-bookmark-digest/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 信息 / 订阅"
+  },
+  "calendar-sync": {
+    "description": "calendar-sync（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/calendar-sync/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 日历 / 效率"
+  },
+  "citation-check": {
+    "description": "citation-check（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/citation-check/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 搜索 / 研究"
+  },
+  "codeowners-suggest": {
+    "description": "codeowners-suggest（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/codeowners-suggest/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 开发 / 代码"
+  },
+  "cron-newsletter": {
+    "description": "cron-newsletter（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/cron-newsletter/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 自动化"
+  },
+  "customer-ticket-draft": {
+    "description": "customer-ticket-draft（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/customer-ticket-draft/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 支持 / CRM"
+  },
+  "db-readonly-query": {
+    "description": "db-readonly-query（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/db-readonly-query/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 数据 / SQL"
+  },
+  "discord-announce": {
+    "description": "discord-announce（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/discord-announce/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 通讯 / 消息"
+  },
+  "docker-health": {
+    "description": "docker-health（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/docker-health/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 运维 / 监控"
+  },
+  "edge-config-sync": {
+    "description": "edge-config-sync（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/edge-config-sync/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 边缘 / 部署"
+  },
+  "edu-quiz-gen": {
+    "description": "edu-quiz-gen（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/edu-quiz-gen/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 教育 / 学习"
+  },
+  "email-triage": {
+    "description": "email-triage（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/email-triage/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 邮件 / 效率"
+  },
+  "eval-harness": {
+    "description": "eval-harness（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/eval-harness/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 开发 / 质量"
+  },
+  "figma-to-code": {
+    "description": "figma-to-code（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/figma-to-code/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 设计 / 前端"
+  },
+  "fitness-plan-log": {
+    "description": "fitness-plan-log（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/fitness-plan-log/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 健康 / 生活"
+  },
+  "game-mod-docs": {
+    "description": "game-mod-docs（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/game-mod-docs/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 游戏 / 文档"
+  },
+  "gdrive-export": {
+    "description": "gdrive-export（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/gdrive-export/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 云存储"
+  },
+  "github-pr-review": {
+    "description": "github-pr-review（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/github-pr-review/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 开发 / 代码"
+  },
+  "graphql-introspect-docs": {
+    "description": "graphql-introspect-docs（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/graphql-introspect-docs/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 开发 / API"
+  },
+  "hr-screening-helper": {
+    "description": "hr-screening-helper（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/hr-screening-helper/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 招聘 / 合规"
+  },
+  "i18n-copy-review": {
+    "description": "i18n-copy-review（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/i18n-copy-review/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 翻译 / 语言"
+  },
+  "image-alt-text": {
+    "description": "image-alt-text（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/image-alt-text/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 无障碍 / 媒体"
+  },
+  "invoice-parse": {
+    "description": "invoice-parse（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/invoice-parse/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 财务 / 文档"
+  },
+  "jira-bridge": {
+    "description": "jira-bridge（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/jira-bridge/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 协作 / 项目"
+  },
+  "k8s-logs-tail": {
+    "description": "k8s-logs-tail（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/k8s-logs-tail/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 运维 / 监控"
+  },
+  "kids-story-night": {
+    "description": "kids-story-night（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/kids-story-night/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 家庭 / 趣味"
+  },
+  "latex-build-fix": {
+    "description": "latex-build-fix（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/latex-build-fix/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 学术 / 排版"
+  },
+  "legal-clause-compare": {
+    "description": "legal-clause-compare（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/legal-clause-compare/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 法律 / 合规"
+  },
+  "license-audit": {
+    "description": "license-audit（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/license-audit/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 开发 / 合规"
+  },
+  "linear-roadmap-digest": {
+    "description": "linear-roadmap-digest（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/linear-roadmap-digest/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 协作 / 项目"
+  },
+  "med-terminology-check": {
+    "description": "med-terminology-check（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/med-terminology-check/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 医疗 / 合规"
+  },
+  "meetings-recap": {
+    "description": "meetings-recap（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/meetings-recap/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 会议 / 效率"
+  },
+  "my-weather-skill": {
+    "description": "my-weather-skill（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/my-weather-skill/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 入门模板"
+  },
+  "notion-publish": {
+    "description": "notion-publish（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/notion-publish/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 文档 / 知识库"
+  },
+  "oncall-summary": {
+    "description": "oncall-summary（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/oncall-summary/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 运维 / 值班"
+  },
+  "openai-image-gen": {
+    "description": "openai-image-gen（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/openai-image-gen/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 图像批处理"
+  },
+  "openapi-mock": {
+    "description": "openapi-mock（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/openapi-mock/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 开发 / API"
+  },
+  "pdf-table-extract": {
+    "description": "pdf-table-extract（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/pdf-table-extract/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 文档 / PDF"
+  },
+  "photo-organize": {
+    "description": "photo-organize（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/photo-organize/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 媒体 / 整理"
+  },
+  "pii-redact": {
+    "description": "pii-redact（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/pii-redact/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 安全 / 合规"
+  },
+  "podcast-chapter-markers": {
+    "description": "podcast-chapter-markers（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/podcast-chapter-markers/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 播客 / 媒体"
+  },
+  "prompt-library-sync": {
+    "description": "prompt-library-sync（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/prompt-library-sync/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 开发 / 提示词"
+  },
+  "queue-worker-skill": {
+    "description": "queue-worker-skill（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/queue-worker-skill/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 自动化 / 集成"
+  },
+  "recipe-from-fridge": {
+    "description": "recipe-from-fridge（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/recipe-from-fridge/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 生活 / 饮食"
+  },
+  "redteam-safety": {
+    "description": "redteam-safety（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/redteam-safety/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 安全 / 合规"
+  },
+  "release-notes-gen": {
+    "description": "release-notes-gen（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/release-notes-gen/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 开发 / 发布"
+  },
+  "research-brief": {
+    "description": "research-brief（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/research-brief/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 搜索 / 研究"
+  },
+  "rss-ingest": {
+    "description": "rss-ingest（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/rss-ingest/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 信息 / 订阅"
+  },
+  "s3-presign-upload": {
+    "description": "s3-presign-upload（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/s3-presign-upload/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 云存储"
+  },
+  "sentry-triage": {
+    "description": "sentry-triage（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/sentry-triage/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 运维 / 监控"
+  },
+  "slack-digest": {
+    "description": "slack-digest（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/slack-digest/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 通讯 / 消息"
+  },
+  "smart-home-scenes": {
+    "description": "smart-home-scenes（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/smart-home-scenes/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 智能家居"
+  },
+  "stripe-webhook-helper": {
+    "description": "stripe-webhook-helper（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/stripe-webhook-helper/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 支付 / 集成"
+  },
+  "subtitle-translate": {
+    "description": "subtitle-translate（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/subtitle-translate/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 翻译 / 媒体"
+  },
+  "telegram-notify": {
+    "description": "telegram-notify（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/telegram-notify/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 通讯 / 消息"
+  },
+  "terraform-plan-summary": {
+    "description": "terraform-plan-summary（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/terraform-plan-summary/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 运维 / IaC"
+  },
+  "travel-packing-list": {
+    "description": "travel-packing-list（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/travel-packing-list/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 出行 / 生活"
+  },
+  "voice-memo-transcribe": {
+    "description": "voice-memo-transcribe（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/voice-memo-transcribe/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 语音 / 转写"
+  },
+  "wasm-bundle-analyze": {
+    "description": "wasm-bundle-analyze（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/wasm-bundle-analyze/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 开发 / 性能"
+  },
+  "webhook-ingest": {
+    "description": "webhook-ingest（示例）: समुदाय नामकरण का उदाहरण; डिफ़ॉल्ट बंडले में न हो — जरुरत हो तो अपना SKILL.md लिखें। skills/webhook-ingest/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "उदाहरण · 自动化 / 集成"
+  }
+}

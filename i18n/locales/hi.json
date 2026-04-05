@@ -1,0 +1,125 @@
+{
+  "layout": {
+    "tagline": "AI निर्देशिका · समाचार",
+    "home": "होम",
+    "nav": "टूल्स",
+    "openclaw": "OpenClaw",
+    "news": "समाचार",
+    "exploreTools": "टूल देखें",
+    "menu": "मेनू",
+    "footerDescription": "चुने हुए AI टूल और उद्योग समाचार एक ही जगह।",
+    "sitemap": "साइटमैप",
+    "language": "भाषा",
+    "localeNames": {
+      "en": "अंग्रेज़ी",
+      "zh-CN": "सरलीकृत चीनी",
+      "zh-TW": "पारंपरिक चीनी",
+      "ja": "जापानी",
+      "ko": "कोरियाई",
+      "ru": "रूसी",
+      "hi": "हिन्दी",
+      "es": "स्पेनिश"
+    }
+  },
+  "home": {
+    "eyebrow": "Plunget",
+    "titleLine1": "उपयोगी AI टूल खोजें,",
+    "titleLine2": "बदलाव को समझें",
+    "subtitle": "लोकप्रिय उत्पाद लिंक, समाचार और विचार—साफ़ लेआउट, फ़ोन और डेस्कटॉप दोनों पर।",
+    "enterNav": "निर्देशिका में जाएँ",
+    "openclawSkills": "OpenClaw स्किल्स",
+    "readNews": "समाचार पढ़ें",
+    "featuredTools": "चुनिंदा टूल",
+    "featuredToolsHint": "संपादक की पसंद—कार्ड से विवरण और आधिकारिक साइट।",
+    "all": "सभी",
+    "latestNews": "ताज़ा समाचार",
+    "latestNewsHint": "तिथि अनुसार—शीर्षक पर टैप कर पूर्ण लेख पढ़ें।",
+    "openclawSectionTitle": "OpenClaw स्किल्स",
+    "openclawSectionHint": "AgentSkills-संगत पैक: आधिकारिक स्किल्स व उदाहरण, GitHub व दस्तावेज़ लिंक।",
+    "allSkills": "सभी स्किल्स",
+    "official": "आधिकारिक",
+    "example": "उदाहरण"
+  },
+  "navPage": {
+    "eyebrow": "सूची",
+    "title": "AI टूल निर्देशिका",
+    "subtitle": "श्रेणी से ब्राउज़ करें या खोजें। विवरण पृष्ठ पर सारांश व आधिकारिक साइट लिंक।",
+    "all": "सभी",
+    "searchLabel": "खोज",
+    "searchPlaceholder": "नाम, विवरण या टैग",
+    "empty": "कोई परिणाम नहीं—श्रेणी या कीवर्ड बदलकर देखें।"
+  },
+  "toolPage": {
+    "breadcrumb": "टूल्स",
+    "visitSite": "आधिकारिक साइट",
+    "opensNewWindow": "नए टैब में खुलता है",
+    "useCasesTitle": "उपयोग के मामले",
+    "useCasesBody": "यह सारांश बताता है कि टूल आपकी ज़रूरत के अनुरूप है या नहीं। विकल्प ज़्यादा हों तो उपयोग आवृत्ति, बजट और डेटा गोपनीयता पहले तय करें।",
+    "ogSuffix": "AI टूल"
+  },
+  "newsPage": {
+    "eyebrow": "लेख",
+    "title": "समाचार",
+    "subtitle": "उद्योग अपडेट, उत्पाद रिलीज़ व संक्षिप् टिप्पणियाँ—समय क्रम में।",
+    "empty": "अभी कोई लेख नहीं।"
+  },
+  "articlePage": {
+    "breadcrumb": "समाचार"
+  },
+  "openclawPage": {
+    "eyebrow": "OpenClaw",
+    "title": "स्किल कैटलॉग",
+    "introBeforeSkillsLink": "OpenClaw ",
+    "introAfterSkillsLinkBeforeCode": " के साथ संगत ",
+    "introAfterCode": " स्किल पैक का उपयोग करता है ताकि एजेंट CLI, API और टूलचेन्स सीख सकें। नीचे आधिकारिक रिपॉज़िटरी ",
+    "introAfterSkillsDirLink": " की प्रविष्टियाँ हैं, साथ ही दस्तावेज़ों व ट्यूटोरियल में सामान्य ",
+    "introStrong": "कस्टम नाम उदाहरण",
+    "introAfterStrong": " (उदाहरण के रूप में चिह्नित)। और जानें ",
+    "introAfterClawhub": " व ",
+    "introEnd": " पर।",
+    "docsLink": "आधिकारिक दस्तावेज़",
+    "filterAll": "सभी",
+    "filterOfficial": "अंतर्निहित आधिकारिक",
+    "filterExample": "कस्टम उदाहरण",
+    "searchLabel": "खोज",
+    "searchPlaceholder": "नाम, विवरण या टैग",
+    "count": "{count} आइटम",
+    "filterApplied": "फ़िल्टर सक्रिय",
+    "empty": "इस फ़िल्टर से कोई परिणाम नहीं।"
+  },
+  "openclawSkillPage": {
+    "breadcrumb": "OpenClaw स्किल्स",
+    "badgeOfficial": "आधिकारिक रिपो में शामिल",
+    "badgeExample": "कस्टम नाम उदाहरण",
+    "featured": "विशेष",
+    "viewGithub": "GitHub पर देखें",
+    "createGuide": "स्किल गाइड बनाएँ",
+    "opensNewWindow": "नए टैब में खुलता है",
+    "notesTitle": "टिप्पणी",
+    "noteOfficial1": "स्किल पैक OpenClaw रिपो में ",
+    "noteOfficial2": " स्थित है। यह सत्र में दिखे या नहीं, यह पर्यावरण चर, बाइनरी गेटिंग व ",
+    "noteOfficial3": " कॉन्फ़िगर पर निर्भर करता है।",
+    "noteExampleBefore": "यह ट्यूटोरियल/समुदाय में सामान्य",
+    "noteExampleStrong": "नाम व क्षमता विभाजन उदाहरण",
+    "noteExampleAfter": " है; रिपो की डिफ़ॉल्ट फ़ोल्डर नहीं। कार्यान्वयन के लिए स्वयं ",
+    "noteExampleAfterCode": " लिखें और AgentSkills विनिर्देश लागू करें।",
+    "ogSuffix": "OpenClaw Skill"
+  },
+  "errors": {
+    "toolNotFound": "टूल नहीं मिला",
+    "articleNotFound": "लेख नहीं मिला",
+    "skillNotFound": "स्किल नहीं मिली"
+  },
+  "seo": {
+    "siteDescription": "AI टूल निर्देशिका व समाचार: उत्पाद खोजें, उद्योग अपडेट पढ़ें।",
+    "homeTitle": "होम",
+    "homeDescription": "Plunget: AI टूल और समाचार। डेस्कटॉप व मोबाइल पर ब्राउज़ करें।",
+    "navTitle": "AI निर्देशिका",
+    "navDescription": "AI टूल ब्राउज़ करें: श्रेणी, खोज, विवरण पृष्ठ व बाहरी लिंक।",
+    "newsTitle": "समाचार",
+    "newsDescription": "AI समाचार व विचार: सारांश व पूर्ण पाठ वाले लेख।",
+    "openclawTitle": "OpenClaw स्किल्स",
+    "openclawDescription": "OpenClaw AgentSkills कैटलॉग: आधिकारिक स्किल व नाम उदाहरण, लिंक सहित।",
+    "ogHomeTitle": "Plunget"
+  }
+}

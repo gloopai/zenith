@@ -1,0 +1,374 @@
+{
+  "chatgpt": {
+    "description": "OpenAI のフラッグシップ対話アシスタント。マルチターン会話、（プラン／地域次第で）ブラウジング、ファイル投入、軽い分析に対応。下書き・コード断片・学習補助に向く—モデル名と利用規約は公式サイトで確認。"
+  },
+  "claude": {
+    "description": "Anthropic のアシスタントモデル。長いコンテキストと慎重な推論が強み。ウェブ/ API でコードレビュー、技術文書、長文ドキュメントに適す。"
+  },
+  "google-gemini": {
+    "description": "Google アカウントと Workspace と連携するマルチモーダルモデル群。検索支援の回答、メール下書き、要約（提供範囲内）に向く。"
+  },
+  "microsoft-copilot": {
+    "description": "Windows・Edge・Microsoft 365 に組み込まれた Microsoft のアシスタント。草稿、ページ要約、軽い自動化向け— M365 利用時は企業データ方針を確認。"
+  },
+  "deepseek": {
+    "description": "中国語向けのモデルスタック。ウェブ/API でコード・数学・コスパで評価されがち—本番前に地域のコンプライアンスを確認。"
+  },
+  "kimi": {
+    "description": "Moonshot の中文中心アシスタント。長文やリンク/ファイル要約に強く、論文・契約・長いスレッドに便利。"
+  },
+  "tongyi-qianwen": {
+    "description": "Alibaba 系のモデル/アプリ群。チャット、プラグイン、業界シナリオ向け—阿里/ DingTalk チームに馴染む。個人はウェブから試せる。"
+  },
+  "ernie-bot": {
+    "description": "Baidu の中文チャット製品。検索や Baidu サービスと連携—最新機能とプランはサイト確認。"
+  },
+  "doubao": {
+    "description": "ByteDance の AI ハブ。チャットと創作ツールを横断—テンプレと国内連携に便利。書き出し要件はサブ製品を比較。"
+  },
+  "yuanbao": {
+    "description": "腾讯元宝: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "perplexity": {
+    "description": "Perplexity: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "poe": {
+    "description": "Poe: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "hugging-face": {
+    "description": "Hugging Face: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "midjourney": {
+    "description": "Midjourney: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "dall-e": {
+    "description": "DALL·E: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "adobe-firefly": {
+    "description": "Adobe Firefly: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "leonardo-ai": {
+    "description": "Leonardo.Ai: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "ideogram": {
+    "description": "Ideogram: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "remove-bg": {
+    "description": "remove.bg: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "canva": {
+    "description": "Canva（Magic Studio）: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "figma": {
+    "description": "Figma: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "runway": {
+    "description": "Runway: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "pika": {
+    "description": "Pika: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "kling-ai": {
+    "description": "可灵 Kling: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "capcut": {
+    "description": "剪映 CapCut: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "suno": {
+    "description": "Suno: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "udio": {
+    "description": "Udio: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "elevenlabs": {
+    "description": "ElevenLabs: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "otter": {
+    "description": "Otter.ai: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "cursor": {
+    "description": "Cursor: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "github-copilot": {
+    "description": "GitHub Copilot: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "windsurf": {
+    "description": "Windsurf: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "v0": {
+    "description": "v0: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "replit": {
+    "description": "Replit: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "vercel": {
+    "description": "Vercel: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "notion": {
+    "description": "Notion: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "obsidian": {
+    "description": "Obsidian: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "gamma": {
+    "description": "Gamma: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "n8n": {
+    "description": "n8n: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "make": {
+    "description": "Make: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "zapier": {
+    "description": "Zapier: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "deepl": {
+    "description": "DeepL: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "immersive-translate": {
+    "description": "沉浸式翻译: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "elicit": {
+    "description": "Elicit: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "consensus": {
+    "description": "Consensus: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "character-ai": {
+    "description": "Character.AI: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "anthropic": {
+    "description": "Anthropic: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "openai-platform": {
+    "description": "OpenAI Platform: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "langchain": {
+    "description": "LangChain: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "ollama": {
+    "description": "Ollama: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "miro": {
+    "description": "Miro: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "linear": {
+    "description": "Linear: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "notebooklm": {
+    "description": "NotebookLM: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "grammarly": {
+    "description": "Grammarly: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "jasper": {
+    "description": "Jasper: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "heygen": {
+    "description": "HeyGen: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "synthesia": {
+    "description": "Synthesia: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "luma-dream-machine": {
+    "description": "Luma Dream Machine: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "pixverse": {
+    "description": "PixVerse: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "stability-ai": {
+    "description": "Stability AI: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "cohere": {
+    "description": "Cohere: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "assemblyai": {
+    "description": "AssemblyAI: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "murf": {
+    "description": "Murf: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "feishu": {
+    "description": "飞书: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "tencent-meeting": {
+    "description": "腾讯会议: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "descript": {
+    "description": "Descript: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "scribbr": {
+    "description": "Scribbr: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "semantic-scholar": {
+    "description": "Semantic Scholar: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "arxiv": {
+    "description": "arXiv: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "kaggle": {
+    "description": "Kaggle: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "wandb": {
+    "description": "Weights & Biases: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "mistral-ai": {
+    "description": "Mistral AI: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "groq": {
+    "description": "Groq: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "xai-grok": {
+    "description": "Grok: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "replicate": {
+    "description": "Replicate: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "fal": {
+    "description": "fal: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "together-ai": {
+    "description": "Together AI: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "fireworks-ai": {
+    "description": "Fireworks AI: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "openrouter": {
+    "description": "OpenRouter: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "siliconflow": {
+    "description": "硅基流动 SiliconFlow: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "modelscope": {
+    "description": "魔搭 ModelScope: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "dify": {
+    "description": "Dify: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "flowise": {
+    "description": "Flowise: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "tabnine": {
+    "description": "Tabnine: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "amazon-q": {
+    "description": "Amazon Q: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "sourcegraph-cody": {
+    "description": "Sourcegraph Cody: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "continue-dev": {
+    "description": "Continue: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "aider": {
+    "description": "Aider: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "cline": {
+    "description": "Cline: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "supermaven": {
+    "description": "Supermaven: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "bolt-new": {
+    "description": "Bolt.new: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "stackblitz": {
+    "description": "StackBlitz: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "codesandbox": {
+    "description": "CodeSandbox: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "framer": {
+    "description": "Framer: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "webflow": {
+    "description": "Webflow: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "photoroom": {
+    "description": "PhotoRoom: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "clipdrop": {
+    "description": "Clipdrop: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "chatpdf": {
+    "description": "ChatPDF: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "humata": {
+    "description": "Humata AI: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "scispace": {
+    "description": "SciSpace: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "scholarcy": {
+    "description": "Scholarcy: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "tldraw": {
+    "description": "tldraw: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "logseq": {
+    "description": "Logseq: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "clickup": {
+    "description": "ClickUp: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "airtable": {
+    "description": "Airtable: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "lumen5": {
+    "description": "Lumen5: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "invideo": {
+    "description": "InVideo: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "beautiful-ai": {
+    "description": "Beautiful.ai: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "tavily": {
+    "description": "Tavily: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "exa": {
+    "description": "Exa: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "you-com": {
+    "description": "You.com: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "phind": {
+    "description": "Phind: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "jina-ai": {
+    "description": "Jina AI: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "mem0": {
+    "description": "Mem0: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "comet-browser": {
+    "description": "Comet: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "brave-leo": {
+    "description": "Brave Leo: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "raycast": {
+    "description": "Raycast: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "alfred": {
+    "description": "Alfred: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "loom": {
+    "description": "Loom: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "riverside": {
+    "description": "Riverside: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "napkin-ai": {
+    "description": "Napkin AI: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "tome": {
+    "description": "Tome: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "spline": {
+    "description": "Spline: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "meshy": {
+    "description": "Meshy: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  }
+}

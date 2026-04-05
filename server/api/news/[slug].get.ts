@@ -1,3 +1,4 @@
+import { getRequestContentLocale } from '../../utils/content-locale'
 import { getNewsBySlug } from '../../utils/news-store'
 
 export default defineEventHandler(async (event) => {
@@ -5,7 +6,8 @@ export default defineEventHandler(async (event) => {
   if (!slug) {
     throw createError({ statusCode: 400, statusMessage: 'Missing slug' })
   }
-  const article = await getNewsBySlug(slug)
+  const locale = getRequestContentLocale(event)
+  const article = await getNewsBySlug(slug, locale)
   if (!article) {
     throw createError({ statusCode: 404, statusMessage: 'Not found' })
   }

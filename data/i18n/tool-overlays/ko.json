@@ -1,0 +1,374 @@
+{
+  "chatgpt": {
+    "description": "OpenAI 의 대표 챗 어시스턴트: 멀티턴 대화, 플랜·지역에 따른 선택적 웹 검색, 업로드, 가벼운 분석. 초안·코드 스니펫·학습 도움에 적합—모델명·정책은 공식 사이트 확인."
+  },
+  "claude": {
+    "description": "Anthropic 의 어시스턴트 모델. 긴 컨텍스트와 신중한 추론에 강함. 웹·API 로 코드 리뷰·기술 문서·긴 문서 작업에 적합."
+  },
+  "google-gemini": {
+    "description": "Google 계정·Workspace 와 연계된 멀티모달 모델 패밀리. 검색 보조 답변, 메일 초안, 빠른 요약(제공 범위内)에 적합."
+  },
+  "microsoft-copilot": {
+    "description": "Windows, Edge, Microsoft 365 에 깊게 통합된 Microsoft 어시스턴트. 초안·페이지 요약·가벼운 자동화—M365 사용 시 엔터프라이즈 데이터 규칙 확인."
+  },
+  "deepseek": {
+    "description": "중문에 친화적인 모델 스택. 웹/API 로 코드·수학·가성비에서 호평—프로덕션 전 지역 컴플라이언스 확인."
+  },
+  "kimi": {
+    "description": "Moonshot 의 중문 우선 어시스턴트. 긴 문서·링크/파일 요약에 강함—논문·계약·긴 스레드에 유용."
+  },
+  "tongyi-qianwen": {
+    "description": "Alibaba 스위트의 모델·앱. 채팅·플러그인·업종 시나리오—阿里/딩톡 팀에 맞음. 개인은 웹 클라이언트로 체험."
+  },
+  "ernie-bot": {
+    "description": "바이두의 중문 챗 제품. 검색·바이두 서비스와 연동—기능·요금제는 사이트 확인."
+  },
+  "doubao": {
+    "description": "바이트댄스의 AI 허브. 채팅·크리에이티브 도구 포괄—템플릿·국내 연동에 편함. 내보내기는 하위 제품 비교."
+  },
+  "yuanbao": {
+    "description": "腾讯元宝: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "perplexity": {
+    "description": "Perplexity: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "poe": {
+    "description": "Poe: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "hugging-face": {
+    "description": "Hugging Face: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "midjourney": {
+    "description": "Midjourney: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "dall-e": {
+    "description": "DALL·E: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "adobe-firefly": {
+    "description": "Adobe Firefly: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "leonardo-ai": {
+    "description": "Leonardo.Ai: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "ideogram": {
+    "description": "Ideogram: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "remove-bg": {
+    "description": "remove.bg: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "canva": {
+    "description": "Canva（Magic Studio）: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "figma": {
+    "description": "Figma: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "runway": {
+    "description": "Runway: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "pika": {
+    "description": "Pika: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "kling-ai": {
+    "description": "可灵 Kling: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "capcut": {
+    "description": "剪映 CapCut: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "suno": {
+    "description": "Suno: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "udio": {
+    "description": "Udio: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "elevenlabs": {
+    "description": "ElevenLabs: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "otter": {
+    "description": "Otter.ai: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "cursor": {
+    "description": "Cursor: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "github-copilot": {
+    "description": "GitHub Copilot: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "windsurf": {
+    "description": "Windsurf: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "v0": {
+    "description": "v0: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "replit": {
+    "description": "Replit: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "vercel": {
+    "description": "Vercel: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "notion": {
+    "description": "Notion: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "obsidian": {
+    "description": "Obsidian: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "gamma": {
+    "description": "Gamma: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "n8n": {
+    "description": "n8n: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "make": {
+    "description": "Make: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "zapier": {
+    "description": "Zapier: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "deepl": {
+    "description": "DeepL: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "immersive-translate": {
+    "description": "沉浸式翻译: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "elicit": {
+    "description": "Elicit: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "consensus": {
+    "description": "Consensus: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "character-ai": {
+    "description": "Character.AI: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "anthropic": {
+    "description": "Anthropic: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "openai-platform": {
+    "description": "OpenAI Platform: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "langchain": {
+    "description": "LangChain: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "ollama": {
+    "description": "Ollama: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "miro": {
+    "description": "Miro: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "linear": {
+    "description": "Linear: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "notebooklm": {
+    "description": "NotebookLM: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "grammarly": {
+    "description": "Grammarly: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "jasper": {
+    "description": "Jasper: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "heygen": {
+    "description": "HeyGen: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "synthesia": {
+    "description": "Synthesia: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "luma-dream-machine": {
+    "description": "Luma Dream Machine: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "pixverse": {
+    "description": "PixVerse: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "stability-ai": {
+    "description": "Stability AI: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "cohere": {
+    "description": "Cohere: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "assemblyai": {
+    "description": "AssemblyAI: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "murf": {
+    "description": "Murf: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "feishu": {
+    "description": "飞书: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "tencent-meeting": {
+    "description": "腾讯会议: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "descript": {
+    "description": "Descript: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "scribbr": {
+    "description": "Scribbr: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "semantic-scholar": {
+    "description": "Semantic Scholar: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "arxiv": {
+    "description": "arXiv: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "kaggle": {
+    "description": "Kaggle: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "wandb": {
+    "description": "Weights & Biases: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "mistral-ai": {
+    "description": "Mistral AI: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "groq": {
+    "description": "Groq: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "xai-grok": {
+    "description": "Grok: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "replicate": {
+    "description": "Replicate: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "fal": {
+    "description": "fal: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "together-ai": {
+    "description": "Together AI: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "fireworks-ai": {
+    "description": "Fireworks AI: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "openrouter": {
+    "description": "OpenRouter: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "siliconflow": {
+    "description": "硅基流动 SiliconFlow: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "modelscope": {
+    "description": "魔搭 ModelScope: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "dify": {
+    "description": "Dify: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "flowise": {
+    "description": "Flowise: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "tabnine": {
+    "description": "Tabnine: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "amazon-q": {
+    "description": "Amazon Q: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "sourcegraph-cody": {
+    "description": "Sourcegraph Cody: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "continue-dev": {
+    "description": "Continue: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "aider": {
+    "description": "Aider: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "cline": {
+    "description": "Cline: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "supermaven": {
+    "description": "Supermaven: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "bolt-new": {
+    "description": "Bolt.new: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "stackblitz": {
+    "description": "StackBlitz: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "codesandbox": {
+    "description": "CodeSandbox: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "framer": {
+    "description": "Framer: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "webflow": {
+    "description": "Webflow: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "photoroom": {
+    "description": "PhotoRoom: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "clipdrop": {
+    "description": "Clipdrop: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "chatpdf": {
+    "description": "ChatPDF: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "humata": {
+    "description": "Humata AI: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "scispace": {
+    "description": "SciSpace: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "scholarcy": {
+    "description": "Scholarcy: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "tldraw": {
+    "description": "tldraw: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "logseq": {
+    "description": "Logseq: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "clickup": {
+    "description": "ClickUp: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "airtable": {
+    "description": "Airtable: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "lumen5": {
+    "description": "Lumen5: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "invideo": {
+    "description": "InVideo: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "beautiful-ai": {
+    "description": "Beautiful.ai: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "tavily": {
+    "description": "Tavily: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "exa": {
+    "description": "Exa: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "you-com": {
+    "description": "You.com: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "phind": {
+    "description": "Phind: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "jina-ai": {
+    "description": "Jina AI: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "mem0": {
+    "description": "Mem0: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "comet-browser": {
+    "description": "Comet: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "brave-leo": {
+    "description": "Brave Leo: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "raycast": {
+    "description": "Raycast: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "alfred": {
+    "description": "Alfred: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "loom": {
+    "description": "Loom: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "riverside": {
+    "description": "Riverside: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "napkin-ai": {
+    "description": "Napkin AI: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "tome": {
+    "description": "Tome: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "spline": {
+    "description": "Spline: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "meshy": {
+    "description": "Meshy: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  }
+}

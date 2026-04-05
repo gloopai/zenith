@@ -1,0 +1,374 @@
+{
+  "chatgpt": {
+    "description": "OpenAI’s flagship chat assistant: multi-turn conversations, optional browsing (plan/region-dependent), uploads, and light analysis. Great for drafting, code snippets, and study help—check the site for model names and policies."
+  },
+  "claude": {
+    "description": "Anthropic’s assistant model known for long context and careful reasoning; strong for code review, technical writing, and long documents via web or API."
+  },
+  "google-gemini": {
+    "description": "Google’s multimodal model family tied to Google accounts and Workspace; good for search-assisted answers, email drafts, and quick summaries where available."
+  },
+  "microsoft-copilot": {
+    "description": "Microsoft’s assistant embedded across Windows, Edge, and Microsoft 365 for drafts, page summaries, and light automation—review enterprise data rules if you use M365."
+  },
+  "deepseek": {
+    "description": "Chinese-friendly model stack with web chat and API; often praised for code/math/value pricing—confirm compliance for your region before production."
+  },
+  "kimi": {
+    "description": "Moonshot’s Chinese-first assistant focused on long documents and link/file summaries—useful for papers, contracts, and long threads."
+  },
+  "tongyi-qianwen": {
+    "description": "Alibaba’s model and app suite for chat, plugins, and industry scenarios—fits teams on Alibaba/DingTalk; individuals can try the web client."
+  },
+  "ernie-bot": {
+    "description": "Baidu’s Chinese chat product with ties to search and Baidu services—check the site for current features and plans."
+  },
+  "doubao": {
+    "description": "ByteDance’s assistant hub spanning chat and creative tools; handy for templates and domestic integrations—compare sub-products for export needs."
+  },
+  "yuanbao": {
+    "description": "腾讯元宝: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "perplexity": {
+    "description": "Perplexity: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "poe": {
+    "description": "Poe: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "hugging-face": {
+    "description": "Hugging Face: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "midjourney": {
+    "description": "Midjourney: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "dall-e": {
+    "description": "DALL·E: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "adobe-firefly": {
+    "description": "Adobe Firefly: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "leonardo-ai": {
+    "description": "Leonardo.Ai: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "ideogram": {
+    "description": "Ideogram: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "remove-bg": {
+    "description": "remove.bg: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "canva": {
+    "description": "Canva（Magic Studio）: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "figma": {
+    "description": "Figma: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "runway": {
+    "description": "Runway: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "pika": {
+    "description": "Pika: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "kling-ai": {
+    "description": "可灵 Kling: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "capcut": {
+    "description": "剪映 CapCut: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "suno": {
+    "description": "Suno: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "udio": {
+    "description": "Udio: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "elevenlabs": {
+    "description": "ElevenLabs: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "otter": {
+    "description": "Otter.ai: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "cursor": {
+    "description": "Cursor: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "github-copilot": {
+    "description": "GitHub Copilot: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "windsurf": {
+    "description": "Windsurf: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "v0": {
+    "description": "v0: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "replit": {
+    "description": "Replit: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "vercel": {
+    "description": "Vercel: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "notion": {
+    "description": "Notion: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "obsidian": {
+    "description": "Obsidian: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "gamma": {
+    "description": "Gamma: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "n8n": {
+    "description": "n8n: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "make": {
+    "description": "Make: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "zapier": {
+    "description": "Zapier: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "deepl": {
+    "description": "DeepL: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "immersive-translate": {
+    "description": "沉浸式翻译: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "elicit": {
+    "description": "Elicit: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "consensus": {
+    "description": "Consensus: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "character-ai": {
+    "description": "Character.AI: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "anthropic": {
+    "description": "Anthropic: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "openai-platform": {
+    "description": "OpenAI Platform: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "langchain": {
+    "description": "LangChain: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "ollama": {
+    "description": "Ollama: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "miro": {
+    "description": "Miro: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "linear": {
+    "description": "Linear: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "notebooklm": {
+    "description": "NotebookLM: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "grammarly": {
+    "description": "Grammarly: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "jasper": {
+    "description": "Jasper: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "heygen": {
+    "description": "HeyGen: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "synthesia": {
+    "description": "Synthesia: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "luma-dream-machine": {
+    "description": "Luma Dream Machine: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "pixverse": {
+    "description": "PixVerse: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "stability-ai": {
+    "description": "Stability AI: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "cohere": {
+    "description": "Cohere: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "assemblyai": {
+    "description": "AssemblyAI: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "murf": {
+    "description": "Murf: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "feishu": {
+    "description": "飞书: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "tencent-meeting": {
+    "description": "腾讯会议: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "descript": {
+    "description": "Descript: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "scribbr": {
+    "description": "Scribbr: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "semantic-scholar": {
+    "description": "Semantic Scholar: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "arxiv": {
+    "description": "arXiv: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "kaggle": {
+    "description": "Kaggle: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "wandb": {
+    "description": "Weights & Biases: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "mistral-ai": {
+    "description": "Mistral AI: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "groq": {
+    "description": "Groq: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "xai-grok": {
+    "description": "Grok: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "replicate": {
+    "description": "Replicate: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "fal": {
+    "description": "fal: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "together-ai": {
+    "description": "Together AI: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "fireworks-ai": {
+    "description": "Fireworks AI: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "openrouter": {
+    "description": "OpenRouter: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "siliconflow": {
+    "description": "硅基流动 SiliconFlow: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "modelscope": {
+    "description": "魔搭 ModelScope: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "dify": {
+    "description": "Dify: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "flowise": {
+    "description": "Flowise: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "tabnine": {
+    "description": "Tabnine: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "amazon-q": {
+    "description": "Amazon Q: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "sourcegraph-cody": {
+    "description": "Sourcegraph Cody: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "continue-dev": {
+    "description": "Continue: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "aider": {
+    "description": "Aider: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "cline": {
+    "description": "Cline: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "supermaven": {
+    "description": "Supermaven: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "bolt-new": {
+    "description": "Bolt.new: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "stackblitz": {
+    "description": "StackBlitz: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "codesandbox": {
+    "description": "CodeSandbox: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "framer": {
+    "description": "Framer: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "webflow": {
+    "description": "Webflow: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "photoroom": {
+    "description": "PhotoRoom: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "clipdrop": {
+    "description": "Clipdrop: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "chatpdf": {
+    "description": "ChatPDF: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "humata": {
+    "description": "Humata AI: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "scispace": {
+    "description": "SciSpace: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "scholarcy": {
+    "description": "Scholarcy: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "tldraw": {
+    "description": "tldraw: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "logseq": {
+    "description": "Logseq: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "clickup": {
+    "description": "ClickUp: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "airtable": {
+    "description": "Airtable: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "lumen5": {
+    "description": "Lumen5: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "invideo": {
+    "description": "InVideo: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "beautiful-ai": {
+    "description": "Beautiful.ai: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "tavily": {
+    "description": "Tavily: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "exa": {
+    "description": "Exa: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "you-com": {
+    "description": "You.com: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "phind": {
+    "description": "Phind: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "jina-ai": {
+    "description": "Jina AI: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "mem0": {
+    "description": "Mem0: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "comet-browser": {
+    "description": "Comet: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "brave-leo": {
+    "description": "Brave Leo: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "raycast": {
+    "description": "Raycast: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "alfred": {
+    "description": "Alfred: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "loom": {
+    "description": "Loom: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "riverside": {
+    "description": "Riverside: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "napkin-ai": {
+    "description": "Napkin AI: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "tome": {
+    "description": "Tome: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "spline": {
+    "description": "Spline: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "meshy": {
+    "description": "Meshy: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  }
+}

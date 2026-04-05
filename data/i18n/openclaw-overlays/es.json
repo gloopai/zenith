@@ -1,0 +1,458 @@
+{
+  "1password": {
+    "description": "1Password: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/1password/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Seguridad / Contraseñas"
+  },
+  "apple-notes": {
+    "description": "Apple Notes: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/apple-notes/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ecosistema Apple"
+  },
+  "apple-reminders": {
+    "description": "Apple Reminders: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/apple-reminders/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ecosistema Apple"
+  },
+  "bear-notes": {
+    "description": "Bear Notes: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/bear-notes/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ecosistema Apple"
+  },
+  "blogwatcher": {
+    "description": "BlogWatcher: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/blogwatcher/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Información / Suscripciones"
+  },
+  "blucli": {
+    "description": "blucli: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/blucli/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Hogar inteligente"
+  },
+  "bluebubbles": {
+    "description": "BlueBubbles: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/bluebubbles/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Mensajería"
+  },
+  "camsnap": {
+    "description": "CamSnap: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/camsnap/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Medios / Captura"
+  },
+  "canvas": {
+    "description": "Canvas: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/canvas/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Colaboración / Lienzo"
+  },
+  "clawflow": {
+    "description": "Clawflow: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/clawflow/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Automatización / Flujo de trabajo"
+  },
+  "clawflow-inbox-triage": {
+    "description": "Clawflow Inbox Triage: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/clawflow-inbox-triage/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Automatización / Flujo de trabajo"
+  },
+  "clawhub": {
+    "description": "ClawHub: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/clawhub/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ecosistema / Registro"
+  },
+  "coding-agent": {
+    "description": "Coding Agent: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/coding-agent/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Desarrollo / Código"
+  },
+  "discord": {
+    "description": "Discord: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/discord/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Mensajería"
+  },
+  "eightctl": {
+    "description": "eightctl: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/eightctl/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Herramientas / CLI"
+  },
+  "gemini": {
+    "description": "Gemini CLI: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/gemini/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Desarrollo / Código"
+  },
+  "gh-issues": {
+    "description": "GitHub Issues: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/gh-issues/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Desarrollo / Código"
+  },
+  "gifgrep": {
+    "description": "gifgrep: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/gifgrep/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Medios / Captura"
+  },
+  "github": {
+    "description": "GitHub: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/github/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Desarrollo / Código"
+  },
+  "gog": {
+    "description": "gog: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/gog/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Herramientas / CLI"
+  },
+  "goplaces": {
+    "description": "goplaces: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/goplaces/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Vida / Lugares"
+  },
+  "healthcheck": {
+    "description": "Healthcheck: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/healthcheck/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Operaciones / Monitoreo"
+  },
+  "himalaya": {
+    "description": "Himalaya: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/himalaya/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Correo"
+  },
+  "imsg": {
+    "description": "iMessage: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/imsg/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Mensajería"
+  },
+  "mcporter": {
+    "description": "McPorter: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/mcporter/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Desarrollo / Integraciones"
+  },
+  "model-usage": {
+    "description": "Model Usage: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/model-usage/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Operaciones / Monitoreo"
+  },
+  "nano-pdf": {
+    "description": "nano-pdf: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/nano-pdf/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Documentos / PDF"
+  },
+  "node-connect": {
+    "description": "node-connect: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/node-connect/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Desarrollo / Integraciones"
+  },
+  "notion": {
+    "description": "Notion: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/notion/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Documentos / Base de conocimiento"
+  },
+  "obsidian": {
+    "description": "Obsidian: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/obsidian/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Documentos / Base de conocimiento"
+  },
+  "openai-whisper": {
+    "description": "OpenAI Whisper（本地）: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/openai-whisper/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Voz / Transcripción"
+  },
+  "openai-whisper-api": {
+    "description": "OpenAI Whisper（API）: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/openai-whisper-api/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Voz / Transcripción"
+  },
+  "openhue": {
+    "description": "OpenHue: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/openhue/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Hogar inteligente"
+  },
+  "oracle": {
+    "description": "Oracle: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/oracle/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Herramientas / CLI"
+  },
+  "ordercli": {
+    "description": "ordercli: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/ordercli/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Vida / Servicios"
+  },
+  "peekaboo": {
+    "description": "Peekaboo: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/peekaboo/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Sistema / Escritorio"
+  },
+  "sag": {
+    "description": "SAG: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/sag/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Sistema / Automatización"
+  },
+  "session-logs": {
+    "description": "Session Logs: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/session-logs/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Operaciones / Monitoreo"
+  },
+  "sherpa-onnx-tts": {
+    "description": "Sherpa ONNX TTS: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/sherpa-onnx-tts/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Voz / Síntesis"
+  },
+  "skill-creator": {
+    "description": "Skill Creator: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/skill-creator/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ecosistema / Desarrollo"
+  },
+  "slack": {
+    "description": "Slack: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/slack/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Mensajería"
+  },
+  "songsee": {
+    "description": "Songsee: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/songsee/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Medios / Música"
+  },
+  "sonoscli": {
+    "description": "sonoscli: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/sonoscli/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Hogar inteligente"
+  },
+  "spotify-player": {
+    "description": "Spotify Player: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/spotify-player/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Medios / Música"
+  },
+  "summarize": {
+    "description": "Summarize: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/summarize/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Documentos / Resúmenes"
+  },
+  "things-mac": {
+    "description": "Things（macOS）: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/things-mac/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ecosistema Apple"
+  },
+  "tmux": {
+    "description": "tmux: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/tmux/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Desarrollo / Terminal"
+  },
+  "trello": {
+    "description": "Trello: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/trello/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Colaboración / Proyectos"
+  },
+  "video-frames": {
+    "description": "Video Frames: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/video-frames/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Medios / Video"
+  },
+  "voice-call": {
+    "description": "Voice Call: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/voice-call/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Voz / Llamadas"
+  },
+  "wacli": {
+    "description": "wacli: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/wacli/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Mensajería"
+  },
+  "weather": {
+    "description": "Weather: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/weather/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Vida / Clima"
+  },
+  "xurl": {
+    "description": "xurl: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/xurl/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Social"
+  },
+  "bibtex-normalize": {
+    "description": "bibtex-normalize（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/bibtex-normalize/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 学术 / 文献"
+  },
+  "browser-bookmark-digest": {
+    "description": "browser-bookmark-digest（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/browser-bookmark-digest/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 信息 / 订阅"
+  },
+  "calendar-sync": {
+    "description": "calendar-sync（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/calendar-sync/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 日历 / 效率"
+  },
+  "citation-check": {
+    "description": "citation-check（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/citation-check/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 搜索 / 研究"
+  },
+  "codeowners-suggest": {
+    "description": "codeowners-suggest（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/codeowners-suggest/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 开发 / 代码"
+  },
+  "cron-newsletter": {
+    "description": "cron-newsletter（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/cron-newsletter/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 自动化"
+  },
+  "customer-ticket-draft": {
+    "description": "customer-ticket-draft（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/customer-ticket-draft/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 支持 / CRM"
+  },
+  "db-readonly-query": {
+    "description": "db-readonly-query（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/db-readonly-query/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 数据 / SQL"
+  },
+  "discord-announce": {
+    "description": "discord-announce（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/discord-announce/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 通讯 / 消息"
+  },
+  "docker-health": {
+    "description": "docker-health（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/docker-health/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 运维 / 监控"
+  },
+  "edge-config-sync": {
+    "description": "edge-config-sync（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/edge-config-sync/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 边缘 / 部署"
+  },
+  "edu-quiz-gen": {
+    "description": "edu-quiz-gen（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/edu-quiz-gen/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 教育 / 学习"
+  },
+  "email-triage": {
+    "description": "email-triage（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/email-triage/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 邮件 / 效率"
+  },
+  "eval-harness": {
+    "description": "eval-harness（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/eval-harness/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 开发 / 质量"
+  },
+  "figma-to-code": {
+    "description": "figma-to-code（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/figma-to-code/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 设计 / 前端"
+  },
+  "fitness-plan-log": {
+    "description": "fitness-plan-log（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/fitness-plan-log/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 健康 / 生活"
+  },
+  "game-mod-docs": {
+    "description": "game-mod-docs（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/game-mod-docs/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 游戏 / 文档"
+  },
+  "gdrive-export": {
+    "description": "gdrive-export（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/gdrive-export/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 云存储"
+  },
+  "github-pr-review": {
+    "description": "github-pr-review（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/github-pr-review/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 开发 / 代码"
+  },
+  "graphql-introspect-docs": {
+    "description": "graphql-introspect-docs（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/graphql-introspect-docs/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 开发 / API"
+  },
+  "hr-screening-helper": {
+    "description": "hr-screening-helper（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/hr-screening-helper/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 招聘 / 合规"
+  },
+  "i18n-copy-review": {
+    "description": "i18n-copy-review（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/i18n-copy-review/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 翻译 / 语言"
+  },
+  "image-alt-text": {
+    "description": "image-alt-text（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/image-alt-text/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 无障碍 / 媒体"
+  },
+  "invoice-parse": {
+    "description": "invoice-parse（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/invoice-parse/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 财务 / 文档"
+  },
+  "jira-bridge": {
+    "description": "jira-bridge（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/jira-bridge/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 协作 / 项目"
+  },
+  "k8s-logs-tail": {
+    "description": "k8s-logs-tail（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/k8s-logs-tail/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 运维 / 监控"
+  },
+  "kids-story-night": {
+    "description": "kids-story-night（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/kids-story-night/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 家庭 / 趣味"
+  },
+  "latex-build-fix": {
+    "description": "latex-build-fix（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/latex-build-fix/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 学术 / 排版"
+  },
+  "legal-clause-compare": {
+    "description": "legal-clause-compare（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/legal-clause-compare/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 法律 / 合规"
+  },
+  "license-audit": {
+    "description": "license-audit（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/license-audit/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 开发 / 合规"
+  },
+  "linear-roadmap-digest": {
+    "description": "linear-roadmap-digest（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/linear-roadmap-digest/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 协作 / 项目"
+  },
+  "med-terminology-check": {
+    "description": "med-terminology-check（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/med-terminology-check/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 医疗 / 合规"
+  },
+  "meetings-recap": {
+    "description": "meetings-recap（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/meetings-recap/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 会议 / 效率"
+  },
+  "my-weather-skill": {
+    "description": "my-weather-skill（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/my-weather-skill/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 入门模板"
+  },
+  "notion-publish": {
+    "description": "notion-publish（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/notion-publish/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 文档 / 知识库"
+  },
+  "oncall-summary": {
+    "description": "oncall-summary（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/oncall-summary/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 运维 / 值班"
+  },
+  "openai-image-gen": {
+    "description": "openai-image-gen（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/openai-image-gen/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 图像批处理"
+  },
+  "openapi-mock": {
+    "description": "openapi-mock（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/openapi-mock/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 开发 / API"
+  },
+  "pdf-table-extract": {
+    "description": "pdf-table-extract（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/pdf-table-extract/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 文档 / PDF"
+  },
+  "photo-organize": {
+    "description": "photo-organize（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/photo-organize/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 媒体 / 整理"
+  },
+  "pii-redact": {
+    "description": "pii-redact（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/pii-redact/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 安全 / 合规"
+  },
+  "podcast-chapter-markers": {
+    "description": "podcast-chapter-markers（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/podcast-chapter-markers/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 播客 / 媒体"
+  },
+  "prompt-library-sync": {
+    "description": "prompt-library-sync（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/prompt-library-sync/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 开发 / 提示词"
+  },
+  "queue-worker-skill": {
+    "description": "queue-worker-skill（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/queue-worker-skill/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 自动化 / 集成"
+  },
+  "recipe-from-fridge": {
+    "description": "recipe-from-fridge（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/recipe-from-fridge/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 生活 / 饮食"
+  },
+  "redteam-safety": {
+    "description": "redteam-safety（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/redteam-safety/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 安全 / 合规"
+  },
+  "release-notes-gen": {
+    "description": "release-notes-gen（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/release-notes-gen/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 开发 / 发布"
+  },
+  "research-brief": {
+    "description": "research-brief（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/research-brief/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 搜索 / 研究"
+  },
+  "rss-ingest": {
+    "description": "rss-ingest（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/rss-ingest/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 信息 / 订阅"
+  },
+  "s3-presign-upload": {
+    "description": "s3-presign-upload（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/s3-presign-upload/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 云存储"
+  },
+  "sentry-triage": {
+    "description": "sentry-triage（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/sentry-triage/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 运维 / 监控"
+  },
+  "slack-digest": {
+    "description": "slack-digest（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/slack-digest/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 通讯 / 消息"
+  },
+  "smart-home-scenes": {
+    "description": "smart-home-scenes（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/smart-home-scenes/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 智能家居"
+  },
+  "stripe-webhook-helper": {
+    "description": "stripe-webhook-helper（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/stripe-webhook-helper/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 支付 / 集成"
+  },
+  "subtitle-translate": {
+    "description": "subtitle-translate（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/subtitle-translate/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 翻译 / 媒体"
+  },
+  "telegram-notify": {
+    "description": "telegram-notify（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/telegram-notify/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 通讯 / 消息"
+  },
+  "terraform-plan-summary": {
+    "description": "terraform-plan-summary（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/terraform-plan-summary/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 运维 / IaC"
+  },
+  "travel-packing-list": {
+    "description": "travel-packing-list（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/travel-packing-list/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 出行 / 生活"
+  },
+  "voice-memo-transcribe": {
+    "description": "voice-memo-transcribe（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/voice-memo-transcribe/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 语音 / 转写"
+  },
+  "wasm-bundle-analyze": {
+    "description": "wasm-bundle-analyze（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/wasm-bundle-analyze/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 开发 / 性能"
+  },
+  "webhook-ingest": {
+    "description": "webhook-ingest（示例）: Ejemplo de nombre comunitario; puede no existir como carpeta incluida por defecto—implemente su propio SKILL.md si hace falta. Sigue el diseño AgentSkills en skills/webhook-ingest/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Ejemplo · 自动化 / 集成"
+  }
+}

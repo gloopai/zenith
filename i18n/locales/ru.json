@@ -1,0 +1,125 @@
+{
+  "layout": {
+    "tagline": "Каталог AI · Новости",
+    "home": "Главная",
+    "nav": "Инструменты",
+    "openclaw": "OpenClaw",
+    "news": "Новости",
+    "exploreTools": "Смотреть инструменты",
+    "menu": "Меню",
+    "footerDescription": "Отобранные AI‑инструменты и отраслевые новости в одном месте.",
+    "sitemap": "Карта сайта",
+    "language": "Язык",
+    "localeNames": {
+      "en": "Английский",
+      "zh-CN": "Китайский (упрощённый)",
+      "zh-TW": "Китайский (традиционный)",
+      "ja": "Японский",
+      "ko": "Корейский",
+      "ru": "Русский",
+      "hi": "Хинди",
+      "es": "Испанский"
+    }
+  },
+  "home": {
+    "eyebrow": "Plunget",
+    "titleLine1": "Находите полезные AI‑инструменты,",
+    "titleLine2": "следите за изменениями",
+    "subtitle": "Подборка продуктов и ссылок, новости и заметки — аккуратная вёрстка для телефона и десктопа.",
+    "enterNav": "К каталогу",
+    "openclawSkills": "Навыки OpenClaw",
+    "readNews": "Читать новости",
+    "featuredTools": "Избранное",
+    "featuredToolsHint": "Выбор редакции — карточка ведёт к описанию и сайту.",
+    "all": "Все",
+    "latestNews": "Свежие материалы",
+    "latestNewsHint": "По дате — нажмите заголовок для полного текста.",
+    "openclawSectionTitle": "Навыки OpenClaw",
+    "openclawSectionHint": "Пакеты AgentSkills: официальные навыки и примеры, ссылки на GitHub и документацию.",
+    "allSkills": "Все навыки",
+    "official": "Официально",
+    "example": "Пример"
+  },
+  "navPage": {
+    "eyebrow": "Каталог",
+    "title": "Каталог AI‑инструментов",
+    "subtitle": "Фильтр по категории или поиск. На странице — кратко и ссылка на официальный сайт.",
+    "all": "Все",
+    "searchLabel": "Поиск",
+    "searchPlaceholder": "Название, описание или теги",
+    "empty": "Ничего не найдено — измените категорию или запрос."
+  },
+  "toolPage": {
+    "breadcrumb": "Инструменты",
+    "visitSite": "Перейти на сайт",
+    "opensNewWindow": "Открывается в новой вкладке",
+    "useCasesTitle": "Когда пригодится",
+    "useCasesBody": "Краткое описание поможет понять, подходит ли инструмент. Если вариантов много, сначала определите частоту использования, бюджет и требования к данным.",
+    "ogSuffix": "AI‑инструмент"
+  },
+  "newsPage": {
+    "eyebrow": "Статьи",
+    "title": "Новости",
+    "subtitle": "Тренды, обновления продуктов и короткие заметки — по времени.",
+    "empty": "Пока нет статей."
+  },
+  "articlePage": {
+    "breadcrumb": "Новости"
+  },
+  "openclawPage": {
+    "eyebrow": "OpenClaw",
+    "title": "Каталог навыков",
+    "introBeforeSkillsLink": "OpenClaw использует пакеты навыков, совместимые с ",
+    "introAfterSkillsLinkBeforeCode": ", в формате ",
+    "introAfterCode": ", чтобы учить агентов вызывать CLI, API и цепочки инструментов. Ниже — записи из официального репозитория ",
+    "introAfterSkillsDirLink": ", а также распространённые примеры ",
+    "introStrong": "пользовательских имён",
+    "introAfterStrong": " из документации и туториалов (помечены как примеры). Подробнее — на ",
+    "introAfterClawhub": " и в ",
+    "introEnd": ".",
+    "docsLink": "Официальная документация",
+    "filterAll": "Все",
+    "filterOfficial": "Встроенные",
+    "filterExample": "Пользовательские примеры",
+    "searchLabel": "Поиск",
+    "searchPlaceholder": "Название, описание или теги",
+    "count": "Записей: {count}",
+    "filterApplied": "Фильтр включён",
+    "empty": "Нет результатов по фильтру."
+  },
+  "openclawSkillPage": {
+    "breadcrumb": "Навыки OpenClaw",
+    "badgeOfficial": "Из официального репозитория",
+    "badgeExample": "Пример пользовательского имени",
+    "featured": "Избранное",
+    "viewGithub": "Открыть на GitHub",
+    "createGuide": "Как создать навык",
+    "opensNewWindow": "Открывается в новой вкладке",
+    "notesTitle": "Примечание",
+    "noteOfficial1": "Пакет находится в ",
+    "noteOfficial2": " репозитория OpenClaw. Появится ли он в сессии агента, зависит от переменных среды, бинарных ограничений и ",
+    "noteOfficial3": ".",
+    "noteExampleBefore": "Это типичный для туториалов и сообщества ",
+    "noteExampleStrong": "пример разбиения имён и возможностей",
+    "noteExampleAfter": "; это не стандартная папка репозитория. Реализуя, создайте ",
+    "noteExampleAfterCode": " по спецификации AgentSkills.",
+    "ogSuffix": "OpenClaw Skill"
+  },
+  "errors": {
+    "toolNotFound": "Инструмент не найден",
+    "articleNotFound": "Статья не найдена",
+    "skillNotFound": "Навык не найден"
+  },
+  "seo": {
+    "siteDescription": "Каталог AI‑инструментов и новости: продукты и обновления отрасли.",
+    "homeTitle": "Главная",
+    "homeDescription": "Plunget: AI‑инструменты и новости. Удобно на десктопе и в мобильном браузере.",
+    "navTitle": "Каталог AI",
+    "navDescription": "Обзор AI‑инструментов: категории, поиск и страницы с внешними ссылками.",
+    "newsTitle": "Новости",
+    "newsDescription": "Новости и мнения об AI: отдельные страницы с анонсом и текстом.",
+    "openclawTitle": "Навыки OpenClaw",
+    "openclawDescription": "Каталог AgentSkills для OpenClaw: официальные навыки и примеры имён со ссылками.",
+    "ogHomeTitle": "Plunget"
+  }
+}

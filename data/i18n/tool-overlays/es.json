@@ -1,0 +1,374 @@
+{
+  "chatgpt": {
+    "description": "Asistente estelar de OpenAI: conversación multivuelta, navegación opcional (según plan y región), cargas y análisis ligero. Útil para borradores, fragmentos de código y estudio—consulta modelos y políticas en el sitio oficial."
+  },
+  "claude": {
+    "description": "Modelo asistente de Anthropic, reconocido por contexto largo y razonamiento cuidadoso; sólido para revisión de código, escritura técnica y documentos extensos (web o API)."
+  },
+  "google-gemini": {
+    "description": "Familia multimodal de Google ligada a cuentas y Workspace; buena para respuestas con búsqueda, borradores de correo y resúmenes rápidos donde esté disponible."
+  },
+  "microsoft-copilot": {
+    "description": "Asistente de Microsoft en Windows, Edge y Microsoft 365 para borradores, resúmenes de página y automatización ligera—revisa las reglas de datos empresariales con M365."
+  },
+  "deepseek": {
+    "description": "Stack de modelos amigable con chino, chat web y API; suele destacar en código/matemáticas/precio—confirma cumplimiento regional antes de producción."
+  },
+  "kimi": {
+    "description": "Asistente de Moonshot centrado en chino, con foco en documentos largos y resúmenes de enlaces/archivos—útil para papers, contratos e hilos largos."
+  },
+  "tongyi-qianwen": {
+    "description": "Suite de modelos y apps de Alibaba para chat, plugins y escenarios sectoriales—encaja con equipos en Alibaba/DingTalk; particulares pueden probar el cliente web."
+  },
+  "ernie-bot": {
+    "description": "Producto de chat en chino de Baidu vinculado a la búsqueda y servicios Baidu—consulta funciones y planes en el sitio."
+  },
+  "doubao": {
+    "description": "Hub de asistentes de ByteDance con chat y herramientas creativas; práctico para plantillas e integraciones locales—compara subproductos si necesitas exportar."
+  },
+  "yuanbao": {
+    "description": "腾讯元宝: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "perplexity": {
+    "description": "Perplexity: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "poe": {
+    "description": "Poe: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "hugging-face": {
+    "description": "Hugging Face: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "midjourney": {
+    "description": "Midjourney: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "dall-e": {
+    "description": "DALL·E: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "adobe-firefly": {
+    "description": "Adobe Firefly: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "leonardo-ai": {
+    "description": "Leonardo.Ai: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "ideogram": {
+    "description": "Ideogram: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "remove-bg": {
+    "description": "remove.bg: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "canva": {
+    "description": "Canva（Magic Studio）: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "figma": {
+    "description": "Figma: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "runway": {
+    "description": "Runway: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "pika": {
+    "description": "Pika: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "kling-ai": {
+    "description": "可灵 Kling: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "capcut": {
+    "description": "剪映 CapCut: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "suno": {
+    "description": "Suno: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "udio": {
+    "description": "Udio: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "elevenlabs": {
+    "description": "ElevenLabs: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "otter": {
+    "description": "Otter.ai: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "cursor": {
+    "description": "Cursor: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "github-copilot": {
+    "description": "GitHub Copilot: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "windsurf": {
+    "description": "Windsurf: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "v0": {
+    "description": "v0: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "replit": {
+    "description": "Replit: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "vercel": {
+    "description": "Vercel: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "notion": {
+    "description": "Notion: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "obsidian": {
+    "description": "Obsidian: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "gamma": {
+    "description": "Gamma: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "n8n": {
+    "description": "n8n: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "make": {
+    "description": "Make: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "zapier": {
+    "description": "Zapier: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "deepl": {
+    "description": "DeepL: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "immersive-translate": {
+    "description": "沉浸式翻译: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "elicit": {
+    "description": "Elicit: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "consensus": {
+    "description": "Consensus: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "character-ai": {
+    "description": "Character.AI: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "anthropic": {
+    "description": "Anthropic: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "openai-platform": {
+    "description": "OpenAI Platform: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "langchain": {
+    "description": "LangChain: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "ollama": {
+    "description": "Ollama: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "miro": {
+    "description": "Miro: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "linear": {
+    "description": "Linear: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "notebooklm": {
+    "description": "NotebookLM: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "grammarly": {
+    "description": "Grammarly: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "jasper": {
+    "description": "Jasper: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "heygen": {
+    "description": "HeyGen: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "synthesia": {
+    "description": "Synthesia: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "luma-dream-machine": {
+    "description": "Luma Dream Machine: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "pixverse": {
+    "description": "PixVerse: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "stability-ai": {
+    "description": "Stability AI: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "cohere": {
+    "description": "Cohere: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "assemblyai": {
+    "description": "AssemblyAI: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "murf": {
+    "description": "Murf: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "feishu": {
+    "description": "飞书: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "tencent-meeting": {
+    "description": "腾讯会议: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "descript": {
+    "description": "Descript: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "scribbr": {
+    "description": "Scribbr: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "semantic-scholar": {
+    "description": "Semantic Scholar: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "arxiv": {
+    "description": "arXiv: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "kaggle": {
+    "description": "Kaggle: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "wandb": {
+    "description": "Weights & Biases: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "mistral-ai": {
+    "description": "Mistral AI: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "groq": {
+    "description": "Groq: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "xai-grok": {
+    "description": "Grok: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "replicate": {
+    "description": "Replicate: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "fal": {
+    "description": "fal: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "together-ai": {
+    "description": "Together AI: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "fireworks-ai": {
+    "description": "Fireworks AI: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "openrouter": {
+    "description": "OpenRouter: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "siliconflow": {
+    "description": "硅基流动 SiliconFlow: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "modelscope": {
+    "description": "魔搭 ModelScope: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "dify": {
+    "description": "Dify: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "flowise": {
+    "description": "Flowise: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "tabnine": {
+    "description": "Tabnine: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "amazon-q": {
+    "description": "Amazon Q: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "sourcegraph-cody": {
+    "description": "Sourcegraph Cody: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "continue-dev": {
+    "description": "Continue: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "aider": {
+    "description": "Aider: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "cline": {
+    "description": "Cline: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "supermaven": {
+    "description": "Supermaven: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "bolt-new": {
+    "description": "Bolt.new: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "stackblitz": {
+    "description": "StackBlitz: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "codesandbox": {
+    "description": "CodeSandbox: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "framer": {
+    "description": "Framer: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "webflow": {
+    "description": "Webflow: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "photoroom": {
+    "description": "PhotoRoom: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "clipdrop": {
+    "description": "Clipdrop: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "chatpdf": {
+    "description": "ChatPDF: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "humata": {
+    "description": "Humata AI: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "scispace": {
+    "description": "SciSpace: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "scholarcy": {
+    "description": "Scholarcy: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "tldraw": {
+    "description": "tldraw: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "logseq": {
+    "description": "Logseq: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "clickup": {
+    "description": "ClickUp: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "airtable": {
+    "description": "Airtable: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "lumen5": {
+    "description": "Lumen5: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "invideo": {
+    "description": "InVideo: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "beautiful-ai": {
+    "description": "Beautiful.ai: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "tavily": {
+    "description": "Tavily: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "exa": {
+    "description": "Exa: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "you-com": {
+    "description": "You.com: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "phind": {
+    "description": "Phind: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "jina-ai": {
+    "description": "Jina AI: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "mem0": {
+    "description": "Mem0: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "comet-browser": {
+    "description": "Comet: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "brave-leo": {
+    "description": "Brave Leo: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "raycast": {
+    "description": "Raycast: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "alfred": {
+    "description": "Alfred: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "loom": {
+    "description": "Loom: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "riverside": {
+    "description": "Riverside: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "napkin-ai": {
+    "description": "Napkin AI: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "tome": {
+    "description": "Tome: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "spline": {
+    "description": "Spline: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "meshy": {
+    "description": "Meshy: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  }
+}

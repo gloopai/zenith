@@ -1,0 +1,458 @@
+{
+  "1password": {
+    "description": "1Password: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/1password/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "安全／密碼"
+  },
+  "apple-notes": {
+    "description": "Apple Notes: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/apple-notes/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "Apple 生態"
+  },
+  "apple-reminders": {
+    "description": "Apple Reminders: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/apple-reminders/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "Apple 生態"
+  },
+  "bear-notes": {
+    "description": "Bear Notes: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/bear-notes/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "Apple 生態"
+  },
+  "blogwatcher": {
+    "description": "BlogWatcher: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/blogwatcher/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "資訊／訂閱"
+  },
+  "blucli": {
+    "description": "blucli: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/blucli/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "智慧家居"
+  },
+  "bluebubbles": {
+    "description": "BlueBubbles: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/bluebubbles/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "通訊／訊息"
+  },
+  "camsnap": {
+    "description": "CamSnap: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/camsnap/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "媒體／擷取"
+  },
+  "canvas": {
+    "description": "Canvas: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/canvas/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "協作／畫布"
+  },
+  "clawflow": {
+    "description": "Clawflow: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/clawflow/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自動化／工作流程"
+  },
+  "clawflow-inbox-triage": {
+    "description": "Clawflow Inbox Triage: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/clawflow-inbox-triage/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自動化／工作流程"
+  },
+  "clawhub": {
+    "description": "ClawHub: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/clawhub/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "生態／登錄庫"
+  },
+  "coding-agent": {
+    "description": "Coding Agent: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/coding-agent/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "開發／程式碼"
+  },
+  "discord": {
+    "description": "Discord: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/discord/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "通訊／訊息"
+  },
+  "eightctl": {
+    "description": "eightctl: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/eightctl/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "工具鏈／CLI"
+  },
+  "gemini": {
+    "description": "Gemini CLI: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/gemini/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "開發／程式碼"
+  },
+  "gh-issues": {
+    "description": "GitHub Issues: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/gh-issues/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "開發／程式碼"
+  },
+  "gifgrep": {
+    "description": "gifgrep: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/gifgrep/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "媒體／擷取"
+  },
+  "github": {
+    "description": "GitHub: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/github/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "開發／程式碼"
+  },
+  "gog": {
+    "description": "gog: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/gog/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "工具鏈／CLI"
+  },
+  "goplaces": {
+    "description": "goplaces: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/goplaces/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "生活／地點"
+  },
+  "healthcheck": {
+    "description": "Healthcheck: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/healthcheck/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "維運／監控"
+  },
+  "himalaya": {
+    "description": "Himalaya: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/himalaya/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "電子郵件"
+  },
+  "imsg": {
+    "description": "iMessage: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/imsg/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "通訊／訊息"
+  },
+  "mcporter": {
+    "description": "McPorter: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/mcporter/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "開發／整合"
+  },
+  "model-usage": {
+    "description": "Model Usage: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/model-usage/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "維運／監控"
+  },
+  "nano-pdf": {
+    "description": "nano-pdf: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/nano-pdf/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "文件／PDF"
+  },
+  "node-connect": {
+    "description": "node-connect: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/node-connect/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "開發／整合"
+  },
+  "notion": {
+    "description": "Notion: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/notion/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "文件／知識庫"
+  },
+  "obsidian": {
+    "description": "Obsidian: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/obsidian/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "文件／知識庫"
+  },
+  "openai-whisper": {
+    "description": "OpenAI Whisper（本地）: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/openai-whisper/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "語音／轉寫"
+  },
+  "openai-whisper-api": {
+    "description": "OpenAI Whisper（API）: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/openai-whisper-api/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "語音／轉寫"
+  },
+  "openhue": {
+    "description": "OpenHue: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/openhue/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "智慧家居"
+  },
+  "oracle": {
+    "description": "Oracle: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/oracle/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "工具鏈／CLI"
+  },
+  "ordercli": {
+    "description": "ordercli: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/ordercli/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "生活／服務"
+  },
+  "peekaboo": {
+    "description": "Peekaboo: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/peekaboo/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "系統／桌面"
+  },
+  "sag": {
+    "description": "SAG: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/sag/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "系統／自動化"
+  },
+  "session-logs": {
+    "description": "Session Logs: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/session-logs/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "維運／監控"
+  },
+  "sherpa-onnx-tts": {
+    "description": "Sherpa ONNX TTS: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/sherpa-onnx-tts/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "語音／合成"
+  },
+  "skill-creator": {
+    "description": "Skill Creator: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/skill-creator/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "生態／開發"
+  },
+  "slack": {
+    "description": "Slack: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/slack/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "通訊／訊息"
+  },
+  "songsee": {
+    "description": "Songsee: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/songsee/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "媒體／音樂"
+  },
+  "sonoscli": {
+    "description": "sonoscli: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/sonoscli/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "智慧家居"
+  },
+  "spotify-player": {
+    "description": "Spotify Player: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/spotify-player/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "媒體／音樂"
+  },
+  "summarize": {
+    "description": "Summarize: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/summarize/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "文件／摘要"
+  },
+  "things-mac": {
+    "description": "Things（macOS）: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/things-mac/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "Apple 生態"
+  },
+  "tmux": {
+    "description": "tmux: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/tmux/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "開發／終端機"
+  },
+  "trello": {
+    "description": "Trello: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/trello/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "協作／專案"
+  },
+  "video-frames": {
+    "description": "Video Frames: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/video-frames/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "媒體／影片"
+  },
+  "voice-call": {
+    "description": "Voice Call: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/voice-call/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "語音／通話"
+  },
+  "wacli": {
+    "description": "wacli: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/wacli/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "通訊／訊息"
+  },
+  "weather": {
+    "description": "Weather: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/weather/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "生活／天氣"
+  },
+  "xurl": {
+    "description": "xurl: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/xurl/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "通訊／社交"
+  },
+  "bibtex-normalize": {
+    "description": "bibtex-normalize（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/bibtex-normalize/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 学术 / 文献"
+  },
+  "browser-bookmark-digest": {
+    "description": "browser-bookmark-digest（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/browser-bookmark-digest/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 信息 / 订阅"
+  },
+  "calendar-sync": {
+    "description": "calendar-sync（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/calendar-sync/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 日历 / 效率"
+  },
+  "citation-check": {
+    "description": "citation-check（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/citation-check/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 搜索 / 研究"
+  },
+  "codeowners-suggest": {
+    "description": "codeowners-suggest（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/codeowners-suggest/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 开发 / 代码"
+  },
+  "cron-newsletter": {
+    "description": "cron-newsletter（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/cron-newsletter/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 自动化"
+  },
+  "customer-ticket-draft": {
+    "description": "customer-ticket-draft（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/customer-ticket-draft/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 支持 / CRM"
+  },
+  "db-readonly-query": {
+    "description": "db-readonly-query（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/db-readonly-query/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 数据 / SQL"
+  },
+  "discord-announce": {
+    "description": "discord-announce（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/discord-announce/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 通讯 / 消息"
+  },
+  "docker-health": {
+    "description": "docker-health（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/docker-health/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 运维 / 监控"
+  },
+  "edge-config-sync": {
+    "description": "edge-config-sync（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/edge-config-sync/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 边缘 / 部署"
+  },
+  "edu-quiz-gen": {
+    "description": "edu-quiz-gen（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/edu-quiz-gen/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 教育 / 学习"
+  },
+  "email-triage": {
+    "description": "email-triage（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/email-triage/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 邮件 / 效率"
+  },
+  "eval-harness": {
+    "description": "eval-harness（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/eval-harness/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 开发 / 质量"
+  },
+  "figma-to-code": {
+    "description": "figma-to-code（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/figma-to-code/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 设计 / 前端"
+  },
+  "fitness-plan-log": {
+    "description": "fitness-plan-log（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/fitness-plan-log/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 健康 / 生活"
+  },
+  "game-mod-docs": {
+    "description": "game-mod-docs（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/game-mod-docs/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 游戏 / 文档"
+  },
+  "gdrive-export": {
+    "description": "gdrive-export（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/gdrive-export/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 云存储"
+  },
+  "github-pr-review": {
+    "description": "github-pr-review（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/github-pr-review/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 开发 / 代码"
+  },
+  "graphql-introspect-docs": {
+    "description": "graphql-introspect-docs（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/graphql-introspect-docs/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 开发 / API"
+  },
+  "hr-screening-helper": {
+    "description": "hr-screening-helper（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/hr-screening-helper/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 招聘 / 合规"
+  },
+  "i18n-copy-review": {
+    "description": "i18n-copy-review（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/i18n-copy-review/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 翻译 / 语言"
+  },
+  "image-alt-text": {
+    "description": "image-alt-text（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/image-alt-text/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 无障碍 / 媒体"
+  },
+  "invoice-parse": {
+    "description": "invoice-parse（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/invoice-parse/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 财务 / 文档"
+  },
+  "jira-bridge": {
+    "description": "jira-bridge（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/jira-bridge/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 协作 / 项目"
+  },
+  "k8s-logs-tail": {
+    "description": "k8s-logs-tail（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/k8s-logs-tail/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 运维 / 监控"
+  },
+  "kids-story-night": {
+    "description": "kids-story-night（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/kids-story-night/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 家庭 / 趣味"
+  },
+  "latex-build-fix": {
+    "description": "latex-build-fix（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/latex-build-fix/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 学术 / 排版"
+  },
+  "legal-clause-compare": {
+    "description": "legal-clause-compare（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/legal-clause-compare/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 法律 / 合规"
+  },
+  "license-audit": {
+    "description": "license-audit（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/license-audit/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 开发 / 合规"
+  },
+  "linear-roadmap-digest": {
+    "description": "linear-roadmap-digest（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/linear-roadmap-digest/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 协作 / 项目"
+  },
+  "med-terminology-check": {
+    "description": "med-terminology-check（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/med-terminology-check/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 医疗 / 合规"
+  },
+  "meetings-recap": {
+    "description": "meetings-recap（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/meetings-recap/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 会议 / 效率"
+  },
+  "my-weather-skill": {
+    "description": "my-weather-skill（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/my-weather-skill/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 入门模板"
+  },
+  "notion-publish": {
+    "description": "notion-publish（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/notion-publish/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 文档 / 知识库"
+  },
+  "oncall-summary": {
+    "description": "oncall-summary（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/oncall-summary/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 运维 / 值班"
+  },
+  "openai-image-gen": {
+    "description": "openai-image-gen（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/openai-image-gen/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 图像批处理"
+  },
+  "openapi-mock": {
+    "description": "openapi-mock（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/openapi-mock/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 开发 / API"
+  },
+  "pdf-table-extract": {
+    "description": "pdf-table-extract（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/pdf-table-extract/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 文档 / PDF"
+  },
+  "photo-organize": {
+    "description": "photo-organize（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/photo-organize/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 媒体 / 整理"
+  },
+  "pii-redact": {
+    "description": "pii-redact（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/pii-redact/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 安全 / 合规"
+  },
+  "podcast-chapter-markers": {
+    "description": "podcast-chapter-markers（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/podcast-chapter-markers/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 播客 / 媒体"
+  },
+  "prompt-library-sync": {
+    "description": "prompt-library-sync（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/prompt-library-sync/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 开发 / 提示词"
+  },
+  "queue-worker-skill": {
+    "description": "queue-worker-skill（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/queue-worker-skill/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 自动化 / 集成"
+  },
+  "recipe-from-fridge": {
+    "description": "recipe-from-fridge（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/recipe-from-fridge/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 生活 / 饮食"
+  },
+  "redteam-safety": {
+    "description": "redteam-safety（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/redteam-safety/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 安全 / 合规"
+  },
+  "release-notes-gen": {
+    "description": "release-notes-gen（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/release-notes-gen/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 开发 / 发布"
+  },
+  "research-brief": {
+    "description": "research-brief（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/research-brief/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 搜索 / 研究"
+  },
+  "rss-ingest": {
+    "description": "rss-ingest（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/rss-ingest/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 信息 / 订阅"
+  },
+  "s3-presign-upload": {
+    "description": "s3-presign-upload（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/s3-presign-upload/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 云存储"
+  },
+  "sentry-triage": {
+    "description": "sentry-triage（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/sentry-triage/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 运维 / 监控"
+  },
+  "slack-digest": {
+    "description": "slack-digest（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/slack-digest/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 通讯 / 消息"
+  },
+  "smart-home-scenes": {
+    "description": "smart-home-scenes（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/smart-home-scenes/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 智能家居"
+  },
+  "stripe-webhook-helper": {
+    "description": "stripe-webhook-helper（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/stripe-webhook-helper/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 支付 / 集成"
+  },
+  "subtitle-translate": {
+    "description": "subtitle-translate（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/subtitle-translate/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 翻译 / 媒体"
+  },
+  "telegram-notify": {
+    "description": "telegram-notify（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/telegram-notify/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 通讯 / 消息"
+  },
+  "terraform-plan-summary": {
+    "description": "terraform-plan-summary（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/terraform-plan-summary/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 运维 / IaC"
+  },
+  "travel-packing-list": {
+    "description": "travel-packing-list（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/travel-packing-list/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 出行 / 生活"
+  },
+  "voice-memo-transcribe": {
+    "description": "voice-memo-transcribe（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/voice-memo-transcribe/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 语音 / 转写"
+  },
+  "wasm-bundle-analyze": {
+    "description": "wasm-bundle-analyze（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/wasm-bundle-analyze/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 开发 / 性能"
+  },
+  "webhook-ingest": {
+    "description": "webhook-ingest（示例）: 社群命名示例；未必有預設捆綁資料夾——必要時請自行撰寫 SKILL.md。 請依 AgentSkills 目錄規範放置於 skills/webhook-ingest/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自訂範例 · 自动化 / 集成"
+  }
+}

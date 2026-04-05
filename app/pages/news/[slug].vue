@@ -1,7 +1,7 @@
 <template>
   <article v-if="article" class="flex flex-col gap-10 lg:max-w-3xl">
     <nav class="flex items-center gap-2 text-sm text-zinc-500">
-      <NuxtLink class="transition hover:text-zinc-300" to="/news">资讯</NuxtLink>
+      <NuxtLink class="transition hover:text-zinc-300" :to="localePath('/news')">{{ t('articlePage.breadcrumb') }}</NuxtLink>
       <span class="text-zinc-700" aria-hidden="true">/</span>
       <span class="line-clamp-1 text-zinc-400">{{ article.title }}</span>
     </nav>
@@ -25,49 +25,59 @@
 <script setup lang="ts">
 import type { NewsArticle } from '~~/shared/types/site'
 
+const { t, locale } = useI18n()
+const localePath = useLocalePath()
 const route = useRoute()
-const slug = String(route.params.slug ?? '')
+const slug = computed(() => String(route.params.slug ?? ''))
 
 const { data, error } = await useAsyncData(
-  `news-${slug}`,
-  () => $fetch<{ article: NewsArticle }>(`/api/news/${encodeURIComponent(slug)}`),
+  () => `news-${slug.value}-${locale.value}`,
+  () =>
+    $fetch<{ article: NewsArticle }>(`/api/news/${encodeURIComponent(slug.value)}`, {
+      query: { locale: locale.value },
+    }),
+  { watch: [locale, slug] },
 )
 
 if (error.value || !data.value?.article) {
-  throw createError({ statusCode: 404, statusMessage: '未找到该文章' })
+  throw createError({ statusCode: 404, statusMessage: t('errors.articleNotFound') })
 }
 
-const article = data.value.article
+const article = computed(() => data.value!.article)
 
 const siteOrigin = useSiteOrigin()
-const canonical = `${siteOrigin.value}/news/${article.slug}`
+const canonical = computed(() => `${siteOrigin.value}${localePath(`/news/${article.value.slug}`)}`)
 
-const jsonLd = {
+const jsonLd = computed(() => ({
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: article.title,
-  description: article.description,
-  datePublished: article.date,
-  mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
-}
+  headline: article.value.title,
+  description: article.value.description,
+  datePublished: article.value.date,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': canonical.value },
+}))
 
-useSeoMeta({
-  title: article.title,
-  description: article.description,
-  ogTitle: article.title,
-  ogDescription: article.description,
-  ogType: 'article',
-  ogUrl: canonical,
-  twitterTitle: article.title,
-  twitterDescription: article.description,
-})
+useSeoMeta(
+  computed(() => ({
+    title: article.value.title,
+    description: article.value.description,
+    ogTitle: article.value.title,
+    ogDescription: article.value.description,
+    ogType: 'article',
+    ogUrl: canonical.value,
+    twitterTitle: article.value.title,
+    twitterDescription: article.value.description,
+  })),
+)
 
-useHead({
-  script: [
-    {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify(jsonLd),
-    },
-  ],
-})
+useHead(
+  computed(() => ({
+    script: [
+      {
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify(jsonLd.value),
+      },
+    ],
+  })),
+)
 </script>

@@ -1,0 +1,125 @@
+{
+  "layout": {
+    "tagline": "AI 안내 · 뉴스",
+    "home": "홈",
+    "nav": "도구",
+    "openclaw": "OpenClaw",
+    "news": "뉴스",
+    "exploreTools": "도구 둘러보기",
+    "menu": "메뉴",
+    "footerDescription": "엄선된 AI 도구와 업계 뉴스를 한곳에서.",
+    "sitemap": "사이트맵",
+    "language": "언어",
+    "localeNames": {
+      "en": "영어",
+      "zh-CN": "간체 중국어",
+      "zh-TW": "번체 중국어",
+      "ja": "일본어",
+      "ko": "한국어",
+      "ru": "러시아어",
+      "hi": "힌디어",
+      "es": "스페인어"
+    }
+  },
+  "home": {
+    "eyebrow": "Plunget",
+    "titleLine1": "쓸 만한 AI 도구를 찾고,",
+    "titleLine2": "변화의 흐름을 읽습니다",
+    "subtitle": "자주 쓰는 제품 링크와 정리된 뉴스·관점을 간결한 레이아웃으로, 모바일과 데스크톱 모두 편하게.",
+    "enterNav": "도구 목록으로",
+    "openclawSkills": "OpenClaw 스킬",
+    "readNews": "뉴스 읽기",
+    "featuredTools": "추천 도구",
+    "featuredToolsHint": "에디터 피크—카드에서 소개와 공식 사이트로 이동.",
+    "all": "전체",
+    "latestNews": "최신 뉴스",
+    "latestNewsHint": "날짜순—제목을 눌러 본문을 보세요.",
+    "openclawSectionTitle": "OpenClaw 스킬",
+    "openclawSectionHint": "AgentSkills 호환 팩: 공식 스킬과 예시, GitHub·문서 링크 포함.",
+    "allSkills": "모든 스킬",
+    "official": "공식",
+    "example": "예시"
+  },
+  "navPage": {
+    "eyebrow": "목차",
+    "title": "AI 도구 목록",
+    "subtitle": "카테고리로 보거나 검색하세요. 상세 페이지에서 소개와 공식 사이트를 확인합니다.",
+    "all": "전체",
+    "searchLabel": "검색",
+    "searchPlaceholder": "이름, 설명 또는 태그",
+    "empty": "조건에 맞는 결과가 없습니다. 분류나 키워드를 바꿔 보세요."
+  },
+  "toolPage": {
+    "breadcrumb": "도구",
+    "visitSite": "공식 사이트",
+    "opensNewWindow": "새 창에서 열림",
+    "useCasesTitle": "활용 상황",
+    "useCasesBody": "위 소개로 이 도구가 적합한지 가늠할 수 있습니다. 비슷한 도구가 많다면 사용 빈도, 예산, 데이터 프라이버시를 먼저 정리하고 고르세요.",
+    "ogSuffix": "AI 도구"
+  },
+  "newsPage": {
+    "eyebrow": "글",
+    "title": "뉴스",
+    "subtitle": "업계 동향, 제품 업데이트, 짧은 메모—시간 순입니다.",
+    "empty": "아직 글이 없습니다."
+  },
+  "articlePage": {
+    "breadcrumb": "뉴스"
+  },
+  "openclawPage": {
+    "eyebrow": "OpenClaw",
+    "title": "스킬 카탈로그",
+    "introBeforeSkillsLink": "OpenClaw는 ",
+    "introAfterSkillsLinkBeforeCode": " 와 호환되는 ",
+    "introAfterCode": " 스킬 팩을 사용해 CLI·API·툴체인 호출을 가르칩니다. 아래는 공식 저장소 ",
+    "introAfterSkillsDirLink": " 의 묶음 항목과 문서·튜토리얼에서 흔한",
+    "introStrong": "사용자 정의 이름 예시",
+    "introAfterStrong": "(예시로 표시)입니다. 더 알아보려면 ",
+    "introAfterClawhub": " 와 ",
+    "introEnd": " 를 방문하세요.",
+    "docsLink": "공식 문서",
+    "filterAll": "전체",
+    "filterOfficial": "공식 내장",
+    "filterExample": "사용자 예시",
+    "searchLabel": "검색",
+    "searchPlaceholder": "이름, 설명 또는 태그",
+    "count": "총 {count}개",
+    "filterApplied": "필터 적용됨",
+    "empty": "조건에 맞는 결과가 없습니다."
+  },
+  "openclawSkillPage": {
+    "breadcrumb": "OpenClaw 스킬",
+    "badgeOfficial": "공식 저장소 내장",
+    "badgeExample": "사용자 정의 이름 예시",
+    "featured": "추천",
+    "viewGithub": "GitHub에서 보기",
+    "createGuide": "스킬 만들기 가이드",
+    "opensNewWindow": "새 창에서 열림",
+    "notesTitle": "설명",
+    "noteOfficial1": "스킬 팩은 OpenClaw 저장소의 ",
+    "noteOfficial2": " 에 있습니다. 세션에 나타나는지는 환경 변수, 바이너리 게이팅, ",
+    "noteOfficial3": " 설정에 따라 달라집니다.",
+    "noteExampleBefore": "이 항목은 튜토리얼/커뮤니티에서 흔한",
+    "noteExampleStrong": "이름·기능 분할 예시",
+    "noteExampleAfter": " 이며 저장소 기본 폴더가 아닙니다. 구현 시 직접 ",
+    "noteExampleAfterCode": " 을 작성하고 AgentSkills 규격을 따르세요.",
+    "ogSuffix": "OpenClaw Skill"
+  },
+  "errors": {
+    "toolNotFound": "도구를 찾을 수 없습니다",
+    "articleNotFound": "글을 찾을 수 없습니다",
+    "skillNotFound": "스킬을 찾을 수 없습니다"
+  },
+  "seo": {
+    "siteDescription": "AI 도구 안내와 뉴스 허브: 제품을 발견하고 업데이트를 읽습니다.",
+    "homeTitle": "홈",
+    "homeDescription": "Plunget: AI 도구와 뉴스. 데스크톱과 모바일에서 탐색하세요.",
+    "navTitle": "AI 도구 목록",
+    "navDescription": "AI 도구 탐색: 분류, 검색, 상세 페이지와 외부 링크.",
+    "newsTitle": "뉴스",
+    "newsDescription": "AI 뉴스와 관점: 요약과 본문이 있는 글 페이지.",
+    "openclawTitle": "OpenClaw 스킬",
+    "openclawDescription": "OpenClaw AgentSkills 카탈로그: 공식 스킬과 이름 예시, 링크 포함.",
+    "ogHomeTitle": "Plunget"
+  }
+}

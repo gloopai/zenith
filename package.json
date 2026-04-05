@@ -8,9 +8,12 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "data:openclaw": "node scripts/build-openclaw-skills.mjs"
+    "data:openclaw": "node scripts/build-openclaw-skills.mjs",
+    "content:overlays": "node scripts/build-content-overlays.mjs",
+    "content:news-locales": "node scripts/build-news-locales.mjs"
   },
   "dependencies": {
+    "@nuxtjs/i18n": "^10.2.4",
     "gray-matter": "^4.0.3",
     "marked": "^17.0.5",
     "nuxt": "^4.4.2",

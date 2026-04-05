@@ -1,0 +1,125 @@
+{
+  "layout": {
+    "tagline": "Directorio IA · Noticias",
+    "home": "Inicio",
+    "nav": "Herramientas",
+    "openclaw": "OpenClaw",
+    "news": "Noticias",
+    "exploreTools": "Explorar herramientas",
+    "menu": "Menú",
+    "footerDescription": "Herramientas de IA seleccionadas y noticias del sector en un solo lugar.",
+    "sitemap": "Mapa del sitio",
+    "language": "Idioma",
+    "localeNames": {
+      "en": "Inglés",
+      "zh-CN": "Chino simplificado",
+      "zh-TW": "Chino tradicional",
+      "ja": "Japonés",
+      "ko": "Coreano",
+      "ru": "Ruso",
+      "hi": "Hindi",
+      "es": "Español"
+    }
+  },
+  "home": {
+    "eyebrow": "Plunget",
+    "titleLine1": "Descubre herramientas de IA útiles,",
+    "titleLine2": "y entiende los cambios",
+    "subtitle": "Enlaces a productos habituales y noticias ordenadas, con un diseño limpio para móvil y escritorio.",
+    "enterNav": "Ir al directorio",
+    "openclawSkills": "Habilidades OpenClaw",
+    "readNews": "Leer noticias",
+    "featuredTools": "Destacadas",
+    "featuredToolsHint": "Selección editorial: la tarjeta lleva al detalle y al sitio oficial.",
+    "all": "Ver todo",
+    "latestNews": "Últimas noticias",
+    "latestNewsHint": "Por fecha: toca el título para leer el artículo completo.",
+    "openclawSectionTitle": "Habilidades OpenClaw",
+    "openclawSectionHint": "Paquetes compatibles con AgentSkills: oficiales y ejemplos personalizados, con enlaces a GitHub y documentación.",
+    "allSkills": "Todas las habilidades",
+    "official": "Oficial",
+    "example": "Ejemplo"
+  },
+  "navPage": {
+    "eyebrow": "Catálogo",
+    "title": "Directorio de herramientas IA",
+    "subtitle": "Explora por categoría o busca. Las fichas incluyen resumen y enlace al sitio oficial.",
+    "all": "Todas",
+    "searchLabel": "Buscar",
+    "searchPlaceholder": "Nombre, descripción o etiquetas",
+    "empty": "No hay resultados: prueba otra categoría o palabra clave."
+  },
+  "toolPage": {
+    "breadcrumb": "Herramientas",
+    "visitSite": "Sitio oficial",
+    "opensNewWindow": "Se abre en una pestaña nueva",
+    "useCasesTitle": "Casos de uso",
+    "useCasesBody": "El resumen ayuda a decidir si la herramienta encaja. Si hay muchas parecidas, define frecuencia, presupuesto y privacidad antes de elegir.",
+    "ogSuffix": "Herramienta IA"
+  },
+  "newsPage": {
+    "eyebrow": "Artículos",
+    "title": "Noticias",
+    "subtitle": "Actualidad del sector, lanzamientos y notas breves, ordenadas por fecha.",
+    "empty": "Aún no hay artículos."
+  },
+  "articlePage": {
+    "breadcrumb": "Noticias"
+  },
+  "openclawPage": {
+    "eyebrow": "OpenClaw",
+    "title": "Catálogo de habilidades",
+    "introBeforeSkillsLink": "OpenClaw usa paquetes compatibles con ",
+    "introAfterSkillsLinkBeforeCode": ", empaquetados como ",
+    "introAfterCode": " para enseñar a los agentes a invocar CLI, API y cadenas de herramientas. Abajo aparecen entradas del repositorio oficial ",
+    "introAfterSkillsDirLink": ", además de ",
+    "introStrong": "ejemplos de nombres personalizados",
+    "introAfterStrong": " habituales en documentación y tutoriales (marcados como ejemplos). Más información en ",
+    "introAfterClawhub": " y ",
+    "introEnd": ".",
+    "docsLink": "Documentación oficial",
+    "filterAll": "Todas",
+    "filterOfficial": "Integradas oficiales",
+    "filterExample": "Ejemplos personalizados",
+    "searchLabel": "Buscar",
+    "searchPlaceholder": "Nombre, descripción o etiquetas",
+    "count": "{count} elementos",
+    "filterApplied": "Filtro activo",
+    "empty": "No hay resultados con este filtro."
+  },
+  "openclawSkillPage": {
+    "breadcrumb": "Habilidades OpenClaw",
+    "badgeOfficial": "Incluida en el repo oficial",
+    "badgeExample": "Ejemplo de nombre personalizado",
+    "featured": "Destacada",
+    "viewGithub": "Ver en GitHub",
+    "createGuide": "Guía para crear una habilidad",
+    "opensNewWindow": "Se abre en una pestaña nueva",
+    "notesTitle": "Notas",
+    "noteOfficial1": "El paquete está en ",
+    "noteOfficial2": " del repositorio OpenClaw. Si aparece en tu sesión depende de variables de entorno, binarios y la configuración de ",
+    "noteOfficial3": ".",
+    "noteExampleBefore": "Es un ",
+    "noteExampleStrong": "ejemplo de nombres y división de capacidades",
+    "noteExampleAfter": " frecuente en tutoriales y la comunidad; no es una carpeta por defecto del repo. Para implementarlo, escribe ",
+    "noteExampleAfterCode": " siguiendo la especificación AgentSkills.",
+    "ogSuffix": "OpenClaw Skill"
+  },
+  "errors": {
+    "toolNotFound": "Herramienta no encontrada",
+    "articleNotFound": "Artículo no encontrado",
+    "skillNotFound": "Habilidad no encontrada"
+  },
+  "seo": {
+    "siteDescription": "Directorio de herramientas IA y noticias: descubre productos y lee novedades.",
+    "homeTitle": "Inicio",
+    "homeDescription": "Plunget: herramientas IA y noticias. Explora en escritorio o móvil.",
+    "navTitle": "Directorio IA",
+    "navDescription": "Explora herramientas IA: categorías, búsqueda y fichas con enlaces externos.",
+    "newsTitle": "Noticias",
+    "newsDescription": "Noticias y opiniones sobre IA: artículos con resumen y texto completo.",
+    "openclawTitle": "Habilidades OpenClaw",
+    "openclawDescription": "Catálogo AgentSkills de OpenClaw: habilidades oficiales y ejemplos de nombres con enlaces.",
+    "ogHomeTitle": "Plunget"
+  }
+}

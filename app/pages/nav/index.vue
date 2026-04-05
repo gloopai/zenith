@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-col gap-12">
     <header class="max-w-2xl">
-      <p class="page-eyebrow">目录</p>
-      <h1 class="page-title mt-4">AI 导航</h1>
+      <p class="page-eyebrow">{{ t('navPage.eyebrow') }}</p>
+      <h1 class="page-title mt-4">{{ t('navPage.title') }}</h1>
       <p class="mt-4 text-lg leading-relaxed text-zinc-500">
-        按分类浏览，或使用搜索快速定位。进入详情页可查看简介与访问官网。
+        {{ t('navPage.subtitle') }}
       </p>
     </header>
 
@@ -16,7 +16,7 @@
           :class="selectedCategory === '' ? 'btn-pill-active' : ''"
           @click="selectedCategory = ''"
         >
-          全部
+          {{ t('navPage.all') }}
         </button>
         <button
           v-for="c in categories"
@@ -31,8 +31,14 @@
       </div>
 
       <label class="flex w-full flex-col gap-2 lg:max-w-sm">
-        <span class="text-xs font-medium text-zinc-500">搜索</span>
-        <input v-model="query" type="search" class="input" placeholder="名称、描述或标签" autocomplete="off" />
+        <span class="text-xs font-medium text-zinc-500">{{ t('navPage.searchLabel') }}</span>
+        <input
+          v-model="query"
+          type="search"
+          class="input"
+          :placeholder="t('navPage.searchPlaceholder')"
+          autocomplete="off"
+        />
       </label>
     </div>
 
@@ -40,7 +46,7 @@
       <NuxtLink
         v-for="tool in filtered"
         :key="tool.slug"
-        :to="`/nav/${tool.slug}`"
+        :to="localePath(`/nav/${tool.slug}`)"
         class="glass-card group flex flex-col p-6 transition hover:border-violet-500/15 hover:shadow-[0_0_0_1px_rgba(167,139,250,0.12)]"
       >
         <div class="flex items-start justify-between gap-3">
@@ -62,30 +68,38 @@
       </NuxtLink>
     </div>
 
-    <p v-if="filtered.length === 0" class="text-center text-sm text-zinc-500">没有符合筛选的结果，可尝试调整分类或关键词。</p>
+    <p v-if="filtered.length === 0" class="text-center text-sm text-zinc-500">{{ t('navPage.empty') }}</p>
   </div>
 </template>
 
 <script setup lang="ts">
 import type { Tool } from '~~/shared/types/site'
 
-const description = '浏览 AI 相关工具与站点：按分类筛选、搜索查找，并进入详情了解产品与外链。'
+const { t, locale } = useI18n()
+const localePath = useLocalePath()
 
-useSeoMeta({
-  title: 'AI 导航',
-  description,
-  ogTitle: 'AI 导航 · Plunget',
-  ogDescription: description,
-  ogType: 'website',
-})
+useSeoMeta(
+  computed(() => ({
+    title: t('seo.navTitle'),
+    description: t('seo.navDescription'),
+    ogTitle: `${t('seo.navTitle')} · Plunget`,
+    ogDescription: t('seo.navDescription'),
+    ogType: 'website',
+  })),
+)
 
-const { data } = await useAsyncData('nav-tools', () => $fetch<{ tools: Tool[] }>('/api/tools'))
+const { data } = await useAsyncData(
+  () => `nav-tools-${locale.value}`,
+  () => $fetch<{ tools: Tool[] }>('/api/tools', { query: { locale: locale.value } }),
+  { watch: [locale] },
+)
 
 const tools = computed(() => data.value?.tools ?? [])
 const categories = computed(() => {
   const s = new Set<string>()
   for (const t of tools.value) s.add(t.category)
-  return [...s].sort((a, b) => a.localeCompare(b, 'zh-CN'))
+  const collator = locale.value.replace('_', '-')
+  return [...s].sort((a, b) => a.localeCompare(b, collator))
 })
 
 const selectedCategory = ref('')

@@ -1,0 +1,374 @@
+{
+  "chatgpt": {
+    "description": "OpenAI 的旗艦對話助理：多輪對話、視方案與地區可選的聯網檢索、檔案上傳與輕量分析。適合草稿、程式片段與學習輔助——模型名稱與政策請以官網為準。"
+  },
+  "claude": {
+    "description": "Anthropic 的助理模型，以長上下文與穩健推理著稱；透過網頁或 API，在程式審閱、技術寫作與長文件上表現突出。"
+  },
+  "google-gemini": {
+    "description": "Google 的多模態模型家族，與 Google 帳號及 Workspace 深度整合；適合搜尋輔助回答、郵件草稿與快速摘要（以實際開放功能為準）。"
+  },
+  "microsoft-copilot": {
+    "description": "微軟助理，內建於 Windows、Edge 與 Microsoft 365，可用於草稿、頁面摘要與輕量自動化——若使用 M365 請留意企業資料規範。"
+  },
+  "deepseek": {
+    "description": "對中文友善的模型與對話／API 產品組合，程式與數學、性價比常受好評——正式環境請再確認所在地合規。"
+  },
+  "kimi": {
+    "description": "月之暗面主打中文的助理，強調長文件與連結／檔案摘要——論文、合約與長串對話都適用。"
+  },
+  "tongyi-qianwen": {
+    "description": "阿里雲體系內的大模型與應用矩陣，涵蓋對話、外掛與行業方案——適合阿里／釘釘生態團隊；個人也可先試網頁版。"
+  },
+  "ernie-bot": {
+    "description": "百度的中文對話產品，與搜尋與百度服務有連動——最新功能與方案以官網為準。"
+  },
+  "doubao": {
+    "description": "位元組跳動旗下的 AI 助理與多應用矩陣，涵蓋對話與創作工具；範本與在地整合方便——有匯出需求請比較各子產品。"
+  },
+  "yuanbao": {
+    "description": "腾讯元宝：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "perplexity": {
+    "description": "Perplexity：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "poe": {
+    "description": "Poe：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "hugging-face": {
+    "description": "Hugging Face：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "midjourney": {
+    "description": "Midjourney：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "dall-e": {
+    "description": "DALL·E：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "adobe-firefly": {
+    "description": "Adobe Firefly：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "leonardo-ai": {
+    "description": "Leonardo.Ai：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "ideogram": {
+    "description": "Ideogram：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "remove-bg": {
+    "description": "remove.bg：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "canva": {
+    "description": "Canva（Magic Studio）：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "figma": {
+    "description": "Figma：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "runway": {
+    "description": "Runway：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "pika": {
+    "description": "Pika：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "kling-ai": {
+    "description": "可灵 Kling：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "capcut": {
+    "description": "剪映 CapCut：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "suno": {
+    "description": "Suno：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "udio": {
+    "description": "Udio：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "elevenlabs": {
+    "description": "ElevenLabs：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "otter": {
+    "description": "Otter.ai：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "cursor": {
+    "description": "Cursor：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "github-copilot": {
+    "description": "GitHub Copilot：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "windsurf": {
+    "description": "Windsurf：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "v0": {
+    "description": "v0：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "replit": {
+    "description": "Replit：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "vercel": {
+    "description": "Vercel：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "notion": {
+    "description": "Notion：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "obsidian": {
+    "description": "Obsidian：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "gamma": {
+    "description": "Gamma：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "n8n": {
+    "description": "n8n：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "make": {
+    "description": "Make：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "zapier": {
+    "description": "Zapier：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "deepl": {
+    "description": "DeepL：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "immersive-translate": {
+    "description": "沉浸式翻译：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "elicit": {
+    "description": "Elicit：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "consensus": {
+    "description": "Consensus：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "character-ai": {
+    "description": "Character.AI：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "anthropic": {
+    "description": "Anthropic：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "openai-platform": {
+    "description": "OpenAI Platform：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "langchain": {
+    "description": "LangChain：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "ollama": {
+    "description": "Ollama：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "miro": {
+    "description": "Miro：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "linear": {
+    "description": "Linear：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "notebooklm": {
+    "description": "NotebookLM：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "grammarly": {
+    "description": "Grammarly：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "jasper": {
+    "description": "Jasper：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "heygen": {
+    "description": "HeyGen：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "synthesia": {
+    "description": "Synthesia：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "luma-dream-machine": {
+    "description": "Luma Dream Machine：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "pixverse": {
+    "description": "PixVerse：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "stability-ai": {
+    "description": "Stability AI：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "cohere": {
+    "description": "Cohere：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "assemblyai": {
+    "description": "AssemblyAI：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "murf": {
+    "description": "Murf：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "feishu": {
+    "description": "飞书：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "tencent-meeting": {
+    "description": "腾讯会议：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "descript": {
+    "description": "Descript：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "scribbr": {
+    "description": "Scribbr：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "semantic-scholar": {
+    "description": "Semantic Scholar：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "arxiv": {
+    "description": "arXiv：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "kaggle": {
+    "description": "Kaggle：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "wandb": {
+    "description": "Weights & Biases：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "mistral-ai": {
+    "description": "Mistral AI：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "groq": {
+    "description": "Groq：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "xai-grok": {
+    "description": "Grok：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "replicate": {
+    "description": "Replicate：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "fal": {
+    "description": "fal：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "together-ai": {
+    "description": "Together AI：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "fireworks-ai": {
+    "description": "Fireworks AI：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "openrouter": {
+    "description": "OpenRouter：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "siliconflow": {
+    "description": "硅基流动 SiliconFlow：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "modelscope": {
+    "description": "魔搭 ModelScope：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "dify": {
+    "description": "Dify：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "flowise": {
+    "description": "Flowise：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "tabnine": {
+    "description": "Tabnine：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "amazon-q": {
+    "description": "Amazon Q：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "sourcegraph-cody": {
+    "description": "Sourcegraph Cody：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "continue-dev": {
+    "description": "Continue：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "aider": {
+    "description": "Aider：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "cline": {
+    "description": "Cline：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "supermaven": {
+    "description": "Supermaven：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "bolt-new": {
+    "description": "Bolt.new：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "stackblitz": {
+    "description": "StackBlitz：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "codesandbox": {
+    "description": "CodeSandbox：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "framer": {
+    "description": "Framer：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "webflow": {
+    "description": "Webflow：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "photoroom": {
+    "description": "PhotoRoom：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "clipdrop": {
+    "description": "Clipdrop：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "chatpdf": {
+    "description": "ChatPDF：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "humata": {
+    "description": "Humata AI：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "scispace": {
+    "description": "SciSpace：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "scholarcy": {
+    "description": "Scholarcy：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "tldraw": {
+    "description": "tldraw：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "logseq": {
+    "description": "Logseq：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "clickup": {
+    "description": "ClickUp：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "airtable": {
+    "description": "Airtable：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "lumen5": {
+    "description": "Lumen5：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "invideo": {
+    "description": "InVideo：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "beautiful-ai": {
+    "description": "Beautiful.ai：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "tavily": {
+    "description": "Tavily：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "exa": {
+    "description": "Exa：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "you-com": {
+    "description": "You.com：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "phind": {
+    "description": "Phind：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "jina-ai": {
+    "description": "Jina AI：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "mem0": {
+    "description": "Mem0：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "comet-browser": {
+    "description": "Comet：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "brave-leo": {
+    "description": "Brave Leo：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "raycast": {
+    "description": "Raycast：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "alfred": {
+    "description": "Alfred：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "loom": {
+    "description": "Loom：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "riverside": {
+    "description": "Riverside：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "napkin-ai": {
+    "description": "Napkin AI：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "tome": {
+    "description": "Tome：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "spline": {
+    "description": "Spline：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "meshy": {
+    "description": "Meshy：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  }
+}

@@ -13,6 +13,14 @@ export async function readSiteDataJson<T>(name: string): Promise<T> {
   return raw as T
 }
 
+export async function readSiteDataJsonOptional<T>(name: string): Promise<T | null> {
+  try {
+    return await readSiteDataJson<T>(name)
+  } catch {
+    return null
+  }
+}
+
 function bytesToUtf8(value: unknown): string {
   if (value === null || value === undefined) {
     throw new Error('Missing asset')
@@ -40,4 +48,10 @@ export async function readSiteNewsFile(fileName: string): Promise<string> {
     throw new Error(`Missing news asset: ${fileName}`)
   }
   return bytesToUtf8(raw)
+}
+
+export async function siteNewsAssetExists(fileName: string): Promise<boolean> {
+  const storage = useStorage('assets:site-news')
+  const raw = await storage.getItem(fileName)
+  return raw !== null && raw !== undefined
 }
