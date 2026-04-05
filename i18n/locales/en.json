@@ -9,17 +9,7 @@
     "menu": "Menu",
     "footerDescription": "Curated AI tools and industry news in one place.",
     "sitemap": "Sitemap",
-    "language": "Language",
-    "localeNames": {
-      "en": "English",
-      "zh-CN": "Simplified Chinese",
-      "zh-TW": "Traditional Chinese",
-      "ja": "Japanese",
-      "ko": "Korean",
-      "ru": "Russian",
-      "hi": "Hindi",
-      "es": "Spanish"
-    }
+    "language": "Language"
   },
   "home": {
     "eyebrow": "Plunget",

@@ -9,17 +9,7 @@
     "menu": "메뉴",
     "footerDescription": "엄선된 AI 도구와 업계 뉴스를 한곳에서.",
     "sitemap": "사이트맵",
-    "language": "언어",
-    "localeNames": {
-      "en": "영어",
-      "zh-CN": "간체 중국어",
-      "zh-TW": "번체 중국어",
-      "ja": "일본어",
-      "ko": "한국어",
-      "ru": "러시아어",
-      "hi": "힌디어",
-      "es": "스페인어"
-    }
+    "language": "언어"
   },
   "home": {
     "eyebrow": "Plunget",

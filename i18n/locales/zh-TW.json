@@ -9,17 +9,7 @@
     "menu": "選單",
     "footerDescription": "精選 AI 工具與產業資訊，一站瀏覽。",
     "sitemap": "網站地圖",
-    "language": "語言",
-    "localeNames": {
-      "en": "英語",
-      "zh-CN": "簡體中文",
-      "zh-TW": "繁體中文",
-      "ja": "日文",
-      "ko": "韓文",
-      "ru": "俄文",
-      "hi": "印地語",
-      "es": "西班牙文"
-    }
+    "language": "語言"
   },
   "home": {
     "eyebrow": "Plunget",

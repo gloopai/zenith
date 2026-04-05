@@ -205,8 +205,10 @@
 </template>
 
 <script setup lang="ts">
+import { LOCALE_NATIVE_LABELS } from '~~/shared/i18n-public'
+
 const route = useRoute()
-const { t, tm, locale, locales } = useI18n()
+const { t, locale, locales } = useI18n()
 const localePath = useLocalePath()
 const switchLocalePath = useSwitchLocalePath()
 const i18nHead = useLocaleHead({ dir: true, lang: true, seo: true })
@@ -221,13 +223,6 @@ useHead(() => ({
 
 type LocaleLink = { code: string; name: string; language: string }
 
-const localeDisplayNames = computed((): Record<string, string> => {
-  void locale.value
-  const raw = tm('layout.localeNames')
-  if (raw && typeof raw === 'object' && !Array.isArray(raw)) return raw as Record<string, string>
-  return {}
-})
-
 const localeLinks = computed((): LocaleLink[] =>
   locales.value.map((l) => {
     const code = typeof l === 'string' ? l : (l.code ?? '')
@@ -239,9 +234,8 @@ const localeLinks = computed((): LocaleLink[] =>
       typeof l === 'object' && l !== null && typeof (l as { language?: string }).language === 'string'
         ? (l as { language: string }).language
         : code
-    const dict = localeDisplayNames.value
-    const translated = dict[code]
-    const name = typeof translated === 'string' && translated.length > 0 ? translated : fallback
+    const native = LOCALE_NATIVE_LABELS[code as keyof typeof LOCALE_NATIVE_LABELS]
+    const name = native ?? fallback
     return { code, name, language }
   }),
 )

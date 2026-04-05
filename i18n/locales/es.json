@@ -9,17 +9,7 @@
     "menu": "Menú",
     "footerDescription": "Herramientas de IA seleccionadas y noticias del sector en un solo lugar.",
     "sitemap": "Mapa del sitio",
-    "language": "Idioma",
-    "localeNames": {
-      "en": "Inglés",
-      "zh-CN": "Chino simplificado",
-      "zh-TW": "Chino tradicional",
-      "ja": "Japonés",
-      "ko": "Coreano",
-      "ru": "Ruso",
-      "hi": "Hindi",
-      "es": "Español"
-    }
+    "language": "Idioma"
   },
   "home": {
     "eyebrow": "Plunget",
