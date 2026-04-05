@@ -21,20 +21,16 @@
       <div class="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-5 py-4 lg:px-8">
         <NuxtLink to="/" class="group flex min-w-0 items-center gap-3.5">
           <span
-            class="relative grid h-10 w-10 shrink-0 place-items-center rounded-2xl border border-white/[0.08] bg-gradient-to-br from-white/[0.08] to-white/[0.02] shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] transition group-hover:border-violet-500/25"
+            class="relative h-10 w-10 shrink-0 overflow-hidden rounded-2xl transition-opacity group-hover:opacity-90"
           >
-            <span
-              class="absolute inset-0 rounded-2xl bg-gradient-to-br from-violet-500/20 to-fuchsia-600/10 opacity-0 transition group-hover:opacity-100"
+            <img
+              src="/logo.svg"
+              alt=""
+              width="40"
+              height="40"
+              class="h-full w-full object-cover"
+              decoding="async"
             />
-            <svg class="relative h-5 w-5 text-violet-200" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path
-                d="M12 3v18M8 8l4-4 4 4M8 16l4 4 4-4"
-                stroke="currentColor"
-                stroke-width="1.75"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
           </span>
 
           <span class="min-w-0">
