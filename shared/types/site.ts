@@ -17,6 +17,15 @@ export interface NewsListItem {
   date: string
 }
 
+/** GET /api/news — always includes items + total; page fields when paginated */
+export interface NewsListResponse {
+  items: NewsListItem[]
+  total: number
+  page?: number
+  pageSize?: number
+  totalPages?: number
+}
+
 export interface NewsArticle extends NewsListItem {
   html: string
 }

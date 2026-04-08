@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "We audited Claude Code and confirmed RCE via environment variable injection",
+  "link": "https://audited.xyz/blog/claude-code",
+  "guid": "https://news.ycombinator.com/item?id=47689593",
+  "pubDate": "Wed, 08 Apr 2026 13:02:07 +0000",
+  "summary": "Article URL: https://audited.xyz/blog/claude-code Comments URL: https://news.ycombinator.com/item?id=47689593 Points: 3 # Comments: 1",
+  "sourceFeed": "HN · Claude",
+  "sourceUrl": "https://hnrss.org/newest?q=Claude",
+  "ingestedAt": "2026-04-08T14:44:24.468Z",
+  "suggestedFilename": "2026-04-08-we-audited-claude-code-and-confirmed-rce-via-env.md"
+}

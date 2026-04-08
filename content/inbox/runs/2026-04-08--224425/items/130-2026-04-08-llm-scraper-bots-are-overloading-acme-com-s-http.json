@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "LLM scraper bots are overloading acme.com's HTTPS server",
+  "link": "http://acme.com/updates/archive/229.html",
+  "guid": "https://news.ycombinator.com/item?id=47684506",
+  "pubDate": "Wed, 08 Apr 2026 03:02:56 +0000",
+  "summary": "Article URL: http://acme.com/updates/archive/229.html Comments URL: https://news.ycombinator.com/item?id=47684506 Points: 59 # Comments: 55",
+  "sourceFeed": "HN · LLM",
+  "sourceUrl": "https://hnrss.org/newest?q=LLM",
+  "ingestedAt": "2026-04-08T14:44:45.465Z",
+  "suggestedFilename": "2026-04-08-llm-scraper-bots-are-overloading-acme-com-s-http.md"
+}

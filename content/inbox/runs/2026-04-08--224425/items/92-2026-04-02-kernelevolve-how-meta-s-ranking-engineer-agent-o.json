@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "KernelEvolve: How Meta’s Ranking Engineer Agent Optimizes AI Infrastructure",
+  "link": "https://engineering.fb.com/2026/04/02/developer-tools/kernelevolve-how-metas-ranking-engineer-agent-optimizes-ai-infrastructure/",
+  "guid": "https://engineering.fb.com/?p=23820",
+  "pubDate": "Thu, 02 Apr 2026 19:59:46 +0000",
+  "summary": "This is the second post in the Ranking Engineer Agent blog series exploring the autonomous AI capabilities accelerating Meta’s Ads Ranking innovation. The previous post introduced Ranking Engineer Agent’s ML exploration capability, which autonomously designs, executes, and analyzes ranking model experiments. This post covers how to optimize the low-level infrastructure that makes those models run [...] Read More... The post KernelEvolve: How Meta’s Ranking Engineer Agent Optimizes AI Infrastructure appeared first on Engineering at Meta .",
+  "sourceFeed": "Meta Engineering",
+  "sourceUrl": "https://engineering.fb.com/feed/",
+  "ingestedAt": "2026-04-08T14:44:38.070Z",
+  "suggestedFilename": "2026-04-02-kernelevolve-how-meta-s-ranking-engineer-agent-o.md"
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Building shared coding guidelines for AI (and people too)",
+  "link": "https://stackoverflow.blog/2026/03/26/coding-guidelines-for-ai-agents-and-people-too/",
+  "guid": "6b7f67bb-24a0-4dda-ad30-e50e57175caa",
+  "pubDate": "Thu, 26 Mar 2026 14:00:00 GMT",
+  "summary": "Coding guidelines and standards for agents need to be a little different—more explicit, demonstrative of patterns, and obvious.",
+  "sourceFeed": "Stack Overflow Blog",
+  "sourceUrl": "https://stackoverflow.blog/feed/",
+  "ingestedAt": "2026-04-08T14:45:55.826Z",
+  "suggestedFilename": "2026-03-26-building-shared-coding-guidelines-for-ai-and-peo.md"
+}

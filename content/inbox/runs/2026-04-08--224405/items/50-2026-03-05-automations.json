@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Automations",
+  "link": "https://cursor.com/changelog/03-05-26",
+  "guid": "https://cursor.com/changelog/03-05-26",
+  "pubDate": "Thu, 05 Mar 2026 00:00:00 GMT",
+  "summary": "Cursor now supports automations for building always-on agents that run based on triggers and instructions you define.",
+  "sourceFeed": "Cursor Changelog",
+  "sourceUrl": "https://www.cursor.com/changelog/rss.xml",
+  "ingestedAt": "2026-04-08T14:44:13.735Z",
+  "suggestedFilename": "2026-03-05-automations.md"
+}

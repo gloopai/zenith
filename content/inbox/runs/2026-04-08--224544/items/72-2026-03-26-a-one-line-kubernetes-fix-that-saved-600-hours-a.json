@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "A one-line Kubernetes fix that saved 600 hours a year",
+  "link": "https://blog.cloudflare.com/one-line-kubernetes-fix-saved-600-hours-a-year/",
+  "guid": "6bSk27AUeu3Ja7pTySyy0t",
+  "pubDate": "Thu, 26 Mar 2026 13:00:00 GMT",
+  "summary": "When we investigated why our Atlantis instance took 30 minutes to restart, we discovered a bottleneck in how Kubernetes handles volume permissions. By adjusting the fsGroupChangePolicy, we reduced restart times to 30 seconds.",
+  "sourceFeed": "Cloudflare Blog",
+  "sourceUrl": "https://blog.cloudflare.com/rss",
+  "ingestedAt": "2026-04-08T14:45:55.442Z",
+  "suggestedFilename": "2026-03-26-a-one-line-kubernetes-fix-that-saved-600-hours-a.md"
+}

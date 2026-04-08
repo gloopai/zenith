@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Plugins, Sandbox Access Controls, and Async Subagents",
+  "link": "https://cursor.com/changelog/2-5",
+  "guid": "https://cursor.com/changelog/2-5",
+  "pubDate": "Tue, 17 Feb 2026 00:00:00 GMT",
+  "summary": "This release introduces plugins for extending Cursor, improvements to core agent capabilities like subagents, and fine-grained network controls for sandboxed commands.",
+  "sourceFeed": "Cursor Changelog",
+  "sourceUrl": "https://www.cursor.com/changelog/rss.xml",
+  "ingestedAt": "2026-04-08T14:45:51.896Z",
+  "suggestedFilename": "2026-02-17-plugins-sandbox-access-controls-and-async-subage.md"
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "How we use Abstract Syntax Trees (ASTs) to turn Workflows code into visual diagrams",
+  "link": "https://blog.cloudflare.com/workflow-diagrams/",
+  "guid": "4HOWpzOgT3eVU2wFa4adFU",
+  "pubDate": "Fri, 27 Mar 2026 13:00:00 GMT",
+  "summary": "Workflows are now visualized via step diagrams in the dashboard. Here’s how we translate your TypeScript code into a visual representation of the workflow.",
+  "sourceFeed": "Cloudflare Blog",
+  "sourceUrl": "https://blog.cloudflare.com/rss",
+  "ingestedAt": "2026-04-08T14:45:55.441Z",
+  "suggestedFilename": "2026-03-27-how-we-use-abstract-syntax-trees-asts-to-turn-wo.md"
+}

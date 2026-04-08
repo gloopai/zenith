@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "How Middleware Lets You Customize Your Agent Harness",
+  "link": "https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness/",
+  "guid": "69c53b7dd5b7120001b5bbfc",
+  "pubDate": "Thu, 26 Mar 2026 14:53:27 GMT",
+  "summary": "Agent harnesses are what help build an agent, they connect an LLM to its environment and let it do things. When you’re building an agent, it’s likely you’ll want build an application specific agent harness. “Agent Middleware” empowers you to build on",
+  "sourceFeed": "LangChain Blog",
+  "sourceUrl": "https://blog.langchain.dev/rss/",
+  "ingestedAt": "2026-04-08T14:45:54.931Z",
+  "suggestedFilename": "2026-03-26-how-middleware-lets-you-customize-your-agent-har.md"
+}

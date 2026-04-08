@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Announcing the LangChain + MongoDB Partnership: The AI Agent Stack That Runs On The Database You Already Trust",
+  "link": "https://blog.langchain.com/announcing-the-langchain-mongodb-partnership-the-ai-agent-stack-that-runs-on-the-database-you-already-trust/",
+  "guid": "69c6cb0d081c26000199e53f",
+  "pubDate": "Tue, 31 Mar 2026 17:00:21 GMT",
+  "summary": "Build production AI agents on MongoDB Atlas — with vector search, persistent memory, natural-language querying, and end-to-end observability built in.",
+  "sourceFeed": "LangChain Blog",
+  "sourceUrl": "https://blog.langchain.dev/rss/",
+  "ingestedAt": "2026-04-08T14:45:54.929Z",
+  "suggestedFilename": "2026-03-31-announcing-the-langchain-mongodb-partnership-the.md"
+}

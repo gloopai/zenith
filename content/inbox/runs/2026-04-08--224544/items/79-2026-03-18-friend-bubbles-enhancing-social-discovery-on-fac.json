@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Friend Bubbles: Enhancing Social Discovery on Facebook Reels",
+  "link": "https://engineering.fb.com/2026/03/18/ml-applications/friend-bubbles-enhancing-social-discovery-on-facebook-reels/",
+  "guid": "https://engineering.fb.com/?p=23703",
+  "pubDate": "Wed, 18 Mar 2026 18:19:33 +0000",
+  "summary": "Friend bubbles in Facebook Reels highlight Reels your friends have liked or reacted to, helping you discover new content and making it easier to connect over shared interests. This article explains the technical architecture behind friend bubbles, including how machine learning estimates relationship strength and ranks content your friends have interacted with to create more [...] Read More... The post Friend Bubbles: Enhancing Social Discovery on Facebook Reels appeared first on Engineering at Meta .",
+  "sourceFeed": "Meta Engineering",
+  "sourceUrl": "https://engineering.fb.com/feed/",
+  "ingestedAt": "2026-04-08T14:45:56.275Z",
+  "suggestedFilename": "2026-03-18-friend-bubbles-enhancing-social-discovery-on-fac.md"
+}

@@ -86,7 +86,13 @@
     "eyebrow": "글",
     "title": "뉴스",
     "subtitle": "업계 동향, 제품 업데이트, 짧은 메모—시간 순입니다.",
-    "empty": "아직 글이 없습니다."
+    "empty": "아직 글이 없습니다.",
+    "pagination": {
+      "navLabel": "뉴스 목록 페이지",
+      "prev": "이전",
+      "next": "다음",
+      "status": "{current} / {total} 페이지 · 총 {count}개"
+    }
   },
   "articlePage": {
     "breadcrumb": "뉴스"

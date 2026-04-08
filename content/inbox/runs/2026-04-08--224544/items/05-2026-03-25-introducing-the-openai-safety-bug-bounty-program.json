@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Introducing the OpenAI Safety Bug Bounty program",
+  "link": "https://openai.com/index/safety-bug-bounty",
+  "guid": "https://openai.com/index/safety-bug-bounty",
+  "pubDate": "Wed, 25 Mar 2026 00:00:00 GMT",
+  "summary": "OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.",
+  "sourceFeed": "OpenAI 新闻",
+  "sourceUrl": "https://openai.com/blog/rss.xml",
+  "ingestedAt": "2026-04-08T14:45:46.072Z",
+  "suggestedFilename": "2026-03-25-introducing-the-openai-safety-bug-bounty-program.md"
+}

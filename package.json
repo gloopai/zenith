@@ -11,6 +11,9 @@
     "data:openclaw": "node scripts/build-openclaw-skills.mjs",
     "content:overlays": "node scripts/build-content-overlays.mjs",
     "content:news-locales": "node scripts/build-news-locales.mjs",
+    "content:ingest": "node scripts/daily-content-ingest.mjs",
+    "content:pull": "node scripts/content-pull.mjs",
+    "content:generate-news": "node scripts/generate-news-from-inbox.mjs",
     "seo:expand": "node scripts/expand-seo-data.mjs"
   },
   "dependencies": {

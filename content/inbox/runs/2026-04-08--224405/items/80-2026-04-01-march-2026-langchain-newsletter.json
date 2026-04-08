@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "March 2026: LangChain Newsletter",
+  "link": "https://blog.langchain.com/march-2026-langchain-newsletter/",
+  "guid": "69cd8bb56bcada00010164bf",
+  "pubDate": "Wed, 01 Apr 2026 21:24:29 GMT",
+  "summary": "It feels like spring has sprung here, and so has a new NVIDIA integration, ticket sales for Interrupt 2026, and announcing LangSmith Fleet (formerly Agent Builder).",
+  "sourceFeed": "LangChain Blog",
+  "sourceUrl": "https://blog.langchain.dev/rss/",
+  "ingestedAt": "2026-04-08T14:44:17.137Z",
+  "suggestedFilename": "2026-04-01-march-2026-langchain-newsletter.md"
+}

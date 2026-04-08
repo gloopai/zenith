@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "How we build evals for Deep Agents",
+  "link": "https://blog.langchain.com/how-we-build-evals-for-deep-agents/",
+  "guid": "69c54d10d5b7120001b5bc66",
+  "pubDate": "Thu, 26 Mar 2026 15:18:56 GMT",
+  "summary": "💡 TLDR: The best agent evals directly measure an agent behavior we care about. Here&apos;s how we source data, create metrics, and run well-scoped, targeted experiments over time to make agents more accurate and reliable. Evals shape agent behavior We’ve been curating evaluations to measure and",
+  "sourceFeed": "LangChain Blog",
+  "sourceUrl": "https://blog.langchain.dev/rss/",
+  "ingestedAt": "2026-04-08T14:45:54.931Z",
+  "suggestedFilename": "2026-03-26-how-we-build-evals-for-deep-agents.md"
+}

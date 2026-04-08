@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Why we're rethinking cache for the AI era",
+  "link": "https://blog.cloudflare.com/rethinking-cache-ai-humans/",
+  "guid": "635WBzM8GMiVZhyzKFeWMf",
+  "pubDate": "Thu, 02 Apr 2026 13:00:00 GMT",
+  "summary": "The explosion of AI-bot traffic, representing over 10 billion requests per week, has opened up new challenges and opportunities for cache design. We look at some of the ways AI bot traffic differs from humans, how this impacts CDN cache, and some early ideas for how Cloudflare is designing systems to improve the AI and human experience.",
+  "sourceFeed": "Cloudflare Blog",
+  "sourceUrl": "https://blog.cloudflare.com/rss",
+  "ingestedAt": "2026-04-08T14:44:17.626Z",
+  "suggestedFilename": "2026-04-02-why-we-re-rethinking-cache-for-the-ai-era.md"
+}

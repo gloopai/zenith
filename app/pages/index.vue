@@ -207,8 +207,11 @@ const { data: toolsRes } = await useAsyncData(
 const { data: newsRes } = await useAsyncData(
   () => `home-news-${locale.value}`,
   () =>
-    $fetch<{ items: NewsListItem[] }>('/api/news', {
-      query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
+    $fetch<{ items: NewsListItem[]; total: number }>('/api/news', {
+      query: {
+        locale: (locale.value as string) || I18N_DEFAULT_LOCALE,
+        limit: 4,
+      },
     }),
   { watch: [locale] },
 )
@@ -296,7 +299,7 @@ const featured = computed(() => {
   return picks.length ? picks.slice(0, 4) : list.slice(0, 4)
 })
 
-const latestNews = computed(() => (newsRes.value?.items ?? []).slice(0, 4))
+const latestNews = computed(() => newsRes.value?.items ?? [])
 
 const openClawPreview = computed(() => {
   const list = openclawRes.value?.skills ?? []

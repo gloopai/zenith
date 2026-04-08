@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Inside Googlebot: demystifying crawling, fetching, and the bytes we process",
+  "link": "https://developers.google.com/search/blog/2026/03/crawler-blog-post",
+  "guid": "2026-03-31-Inside-Googlebot:-demystifying-crawling,-fetching,-and-the-bytes-we-process",
+  "pubDate": "Tue, 31 Mar 2026 00:00:00 +0000",
+  "summary": "If you tuned into episode 105 of the Search Off the Record podcast, you might have heard us diving deep into a topic that is close to our hearts (and our servers): the inner workings of Googlebot.",
+  "sourceFeed": "Google Search Central",
+  "sourceUrl": "https://feeds.feedburner.com/blogspot/amDG",
+  "ingestedAt": "2026-04-08T14:44:41.556Z",
+  "suggestedFilename": "2026-03-31-inside-googlebot-demystifying-crawling-fetching-.md"
+}

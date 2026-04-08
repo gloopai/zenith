@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Patch Me If You Can: AI Codemods for Secure-by-Default Android Apps",
+  "link": "https://engineering.fb.com/2026/03/13/android/ai-codemods-secure-by-default-android-apps-meta-tech-podcast/",
+  "guid": "https://engineering.fb.com/?p=23722",
+  "pubDate": "Fri, 13 Mar 2026 16:00:26 +0000",
+  "summary": "Even seemingly simple engineering tasks — like updating an API — can become monumental undertakings when you’re dealing with millions of lines of code and thousands of engineers, especially if the changes are security-related. Nowhere is this more apparent than in mobile security, where a single class of vulnerability can be replicated across hundreds of [...] Read More... The post Patch Me If You Can: AI Codemods for Secure-by-Default Android Apps appeared first on Engineering at Meta .",
+  "sourceFeed": "Meta Engineering",
+  "sourceUrl": "https://engineering.fb.com/feed/",
+  "ingestedAt": "2026-04-08T14:45:56.276Z",
+  "suggestedFilename": "2026-03-13-patch-me-if-you-can-ai-codemods-for-secure-by-de.md"
+}

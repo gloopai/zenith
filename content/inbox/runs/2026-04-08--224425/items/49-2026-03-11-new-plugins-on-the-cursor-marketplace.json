@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "New Plugins on the Cursor Marketplace",
+  "link": "https://cursor.com/changelog/03-11-26",
+  "guid": "https://cursor.com/changelog/03-11-26",
+  "pubDate": "Wed, 11 Mar 2026 00:00:00 GMT",
+  "summary": "We&apos;ve added more than 30 new plugins from partners such as Atlassian, Datadog, GitLab, Glean, Hugging Face, monday.com, and PlanetScale. Cursor can now read from, write to, and take actions across more of your stack.",
+  "sourceFeed": "Cursor Changelog",
+  "sourceUrl": "https://www.cursor.com/changelog/rss.xml",
+  "ingestedAt": "2026-04-08T14:44:33.432Z",
+  "suggestedFilename": "2026-03-11-new-plugins-on-the-cursor-marketplace.md"
+}

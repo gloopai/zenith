@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Long-running Agents in Research Preview",
+  "link": "https://cursor.com/changelog/02-12-26",
+  "guid": "https://cursor.com/changelog/02-12-26",
+  "pubDate": "Thu, 12 Feb 2026 00:00:00 GMT",
+  "summary": "Cursor can now work autonomously over longer horizons to complete larger, more complex tasks. Long-running agents plan first and finish more difficult work without human intervention.",
+  "sourceFeed": "Cursor Changelog",
+  "sourceUrl": "https://www.cursor.com/changelog/rss.xml",
+  "ingestedAt": "2026-04-08T14:45:51.897Z",
+  "suggestedFilename": "2026-02-12-long-running-agents-in-research-preview.md"
+}

@@ -86,7 +86,13 @@
     "eyebrow": "Artículos",
     "title": "Noticias",
     "subtitle": "Actualidad del sector, lanzamientos y notas breves, ordenadas por fecha.",
-    "empty": "Aún no hay artículos."
+    "empty": "Aún no hay artículos.",
+    "pagination": {
+      "navLabel": "Paginación de noticias",
+      "prev": "Anterior",
+      "next": "Siguiente",
+      "status": "Página {current} de {total} · {count} artículos"
+    }
   },
   "articlePage": {
     "breadcrumb": "Noticias"

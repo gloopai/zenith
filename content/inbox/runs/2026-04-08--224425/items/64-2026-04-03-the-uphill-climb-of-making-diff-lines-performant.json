@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "The uphill climb of making diff lines performant",
+  "link": "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/",
+  "guid": "https://github.blog/?p=94994",
+  "pubDate": "Fri, 03 Apr 2026 16:00:00 +0000",
+  "summary": "The path to better performance is often found in simplicity. The post The uphill climb of making diff lines performant appeared first on The GitHub Blog .",
+  "sourceFeed": "GitHub Engineering",
+  "sourceUrl": "https://github.blog/engineering/feed/",
+  "ingestedAt": "2026-04-08T14:44:34.404Z",
+  "suggestedFilename": "2026-04-03-the-uphill-climb-of-making-diff-lines-performant.md"
+}

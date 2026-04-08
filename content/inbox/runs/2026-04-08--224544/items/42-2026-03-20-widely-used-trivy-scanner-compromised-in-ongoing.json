@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Widely used Trivy scanner compromised in ongoing supply-chain attack",
+  "link": "https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/",
+  "guid": "https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/",
+  "pubDate": "Fri, 20 Mar 2026 20:50:46 +0000",
+  "summary": "Admins: Sorry to say, but it's likely a rotate-your-secrets kind of weekend.",
+  "sourceFeed": "Ars Technica · Lab",
+  "sourceUrl": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "ingestedAt": "2026-04-08T14:45:50.865Z",
+  "suggestedFilename": "2026-03-20-widely-used-trivy-scanner-compromised-in-ongoing.md"
+}

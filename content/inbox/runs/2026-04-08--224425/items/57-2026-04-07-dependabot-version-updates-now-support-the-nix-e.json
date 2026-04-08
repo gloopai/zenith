@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Dependabot version updates now support the Nix ecosystem",
+  "link": "https://github.blog/changelog/2026-04-07-dependabot-version-updates-now-support-the-nix-ecosystem",
+  "guid": "https://github.blog/changelog/2026-04-05-dependabot-version-updates-now-support-the-nix-ecosystem",
+  "pubDate": "Tue, 07 Apr 2026 14:14:49 +0000",
+  "summary": "Dependabot now supports Nix flakes. Add nix as a package ecosystem in your dependabot.yml file. Dependabot will then monitor your flake.lock inputs and open pull requests when newer commits are… The post Dependabot version updates now support the Nix ecosystem appeared first on The GitHub Blog .",
+  "sourceFeed": "GitHub Changelog",
+  "sourceUrl": "https://github.blog/changelog/rss/",
+  "ingestedAt": "2026-04-08T14:44:34.278Z",
+  "suggestedFilename": "2026-04-07-dependabot-version-updates-now-support-the-nix-e.md"
+}

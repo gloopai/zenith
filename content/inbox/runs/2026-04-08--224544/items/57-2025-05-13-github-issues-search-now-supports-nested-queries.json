@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "GitHub Issues search now supports nested queries and boolean operators: Here’s how we (re)built it",
+  "link": "https://github.blog/developer-skills/application-development/github-issues-search-now-supports-nested-queries-and-boolean-operators-heres-how-we-rebuilt-it/",
+  "guid": "https://github.blog/?p=87730",
+  "pubDate": "Tue, 13 May 2025 16:00:00 +0000",
+  "summary": "Plus, considerations in updating one of GitHub's oldest and most heavily used features. The post GitHub Issues search now supports nested queries and boolean operators: Here’s how we (re)built it appeared first on The GitHub Blog .",
+  "sourceFeed": "GitHub Engineering",
+  "sourceUrl": "https://github.blog/engineering/feed/",
+  "ingestedAt": "2026-04-08T14:45:52.690Z",
+  "suggestedFilename": "2025-05-13-github-issues-search-now-supports-nested-queries.md"
+}

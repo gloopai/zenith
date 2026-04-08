@@ -1,0 +1,835 @@
+{
+  "runAt": "2026-04-08T14:45:44.462Z",
+  "runId": "2026-04-08--224544",
+  "newCount": 118,
+  "skippedKnown": 131,
+  "errors": [],
+  "items": [
+    {
+      "id": "01-2026-03-31-accelerating-the-next-phase-of-ai",
+      "json": "content/inbox/runs/2026-04-08--224544/items/01-2026-03-31-accelerating-the-next-phase-of-ai.json",
+      "title": "Accelerating the next phase of AI",
+      "link": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "sourceFeed": "OpenAI 新闻"
+    },
+    {
+      "id": "02-2026-03-29-helping-disaster-response-teams-turn-ai-into-act",
+      "json": "content/inbox/runs/2026-04-08--224544/items/02-2026-03-29-helping-disaster-response-teams-turn-ai-into-act.json",
+      "title": "Helping disaster response teams turn AI into action across Asia",
+      "link": "https://openai.com/index/helping-disaster-response-teams-asia",
+      "sourceFeed": "OpenAI 新闻"
+    },
+    {
+      "id": "03-2026-03-27-stadler-reshapes-knowledge-work-at-a-230-year-ol",
+      "json": "content/inbox/runs/2026-04-08--224544/items/03-2026-03-27-stadler-reshapes-knowledge-work-at-a-230-year-ol.json",
+      "title": "STADLER reshapes knowledge work at a 230-year-old company",
+      "link": "https://openai.com/index/stadler",
+      "sourceFeed": "OpenAI 新闻"
+    },
+    {
+      "id": "04-2026-03-25-inside-our-approach-to-the-model-spec",
+      "json": "content/inbox/runs/2026-04-08--224544/items/04-2026-03-25-inside-our-approach-to-the-model-spec.json",
+      "title": "Inside our approach to the Model Spec",
+      "link": "https://openai.com/index/our-approach-to-the-model-spec",
+      "sourceFeed": "OpenAI 新闻"
+    },
+    {
+      "id": "05-2026-03-25-introducing-the-openai-safety-bug-bounty-program",
+      "json": "content/inbox/runs/2026-04-08--224544/items/05-2026-03-25-introducing-the-openai-safety-bug-bounty-program.json",
+      "title": "Introducing the OpenAI Safety Bug Bounty program",
+      "link": "https://openai.com/index/safety-bug-bounty",
+      "sourceFeed": "OpenAI 新闻"
+    },
+    {
+      "id": "06-2026-03-24-helping-developers-build-safer-ai-experiences-fo",
+      "json": "content/inbox/runs/2026-04-08--224544/items/06-2026-03-24-helping-developers-build-safer-ai-experiences-fo.json",
+      "title": "Helping developers build safer AI experiences for teens",
+      "link": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+      "sourceFeed": "OpenAI 新闻"
+    },
+    {
+      "id": "07-2026-03-26-transform-your-headphones-into-a-live-personal-t",
+      "json": "content/inbox/runs/2026-04-08--224544/items/07-2026-03-26-transform-your-headphones-into-a-live-personal-t.json",
+      "title": "Transform your headphones into a live personal translator on iOS.",
+      "link": "https://blog.google/products-and-platforms/products/translate/live-translate-with-headphones/",
+      "sourceFeed": "Google AI Blog"
+    },
+    {
+      "id": "08-2026-03-26-gemini-3-1-flash-live-making-audio-ai-more-natur",
+      "json": "content/inbox/runs/2026-04-08--224544/items/08-2026-03-26-gemini-3-1-flash-live-making-audio-ai-more-natur.json",
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+      "sourceFeed": "Google AI Blog"
+    },
+    {
+      "id": "09-2026-03-26-search-live-is-expanding-globally",
+      "json": "content/inbox/runs/2026-04-08--224544/items/09-2026-03-26-search-live-is-expanding-globally.json",
+      "title": "Search Live is expanding globally",
+      "link": "https://blog.google/products-and-platforms/products/search/search-live-global-expansion/",
+      "sourceFeed": "Google AI Blog"
+    },
+    {
+      "id": "10-2026-03-25-build-with-lyria-3-our-newest-music-generation-m",
+      "json": "content/inbox/runs/2026-04-08--224544/items/10-2026-03-25-build-with-lyria-3-our-newest-music-generation-m.json",
+      "title": "Build with Lyria 3, our newest music generation model",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/",
+      "sourceFeed": "Google AI Blog"
+    },
+    {
+      "id": "11-2026-03-25-lyria-3-pro-create-longer-tracks-in-more-google-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/11-2026-03-25-lyria-3-pro-create-longer-tracks-in-more-google-.json",
+      "title": "Lyria 3 Pro: Create longer tracks in more Google products",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/",
+      "sourceFeed": "Google AI Blog"
+    },
+    {
+      "id": "12-2026-03-17-bringing-the-power-of-personal-intelligence-to-m",
+      "json": "content/inbox/runs/2026-04-08--224544/items/12-2026-03-17-bringing-the-power-of-personal-intelligence-to-m.json",
+      "title": "Bringing the power of Personal Intelligence to more people",
+      "link": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+      "sourceFeed": "Google AI Blog"
+    },
+    {
+      "id": "13-2026-03-09-from-games-to-biology-and-beyond-10-years-of-alp",
+      "json": "content/inbox/runs/2026-04-08--224544/items/13-2026-03-09-from-games-to-biology-and-beyond-10-years-of-alp.json",
+      "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
+      "link": "https://deepmind.google/blog/10-years-of-alphago/",
+      "sourceFeed": "Google DeepMind"
+    },
+    {
+      "id": "14-2026-03-03-gemini-3-1-flash-lite-built-for-intelligence-at-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/14-2026-03-03-gemini-3-1-flash-lite-built-for-intelligence-at-.json",
+      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "link": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
+      "sourceFeed": "Google DeepMind"
+    },
+    {
+      "id": "15-2026-02-26-nano-banana-2-combining-pro-capabilities-with-li",
+      "json": "content/inbox/runs/2026-04-08--224544/items/15-2026-02-26-nano-banana-2-combining-pro-capabilities-with-li.json",
+      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+      "link": "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/",
+      "sourceFeed": "Google DeepMind"
+    },
+    {
+      "id": "16-2026-02-19-gemini-3-1-pro-a-smarter-model-for-your-most-com",
+      "json": "content/inbox/runs/2026-04-08--224544/items/16-2026-02-19-gemini-3-1-pro-a-smarter-model-for-your-most-com.json",
+      "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+      "link": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
+      "sourceFeed": "Google DeepMind"
+    },
+    {
+      "id": "17-2026-02-18-a-new-way-to-express-yourself-gemini-can-now-cre",
+      "json": "content/inbox/runs/2026-04-08--224544/items/17-2026-02-18-a-new-way-to-express-yourself-gemini-can-now-cre.json",
+      "title": "A new way to express yourself: Gemini can now create music",
+      "link": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
+      "sourceFeed": "Google DeepMind"
+    },
+    {
+      "id": "18-2026-03-24-turboquant-redefining-ai-efficiency-with-extreme",
+      "json": "content/inbox/runs/2026-04-08--224544/items/18-2026-03-24-turboquant-redefining-ai-efficiency-with-extreme.json",
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "link": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+      "sourceFeed": "Google Research"
+    },
+    {
+      "id": "19-2026-03-24-mapping-the-modern-world-how-s2vec-learns-the-la",
+      "json": "content/inbox/runs/2026-04-08--224544/items/19-2026-03-24-mapping-the-modern-world-how-s2vec-learns-the-la.json",
+      "title": "Mapping the modern world: How S2Vec learns the language of our cities",
+      "link": "https://research.google/blog/mapping-the-modern-world-how-s2vec-learns-the-language-of-our-cities/",
+      "sourceFeed": "Google Research"
+    },
+    {
+      "id": "20-2026-03-17-google-research-at-the-check-up-from-healthcare-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/20-2026-03-17-google-research-at-the-check-up-from-healthcare-.json",
+      "title": "Google Research at The Check Up: from healthcare innovation to real-world care settings",
+      "link": "https://research.google/blog/google-research-at-the-check-up-from-healthcare-innovation-to-real-world-care-settings/",
+      "sourceFeed": "Google Research"
+    },
+    {
+      "id": "21-2026-03-17-improving-breast-cancer-screening-workflows-with",
+      "json": "content/inbox/runs/2026-04-08--224544/items/21-2026-03-17-improving-breast-cancer-screening-workflows-with.json",
+      "title": "Improving breast cancer screening workflows with machine learning",
+      "link": "https://research.google/blog/improving-breast-cancer-screening-workflows-with-machine-learning/",
+      "sourceFeed": "Google Research"
+    },
+    {
+      "id": "22-2026-03-31-granite-4-0-3b-vision-compact-multimodal-intelli",
+      "json": "content/inbox/runs/2026-04-08--224544/items/22-2026-03-31-granite-4-0-3b-vision-compact-multimodal-intelli.json",
+      "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+      "sourceFeed": "Hugging Face Blog"
+    },
+    {
+      "id": "23-2026-03-31-training-mrna-language-models-across-25-species-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/23-2026-03-31-training-mrna-language-models-across-25-species-.json",
+      "title": "Training mRNA Language Models Across 25 Species for $165",
+      "link": "https://huggingface.co/blog/OpenMed/training-mrna-models-25-species",
+      "sourceFeed": "Hugging Face Blog"
+    },
+    {
+      "id": "24-2026-03-31-trl-v1-0-post-training-library-built-to-move-wit",
+      "json": "content/inbox/runs/2026-04-08--224544/items/24-2026-03-31-trl-v1-0-post-training-library-built-to-move-wit.json",
+      "title": "TRL v1.0: Post-Training Library Built to Move with the Field",
+      "link": "https://huggingface.co/blog/trl-v1",
+      "sourceFeed": "Hugging Face Blog"
+    },
+    {
+      "id": "25-2026-03-27-liberate-your-openclaw",
+      "json": "content/inbox/runs/2026-04-08--224544/items/25-2026-03-27-liberate-your-openclaw.json",
+      "title": "Liberate your OpenClaw",
+      "link": "https://huggingface.co/blog/liberate-your-openclaw",
+      "sourceFeed": "Hugging Face Blog"
+    },
+    {
+      "id": "26-2026-03-24-a-new-framework-for-evaluating-voice-agents-eva",
+      "json": "content/inbox/runs/2026-04-08--224544/items/26-2026-03-24-a-new-framework-for-evaluating-voice-agents-eva.json",
+      "title": "A New Framework for Evaluating Voice Agents (EVA)",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/eva",
+      "sourceFeed": "Hugging Face Blog"
+    },
+    {
+      "id": "27-2026-03-20-build-a-domain-specific-embedding-model-in-under",
+      "json": "content/inbox/runs/2026-04-08--224544/items/27-2026-03-20-build-a-domain-specific-embedding-model-in-under.json",
+      "title": "Build a Domain-Specific Embedding Model in Under a Day",
+      "link": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+      "sourceFeed": "Hugging Face Blog"
+    },
+    {
+      "id": "28-2026-04-07-anthropic-ups-compute-deal-with-google-and-broad",
+      "json": "content/inbox/runs/2026-04-08--224544/items/28-2026-04-07-anthropic-ups-compute-deal-with-google-and-broad.json",
+      "title": "Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand",
+      "link": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/",
+      "sourceFeed": "TechCrunch · AI"
+    },
+    {
+      "id": "29-2026-04-07-google-maps-can-now-write-captions-for-your-phot",
+      "json": "content/inbox/runs/2026-04-08--224544/items/29-2026-04-07-google-maps-can-now-write-captions-for-your-phot.json",
+      "title": "Google Maps can now write captions for your photos using AI",
+      "link": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
+      "sourceFeed": "TechCrunch · AI"
+    },
+    {
+      "id": "30-2026-04-07-4-days-left-to-save-close-to-500-on-techcrunch-d",
+      "json": "content/inbox/runs/2026-04-08--224544/items/30-2026-04-07-4-days-left-to-save-close-to-500-on-techcrunch-d.json",
+      "title": "4 days left to save close to $500 on TechCrunch Disrupt 2026 passes",
+      "link": "https://techcrunch.com/2026/04/07/4-days-left-to-save-close-to-500-on-techcrunch-disrupt-2026-passes/",
+      "sourceFeed": "TechCrunch · AI"
+    },
+    {
+      "id": "31-2026-04-07-the-ai-gold-rush-is-pulling-private-wealth-into-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/31-2026-04-07-the-ai-gold-rush-is-pulling-private-wealth-into-.json",
+      "title": "The AI gold rush is pulling private wealth into riskier, earlier bets",
+      "link": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
+      "sourceFeed": "TechCrunch · AI"
+    },
+    {
+      "id": "32-2026-04-07-ai-startup-rocket-offers-vibe-mckinsey-style-rep",
+      "json": "content/inbox/runs/2026-04-08--224544/items/32-2026-04-07-ai-startup-rocket-offers-vibe-mckinsey-style-rep.json",
+      "title": "AI startup Rocket offers vibe McKinsey-style reports at a fraction of the cost",
+      "link": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
+      "sourceFeed": "TechCrunch · AI"
+    },
+    {
+      "id": "33-2026-04-06-openai-alums-have-been-quietly-investing-from-a-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/33-2026-04-06-openai-alums-have-been-quietly-investing-from-a-.json",
+      "title": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
+      "link": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
+      "sourceFeed": "TechCrunch · AI"
+    },
+    {
+      "id": "34-2026-04-06-iran-threatens-stargate-ai-data-centers",
+      "json": "content/inbox/runs/2026-04-08--224544/items/34-2026-04-06-iran-threatens-stargate-ai-data-centers.json",
+      "title": "Iran threatens ‘Stargate’ AI data centers",
+      "link": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
+      "sourceFeed": "TechCrunch · AI"
+    },
+    {
+      "id": "35-2026-04-06-openai-s-vision-for-the-ai-economy-public-wealth",
+      "json": "content/inbox/runs/2026-04-08--224544/items/35-2026-04-06-openai-s-vision-for-the-ai-economy-public-wealth.json",
+      "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
+      "link": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+      "sourceFeed": "TechCrunch · AI"
+    },
+    {
+      "id": "36-2026-04-06-the-one-piece-of-data-that-could-actually-shed-l",
+      "json": "content/inbox/runs/2026-04-08--224544/items/36-2026-04-06-the-one-piece-of-data-that-could-actually-shed-l.json",
+      "title": "The one piece of data that could actually shed light on your job and AI",
+      "link": "https://www.technologyreview.com/2026/04/06/1135187/the-one-piece-of-data-that-could-actually-shed-light-on-your-job-and-ai/",
+      "sourceFeed": "MIT Technology Review"
+    },
+    {
+      "id": "37-2026-04-06-ai-is-changing-how-small-online-sellers-decide-w",
+      "json": "content/inbox/runs/2026-04-08--224544/items/37-2026-04-06-ai-is-changing-how-small-online-sellers-decide-w.json",
+      "title": "AI is changing how small online sellers decide what to make",
+      "link": "https://www.technologyreview.com/2026/04/06/1135118/ai-online-seller-alibaba-accio/",
+      "sourceFeed": "MIT Technology Review"
+    },
+    {
+      "id": "38-2026-04-03-four-things-we-d-need-to-put-data-centers-in-spa",
+      "json": "content/inbox/runs/2026-04-08--224544/items/38-2026-04-03-four-things-we-d-need-to-put-data-centers-in-spa.json",
+      "title": "Four things we’d need to put data centers in space",
+      "link": "https://www.technologyreview.com/2026/04/03/1135073/four-things-wed-need-to-put-data-centers-in-space/",
+      "sourceFeed": "MIT Technology Review"
+    },
+    {
+      "id": "39-2026-04-02-the-download-plastic-s-problem-with-fuel-prices-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/39-2026-04-02-the-download-plastic-s-problem-with-fuel-prices-.json",
+      "title": "The Download: plastic’s problem with fuel prices, and SpaceX’s blockbuster IPO",
+      "link": "https://www.technologyreview.com/2026/04/02/1135049/the-download-plastic-problem-fuel-prices-spacex-ipo/",
+      "sourceFeed": "MIT Technology Review"
+    },
+    {
+      "id": "40-2026-04-02-fuel-prices-are-soaring-plastic-could-be-next",
+      "json": "content/inbox/runs/2026-04-08--224544/items/40-2026-04-02-fuel-prices-are-soaring-plastic-could-be-next.json",
+      "title": "Fuel prices are soaring. Plastic could be next.",
+      "link": "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/",
+      "sourceFeed": "MIT Technology Review"
+    },
+    {
+      "id": "41-2026-03-24-self-propagating-malware-poisons-open-source-sof",
+      "json": "content/inbox/runs/2026-04-08--224544/items/41-2026-03-24-self-propagating-malware-poisons-open-source-sof.json",
+      "title": "Self-propagating malware poisons open source software and wipes Iran-based machines",
+      "link": "https://arstechnica.com/security/2026/03/self-propagating-malware-poisons-open-source-software-and-wipes-iran-based-machines/",
+      "sourceFeed": "Ars Technica · Lab"
+    },
+    {
+      "id": "42-2026-03-20-widely-used-trivy-scanner-compromised-in-ongoing",
+      "json": "content/inbox/runs/2026-04-08--224544/items/42-2026-03-20-widely-used-trivy-scanner-compromised-in-ongoing.json",
+      "title": "Widely used Trivy scanner compromised in ongoing supply-chain attack",
+      "link": "https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/",
+      "sourceFeed": "Ars Technica · Lab"
+    },
+    {
+      "id": "43-2026-03-19-cloud-service-providers-ask-eu-regulator-to-rein",
+      "json": "content/inbox/runs/2026-04-08--224544/items/43-2026-03-19-cloud-service-providers-ask-eu-regulator-to-rein.json",
+      "title": "Cloud service providers ask EU regulator to reinstate VMware partner program",
+      "link": "https://arstechnica.com/information-technology/2026/03/cloud-service-providers-ask-eu-regulator-to-reinstate-vmware-partner-program/",
+      "sourceFeed": "Ars Technica · Lab"
+    },
+    {
+      "id": "44-2026-03-18-federal-cyber-experts-called-microsoft-s-cloud-a",
+      "json": "content/inbox/runs/2026-04-08--224544/items/44-2026-03-18-federal-cyber-experts-called-microsoft-s-cloud-a.json",
+      "title": "Federal cyber experts called Microsoft's cloud a \"pile of shit,\" approved it anyway",
+      "link": "https://arstechnica.com/information-technology/2026/03/federal-cyber-experts-called-microsofts-cloud-a-pile-of-shit-approved-it-anyway/",
+      "sourceFeed": "Ars Technica · Lab"
+    },
+    {
+      "id": "45-2026-03-17-researchers-disclose-vulnerabilities-in-ip-kvms-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/45-2026-03-17-researchers-disclose-vulnerabilities-in-ip-kvms-.json",
+      "title": "Researchers disclose vulnerabilities in IP KVMs from four manufacturers",
+      "link": "https://arstechnica.com/security/2026/03/researchers-disclose-vulnerabilities-in-ip-kvms-from-4-manufacturers/",
+      "sourceFeed": "Ars Technica · Lab"
+    },
+    {
+      "id": "46-2026-02-24-cloud-agents-with-computer-use",
+      "json": "content/inbox/runs/2026-04-08--224544/items/46-2026-02-24-cloud-agents-with-computer-use.json",
+      "title": "Cloud Agents with Computer Use",
+      "link": "https://cursor.com/changelog/02-24-26",
+      "sourceFeed": "Cursor Changelog"
+    },
+    {
+      "id": "47-2026-02-18-cli-improvements-and-mermaid-ascii-diagrams",
+      "json": "content/inbox/runs/2026-04-08--224544/items/47-2026-02-18-cli-improvements-and-mermaid-ascii-diagrams.json",
+      "title": "CLI Improvements and Mermaid ASCII Diagrams",
+      "link": "https://cursor.com/changelog/cli-feb-18-2026",
+      "sourceFeed": "Cursor Changelog"
+    },
+    {
+      "id": "48-2026-02-17-plugins-sandbox-access-controls-and-async-subage",
+      "json": "content/inbox/runs/2026-04-08--224544/items/48-2026-02-17-plugins-sandbox-access-controls-and-async-subage.json",
+      "title": "Plugins, Sandbox Access Controls, and Async Subagents",
+      "link": "https://cursor.com/changelog/2-5",
+      "sourceFeed": "Cursor Changelog"
+    },
+    {
+      "id": "49-2026-02-12-long-running-agents-in-research-preview",
+      "json": "content/inbox/runs/2026-04-08--224544/items/49-2026-02-12-long-running-agents-in-research-preview.json",
+      "title": "Long-running Agents in Research Preview",
+      "link": "https://cursor.com/changelog/02-12-26",
+      "sourceFeed": "Cursor Changelog"
+    },
+    {
+      "id": "50-2026-01-22-subagents-skills-and-image-generation",
+      "json": "content/inbox/runs/2026-04-08--224544/items/50-2026-01-22-subagents-skills-and-image-generation.json",
+      "title": "Subagents, Skills, and Image Generation",
+      "link": "https://cursor.com/changelog/2-4",
+      "sourceFeed": "Cursor Changelog"
+    },
+    {
+      "id": "51-2026-01-16-cli-agent-modes-and-cloud-handoff",
+      "json": "content/inbox/runs/2026-04-08--224544/items/51-2026-01-16-cli-agent-modes-and-cloud-handoff.json",
+      "title": "CLI Agent Modes and Cloud Handoff",
+      "link": "https://cursor.com/changelog/cli-jan-16-2026",
+      "sourceFeed": "Cursor Changelog"
+    },
+    {
+      "id": "52-2026-01-08-new-cli-features-and-improved-cli-performance",
+      "json": "content/inbox/runs/2026-04-08--224544/items/52-2026-01-08-new-cli-features-and-improved-cli-performance.json",
+      "title": "New CLI Features and Improved CLI Performance",
+      "link": "https://cursor.com/changelog/cli-jan-08-2026",
+      "sourceFeed": "Cursor Changelog"
+    },
+    {
+      "id": "53-2025-12-22-layout-customization-and-stability-improvements",
+      "json": "content/inbox/runs/2026-04-08--224544/items/53-2025-12-22-layout-customization-and-stability-improvements.json",
+      "title": "Layout Customization and Stability Improvements",
+      "link": "https://cursor.com/changelog/2-3",
+      "sourceFeed": "Cursor Changelog"
+    },
+    {
+      "id": "54-2026-01-15-when-protections-outlive-their-purpose-a-lesson-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/54-2026-01-15-when-protections-outlive-their-purpose-a-lesson-.json",
+      "title": "When protections outlive their purpose: A lesson on managing defense systems at scale",
+      "link": "https://github.blog/engineering/infrastructure/when-protections-outlive-their-purpose-a-lesson-on-managing-defense-systems-at-scale/",
+      "sourceFeed": "GitHub Engineering"
+    },
+    {
+      "id": "55-2025-09-15-post-quantum-security-for-ssh-access-on-github",
+      "json": "content/inbox/runs/2026-04-08--224544/items/55-2025-09-15-post-quantum-security-for-ssh-access-on-github.json",
+      "title": "Post-quantum security for SSH access on GitHub",
+      "link": "https://github.blog/engineering/platform-security/post-quantum-security-for-ssh-access-on-github/",
+      "sourceFeed": "GitHub Engineering"
+    },
+    {
+      "id": "56-2025-06-10-how-github-engineers-tackle-platform-problems",
+      "json": "content/inbox/runs/2026-04-08--224544/items/56-2025-06-10-how-github-engineers-tackle-platform-problems.json",
+      "title": "How GitHub engineers tackle platform problems",
+      "link": "https://github.blog/engineering/infrastructure/how-github-engineers-tackle-platform-problems/",
+      "sourceFeed": "GitHub Engineering"
+    },
+    {
+      "id": "57-2025-05-13-github-issues-search-now-supports-nested-queries",
+      "json": "content/inbox/runs/2026-04-08--224544/items/57-2025-05-13-github-issues-search-now-supports-nested-queries.json",
+      "title": "GitHub Issues search now supports nested queries and boolean operators: Here’s how we (re)built it",
+      "link": "https://github.blog/developer-skills/application-development/github-issues-search-now-supports-nested-queries-and-boolean-operators-heres-how-we-rebuilt-it/",
+      "sourceFeed": "GitHub Engineering"
+    },
+    {
+      "id": "58-2025-05-09-design-system-annotations-part-2-advanced-method",
+      "json": "content/inbox/runs/2026-04-08--224544/items/58-2025-05-09-design-system-annotations-part-2-advanced-method.json",
+      "title": "Design system annotations, part 2: Advanced methods of annotating components",
+      "link": "https://github.blog/engineering/user-experience/design-system-annotations-part-2-advanced-methods-of-annotating-components/",
+      "sourceFeed": "GitHub Engineering"
+    },
+    {
+      "id": "59-2026-01-22-announcing-winapp-the-windows-app-development-cl",
+      "json": "content/inbox/runs/2026-04-08--224544/items/59-2026-01-22-announcing-winapp-the-windows-app-development-cl.json",
+      "title": "Announcing winapp, the Windows App Development CLI",
+      "link": "https://blogs.windows.com/windowsdeveloper/2026/01/22/announcing-winapp-the-windows-app-development-cli/",
+      "sourceFeed": "Microsoft 开发者博客"
+    },
+    {
+      "id": "60-2025-12-18-2025-in-review-how-we-elevated-the-microsoft-sto",
+      "json": "content/inbox/runs/2026-04-08--224544/items/60-2025-12-18-2025-in-review-how-we-elevated-the-microsoft-sto.json",
+      "title": "2025 in review: How we elevated the Microsoft Store experience",
+      "link": "https://blogs.windows.com/windowsdeveloper/2025/12/18/2025-in-review-how-we-elevated-the-microsoft-store-experience/",
+      "sourceFeed": "Microsoft 开发者博客"
+    },
+    {
+      "id": "61-2025-12-16-add-new-models-in-powertoys-paste-with-ai-featur",
+      "json": "content/inbox/runs/2026-04-08--224544/items/61-2025-12-16-add-new-models-in-powertoys-paste-with-ai-featur.json",
+      "title": "Add new models in PowerToys’ Paste with AI feature",
+      "link": "https://learn.microsoft.com/en-us/windows/powertoys/advanced-paste#adding-a-model-provider",
+      "sourceFeed": "Microsoft 开发者博客"
+    },
+    {
+      "id": "62-2025-12-03-announcing-the-microsoft-store-awards-2025-winne",
+      "json": "content/inbox/runs/2026-04-08--224544/items/62-2025-12-03-announcing-the-microsoft-store-awards-2025-winne.json",
+      "title": "Announcing the Microsoft Store Awards 2025 winners",
+      "link": "https://blogs.windows.com/windowsdeveloper/2025/12/03/announcing-the-microsoft-store-awards-2025-winners/",
+      "sourceFeed": "Microsoft 开发者博客"
+    },
+    {
+      "id": "63-2026-03-31-announcing-the-langchain-mongodb-partnership-the",
+      "json": "content/inbox/runs/2026-04-08--224544/items/63-2026-03-31-announcing-the-langchain-mongodb-partnership-the.json",
+      "title": "Announcing the LangChain + MongoDB Partnership: The AI Agent Stack That Runs On The Database You Already Trust",
+      "link": "https://blog.langchain.com/announcing-the-langchain-mongodb-partnership-the-ai-agent-stack-that-runs-on-the-database-you-already-trust/",
+      "sourceFeed": "LangChain Blog"
+    },
+    {
+      "id": "64-2026-03-27-agent-evaluation-readiness-checklist",
+      "json": "content/inbox/runs/2026-04-08--224544/items/64-2026-03-27-agent-evaluation-readiness-checklist.json",
+      "title": "Agent Evaluation Readiness Checklist",
+      "link": "https://blog.langchain.com/agent-evaluation-readiness-checklist/",
+      "sourceFeed": "LangChain Blog"
+    },
+    {
+      "id": "65-2026-03-26-how-kensho-built-a-multi-agent-framework-with-la",
+      "json": "content/inbox/runs/2026-04-08--224544/items/65-2026-03-26-how-kensho-built-a-multi-agent-framework-with-la.json",
+      "title": "How Kensho built a multi-agent framework with LangGraph to solve trusted financial data retrieval",
+      "link": "https://blog.langchain.com/customers-kensho/",
+      "sourceFeed": "LangChain Blog"
+    },
+    {
+      "id": "66-2026-03-26-how-we-build-evals-for-deep-agents",
+      "json": "content/inbox/runs/2026-04-08--224544/items/66-2026-03-26-how-we-build-evals-for-deep-agents.json",
+      "title": "How we build evals for Deep Agents",
+      "link": "https://blog.langchain.com/how-we-build-evals-for-deep-agents/",
+      "sourceFeed": "LangChain Blog"
+    },
+    {
+      "id": "67-2026-03-26-how-middleware-lets-you-customize-your-agent-har",
+      "json": "content/inbox/runs/2026-04-08--224544/items/67-2026-03-26-how-middleware-lets-you-customize-your-agent-har.json",
+      "title": "How Middleware Lets You Customize Your Agent Harness",
+      "link": "https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness/",
+      "sourceFeed": "LangChain Blog"
+    },
+    {
+      "id": "68-2026-03-25-skills-in-langsmith-fleet",
+      "json": "content/inbox/runs/2026-04-08--224544/items/68-2026-03-25-skills-in-langsmith-fleet.json",
+      "title": "Skills in LangSmith Fleet",
+      "link": "https://blog.langchain.com/skills-in-langsmith-fleet/",
+      "sourceFeed": "LangChain Blog"
+    },
+    {
+      "id": "69-2026-03-31-introducing-programmable-flow-protection-custom-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/69-2026-03-31-introducing-programmable-flow-protection-custom-.json",
+      "title": "Introducing Programmable Flow Protection: custom DDoS mitigation logic for Magic Transit customers",
+      "link": "https://blog.cloudflare.com/programmable-flow-protection/",
+      "sourceFeed": "Cloudflare Blog"
+    },
+    {
+      "id": "70-2026-03-30-cloudflare-client-side-security-smarter-detectio",
+      "json": "content/inbox/runs/2026-04-08--224544/items/70-2026-03-30-cloudflare-client-side-security-smarter-detectio.json",
+      "title": "Cloudflare Client-Side Security: smarter detection, now open to everyone",
+      "link": "https://blog.cloudflare.com/client-side-security-open-to-everyone/",
+      "sourceFeed": "Cloudflare Blog"
+    },
+    {
+      "id": "71-2026-03-27-how-we-use-abstract-syntax-trees-asts-to-turn-wo",
+      "json": "content/inbox/runs/2026-04-08--224544/items/71-2026-03-27-how-we-use-abstract-syntax-trees-asts-to-turn-wo.json",
+      "title": "How we use Abstract Syntax Trees (ASTs) to turn Workflows code into visual diagrams",
+      "link": "https://blog.cloudflare.com/workflow-diagrams/",
+      "sourceFeed": "Cloudflare Blog"
+    },
+    {
+      "id": "72-2026-03-26-a-one-line-kubernetes-fix-that-saved-600-hours-a",
+      "json": "content/inbox/runs/2026-04-08--224544/items/72-2026-03-26-a-one-line-kubernetes-fix-that-saved-600-hours-a.json",
+      "title": "A one-line Kubernetes fix that saved 600 hours a year",
+      "link": "https://blog.cloudflare.com/one-line-kubernetes-fix-saved-600-hours-a-year/",
+      "sourceFeed": "Cloudflare Blog"
+    },
+    {
+      "id": "73-2026-03-24-sandboxing-ai-agents-100x-faster",
+      "json": "content/inbox/runs/2026-04-08--224544/items/73-2026-03-24-sandboxing-ai-agents-100x-faster.json",
+      "title": "Sandboxing AI agents, 100x faster",
+      "link": "https://blog.cloudflare.com/dynamic-workers/",
+      "sourceFeed": "Cloudflare Blog"
+    },
+    {
+      "id": "74-2026-03-26-building-shared-coding-guidelines-for-ai-and-peo",
+      "json": "content/inbox/runs/2026-04-08--224544/items/74-2026-03-26-building-shared-coding-guidelines-for-ai-and-peo.json",
+      "title": "Building shared coding guidelines for AI (and people too)",
+      "link": "https://stackoverflow.blog/2026/03/26/coding-guidelines-for-ai-agents-and-people-too/",
+      "sourceFeed": "Stack Overflow Blog"
+    },
+    {
+      "id": "75-2026-03-24-multi-stage-attacks-are-the-final-fantasy-bosses",
+      "json": "content/inbox/runs/2026-04-08--224544/items/75-2026-03-24-multi-stage-attacks-are-the-final-fantasy-bosses.json",
+      "title": "Multi-stage attacks are the Final Fantasy bosses of security",
+      "link": "https://stackoverflow.blog/2026/03/24/multi-stage-attacks-are-the-final-fantasy-bosses-of-security/",
+      "sourceFeed": "Stack Overflow Blog"
+    },
+    {
+      "id": "76-2026-03-20-after-all-the-hype-was-2025-really-the-year-of-a",
+      "json": "content/inbox/runs/2026-04-08--224544/items/76-2026-03-20-after-all-the-hype-was-2025-really-the-year-of-a.json",
+      "title": "After all the hype, was 2025 really the year of AI agents?",
+      "link": "https://stackoverflow.blog/2026/03/20/was-2025-really-the-year-of-ai-agents/",
+      "sourceFeed": "Stack Overflow Blog"
+    },
+    {
+      "id": "77-2026-03-19-ai-is-becoming-a-second-brain-at-the-expense-of-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/77-2026-03-19-ai-is-becoming-a-second-brain-at-the-expense-of-.json",
+      "title": "AI is becoming a second brain at the expense of your first one",
+      "link": "https://stackoverflow.blog/2026/03/19/ai-is-becoming-a-second-brain-at-the-expense-of-your-first-one/",
+      "sourceFeed": "Stack Overflow Blog"
+    },
+    {
+      "id": "78-2026-03-19-building-a-global-engineering-team-plus-ai-agent",
+      "json": "content/inbox/runs/2026-04-08--224544/items/78-2026-03-19-building-a-global-engineering-team-plus-ai-agent.json",
+      "title": "Building a global engineering team (plus AI agents) with Netlify",
+      "link": "https://stackoverflow.blog/2026/03/19/building-a-global-engineering-team-netlify/",
+      "sourceFeed": "Stack Overflow Blog"
+    },
+    {
+      "id": "79-2026-03-18-friend-bubbles-enhancing-social-discovery-on-fac",
+      "json": "content/inbox/runs/2026-04-08--224544/items/79-2026-03-18-friend-bubbles-enhancing-social-discovery-on-fac.json",
+      "title": "Friend Bubbles: Enhancing Social Discovery on Facebook Reels",
+      "link": "https://engineering.fb.com/2026/03/18/ml-applications/friend-bubbles-enhancing-social-discovery-on-facebook-reels/",
+      "sourceFeed": "Meta Engineering"
+    },
+    {
+      "id": "80-2026-03-17-ranking-engineer-agent-rea-the-autonomous-ai-age",
+      "json": "content/inbox/runs/2026-04-08--224544/items/80-2026-03-17-ranking-engineer-agent-rea-the-autonomous-ai-age.json",
+      "title": "Ranking Engineer Agent (REA): The Autonomous AI Agent Accelerating Meta’s Ads Ranking Innovation",
+      "link": "https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation/",
+      "sourceFeed": "Meta Engineering"
+    },
+    {
+      "id": "81-2026-03-13-patch-me-if-you-can-ai-codemods-for-secure-by-de",
+      "json": "content/inbox/runs/2026-04-08--224544/items/81-2026-03-13-patch-me-if-you-can-ai-codemods-for-secure-by-de.json",
+      "title": "Patch Me If You Can: AI Codemods for Secure-by-Default Android Apps",
+      "link": "https://engineering.fb.com/2026/03/13/android/ai-codemods-secure-by-default-android-apps-meta-tech-podcast/",
+      "sourceFeed": "Meta Engineering"
+    },
+    {
+      "id": "82-2026-03-09-how-advanced-browsing-protection-works-in-messen",
+      "json": "content/inbox/runs/2026-04-08--224544/items/82-2026-03-09-how-advanced-browsing-protection-works-in-messen.json",
+      "title": "How Advanced Browsing Protection Works in Messenger",
+      "link": "https://engineering.fb.com/2026/03/09/security/how-advanced-browsing-protection-works-in-messenger/",
+      "sourceFeed": "Meta Engineering"
+    },
+    {
+      "id": "83-2026-03-20-custom-skills-for-notion-ai",
+      "json": "content/inbox/runs/2026-04-08--224544/items/83-2026-03-20-custom-skills-for-notion-ai.json",
+      "title": "Custom skills for Notion AI",
+      "link": "https://www.notion.so/releases/2026-03-20",
+      "sourceFeed": "Notion Releases"
+    },
+    {
+      "id": "84-2026-03-19-notion-academy-certifications-in-6-new-languages",
+      "json": "content/inbox/runs/2026-04-08--224544/items/84-2026-03-19-notion-academy-certifications-in-6-new-languages.json",
+      "title": "Notion Academy & certifications, in 6 new languages",
+      "link": "https://www.notion.so/releases/2026-03-19",
+      "sourceFeed": "Notion Releases"
+    },
+    {
+      "id": "85-2026-03-18-custom-instructions-for-ai-meeting-notes",
+      "json": "content/inbox/runs/2026-04-08--224544/items/85-2026-03-18-custom-instructions-for-ai-meeting-notes.json",
+      "title": "Custom instructions for AI Meeting Notes",
+      "link": "https://www.notion.so/releases/2026-03-18",
+      "sourceFeed": "Notion Releases"
+    },
+    {
+      "id": "86-2026-03-12-new-consent-controls-for-ai-meeting-notes",
+      "json": "content/inbox/runs/2026-04-08--224544/items/86-2026-03-12-new-consent-controls-for-ai-meeting-notes.json",
+      "title": "New consent controls for AI Meeting Notes",
+      "link": "https://www.notion.so/releases/2026-03-12",
+      "sourceFeed": "Notion Releases"
+    },
+    {
+      "id": "87-2026-03-11-search-salesforce-accounts-leads-opportunities-a",
+      "json": "content/inbox/runs/2026-04-08--224544/items/87-2026-03-11-search-salesforce-accounts-leads-opportunities-a.json",
+      "title": "Search Salesforce accounts, leads, opportunities, and contacts in Notion",
+      "link": "https://www.notion.so/releases/2026-03-11",
+      "sourceFeed": "Notion Releases"
+    },
+    {
+      "id": "88-2026-03-31-what-is-contact-management-how-slack-crm-support",
+      "json": "content/inbox/runs/2026-04-08--224544/items/88-2026-03-31-what-is-contact-management-how-slack-crm-support.json",
+      "title": "What Is Contact Management? How Slack CRM Supports It",
+      "link": "https://slack.com/blog/crm/contact-management",
+      "sourceFeed": "Slack Blog"
+    },
+    {
+      "id": "89-2026-03-27-slack-feature-drop-your-productivity-is-springin",
+      "json": "content/inbox/runs/2026-04-08--224544/items/89-2026-03-27-slack-feature-drop-your-productivity-is-springin.json",
+      "title": "Slack Feature Drop: Your Productivity is Springing Forward",
+      "link": "https://slack.com/blog/news/feature-drop-march2026",
+      "sourceFeed": "Slack Blog"
+    },
+    {
+      "id": "90-2026-03-23-slack-vs-microsoft-teams-key-differences-for-mod",
+      "json": "content/inbox/runs/2026-04-08--224544/items/90-2026-03-23-slack-vs-microsoft-teams-key-differences-for-mod.json",
+      "title": "Slack vs. Microsoft Teams: Key Differences for Modern Teams",
+      "link": "https://slack.com/blog/compare/slack-vs-microsoft-teams",
+      "sourceFeed": "Slack Blog"
+    },
+    {
+      "id": "91-2026-03-13-unlocking-the-power-of-conversation-how-slack-s-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/91-2026-03-13-unlocking-the-power-of-conversation-how-slack-s-.json",
+      "title": "Unlocking the Power of Conversation: How Slack’s New Platform is Fueling the Agentic Era",
+      "link": "https://slack.com/blog/news/powering-agentic-collaboration",
+      "sourceFeed": "Slack Blog"
+    },
+    {
+      "id": "92-2026-03-11-search-central-live-is-coming-to-canada",
+      "json": "content/inbox/runs/2026-04-08--224544/items/92-2026-03-11-search-central-live-is-coming-to-canada.json",
+      "title": "Search Central Live is coming to Canada!",
+      "link": "https://developers.google.com/search/blog/2026/03/scl-canada-2026",
+      "sourceFeed": "Google Search Central"
+    },
+    {
+      "id": "93-2026-02-05-google-s-february-2026-discover-core-update",
+      "json": "content/inbox/runs/2026-04-08--224544/items/93-2026-02-05-google-s-february-2026-discover-core-update.json",
+      "title": "Google's February 2026 Discover Core Update",
+      "link": "https://developers.google.com/search/blog/2026/02/discover-core-update",
+      "sourceFeed": "Google Search Central"
+    },
+    {
+      "id": "94-2026-01-26-search-central-live-is-coming-back-to-south-amer",
+      "json": "content/inbox/runs/2026-04-08--224544/items/94-2026-01-26-search-central-live-is-coming-back-to-south-amer.json",
+      "title": "Search Central Live is coming back to South America",
+      "link": "https://developers.google.com/search/blog/2026/01/search-central-live-brasil-argentina",
+      "sourceFeed": "Google Search Central"
+    },
+    {
+      "id": "95-2025-12-31-search-central-live-apac-2025-recap-a-note-of-gr",
+      "json": "content/inbox/runs/2026-04-08--224544/items/95-2025-12-31-search-central-live-apac-2025-recap-a-note-of-gr.json",
+      "title": "Search Central Live APAC 2025 Recap: A Note of Gratitude",
+      "link": "https://developers.google.com/search/blog/2025/12/scl-eoy",
+      "sourceFeed": "Google Search Central"
+    },
+    {
+      "id": "96-2026-04-08-veracrypt-project-update",
+      "json": "content/inbox/runs/2026-04-08--224544/items/96-2026-04-08-veracrypt-project-update.json",
+      "title": "Veracrypt project update",
+      "link": "https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/",
+      "sourceFeed": "Hacker News · 首页"
+    },
+    {
+      "id": "97-2026-04-08-revision-demoparty-2026-razor1911-video",
+      "json": "content/inbox/runs/2026-04-08--224544/items/97-2026-04-08-revision-demoparty-2026-razor1911-video.json",
+      "title": "Revision Demoparty 2026: Razor1911 [video]",
+      "link": "https://www.youtube.com/watch?v=Lw4W9V57SKs&t=5716s",
+      "sourceFeed": "Hacker News · 首页"
+    },
+    {
+      "id": "98-2026-04-08-protect-your-shed",
+      "json": "content/inbox/runs/2026-04-08--224544/items/98-2026-04-08-protect-your-shed.json",
+      "title": "Protect your shed",
+      "link": "https://dylanbutler.dev/blog/protect-your-shed/",
+      "sourceFeed": "Hacker News · 首页"
+    },
+    {
+      "id": "99-2026-04-07-show-hn-an-interactive-map-of-tolkien-s-middle-e",
+      "json": "content/inbox/runs/2026-04-08--224544/items/99-2026-04-07-show-hn-an-interactive-map-of-tolkien-s-middle-e.json",
+      "title": "Show HN: An interactive map of Tolkien's Middle-earth",
+      "link": "https://middle-earth-interactive-map.web.app/",
+      "sourceFeed": "Hacker News · 首页"
+    },
+    {
+      "id": "100-2026-04-07-s3-files",
+      "json": "content/inbox/runs/2026-04-08--224544/items/100-2026-04-07-s3-files.json",
+      "title": "S3 Files",
+      "link": "https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html",
+      "sourceFeed": "Hacker News · 首页"
+    },
+    {
+      "id": "101-2026-04-07-system-card-claude-mythos-preview-pdf",
+      "json": "content/inbox/runs/2026-04-08--224544/items/101-2026-04-07-system-card-claude-mythos-preview-pdf.json",
+      "title": "System Card: Claude Mythos Preview [pdf]",
+      "link": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
+      "sourceFeed": "Hacker News · 首页"
+    },
+    {
+      "id": "102-2026-04-07-project-glasswing-securing-critical-software-for",
+      "json": "content/inbox/runs/2026-04-08--224544/items/102-2026-04-07-project-glasswing-securing-critical-software-for.json",
+      "title": "Project Glasswing: Securing critical software for the AI era",
+      "link": "https://www.anthropic.com/glasswing",
+      "sourceFeed": "Hacker News · 首页"
+    },
+    {
+      "id": "103-2026-04-07-cambodia-unveils-statue-to-honour-famous-landmin",
+      "json": "content/inbox/runs/2026-04-08--224544/items/103-2026-04-07-cambodia-unveils-statue-to-honour-famous-landmin.json",
+      "title": "Cambodia unveils statue to honour famous landmine-sniffing rat",
+      "link": "https://www.bbc.com/news/articles/c0rx7xzd10xo",
+      "sourceFeed": "Hacker News · 首页"
+    },
+    {
+      "id": "104-2026-04-08-a-claude-code-plugin-with-20-specialist-agents-f",
+      "json": "content/inbox/runs/2026-04-08--224544/items/104-2026-04-08-a-claude-code-plugin-with-20-specialist-agents-f.json",
+      "title": "A Claude Code plugin with 20 specialist agents for Elixir/Phoenix",
+      "link": "https://github.com/oliver-kriska/claude-elixir-phoenix",
+      "sourceFeed": "HN · Claude"
+    },
+    {
+      "id": "105-2026-04-08-why-claude-mythos-is-not-agi",
+      "json": "content/inbox/runs/2026-04-08--224544/items/105-2026-04-08-why-claude-mythos-is-not-agi.json",
+      "title": "Why Claude Mythos is not AGI",
+      "link": "https://lucrbvi.bearblog.dev/claude-mythos-is-not-agi/",
+      "sourceFeed": "HN · Claude"
+    },
+    {
+      "id": "106-2026-04-08-did-it-get-dumber-tracking-claude-code-and-codex",
+      "json": "content/inbox/runs/2026-04-08--224544/items/106-2026-04-08-did-it-get-dumber-tracking-claude-code-and-codex.json",
+      "title": "Did it get dumber? Tracking Claude Code and Codex according to HN comments",
+      "link": "https://diditgetdumber.com/",
+      "sourceFeed": "HN · Claude"
+    },
+    {
+      "id": "107-2026-04-08-claude-mythos-preview-available-in-private-previ",
+      "json": "content/inbox/runs/2026-04-08--224544/items/107-2026-04-08-claude-mythos-preview-available-in-private-previ.json",
+      "title": "Claude Mythos Preview: Available in Private Preview on Vertex AI",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai",
+      "sourceFeed": "HN · Claude"
+    },
+    {
+      "id": "108-2026-04-08-claude-ai-down-anthropic-users-hit-with-errors-a",
+      "json": "content/inbox/runs/2026-04-08--224544/items/108-2026-04-08-claude-ai-down-anthropic-users-hit-with-errors-a.json",
+      "title": "Claude AI down: Anthropic users hit with errors as chatbot goes offline",
+      "link": "https://www.the-independent.com/tech/claude-ai-down-anthropic-chatbot-error-status-b2953528.html",
+      "sourceFeed": "HN · Claude"
+    },
+    {
+      "id": "109-2026-04-08-openai-says-its-new-model-gpt-2-is-too-dangerous",
+      "json": "content/inbox/runs/2026-04-08--224544/items/109-2026-04-08-openai-says-its-new-model-gpt-2-is-too-dangerous.json",
+      "title": "OpenAI says its new model GPT-2 is too dangerous to release (2019)",
+      "link": "https://slate.com/technology/2019/02/openai-gpt2-text-generating-algorithm-ai-dangerous.html",
+      "sourceFeed": "HN · OpenAI"
+    },
+    {
+      "id": "110-2026-04-07-openai-industrial-policy-for-the-intelligence-ag",
+      "json": "content/inbox/runs/2026-04-08--224544/items/110-2026-04-07-openai-industrial-policy-for-the-intelligence-ag.json",
+      "title": "OpenAI: Industrial Policy for the Intelligence Age",
+      "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "sourceFeed": "HN · OpenAI"
+    },
+    {
+      "id": "111-2026-04-07-an-architectural-critique-of-openai-s-industrial",
+      "json": "content/inbox/runs/2026-04-08--224544/items/111-2026-04-07-an-architectural-critique-of-openai-s-industrial.json",
+      "title": "An Architectural Critique of OpenAI's Industrial Policy (RFC)",
+      "link": "https://github.com/ariadne-coil/OpenAI-Industrial-Policy-RFC/blob/main/README.md",
+      "sourceFeed": "HN · OpenAI"
+    },
+    {
+      "id": "112-2026-04-07-the-problem-is-sam-altman-openai-insiders-don-t-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/112-2026-04-07-the-problem-is-sam-altman-openai-insiders-don-t-.json",
+      "title": "\"The problem is Sam Altman\": OpenAI Insiders don't trust CEO",
+      "link": "https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/",
+      "sourceFeed": "HN · OpenAI"
+    },
+    {
+      "id": "113-2026-04-07-openai-s-sam-altman-tells-companies-to-try-four-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/113-2026-04-07-openai-s-sam-altman-tells-companies-to-try-four-.json",
+      "title": "OpenAI's Sam Altman tells companies to try four-day working week",
+      "link": "https://www.thetimes.com/us/news-today/article/openai-chief-backs-four-day-week-to-spread-ai-benefits-to-workers-v08zwq3w2",
+      "sourceFeed": "HN · OpenAI"
+    },
+    {
+      "id": "114-2026-04-08-ask-hn-is-there-any-tool-that-can-stop-llm-calls",
+      "json": "content/inbox/runs/2026-04-08--224544/items/114-2026-04-08-ask-hn-is-there-any-tool-that-can-stop-llm-calls.json",
+      "title": "Ask HN: Is there any tool that can stop LLM calls at runtime (not just monitor)?",
+      "link": "https://news.ycombinator.com/item?id=47683113",
+      "sourceFeed": "HN · LLM"
+    },
+    {
+      "id": "115-2026-04-07-show-hn-when-seeing-isn-t-enough-rescuing-stuck-",
+      "json": "content/inbox/runs/2026-04-08--224544/items/115-2026-04-07-show-hn-when-seeing-isn-t-enough-rescuing-stuck-.json",
+      "title": "Show HN: When Seeing Isn't Enough: Rescuing Stuck LLM Agents",
+      "link": "https://zenodo.org/records/19463134",
+      "sourceFeed": "HN · LLM"
+    },
+    {
+      "id": "116-2026-04-07-writing-an-llm-from-scratch-part-32i-interventio",
+      "json": "content/inbox/runs/2026-04-08--224544/items/116-2026-04-07-writing-an-llm-from-scratch-part-32i-interventio.json",
+      "title": "Writing an LLM from scratch, part 32i – Interventions: what is in the noise?",
+      "link": "https://www.gilesthomas.com/2026/04/llm-from-scratch-32i-interventions-what-is-in-the-noise",
+      "sourceFeed": "HN · LLM"
+    },
+    {
+      "id": "117-2026-04-07-show-hn-visualize-token-entropy-in-a-tiny-in-bro",
+      "json": "content/inbox/runs/2026-04-08--224544/items/117-2026-04-07-show-hn-visualize-token-entropy-in-a-tiny-in-bro.json",
+      "title": "Show HN: Visualize token entropy in a tiny in-browser LLM",
+      "link": "https://tonkotsu-ai.github.io/prism/",
+      "sourceFeed": "HN · LLM"
+    },
+    {
+      "id": "118-2026-04-07-show-hn-kronaxis-router-don-t-pay-frontier-price",
+      "json": "content/inbox/runs/2026-04-08--224544/items/118-2026-04-07-show-hn-kronaxis-router-don-t-pay-frontier-price.json",
+      "title": "Show HN: Kronaxis Router – Don't pay frontier prices when a local LLM is enough",
+      "link": "https://github.com/Kronaxis/kronaxis-router",
+      "sourceFeed": "HN · LLM"
+    }
+  ]
+}

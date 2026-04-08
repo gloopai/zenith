@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "How Kensho built a multi-agent framework with LangGraph to solve trusted financial data retrieval",
+  "link": "https://blog.langchain.com/customers-kensho/",
+  "guid": "69c54956d5b7120001b5bc54",
+  "pubDate": "Thu, 26 Mar 2026 19:39:21 GMT",
+  "summary": "Discover how Kensho, S&P Global’s AI innovation engine, leveraged LangGraph to create its Grounding framework–a unified agentic access layer solving fragmented financial data retrieval at enterprise scale.",
+  "sourceFeed": "LangChain Blog",
+  "sourceUrl": "https://blog.langchain.dev/rss/",
+  "ingestedAt": "2026-04-08T14:45:54.931Z",
+  "suggestedFilename": "2026-03-26-how-kensho-built-a-multi-agent-framework-with-la.md"
+}

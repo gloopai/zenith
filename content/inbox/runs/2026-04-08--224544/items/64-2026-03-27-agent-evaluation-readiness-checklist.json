@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Agent Evaluation Readiness Checklist",
+  "link": "https://blog.langchain.com/agent-evaluation-readiness-checklist/",
+  "guid": "69c2b34b57c3f40001c18e52",
+  "pubDate": "Fri, 27 Mar 2026 14:00:00 GMT",
+  "summary": "A practical checklist for agent evaluation: error analysis, dataset construction, grader design, offline & online evals, and production readiness.",
+  "sourceFeed": "LangChain Blog",
+  "sourceUrl": "https://blog.langchain.dev/rss/",
+  "ingestedAt": "2026-04-08T14:45:54.930Z",
+  "suggestedFilename": "2026-03-27-agent-evaluation-readiness-checklist.md"
+}

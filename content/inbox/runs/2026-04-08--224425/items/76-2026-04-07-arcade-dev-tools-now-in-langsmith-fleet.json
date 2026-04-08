@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Arcade.dev tools now in LangSmith Fleet",
+  "link": "https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/",
+  "guid": "69d401c84b0a4e000138776e",
+  "pubDate": "Tue, 07 Apr 2026 14:59:48 GMT",
+  "summary": "Arcade is the MCP runtime for production agents, delivering secure agent authorization, reliable tools, and governance. This integration gives your agents access to Arcade’s collection of 7,500+ agent-optimized tools through a single secure gateway.",
+  "sourceFeed": "LangChain Blog",
+  "sourceUrl": "https://blog.langchain.dev/rss/",
+  "ingestedAt": "2026-04-08T14:44:36.771Z",
+  "suggestedFilename": "2026-04-07-arcade-dev-tools-now-in-langsmith-fleet.md"
+}

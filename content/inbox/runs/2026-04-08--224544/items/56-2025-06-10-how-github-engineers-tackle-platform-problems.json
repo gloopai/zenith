@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "How GitHub engineers tackle platform problems",
+  "link": "https://github.blog/engineering/infrastructure/how-github-engineers-tackle-platform-problems/",
+  "guid": "https://github.blog/?p=88639",
+  "pubDate": "Tue, 10 Jun 2025 16:00:00 +0000",
+  "summary": "Our best practices for quickly identifying, resolving, and preventing issues at scale. The post How GitHub engineers tackle platform problems appeared first on The GitHub Blog .",
+  "sourceFeed": "GitHub Engineering",
+  "sourceUrl": "https://github.blog/engineering/feed/",
+  "ingestedAt": "2026-04-08T14:45:52.690Z",
+  "suggestedFilename": "2025-06-10-how-github-engineers-tackle-platform-problems.md"
+}

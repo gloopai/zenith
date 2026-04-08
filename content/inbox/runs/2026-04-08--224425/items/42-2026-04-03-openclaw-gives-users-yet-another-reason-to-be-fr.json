@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "OpenClaw gives users yet another reason to be freaked out about security",
+  "link": "https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
+  "guid": "https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
+  "pubDate": "Fri, 03 Apr 2026 20:30:15 +0000",
+  "summary": "The viral AI agentic tool let attackers silently gain admin unauthenticated access.",
+  "sourceFeed": "Ars Technica · Lab",
+  "sourceUrl": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "ingestedAt": "2026-04-08T14:44:32.676Z",
+  "suggestedFilename": "2026-04-03-openclaw-gives-users-yet-another-reason-to-be-fr.md"
+}

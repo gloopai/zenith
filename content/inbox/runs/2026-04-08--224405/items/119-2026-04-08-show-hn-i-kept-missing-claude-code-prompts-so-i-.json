@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Show HN: I kept missing Claude Code prompts, so I built a tray dot in Rust",
+  "link": "https://github.com/sprklai/agenttray",
+  "guid": "https://news.ycombinator.com/item?id=47689534",
+  "pubDate": "Wed, 08 Apr 2026 12:55:29 +0000",
+  "summary": "I kept missing Claude Code prompts while working on something else. Notifications pile up and I tune them out. What I wanted was a dot in the corner of the screen that turns yellow when an agent needs me. So I built a wrapper app. It hooks into Claude Code's hook system (Codex and Gemini support is rough) so updates come from events. Falls back to process scanning for CLIs without hooks. There's a popup with a Focus button that jumps to the right terminal. Tauri 2 + Rust backend, SvelteKit for the popup. Binaries for Linux/macOS/Windows in the releases tab. https://github.com/sprklai/agenttray Rough around the edges but I use it every day. Comments URL: https://news.ycombinator.com/item?id=47689534 Points: 1 # Comments: 0",
+  "sourceFeed": "HN · Claude",
+  "sourceUrl": "https://hnrss.org/newest?q=Claude",
+  "ingestedAt": "2026-04-08T14:44:24.468Z",
+  "suggestedFilename": "2026-04-08-show-hn-i-kept-missing-claude-code-prompts-so-i-.md"
+}

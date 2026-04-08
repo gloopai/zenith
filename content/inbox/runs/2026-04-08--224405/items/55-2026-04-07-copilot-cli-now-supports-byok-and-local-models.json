@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Copilot CLI now supports BYOK and local models",
+  "link": "https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models",
+  "guid": "https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models",
+  "pubDate": "Tue, 07 Apr 2026 14:53:34 +0000",
+  "summary": "GitHub Copilot CLI now lets you connect your own model provider or run fully local models instead of using GitHub-hosted model routing. This means you can use the models and… The post Copilot CLI now supports BYOK and local models appeared first on The GitHub Blog .",
+  "sourceFeed": "GitHub Changelog",
+  "sourceUrl": "https://github.blog/changelog/rss/",
+  "ingestedAt": "2026-04-08T14:44:14.863Z",
+  "suggestedFilename": "2026-04-07-copilot-cli-now-supports-byok-and-local-models.md"
+}

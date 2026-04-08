@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Our ongoing commitment to privacy for the 1.1.1.1 public DNS resolver",
+  "link": "https://blog.cloudflare.com/1111-privacy-examination-2026/",
+  "guid": "VOddnCi9jbM6zHOay1HCN",
+  "pubDate": "Wed, 01 Apr 2026 13:00:00 GMT",
+  "summary": "Eight years ago, we launched 1.1.1.1 to build a faster, more private Internet. Today, we’re sharing the results of our latest independent examination. The result: our privacy protections are working exactly as promised.",
+  "sourceFeed": "Cloudflare Blog",
+  "sourceUrl": "https://blog.cloudflare.com/rss",
+  "ingestedAt": "2026-04-08T14:44:17.626Z",
+  "suggestedFilename": "2026-04-01-our-ongoing-commitment-to-privacy-for-the-1-1-1-.md"
+}

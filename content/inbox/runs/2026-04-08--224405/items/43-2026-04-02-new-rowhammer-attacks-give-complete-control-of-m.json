@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "New Rowhammer attacks give complete control of machines running Nvidia GPUs",
+  "link": "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
+  "guid": "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
+  "pubDate": "Thu, 02 Apr 2026 17:00:11 +0000",
+  "summary": "GDDRHammer, GeForge and GPUBreach hammer GPU memory in ways that hijack the CPU.",
+  "sourceFeed": "Ars Technica · Lab",
+  "sourceUrl": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "ingestedAt": "2026-04-08T14:44:12.946Z",
+  "suggestedFilename": "2026-04-02-new-rowhammer-attacks-give-complete-control-of-m.md"
+}

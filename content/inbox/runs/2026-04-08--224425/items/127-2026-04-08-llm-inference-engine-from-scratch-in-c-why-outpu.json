@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "LLM inference engine from scratch in C++ – why output tokens cost 5x",
+  "link": "https://www.anirudhsathiya.com/blog/transformer",
+  "guid": "https://news.ycombinator.com/item?id=47689443",
+  "pubDate": "Wed, 08 Apr 2026 12:45:26 +0000",
+  "summary": "Article URL: https://www.anirudhsathiya.com/blog/transformer Comments URL: https://news.ycombinator.com/item?id=47689443 Points: 9 # Comments: 3",
+  "sourceFeed": "HN · LLM",
+  "sourceUrl": "https://hnrss.org/newest?q=LLM",
+  "ingestedAt": "2026-04-08T14:44:45.465Z",
+  "suggestedFilename": "2026-04-08-llm-inference-engine-from-scratch-in-c-why-outpu.md"
+}

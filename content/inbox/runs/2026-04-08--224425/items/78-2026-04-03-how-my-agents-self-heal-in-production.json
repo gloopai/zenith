@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "How My Agents Self-Heal in Production",
+  "link": "https://blog.langchain.com/production-agents-self-heal/",
+  "guid": "69cff0914b0a4e0001387412",
+  "pubDate": "Fri, 03 Apr 2026 17:01:03 GMT",
+  "summary": "I built a self-healing deployment pipeline for our GTM Agent. After every deploy, it detects regressions, triages whether the change caused them, and kicks off an agent to open a PR with a fix, with no manual intervention needed until review time.",
+  "sourceFeed": "LangChain Blog",
+  "sourceUrl": "https://blog.langchain.dev/rss/",
+  "ingestedAt": "2026-04-08T14:44:36.771Z",
+  "suggestedFilename": "2026-04-03-how-my-agents-self-heal-in-production.md"
+}

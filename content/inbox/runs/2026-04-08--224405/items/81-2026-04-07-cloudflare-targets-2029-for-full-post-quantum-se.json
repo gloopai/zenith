@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Cloudflare targets 2029 for full post-quantum security",
+  "link": "https://blog.cloudflare.com/post-quantum-roadmap/",
+  "guid": "1vlCZshPEwWazkAnJsxN44",
+  "pubDate": "Tue, 07 Apr 2026 21:00:00 GMT",
+  "summary": "Recent advances in quantum hardware and software have accelerated the timeline on which quantum attack might happen. Cloudflare is responding by moving our target for full post-quantum security to 2029.",
+  "sourceFeed": "Cloudflare Blog",
+  "sourceUrl": "https://blog.cloudflare.com/rss",
+  "ingestedAt": "2026-04-08T14:44:17.626Z",
+  "suggestedFilename": "2026-04-07-cloudflare-targets-2029-for-full-post-quantum-se.md"
+}

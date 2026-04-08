@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Open Models have crossed a threshold",
+  "link": "https://blog.langchain.com/open-models-have-crossed-a-threshold/",
+  "guid": "69cea919c8b3fc00019a0eb8",
+  "pubDate": "Thu, 02 Apr 2026 17:51:54 GMT",
+  "summary": "💡 TL;DR: Open models like GLM-5 and MiniMax M2.7 now match closed frontier models on core agent tasks — file operations, tool use, and instruction following — at a fraction of the cost and latency. Here&apos;s what our evals show and how to start using them",
+  "sourceFeed": "LangChain Blog",
+  "sourceUrl": "https://blog.langchain.dev/rss/",
+  "ingestedAt": "2026-04-08T14:44:36.771Z",
+  "suggestedFilename": "2026-04-02-open-models-have-crossed-a-threshold.md"
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Show HN: When Seeing Isn't Enough: Rescuing Stuck LLM Agents",
+  "link": "https://zenodo.org/records/19463134",
+  "guid": "https://news.ycombinator.com/item?id=47682715",
+  "pubDate": "Tue, 07 Apr 2026 23:35:47 +0000",
+  "summary": "Hi HN, we are sharing our latest preprint from CAUM Systems. We found that LLM coding agents enter 'blind-spot failures' that are completely unrescuable by behavioral nudging, but 100% rescuable by adding a single sentence of causal interpretation about structural data. We introduce the 'bandwidth of observer' framework and explain why cross-model evaluation is critical to tell blind-spots apart from capability floors. Happy to answer questions! Comments URL: https://news.ycombinator.com/item?id=47682715 Points: 2 # Comments: 0",
+  "sourceFeed": "HN · LLM",
+  "sourceUrl": "https://hnrss.org/newest?q=LLM",
+  "ingestedAt": "2026-04-08T14:46:02.866Z",
+  "suggestedFilename": "2026-04-07-show-hn-when-seeing-isn-t-enough-rescuing-stuck-.md"
+}

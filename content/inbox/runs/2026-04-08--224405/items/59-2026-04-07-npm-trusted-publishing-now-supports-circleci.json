@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "npm trusted publishing now supports CircleCI",
+  "link": "https://github.blog/changelog/2026-04-06-npm-trusted-publishing-now-supports-circleci",
+  "guid": "https://github.blog/changelog/2026-04-06-npm-trusted-publishing-now-supports-circleci",
+  "pubDate": "Tue, 07 Apr 2026 00:20:50 +0000",
+  "summary": "npm trusted publishing now supports CircleCI as an OIDC provider, joining GitHub Actions and GitLab CI/CD. Maintainers publishing from CircleCI workflows can now eliminate stored credentials entirely and authenticate directly… The post npm trusted publishing now supports CircleCI appeared first on The GitHub Blog .",
+  "sourceFeed": "GitHub Changelog",
+  "sourceUrl": "https://github.blog/changelog/rss/",
+  "ingestedAt": "2026-04-08T14:44:14.864Z",
+  "suggestedFilename": "2026-04-07-npm-trusted-publishing-now-supports-circleci.md"
+}

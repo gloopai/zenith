@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "How can you test your code when you don’t know what’s in it?",
+  "link": "https://stackoverflow.blog/2026/03/31/how-can-you-test-your-code-when-you-don-t-know-what-s-in-it/",
+  "guid": "0209dcb3-93dc-4d80-a918-d8e3e00251cc",
+  "pubDate": "Tue, 31 Mar 2026 07:40:00 GMT",
+  "summary": "Ryan hosts SmartBear’s VP of AI and Architecture Fitz Nowlan to explore how we’re moving away from old assumptions about software development, the challenges of testing MCP servers as LLM-driven agents introduce non-determinism that breaks tradition, and how data locality and data construction are becoming more valuable when source code is so easy to generate.",
+  "sourceFeed": "Stack Overflow Blog",
+  "sourceUrl": "https://stackoverflow.blog/feed/",
+  "ingestedAt": "2026-04-08T14:44:17.956Z",
+  "suggestedFilename": "2026-03-31-how-can-you-test-your-code-when-you-don-t-know-w.md"
+}

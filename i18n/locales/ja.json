@@ -86,7 +86,13 @@
     "eyebrow": "記事",
     "title": "ニュース",
     "subtitle": "業界動向、製品アップデート、短いコラム—時系列で並びます。",
-    "empty": "記事はまだありません。"
+    "empty": "記事はまだありません。",
+    "pagination": {
+      "navLabel": "ニュース一覧のページ送り",
+      "prev": "前へ",
+      "next": "次へ",
+      "status": "{current} / {total} ページ · 全 {count} 件"
+    }
   },
   "articlePage": {
     "breadcrumb": "ニュース"

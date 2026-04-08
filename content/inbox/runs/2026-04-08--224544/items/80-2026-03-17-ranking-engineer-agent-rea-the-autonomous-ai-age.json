@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Ranking Engineer Agent (REA): The Autonomous AI Agent Accelerating Meta’s Ads Ranking Innovation",
+  "link": "https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation/",
+  "guid": "https://engineering.fb.com/?p=23732",
+  "pubDate": "Tue, 17 Mar 2026 20:07:52 +0000",
+  "summary": "Meta’s Ranking Engineer Agent (REA) autonomously executes key steps across the end-to-end machine learning (ML) lifecycle for ads ranking models. This post covers REA’s ML experimentation capabilities: autonomously generating hypotheses, launching training jobs, debugging failures, and iterating on results. Future posts will cover additional REA capabilities. REA reduces the need for manual intervention. It manages [...] Read More... The post Ranking Engineer Agent (REA): The Autonomous AI Agent Accelerating Meta’s Ads Ranking Innovation appeared first on Engineering at Meta .",
+  "sourceFeed": "Meta Engineering",
+  "sourceUrl": "https://engineering.fb.com/feed/",
+  "ingestedAt": "2026-04-08T14:45:56.275Z",
+  "suggestedFilename": "2026-03-17-ranking-engineer-agent-rea-the-autonomous-ai-age.md"
+}

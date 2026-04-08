@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Organization runner controls for Copilot cloud agent",
+  "link": "https://github.blog/changelog/2026-04-03-organization-runner-controls-for-copilot-cloud-agent",
+  "guid": "https://github.blog/changelog/2026-04-03-organization-runner-controls-for-copilot-cloud-agent",
+  "pubDate": "Fri, 03 Apr 2026 19:15:11 +0000",
+  "summary": "Each time Copilot cloud agent works on a task, it starts a new development environment powered by GitHub Actions. By default, this runs on a standard GitHub-hosted runner, but teams… The post Organization runner controls for Copilot cloud agent appeared first on The GitHub Blog .",
+  "sourceFeed": "GitHub Changelog",
+  "sourceUrl": "https://github.blog/changelog/rss/",
+  "ingestedAt": "2026-04-08T14:44:34.279Z",
+  "suggestedFilename": "2026-04-03-organization-runner-controls-for-copilot-cloud-a.md"
+}

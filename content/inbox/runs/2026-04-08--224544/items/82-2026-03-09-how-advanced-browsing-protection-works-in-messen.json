@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "How Advanced Browsing Protection Works in Messenger",
+  "link": "https://engineering.fb.com/2026/03/09/security/how-advanced-browsing-protection-works-in-messenger/",
+  "guid": "https://engineering.fb.com/?p=23690",
+  "pubDate": "Mon, 09 Mar 2026 16:00:36 +0000",
+  "summary": "We’re sharing the technical details behind how Advanced Browsing Protection (ABP) in Messenger protects the privacy of the links clicked on within chats while still warning people about malicious links. We hope that this post has helped to illuminate some of the engineering challenges and infrastructure components involved for providing this feature for our users. [...] Read More... The post How Advanced Browsing Protection Works in Messenger appeared first on Engineering at Meta .",
+  "sourceFeed": "Meta Engineering",
+  "sourceUrl": "https://engineering.fb.com/feed/",
+  "ingestedAt": "2026-04-08T14:45:56.276Z",
+  "suggestedFilename": "2026-03-09-how-advanced-browsing-protection-works-in-messen.md"
+}

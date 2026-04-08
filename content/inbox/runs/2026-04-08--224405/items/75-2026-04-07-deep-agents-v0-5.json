@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Deep Agents v0.5",
+  "link": "https://blog.langchain.com/deep-agents-v0-5/",
+  "guid": "69d52d89f4b5380001c8028c",
+  "pubDate": "Tue, 07 Apr 2026 17:06:51 GMT",
+  "summary": "💡 TL;DR: We’ve released new minor versions of deepagents & deepagentsjs , featuring async (non-blocking) subagents, expanded multi-modal filesystem support, and more. See the changelog for details. Async subagents Deep Agents can now delegate work to remote agents that run in the background. As opposed to the existing",
+  "sourceFeed": "LangChain Blog",
+  "sourceUrl": "https://blog.langchain.dev/rss/",
+  "ingestedAt": "2026-04-08T14:44:17.137Z",
+  "suggestedFilename": "2026-04-07-deep-agents-v0-5.md"
+}

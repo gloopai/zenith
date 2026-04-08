@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Introducing Programmable Flow Protection: custom DDoS mitigation logic for Magic Transit customers",
+  "link": "https://blog.cloudflare.com/programmable-flow-protection/",
+  "guid": "64lPEfE3ML34AycHER46Tz",
+  "pubDate": "Tue, 31 Mar 2026 13:00:00 GMT",
+  "summary": "Magic Transit customers can now program their own DDoS mitigation logic and deploy it across Cloudflare’s global network. This enables precise, stateful mitigation for custom and proprietary UDP protocols.",
+  "sourceFeed": "Cloudflare Blog",
+  "sourceUrl": "https://blog.cloudflare.com/rss",
+  "ingestedAt": "2026-04-08T14:45:55.440Z",
+  "suggestedFilename": "2026-03-31-introducing-programmable-flow-protection-custom-.md"
+}

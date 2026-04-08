@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Prioritize security alerts with runtime context from Dynatrace",
+  "link": "https://github.blog/changelog/2026-04-07-prioritize-security-alerts-with-runtime-context-from-dynatrace",
+  "guid": "https://github.blog/changelog/2026-04-07-prioritize-security-alerts-with-runtime-context-from-dynatrace",
+  "pubDate": "Tue, 07 Apr 2026 15:15:24 +0000",
+  "summary": "You can now use runtime context from Dynatrace to prioritize GitHub Advanced Security alerts based on deployed artifacts and runtime risk in your Kubernetes environment. When you connect Dynatrace to… The post Prioritize security alerts with runtime context from Dynatrace appeared first on The GitHub Blog .",
+  "sourceFeed": "GitHub Changelog",
+  "sourceUrl": "https://github.blog/changelog/rss/",
+  "ingestedAt": "2026-04-08T14:44:14.863Z",
+  "suggestedFilename": "2026-04-07-prioritize-security-alerts-with-runtime-context-.md"
+}

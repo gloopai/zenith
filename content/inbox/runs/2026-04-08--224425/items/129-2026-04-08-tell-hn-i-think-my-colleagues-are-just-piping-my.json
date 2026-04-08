@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Tell HN: I think my colleagues are just piping my replies into an LLM",
+  "link": "https://news.ycombinator.com/item?id=47688912",
+  "guid": "https://news.ycombinator.com/item?id=47688912",
+  "pubDate": "Wed, 08 Apr 2026 11:51:36 +0000",
+  "summary": "Recently my company issued Cursor licenses to everyone. We are about 100 people. Last week my manager asked for comments on a spike (that he hadn't yet worked on). I put some real thought into it; perhaps an hour and a half of my own time. When he shared the outcome of his investigation it was very clearly LLM generated (subheadings, a clear, concise style he doesn't usually write in) but each point seemed to address only each of the concerns I'd raised in my comment. There was nothing else. Then again today, I read some feedback on a comment I'd made on an MR. The response was not in a writing style I have come to expect of this person. I'm somewhat convinced my colleagues are just copy-pasting my comments into Cursor and having it generate their responses. It feels so incredibly lazy and dishonest... They were hired on the expectation that they'd do their own work. Now I just get these terribly manufactured, worthless answers. Someone has done the absolute bare minimum; they haven't even engaged with it in a remotely critical way, and I can't help but feel it devalues our profession. Comments URL: https://news.ycombinator.com/item?id=47688912 Points: 6 # Comments: 3",
+  "sourceFeed": "HN · LLM",
+  "sourceUrl": "https://hnrss.org/newest?q=LLM",
+  "ingestedAt": "2026-04-08T14:44:45.465Z",
+  "suggestedFilename": "2026-04-08-tell-hn-i-think-my-colleagues-are-just-piping-my.md"
+}

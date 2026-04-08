@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Dependabot alerts are now assignable to AI agents for remediation",
+  "link": "https://github.blog/changelog/2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation",
+  "guid": "https://github.blog/changelog/2026-04-05-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation",
+  "pubDate": "Tue, 07 Apr 2026 14:22:51 +0000",
+  "summary": "Some dependency vulnerabilities require more than a version bump—they need code changes across your project. You can now assign Dependabot alerts to AI coding agents, including Copilot, Claude, and Codex,… The post Dependabot alerts are now assignable to AI agents for remediation appeared first on The GitHub Blog .",
+  "sourceFeed": "GitHub Changelog",
+  "sourceUrl": "https://github.blog/changelog/rss/",
+  "ingestedAt": "2026-04-08T14:44:14.863Z",
+  "suggestedFilename": "2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agent.md"
+}

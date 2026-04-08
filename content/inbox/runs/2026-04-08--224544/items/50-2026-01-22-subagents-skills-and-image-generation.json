@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Subagents, Skills, and Image Generation",
+  "link": "https://cursor.com/changelog/2-4",
+  "guid": "https://cursor.com/changelog/2-4",
+  "pubDate": "Thu, 22 Jan 2026 00:00:00 GMT",
+  "summary": "Agents are solving increasingly complex, long-running tasks across your codebase. This release introduces new agent harness improvements for better context management, as well as many quality-of-life fixes in the editor and CLI.",
+  "sourceFeed": "Cursor Changelog",
+  "sourceUrl": "https://www.cursor.com/changelog/rss.xml",
+  "ingestedAt": "2026-04-08T14:45:51.897Z",
+  "suggestedFilename": "2026-01-22-subagents-skills-and-image-generation.md"
+}

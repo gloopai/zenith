@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Cloudflare Client-Side Security: smarter detection, now open to everyone",
+  "link": "https://blog.cloudflare.com/client-side-security-open-to-everyone/",
+  "guid": "6NYXSzUcRxDdj9UP0kouAK",
+  "pubDate": "Mon, 30 Mar 2026 06:00:00 GMT",
+  "summary": "We are opening our advanced Client-Side Security tools to all users, featuring a new cascading AI detection system. By combining graph neural networks and LLMs, we've reduced false positives by up to 200x while catching sophisticated zero-day exploits.",
+  "sourceFeed": "Cloudflare Blog",
+  "sourceUrl": "https://blog.cloudflare.com/rss",
+  "ingestedAt": "2026-04-08T14:45:55.441Z",
+  "suggestedFilename": "2026-03-30-cloudflare-client-side-security-smarter-detectio.md"
+}

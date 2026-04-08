@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Post-quantum security for SSH access on GitHub",
+  "link": "https://github.blog/engineering/platform-security/post-quantum-security-for-ssh-access-on-github/",
+  "guid": "https://github.blog/?p=90756",
+  "pubDate": "Mon, 15 Sep 2025 16:00:00 +0000",
+  "summary": "GitHub is introducing post-quantum secure key exchange methods for SSH access to better protect Git data in transit. The post Post-quantum security for SSH access on GitHub appeared first on The GitHub Blog .",
+  "sourceFeed": "GitHub Engineering",
+  "sourceUrl": "https://github.blog/engineering/feed/",
+  "ingestedAt": "2026-04-08T14:45:52.690Z",
+  "suggestedFilename": "2025-09-15-post-quantum-security-for-ssh-access-on-github.md"
+}

@@ -86,7 +86,13 @@
     "eyebrow": "Articles",
     "title": "News",
     "subtitle": "Industry updates, product releases, and short notes—sorted by time.",
-    "empty": "No articles yet."
+    "empty": "No articles yet.",
+    "pagination": {
+      "navLabel": "News list pagination",
+      "prev": "Previous",
+      "next": "Next",
+      "status": "Page {current} of {total} · {count} articles"
+    }
   },
   "articlePage": {
     "breadcrumb": "News"

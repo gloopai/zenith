@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "How Meta Used AI to Map Tribal Knowledge in Large-Scale Data Pipelines",
+  "link": "https://engineering.fb.com/2026/04/06/developer-tools/how-meta-used-ai-to-map-tribal-knowledge-in-large-scale-data-pipelines/",
+  "guid": "https://engineering.fb.com/?p=23840",
+  "pubDate": "Mon, 06 Apr 2026 16:00:50 +0000",
+  "summary": "AI coding assistants are powerful but only as good as their understanding of your codebase. When we pointed AI agents at one of Meta’s large-scale data processing pipelines – spanning four repositories, three languages, and over 4,100 files – we quickly found that they weren’t making useful edits quickly enough. We fixed this by building [...] Read More... The post How Meta Used AI to Map Tribal Knowledge in Large-Scale Data Pipelines appeared first on Engineering at Meta .",
+  "sourceFeed": "Meta Engineering",
+  "sourceUrl": "https://engineering.fb.com/feed/",
+  "ingestedAt": "2026-04-08T14:44:38.069Z",
+  "suggestedFilename": "2026-04-06-how-meta-used-ai-to-map-tribal-knowledge-in-larg.md"
+}

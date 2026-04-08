@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "CLI Agent Modes and Cloud Handoff",
+  "link": "https://cursor.com/changelog/cli-jan-16-2026",
+  "guid": "https://cursor.com/changelog/cli-jan-16-2026",
+  "pubDate": "Fri, 16 Jan 2026 00:00:00 GMT",
+  "summary": "This release brings many of the editor’s most-loved features to the Cursor CLI , along with improvements that make it easier to use.",
+  "sourceFeed": "Cursor Changelog",
+  "sourceUrl": "https://www.cursor.com/changelog/rss.xml",
+  "ingestedAt": "2026-04-08T14:45:51.897Z",
+  "suggestedFilename": "2026-01-16-cli-agent-modes-and-cloud-handoff.md"
+}

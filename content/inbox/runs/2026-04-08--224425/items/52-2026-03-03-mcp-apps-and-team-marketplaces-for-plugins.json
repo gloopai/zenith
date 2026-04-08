@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "MCP Apps and Team Marketplaces for Plugins",
+  "link": "https://cursor.com/changelog/2-6",
+  "guid": "https://cursor.com/changelog/2-6",
+  "pubDate": "Tue, 03 Mar 2026 00:00:00 GMT",
+  "summary": "This release introduces interactive UIs in agent chats, a way for teams to share private plugins, and improvements to core capabilities like Debug mode.",
+  "sourceFeed": "Cursor Changelog",
+  "sourceUrl": "https://www.cursor.com/changelog/rss.xml",
+  "ingestedAt": "2026-04-08T14:44:33.432Z",
+  "suggestedFilename": "2026-03-03-mcp-apps-and-team-marketplaces-for-plugins.md"
+}

@@ -1,0 +1,124 @@
+{
+  "$comment": "Plunget 内容接入：均为公开 RSS 2.0。请遵守各站 ToS、仅作编辑参考并重写后再发布；可按需增删或调低 maxItems。",
+  "defaults": {
+    "maxItems": 5,
+    "userAgent": "Plunget-IngestBot/1.0 (editorial draft; plunget site; contact via site)"
+  },
+  "feeds": [
+    {
+      "url": "https://openai.com/blog/rss.xml",
+      "label": "OpenAI 新闻",
+      "maxItems": 6
+    },
+    {
+      "url": "https://blog.google/technology/ai/rss/",
+      "label": "Google AI Blog",
+      "maxItems": 6
+    },
+    {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "label": "Google DeepMind",
+      "maxItems": 5
+    },
+    {
+      "url": "https://research.google/blog/rss/",
+      "label": "Google Research",
+      "maxItems": 4
+    },
+    {
+      "url": "https://huggingface.co/blog/feed.xml",
+      "label": "Hugging Face Blog",
+      "maxItems": 6
+    },
+    {
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "label": "TechCrunch · AI",
+      "maxItems": 8
+    },
+    {
+      "url": "https://www.technologyreview.com/feed/",
+      "label": "MIT Technology Review",
+      "maxItems": 5
+    },
+    {
+      "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+      "label": "Ars Technica · Lab",
+      "maxItems": 5
+    },
+    {
+      "url": "https://www.cursor.com/changelog/rss.xml",
+      "label": "Cursor Changelog",
+      "maxItems": 8
+    },
+    {
+      "url": "https://github.blog/changelog/rss/",
+      "label": "GitHub Changelog",
+      "maxItems": 10
+    },
+    {
+      "url": "https://github.blog/engineering/feed/",
+      "label": "GitHub Engineering",
+      "maxItems": 5
+    },
+    {
+      "url": "https://blogs.windows.com/windowsdeveloper/feed/",
+      "label": "Microsoft 开发者博客",
+      "maxItems": 6
+    },
+    {
+      "url": "https://blog.langchain.dev/rss/",
+      "label": "LangChain Blog",
+      "maxItems": 6
+    },
+    {
+      "url": "https://blog.cloudflare.com/rss",
+      "label": "Cloudflare Blog",
+      "maxItems": 5
+    },
+    {
+      "url": "https://stackoverflow.blog/feed/",
+      "label": "Stack Overflow Blog",
+      "maxItems": 5
+    },
+    {
+      "url": "https://engineering.fb.com/feed/",
+      "label": "Meta Engineering",
+      "maxItems": 4
+    },
+    {
+      "url": "https://www.notion.so/releases/rss.xml",
+      "label": "Notion Releases",
+      "maxItems": 5
+    },
+    {
+      "url": "https://slack.com/blog/rss",
+      "label": "Slack Blog",
+      "maxItems": 4
+    },
+    {
+      "url": "https://feeds.feedburner.com/blogspot/amDG",
+      "label": "Google Search Central",
+      "maxItems": 4
+    },
+    {
+      "url": "https://hnrss.org/frontpage",
+      "label": "Hacker News · 首页",
+      "maxItems": 8
+    },
+    {
+      "url": "https://hnrss.org/newest?q=Claude",
+      "label": "HN · Claude",
+      "maxItems": 5
+    },
+    {
+      "url": "https://hnrss.org/newest?q=OpenAI",
+      "label": "HN · OpenAI",
+      "maxItems": 5
+    },
+    {
+      "url": "https://hnrss.org/newest?q=LLM",
+      "label": "HN · LLM",
+      "maxItems": 5
+    }
+  ]
+}

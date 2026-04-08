@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Prevent agentic identity theft",
+  "link": "https://stackoverflow.blog/2026/03/27/prevent-agentic-identity-theft/",
+  "guid": "f289109e-c5f8-4f2c-a0c9-ef1207805b41",
+  "pubDate": "Fri, 27 Mar 2026 07:40:00 GMT",
+  "summary": "Ryan is joined by Nancy Wang, CTO of 1Password, to discuss the security challenges local agents present, how enterprises can create robust governance of credentials through zero-knowledge architecture, and the implications of agent intent and misuse in a world where AI agents are becoming more and more integrated into everyday applications.",
+  "sourceFeed": "Stack Overflow Blog",
+  "sourceUrl": "https://stackoverflow.blog/feed/",
+  "ingestedAt": "2026-04-08T14:44:17.956Z",
+  "suggestedFilename": "2026-03-27-prevent-agentic-identity-theft.md"
+}

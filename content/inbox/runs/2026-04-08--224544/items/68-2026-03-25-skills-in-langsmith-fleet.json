@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Skills in LangSmith Fleet",
+  "link": "https://blog.langchain.com/skills-in-langsmith-fleet/",
+  "guid": "69c3f54d585fb30001a42579",
+  "pubDate": "Wed, 25 Mar 2026 16:10:11 GMT",
+  "summary": "Fleet now supports shareable skills, so you equip agents across your team with knowledge for specialized tasks.",
+  "sourceFeed": "LangChain Blog",
+  "sourceUrl": "https://blog.langchain.dev/rss/",
+  "ingestedAt": "2026-04-08T14:45:54.932Z",
+  "suggestedFilename": "2026-03-25-skills-in-langsmith-fleet.md"
+}

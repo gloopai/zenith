@@ -26,18 +26,80 @@
     </ul>
 
     <p v-if="items.length === 0" class="text-center text-sm text-zinc-500">{{ t('newsPage.empty') }}</p>
+
+    <nav
+      v-if="totalPages > 1"
+      class="flex flex-col items-center gap-6 border-t border-white/[0.06] pt-10 sm:flex-row sm:justify-between"
+      :aria-label="t('newsPage.pagination.navLabel')"
+    >
+      <p class="text-center text-sm tabular-nums text-zinc-500 sm:text-left">
+        {{ t('newsPage.pagination.status', { current: page, total: totalPages, count: total }) }}
+      </p>
+      <div class="flex flex-wrap justify-center gap-3 sm:justify-end">
+        <NuxtLink
+          v-if="page > 1"
+          :to="pageLink(page - 1)"
+          class="btn-secondary inline-flex rounded-xl px-5 py-2.5 text-sm"
+        >
+          {{ t('newsPage.pagination.prev') }}
+        </NuxtLink>
+        <NuxtLink
+          v-if="page < totalPages"
+          :to="pageLink(page + 1)"
+          class="btn-secondary inline-flex rounded-xl px-5 py-2.5 text-sm"
+        >
+          {{ t('newsPage.pagination.next') }}
+        </NuxtLink>
+      </div>
+    </nav>
   </div>
 </template>
 
 <script setup lang="ts">
-import type { NewsListItem } from '~~/shared/types/site'
+import type { NewsListItem, NewsListResponse } from '~~/shared/types/site'
 import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
+
+const PAGE_SIZE = 12
 
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
 const siteOrigin = useSiteOrigin()
+const route = useRoute()
 
-const canonical = computed(() => `${siteOrigin.value}${localePath('/news')}`)
+const routePage = computed(() => {
+  const raw = route.query.page
+  const n = typeof raw === 'string' ? parseInt(raw, 10) : NaN
+  return Number.isFinite(n) && n > 0 ? n : 1
+})
+
+function pageLink(p: number) {
+  if (p <= 1) return localePath('/news')
+  return localePath({ path: '/news', query: { page: String(p) } })
+}
+
+const { data } = await useAsyncData(
+  () => `news-list-${locale.value}-${routePage.value}`,
+  () =>
+    $fetch<NewsListResponse>('/api/news', {
+      query: {
+        locale: (locale.value as string) || I18N_DEFAULT_LOCALE,
+        page: routePage.value,
+        pageSize: PAGE_SIZE,
+      },
+    }),
+  { watch: [locale, routePage] },
+)
+
+const items = computed(() => data.value?.items ?? [])
+const total = computed(() => data.value?.total ?? 0)
+const totalPages = computed(() => data.value?.totalPages ?? 1)
+const page = computed(() => data.value?.page ?? routePage.value)
+
+const canonical = computed(() => {
+  const base = `${siteOrigin.value}${localePath('/news')}`
+  if (page.value <= 1) return base
+  return `${base}?page=${page.value}`
+})
 
 useSeoMeta(
   computed(() => ({
@@ -51,19 +113,14 @@ useSeoMeta(
 )
 
 useHead(
-  computed(() => ({
-    link: [{ rel: 'canonical', href: canonical.value }],
-  })),
+  computed(() => {
+    const p = page.value
+    const tp = totalPages.value
+    const origin = siteOrigin.value
+    const links: { rel: string; href: string }[] = [{ rel: 'canonical', href: canonical.value }]
+    if (p > 1) links.push({ rel: 'prev', href: `${origin}${pageLink(p - 1)}` })
+    if (p < tp) links.push({ rel: 'next', href: `${origin}${pageLink(p + 1)}` })
+    return { link: links }
+  }),
 )
-
-const { data } = await useAsyncData(
-  () => `news-list-${locale.value}`,
-  () =>
-    $fetch<{ items: NewsListItem[] }>('/api/news', {
-      query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
-    }),
-  { watch: [locale] },
-)
-
-const items = computed(() => data.value?.items ?? [])
 </script>

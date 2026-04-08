@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "GPT-5.1 Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated",
+  "link": "https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated",
+  "guid": "https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated",
+  "pubDate": "Fri, 03 Apr 2026 17:11:31 +0000",
+  "summary": "We have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on April 1, 2026. Model Deprecation date… The post GPT-5.1 Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated appeared first on The GitHub Blog .",
+  "sourceFeed": "GitHub Changelog",
+  "sourceUrl": "https://github.blog/changelog/rss/",
+  "ingestedAt": "2026-04-08T14:44:34.279Z",
+  "suggestedFilename": "2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-code.md"
+}

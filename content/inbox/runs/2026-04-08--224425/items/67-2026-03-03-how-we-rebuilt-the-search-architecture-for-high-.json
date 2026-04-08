@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
+  "link": "https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/",
+  "guid": "https://github.blog/?p=94225",
+  "pubDate": "Tue, 03 Mar 2026 18:45:09 +0000",
+  "summary": "Here's how we made the search experience better, faster, and more resilient for GHES customers. The post How we rebuilt the search architecture for high availability in GitHub Enterprise Server appeared first on The GitHub Blog .",
+  "sourceFeed": "GitHub Engineering",
+  "sourceUrl": "https://github.blog/engineering/feed/",
+  "ingestedAt": "2026-04-08T14:44:34.404Z",
+  "suggestedFilename": "2026-03-03-how-we-rebuilt-the-search-architecture-for-high-.md"
+}

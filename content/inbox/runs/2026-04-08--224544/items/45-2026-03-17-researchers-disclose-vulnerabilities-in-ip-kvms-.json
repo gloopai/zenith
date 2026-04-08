@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Researchers disclose vulnerabilities in IP KVMs from four manufacturers",
+  "link": "https://arstechnica.com/security/2026/03/researchers-disclose-vulnerabilities-in-ip-kvms-from-4-manufacturers/",
+  "guid": "https://arstechnica.com/security/2026/03/researchers-disclose-vulnerabilities-in-ip-kvms-from-4-manufacturers/",
+  "pubDate": "Tue, 17 Mar 2026 17:07:12 +0000",
+  "summary": "Internet-exposed devices that give BIOS-level access? What could possibly go wrong?",
+  "sourceFeed": "Ars Technica · Lab",
+  "sourceUrl": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  "ingestedAt": "2026-04-08T14:45:50.865Z",
+  "suggestedFilename": "2026-03-17-researchers-disclose-vulnerabilities-in-ip-kvms-.md"
+}

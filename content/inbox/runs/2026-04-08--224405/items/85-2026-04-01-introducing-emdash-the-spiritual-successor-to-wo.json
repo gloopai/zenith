@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Introducing EmDash — the spiritual successor to WordPress that solves plugin security",
+  "link": "https://blog.cloudflare.com/emdash-wordpress/",
+  "guid": "64rkKr9jewVmxagIFgbwY4",
+  "pubDate": "Wed, 01 Apr 2026 13:00:00 GMT",
+  "summary": "Today we are launching the beta of EmDash, a full-stack serverless JavaScript CMS built on Astro 6.0. It combines the features of a traditional CMS with modern security, running plugins in sandboxed Worker isolates.",
+  "sourceFeed": "Cloudflare Blog",
+  "sourceUrl": "https://blog.cloudflare.com/rss",
+  "ingestedAt": "2026-04-08T14:44:17.626Z",
+  "suggestedFilename": "2026-04-01-introducing-emdash-the-spiritual-successor-to-wo.md"
+}

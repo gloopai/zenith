@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Self-hosted Cloud Agents",
+  "link": "https://cursor.com/changelog/03-25-26",
+  "guid": "https://cursor.com/changelog/03-25-26",
+  "pubDate": "Wed, 25 Mar 2026 00:00:00 GMT",
+  "summary": "Cursor now supports self-hosted cloud agents that keep your code and tool execution entirely in your own network.",
+  "sourceFeed": "Cursor Changelog",
+  "sourceUrl": "https://www.cursor.com/changelog/rss.xml",
+  "ingestedAt": "2026-04-08T14:44:13.735Z",
+  "suggestedFilename": "2026-03-25-self-hosted-cloud-agents.md"
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "New CLI Features and Improved CLI Performance",
+  "link": "https://cursor.com/changelog/cli-jan-08-2026",
+  "guid": "https://cursor.com/changelog/cli-jan-08-2026",
+  "pubDate": "Thu, 08 Jan 2026 00:00:00 GMT",
+  "summary": "This release introduces new CLI controls for models, MCP management, rules and commands, alongside major hooks performance improvements and bug fixes.",
+  "sourceFeed": "Cursor Changelog",
+  "sourceUrl": "https://www.cursor.com/changelog/rss.xml",
+  "ingestedAt": "2026-04-08T14:45:51.897Z",
+  "suggestedFilename": "2026-01-08-new-cli-features-and-improved-cli-performance.md"
+}

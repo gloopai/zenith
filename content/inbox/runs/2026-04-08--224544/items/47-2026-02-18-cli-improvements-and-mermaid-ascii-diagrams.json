@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "CLI Improvements and Mermaid ASCII Diagrams",
+  "link": "https://cursor.com/changelog/cli-feb-18-2026",
+  "guid": "https://cursor.com/changelog/cli-feb-18-2026",
+  "pubDate": "Wed, 18 Feb 2026 00:00:00 GMT",
+  "summary": "This release introduces the ability to hand off plans from the CLI to the cloud, in-line rendering of ASCII diagrams, and many quality-of-life improvements.",
+  "sourceFeed": "Cursor Changelog",
+  "sourceUrl": "https://www.cursor.com/changelog/rss.xml",
+  "ingestedAt": "2026-04-08T14:45:51.896Z",
+  "suggestedFilename": "2026-02-18-cli-improvements-and-mermaid-ascii-diagrams.md"
+}

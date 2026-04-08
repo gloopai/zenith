@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "Ask HN: Is there any tool that can stop LLM calls at runtime (not just monitor)?",
+  "link": "https://news.ycombinator.com/item?id=47683113",
+  "guid": "https://news.ycombinator.com/item?id=47683113",
+  "pubDate": "Wed, 08 Apr 2026 00:26:56 +0000",
+  "summary": "I’ve been running into cases where LLM/agent systems make unexpected or repeated calls and costs spike quickly. Most tools I’ve found focus on observability (logs, traces, dashboards), but not actual enforcement. Is there anything that can: - stop or cut off a call mid-execution (based on budget, tokens, or conditions)? - enforce limits at runtime instead of just alerting after the fact? Curious if people here are solving this in practice, or just handling it at the application level. Comments URL: https://news.ycombinator.com/item?id=47683113 Points: 3 # Comments: 0",
+  "sourceFeed": "HN · LLM",
+  "sourceUrl": "https://hnrss.org/newest?q=LLM",
+  "ingestedAt": "2026-04-08T14:46:02.865Z",
+  "suggestedFilename": "2026-04-08-ask-hn-is-there-any-tool-that-can-stop-llm-calls.md"
+}

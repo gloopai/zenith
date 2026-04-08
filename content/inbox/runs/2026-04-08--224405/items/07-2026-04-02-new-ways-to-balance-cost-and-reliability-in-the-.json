@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "New ways to balance cost and reliability in the Gemini API",
+  "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
+  "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
+  "pubDate": "Thu, 02 Apr 2026 16:00:00 +0000",
+  "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/cost_reliability_Gemini_API-soc.max-600x600.format-webp.webp\">Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
+  "sourceFeed": "Google AI Blog",
+  "sourceUrl": "https://blog.google/technology/ai/rss/",
+  "ingestedAt": "2026-04-08T14:44:08.639Z",
+  "suggestedFilename": "2026-04-02-new-ways-to-balance-cost-and-reliability-in-the-.md"
+}

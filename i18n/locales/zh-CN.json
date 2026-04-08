@@ -86,7 +86,13 @@
     "eyebrow": "文章",
     "title": "资讯",
     "subtitle": "行业动态、产品更新与观点随笔，按时间排序。",
-    "empty": "暂无文章。"
+    "empty": "暂无文章。",
+    "pagination": {
+      "navLabel": "资讯分页",
+      "prev": "上一页",
+      "next": "下一页",
+      "status": "第 {current} / {total} 页，共 {count} 篇"
+    }
   },
   "articlePage": {
     "breadcrumb": "资讯"

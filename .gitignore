@@ -13,6 +13,9 @@ node_modules
 logs
 *.log
 
+# Content ingest (local only)
+content/inbox/.last-run.json
+
 # Misc
 .DS_Store
 .fleet

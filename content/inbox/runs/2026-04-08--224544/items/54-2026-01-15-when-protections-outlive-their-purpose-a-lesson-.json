@@ -1,0 +1,12 @@
+{
+  "kind": "rss",
+  "title": "When protections outlive their purpose: A lesson on managing defense systems at scale",
+  "link": "https://github.blog/engineering/infrastructure/when-protections-outlive-their-purpose-a-lesson-on-managing-defense-systems-at-scale/",
+  "guid": "https://github.blog/?p=93309",
+  "pubDate": "Thu, 15 Jan 2026 20:54:32 +0000",
+  "summary": "User feedback led us to clean up outdated mitigations. See why observability and lifecycle management are critical for defense systems. The post When protections outlive their purpose: A lesson on managing defense systems at scale appeared first on The GitHub Blog .",
+  "sourceFeed": "GitHub Engineering",
+  "sourceUrl": "https://github.blog/engineering/feed/",
+  "ingestedAt": "2026-04-08T14:45:52.690Z",
+  "suggestedFilename": "2026-01-15-when-protections-outlive-their-purpose-a-lesson-.md"
+}
