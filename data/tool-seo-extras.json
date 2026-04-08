@@ -1,0 +1,290 @@
+{
+  "chatgpt": {
+    "zh-CN": {
+      "suitableFor": "日常问答、短文草稿、入门编程提问、学习辅导；需要插件/项目在少数场景下可扩展工作流。",
+      "notIdealFor": "强合规离线环境、必须可审计的长链路自动化、对单一厂商零依赖的架构。",
+      "compareHint": "若偏重长 PDF / 代码库通读，可对比 Claude；若要检索引用式答案，可对比 Perplexity 类产品。",
+      "checklistItems": [
+        "确认账号区服的模型版本与联网能力",
+        "对外使用前先读数据与留痕政策",
+        "关键输出与其他来源交叉验证"
+      ],
+      "gscParagraphs": []
+    },
+    "en": {
+      "suitableFor": "Daily Q&A, drafting, beginner coding help, and tutoring; projects/plugins extend a few workflows.",
+      "notIdealFor": "Air-gapped compliance, fully audit-proof automation, or architectures that must avoid a single vendor.",
+      "compareHint": "For huge PDFs/repos, compare Claude; for citation-first answers, compare Perplexity-style tools.",
+      "checklistItems": [
+        "Check model tier, region, and web browsing availability",
+        "Review data logging before sharing sensitive material",
+        "Cross-check critical outputs"
+      ],
+      "gscParagraphs": []
+    }
+  },
+  "claude": {
+    "zh-CN": {
+      "suitableFor": "长文档摘要、代码审阅、结构化长回复；适合「一口气读完再下结论」的任务。",
+      "notIdealFor": "必须与特定办公套件深度绑定的场景；或需要强制联网实时报价类检索。",
+      "compareHint": "与 ChatGPT 比，通常更谨慎、解释更细；按任务准备相同 prompt 做 A/B。",
+      "checklistItems": [
+        "核对当前上下文长度与资费档位",
+        "上传敏感合同/代码前评估数据条款",
+        "输出若用于决策，保留原文摘录备查"
+      ],
+      "gscParagraphs": []
+    },
+    "en": {
+      "suitableFor": "Long-document work, code review, and structured explanations where breadth matters.",
+      "notIdealFor": "Tight coupling to a specific office suite or guaranteed live market prices.",
+      "compareHint": "Often more cautious and verbose vs ChatGPT—benchmark on identical prompts.",
+      "checklistItems": [
+        "Confirm context window and pricing tier",
+        "Review data handling for confidential uploads",
+        "Keep source excerpts when outputs inform decisions"
+      ],
+      "gscParagraphs": []
+    }
+  },
+  "perplexity": {
+    "zh-CN": {
+      "suitableFor": "需要带来源提示的检索式问答、研报速览、快速核对事实。",
+      "notIdealFor": "离线环境、或要求 100% 不触网的内网流程。",
+      "compareHint": "与传统搜索引擎联用：用作「先读摘要再点源站」的一层，而不是唯一真相。",
+      "checklistItems": [
+        "点进原始链接核实上下文",
+        "注意付费墙与摘要误差",
+        "对医疗/法律等高风险命题二次确认"
+      ],
+      "gscParagraphs": []
+    },
+    "en": {
+      "suitableFor": "Answer-first research with cited sources, quick market or news scanning.",
+      "notIdealFor": "Offline-only workflows or strictly air-gapped research.",
+      "compareHint": "Pair with classic search: use as a skim layer, then verify originals.",
+      "checklistItems": [
+        "Open every critical citation",
+        "Watch for paywalled or misquoted snippets",
+        "Double-check high-risk domains (legal/medical)"
+      ],
+      "gscParagraphs": []
+    }
+  },
+  "midjourney": {
+    "zh-CN": {
+      "suitableFor": "概念视觉、风格化插画、探索性视觉方向；社区灵感多。",
+      "notIdealFor": "要求像素级可复现与严格角色一致的商业流水线（需额外流程）。",
+      "compareHint": "若要更强界面控制或企业合同条款，可对比 Adobe Firefly、SD 系托管。",
+      "checklistItems": [
+        "确认商用与素材许可",
+        "保存提示词与种子值（若产品提供）",
+        "品牌项目预留法务审图环节"
+      ],
+      "gscParagraphs": []
+    },
+    "en": {
+      "suitableFor": "Stylized visuals, concept art, and exploratory directions with a strong community.",
+      "notIdealFor": "Pix-perfect repeatability without extra pipeline discipline.",
+      "compareHint": "For corporate licensing or UI-led control, also review Firefly or hosted SD offerings.",
+      "checklistItems": [
+        "Verify commercial terms",
+        "Archive prompts/seeds when available",
+        "Run brand/legal review before public release"
+      ],
+      "gscParagraphs": []
+    }
+  },
+  "cursor": {
+    "zh-CN": {
+      "suitableFor": "在 IDE 内写代码、重构、解释仓库；适合已习惯 VS Code 分支的开发者。",
+      "notIdealFor": "禁止任何云辅助的代码环境、或仅允许指定自托管模型的团队。",
+      "compareHint": "与 GitHub Copilot、Windsurf 等同仓对比：看索引质量、隐私开关与价格。",
+      "checklistItems": [
+        "设置索引/上传范围，避免敏感路径进入云",
+        "团队统一 code style 与评审流程",
+        "大改前先跑测试与 diff 审查"
+      ],
+      "gscParagraphs": []
+    },
+    "en": {
+      "suitableFor": "IDE-native coding, refactors, and repo explanations for VS Code–style users.",
+      "notIdealFor": "Environments forbidding cloud assistants or only approved self-hosted models.",
+      "compareHint": "Benchmark vs Copilot/Windsurf on indexing, privacy toggles, and price.",
+      "checklistItems": [
+        "Restrict indexed paths for sensitive trees",
+        "Keep human review on large diffs",
+        "Run tests before merging AI refactors"
+      ],
+      "gscParagraphs": []
+    }
+  },
+  "notion": {
+    "zh-CN": {
+      "suitableFor": "团队 wiki、项目看板与轻量数据库合一；适合中小团队快速统一写法。",
+      "notIdealFor": "极端离线场景、或需要复杂本地优先同步策略的个人笔记。",
+      "compareHint": "若以本地 Markdown 为先，可看 Obsidian；若以表格自动化为先，可对比 Airtable 类。",
+      "checklistItems": [
+        "理清工作区权限与对外分享边界",
+        "导出策略与格式（Markdown/PDF）提前验证",
+        "关键流程仍保留审批与备份"
+      ],
+      "gscParagraphs": []
+    },
+    "en": {
+      "suitableFor": "Team wikis, light databases, and project views in one workspace.",
+      "notIdealFor": "Strict offline-first note-taking or heavy local sync preferences.",
+      "compareHint": "Markdown-first users may prefer Obsidian; heavy automation tables may need dedicated DB tools.",
+      "checklistItems": [
+        "Audit sharing and guest access",
+        "Validate export formats for DR",
+        "Keep approvals on critical workflows"
+      ],
+      "gscParagraphs": []
+    }
+  },
+  "n8n": {
+    "zh-CN": {
+      "suitableFor": "自托管或云托管的流程编排、API  glue、跨 SaaS 连接；对开发者友好。",
+      "notIdealFor": "完全零维护要求、且不愿碰任何基础设施的角色。",
+      "compareHint": "与 Zapier/Make 比：自由度与运维成本通常更高；先评估错误监控与密钥管理。",
+      "checklistItems": [
+        "凭证集中管理与轮换",
+        "为关键流加重试与安全回退",
+        "记录审计轨迹满足内控要求"
+      ],
+      "gscParagraphs": []
+    },
+    "en": {
+      "suitableFor": "Self or cloud-hosted automation, API glue, and SaaS bridging for technical teams.",
+      "notIdealFor": "Hands-off users who cannot operate any infrastructure.",
+      "compareHint": "Versus Zapier/Make: more control, more ops—plan retries, secrets, and observability.",
+      "checklistItems": [
+        "Centralize and rotate credentials",
+        "Add retries and dead-letter handling",
+        "Keep audit logs where compliance demands"
+      ],
+      "gscParagraphs": []
+    }
+  },
+  "deepl": {
+    "zh-CN": {
+      "suitableFor": "正式文体、多语言邮件与文档的快速机翻底线质量较高场景。",
+      "notIdealFor": "涉密文本禁止外发翻译、或需逐句术语锁死的流水线（需企业方案或 CAT）。",
+      "compareHint": "与沉浸式翻译等浏览器方案互补：前者重文档，后者重网页浏览效率。",
+      "checklistItems": [
+        "检查是否允许上传该文件类型与体量",
+        "对外稿件仍安排人工终审",
+        "记录术语表版本以免漂移"
+      ],
+      "gscParagraphs": []
+    },
+    "en": {
+      "suitableFor": "High-quality baseline machine translation for documents and formal comms.",
+      "notIdealFor": "Text that must never leave your perimeter without enterprise guarantees.",
+      "compareHint": "Pair with in-browser translators for skimming, DeepL for polished drafts.",
+      "checklistItems": [
+        "Confirm allowed formats and size limits",
+        "Human-review customer-facing strings",
+        "Version-control glossaries"
+      ],
+      "gscParagraphs": []
+    }
+  },
+  "runway": {
+    "zh-CN": {
+      "suitableFor": "短片创意、粗剪辅助与部分生成式视频实验。",
+      "notIdealFor": "长院线级调色流程、或零预算必须完全离线渲染。",
+      "compareHint": "与 Pika、开源视频模型托管等对比：看分辨率档位、批量与 API。",
+      "checklistItems": [
+        "核对素材与成片的商用授权",
+        "留意生成内容的肖像权与标识要求",
+        "大项目拆分版本管理与渲染队列"
+      ],
+      "gscParagraphs": []
+    },
+    "en": {
+      "suitableFor": "Short-form creative edits and generative video experiments.",
+      "notIdealFor": "Finishing-theatrical pipelines or offline-only studios without budget.",
+      "compareHint": "Compare Pika or hosted OSS video stacks on resolution tiers and APIs.",
+      "checklistItems": [
+        "Verify commercial licensing for assets and outputs",
+        "Watch likeness and disclosure rules",
+        "Queue renders and version shots for bigger projects"
+      ],
+      "gscParagraphs": []
+    }
+  },
+  "figma": {
+    "zh-CN": {
+      "suitableFor": "界面协作、设计系统与交付标注的事实标准之一。",
+      "notIdealFor": "印刷排版、重度矢量插画或可离线桌面优先的闭源政策冲突场景。",
+      "compareHint": "与 Canva 比：Figma 偏产品与工程协作；按受众选择。",
+      "checklistItems": [
+        "团队库权限与分支策略先定规矩",
+        "导出与代码连接（Design Tokens）对齐前端",
+        "定期归档过期组件避免堆积"
+      ],
+      "gscParagraphs": []
+    },
+    "en": {
+      "suitableFor": "Collaborative UI design, systems, and dev handoff at scale.",
+      "notIdealFor": "Print-first layouts or illustration-heavy vector work that needs desktop-only tools.",
+      "compareHint": "Versus Canva: Figma skews product/engineering collaboration.",
+      "checklistItems": [
+        "Define library permissions early",
+        "Align tokens with frontend pipelines",
+        "Prune deprecated components regularly"
+      ],
+      "gscParagraphs": []
+    }
+  },
+  "gamma": {
+    "zh-CN": {
+      "suitableFor": "从大纲快速生成可演示的幻灯片与网页式 deck。",
+      "notIdealFor": "品牌像素级苛刻、必须本地 PPT 母版锁死的项目。",
+      "compareHint": "与经典幻灯片工具链对比：换时间换一致性，按交付物决定。",
+      "checklistItems": [
+        "品牌字体/色板导入后统一检查",
+        "讲稿与幻灯片事实逐条核对",
+        "导出格式需与会议设备预演"
+      ],
+      "gscParagraphs": []
+    },
+    "en": {
+      "suitableFor": "Fast decks and narrative sites from rough outlines.",
+      "notIdealFor": "Locked corporate PPT masters with pixel-brand police.",
+      "compareHint": "Trade speed vs rigid templates—pick based on deliverable expectations.",
+      "checklistItems": [
+        "Import brand tokens then audit slides",
+        "Fact-check speaker notes",
+        "Rehearse exports on room hardware"
+      ],
+      "gscParagraphs": []
+    }
+  },
+  "suno": {
+    "zh-CN": {
+      "suitableFor": "灵感片段、广告小样配乐与快速试听话稿。",
+      "notIdealFor": "要求完全免版税且权利链 100% 透明的影视发行（需法务审）。",
+      "compareHint": "与 Udio 等对比试听风格与导出格式；商业用途以协议为准。",
+      "checklistItems": [
+        "阅读商用与再许可条款",
+        "保留生成记录与版本",
+        "发行级项目走专职音乐授权"
+      ],
+      "gscParagraphs": []
+    },
+    "en": {
+      "suitableFor": "Sketch tracks, ad stingers, and fast creative exploration.",
+      "notIdealFor": "Theatrical releases needing ironclad chain-of-title without legal review.",
+      "compareHint": "Benchmark Udio and others on style breadth and stems.",
+      "checklistItems": [
+        "Read commercial terms carefully",
+        "Archive generations for provenance",
+        "Use traditional licensing for distribution-grade work"
+      ],
+      "gscParagraphs": []
+    }
+  }
+}

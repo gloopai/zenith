@@ -3,7 +3,8 @@ import { readToolsLocalized } from '../utils/tools-store'
 import { listNewsMeta } from '../utils/news-store'
 import { listClusterDefs, maxClusterUpdatedAt } from '../utils/clusters-store'
 import { readSiteDataJson } from '../utils/site-assets'
-import { I18N_LOCALES, localePathPrefix } from '~~/shared/i18n-public'
+import { listCategoryEntities } from '../utils/category-entities-store'
+import { I18N_DEFAULT_LOCALE, I18N_LOCALES, localePathPrefix } from '~~/shared/i18n-public'
 import { resolveSiteOriginFromEnv } from '~~/shared/site-origin'
 import type { Tool } from '~~/shared/types/site'
 
@@ -38,6 +39,7 @@ export default defineEventHandler(async (event) => {
 
   const clusters = await listClusterDefs()
   const clusterIndexLastmod = maxIsoDate([await maxClusterUpdatedAt(), catalogFallback])
+  const categoryEntities = await listCategoryEntities()
 
   const newsDates = news.map((n) => n.date)
   const newsIndexLastmod = newsDates.length ? maxIsoDate(newsDates) : catalogFallback
@@ -84,6 +86,13 @@ export default defineEventHandler(async (event) => {
         loc: `${base}${p}/cluster/${encodeURIComponent(c.slug)}`,
         priority: '0.72',
         lastmod,
+      })
+    }
+    for (const ce of categoryEntities) {
+      entries.push({
+        loc: `${base}${p}/nav/category/${encodeURIComponent(ce.slug)}`,
+        priority: '0.74',
+        lastmod: maxIsoDate([ce.updatedAt, catalogFallback]),
       })
     }
   }

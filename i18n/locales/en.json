@@ -57,11 +57,28 @@
   },
   "toolPage": {
     "breadcrumb": "Tools",
+    "titleSuffix": "Directory pick",
     "visitSite": "Visit website",
     "opensNewWindow": "Opens in a new tab",
     "useCasesTitle": "When to use it",
     "useCasesBody": "The summary should help you decide if this tool fits your needs. When many options look similar, consider how often you’ll use it, budget, and data privacy before choosing one.",
-    "ogSuffix": "AI tool"
+    "ogSuffix": "Plunget pick",
+    "relatedTools": "Related tools",
+    "suitableFor": "Best for",
+    "notIdealFor": "Less ideal when",
+    "compareHint": "When comparing",
+    "checklistTitle": "Quick checklist",
+    "searchIntentHeading": "Search-driven Q&A"
+  },
+  "categoryPage": {
+    "eyebrow": "Category",
+    "breadcrumbNav": "Tools",
+    "toolsInCategory": "Tools in this category",
+    "toolsHint": "Summaries and official links live on each tool page—browse related picks in-category.",
+    "searchIntentHeading": "Editorial / GSC add-ons",
+    "empty": "No tools listed in this category yet.",
+    "notFound": "Category not found",
+    "ogSuffix": "Category guide"
   },
   "newsPage": {
     "eyebrow": "Articles",
@@ -120,8 +137,8 @@
     "siteDescription": "Curated AI tools directory, practical guides, and an OpenClaw / AgentSkills catalog—compare assistants, builders, and agents in one place.",
     "homeTitle": "AI tools directory, OpenClaw skills & guides",
     "homeDescription": "Discover AI chat apps, coding assistants, media tools, and agents. Browse categories, read short guides, and explore OpenClaw skills with official docs links.",
-    "navTitle": "AI tools list & categories — browse by use case",
-    "navDescription": "Search and filter an AI tools directory: writing, coding, image/video, automation, and more. Each page links to the official product for signup or pricing.",
+    "navTitle": "AI tools — curated directory & category hubs",
+    "navDescription": "Category landing pages plus search; each tool page links to related picks, breadcrumbs, and the official site for pricing and policies.",
     "newsTitle": "AI news, prompts & workflow guides",
     "newsDescription": "Practical AI articles: model choices, privacy habits, multimodal workflows, and agent skills—readable summaries with full posts.",
     "openclawTitle": "OpenClaw skills directory (AgentSkills)",

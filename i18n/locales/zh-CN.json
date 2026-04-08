@@ -57,11 +57,28 @@
   },
   "toolPage": {
     "breadcrumb": "导航",
+    "titleSuffix": "精选目录",
     "visitSite": "访问官网",
     "opensNewWindow": "新窗口打开",
     "useCasesTitle": "使用场景",
     "useCasesBody": "以上介绍帮助你判断这款工具是否适合当前需求。同类工具较多时，建议先明确自己的使用频率、预算与对数据隐私的要求，再选择最顺手的一款。",
-    "ogSuffix": "AI 工具"
+    "ogSuffix": "Plunget 精选",
+    "relatedTools": "同类工具",
+    "suitableFor": "更适合",
+    "notIdealFor": "不太适合",
+    "compareHint": "对比时可看",
+    "checklistTitle": "选用前自检",
+    "searchIntentHeading": "常见检索问题"
+  },
+  "categoryPage": {
+    "eyebrow": "分类",
+    "breadcrumbNav": "导航",
+    "toolsInCategory": "本类工具",
+    "toolsHint": "简介与官网以各工具详情页为准；可在同类条目间交叉浏览。",
+    "searchIntentHeading": "检索与补充说明",
+    "empty": "该分类下暂无可展示条目。",
+    "notFound": "未找到该分类页",
+    "ogSuffix": "分类指南"
   },
   "newsPage": {
     "eyebrow": "文章",
@@ -120,8 +137,8 @@
     "siteDescription": "人工智能工具导航与实用指南：收录对话、编程、图像视频、自动化等品类，并提供 OpenClaw / AgentSkills 技能目录与文档链接。",
     "homeTitle": "AI 工具导航、OpenClaw 技能与专题指南",
     "homeDescription": "一站式浏览 AI 聊天、编程助手、视觉生成与代理类产品；可按分类与关键词检索，阅读短篇指南，并查阅 OpenClaw 官方技能与社区示例。",
-    "navTitle": "AI 工具大全丨按场景与分类检索",
-    "navDescription": "人工智能产品目录：支持分类与关键词搜索，覆盖写作、编码、图像、视频、自动化等；详情页提供中立简介与官网外链，便于比价与试用。",
+    "navTitle": "AI 工具导航丨分类指南+详情（官网直达）",
+    "navDescription": "按分类落地页收录工具，支持站内搜索；每款工具含中立简介、同类推荐与面包屑内链，并直达官网核对价格与条款。",
     "newsTitle": "AI 资讯与提示词、工作流向导",
     "newsDescription": "面向实践的 AI 文章：模型选型、隐私习惯、多模态流程、本地与云端语言模型、OpenClaw 与代理技能等，附摘要与全文。",
     "openclawTitle": "OpenClaw 技能目录（AgentSkills）",

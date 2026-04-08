@@ -13,21 +13,20 @@
         <button
           type="button"
           class="btn-pill"
-          :class="selectedCategory === '' ? 'btn-pill-active' : ''"
-          @click="selectedCategory = ''"
+          :class="!query.trim() ? 'btn-pill-active' : ''"
+          @click="query = ''"
         >
           {{ t('navPage.all') }}
         </button>
-        <button
-          v-for="c in categories"
-          :key="c"
-          type="button"
-          class="btn-pill"
-          :class="selectedCategory === c ? 'btn-pill-active' : ''"
-          @click="selectedCategory = c"
+        <NuxtLink
+          v-for="c in categoryLinks"
+          :key="c.slug"
+          :to="localePath(`/nav/category/${c.slug}`)"
+          class="btn-pill inline-flex items-center gap-1.5 !no-underline"
         >
-          {{ c }}
-        </button>
+          <span>{{ c.label }}</span>
+          <span class="text-[10px] font-normal text-zinc-500">{{ c.count }}</span>
+        </NuxtLink>
       </div>
 
       <label class="flex w-full flex-col gap-2 lg:max-w-sm">
@@ -43,20 +42,24 @@
     </div>
 
     <div class="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
-      <NuxtLink
+      <div
         v-for="tool in filtered"
         :key="tool.slug"
-        :to="localePath(`/nav/${tool.slug}`)"
         class="glass-card group flex flex-col p-6 transition hover:border-violet-500/15 hover:shadow-[0_0_0_1px_rgba(167,139,250,0.12)]"
       >
-        <div class="flex items-start justify-between gap-3">
-          <div class="min-w-0">
-            <div class="text-base font-semibold text-white group-hover:text-violet-100">{{ tool.name }}</div>
-            <div class="mt-2 line-clamp-3 text-sm leading-relaxed text-zinc-500">{{ tool.description }}</div>
-          </div>
-        </div>
+        <NuxtLink :to="localePath(`/nav/${tool.slug}`)" class="block min-w-0 outline-none">
+          <div class="text-base font-semibold text-white group-hover:text-violet-100">{{ tool.name }}</div>
+          <div class="mt-2 line-clamp-3 text-sm leading-relaxed text-zinc-500">{{ tool.description }}</div>
+        </NuxtLink>
         <div class="mt-5 flex flex-wrap items-center gap-2 border-t border-white/[0.05] pt-5">
-          <span class="pill text-[11px]">{{ tool.category }}</span>
+          <NuxtLink
+            v-if="categorySlugFor(tool.category)"
+            :to="localePath(`/nav/category/${categorySlugFor(tool.category)}`)"
+            class="pill text-[11px] !no-underline transition hover:border-violet-500/35 hover:text-violet-100"
+          >
+            {{ tool.category }}
+          </NuxtLink>
+          <span v-else class="pill text-[11px]">{{ tool.category }}</span>
           <span
             v-for="tag in tool.tags ?? []"
             :key="tag"
@@ -65,7 +68,7 @@
             {{ tag }}
           </span>
         </div>
-      </NuxtLink>
+      </div>
     </div>
 
     <p v-if="filtered.length === 0" class="text-center text-sm text-zinc-500">{{ t('navPage.empty') }}</p>
@@ -73,7 +76,7 @@
 </template>
 
 <script setup lang="ts">
-import type { Tool } from '~~/shared/types/site'
+import type { NavCategoryListItem, Tool } from '~~/shared/types/site'
 import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
@@ -110,15 +113,27 @@ const { data } = await useAsyncData(
   { watch: [locale] },
 )
 
+const { data: catData } = await useAsyncData(
+  () => `nav-categories-${locale.value}`,
+  () =>
+    $fetch<{ categories: NavCategoryListItem[] }>('/api/nav/categories', {
+      query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
+    }),
+  { watch: [locale] },
+)
+
 const tools = computed(() => data.value?.tools ?? [])
-const categories = computed(() => {
-  const s = new Set<string>()
-  for (const t of tools.value) s.add(t.category)
-  const collator = locale.value.replace('_', '-')
-  return [...s].sort((a, b) => a.localeCompare(b, collator))
+const categoryLinks = computed(() => catData.value?.categories ?? [])
+const categorySlugByLabel = computed(() => {
+  const m = new Map<string, string>()
+  for (const c of categoryLinks.value) m.set(c.label, c.slug)
+  return m
 })
 
-const selectedCategory = ref('')
+function categorySlugFor(label: string) {
+  return categorySlugByLabel.value.get(label)
+}
+
 const query = ref(String(route.query.q ?? ''))
 
 let searchUrlDebounce: ReturnType<typeof setTimeout> | undefined
@@ -151,7 +166,6 @@ function trimQueryForUrl(q: string) {
 const filtered = computed(() => {
   const q = query.value.trim().toLowerCase()
   return tools.value.filter((t) => {
-    if (selectedCategory.value && t.category !== selectedCategory.value) return false
     if (!q) return true
     const blob = `${t.name} ${t.description} ${(t.tags ?? []).join(' ')}`.toLowerCase()
     return blob.includes(q)

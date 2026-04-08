@@ -57,11 +57,28 @@
   },
   "toolPage": {
     "breadcrumb": "Herramientas",
+    "titleSuffix": "Selección",
     "visitSite": "Sitio oficial",
     "opensNewWindow": "Se abre en una pestaña nueva",
     "useCasesTitle": "Casos de uso",
     "useCasesBody": "El resumen ayuda a decidir si la herramienta encaja. Si hay muchas parecidas, define frecuencia, presupuesto y privacidad antes de elegir.",
-    "ogSuffix": "Herramienta IA"
+    "ogSuffix": "Plunget",
+    "relatedTools": "Herramientas relacionadas",
+    "suitableFor": "Ideal para",
+    "notIdealFor": "Menos adecuado si",
+    "compareHint": "Al comparar",
+    "checklistTitle": "Lista rápida",
+    "searchIntentHeading": "Preguntas frecuentes (búsqueda)"
+  },
+  "categoryPage": {
+    "eyebrow": "Categoría",
+    "breadcrumbNav": "Herramientas",
+    "toolsInCategory": "Herramientas en esta categoría",
+    "toolsHint": "Los resúmenes y enlaces oficiales están en cada ficha; navega otras entradas de la misma categoría.",
+    "searchIntentHeading": "Editorial / GSC",
+    "empty": "Aún no hay herramientas en esta categoría.",
+    "notFound": "Categoría no encontrada",
+    "ogSuffix": "Guía de categoría"
   },
   "newsPage": {
     "eyebrow": "Artículos",
@@ -120,8 +137,8 @@
     "siteDescription": "Directorio curado de herramientas de IA, guías prácticas e índice OpenClaw / AgentSkills: chat, código, medios y agentes en un solo sitio.",
     "homeTitle": "Directorio de herramientas IA, skills OpenClaw y guías",
     "homeDescription": "Explora chatbots, asistentes de código, imagen/vídeo, automatización y agentes con filtros y búsqueda; lee notas breves y abre skills OpenClaw con enlaces a documentación oficial.",
-    "navTitle": "Lista de herramientas IA por categoría y caso de uso",
-    "navDescription": "Catálogo con categorías y búsqueda: escritura, desarrollo, imagen, vídeo e integraciones; cada ficha resume el producto y enlaza al sitio oficial.",
+    "navTitle": "Directorio IA — hubs por categoría",
+    "navDescription": "Páginas de categoría y búsqueda; cada herramienta enlaza a similares, migas de pan y sitio oficial para precios y políticas.",
     "newsTitle": "Noticias de IA y guías de prompts / flujos de trabajo",
     "newsDescription": "Artículos prácticos: elección de modelos, privacidad, multimodal, LLM locales, OpenClaw y agentes—con resumen y texto completo.",
     "openclawTitle": "Directorio de skills OpenClaw (AgentSkills)",

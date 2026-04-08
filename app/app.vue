@@ -150,7 +150,7 @@ const localePath = useLocalePath()
 const switchLocalePath = useSwitchLocalePath()
 const i18nHead = useLocaleHead({ dir: true, lang: true, seo: true })
 const siteOrigin = useSiteOrigin()
-const defaultSocialImage = computed(() => `${siteOrigin.value}/icon.png`)
+const defaultSocialImage = computed(() => `${siteOrigin.value}/og-default.png`)
 
 useSeoMeta({
   ogSiteName: 'Plunget',
@@ -168,8 +168,8 @@ useSeoMeta({
     return map[locale.value] ?? 'en_US'
   }),
   ogImage: defaultSocialImage,
-  ogImageWidth: 512,
-  ogImageHeight: 512,
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
   ogImageType: 'image/png',
   ogImageAlt: 'Plunget',
   twitterImage: defaultSocialImage,

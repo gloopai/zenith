@@ -46,3 +46,52 @@ export interface ClusterDetail extends ClusterSummary {
   intro: string
   tools: Tool[]
 }
+
+/** Extra editorial SEO blocks for tool detail (locale-keyed in data/tool-seo-extras.json). */
+export interface ToolSeoExtraLocaleBlock {
+  suitableFor?: string
+  notIdealFor?: string
+  compareHint?: string
+  checklistItems?: string[]
+  /** Fill from Search Console: high-impression queries that need on-page answers. */
+  gscParagraphs?: { heading: string; body: string }[]
+}
+
+export interface CategoryEntityLocaleBlock {
+  title: string
+  description: string
+  intro: string
+  gscBlocks?: { heading: string; body: string }[]
+}
+
+export interface CategoryEntityDef {
+  /** Must match `category` in tools.json (and taxonomy root keys). */
+  canonicalKey: string
+  slug: string
+  updatedAt: string
+  locales: Partial<Record<string, CategoryEntityLocaleBlock>>
+}
+
+export interface ToolDetailResponse {
+  tool: Tool
+  categorySlug: string | null
+  related: Tool[]
+  seoExtra: ToolSeoExtraLocaleBlock | null
+}
+
+export interface CategoryDetailResponse {
+  slug: string
+  canonicalKey: string
+  updatedAt: string
+  title: string
+  description: string
+  intro: string
+  gscBlocks: { heading: string; body: string }[]
+  tools: Tool[]
+}
+
+export interface NavCategoryListItem {
+  slug: string
+  label: string
+  count: number
+}

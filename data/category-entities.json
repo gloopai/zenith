@@ -1,0 +1,289 @@
+{
+  "entities": [
+    {
+      "canonicalKey": "写作 / 演示",
+      "slug": "writing-decks",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "AI 写作与演示工具丨起草、排版与幻灯片",
+          "description": "覆盖文案、幻灯片与结构化写作类产品：中立简介、内链到同类工具与官网，便于按需选用。",
+          "intro": "这一类工具侧重把想法落成可读文本或演示材料。选型时可以先区分「长文/报告」「营销短文」「幻灯片叙事」三块需求，再看是否依赖团队模板、品牌规范或与现有办公套件联动。本站条目仅作信息整理，定价与数据策略请以各产品官网为准。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "AI writing & deck tools — drafting, layout, and slides",
+          "description": "Curated assistants for copy, decks, and structured writing. Neutral summaries with internal links and official sites.",
+          "intro": "These tools help turn ideas into readable text or presentation-ready narratives. Start by separating long-form reports, short marketing copy, and slide storytelling, then check team templates, brand constraints, and office-suite integrations. Pricing and data handling are always confirmed on each vendor’s site.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "协作 / 白板",
+      "slug": "collaboration-whiteboard",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "协作与白板工具丨远程对齐与可视化讨论",
+          "description": "在线白板、协作文档与团队可视化产品目录；通过内链在同类工具间跳转对比。",
+          "intro": "适合需要「一起看清问题」的团队：工作坊、路线图、需求澄清与评审。关注实时协作人数、权限粒度、导出格式以及与企业身份体系的集成，再决定与聊天/项目管理工具如何搭配。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "Collaboration & whiteboard tools for shared thinking",
+          "description": "Online whiteboards and co-editing surfaces—with internal links between related tools.",
+          "intro": "Best when a team needs a shared picture: workshops, roadmaps, discovery, and reviews. Compare concurrent editing limits, permission models, export options, and SSO before pairing with chat or project trackers.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "图像生成",
+      "slug": "image-generation",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "AI 图像生成工具丨文生图与风格控制",
+          "description": "文生图与创意生成类产品精选；查看简介后前往官网确认授权与商用条款。",
+          "intro": "从「提示词可控性」「参考图/角色一致性」「批量与 API」三条线评估更符合工作流。生成类工具迭代快，模型名称与订阅档位常在变；下单前请核对许可范围与水印策略。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "AI image generation tools — text-to-image with style control",
+          "description": "Curated text-to-image products. Read the summary here, confirm licensing on the official site.",
+          "intro": "Compare prompt controllability, reference/character consistency, and API batch paths. Names and tiers change often—verify licenses and watermark rules before production use.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "图像编辑",
+      "slug": "image-editing",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "AI 图像编辑工具丨抠图、修复与局部重绘",
+          "description": "面向修图、抠图、放大与局部编辑的产品列表，附内链与官网入口。",
+          "intro": "与「生成」不同，编辑类更看像素级结果与批量能力。注意输出分辨率、是否破坏源文件元数据，以及团队是否需要本地处理或私有化部署。个人敏感图片请谨慎上传。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "AI image editing — cutouts, cleanup, and inpainting",
+          "description": "Tools for retouching, background removal, upscaling, and local edits.",
+          "intro": "Editing workflows care about pixel fidelity and throughput. Check export resolution, metadata handling, and whether you need on-prem or private cloud. Be cautious uploading sensitive imagery.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "学习 / 数据",
+      "slug": "learning-data",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "学习与数据工具丨文献、数据集与实验跟踪",
+          "description": "论文检索、数据科学学习与实验管理相关入口；以站内导航串联到具体产品页。",
+          "intro": "学生与研究者常用这一类工具加速综述、复现与管理实验。权衡免费额度、引用格式、是否与机构订阅对接；涉及论文全文时务必遵守版权与机构政策。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "Learning & data tools — papers, datasets, and experiments",
+          "description": "Discover tools for literature review, datasets, and experiment tracking.",
+          "intro": "Students and researchers use these to speed up surveys, reproduction, and logging. Compare free tiers, citation formats, and library integrations—and respect copyright for full-text sources.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "对话 / 通用",
+      "slug": "chat-general",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "对话与通用大模型助手丨多厂商入口对照",
+          "description": "主流对话产品与通用助手合集；可按模型生态、价格与地区可用性对比。",
+          "intro": "这是最拥挤但也最通用的类别。建议用「是否需要长上下文」「是否必须联网检索」「是否走 API / 私有化」三个问题缩小范围，再用同一批任务在少数候选人之间做实测。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "Chat & general assistants — compare major providers",
+          "description": "A directory of conversational AI products with links to detailed pages.",
+          "intro": "The broadest category. Narrow choices with long-context needs, live web retrieval, and API or private deployment requirements, then benchmark a handful on your real tasks.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "开源 / 开发者",
+      "slug": "open-source-developer",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "开源与开发者平台丨模型、框架与本地部署",
+          "description": "面向开发者的模型托管、框架与本地运行栈；附文档与社区入口链接。",
+          "intro": "这一页更偏工程向：集成方式、许可证、硬件门槛与运维成本往往比界面功能更重要。若在做合规或内网部署，优先核实权重来源、遥测默认值与依赖供应链。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "Open-source & developer platforms",
+          "description": "Frameworks, model hubs, and self-hosted stacks for builders.",
+          "intro": "Engineering concerns dominate: integration surfaces, licenses, hardware, and operations. For regulated or air-gapped setups, verify weight provenance, telemetry defaults, and supply-chain notes first.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "搜索 / 研究",
+      "slug": "search-research",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "搜索与研究型 AI丨引用、摘要与事实核查",
+          "description": "强调检索增强与引用展示的助手；适合文献与市场信息搜集场景。",
+          "intro": "关注来源是否可追溯、是否混入了不可见的网页抓取策略，以及付费墙内容如何处理。研究用途下，建议与其他检索渠道交叉验证关键事实。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "Search & research assistants with citations",
+          "description": "Tools that blend language models with retrieval and source pointers.",
+          "intro": "Check how sources are surfaced, what crawling policies apply, and how paywalled material is handled. Cross-check critical claims with primary retrieval channels.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "文档 / 知识库",
+      "slug": "docs-knowledge-base",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "文档与知识库工具丨团队记忆与二次发现",
+          "description": "笔记、wiki 与企业知识 products；重视权限、导入导出与搜索体验。",
+          "intro": "知识类产品成败常在「能不能稳定找回半年前的结论」。重点试移动端、离线、全文/向量混合搜索，以及是否满足贵司的审计与保留策略。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "Docs & knowledge bases for teams",
+          "description": "Note-taking, wikis, and company knowledge hubs.",
+          "intro": "Success is often whether you can rediscover last quarter’s decisions. Test mobile/offline, hybrid vs keyword search, and retention or audit features your org requires.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "编程 / 开发",
+      "slug": "coding-development",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "编程与开发助手丨IDE、云开发与代码生成",
+          "description": "IDE 内助手、云 IDE 与代码伙伴类产品；详情页链接官网与同类对比。",
+          "intro": "评估时请带上真实仓库：看对大型代码库导航、测试、重构与评审流程是否加分，并确认代码上传范围、离线模式与企业安全要求是否冲突。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "Coding & dev assistants — IDE, cloud IDEs, codegen",
+          "description": "Tools that assist developers inside editors or hosted workspaces.",
+          "intro": "Benchmark on your own repos: navigation, tests, refactors, and review workflows. Double-check what code may be transmitted, offline modes, and enterprise security constraints.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "翻译 / 语言",
+      "slug": "translation-language",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "翻译与多语言工具丨网页、文档与口语场景",
+          "description": "机翻、双语网页与术语一致类产品；适合跨境协作与内容本地化。",
+          "intro": "关注术语表、品牌名保护、文件格式保留与批量处理能力。对外发布前仍建议人工校对关键文案与法律条款。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "Translation & multilingual workflows",
+          "description": "Machine translation, bilingual browsing, and glossary-aware tools.",
+          "intro": "Look for glossary support, brand-name locks, format fidelity, and batch throughput. Keep humans in the loop for customer-facing or legal copy.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "自动化 / 集成",
+      "slug": "automation-integration",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "自动化与工作流集成丨低代码、编排与 API",
+          "description": "Zapier 类编排、低代码自动化与 API 聚合；从站内跳到具体工具详情。",
+          "intro": "先画清触发源与数据边界，再评估错误重试、审计日志、速率限制与供应商锁定。复杂编排建议分阶段上线并保留回滚路径。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "Automation & integrations — orchestration and APIs",
+          "description": "Low-code automation, connectors, and workflow builders.",
+          "intro": "Map triggers and data boundaries first, then compare retries, audit logs, rate limits, and lock-in. Roll out complex flows in stages with rollback plans.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "视频 / 动效",
+      "slug": "video-motion",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "视频与动效 AI丨生成、剪辑与数字人",
+          "description": "视频生成、剪辑辅助与口播类工具汇总；注意授权素材与肖像权合规。",
+          "intro": "视频链路长：分镜、口型、分辨率、导出编码与商用音乐授权都要问清。若要批量生产，优先考察 API、队列与模板化能力。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "Video & motion AI — generation, editing, avatars",
+          "description": "Curated tools across generative video and motion workflows.",
+          "intro": "Video stacks are long: storyboards, lipsync, resolution, codecs, and licensed music. For scale, look at APIs, queues, and templating.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "设计 / 演示",
+      "slug": "design-decks",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "设计与演示工具丨视觉稿、组件库与演示稿",
+          "description": "界面设计、品牌模板与演示成稿相关产品；与纯写作/白板形成互补。",
+          "intro": "设计类更重组件体系、设计令牌、交付给开发的标注链路。若团队已有一套设计系统，优先选能同步或至少不破坏命名规范的方案。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "Design & presentation tooling",
+          "description": "UI design surfaces, brand templates, and polished decks.",
+          "intro": "Design workflows hinge on component libraries, tokens, and handoff to engineering. If you already have a system, favor tools that stay aligned with naming and states.",
+          "gscBlocks": []
+        }
+      }
+    },
+    {
+      "canonicalKey": "语音 / 音乐",
+      "slug": "voice-music",
+      "updatedAt": "2026-04-05",
+      "locales": {
+        "zh-CN": {
+          "title": "语音与音乐 AI丨合成、转写与生成式配乐",
+          "description": "语音合成、会议转写与生成式音乐工具；商用请关注许可与署名要求。",
+          "intro": "听感、延迟、语种支持与音色克隆政策差异很大。对外发布内容前确认是否允许该用途、是否需要水印或版税说明。",
+          "gscBlocks": []
+        },
+        "en": {
+          "title": "Voice & music AI — TTS, transcription, generative audio",
+          "description": "Speech synthesis, meeting notes, and music generation stacks.",
+          "intro": "Latency, language coverage, and voice-clone policies vary. Before shipping externally, verify usage rights, watermarks, or royalty disclosures.",
+          "gscBlocks": []
+        }
+      }
+    }
+  ]
+}

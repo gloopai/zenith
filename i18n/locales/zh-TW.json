@@ -57,11 +57,28 @@
   },
   "toolPage": {
     "breadcrumb": "導覽",
+    "titleSuffix": "精選目錄",
     "visitSite": "造訪官網",
     "opensNewWindow": "新視窗開啟",
     "useCasesTitle": "使用情境",
     "useCasesBody": "以上介紹幫助你判斷這款工具是否適合當前需求。同類工具較多時，建議先釐清使用頻率、預算與資料隱私要求，再選擇最順手的一款。",
-    "ogSuffix": "AI 工具"
+    "ogSuffix": "Plunget 精選",
+    "relatedTools": "同類工具",
+    "suitableFor": "更適合",
+    "notIdealFor": "較不適合",
+    "compareHint": "比對時可留意",
+    "checklistTitle": "選用前自檢",
+    "searchIntentHeading": "常見檢索問題"
+  },
+  "categoryPage": {
+    "eyebrow": "分類",
+    "breadcrumbNav": "導覽",
+    "toolsInCategory": "本類工具",
+    "toolsHint": "簡介與官網以各工具詳情頁為準；可在同類條目間交叉瀏覽。",
+    "searchIntentHeading": "檢索與補充說明",
+    "empty": "該分類下暫無可展示條目。",
+    "notFound": "找不到該分類頁",
+    "ogSuffix": "分類指南"
   },
   "newsPage": {
     "eyebrow": "文章",
@@ -120,8 +137,8 @@
     "siteDescription": "AI 工具導覽與實務導讀：整理對話、程式、影像影音、自動化等類別，並提供 OpenClaw / AgentSkills 技能索引與文件連結。",
     "homeTitle": "AI 工具導覽、OpenClaw 技能與專題筆記",
     "homeDescription": "集中瀏覽 AI 對話、程式助理、生成式媒體與代理型產品；支援分類與關鍵字搜尋、閱讀短篇指南，並查閱 OpenClaw 官方技能與社群示例。",
-    "navTitle": "AI 工具清單丨依場景與分類瀏覽",
-    "navDescription": "人工智慧產品目錄：可用分類與關鍵字搜尋，涵蓋寫作、開發、影像、影片、流程自動化等；詳情頁提供簡介與官網連結，方便試用與比較方案。",
+    "navTitle": "AI 工具導覽丨分類指南＋詳情（官網直達）",
+    "navDescription": "依分類落地頁收錄工具，支援站內搜尋；各工具含中立簡介、同類推薦與麵包屑內鏈，並直達官網核對方案與條款。",
     "newsTitle": "AI 新聞與提示詞、工作流程筆記",
     "newsDescription": "偏實務的 AI 文章：模型選擇、隱私習慣、多模態流程、本機與雲端語言模型、OpenClaw 與代理技能等，附摘要與全文。",
     "openclawTitle": "OpenClaw 技能目錄（AgentSkills）",

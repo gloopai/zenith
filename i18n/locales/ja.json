@@ -57,11 +57,28 @@
   },
   "toolPage": {
     "breadcrumb": "ツール",
+    "titleSuffix": "厳選ピック",
     "visitSite": "公式サイトへ",
     "opensNewWindow": "新しいタブで開きます",
     "useCasesTitle": "活用シーン",
     "useCasesBody": "概要がニーズに合うかの目安になります。類似ツールが多い場合は利用頻度、予算、データの取り扱いを踏まえて選んでください。",
-    "ogSuffix": "AI ツール"
+    "ogSuffix": "Plunget 厳選",
+    "relatedTools": "関連ツール",
+    "suitableFor": "向いている用途",
+    "notIdealFor": "あまり向かない場合",
+    "compareHint": "比較のヒント",
+    "checklistTitle": "チェックリスト",
+    "searchIntentHeading": "検索意図向け Q&A"
+  },
+  "categoryPage": {
+    "eyebrow": "カテゴリ",
+    "breadcrumbNav": "ツール",
+    "toolsInCategory": "このカテゴリのツール",
+    "toolsHint": "概要と公式リンクは各ツール詳細へ。カテゴリ内の関連ピックも参照してください。",
+    "searchIntentHeading": "編集用 / GSC 追記欄",
+    "empty": "このカテゴリに掲載はまだありません。",
+    "notFound": "カテゴリが見つかりません",
+    "ogSuffix": "カテゴリガイド"
   },
   "newsPage": {
     "eyebrow": "記事",
@@ -120,8 +137,8 @@
     "siteDescription": "生成 AI ツールのキュレーション一覧と実践ガイド、OpenClaw / AgentSkills のスキル索引。チャット、開発、アセット制作、エージェントを横断的に比較。",
     "homeTitle": "生成 AI ツール一覧・OpenClaw スキルとガイド",
     "homeDescription": "チャット／コーディング支援、画像・動画、自動化、エージェント系ツールを分類と検索で探索。短い解説記事と、公式ドキュメントへつながる OpenClaw スキル一覧。",
-    "navTitle": "AI ツールを用途・カテゴリから探す",
-    "navDescription": "カテゴリ絞り込みとキーワード検索に対応した AI 製品ディレクトリ。ライティング、開発、画像、動画など各ツールの概要と公式サイトへの導線。",
+    "navTitle": "厳選 AI ツール一覧・カテゴリハブ",
+    "navDescription": "カテゴリ別ハブと検索で製品を横断。各ツールページから関連ピック・パンくず・公式サイト（料金・規約確認）へ。",
     "newsTitle": "AI ニュースとプロンプト・ワークフローのヒント",
     "newsDescription": "モデル選定、プライバシー、マルチモーダル、ローカル LLM、OpenClaw／エージェント運用など実務向け記事。要約と全文で読める。",
     "openclawTitle": "OpenClaw スキルディレクトリ（AgentSkills）",
