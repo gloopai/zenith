@@ -153,8 +153,12 @@ const i18nHead = useLocaleHead({ dir: true, lang: true, seo: true })
 const siteOrigin = useSiteOrigin()
 const defaultSocialImage = computed(() => `${siteOrigin.value}/og-default.png`)
 
+/* Layout-level meta: defaults only. Each page’s useSeoMeta runs after and overrides
+   title/description/og* for that URL (SSR + client). Perf work (fonts, devtools, robots route)
+   does not remove JSON-LD, canonical, or hreflang from pages. */
 useSeoMeta({
   description: computed(() => t('seo.siteDescription')),
+  robots: 'index, follow',
   ogSiteName: 'Plunget',
   ogLocale: computed(() => {
     const map: Record<string, string> = {
