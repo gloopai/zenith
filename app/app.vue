@@ -1,6 +1,6 @@
 <template>
   <div class="font-sans relative min-h-screen bg-[#06060a] text-zinc-100 antialiased">
-    <div class="pointer-events-none absolute inset-0 overflow-hidden">
+    <div class="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
       <div
         class="absolute -left-[20%] top-[-30%] h-[70vh] w-[70vh] rounded-full bg-violet-600/[0.12] blur-[120px]"
       />
@@ -30,6 +30,7 @@
               height="40"
               class="h-full w-full object-cover"
               decoding="async"
+              fetchpriority="high"
             />
           </span>
 
@@ -153,6 +154,7 @@ const siteOrigin = useSiteOrigin()
 const defaultSocialImage = computed(() => `${siteOrigin.value}/og-default.png`)
 
 useSeoMeta({
+  description: computed(() => t('seo.siteDescription')),
   ogSiteName: 'Plunget',
   ogLocale: computed(() => {
     const map: Record<string, string> = {

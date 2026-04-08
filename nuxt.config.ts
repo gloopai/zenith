@@ -8,7 +8,7 @@ const siteUrl = (process.env.NUXT_PUBLIC_SITE_URL || 'https://plunget.com').repl
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
+  devtools: { enabled: import.meta.dev },
   modules: ['@nuxtjs/i18n'],
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
@@ -54,12 +54,6 @@ export default defineNuxtConfig({
         { name: 'twitter:card', content: 'summary_large_image' },
       ],
       link: [
-        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        {
-          rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap',
-        },
         { rel: 'icon', type: 'image/png', href: '/icon-32.png', sizes: '32x32' },
         { rel: 'icon', type: 'image/png', href: '/icon-16.png', sizes: '16x16' },
         { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
