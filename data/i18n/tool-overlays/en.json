@@ -370,5 +370,23 @@
   },
   "meshy": {
     "description": "Meshy: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "manus": {
+    "description": "General-purpose autonomous assistant product from Manus AI: delegates multi-step browser and research-style tasks behind a chat interface—check the site for task limits, regions, and data handling."
+  },
+  "lovable": {
+    "description": "AI app builder from Lovable: prompt-first full-stack UI and backend scaffolding with iterative previews—verify export, hosting, and team permissions before committing to production workflows."
+  },
+  "devin": {
+    "description": "Cognition’s “AI software engineer” product focused on multi-step coding tasks from tickets to pull requests—treat output as draft work; enforce human review, tests, security, and regional availability per your policy."
+  },
+  "warp": {
+    "description": "Modern terminal with AI assistance for completions, shared commands, and workflow blocks—ideal for heavy CLI and SSH users; confirm what leaves your machine when using cloud-backed AI features."
+  },
+  "zed": {
+    "description": "Rust-built code editor with low-latency editing and multiplayer collaboration plus optional AI hooks—compare extension depth vs VS Code before switching your whole team."
+  },
+  "granola": {
+    "description": "Meeting notes product that pairs calendar context with transcription-friendly flows to turn calls into searchable summaries—validate retention, training use, and enterprise controls before rolling out company-wide."
   }
 }

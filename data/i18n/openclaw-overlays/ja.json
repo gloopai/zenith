@@ -35,14 +35,6 @@
     "description": "Canvas: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/canvas/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
     "category": "コラボレーション／キャンバス"
   },
-  "clawflow": {
-    "description": "Clawflow: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/clawflow/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
-    "category": "自動化／ワークフロー"
-  },
-  "clawflow-inbox-triage": {
-    "description": "Clawflow Inbox Triage: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/clawflow-inbox-triage/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
-    "category": "自動化／ワークフロー"
-  },
   "clawhub": {
     "description": "ClawHub: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/clawhub/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
     "category": "エコシステム／レジストリ"
@@ -178,6 +170,14 @@
   "summarize": {
     "description": "Summarize: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/summarize/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
     "category": "ドキュメント／要約"
+  },
+  "taskflow": {
+    "description": "Taskflow: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/taskflow/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "自動化／ワークフロー"
+  },
+  "taskflow-inbox-triage": {
+    "description": "Taskflow Inbox Triage: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/taskflow-inbox-triage/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",
+    "category": "自動化／ワークフロー"
   },
   "things-mac": {
     "description": "Things（macOS）: OpenClaw リポジトリ同梱スキル。環境によりローカルの実行ファイルと権限が必要です。 skills/things-mac/ 配下で AgentSkills レイアウトに従ってください。セキュリティとセットアップは OpenClaw ドキュメントと ClawHub を参照してください。",

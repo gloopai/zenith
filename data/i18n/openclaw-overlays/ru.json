@@ -35,14 +35,6 @@
     "description": "Canvas: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/canvas/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
     "category": "Совместная работа / Холст"
   },
-  "clawflow": {
-    "description": "Clawflow: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/clawflow/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
-    "category": "Автоматизация / Рабочие процессы"
-  },
-  "clawflow-inbox-triage": {
-    "description": "Clawflow Inbox Triage: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/clawflow-inbox-triage/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
-    "category": "Автоматизация / Рабочие процессы"
-  },
   "clawhub": {
     "description": "ClawHub: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/clawhub/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
     "category": "Экосистема / Реестр"
@@ -178,6 +170,14 @@
   "summarize": {
     "description": "Summarize: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/summarize/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
     "category": "Документы / Резюме"
+  },
+  "taskflow": {
+    "description": "Taskflow: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/taskflow/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Автоматизация / Рабочие процессы"
+  },
+  "taskflow-inbox-triage": {
+    "description": "Taskflow Inbox Triage: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/taskflow-inbox-triage/. Безопасность и настройка — в документации OpenClaw и ClawHub.",
+    "category": "Автоматизация / Рабочие процессы"
   },
   "things-mac": {
     "description": "Things（macOS）: Встроенный навык в репозитории OpenClaw; может потребоваться локальное ПО и разрешения. Следуйте структуре AgentSkills в skills/things-mac/. Безопасность и настройка — в документации OpenClaw и ClawHub.",

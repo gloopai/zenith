@@ -792,4 +792,245 @@ Un sitio “vivo” mantiene metadatos y publica con ritmo. Mejor pasos pequeño
 `.trim(),
     },
   },
+
+  '2026-04-05-channel-refresh-note.md': {
+    date: '2026-04-05',
+    slug: '2026-04-05-channel-refresh-note',
+    en: {
+      title: 'Site refresh: tools, OpenClaw skills, and overlays',
+      description: 'Manus and Lovable join the directory; upstream Taskflow naming is mirrored; localized overlays were regenerated.',
+      body: `
+## Tools
+
+**Manus** and **Lovable** are now in the featured list with categories aligned to the existing taxonomy so “对话 / 通用” and “编程 / 开发” stay consistent across locales.
+
+## OpenClaw
+
+The OpenClaw skills generator follows **openclaw/openclaw** on GitHub: **Taskflow** and **taskflow-inbox-triage** replace the older Clawflow labels. Re-run \`npm run data:openclaw\` when you bump the script so \`data/openclaw-skills.json\` matches the repo.
+
+## Overlays
+
+Tool and OpenClaw overlay JSON under \`data/i18n/*-overlays\` is rebuilt from the overlay script—extended blurbs (including the new tool slugs) pick up from \`scripts/lib/content-overlay-locale-data.mjs\`.
+`.trim(),
+    },
+    'zh-TW': {
+      title: '站上更新：工具、OpenClaw 技能與多語覆寫',
+      description: '導航列入 Manus、Lovable；技能名與上游 Taskflow 對齊；覆寫層已重新產生。',
+      body: `
+## 工具
+
+**Manus**、**Lovable** 已列入精選，分類沿用現有詞表（如「對話／通用」「編程／開發」），避免各語系分類漂移。
+
+## OpenClaw
+
+技能產生腳本已對齊 **openclaw/openclaw**：以 **Taskflow**、**taskflow-inbox-triage** 取代舊的 Clawflow 命名。更新腳本後請執行 \`npm run data:openclaw\`，讓 \`data/openclaw-skills.json\` 與倉庫一致。
+
+## 覆寫（overlays）
+
+\`data/i18n/*-overlays\` 由腳本重建；工具與技能的加長說明（含新 slug）來自 \`scripts/lib/content-overlay-locale-data.mjs\`。
+`.trim(),
+    },
+    ja: {
+      title: 'サイト更新：ツール、OpenClaw スキル、オーバーレイ',
+      description: 'Manus / Lovable を掲載。上流の Taskflow 命名に追従。多言語オーバーレイを再生成。',
+      body: `
+## ツール
+
+**Manus** と **Lovable** をフィーチャーに追加。既存タクソノミーに合わせ、分類の一貫性を保っています。
+
+## OpenClaw
+
+スキル生成は **openclaw/openclaw** に合わせ、**Taskflow** / **taskflow-inbox-triage** へ名称を更新。スクリプト変更後は \`npm run data:openclaw\` で \`data/openclaw-skills.json\` を同期してください。
+
+## オーバーレイ
+
+\`data/i18n/*-overlays\` はビルドスクリプトで再生成。長文説明は \`scripts/lib/content-overlay-locale-data.mjs\` を参照します。
+`.trim(),
+    },
+    ko: {
+      title: '사이트 갱신: 도구, OpenClaw 스킬, 오버레이',
+      description: 'Manus·Lovable 추가. 상위 저장소 Taskflow 명명 반영. 로컬라이즈 오버레이 재생성.',
+      body: `
+## 도구
+
+**Manus**, **Lovable** 를 추천 목록에 추가했습니다. 기존 분류 체계와 맞춰 로케일 간 일관성을 유지합니다.
+
+## OpenClaw
+
+스킬 생성기는 **openclaw/openclaw** 를 따릅니다. **Taskflow**, **taskflow-inbox-triage** 로 이전 Clawflow 라벨을 대체합니다. 스크립트 수정 후 \`npm run data:openclaw\` 로 \`data/openclaw-skills.json\` 을 맞추세요.
+
+## 오버레이
+
+\`data/i18n/*-overlays\` 는 스크립트로 재빌드됩니다. 확장 설명은 \`scripts/lib/content-overlay-locale-data.mjs\` 에서 관리합니다.
+`.trim(),
+    },
+    ru: {
+      title: 'Обновление сайта: инструменты, навыки OpenClaw и оверлеи',
+      description: 'Manus и Lovable в каталоге; имена Taskflow как у upstream; локализованные оверлеи пересобраны.',
+      body: `
+## Инструменты
+
+В избранное добавлены **Manus** и **Lovable**, категории согласованы с текущей таксономией.
+
+## OpenClaw
+
+Генератор навыков следует **openclaw/openclaw**: **Taskflow** и **taskflow-inbox-triage** вместо старых имён Clawflow. После правок запустите \`npm run data:openclaw\`, чтобы \`data/openclaw-skills.json\` совпадал с репозиторием.
+
+## Оверлеи
+
+JSON в \`data/i18n/*-overlays\` пересобирается скриптом; расширенные тексты — в \`scripts/lib/content-overlay-locale-data.mjs\`.
+`.trim(),
+    },
+    hi: {
+      title: 'साइट अपडेट: टूल, OpenClaw स्किल, ओवरले',
+      description: 'Manus व Lovable सूची में; Taskflow नाम upstream जैसा; स्थानीय ओवरले फिर बने।',
+      body: `
+## टूल
+
+**Manus** और **Lovable** अब फ़ीचर्ड सूची में हैं; श्रेणियाँ मौजूदा शब्दावली से मेल खाती हैं।
+
+## OpenClaw
+
+स्किल जनरेटर **openclaw/openclaw** के अनुरूप: **Taskflow** व **taskflow-inbox-triage** पुराने Clawflow लेबल की जगह। स्क्रिप्ट बदलने पर \`npm run data:openclaw\` चलाएँ।
+
+## ओवरले
+
+\`data/i18n/*-overlays\` स्क्रिप्ट से दोबारा बनता है; लंबे विवरण \`scripts/lib/content-overlay-locale-data.mjs\` में।
+`.trim(),
+    },
+    es: {
+      title: 'Actualización del sitio: herramientas, skills OpenClaw y overlays',
+      description: 'Manus y Lovable en el directorio; nombres Taskflow como el upstream; overlays localizados regenerados.',
+      body: `
+## Herramientas
+
+**Manus** y **Lovable** entran en destacados con categorías alineadas a la taxonomía actual.
+
+## OpenClaw
+
+El generador de skills sigue **openclaw/openclaw**: **Taskflow** y **taskflow-inbox-triage** sustituyen etiquetas Clawflow antiguas. Tras cambiar el script, ejecuta \`npm run data:openclaw\` para sincronizar \`data/openclaw-skills.json\`.
+
+## Overlays
+
+Los JSON en \`data/i18n/*-overlays\` se reconstruyen; textos largos salen de \`scripts/lib/content-overlay-locale-data.mjs\`.
+`.trim(),
+    },
+  },
+
+  '2026-04-06-engineering-assistants-roundup.md': {
+    date: '2026-04-06',
+    slug: '2026-04-06-engineering-assistants-roundup',
+    en: {
+      title: 'Engineering assistants beyond the chat window',
+      description: 'Why we list Devin, Warp, Zed, and Granola together—agents, terminals, editors, and meeting memory each hit different bottlenecks.',
+      body: `
+## Four different “AI at work” surfaces
+
+- **Devin‑style agents** chase end‑to‑end tickets but still need human review.  
+- **Warp‑style terminals** shorten repetitive shell work—watch cloud/off‑device prompts if you paste secrets.  
+- **Zed‑style editors** optimize latency and pair programming; extensions differ from VS Code.  
+- **Granola‑style meeting tools** reduce post‑call cleanup; check data retention before company‑wide rollouts.
+
+## For readers managing a directory
+
+Stable **categories + one honest line** beats hype; link to official pricing and regions, and regenerate overlays when you add slugs.
+`.trim(),
+    },
+    'zh-TW': {
+      title: '聊天視窗之外的工程向 AI：代理、終端、編輯器與會議記憶',
+      description: '為何同時收錄 Devin、Warp、Zed、Granola——各自解的是不同瓶頸。',
+      body: `
+## 四種不同的「工作層」AI
+
+- **類 Devin 的代理**　往「端到端工單」走，但**人審仍不可少**。  
+- **類 Warp 的終端**　省重複敲指令——若開雲端 AI，注意**哪些內容會離開本機**。  
+- **類 Zed 的編輯器**　偏延遲與協作；**外掛生態與 VS Code 不同**。  
+- **類 Granola 的會議工具**　減少會後整理——全公司推廣前先看清**保存與訓練策略**。
+
+## 給導航站維護者
+
+分類穩定、**一句誠實定位**勝過堆形容詞；新 slug 記得重跑覆寫腳本並链到**官方定價與地區**。
+`.trim(),
+    },
+    ja: {
+      title: 'チャットの外側：エージェント・ターミナル・エディタ・会議メモ',
+      description: 'Devin / Warp / Zed / Granola を並べる理由—ボトルネックが違う。',
+      body: `
+## 4つの仕事面
+
+- **Devin 型エージェント**　チケット〜PR まで狙うが**人間レビュー必須**。  
+- **Warp 型ターミナル**　CLI 反復を短縮—**クラウド AI で何が送られるか**確認。  
+- **Zed 型エディタ**　低遅延と協調編集—**拡張は VS Code と別物**。  
+- **Granola 型ミーティング**　議事後処理を削減—**保持と学習利用**を企業で確認。
+
+## ディレクトリ運用
+
+分類を安定させ、**一句正直な位置づけ**が効く。slug 追加後はオーバーレイを再生成し**価格と地域**は公式へ。
+`.trim(),
+    },
+    ko: {
+      title: '챗창 밖 엔지니어링 AI: 에이전트, 터미널, 에디터, 회의 메모',
+      description: 'Devin·Warp·Zed·Granola 를 같이 두는 이유—각각 다른 병목을 겨냥.',
+      body: `
+## 네 가지 작업 표면
+
+- **Devin 류 에이전트**　티켓→PR 까지 추천하지만 **인간 검토 필수**.  
+- **Warp 류 터미널**　반복 셸 작업 단축—**클라우드 AI 시 전송 데이터** 확인.  
+- **Zed 류 에디터**　지연·협업—**확장 생태는 VS Code 와 다름**.  
+- **Granola 류 회의**　사후 정리 감소—**보존·학습 정책** 전사 도입 전 확인.
+
+## 디렉터리 운영자에게
+
+안정한 분류와 **한 줄 정직한 포지셔닝**이 과장보다 낫다. slug 추가 후 오버레이 재생성·**가격·지역**은 공식 사이트로.
+`.trim(),
+    },
+    ru: {
+      title: 'Инженерный ИИ за пределами чата',
+      description: 'Зачем в одном списке Devin, Warp, Zed и Granola — у каждого свой узкий запрос.',
+      body: `
+## Четыре слоя
+
+- **Агенты в духе Devin** — сквозные тикеты, но **без человека нельзя**.  
+- **Терминалы в духе Warp** — меньше рутины в shell; **проверьте облачный ИИ**.  
+- **Редакторы в духе Zed** — задержка и парное редактирование; **плугины ≠ VS Code**.  
+- **Встречи в духе Granola** — меньше постобработки; **хранение и обучение** до корпоративного внедрения.
+
+## Для каталога
+
+Ровная таксономия и **одна честная строка** лучше хайпа; новые slug → пересобрать оверлеи, цены и регионы — на официальный сайт.
+`.trim(),
+    },
+    hi: {
+      title: 'चैट के बाहर इंजीनियरिंग सहायक',
+      description: 'Devin, Warp, Zed, Granola एक साथ—क्योंकि अलग‑अलग बाधा।',
+      body: `
+## चार सतहें
+
+- **Devin‑जैसे एजेंट**　टिकट से PR तक—**मानव समीक्षा ज़रूरी**।  
+- **Warp‑जैसा टर्मिनल**　दोहराव घटाएँ—**क्लाउड AI पर क्या जाता है** देखें।  
+- **Zed‑जैसा संपादक**　कम विलंब, सह‑संपादन—**एक्सटेंशन VS Code जैसे नहीं**।  
+- **Granola‑जैसी मीटिंग**　बाद की सफ़ाई कम—**कंपनीव्यापी रोलआउट से पहले रिटेन्शन**।
+
+## निर्देशिका के लिए
+
+स्थिर श्रेणियाँ + **एक ईमानदार पंक्ति** ज़्यादा भरोसेमंद; नए slug पर ओवरले फिर बनाएँ; कीमत व क्षेत्र आधिकारिक साइट।
+`.trim(),
+    },
+    es: {
+      title: 'Asistentes de ingeniería más allá del chat',
+      description: 'Por qué listar Devin, Warp, Zed y Granola: cada uno atasca un cuello de botella distinto.',
+      body: `
+## Cuatro superficies
+
+- **Agentes tipo Devin** hacia tickets completos—**revisión humana obligatoria**.  
+- **Terminales tipo Warp** recortan shell repetitivo—**ojo con IA en la nube**.  
+- **Editores tipo Zed** latencia y pair programming—**extensiones ≠ VS Code**.  
+- **Reuniones tipo Granola** menos limpieza después—**retención y entrenamiento** antes del despliegue.
+
+## Para directorios
+
+Taxonomía estable + **una línea honesta** gana al hype; nuevos slug → regenerar overlays; precios y regiones en el sitio oficial.
+`.trim(),
+    },
+  },
 }

@@ -1115,6 +1115,60 @@
       "category": "设计 / 演示",
       "tags": ["3D", "生成", "游戏"],
       "featured": false
+    },
+    {
+      "slug": "manus",
+      "name": "Manus",
+      "description": "面向研究与自动化任务的通用 AI 代理产品，强调在浏览器与外部工具之间拆分步骤并产出可交付物（报告、表格、仓库等）。复杂流程仍需人工复核边界与数据合规，具体能力与地区策略以官网为准。",
+      "url": "https://manus.im",
+      "category": "对话 / 通用",
+      "tags": ["代理", "自动化", "研究"],
+      "featured": true
+    },
+    {
+      "slug": "lovable",
+      "name": "Lovable",
+      "description": "用自然语言生成可部署的全栈/前端项目（常见为 React 技术栈），适合快速做 MVP 与交互演示。安全审计、后端扩展与团队协作仍要按工程规范迭代，而非一键上线即生产。",
+      "url": "https://lovable.dev",
+      "category": "编程 / 开发",
+      "tags": ["全栈", "React", "原型"],
+      "featured": true
+    },
+    {
+      "slug": "devin",
+      "name": "Devin",
+      "description": "Cognition 推出的自主软件工程代理形态产品，面向「从 issue 到 PR」这类多步骤研发任务；适合团队评估人机分工与代码审查流程。产出仍需人类审核、测试与合规把关，可用地区与套餐以官网为准。",
+      "url": "https://devin.ai",
+      "category": "编程 / 开发",
+      "tags": ["代理", "软件工程", "自动化"],
+      "featured": true
+    },
+    {
+      "slug": "warp",
+      "name": "Warp",
+      "description": "带 AI 辅助的现代终端与工作区，强调命令补全、工作流块与团队共享片段；适合在本地 shell 与 SSH 会话里减少重复敲命令。隐私与数据上云的策略随产品与账号类型变化，正式环境请先读官方说明。",
+      "url": "https://www.warp.dev",
+      "category": "编程 / 开发",
+      "tags": ["终端", "CLI", "效率"],
+      "featured": false
+    },
+    {
+      "slug": "zed",
+      "name": "Zed",
+      "description": "以 Rust 编写的高性能代码编辑器，内置协作编辑与可扩展 AI 能力；适合追求低延迟编辑体验与多人在线结对编程的团队。插件生态与模型接入仍在快速演进，重度 IDE 用户建议与 VS Code/JetBrains 对比试用。",
+      "url": "https://zed.dev",
+      "category": "开源 / 开发者",
+      "tags": ["编辑器", "协作", "Rust"],
+      "featured": false
+    },
+    {
+      "slug": "granola",
+      "name": "Granola",
+      "description": "面向会议的笔记与摘要工具，常结合日历与转写把讨论整理成可检索要点；适合销售人员、PM 与顾问减少会后整理时间。准确性与隐私（录音存储、模型训练策略）请按官方当前政策与企业版条款评估。",
+      "url": "https://www.granola.ai",
+      "category": "文档 / 知识库",
+      "tags": ["会议", "转写", "摘要"],
+      "featured": false
     }
   ]
 }

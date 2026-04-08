@@ -35,14 +35,6 @@
     "description": "Canvas: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/canvas/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
     "category": "Colaboración / Lienzo"
   },
-  "clawflow": {
-    "description": "Clawflow: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/clawflow/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
-    "category": "Automatización / Flujo de trabajo"
-  },
-  "clawflow-inbox-triage": {
-    "description": "Clawflow Inbox Triage: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/clawflow-inbox-triage/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
-    "category": "Automatización / Flujo de trabajo"
-  },
   "clawhub": {
     "description": "ClawHub: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/clawhub/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
     "category": "Ecosistema / Registro"
@@ -178,6 +170,14 @@
   "summarize": {
     "description": "Summarize: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/summarize/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
     "category": "Documentos / Resúmenes"
+  },
+  "taskflow": {
+    "description": "Taskflow: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/taskflow/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Automatización / Flujo de trabajo"
+  },
+  "taskflow-inbox-triage": {
+    "description": "Taskflow Inbox Triage: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/taskflow-inbox-triage/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",
+    "category": "Automatización / Flujo de trabajo"
   },
   "things-mac": {
     "description": "Things（macOS）: Habilidad incluida en el repositorio OpenClaw; puede requerir binarios locales y permisos. Sigue el diseño AgentSkills en skills/things-mac/. Consulta la documentación de OpenClaw y ClawHub para seguridad y configuración.",

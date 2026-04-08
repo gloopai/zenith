@@ -35,14 +35,6 @@
     "description": "Canvas: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/canvas/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
     "category": "सहयोग / कैनवास"
   },
-  "clawflow": {
-    "description": "Clawflow: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/clawflow/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
-    "category": "स्वचालन / वर्कफ़्लो"
-  },
-  "clawflow-inbox-triage": {
-    "description": "Clawflow Inbox Triage: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/clawflow-inbox-triage/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
-    "category": "स्वचालन / वर्कफ़्लो"
-  },
   "clawhub": {
     "description": "ClawHub: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/clawhub/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
     "category": "इकोसिस्टम / रजिस्ट्री"
@@ -178,6 +170,14 @@
   "summarize": {
     "description": "Summarize: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/summarize/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
     "category": "दस्तावेज़ / सारांश"
+  },
+  "taskflow": {
+    "description": "Taskflow: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/taskflow/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "स्वचालन / वर्कफ़्लो"
+  },
+  "taskflow-inbox-triage": {
+    "description": "Taskflow Inbox Triage: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/taskflow-inbox-triage/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",
+    "category": "स्वचालन / वर्कफ़्लो"
   },
   "things-mac": {
     "description": "Things（macOS）: OpenClaw रिपॉज़िटरी में बंडल किया गया स्किल; ज़रूरत पड़ने पर लोकल बाइनरीज़ और अनुमतियाँ चाहिए। skills/things-mac/ में AgentSkills लेआउट का पालन करें। सुरक्षा व सेटअप के लिए OpenClaw दस्तावेज़ और ClawHub देखें।",

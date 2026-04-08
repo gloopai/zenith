@@ -370,5 +370,23 @@
   },
   "meshy": {
     "description": "Meshy: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "manus": {
+    "description": "Asistente autónomo de propósito general de Manus AI: delega tareas de navegación e investigación en varios pasos tras un chat—límites, regiones y datos en el sitio."
+  },
+  "lovable": {
+    "description": "Constructor de apps Lovable: UI y backend full-stack desde prompts con vistas previas iterativas—antes de producción revisa exportación, hosting y permisos del equipo."
+  },
+  "devin": {
+    "description": "Producto tipo “ingeniero de software con IA” de Cognition: tareas en varios pasos de ticket a PR—trata la salida como borrador; exige revisión humana, pruebas, seguridad y política regional."
+  },
+  "warp": {
+    "description": "Terminal moderna con IA: autocompletado, comandos compartidos y bloques de flujo—para usuarios intensivos de CLI/SSH; verifica qué datos salen al usar IA en la nube."
+  },
+  "zed": {
+    "description": "Editor en Rust con baja latencia y colaboración multijugador más IA opcional—compara profundidad de extensiones vs VS Code antes de migrar al equipo."
+  },
+  "granola": {
+    "description": "Notas de reunión con contexto de calendario y flujos de transcripción a resúmenes buscables—antes del despliegue corporativo revisa retención, uso para entrenamiento y controles enterprise."
   }
 }

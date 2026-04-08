@@ -87,20 +87,20 @@ const OFFICIAL = {
       '与画布类工具或脚本协同，适合把结构化数据铺到可视化面板上做讨论。具体对接对象以 SKILL.md 为准。',
     featured: false,
   },
-  'clawflow-inbox-triage': {
-    name: 'Clawflow Inbox Triage',
+  'taskflow-inbox-triage': {
+    name: 'Taskflow Inbox Triage',
     category: '自动化 / 工作流',
-    tags: ['收件箱', '分拣', 'Clawflow'],
+    tags: ['收件箱', '分拣', 'Taskflow'],
     blurb:
-      'Clawflow 系列中与收件箱/待处理队列分拣相关的预置编排，适合把杂讯信息流整理成可执行下一步。需配合 Clawflow 主技能与网关配置。',
+      'Taskflow 系列中与收件箱/待处理队列分拣相关的预置编排，适合把杂讯信息流整理成可执行下一步。需配合 Taskflow 主技能与网关配置。',
     featured: true,
   },
-  clawflow: {
-    name: 'Clawflow',
+  taskflow: {
+    name: 'Taskflow',
     category: '自动化 / 工作流',
     tags: ['编排', '自动化', 'OpenClaw'],
     blurb:
-      'OpenClaw 上的工作流编排入口之一，用于把多个技能按触发条件串联。适合把「重复但多步骤」的日常任务固化成可复用流水线。',
+      'OpenClaw 上的任务流编排入口，用于把多个技能按触发条件串联。适合把「重复但多步骤」的日常任务固化成可复用流水线。',
     featured: true,
   },
   clawhub: {

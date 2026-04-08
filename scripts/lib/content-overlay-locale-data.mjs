@@ -425,6 +425,66 @@ const HIGHLIGHTS = {
     hi: 'ByteDance का असिस्टेंट हब: चैट और रचनात्मक टूल; टेम्प्लेट और घरेलू इंटीग्रेशन के लिए सुविधाजनक—निर्यात ज़रूरतों के लिए उप‑उत्पादों की तुलना करें।',
     es: 'Hub de asistentes de ByteDance con chat y herramientas creativas; práctico para plantillas e integraciones locales—compara subproductos si necesitas exportar.',
   },
+  manus: {
+    en: 'General-purpose autonomous assistant product from Manus AI: delegates multi-step browser and research-style tasks behind a chat interface—check the site for task limits, regions, and data handling.',
+    'zh-TW':
+      'Manus AI 旗下的通用型自主助理：在對話介面後承接多步驟的瀏覽與研究型任務——任務限制、地區與資料處理請以官網為準。',
+    ja: 'Manus AI の汎用オートノマス系アシスタント。チャット越しにブラウザ調査などの手順タスクを任せられる—上限・地域・データは公式確認。',
+    ko: 'Manus AI 의 범용 자율형 어시스턴트. 챗 뒤에서 다단계 브라우징·조사형 작업 위임—한도·지역·데이터 처리는 공식 사이트 확인.',
+    ru: 'Универсальный автономный ассистент Manus AI: через чат ставит многошаговые браузерные и исследовательские задачи — лимиты, регионы и данные на сайте.',
+    hi: 'Manus AI का सामान्य उद्देश्य वाला स्वायत्त सहायक: चैट के पीछे ब्राउज़र व शोध जैसे बहु‑चरण कार्य—सीमा, क्षेत्र व डेटा हैंडलिंग साइट पर।',
+    es: 'Asistente autónomo de propósito general de Manus AI: delega tareas de navegación e investigación en varios pasos tras un chat—límites, regiones y datos en el sitio.',
+  },
+  lovable: {
+    en: 'AI app builder from Lovable: prompt-first full-stack UI and backend scaffolding with iterative previews—verify export, hosting, and team permissions before committing to production workflows.',
+    'zh-TW':
+      'Lovable 的 AI 應用生成器：以提示驅動全端介面與後端鷹架，並可反覆預覽——上線前請確認匯出、託管與團隊權限是否符合需求。',
+    ja: 'Lovable の AI アプリビルダー。プロンプト主導でフルスタック UI/ バックエンド骨格を反復プレビュー—本番前にエクスポート・ホスティング・権限を確認。',
+    ko: 'Lovable 의 AI 앱 빌더. 프롬프트 중심 풀스택 UI·백엔드 뼈대와 반복 미리보기—프로덕션 전 내보내기·호스팅·팀 권한 확인.',
+    ru: 'Конструктор приложений Lovable: UI и бэкенд из промптов с итеративными превью — перед продакшеном проверьте экспорт, хостинг и права команды.',
+    hi: 'Lovable का AI ऐप बिल्डर: प्रॉम्प्ट से फुल‑स्टैक UI व बैकएंड ढाँचा, पुनरावृत्त पूर्वावलोकन—प्रोडक्शन से पहले निर्यात, होस्टिंग व टीम अनुमतियाँ जाँचें।',
+    es: 'Constructor de apps Lovable: UI y backend full-stack desde prompts con vistas previas iterativas—antes de producción revisa exportación, hosting y permisos del equipo.',
+  },
+  devin: {
+    en: 'Cognition’s “AI software engineer” product focused on multi-step coding tasks from tickets to pull requests—treat output as draft work; enforce human review, tests, security, and regional availability per your policy.',
+    'zh-TW':
+      'Cognition 旗下偏「AI 軟體工程師」定位的產品，處理從需求到 PR 的多步驟開發——仍應視為草稿產出，並落实審閱、測試、資安與地區可用性政策。',
+    ja: 'Cognition の「AI ソフトウェアエンジニア」製品。チケットから PR までの多段工程向け—成果は下書き扱いで、人間レビュー・テスト・セキュリティ・地域ポリシーを必ず。',
+    ko: 'Cognition 의 «AI 소프트웨어 엔지니어» 성향 제품. 티켓→PR 다단계 작업—출력은 초안으로, 리뷰·테스트·보안·지역 정책 필수.',
+    ru: 'Продукт Cognition в духе «AI‑инженера»: многошаговые задачи от тикета до PR — считайте вывод черновиком; обязательны ревью, тесты, безопасность и региональная политика.',
+    hi: 'Cognition का «AI सॉफ्टवेयर इंजीनियर» उत्पाद: टिकट से PR तक बहु‑चरण कोडिंग—आउटपुट को ड्राफ्ट मानें; मानव समीक्षा, टेस्ट, सुरक्षा व क्षेत्रीय नीति लागू करें।',
+    es: 'Producto tipo “ingeniero de software con IA” de Cognition: tareas en varios pasos de ticket a PR—trata la salida como borrador; exige revisión humana, pruebas, seguridad y política regional.',
+  },
+  warp: {
+    en: 'Modern terminal with AI assistance for completions, shared commands, and workflow blocks—ideal for heavy CLI and SSH users; confirm what leaves your machine when using cloud-backed AI features.',
+    'zh-TW':
+      '內建 AI 輔助的現代終端機，強調補全、工作流區塊與團隊片段分享——適合重度 CLI／SSH 使用者；雲端 AI 時請確認哪些指令與輸出會上傳。',
+    ja: '補完・共有コマンド・ワークフローブロックを備える現代的ターミナル。CLI/ SSH ヘビーユー — クラウド AI 利用時は送信データを確認。',
+    ko: 'AI 보조가 있는 현대적 터미널. 자동완성·공유 명령·워크플로 블록—CLI/SSH 다용도. 클라우드 AI 시 전송 데이터 확인.',
+    ru: 'Современный терминал с ИИ: дополнения, общие команды, блоки рабочих процессов — для активных CLI/SSH; уточните, что уходит в облако при ИИ‑функциях.',
+    hi: 'AI सहायता वाला आधुनिक टर्मिनल: पूर्णताएँ, साझा कमांड, वर्कफ़्लो ब्लॉक—CLI/SSH पावर यूज़र के लिए; क्लाउड AI पर क्या भेजा जाता है जाँचें।',
+    es: 'Terminal moderna con IA: autocompletado, comandos compartidos y bloques de flujo—para usuarios intensivos de CLI/SSH; verifica qué datos salen al usar IA en la nube.',
+  },
+  zed: {
+    en: 'Rust-built code editor with low-latency editing and multiplayer collaboration plus optional AI hooks—compare extension depth vs VS Code before switching your whole team.',
+    'zh-TW':
+      '以 Rust 寫成、強調低延遲編輯與多人協作的程式編輯器，並可接 AI——團隊全面遷移前請與 VS Code 等就外掛深度與工作流比較。',
+    ja: 'Rust 製の低遅延エディタ。マルチプレイ協調編集と任意の AI 連携—チーム移行前に VS Code 等と拡張の深さを比較。',
+    ko: 'Rust 기반 저지연 에디터. 멀티플레이 협업 편집·선택적 AI—팀 전환 전 VS Code 등과 확장 깊이 비교.',
+    ru: 'Редактор кода на Rust с низкой задержкой и совместным редактированием плюс опциональный ИИ — сравните глубину расширений с VS Code перед миграцией команды.',
+    hi: 'Rust पर बना कम‑लेटेंसी संपादक, मल्टीप्लेयर सहयोग व वैकल्पिक AI—टीम बदलने से पहले VS Code से एक्सटेंशन गहराई तुलना करें।',
+    es: 'Editor en Rust con baja latencia y colaboración multijugador más IA opcional—compara profundidad de extensiones vs VS Code antes de migrar al equipo.',
+  },
+  granola: {
+    en: 'Meeting notes product that pairs calendar context with transcription-friendly flows to turn calls into searchable summaries—validate retention, training use, and enterprise controls before rolling out company-wide.',
+    'zh-TW':
+      '會議筆記產品，常結合行事曆與轉寫流程，把通話變成可搜尋摘要——全公司推廣前請確認保存期限、模型訓練與企業管控選項。',
+    ja: 'カレンダー文脈と文字起こしを組み合わせ、会議を検索可能な要約へ。全社展開前に保持・学習利用・企業管理を確認。',
+    ko: '캘린더·전사 흐름과 맞춰 회의를 검색 가능 요약으로. 전사 도입 전 보존·학습 사용·엔터프라이즈 통제 확인.',
+    ru: 'Заметки для встреч с календарным контекстом и транскрипцией в поисковые конспекты — перед корпоративным внедрением проверьте хранение, обучение моделей и контроль.',
+    hi: 'कैलेंडर संदर्भ व ट्रांसक्रिप्शन के साथ मीटिंग नोट्स—कॉल को खोज योग्य सार में; कंपनीव्यापी रोडआउट से पहले रिटेन्शन, मॉडल ट्रेनिंग व एंटरप्राइज नियंत्रण जाँचें।',
+    es: 'Notas de reunión con contexto de calendario y flujos de transcripción a resúmenes buscables—antes del despliegue corporativo revisa retención, uso para entrenamiento y controles enterprise.',
+  },
 }
 
 export function toolDescription(t, locale) {

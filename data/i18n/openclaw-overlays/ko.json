@@ -35,14 +35,6 @@
     "description": "Canvas: OpenClaw 저장소에 포함된 스킬이며, 경우에 따라 로컬 바이너리와 권한이 필요합니다. skills/canvas/ 에서 AgentSkills 레이아웃을 따르세요. 보안과 설정은 OpenClaw 문서와 ClawHub 를 확인하세요.",
     "category": "협업 / 캔버스"
   },
-  "clawflow": {
-    "description": "Clawflow: OpenClaw 저장소에 포함된 스킬이며, 경우에 따라 로컬 바이너리와 권한이 필요합니다. skills/clawflow/ 에서 AgentSkills 레이아웃을 따르세요. 보안과 설정은 OpenClaw 문서와 ClawHub 를 확인하세요.",
-    "category": "자동화 / 워크플로"
-  },
-  "clawflow-inbox-triage": {
-    "description": "Clawflow Inbox Triage: OpenClaw 저장소에 포함된 스킬이며, 경우에 따라 로컬 바이너리와 권한이 필요합니다. skills/clawflow-inbox-triage/ 에서 AgentSkills 레이아웃을 따르세요. 보안과 설정은 OpenClaw 문서와 ClawHub 를 확인하세요.",
-    "category": "자동화 / 워크플로"
-  },
   "clawhub": {
     "description": "ClawHub: OpenClaw 저장소에 포함된 스킬이며, 경우에 따라 로컬 바이너리와 권한이 필요합니다. skills/clawhub/ 에서 AgentSkills 레이아웃을 따르세요. 보안과 설정은 OpenClaw 문서와 ClawHub 를 확인하세요.",
     "category": "생태계 / 레지스트리"
@@ -178,6 +170,14 @@
   "summarize": {
     "description": "Summarize: OpenClaw 저장소에 포함된 스킬이며, 경우에 따라 로컬 바이너리와 권한이 필요합니다. skills/summarize/ 에서 AgentSkills 레이아웃을 따르세요. 보안과 설정은 OpenClaw 문서와 ClawHub 를 확인하세요.",
     "category": "문서 / 요약"
+  },
+  "taskflow": {
+    "description": "Taskflow: OpenClaw 저장소에 포함된 스킬이며, 경우에 따라 로컬 바이너리와 권한이 필요합니다. skills/taskflow/ 에서 AgentSkills 레이아웃을 따르세요. 보안과 설정은 OpenClaw 문서와 ClawHub 를 확인하세요.",
+    "category": "자동화 / 워크플로"
+  },
+  "taskflow-inbox-triage": {
+    "description": "Taskflow Inbox Triage: OpenClaw 저장소에 포함된 스킬이며, 경우에 따라 로컬 바이너리와 권한이 필요합니다. skills/taskflow-inbox-triage/ 에서 AgentSkills 레이아웃을 따르세요. 보안과 설정은 OpenClaw 문서와 ClawHub 를 확인하세요.",
+    "category": "자동화 / 워크플로"
   },
   "things-mac": {
     "description": "Things（macOS）: OpenClaw 저장소에 포함된 스킬이며, 경우에 따라 로컬 바이너리와 권한이 필요합니다. skills/things-mac/ 에서 AgentSkills 레이아웃을 따르세요. 보안과 설정은 OpenClaw 문서와 ClawHub 를 확인하세요.",

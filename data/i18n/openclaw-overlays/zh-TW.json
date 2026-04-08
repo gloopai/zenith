@@ -35,14 +35,6 @@
     "description": "Canvas: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/canvas/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
     "category": "協作／畫布"
   },
-  "clawflow": {
-    "description": "Clawflow: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/clawflow/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
-    "category": "自動化／工作流程"
-  },
-  "clawflow-inbox-triage": {
-    "description": "Clawflow Inbox Triage: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/clawflow-inbox-triage/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
-    "category": "自動化／工作流程"
-  },
   "clawhub": {
     "description": "ClawHub: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/clawhub/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
     "category": "生態／登錄庫"
@@ -178,6 +170,14 @@
   "summarize": {
     "description": "Summarize: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/summarize/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
     "category": "文件／摘要"
+  },
+  "taskflow": {
+    "description": "Taskflow: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/taskflow/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自動化／工作流程"
+  },
+  "taskflow-inbox-triage": {
+    "description": "Taskflow Inbox Triage: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/taskflow-inbox-triage/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",
+    "category": "自動化／工作流程"
   },
   "things-mac": {
     "description": "Things（macOS）: OpenClaw 套件庫內建技能；視情況需要本機二進位檔與權限。 請依 AgentSkills 目錄規範放置於 skills/things-mac/。安全與安裝請參考 OpenClaw 文件與 ClawHub。",

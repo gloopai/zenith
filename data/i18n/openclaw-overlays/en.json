@@ -35,14 +35,6 @@
     "description": "Canvas: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/canvas/. See OpenClaw documentation and ClawHub for security and setup.",
     "category": "Collaboration / Canvas"
   },
-  "clawflow": {
-    "description": "Clawflow: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/clawflow/. See OpenClaw documentation and ClawHub for security and setup.",
-    "category": "Automation / Workflow"
-  },
-  "clawflow-inbox-triage": {
-    "description": "Clawflow Inbox Triage: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/clawflow-inbox-triage/. See OpenClaw documentation and ClawHub for security and setup.",
-    "category": "Automation / Workflow"
-  },
   "clawhub": {
     "description": "ClawHub: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/clawhub/. See OpenClaw documentation and ClawHub for security and setup.",
     "category": "Ecosystem / Registry"
@@ -178,6 +170,14 @@
   "summarize": {
     "description": "Summarize: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/summarize/. See OpenClaw documentation and ClawHub for security and setup.",
     "category": "Docs / Summaries"
+  },
+  "taskflow": {
+    "description": "Taskflow: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/taskflow/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Automation / Workflow"
+  },
+  "taskflow-inbox-triage": {
+    "description": "Taskflow Inbox Triage: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/taskflow-inbox-triage/. See OpenClaw documentation and ClawHub for security and setup.",
+    "category": "Automation / Workflow"
   },
   "things-mac": {
     "description": "Things（macOS）: Bundled skill in the OpenClaw repository; requires local binaries and permissions where applicable. Follow the AgentSkills layout under skills/things-mac/. See OpenClaw documentation and ClawHub for security and setup.",
