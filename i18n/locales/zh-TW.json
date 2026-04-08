@@ -32,7 +32,9 @@
     "example": "範例",
     "scenarioClusters": "場景合集",
     "scenarioClustersHint": "依常見搜尋意圖整理的工具清單，並連回各工具詳情頁，利於長尾主題聚合。",
-    "allClusters": "查看全部合集"
+    "allClusters": "查看全部合集",
+    "categoryHubTitle": "依分類瀏覽（主題落地頁）",
+    "categoryHubHint": "各分類含導讀、常見問答與工具清單；內鏈到詳情與官網，方便比較與探索。"
   },
   "clusterPage": {
     "eyebrow": "主題聚合",

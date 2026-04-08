@@ -10,7 +10,8 @@
     "postinstall": "nuxt prepare",
     "data:openclaw": "node scripts/build-openclaw-skills.mjs",
     "content:overlays": "node scripts/build-content-overlays.mjs",
-    "content:news-locales": "node scripts/build-news-locales.mjs"
+    "content:news-locales": "node scripts/build-news-locales.mjs",
+    "seo:expand": "node scripts/expand-seo-data.mjs"
   },
   "dependencies": {
     "@nuxtjs/i18n": "^10.2.4",

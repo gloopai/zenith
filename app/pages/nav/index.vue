@@ -86,6 +86,7 @@ const router = useRouter()
 const siteOrigin = useSiteOrigin()
 
 const canonical = computed(() => `${siteOrigin.value}${localePath('/nav')}`)
+const navOg = computed(() => `${siteOrigin.value}/og-default.png`)
 
 useSeoMeta(
   computed(() => ({
@@ -95,6 +96,11 @@ useSeoMeta(
     ogDescription: t('seo.navDescription'),
     ogType: 'website',
     ogUrl: canonical.value,
+    ogImage: navOg.value,
+    ogImageWidth: 1200,
+    ogImageHeight: 630,
+    ogImageType: 'image/png',
+    twitterImage: navOg.value,
   })),
 )
 

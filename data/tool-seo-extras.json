@@ -9,7 +9,16 @@
         "对外使用前先读数据与留痕政策",
         "关键输出与其他来源交叉验证"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "ChatGPT 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 ChatGPT 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
     },
     "en": {
       "suitableFor": "Daily Q&A, drafting, beginner coding help, and tutoring; projects/plugins extend a few workflows.",
@@ -20,7 +29,16 @@
         "Review data logging before sharing sensitive material",
         "Cross-check critical outputs"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "ChatGPT free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
     }
   },
   "claude": {
@@ -33,7 +51,16 @@
         "上传敏感合同/代码前评估数据条款",
         "输出若用于决策，保留原文摘录备查"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Claude 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 Claude 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
     },
     "en": {
       "suitableFor": "Long-document work, code review, and structured explanations where breadth matters.",
@@ -44,7 +71,16 @@
         "Review data handling for confidential uploads",
         "Keep source excerpts when outputs inform decisions"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Claude free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
     }
   },
   "perplexity": {
@@ -57,7 +93,16 @@
         "注意付费墙与摘要误差",
         "对医疗/法律等高风险命题二次确认"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Perplexity 的答案可靠吗？",
+          "body": "检索增强类答案应视为起点而非终稿；请阅读原文并交叉比对权威来源。Perplexity 的抓取范围以官方说明为准。"
+        },
+        {
+          "heading": "研究型 AI 与传统搜索如何配合？",
+          "body": "可用 AI 做速览与关键词扩展，用传统搜索做精确站点与文件类型检索，两者互补。"
+        }
+      ]
     },
     "en": {
       "suitableFor": "Answer-first research with cited sources, quick market or news scanning.",
@@ -68,7 +113,16 @@
         "Watch for paywalled or misquoted snippets",
         "Double-check high-risk domains (legal/medical)"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "How trustworthy is Perplexity?",
+          "body": "Treat AI answers as starting points; verify with primary documents. Crawl coverage is defined by the vendor."
+        },
+        {
+          "heading": "Pairing research AI with classic search",
+          "body": "Use assistants for summaries and query expansion, then use search for precise site: filters and file types."
+        }
+      ]
     }
   },
   "midjourney": {
@@ -81,7 +135,16 @@
         "保存提示词与种子值（若产品提供）",
         "品牌项目预留法务审图环节"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Midjourney 生成的图可以商用吗？",
+          "body": "能否商用取决于 Midjourney 当前套餐与许可协议，可能因地区或账号类型不同。请务必在官网查阅最新条款，重要投放前让法务二次确认。"
+        },
+        {
+          "heading": "文生图工具怎么对比？",
+          "body": "从提示可控性、参考图/风格迁移、分辨率与 API 三方面试用。本页汇总同分类工具，便于打开多个详情页比较。"
+        }
+      ]
     },
     "en": {
       "suitableFor": "Stylized visuals, concept art, and exploratory directions with a strong community.",
@@ -92,7 +155,16 @@
         "Archive prompts/seeds when available",
         "Run brand/legal review before public release"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Can I use Midjourney images commercially?",
+          "body": "Commercial use depends on the vendor’s current license and plan—it varies by region. Always read the official terms before production launches."
+        },
+        {
+          "heading": "How do I compare image generators?",
+          "body": "Test prompt control, reference images, resolution, and batch/API paths. This category page links to peer tools for quick side-by-side browsing."
+        }
+      ]
     }
   },
   "cursor": {
@@ -105,7 +177,16 @@
         "团队统一 code style 与评审流程",
         "大改前先跑测试与 diff 审查"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Cursor 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Cursor 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
     },
     "en": {
       "suitableFor": "IDE-native coding, refactors, and repo explanations for VS Code–style users.",
@@ -116,7 +197,16 @@
         "Keep human review on large diffs",
         "Run tests before merging AI refactors"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Does Cursor train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
     }
   },
   "notion": {
@@ -129,7 +219,16 @@
         "导出策略与格式（Markdown/PDF）提前验证",
         "关键流程仍保留审批与备份"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Notion 和本地笔记（如 Obsidian）怎么选？",
+          "body": "云协作/wiki 赢在权限与共享；本地优先赢在文件可控。可按团队规模与合规二选一或混用。"
+        },
+        {
+          "heading": "企业知识库失败常见原因？",
+          "body": "权限混乱、命名不统一、没有过期策略。上线前约定模板与 owner，比盲目堆功能更重要。"
+        }
+      ]
     },
     "en": {
       "suitableFor": "Team wikis, light databases, and project views in one workspace.",
@@ -140,7 +239,16 @@
         "Validate export formats for DR",
         "Keep approvals on critical workflows"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Notion vs local-first notes",
+          "body": "Hosted wikis excel at permissions; local editors excel at file control. Mixing both is common."
+        },
+        {
+          "heading": "Why knowledge bases stall",
+          "body": "Unclear ownership and naming hurt more than missing features—establish templates before scaling."
+        }
+      ]
     }
   },
   "n8n": {
@@ -153,7 +261,16 @@
         "为关键流加重试与安全回退",
         "记录审计轨迹满足内控要求"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "n8n 和 Zapier 有什么区别？",
+          "body": "差异通常在连接器数量、自托管能力、定价模型与开发者体验。请对照官网连接器目录与计价说明。"
+        },
+        {
+          "heading": "自动化上线前必做什么？",
+          "body": "沙箱演练失败路径，确认幂等与补偿策略；生产再逐步放大流量。"
+        }
+      ]
     },
     "en": {
       "suitableFor": "Self or cloud-hosted automation, API glue, and SaaS bridging for technical teams.",
@@ -164,7 +281,16 @@
         "Add retries and dead-letter handling",
         "Keep audit logs where compliance demands"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "n8n vs other automation tools",
+          "body": "Differentiators include connector breadth, self-hosting, pricing, and developer UX—verify on official pages."
+        },
+        {
+          "heading": "Before shipping automations",
+          "body": "Rehearse failure modes, idempotency, and compensating transactions before scaling load."
+        }
+      ]
     }
   },
   "deepl": {
@@ -177,7 +303,16 @@
         "对外稿件仍安排人工终审",
         "记录术语表版本以免漂移"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "DeepL 翻译准确吗？",
+          "body": "机翻适合快速理解与时效稿件，正式对外发布仍建议人工校对，尤其是品牌名与法律条款。"
+        },
+        {
+          "heading": "沉浸式翻译和文档翻译怎么配合？",
+          "body": "浏览场景用浏览器扩展效率高；长文档用专注翻译服务更稳。可按场景组合多种工具。"
+        }
+      ]
     },
     "en": {
       "suitableFor": "High-quality baseline machine translation for documents and formal comms.",
@@ -188,7 +323,16 @@
         "Human-review customer-facing strings",
         "Version-control glossaries"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Is DeepL accurate enough?",
+          "body": "Great for speed; still human-review customer, legal, or medical copy before release."
+        },
+        {
+          "heading": "Mixing browser and document translators",
+          "body": "Use extensions for skimming and dedicated tools for long exports—combine by workflow."
+        }
+      ]
     }
   },
   "runway": {
@@ -201,7 +345,16 @@
         "留意生成内容的肖像权与标识要求",
         "大项目拆分版本管理与渲染队列"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Runway 适合做抖音/短视频吗？",
+          "body": "多数产品面向社交短视频与广告小样，具体模板与导出比例见官网。注意平台对 AI 内容的披露规则。"
+        },
+        {
+          "heading": "视频类 AI 成本怎么控？",
+          "body": "按分辨率与分钟数计费的产品居多；可用低分辨率试片通过后再升档渲染。"
+        }
+      ]
     },
     "en": {
       "suitableFor": "Short-form creative edits and generative video experiments.",
@@ -212,7 +365,16 @@
         "Watch likeness and disclosure rules",
         "Queue renders and version shots for bigger projects"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Is Runway good for short-form social?",
+          "body": "Many tools target vertical formats; confirm templates and codecs on the official site plus platform AI rules."
+        },
+        {
+          "heading": "Controlling generative video cost",
+          "body": "Start with low-res previews; upscale after creative approval when billing is per minute or pixel tier."
+        }
+      ]
     }
   },
   "figma": {
@@ -225,7 +387,16 @@
         "导出与代码连接（Design Tokens）对齐前端",
         "定期归档过期组件避免堆积"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Figma 能做品牌设计系统吗？",
+          "body": "视产品而定：有的强在画布与组件，有的在演示叙事。请以官网功能清单为准并与设计负责人评估。"
+        },
+        {
+          "heading": "设计协作常见坑？",
+          "body": "组件过期不删、命名混乱、与设计令牌脱节。建立 owner 与过期策略能减少返工。"
+        }
+      ]
     },
     "en": {
       "suitableFor": "Collaborative UI design, systems, and dev handoff at scale.",
@@ -236,7 +407,16 @@
         "Align tokens with frontend pipelines",
         "Prune deprecated components regularly"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Can Figma host a design system?",
+          "body": "Capabilities vary—some excel at components, others at storytelling decks. Read feature lists and test with designers."
+        },
+        {
+          "heading": "Design ops pitfalls",
+          "body": "Stale components and unclear naming slow teams; assign owners and sunset rules early."
+        }
+      ]
     }
   },
   "gamma": {
@@ -249,7 +429,16 @@
         "讲稿与幻灯片事实逐条核对",
         "导出格式需与会议设备预演"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Gamma 适合写什么类型内容？",
+          "body": "Gamma 面向写作与演示类场景，可用于文稿、摘要或 slide 叙事起草。具体模板、字数上限与价格以官网为准；重要稿件建议人工终校。"
+        },
+        {
+          "heading": "写作类 AI 工具怎么选？",
+          "body": "先区分营销短文、长报告与幻灯片三条需求，再看与现有办公套件、品牌模板是否兼容。本站同类工具内链便于横向比较，最终请在各官网核实条款。"
+        }
+      ]
     },
     "en": {
       "suitableFor": "Fast decks and narrative sites from rough outlines.",
@@ -260,7 +449,16 @@
         "Fact-check speaker notes",
         "Rehearse exports on room hardware"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "What is Gamma used for?",
+          "body": "Gamma targets writing and presentation workflows—drafts, summaries, or narrative slides. Limits, templates, and pricing are defined on the official site; keep humans in the loop for critical copy."
+        },
+        {
+          "heading": "How do I pick a writing AI?",
+          "body": "Separate marketing snippets, long reports, and slide storytelling. Check office-suite fit and brand templates. Use in-category links here, then confirm policies on each vendor site."
+        }
+      ]
     }
   },
   "suno": {
@@ -273,7 +471,16 @@
         "保留生成记录与版本",
         "发行级项目走专职音乐授权"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Suno 的语音可以用于商业项目吗？",
+          "body": "取决于套餐与声库协议；部分声音禁止二次分发或要求署名。以官网最新条款为准。"
+        },
+        {
+          "heading": "会议转写要注意隐私吗？",
+          "body": "涉及客户或员工对话时，先确认合规与留存政策，再做云上传或本地处理选择。"
+        }
+      ]
     },
     "en": {
       "suitableFor": "Sketch tracks, ad stingers, and fast creative exploration.",
@@ -284,7 +491,4972 @@
         "Archive generations for provenance",
         "Use traditional licensing for distribution-grade work"
       ],
-      "gscParagraphs": []
+      "gscParagraphs": [
+        {
+          "heading": "Can I use Suno audio commercially?",
+          "body": "Plans and voice packs set the rules—including attribution or redistribution bans. Verify on the official site."
+        },
+        {
+          "heading": "Privacy for meeting transcription",
+          "body": "Confirm HR/legal policies before uploading customer or employee audio; consider on-device options when required."
+        }
+      ]
+    }
+  },
+  "google-gemini": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；Google Gemini 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Google Gemini 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 Google Gemini 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—Google Gemini is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Google Gemini free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "microsoft-copilot": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；Microsoft Copilot 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Microsoft Copilot 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 Microsoft Copilot 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—Microsoft Copilot is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Microsoft Copilot free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "deepseek": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；DeepSeek 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "DeepSeek 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 DeepSeek 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—DeepSeek is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "DeepSeek free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "kimi": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；Kimi 智能助手 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Kimi 智能助手 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 Kimi 智能助手 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—Kimi 智能助手 is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Kimi 智能助手 free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "tongyi-qianwen": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；通义千问 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "通义千问 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 通义千问 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—通义千问 is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "通义千问 free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "ernie-bot": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；文心一言 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "文心一言 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 文心一言 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—文心一言 is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "文心一言 free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "doubao": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；豆包 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "豆包 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 豆包 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—豆包 is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "豆包 free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "yuanbao": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；腾讯元宝 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "腾讯元宝 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 腾讯元宝 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—腾讯元宝 is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "腾讯元宝 free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "poe": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；Poe 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Poe 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 Poe 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—Poe is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Poe free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "hugging-face": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；Hugging Face 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Hugging Face 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—Hugging Face is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host Hugging Face?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "dall-e": {
+    "zh-CN": {
+      "suitableFor": "概念图、营销物料主视觉草图、风格探索；DALL·E 可作为文生图管线的一环。",
+      "notIdealFor": "要求百分百可复现像素、或禁用外发素材的敏感行业（需自建或本地方案）。",
+      "compareHint": "对照参考图能力、角色一致性与 API 批量；商用必读许可与水印规则。",
+      "checklistItems": [
+        "保留提示词与种子（若产品支持）",
+        "商用前读清训练数据声明",
+        "品牌项目走法务抽检"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "DALL·E 生成的图可以商用吗？",
+          "body": "能否商用取决于 DALL·E 当前套餐与许可协议，可能因地区或账号类型不同。请务必在官网查阅最新条款，重要投放前让法务二次确认。"
+        },
+        {
+          "heading": "文生图工具怎么对比？",
+          "body": "从提示可控性、参考图/风格迁移、分辨率与 API 三方面试用。本页汇总同分类工具，便于打开多个详情页比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Concept art, campaign explorations, and style tests—DALL·E fits many text-to-image pipelines.",
+      "notIdealFor": "Pixels-perfect repeatability without process or industries that cannot upload prompts.",
+      "compareHint": "Benchmark reference control, consistency, API throughput, and license terms.",
+      "checklistItems": [
+        "Archive prompts/seeds when available",
+        "Read license deltas per tier",
+        "Legal review brand assets"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I use DALL·E images commercially?",
+          "body": "Commercial use depends on the vendor’s current license and plan—it varies by region. Always read the official terms before production launches."
+        },
+        {
+          "heading": "How do I compare image generators?",
+          "body": "Test prompt control, reference images, resolution, and batch/API paths. This category page links to peer tools for quick side-by-side browsing."
+        }
+      ]
+    }
+  },
+  "adobe-firefly": {
+    "zh-CN": {
+      "suitableFor": "概念图、营销物料主视觉草图、风格探索；Adobe Firefly 可作为文生图管线的一环。",
+      "notIdealFor": "要求百分百可复现像素、或禁用外发素材的敏感行业（需自建或本地方案）。",
+      "compareHint": "对照参考图能力、角色一致性与 API 批量；商用必读许可与水印规则。",
+      "checklistItems": [
+        "保留提示词与种子（若产品支持）",
+        "商用前读清训练数据声明",
+        "品牌项目走法务抽检"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Adobe Firefly 生成的图可以商用吗？",
+          "body": "能否商用取决于 Adobe Firefly 当前套餐与许可协议，可能因地区或账号类型不同。请务必在官网查阅最新条款，重要投放前让法务二次确认。"
+        },
+        {
+          "heading": "文生图工具怎么对比？",
+          "body": "从提示可控性、参考图/风格迁移、分辨率与 API 三方面试用。本页汇总同分类工具，便于打开多个详情页比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Concept art, campaign explorations, and style tests—Adobe Firefly fits many text-to-image pipelines.",
+      "notIdealFor": "Pixels-perfect repeatability without process or industries that cannot upload prompts.",
+      "compareHint": "Benchmark reference control, consistency, API throughput, and license terms.",
+      "checklistItems": [
+        "Archive prompts/seeds when available",
+        "Read license deltas per tier",
+        "Legal review brand assets"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I use Adobe Firefly images commercially?",
+          "body": "Commercial use depends on the vendor’s current license and plan—it varies by region. Always read the official terms before production launches."
+        },
+        {
+          "heading": "How do I compare image generators?",
+          "body": "Test prompt control, reference images, resolution, and batch/API paths. This category page links to peer tools for quick side-by-side browsing."
+        }
+      ]
+    }
+  },
+  "leonardo-ai": {
+    "zh-CN": {
+      "suitableFor": "概念图、营销物料主视觉草图、风格探索；Leonardo.Ai 可作为文生图管线的一环。",
+      "notIdealFor": "要求百分百可复现像素、或禁用外发素材的敏感行业（需自建或本地方案）。",
+      "compareHint": "对照参考图能力、角色一致性与 API 批量；商用必读许可与水印规则。",
+      "checklistItems": [
+        "保留提示词与种子（若产品支持）",
+        "商用前读清训练数据声明",
+        "品牌项目走法务抽检"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Leonardo.Ai 生成的图可以商用吗？",
+          "body": "能否商用取决于 Leonardo.Ai 当前套餐与许可协议，可能因地区或账号类型不同。请务必在官网查阅最新条款，重要投放前让法务二次确认。"
+        },
+        {
+          "heading": "文生图工具怎么对比？",
+          "body": "从提示可控性、参考图/风格迁移、分辨率与 API 三方面试用。本页汇总同分类工具，便于打开多个详情页比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Concept art, campaign explorations, and style tests—Leonardo.Ai fits many text-to-image pipelines.",
+      "notIdealFor": "Pixels-perfect repeatability without process or industries that cannot upload prompts.",
+      "compareHint": "Benchmark reference control, consistency, API throughput, and license terms.",
+      "checklistItems": [
+        "Archive prompts/seeds when available",
+        "Read license deltas per tier",
+        "Legal review brand assets"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I use Leonardo.Ai images commercially?",
+          "body": "Commercial use depends on the vendor’s current license and plan—it varies by region. Always read the official terms before production launches."
+        },
+        {
+          "heading": "How do I compare image generators?",
+          "body": "Test prompt control, reference images, resolution, and batch/API paths. This category page links to peer tools for quick side-by-side browsing."
+        }
+      ]
+    }
+  },
+  "ideogram": {
+    "zh-CN": {
+      "suitableFor": "概念图、营销物料主视觉草图、风格探索；Ideogram 可作为文生图管线的一环。",
+      "notIdealFor": "要求百分百可复现像素、或禁用外发素材的敏感行业（需自建或本地方案）。",
+      "compareHint": "对照参考图能力、角色一致性与 API 批量；商用必读许可与水印规则。",
+      "checklistItems": [
+        "保留提示词与种子（若产品支持）",
+        "商用前读清训练数据声明",
+        "品牌项目走法务抽检"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Ideogram 生成的图可以商用吗？",
+          "body": "能否商用取决于 Ideogram 当前套餐与许可协议，可能因地区或账号类型不同。请务必在官网查阅最新条款，重要投放前让法务二次确认。"
+        },
+        {
+          "heading": "文生图工具怎么对比？",
+          "body": "从提示可控性、参考图/风格迁移、分辨率与 API 三方面试用。本页汇总同分类工具，便于打开多个详情页比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Concept art, campaign explorations, and style tests—Ideogram fits many text-to-image pipelines.",
+      "notIdealFor": "Pixels-perfect repeatability without process or industries that cannot upload prompts.",
+      "compareHint": "Benchmark reference control, consistency, API throughput, and license terms.",
+      "checklistItems": [
+        "Archive prompts/seeds when available",
+        "Read license deltas per tier",
+        "Legal review brand assets"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I use Ideogram images commercially?",
+          "body": "Commercial use depends on the vendor’s current license and plan—it varies by region. Always read the official terms before production launches."
+        },
+        {
+          "heading": "How do I compare image generators?",
+          "body": "Test prompt control, reference images, resolution, and batch/API paths. This category page links to peer tools for quick side-by-side browsing."
+        }
+      ]
+    }
+  },
+  "remove-bg": {
+    "zh-CN": {
+      "suitableFor": "抠图、修复、放大、局部重绘等像素编辑；remove.bg 适合需要「在现有图上改动」的流程。",
+      "notIdealFor": "纯生成管线且不需要像素编辑时，可优先看图生图类产品。",
+      "compareHint": "注意批量、输出分辨率与是否破坏元数据；敏感图像谨慎上传。",
+      "checklistItems": [
+        "大批量任务先小样本试效果",
+        "检查导出是否满足印刷分辨率",
+        "涉密素材按内规处理"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "remove.bg 和图像生成工具有什么区别？",
+          "body": "编辑类强调在既有像素上修补或变换；生成类更侧重从文本出新图。remove.bg 的侧重请以官网功能列表为准。"
+        },
+        {
+          "heading": "抠图/修图类 API 值得上吗？",
+          "body": "若日处理量大或有自动化流水线，可对比官网 API 限额、单价与 SLA。开发与运营成本需一并估算。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Cutouts, cleanup, upscale, inpainting—remove.bg helps when you must change existing pixels.",
+      "notIdealFor": "Pure text-to-image workflows that never retouch assets.",
+      "compareHint": "Watch batch limits, DPI, metadata loss, and data residency.",
+      "checklistItems": [
+        "Pilot on a sample batch",
+        "Validate print DPI if needed",
+        "Follow infosec for sensitive shots"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Editing vs generation—where does remove.bg fit?",
+          "body": "Editors manipulate existing images; generators create new ones from prompts. Confirm feature focus on the vendor site."
+        },
+        {
+          "heading": "When is an editing API worth it?",
+          "body": "High-volume pipelines should compare rate limits, unit pricing, and uptime. Factor engineering time into TCO."
+        }
+      ]
+    }
+  },
+  "canva": {
+    "zh-CN": {
+      "suitableFor": "界面视觉、品牌模板与演示成稿；Canva（Magic Studio） 适合设计与演示交叉场景。",
+      "notIdealFor": "大型印刷拼版与长篇幅排版仍以专业排版软件为主。",
+      "compareHint": "对照设计系统同步、组件库与交付给开发的标注链路。",
+      "checklistItems": [
+        "统一设计令牌与命名",
+        "导出前检查字体授权",
+        "与前端对齐断点与状态"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Canva（Magic Studio） 能做品牌设计系统吗？",
+          "body": "视产品而定：有的强在画布与组件，有的在演示叙事。请以官网功能清单为准并与设计负责人评估。"
+        },
+        {
+          "heading": "设计协作常见坑？",
+          "body": "组件过期不删、命名混乱、与设计令牌脱节。建立 owner 与过期策略能减少返工。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Visual design plus polished decks—Canva（Magic Studio） spans design/presentation workflows.",
+      "notIdealFor": "Long-print composing—dedicated layout apps may still win.",
+      "compareHint": "Check design-token sync, libraries, and handoff clarity.",
+      "checklistItems": [
+        "Align tokens with engineering",
+        "Confirm font licensing",
+        "Define responsive states"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can Canva（Magic Studio） host a design system?",
+          "body": "Capabilities vary—some excel at components, others at storytelling decks. Read feature lists and test with designers."
+        },
+        {
+          "heading": "Design ops pitfalls",
+          "body": "Stale components and unclear naming slow teams; assign owners and sunset rules early."
+        }
+      ]
+    }
+  },
+  "pika": {
+    "zh-CN": {
+      "suitableFor": "短片、口播、模版化视频与动效试验；Pika 适合内容团队快速出片。",
+      "notIdealFor": "电影工业级调色/混音全流程、或零预算却要求离线渲染集群。",
+      "compareHint": "对照分辨率挡位、口型/角色一致性、音乐与肖像权条款。",
+      "checklistItems": [
+        "商用前核对音乐与素材授权",
+        "生成内容存档与版本命名",
+        "公开展示注意披露要求"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Pika 适合做抖音/短视频吗？",
+          "body": "多数产品面向社交短视频与广告小样，具体模板与导出比例见官网。注意平台对 AI 内容的披露规则。"
+        },
+        {
+          "heading": "视频类 AI 成本怎么控？",
+          "body": "按分辨率与分钟数计费的产品居多；可用低分辨率试片通过后再升档渲染。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Short clips, talking heads, motion tests—Pika accelerates social and ad creative.",
+      "notIdealFor": "Full theatrical finishing pipelines without specialist tooling.",
+      "compareHint": "Compare resolution tiers, lipsync, music licensing, and likeness rules.",
+      "checklistItems": [
+        "Clear music SFX rights",
+        "Version renders",
+        "Follow disclosure policies"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is Pika good for short-form social?",
+          "body": "Many tools target vertical formats; confirm templates and codecs on the official site plus platform AI rules."
+        },
+        {
+          "heading": "Controlling generative video cost",
+          "body": "Start with low-res previews; upscale after creative approval when billing is per minute or pixel tier."
+        }
+      ]
+    }
+  },
+  "kling-ai": {
+    "zh-CN": {
+      "suitableFor": "短片、口播、模版化视频与动效试验；可灵 Kling 适合内容团队快速出片。",
+      "notIdealFor": "电影工业级调色/混音全流程、或零预算却要求离线渲染集群。",
+      "compareHint": "对照分辨率挡位、口型/角色一致性、音乐与肖像权条款。",
+      "checklistItems": [
+        "商用前核对音乐与素材授权",
+        "生成内容存档与版本命名",
+        "公开展示注意披露要求"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "可灵 Kling 适合做抖音/短视频吗？",
+          "body": "多数产品面向社交短视频与广告小样，具体模板与导出比例见官网。注意平台对 AI 内容的披露规则。"
+        },
+        {
+          "heading": "视频类 AI 成本怎么控？",
+          "body": "按分辨率与分钟数计费的产品居多；可用低分辨率试片通过后再升档渲染。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Short clips, talking heads, motion tests—可灵 Kling accelerates social and ad creative.",
+      "notIdealFor": "Full theatrical finishing pipelines without specialist tooling.",
+      "compareHint": "Compare resolution tiers, lipsync, music licensing, and likeness rules.",
+      "checklistItems": [
+        "Clear music SFX rights",
+        "Version renders",
+        "Follow disclosure policies"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is 可灵 Kling good for short-form social?",
+          "body": "Many tools target vertical formats; confirm templates and codecs on the official site plus platform AI rules."
+        },
+        {
+          "heading": "Controlling generative video cost",
+          "body": "Start with low-res previews; upscale after creative approval when billing is per minute or pixel tier."
+        }
+      ]
+    }
+  },
+  "capcut": {
+    "zh-CN": {
+      "suitableFor": "短片、口播、模版化视频与动效试验；剪映 CapCut 适合内容团队快速出片。",
+      "notIdealFor": "电影工业级调色/混音全流程、或零预算却要求离线渲染集群。",
+      "compareHint": "对照分辨率挡位、口型/角色一致性、音乐与肖像权条款。",
+      "checklistItems": [
+        "商用前核对音乐与素材授权",
+        "生成内容存档与版本命名",
+        "公开展示注意披露要求"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "剪映 CapCut 适合做抖音/短视频吗？",
+          "body": "多数产品面向社交短视频与广告小样，具体模板与导出比例见官网。注意平台对 AI 内容的披露规则。"
+        },
+        {
+          "heading": "视频类 AI 成本怎么控？",
+          "body": "按分辨率与分钟数计费的产品居多；可用低分辨率试片通过后再升档渲染。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Short clips, talking heads, motion tests—剪映 CapCut accelerates social and ad creative.",
+      "notIdealFor": "Full theatrical finishing pipelines without specialist tooling.",
+      "compareHint": "Compare resolution tiers, lipsync, music licensing, and likeness rules.",
+      "checklistItems": [
+        "Clear music SFX rights",
+        "Version renders",
+        "Follow disclosure policies"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is 剪映 CapCut good for short-form social?",
+          "body": "Many tools target vertical formats; confirm templates and codecs on the official site plus platform AI rules."
+        },
+        {
+          "heading": "Controlling generative video cost",
+          "body": "Start with low-res previews; upscale after creative approval when billing is per minute or pixel tier."
+        }
+      ]
+    }
+  },
+  "udio": {
+    "zh-CN": {
+      "suitableFor": "配音、播客粗剪、会议转写与生成式配乐试验；Udio 面向音频内容生产。",
+      "notIdealFor": "广播级母带或复杂杜比全景声混音仍以专业 DAW 流程为准。",
+      "compareHint": "对照语种、延迟、音色库克隆政策与商用授权。",
+      "checklistItems": [
+        "对外发布读授权与水印要求",
+        "存证生成批次与参数",
+        "高价值内容走法务审听"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Udio 的语音可以用于商业项目吗？",
+          "body": "取决于套餐与声库协议；部分声音禁止二次分发或要求署名。以官网最新条款为准。"
+        },
+        {
+          "heading": "会议转写要注意隐私吗？",
+          "body": "涉及客户或员工对话时，先确认合规与留存政策，再做云上传或本地处理选择。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Voiceovers, transcripts, generative music sketches—Udio helps audio creatives move faster.",
+      "notIdealFor": "Broadcast mastering without a traditional DAW pipeline.",
+      "compareHint": "Check languages, latency, voice-clone rules, and commercial licenses.",
+      "checklistItems": [
+        "Read redistribution rules",
+        "Log generations",
+        "Legal listen for premium releases"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I use Udio audio commercially?",
+          "body": "Plans and voice packs set the rules—including attribution or redistribution bans. Verify on the official site."
+        },
+        {
+          "heading": "Privacy for meeting transcription",
+          "body": "Confirm HR/legal policies before uploading customer or employee audio; consider on-device options when required."
+        }
+      ]
+    }
+  },
+  "elevenlabs": {
+    "zh-CN": {
+      "suitableFor": "配音、播客粗剪、会议转写与生成式配乐试验；ElevenLabs 面向音频内容生产。",
+      "notIdealFor": "广播级母带或复杂杜比全景声混音仍以专业 DAW 流程为准。",
+      "compareHint": "对照语种、延迟、音色库克隆政策与商用授权。",
+      "checklistItems": [
+        "对外发布读授权与水印要求",
+        "存证生成批次与参数",
+        "高价值内容走法务审听"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "ElevenLabs 的语音可以用于商业项目吗？",
+          "body": "取决于套餐与声库协议；部分声音禁止二次分发或要求署名。以官网最新条款为准。"
+        },
+        {
+          "heading": "会议转写要注意隐私吗？",
+          "body": "涉及客户或员工对话时，先确认合规与留存政策，再做云上传或本地处理选择。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Voiceovers, transcripts, generative music sketches—ElevenLabs helps audio creatives move faster.",
+      "notIdealFor": "Broadcast mastering without a traditional DAW pipeline.",
+      "compareHint": "Check languages, latency, voice-clone rules, and commercial licenses.",
+      "checklistItems": [
+        "Read redistribution rules",
+        "Log generations",
+        "Legal listen for premium releases"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I use ElevenLabs audio commercially?",
+          "body": "Plans and voice packs set the rules—including attribution or redistribution bans. Verify on the official site."
+        },
+        {
+          "heading": "Privacy for meeting transcription",
+          "body": "Confirm HR/legal policies before uploading customer or employee audio; consider on-device options when required."
+        }
+      ]
+    }
+  },
+  "otter": {
+    "zh-CN": {
+      "suitableFor": "配音、播客粗剪、会议转写与生成式配乐试验；Otter.ai 面向音频内容生产。",
+      "notIdealFor": "广播级母带或复杂杜比全景声混音仍以专业 DAW 流程为准。",
+      "compareHint": "对照语种、延迟、音色库克隆政策与商用授权。",
+      "checklistItems": [
+        "对外发布读授权与水印要求",
+        "存证生成批次与参数",
+        "高价值内容走法务审听"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Otter.ai 的语音可以用于商业项目吗？",
+          "body": "取决于套餐与声库协议；部分声音禁止二次分发或要求署名。以官网最新条款为准。"
+        },
+        {
+          "heading": "会议转写要注意隐私吗？",
+          "body": "涉及客户或员工对话时，先确认合规与留存政策，再做云上传或本地处理选择。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Voiceovers, transcripts, generative music sketches—Otter.ai helps audio creatives move faster.",
+      "notIdealFor": "Broadcast mastering without a traditional DAW pipeline.",
+      "compareHint": "Check languages, latency, voice-clone rules, and commercial licenses.",
+      "checklistItems": [
+        "Read redistribution rules",
+        "Log generations",
+        "Legal listen for premium releases"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I use Otter.ai audio commercially?",
+          "body": "Plans and voice packs set the rules—including attribution or redistribution bans. Verify on the official site."
+        },
+        {
+          "heading": "Privacy for meeting transcription",
+          "body": "Confirm HR/legal policies before uploading customer or employee audio; consider on-device options when required."
+        }
+      ]
+    }
+  },
+  "github-copilot": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；GitHub Copilot 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "GitHub Copilot 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 GitHub Copilot 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—GitHub Copilot targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does GitHub Copilot train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "windsurf": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Windsurf 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Windsurf 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Windsurf 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Windsurf targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Windsurf train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "v0": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；v0 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "v0 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 v0 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—v0 targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does v0 train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "replit": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Replit 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Replit 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Replit 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Replit targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Replit train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "vercel": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Vercel 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Vercel 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Vercel 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Vercel targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Vercel train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "obsidian": {
+    "zh-CN": {
+      "suitableFor": "团队 wiki、个人知识库、项目沉淀；Obsidian 适合需要可搜索「组织记忆」的场景。",
+      "notIdealFor": "强离线优先且不接受任何云同步的极致个人笔记流派。",
+      "compareHint": "试全文/向量混合搜索、权限模型与导出；评估留存与审计要求。",
+      "checklistItems": [
+        "划分工作区与对外空间",
+        "关键页面设定审核流程",
+        "定期导出备份"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Obsidian 和本地笔记（如 Obsidian）怎么选？",
+          "body": "云协作/wiki 赢在权限与共享；本地优先赢在文件可控。可按团队规模与合规二选一或混用。"
+        },
+        {
+          "heading": "企业知识库失败常见原因？",
+          "body": "权限混乱、命名不统一、没有过期策略。上线前约定模板与 owner，比盲目堆功能更重要。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Team wikis and searchable knowledge—Obsidian helps retain organizational memory.",
+      "notIdealFor": "Strict local-first workflows that reject cloud sync entirely.",
+      "compareHint": "Test search quality, permissions, exports, retention, and audit trails.",
+      "checklistItems": [
+        "Separate internal vs external spaces",
+        "Add review on critical pages",
+        "Back up exports"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Obsidian vs local-first notes",
+          "body": "Hosted wikis excel at permissions; local editors excel at file control. Mixing both is common."
+        },
+        {
+          "heading": "Why knowledge bases stall",
+          "body": "Unclear ownership and naming hurt more than missing features—establish templates before scaling."
+        }
+      ]
+    }
+  },
+  "make": {
+    "zh-CN": {
+      "suitableFor": "跨 SaaS 连接、定时任务、Webhook 编排；Make 适合 glue 工作流。",
+      "notIdealFor": "完全零运维且流程极度复杂的关键账务链路（需专门工程化）。",
+      "compareHint": "评估自托管 vs 云、错误重试、速率限制与供应商锁定。",
+      "checklistItems": [
+        "分环境管理密钥",
+        "为关键流加重试与告警",
+        "记录变更便于审计"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Make 和 Zapier 有什么区别？",
+          "body": "差异通常在连接器数量、自托管能力、定价模型与开发者体验。请对照官网连接器目录与计价说明。"
+        },
+        {
+          "heading": "自动化上线前必做什么？",
+          "body": "沙箱演练失败路径，确认幂等与补偿策略；生产再逐步放大流量。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "SaaS glue, schedules, webhooks—Make helps orchestrate integrations.",
+      "notIdealFor": "Mission-critical finance flows without engineering rigor.",
+      "compareHint": "Compare hosted vs self-managed, retries, rate limits, and lock-in.",
+      "checklistItems": [
+        "Isolate secrets per env",
+        "Add alerts for failures",
+        "Document changes"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Make vs other automation tools",
+          "body": "Differentiators include connector breadth, self-hosting, pricing, and developer UX—verify on official pages."
+        },
+        {
+          "heading": "Before shipping automations",
+          "body": "Rehearse failure modes, idempotency, and compensating transactions before scaling load."
+        }
+      ]
+    }
+  },
+  "zapier": {
+    "zh-CN": {
+      "suitableFor": "跨 SaaS 连接、定时任务、Webhook 编排；Zapier 适合 glue 工作流。",
+      "notIdealFor": "完全零运维且流程极度复杂的关键账务链路（需专门工程化）。",
+      "compareHint": "评估自托管 vs 云、错误重试、速率限制与供应商锁定。",
+      "checklistItems": [
+        "分环境管理密钥",
+        "为关键流加重试与告警",
+        "记录变更便于审计"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Zapier 和 Zapier 有什么区别？",
+          "body": "差异通常在连接器数量、自托管能力、定价模型与开发者体验。请对照官网连接器目录与计价说明。"
+        },
+        {
+          "heading": "自动化上线前必做什么？",
+          "body": "沙箱演练失败路径，确认幂等与补偿策略；生产再逐步放大流量。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "SaaS glue, schedules, webhooks—Zapier helps orchestrate integrations.",
+      "notIdealFor": "Mission-critical finance flows without engineering rigor.",
+      "compareHint": "Compare hosted vs self-managed, retries, rate limits, and lock-in.",
+      "checklistItems": [
+        "Isolate secrets per env",
+        "Add alerts for failures",
+        "Document changes"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Zapier vs other automation tools",
+          "body": "Differentiators include connector breadth, self-hosting, pricing, and developer UX—verify on official pages."
+        },
+        {
+          "heading": "Before shipping automations",
+          "body": "Rehearse failure modes, idempotency, and compensating transactions before scaling load."
+        }
+      ]
+    }
+  },
+  "immersive-translate": {
+    "zh-CN": {
+      "suitableFor": "邮件、文档、网页双语浏览；沉浸式翻译 可打底稿再由人工润色。",
+      "notIdealFor": "涉密文本禁止外发翻译、或要求术语锁死却无企业术语库的流程。",
+      "compareHint": "与浏览器翻译、CAT 工具链搭配；对外发布前安排母语审校。",
+      "checklistItems": [
+        "核对文件大小与格式支持",
+        "维护术语表版本",
+        "法律医学领域加专业审校"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "沉浸式翻译 翻译准确吗？",
+          "body": "机翻适合快速理解与时效稿件，正式对外发布仍建议人工校对，尤其是品牌名与法律条款。"
+        },
+        {
+          "heading": "沉浸式翻译和文档翻译怎么配合？",
+          "body": "浏览场景用浏览器扩展效率高；长文档用专注翻译服务更稳。可按场景组合多种工具。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Docs, email, bilingual browsing—沉浸式翻译 drafts quickly before human polish.",
+      "notIdealFor": "Strict no-upload policies without enterprise contracts.",
+      "compareHint": "Pair browser tools with CAT workflows; human-review customer-facing strings.",
+      "checklistItems": [
+        "Check format/size limits",
+        "Version glossaries",
+        "Add domain experts for legal/medical"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is 沉浸式翻译 accurate enough?",
+          "body": "Great for speed; still human-review customer, legal, or medical copy before release."
+        },
+        {
+          "heading": "Mixing browser and document translators",
+          "body": "Use extensions for skimming and dedicated tools for long exports—combine by workflow."
+        }
+      ]
+    }
+  },
+  "elicit": {
+    "zh-CN": {
+      "suitableFor": "需要引用或片段溯源的研究型问答；Elicit 适合「先摘要再跳原文」。",
+      "notIdealFor": "离线内网、或对网页抓取有严格合规限制的环境。",
+      "compareHint": "点进每一条引用核对上下文；财经医药等场景务必二次验证。",
+      "checklistItems": [
+        "警惕付费墙摘要误差",
+        "记录检索时间与来源URL",
+        "团队共享注意版权"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Elicit 的答案可靠吗？",
+          "body": "检索增强类答案应视为起点而非终稿；请阅读原文并交叉比对权威来源。Elicit 的抓取范围以官方说明为准。"
+        },
+        {
+          "heading": "研究型 AI 与传统搜索如何配合？",
+          "body": "可用 AI 做速览与关键词扩展，用传统搜索做精确站点与文件类型检索，两者互补。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Citation-oriented answers—Elicit helps skim sources before you open originals.",
+      "notIdealFor": "Air-gapped research without approved retrieval channels.",
+      "compareHint": "Open citations; watch paywall misreads; verify market/legal/medical facts.",
+      "checklistItems": [
+        "Archive URLs and timestamps",
+        "Blend with classic search operators",
+        "Respect copyright"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "How trustworthy is Elicit?",
+          "body": "Treat AI answers as starting points; verify with primary documents. Crawl coverage is defined by the vendor."
+        },
+        {
+          "heading": "Pairing research AI with classic search",
+          "body": "Use assistants for summaries and query expansion, then use search for precise site: filters and file types."
+        }
+      ]
+    }
+  },
+  "consensus": {
+    "zh-CN": {
+      "suitableFor": "需要引用或片段溯源的研究型问答；Consensus 适合「先摘要再跳原文」。",
+      "notIdealFor": "离线内网、或对网页抓取有严格合规限制的环境。",
+      "compareHint": "点进每一条引用核对上下文；财经医药等场景务必二次验证。",
+      "checklistItems": [
+        "警惕付费墙摘要误差",
+        "记录检索时间与来源URL",
+        "团队共享注意版权"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Consensus 的答案可靠吗？",
+          "body": "检索增强类答案应视为起点而非终稿；请阅读原文并交叉比对权威来源。Consensus 的抓取范围以官方说明为准。"
+        },
+        {
+          "heading": "研究型 AI 与传统搜索如何配合？",
+          "body": "可用 AI 做速览与关键词扩展，用传统搜索做精确站点与文件类型检索，两者互补。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Citation-oriented answers—Consensus helps skim sources before you open originals.",
+      "notIdealFor": "Air-gapped research without approved retrieval channels.",
+      "compareHint": "Open citations; watch paywall misreads; verify market/legal/medical facts.",
+      "checklistItems": [
+        "Archive URLs and timestamps",
+        "Blend with classic search operators",
+        "Respect copyright"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "How trustworthy is Consensus?",
+          "body": "Treat AI answers as starting points; verify with primary documents. Crawl coverage is defined by the vendor."
+        },
+        {
+          "heading": "Pairing research AI with classic search",
+          "body": "Use assistants for summaries and query expansion, then use search for precise site: filters and file types."
+        }
+      ]
+    }
+  },
+  "character-ai": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；Character.AI 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Character.AI 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 Character.AI 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—Character.AI is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Character.AI free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "anthropic": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；Anthropic 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Anthropic 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—Anthropic is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host Anthropic?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "openai-platform": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；OpenAI Platform 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "OpenAI Platform 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—OpenAI Platform is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host OpenAI Platform?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "langchain": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；LangChain 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "LangChain 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—LangChain is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host LangChain?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "ollama": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；Ollama 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Ollama 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—Ollama is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host Ollama?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "miro": {
+    "zh-CN": {
+      "suitableFor": "远程工作坊、评审墙、路线草图与共创画布；Miro 适合需要「一起看见」的讨论。",
+      "notIdealFor": "纯离线协作、或组织禁止使用境外白板服务的场景。",
+      "compareHint": "关注并发编辑、访客权限、导出与 SSO；可与项目管理工具链组合使用。",
+      "checklistItems": [
+        "梳理内外部协作边界",
+        "敏感内容打码后再上板",
+        "定期导出归档防丢数据"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Miro 能替代线下白板吗？",
+          "body": "多数在线白板可支撑分布式头脑风暴与评审，但实时性与网络质量有关。Miro 的具体协作人数与功能以官网说明为准。"
+        },
+        {
+          "heading": "团队白板选型要看什么？",
+          "body": "权限粒度、访客策略、导出格式、与企业身份目录集成是关键。可先在本分类页浏览多款产品，再按合规要求缩小范围。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Remote workshops, review walls, roadmaps—Miro fits whenever the team needs a shared visual surface.",
+      "notIdealFor": "Offline-only collaboration or orgs that block hosted whiteboards.",
+      "compareHint": "Compare guest access, exports, SSO, and concurrent editor limits.",
+      "checklistItems": [
+        "Classify internal vs external sharing",
+        "Redact sensitive assets",
+        "Export backups regularly"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can Miro replace a physical whiteboard?",
+          "body": "Hosted boards work for distributed sessions; quality depends on latency and features. Check official docs for limits on guests or objects."
+        },
+        {
+          "heading": "How should teams evaluate whiteboard tools?",
+          "body": "Start with permissions, exports, and directory integrations. Browse this category for alternates, then validate compliance with IT."
+        }
+      ]
+    }
+  },
+  "linear": {
+    "zh-CN": {
+      "suitableFor": "远程工作坊、评审墙、路线草图与共创画布；Linear 适合需要「一起看见」的讨论。",
+      "notIdealFor": "纯离线协作、或组织禁止使用境外白板服务的场景。",
+      "compareHint": "关注并发编辑、访客权限、导出与 SSO；可与项目管理工具链组合使用。",
+      "checklistItems": [
+        "梳理内外部协作边界",
+        "敏感内容打码后再上板",
+        "定期导出归档防丢数据"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Linear 能替代线下白板吗？",
+          "body": "多数在线白板可支撑分布式头脑风暴与评审，但实时性与网络质量有关。Linear 的具体协作人数与功能以官网说明为准。"
+        },
+        {
+          "heading": "团队白板选型要看什么？",
+          "body": "权限粒度、访客策略、导出格式、与企业身份目录集成是关键。可先在本分类页浏览多款产品，再按合规要求缩小范围。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Remote workshops, review walls, roadmaps—Linear fits whenever the team needs a shared visual surface.",
+      "notIdealFor": "Offline-only collaboration or orgs that block hosted whiteboards.",
+      "compareHint": "Compare guest access, exports, SSO, and concurrent editor limits.",
+      "checklistItems": [
+        "Classify internal vs external sharing",
+        "Redact sensitive assets",
+        "Export backups regularly"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can Linear replace a physical whiteboard?",
+          "body": "Hosted boards work for distributed sessions; quality depends on latency and features. Check official docs for limits on guests or objects."
+        },
+        {
+          "heading": "How should teams evaluate whiteboard tools?",
+          "body": "Start with permissions, exports, and directory integrations. Browse this category for alternates, then validate compliance with IT."
+        }
+      ]
+    }
+  },
+  "notebooklm": {
+    "zh-CN": {
+      "suitableFor": "团队 wiki、个人知识库、项目沉淀；NotebookLM 适合需要可搜索「组织记忆」的场景。",
+      "notIdealFor": "强离线优先且不接受任何云同步的极致个人笔记流派。",
+      "compareHint": "试全文/向量混合搜索、权限模型与导出；评估留存与审计要求。",
+      "checklistItems": [
+        "划分工作区与对外空间",
+        "关键页面设定审核流程",
+        "定期导出备份"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "NotebookLM 和本地笔记（如 Obsidian）怎么选？",
+          "body": "云协作/wiki 赢在权限与共享；本地优先赢在文件可控。可按团队规模与合规二选一或混用。"
+        },
+        {
+          "heading": "企业知识库失败常见原因？",
+          "body": "权限混乱、命名不统一、没有过期策略。上线前约定模板与 owner，比盲目堆功能更重要。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Team wikis and searchable knowledge—NotebookLM helps retain organizational memory.",
+      "notIdealFor": "Strict local-first workflows that reject cloud sync entirely.",
+      "compareHint": "Test search quality, permissions, exports, retention, and audit trails.",
+      "checklistItems": [
+        "Separate internal vs external spaces",
+        "Add review on critical pages",
+        "Back up exports"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "NotebookLM vs local-first notes",
+          "body": "Hosted wikis excel at permissions; local editors excel at file control. Mixing both is common."
+        },
+        {
+          "heading": "Why knowledge bases stall",
+          "body": "Unclear ownership and naming hurt more than missing features—establish templates before scaling."
+        }
+      ]
+    }
+  },
+  "grammarly": {
+    "zh-CN": {
+      "suitableFor": "长篇小说草稿、营销文案、演讲逐字稿与幻灯片大纲；可将 Grammarly 与同类写作/演示工具对照。",
+      "notIdealFor": "强合规禁外发环境、必须离线锁死的合同审阅，或完全不想依赖云端的场景。",
+      "compareHint": "同页分类下可打开其它写作/演示产品比对导出格式、模板库与团队权限。",
+      "checklistItems": [
+        "对外发布前核对事实与品牌用词",
+        "确认商用/团队版的数据留存策略",
+        "长文档建议分段保存与版本管理"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Grammarly 适合写什么类型内容？",
+          "body": "Grammarly 面向写作与演示类场景，可用于文稿、摘要或 slide 叙事起草。具体模板、字数上限与价格以官网为准；重要稿件建议人工终校。"
+        },
+        {
+          "heading": "写作类 AI 工具怎么选？",
+          "body": "先区分营销短文、长报告与幻灯片三条需求，再看与现有办公套件、品牌模板是否兼容。本站同类工具内链便于横向比较，最终请在各官网核实条款。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Drafting long copy, marketing lines, speaker notes, and deck outlines—compare Grammarly with other writing/deck tools on this site.",
+      "notIdealFor": "Strict no-cloud policies, offline-only legal review, or workflows that cannot use hosted assistants.",
+      "compareHint": "Open sibling tools in this category to compare export formats, templates, and team permissions.",
+      "checklistItems": [
+        "Fact-check and enforce brand voice before shipping",
+        "Read retention policies for business tiers",
+        "Version long documents in manageable chunks"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "What is Grammarly used for?",
+          "body": "Grammarly targets writing and presentation workflows—drafts, summaries, or narrative slides. Limits, templates, and pricing are defined on the official site; keep humans in the loop for critical copy."
+        },
+        {
+          "heading": "How do I pick a writing AI?",
+          "body": "Separate marketing snippets, long reports, and slide storytelling. Check office-suite fit and brand templates. Use in-category links here, then confirm policies on each vendor site."
+        }
+      ]
+    }
+  },
+  "jasper": {
+    "zh-CN": {
+      "suitableFor": "长篇小说草稿、营销文案、演讲逐字稿与幻灯片大纲；可将 Jasper 与同类写作/演示工具对照。",
+      "notIdealFor": "强合规禁外发环境、必须离线锁死的合同审阅，或完全不想依赖云端的场景。",
+      "compareHint": "同页分类下可打开其它写作/演示产品比对导出格式、模板库与团队权限。",
+      "checklistItems": [
+        "对外发布前核对事实与品牌用词",
+        "确认商用/团队版的数据留存策略",
+        "长文档建议分段保存与版本管理"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Jasper 适合写什么类型内容？",
+          "body": "Jasper 面向写作与演示类场景，可用于文稿、摘要或 slide 叙事起草。具体模板、字数上限与价格以官网为准；重要稿件建议人工终校。"
+        },
+        {
+          "heading": "写作类 AI 工具怎么选？",
+          "body": "先区分营销短文、长报告与幻灯片三条需求，再看与现有办公套件、品牌模板是否兼容。本站同类工具内链便于横向比较，最终请在各官网核实条款。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Drafting long copy, marketing lines, speaker notes, and deck outlines—compare Jasper with other writing/deck tools on this site.",
+      "notIdealFor": "Strict no-cloud policies, offline-only legal review, or workflows that cannot use hosted assistants.",
+      "compareHint": "Open sibling tools in this category to compare export formats, templates, and team permissions.",
+      "checklistItems": [
+        "Fact-check and enforce brand voice before shipping",
+        "Read retention policies for business tiers",
+        "Version long documents in manageable chunks"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "What is Jasper used for?",
+          "body": "Jasper targets writing and presentation workflows—drafts, summaries, or narrative slides. Limits, templates, and pricing are defined on the official site; keep humans in the loop for critical copy."
+        },
+        {
+          "heading": "How do I pick a writing AI?",
+          "body": "Separate marketing snippets, long reports, and slide storytelling. Check office-suite fit and brand templates. Use in-category links here, then confirm policies on each vendor site."
+        }
+      ]
+    }
+  },
+  "heygen": {
+    "zh-CN": {
+      "suitableFor": "短片、口播、模版化视频与动效试验；HeyGen 适合内容团队快速出片。",
+      "notIdealFor": "电影工业级调色/混音全流程、或零预算却要求离线渲染集群。",
+      "compareHint": "对照分辨率挡位、口型/角色一致性、音乐与肖像权条款。",
+      "checklistItems": [
+        "商用前核对音乐与素材授权",
+        "生成内容存档与版本命名",
+        "公开展示注意披露要求"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "HeyGen 适合做抖音/短视频吗？",
+          "body": "多数产品面向社交短视频与广告小样，具体模板与导出比例见官网。注意平台对 AI 内容的披露规则。"
+        },
+        {
+          "heading": "视频类 AI 成本怎么控？",
+          "body": "按分辨率与分钟数计费的产品居多；可用低分辨率试片通过后再升档渲染。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Short clips, talking heads, motion tests—HeyGen accelerates social and ad creative.",
+      "notIdealFor": "Full theatrical finishing pipelines without specialist tooling.",
+      "compareHint": "Compare resolution tiers, lipsync, music licensing, and likeness rules.",
+      "checklistItems": [
+        "Clear music SFX rights",
+        "Version renders",
+        "Follow disclosure policies"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is HeyGen good for short-form social?",
+          "body": "Many tools target vertical formats; confirm templates and codecs on the official site plus platform AI rules."
+        },
+        {
+          "heading": "Controlling generative video cost",
+          "body": "Start with low-res previews; upscale after creative approval when billing is per minute or pixel tier."
+        }
+      ]
+    }
+  },
+  "synthesia": {
+    "zh-CN": {
+      "suitableFor": "短片、口播、模版化视频与动效试验；Synthesia 适合内容团队快速出片。",
+      "notIdealFor": "电影工业级调色/混音全流程、或零预算却要求离线渲染集群。",
+      "compareHint": "对照分辨率挡位、口型/角色一致性、音乐与肖像权条款。",
+      "checklistItems": [
+        "商用前核对音乐与素材授权",
+        "生成内容存档与版本命名",
+        "公开展示注意披露要求"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Synthesia 适合做抖音/短视频吗？",
+          "body": "多数产品面向社交短视频与广告小样，具体模板与导出比例见官网。注意平台对 AI 内容的披露规则。"
+        },
+        {
+          "heading": "视频类 AI 成本怎么控？",
+          "body": "按分辨率与分钟数计费的产品居多；可用低分辨率试片通过后再升档渲染。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Short clips, talking heads, motion tests—Synthesia accelerates social and ad creative.",
+      "notIdealFor": "Full theatrical finishing pipelines without specialist tooling.",
+      "compareHint": "Compare resolution tiers, lipsync, music licensing, and likeness rules.",
+      "checklistItems": [
+        "Clear music SFX rights",
+        "Version renders",
+        "Follow disclosure policies"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is Synthesia good for short-form social?",
+          "body": "Many tools target vertical formats; confirm templates and codecs on the official site plus platform AI rules."
+        },
+        {
+          "heading": "Controlling generative video cost",
+          "body": "Start with low-res previews; upscale after creative approval when billing is per minute or pixel tier."
+        }
+      ]
+    }
+  },
+  "luma-dream-machine": {
+    "zh-CN": {
+      "suitableFor": "短片、口播、模版化视频与动效试验；Luma Dream Machine 适合内容团队快速出片。",
+      "notIdealFor": "电影工业级调色/混音全流程、或零预算却要求离线渲染集群。",
+      "compareHint": "对照分辨率挡位、口型/角色一致性、音乐与肖像权条款。",
+      "checklistItems": [
+        "商用前核对音乐与素材授权",
+        "生成内容存档与版本命名",
+        "公开展示注意披露要求"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Luma Dream Machine 适合做抖音/短视频吗？",
+          "body": "多数产品面向社交短视频与广告小样，具体模板与导出比例见官网。注意平台对 AI 内容的披露规则。"
+        },
+        {
+          "heading": "视频类 AI 成本怎么控？",
+          "body": "按分辨率与分钟数计费的产品居多；可用低分辨率试片通过后再升档渲染。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Short clips, talking heads, motion tests—Luma Dream Machine accelerates social and ad creative.",
+      "notIdealFor": "Full theatrical finishing pipelines without specialist tooling.",
+      "compareHint": "Compare resolution tiers, lipsync, music licensing, and likeness rules.",
+      "checklistItems": [
+        "Clear music SFX rights",
+        "Version renders",
+        "Follow disclosure policies"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is Luma Dream Machine good for short-form social?",
+          "body": "Many tools target vertical formats; confirm templates and codecs on the official site plus platform AI rules."
+        },
+        {
+          "heading": "Controlling generative video cost",
+          "body": "Start with low-res previews; upscale after creative approval when billing is per minute or pixel tier."
+        }
+      ]
+    }
+  },
+  "pixverse": {
+    "zh-CN": {
+      "suitableFor": "短片、口播、模版化视频与动效试验；PixVerse 适合内容团队快速出片。",
+      "notIdealFor": "电影工业级调色/混音全流程、或零预算却要求离线渲染集群。",
+      "compareHint": "对照分辨率挡位、口型/角色一致性、音乐与肖像权条款。",
+      "checklistItems": [
+        "商用前核对音乐与素材授权",
+        "生成内容存档与版本命名",
+        "公开展示注意披露要求"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "PixVerse 适合做抖音/短视频吗？",
+          "body": "多数产品面向社交短视频与广告小样，具体模板与导出比例见官网。注意平台对 AI 内容的披露规则。"
+        },
+        {
+          "heading": "视频类 AI 成本怎么控？",
+          "body": "按分辨率与分钟数计费的产品居多；可用低分辨率试片通过后再升档渲染。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Short clips, talking heads, motion tests—PixVerse accelerates social and ad creative.",
+      "notIdealFor": "Full theatrical finishing pipelines without specialist tooling.",
+      "compareHint": "Compare resolution tiers, lipsync, music licensing, and likeness rules.",
+      "checklistItems": [
+        "Clear music SFX rights",
+        "Version renders",
+        "Follow disclosure policies"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is PixVerse good for short-form social?",
+          "body": "Many tools target vertical formats; confirm templates and codecs on the official site plus platform AI rules."
+        },
+        {
+          "heading": "Controlling generative video cost",
+          "body": "Start with low-res previews; upscale after creative approval when billing is per minute or pixel tier."
+        }
+      ]
+    }
+  },
+  "stability-ai": {
+    "zh-CN": {
+      "suitableFor": "概念图、营销物料主视觉草图、风格探索；Stability AI 可作为文生图管线的一环。",
+      "notIdealFor": "要求百分百可复现像素、或禁用外发素材的敏感行业（需自建或本地方案）。",
+      "compareHint": "对照参考图能力、角色一致性与 API 批量；商用必读许可与水印规则。",
+      "checklistItems": [
+        "保留提示词与种子（若产品支持）",
+        "商用前读清训练数据声明",
+        "品牌项目走法务抽检"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Stability AI 生成的图可以商用吗？",
+          "body": "能否商用取决于 Stability AI 当前套餐与许可协议，可能因地区或账号类型不同。请务必在官网查阅最新条款，重要投放前让法务二次确认。"
+        },
+        {
+          "heading": "文生图工具怎么对比？",
+          "body": "从提示可控性、参考图/风格迁移、分辨率与 API 三方面试用。本页汇总同分类工具，便于打开多个详情页比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Concept art, campaign explorations, and style tests—Stability AI fits many text-to-image pipelines.",
+      "notIdealFor": "Pixels-perfect repeatability without process or industries that cannot upload prompts.",
+      "compareHint": "Benchmark reference control, consistency, API throughput, and license terms.",
+      "checklistItems": [
+        "Archive prompts/seeds when available",
+        "Read license deltas per tier",
+        "Legal review brand assets"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I use Stability AI images commercially?",
+          "body": "Commercial use depends on the vendor’s current license and plan—it varies by region. Always read the official terms before production launches."
+        },
+        {
+          "heading": "How do I compare image generators?",
+          "body": "Test prompt control, reference images, resolution, and batch/API paths. This category page links to peer tools for quick side-by-side browsing."
+        }
+      ]
+    }
+  },
+  "cohere": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；Cohere 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Cohere 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—Cohere is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host Cohere?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "assemblyai": {
+    "zh-CN": {
+      "suitableFor": "配音、播客粗剪、会议转写与生成式配乐试验；AssemblyAI 面向音频内容生产。",
+      "notIdealFor": "广播级母带或复杂杜比全景声混音仍以专业 DAW 流程为准。",
+      "compareHint": "对照语种、延迟、音色库克隆政策与商用授权。",
+      "checklistItems": [
+        "对外发布读授权与水印要求",
+        "存证生成批次与参数",
+        "高价值内容走法务审听"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "AssemblyAI 的语音可以用于商业项目吗？",
+          "body": "取决于套餐与声库协议；部分声音禁止二次分发或要求署名。以官网最新条款为准。"
+        },
+        {
+          "heading": "会议转写要注意隐私吗？",
+          "body": "涉及客户或员工对话时，先确认合规与留存政策，再做云上传或本地处理选择。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Voiceovers, transcripts, generative music sketches—AssemblyAI helps audio creatives move faster.",
+      "notIdealFor": "Broadcast mastering without a traditional DAW pipeline.",
+      "compareHint": "Check languages, latency, voice-clone rules, and commercial licenses.",
+      "checklistItems": [
+        "Read redistribution rules",
+        "Log generations",
+        "Legal listen for premium releases"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I use AssemblyAI audio commercially?",
+          "body": "Plans and voice packs set the rules—including attribution or redistribution bans. Verify on the official site."
+        },
+        {
+          "heading": "Privacy for meeting transcription",
+          "body": "Confirm HR/legal policies before uploading customer or employee audio; consider on-device options when required."
+        }
+      ]
+    }
+  },
+  "murf": {
+    "zh-CN": {
+      "suitableFor": "配音、播客粗剪、会议转写与生成式配乐试验；Murf 面向音频内容生产。",
+      "notIdealFor": "广播级母带或复杂杜比全景声混音仍以专业 DAW 流程为准。",
+      "compareHint": "对照语种、延迟、音色库克隆政策与商用授权。",
+      "checklistItems": [
+        "对外发布读授权与水印要求",
+        "存证生成批次与参数",
+        "高价值内容走法务审听"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Murf 的语音可以用于商业项目吗？",
+          "body": "取决于套餐与声库协议；部分声音禁止二次分发或要求署名。以官网最新条款为准。"
+        },
+        {
+          "heading": "会议转写要注意隐私吗？",
+          "body": "涉及客户或员工对话时，先确认合规与留存政策，再做云上传或本地处理选择。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Voiceovers, transcripts, generative music sketches—Murf helps audio creatives move faster.",
+      "notIdealFor": "Broadcast mastering without a traditional DAW pipeline.",
+      "compareHint": "Check languages, latency, voice-clone rules, and commercial licenses.",
+      "checklistItems": [
+        "Read redistribution rules",
+        "Log generations",
+        "Legal listen for premium releases"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I use Murf audio commercially?",
+          "body": "Plans and voice packs set the rules—including attribution or redistribution bans. Verify on the official site."
+        },
+        {
+          "heading": "Privacy for meeting transcription",
+          "body": "Confirm HR/legal policies before uploading customer or employee audio; consider on-device options when required."
+        }
+      ]
+    }
+  },
+  "feishu": {
+    "zh-CN": {
+      "suitableFor": "远程工作坊、评审墙、路线草图与共创画布；飞书 适合需要「一起看见」的讨论。",
+      "notIdealFor": "纯离线协作、或组织禁止使用境外白板服务的场景。",
+      "compareHint": "关注并发编辑、访客权限、导出与 SSO；可与项目管理工具链组合使用。",
+      "checklistItems": [
+        "梳理内外部协作边界",
+        "敏感内容打码后再上板",
+        "定期导出归档防丢数据"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "飞书 能替代线下白板吗？",
+          "body": "多数在线白板可支撑分布式头脑风暴与评审，但实时性与网络质量有关。飞书 的具体协作人数与功能以官网说明为准。"
+        },
+        {
+          "heading": "团队白板选型要看什么？",
+          "body": "权限粒度、访客策略、导出格式、与企业身份目录集成是关键。可先在本分类页浏览多款产品，再按合规要求缩小范围。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Remote workshops, review walls, roadmaps—飞书 fits whenever the team needs a shared visual surface.",
+      "notIdealFor": "Offline-only collaboration or orgs that block hosted whiteboards.",
+      "compareHint": "Compare guest access, exports, SSO, and concurrent editor limits.",
+      "checklistItems": [
+        "Classify internal vs external sharing",
+        "Redact sensitive assets",
+        "Export backups regularly"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can 飞书 replace a physical whiteboard?",
+          "body": "Hosted boards work for distributed sessions; quality depends on latency and features. Check official docs for limits on guests or objects."
+        },
+        {
+          "heading": "How should teams evaluate whiteboard tools?",
+          "body": "Start with permissions, exports, and directory integrations. Browse this category for alternates, then validate compliance with IT."
+        }
+      ]
+    }
+  },
+  "tencent-meeting": {
+    "zh-CN": {
+      "suitableFor": "远程工作坊、评审墙、路线草图与共创画布；腾讯会议 适合需要「一起看见」的讨论。",
+      "notIdealFor": "纯离线协作、或组织禁止使用境外白板服务的场景。",
+      "compareHint": "关注并发编辑、访客权限、导出与 SSO；可与项目管理工具链组合使用。",
+      "checklistItems": [
+        "梳理内外部协作边界",
+        "敏感内容打码后再上板",
+        "定期导出归档防丢数据"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "腾讯会议 能替代线下白板吗？",
+          "body": "多数在线白板可支撑分布式头脑风暴与评审，但实时性与网络质量有关。腾讯会议 的具体协作人数与功能以官网说明为准。"
+        },
+        {
+          "heading": "团队白板选型要看什么？",
+          "body": "权限粒度、访客策略、导出格式、与企业身份目录集成是关键。可先在本分类页浏览多款产品，再按合规要求缩小范围。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Remote workshops, review walls, roadmaps—腾讯会议 fits whenever the team needs a shared visual surface.",
+      "notIdealFor": "Offline-only collaboration or orgs that block hosted whiteboards.",
+      "compareHint": "Compare guest access, exports, SSO, and concurrent editor limits.",
+      "checklistItems": [
+        "Classify internal vs external sharing",
+        "Redact sensitive assets",
+        "Export backups regularly"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can 腾讯会议 replace a physical whiteboard?",
+          "body": "Hosted boards work for distributed sessions; quality depends on latency and features. Check official docs for limits on guests or objects."
+        },
+        {
+          "heading": "How should teams evaluate whiteboard tools?",
+          "body": "Start with permissions, exports, and directory integrations. Browse this category for alternates, then validate compliance with IT."
+        }
+      ]
+    }
+  },
+  "descript": {
+    "zh-CN": {
+      "suitableFor": "短片、口播、模版化视频与动效试验；Descript 适合内容团队快速出片。",
+      "notIdealFor": "电影工业级调色/混音全流程、或零预算却要求离线渲染集群。",
+      "compareHint": "对照分辨率挡位、口型/角色一致性、音乐与肖像权条款。",
+      "checklistItems": [
+        "商用前核对音乐与素材授权",
+        "生成内容存档与版本命名",
+        "公开展示注意披露要求"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Descript 适合做抖音/短视频吗？",
+          "body": "多数产品面向社交短视频与广告小样，具体模板与导出比例见官网。注意平台对 AI 内容的披露规则。"
+        },
+        {
+          "heading": "视频类 AI 成本怎么控？",
+          "body": "按分辨率与分钟数计费的产品居多；可用低分辨率试片通过后再升档渲染。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Short clips, talking heads, motion tests—Descript accelerates social and ad creative.",
+      "notIdealFor": "Full theatrical finishing pipelines without specialist tooling.",
+      "compareHint": "Compare resolution tiers, lipsync, music licensing, and likeness rules.",
+      "checklistItems": [
+        "Clear music SFX rights",
+        "Version renders",
+        "Follow disclosure policies"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is Descript good for short-form social?",
+          "body": "Many tools target vertical formats; confirm templates and codecs on the official site plus platform AI rules."
+        },
+        {
+          "heading": "Controlling generative video cost",
+          "body": "Start with low-res previews; upscale after creative approval when billing is per minute or pixel tier."
+        }
+      ]
+    }
+  },
+  "scribbr": {
+    "zh-CN": {
+      "suitableFor": "邮件、文档、网页双语浏览；Scribbr 可打底稿再由人工润色。",
+      "notIdealFor": "涉密文本禁止外发翻译、或要求术语锁死却无企业术语库的流程。",
+      "compareHint": "与浏览器翻译、CAT 工具链搭配；对外发布前安排母语审校。",
+      "checklistItems": [
+        "核对文件大小与格式支持",
+        "维护术语表版本",
+        "法律医学领域加专业审校"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Scribbr 翻译准确吗？",
+          "body": "机翻适合快速理解与时效稿件，正式对外发布仍建议人工校对，尤其是品牌名与法律条款。"
+        },
+        {
+          "heading": "沉浸式翻译和文档翻译怎么配合？",
+          "body": "浏览场景用浏览器扩展效率高；长文档用专注翻译服务更稳。可按场景组合多种工具。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Docs, email, bilingual browsing—Scribbr drafts quickly before human polish.",
+      "notIdealFor": "Strict no-upload policies without enterprise contracts.",
+      "compareHint": "Pair browser tools with CAT workflows; human-review customer-facing strings.",
+      "checklistItems": [
+        "Check format/size limits",
+        "Version glossaries",
+        "Add domain experts for legal/medical"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is Scribbr accurate enough?",
+          "body": "Great for speed; still human-review customer, legal, or medical copy before release."
+        },
+        {
+          "heading": "Mixing browser and document translators",
+          "body": "Use extensions for skimming and dedicated tools for long exports—combine by workflow."
+        }
+      ]
+    }
+  },
+  "semantic-scholar": {
+    "zh-CN": {
+      "suitableFor": "需要引用或片段溯源的研究型问答；Semantic Scholar 适合「先摘要再跳原文」。",
+      "notIdealFor": "离线内网、或对网页抓取有严格合规限制的环境。",
+      "compareHint": "点进每一条引用核对上下文；财经医药等场景务必二次验证。",
+      "checklistItems": [
+        "警惕付费墙摘要误差",
+        "记录检索时间与来源URL",
+        "团队共享注意版权"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Semantic Scholar 的答案可靠吗？",
+          "body": "检索增强类答案应视为起点而非终稿；请阅读原文并交叉比对权威来源。Semantic Scholar 的抓取范围以官方说明为准。"
+        },
+        {
+          "heading": "研究型 AI 与传统搜索如何配合？",
+          "body": "可用 AI 做速览与关键词扩展，用传统搜索做精确站点与文件类型检索，两者互补。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Citation-oriented answers—Semantic Scholar helps skim sources before you open originals.",
+      "notIdealFor": "Air-gapped research without approved retrieval channels.",
+      "compareHint": "Open citations; watch paywall misreads; verify market/legal/medical facts.",
+      "checklistItems": [
+        "Archive URLs and timestamps",
+        "Blend with classic search operators",
+        "Respect copyright"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "How trustworthy is Semantic Scholar?",
+          "body": "Treat AI answers as starting points; verify with primary documents. Crawl coverage is defined by the vendor."
+        },
+        {
+          "heading": "Pairing research AI with classic search",
+          "body": "Use assistants for summaries and query expansion, then use search for precise site: filters and file types."
+        }
+      ]
+    }
+  },
+  "arxiv": {
+    "zh-CN": {
+      "suitableFor": "需要引用或片段溯源的研究型问答；arXiv 适合「先摘要再跳原文」。",
+      "notIdealFor": "离线内网、或对网页抓取有严格合规限制的环境。",
+      "compareHint": "点进每一条引用核对上下文；财经医药等场景务必二次验证。",
+      "checklistItems": [
+        "警惕付费墙摘要误差",
+        "记录检索时间与来源URL",
+        "团队共享注意版权"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "arXiv 的答案可靠吗？",
+          "body": "检索增强类答案应视为起点而非终稿；请阅读原文并交叉比对权威来源。arXiv 的抓取范围以官方说明为准。"
+        },
+        {
+          "heading": "研究型 AI 与传统搜索如何配合？",
+          "body": "可用 AI 做速览与关键词扩展，用传统搜索做精确站点与文件类型检索，两者互补。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Citation-oriented answers—arXiv helps skim sources before you open originals.",
+      "notIdealFor": "Air-gapped research without approved retrieval channels.",
+      "compareHint": "Open citations; watch paywall misreads; verify market/legal/medical facts.",
+      "checklistItems": [
+        "Archive URLs and timestamps",
+        "Blend with classic search operators",
+        "Respect copyright"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "How trustworthy is arXiv?",
+          "body": "Treat AI answers as starting points; verify with primary documents. Crawl coverage is defined by the vendor."
+        },
+        {
+          "heading": "Pairing research AI with classic search",
+          "body": "Use assistants for summaries and query expansion, then use search for precise site: filters and file types."
+        }
+      ]
+    }
+  },
+  "kaggle": {
+    "zh-CN": {
+      "suitableFor": "文献调研、数据集检索、实验记录与学习辅助；Kaggle 可加速信息整理。",
+      "notIdealFor": "替代正式学分课程或受版权严格限制的原文分发场景。",
+      "compareHint": "与机构图书馆、预印本库交叉验证；引用格式以目标期刊/学校要求为准。",
+      "checklistItems": [
+        "核对论文访问权限与引用规范",
+        "实验记录注意可复现性",
+        "勿将未公开数据随意上传"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Kaggle 能否替代谷歌学术？",
+          "body": "多数产品是辅助检索与摘要，覆盖范围与更新频率因库而异。重要结论请以原始论文与数据库为准。"
+        },
+        {
+          "heading": "学生用 AI 查资料要注意什么？",
+          "body": "明确课程对生成内容的政策，标注引用来源，避免未经许可上传整篇版权论文。可与导师确认可接受的使用边界。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Literature scans, dataset discovery, lab notes—Kaggle speeds structured learning work.",
+      "notIdealFor": "Replacing accredited coursework or redistributing paywalled full text.",
+      "compareHint": "Cross-check with library portals and primary sources; follow citation style guides.",
+      "checklistItems": [
+        "Respect copyright on full text",
+        "Log experiments for reproducibility",
+        "Avoid uploading secrets"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is Kaggle a Google Scholar replacement?",
+          "body": "Most assistants complement classic indexes; coverage differs. Always open the primary source for claims."
+        },
+        {
+          "heading": "Responsible AI use for students",
+          "body": "Follow institutional policy, cite sources, and do not upload restricted PDFs without permission."
+        }
+      ]
+    }
+  },
+  "wandb": {
+    "zh-CN": {
+      "suitableFor": "文献调研、数据集检索、实验记录与学习辅助；Weights & Biases 可加速信息整理。",
+      "notIdealFor": "替代正式学分课程或受版权严格限制的原文分发场景。",
+      "compareHint": "与机构图书馆、预印本库交叉验证；引用格式以目标期刊/学校要求为准。",
+      "checklistItems": [
+        "核对论文访问权限与引用规范",
+        "实验记录注意可复现性",
+        "勿将未公开数据随意上传"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Weights & Biases 能否替代谷歌学术？",
+          "body": "多数产品是辅助检索与摘要，覆盖范围与更新频率因库而异。重要结论请以原始论文与数据库为准。"
+        },
+        {
+          "heading": "学生用 AI 查资料要注意什么？",
+          "body": "明确课程对生成内容的政策，标注引用来源，避免未经许可上传整篇版权论文。可与导师确认可接受的使用边界。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Literature scans, dataset discovery, lab notes—Weights & Biases speeds structured learning work.",
+      "notIdealFor": "Replacing accredited coursework or redistributing paywalled full text.",
+      "compareHint": "Cross-check with library portals and primary sources; follow citation style guides.",
+      "checklistItems": [
+        "Respect copyright on full text",
+        "Log experiments for reproducibility",
+        "Avoid uploading secrets"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is Weights & Biases a Google Scholar replacement?",
+          "body": "Most assistants complement classic indexes; coverage differs. Always open the primary source for claims."
+        },
+        {
+          "heading": "Responsible AI use for students",
+          "body": "Follow institutional policy, cite sources, and do not upload restricted PDFs without permission."
+        }
+      ]
+    }
+  },
+  "mistral-ai": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；Mistral AI 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Mistral AI 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 Mistral AI 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—Mistral AI is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Mistral AI free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "groq": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；Groq 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Groq 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—Groq is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host Groq?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "xai-grok": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；Grok 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Grok 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 Grok 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—Grok is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Grok free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "replicate": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；Replicate 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Replicate 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—Replicate is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host Replicate?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "fal": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；fal 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "fal 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—fal is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host fal?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "together-ai": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；Together AI 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Together AI 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—Together AI is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host Together AI?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "fireworks-ai": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；Fireworks AI 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Fireworks AI 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—Fireworks AI is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host Fireworks AI?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "openrouter": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；OpenRouter 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "OpenRouter 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—OpenRouter is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host OpenRouter?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "siliconflow": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；硅基流动 SiliconFlow 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "硅基流动 SiliconFlow 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—硅基流动 SiliconFlow is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host 硅基流动 SiliconFlow?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "modelscope": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；魔搭 ModelScope 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "魔搭 ModelScope 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—魔搭 ModelScope is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host 魔搭 ModelScope?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "dify": {
+    "zh-CN": {
+      "suitableFor": "跨 SaaS 连接、定时任务、Webhook 编排；Dify 适合 glue 工作流。",
+      "notIdealFor": "完全零运维且流程极度复杂的关键账务链路（需专门工程化）。",
+      "compareHint": "评估自托管 vs 云、错误重试、速率限制与供应商锁定。",
+      "checklistItems": [
+        "分环境管理密钥",
+        "为关键流加重试与告警",
+        "记录变更便于审计"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Dify 和 Zapier 有什么区别？",
+          "body": "差异通常在连接器数量、自托管能力、定价模型与开发者体验。请对照官网连接器目录与计价说明。"
+        },
+        {
+          "heading": "自动化上线前必做什么？",
+          "body": "沙箱演练失败路径，确认幂等与补偿策略；生产再逐步放大流量。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "SaaS glue, schedules, webhooks—Dify helps orchestrate integrations.",
+      "notIdealFor": "Mission-critical finance flows without engineering rigor.",
+      "compareHint": "Compare hosted vs self-managed, retries, rate limits, and lock-in.",
+      "checklistItems": [
+        "Isolate secrets per env",
+        "Add alerts for failures",
+        "Document changes"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Dify vs other automation tools",
+          "body": "Differentiators include connector breadth, self-hosting, pricing, and developer UX—verify on official pages."
+        },
+        {
+          "heading": "Before shipping automations",
+          "body": "Rehearse failure modes, idempotency, and compensating transactions before scaling load."
+        }
+      ]
+    }
+  },
+  "flowise": {
+    "zh-CN": {
+      "suitableFor": "跨 SaaS 连接、定时任务、Webhook 编排；Flowise 适合 glue 工作流。",
+      "notIdealFor": "完全零运维且流程极度复杂的关键账务链路（需专门工程化）。",
+      "compareHint": "评估自托管 vs 云、错误重试、速率限制与供应商锁定。",
+      "checklistItems": [
+        "分环境管理密钥",
+        "为关键流加重试与告警",
+        "记录变更便于审计"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Flowise 和 Zapier 有什么区别？",
+          "body": "差异通常在连接器数量、自托管能力、定价模型与开发者体验。请对照官网连接器目录与计价说明。"
+        },
+        {
+          "heading": "自动化上线前必做什么？",
+          "body": "沙箱演练失败路径，确认幂等与补偿策略；生产再逐步放大流量。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "SaaS glue, schedules, webhooks—Flowise helps orchestrate integrations.",
+      "notIdealFor": "Mission-critical finance flows without engineering rigor.",
+      "compareHint": "Compare hosted vs self-managed, retries, rate limits, and lock-in.",
+      "checklistItems": [
+        "Isolate secrets per env",
+        "Add alerts for failures",
+        "Document changes"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Flowise vs other automation tools",
+          "body": "Differentiators include connector breadth, self-hosting, pricing, and developer UX—verify on official pages."
+        },
+        {
+          "heading": "Before shipping automations",
+          "body": "Rehearse failure modes, idempotency, and compensating transactions before scaling load."
+        }
+      ]
+    }
+  },
+  "tabnine": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Tabnine 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Tabnine 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Tabnine 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Tabnine targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Tabnine train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "amazon-q": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Amazon Q 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Amazon Q 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Amazon Q 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Amazon Q targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Amazon Q train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "sourcegraph-cody": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Sourcegraph Cody 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Sourcegraph Cody 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Sourcegraph Cody 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Sourcegraph Cody targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Sourcegraph Cody train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "continue-dev": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Continue 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Continue 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Continue 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Continue targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Continue train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "aider": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Aider 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Aider 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Aider 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Aider targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Aider train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "cline": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Cline 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Cline 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Cline 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Cline targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Cline train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "supermaven": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Supermaven 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Supermaven 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Supermaven 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Supermaven targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Supermaven train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "bolt-new": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Bolt.new 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Bolt.new 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Bolt.new 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Bolt.new targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Bolt.new train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "stackblitz": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；StackBlitz 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "StackBlitz 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 StackBlitz 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—StackBlitz targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does StackBlitz train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "codesandbox": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；CodeSandbox 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "CodeSandbox 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 CodeSandbox 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—CodeSandbox targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does CodeSandbox train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "framer": {
+    "zh-CN": {
+      "suitableFor": "界面视觉、品牌模板与演示成稿；Framer 适合设计与演示交叉场景。",
+      "notIdealFor": "大型印刷拼版与长篇幅排版仍以专业排版软件为主。",
+      "compareHint": "对照设计系统同步、组件库与交付给开发的标注链路。",
+      "checklistItems": [
+        "统一设计令牌与命名",
+        "导出前检查字体授权",
+        "与前端对齐断点与状态"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Framer 能做品牌设计系统吗？",
+          "body": "视产品而定：有的强在画布与组件，有的在演示叙事。请以官网功能清单为准并与设计负责人评估。"
+        },
+        {
+          "heading": "设计协作常见坑？",
+          "body": "组件过期不删、命名混乱、与设计令牌脱节。建立 owner 与过期策略能减少返工。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Visual design plus polished decks—Framer spans design/presentation workflows.",
+      "notIdealFor": "Long-print composing—dedicated layout apps may still win.",
+      "compareHint": "Check design-token sync, libraries, and handoff clarity.",
+      "checklistItems": [
+        "Align tokens with engineering",
+        "Confirm font licensing",
+        "Define responsive states"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can Framer host a design system?",
+          "body": "Capabilities vary—some excel at components, others at storytelling decks. Read feature lists and test with designers."
+        },
+        {
+          "heading": "Design ops pitfalls",
+          "body": "Stale components and unclear naming slow teams; assign owners and sunset rules early."
+        }
+      ]
+    }
+  },
+  "webflow": {
+    "zh-CN": {
+      "suitableFor": "界面视觉、品牌模板与演示成稿；Webflow 适合设计与演示交叉场景。",
+      "notIdealFor": "大型印刷拼版与长篇幅排版仍以专业排版软件为主。",
+      "compareHint": "对照设计系统同步、组件库与交付给开发的标注链路。",
+      "checklistItems": [
+        "统一设计令牌与命名",
+        "导出前检查字体授权",
+        "与前端对齐断点与状态"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Webflow 能做品牌设计系统吗？",
+          "body": "视产品而定：有的强在画布与组件，有的在演示叙事。请以官网功能清单为准并与设计负责人评估。"
+        },
+        {
+          "heading": "设计协作常见坑？",
+          "body": "组件过期不删、命名混乱、与设计令牌脱节。建立 owner 与过期策略能减少返工。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Visual design plus polished decks—Webflow spans design/presentation workflows.",
+      "notIdealFor": "Long-print composing—dedicated layout apps may still win.",
+      "compareHint": "Check design-token sync, libraries, and handoff clarity.",
+      "checklistItems": [
+        "Align tokens with engineering",
+        "Confirm font licensing",
+        "Define responsive states"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can Webflow host a design system?",
+          "body": "Capabilities vary—some excel at components, others at storytelling decks. Read feature lists and test with designers."
+        },
+        {
+          "heading": "Design ops pitfalls",
+          "body": "Stale components and unclear naming slow teams; assign owners and sunset rules early."
+        }
+      ]
+    }
+  },
+  "photoroom": {
+    "zh-CN": {
+      "suitableFor": "抠图、修复、放大、局部重绘等像素编辑；PhotoRoom 适合需要「在现有图上改动」的流程。",
+      "notIdealFor": "纯生成管线且不需要像素编辑时，可优先看图生图类产品。",
+      "compareHint": "注意批量、输出分辨率与是否破坏元数据；敏感图像谨慎上传。",
+      "checklistItems": [
+        "大批量任务先小样本试效果",
+        "检查导出是否满足印刷分辨率",
+        "涉密素材按内规处理"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "PhotoRoom 和图像生成工具有什么区别？",
+          "body": "编辑类强调在既有像素上修补或变换；生成类更侧重从文本出新图。PhotoRoom 的侧重请以官网功能列表为准。"
+        },
+        {
+          "heading": "抠图/修图类 API 值得上吗？",
+          "body": "若日处理量大或有自动化流水线，可对比官网 API 限额、单价与 SLA。开发与运营成本需一并估算。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Cutouts, cleanup, upscale, inpainting—PhotoRoom helps when you must change existing pixels.",
+      "notIdealFor": "Pure text-to-image workflows that never retouch assets.",
+      "compareHint": "Watch batch limits, DPI, metadata loss, and data residency.",
+      "checklistItems": [
+        "Pilot on a sample batch",
+        "Validate print DPI if needed",
+        "Follow infosec for sensitive shots"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Editing vs generation—where does PhotoRoom fit?",
+          "body": "Editors manipulate existing images; generators create new ones from prompts. Confirm feature focus on the vendor site."
+        },
+        {
+          "heading": "When is an editing API worth it?",
+          "body": "High-volume pipelines should compare rate limits, unit pricing, and uptime. Factor engineering time into TCO."
+        }
+      ]
+    }
+  },
+  "clipdrop": {
+    "zh-CN": {
+      "suitableFor": "抠图、修复、放大、局部重绘等像素编辑；Clipdrop 适合需要「在现有图上改动」的流程。",
+      "notIdealFor": "纯生成管线且不需要像素编辑时，可优先看图生图类产品。",
+      "compareHint": "注意批量、输出分辨率与是否破坏元数据；敏感图像谨慎上传。",
+      "checklistItems": [
+        "大批量任务先小样本试效果",
+        "检查导出是否满足印刷分辨率",
+        "涉密素材按内规处理"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Clipdrop 和图像生成工具有什么区别？",
+          "body": "编辑类强调在既有像素上修补或变换；生成类更侧重从文本出新图。Clipdrop 的侧重请以官网功能列表为准。"
+        },
+        {
+          "heading": "抠图/修图类 API 值得上吗？",
+          "body": "若日处理量大或有自动化流水线，可对比官网 API 限额、单价与 SLA。开发与运营成本需一并估算。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Cutouts, cleanup, upscale, inpainting—Clipdrop helps when you must change existing pixels.",
+      "notIdealFor": "Pure text-to-image workflows that never retouch assets.",
+      "compareHint": "Watch batch limits, DPI, metadata loss, and data residency.",
+      "checklistItems": [
+        "Pilot on a sample batch",
+        "Validate print DPI if needed",
+        "Follow infosec for sensitive shots"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Editing vs generation—where does Clipdrop fit?",
+          "body": "Editors manipulate existing images; generators create new ones from prompts. Confirm feature focus on the vendor site."
+        },
+        {
+          "heading": "When is an editing API worth it?",
+          "body": "High-volume pipelines should compare rate limits, unit pricing, and uptime. Factor engineering time into TCO."
+        }
+      ]
+    }
+  },
+  "chatpdf": {
+    "zh-CN": {
+      "suitableFor": "团队 wiki、个人知识库、项目沉淀；ChatPDF 适合需要可搜索「组织记忆」的场景。",
+      "notIdealFor": "强离线优先且不接受任何云同步的极致个人笔记流派。",
+      "compareHint": "试全文/向量混合搜索、权限模型与导出；评估留存与审计要求。",
+      "checklistItems": [
+        "划分工作区与对外空间",
+        "关键页面设定审核流程",
+        "定期导出备份"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "ChatPDF 和本地笔记（如 Obsidian）怎么选？",
+          "body": "云协作/wiki 赢在权限与共享；本地优先赢在文件可控。可按团队规模与合规二选一或混用。"
+        },
+        {
+          "heading": "企业知识库失败常见原因？",
+          "body": "权限混乱、命名不统一、没有过期策略。上线前约定模板与 owner，比盲目堆功能更重要。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Team wikis and searchable knowledge—ChatPDF helps retain organizational memory.",
+      "notIdealFor": "Strict local-first workflows that reject cloud sync entirely.",
+      "compareHint": "Test search quality, permissions, exports, retention, and audit trails.",
+      "checklistItems": [
+        "Separate internal vs external spaces",
+        "Add review on critical pages",
+        "Back up exports"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "ChatPDF vs local-first notes",
+          "body": "Hosted wikis excel at permissions; local editors excel at file control. Mixing both is common."
+        },
+        {
+          "heading": "Why knowledge bases stall",
+          "body": "Unclear ownership and naming hurt more than missing features—establish templates before scaling."
+        }
+      ]
+    }
+  },
+  "humata": {
+    "zh-CN": {
+      "suitableFor": "需要引用或片段溯源的研究型问答；Humata AI 适合「先摘要再跳原文」。",
+      "notIdealFor": "离线内网、或对网页抓取有严格合规限制的环境。",
+      "compareHint": "点进每一条引用核对上下文；财经医药等场景务必二次验证。",
+      "checklistItems": [
+        "警惕付费墙摘要误差",
+        "记录检索时间与来源URL",
+        "团队共享注意版权"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Humata AI 的答案可靠吗？",
+          "body": "检索增强类答案应视为起点而非终稿；请阅读原文并交叉比对权威来源。Humata AI 的抓取范围以官方说明为准。"
+        },
+        {
+          "heading": "研究型 AI 与传统搜索如何配合？",
+          "body": "可用 AI 做速览与关键词扩展，用传统搜索做精确站点与文件类型检索，两者互补。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Citation-oriented answers—Humata AI helps skim sources before you open originals.",
+      "notIdealFor": "Air-gapped research without approved retrieval channels.",
+      "compareHint": "Open citations; watch paywall misreads; verify market/legal/medical facts.",
+      "checklistItems": [
+        "Archive URLs and timestamps",
+        "Blend with classic search operators",
+        "Respect copyright"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "How trustworthy is Humata AI?",
+          "body": "Treat AI answers as starting points; verify with primary documents. Crawl coverage is defined by the vendor."
+        },
+        {
+          "heading": "Pairing research AI with classic search",
+          "body": "Use assistants for summaries and query expansion, then use search for precise site: filters and file types."
+        }
+      ]
+    }
+  },
+  "scispace": {
+    "zh-CN": {
+      "suitableFor": "需要引用或片段溯源的研究型问答；SciSpace 适合「先摘要再跳原文」。",
+      "notIdealFor": "离线内网、或对网页抓取有严格合规限制的环境。",
+      "compareHint": "点进每一条引用核对上下文；财经医药等场景务必二次验证。",
+      "checklistItems": [
+        "警惕付费墙摘要误差",
+        "记录检索时间与来源URL",
+        "团队共享注意版权"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "SciSpace 的答案可靠吗？",
+          "body": "检索增强类答案应视为起点而非终稿；请阅读原文并交叉比对权威来源。SciSpace 的抓取范围以官方说明为准。"
+        },
+        {
+          "heading": "研究型 AI 与传统搜索如何配合？",
+          "body": "可用 AI 做速览与关键词扩展，用传统搜索做精确站点与文件类型检索，两者互补。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Citation-oriented answers—SciSpace helps skim sources before you open originals.",
+      "notIdealFor": "Air-gapped research without approved retrieval channels.",
+      "compareHint": "Open citations; watch paywall misreads; verify market/legal/medical facts.",
+      "checklistItems": [
+        "Archive URLs and timestamps",
+        "Blend with classic search operators",
+        "Respect copyright"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "How trustworthy is SciSpace?",
+          "body": "Treat AI answers as starting points; verify with primary documents. Crawl coverage is defined by the vendor."
+        },
+        {
+          "heading": "Pairing research AI with classic search",
+          "body": "Use assistants for summaries and query expansion, then use search for precise site: filters and file types."
+        }
+      ]
+    }
+  },
+  "scholarcy": {
+    "zh-CN": {
+      "suitableFor": "需要引用或片段溯源的研究型问答；Scholarcy 适合「先摘要再跳原文」。",
+      "notIdealFor": "离线内网、或对网页抓取有严格合规限制的环境。",
+      "compareHint": "点进每一条引用核对上下文；财经医药等场景务必二次验证。",
+      "checklistItems": [
+        "警惕付费墙摘要误差",
+        "记录检索时间与来源URL",
+        "团队共享注意版权"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Scholarcy 的答案可靠吗？",
+          "body": "检索增强类答案应视为起点而非终稿；请阅读原文并交叉比对权威来源。Scholarcy 的抓取范围以官方说明为准。"
+        },
+        {
+          "heading": "研究型 AI 与传统搜索如何配合？",
+          "body": "可用 AI 做速览与关键词扩展，用传统搜索做精确站点与文件类型检索，两者互补。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Citation-oriented answers—Scholarcy helps skim sources before you open originals.",
+      "notIdealFor": "Air-gapped research without approved retrieval channels.",
+      "compareHint": "Open citations; watch paywall misreads; verify market/legal/medical facts.",
+      "checklistItems": [
+        "Archive URLs and timestamps",
+        "Blend with classic search operators",
+        "Respect copyright"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "How trustworthy is Scholarcy?",
+          "body": "Treat AI answers as starting points; verify with primary documents. Crawl coverage is defined by the vendor."
+        },
+        {
+          "heading": "Pairing research AI with classic search",
+          "body": "Use assistants for summaries and query expansion, then use search for precise site: filters and file types."
+        }
+      ]
+    }
+  },
+  "tldraw": {
+    "zh-CN": {
+      "suitableFor": "远程工作坊、评审墙、路线草图与共创画布；tldraw 适合需要「一起看见」的讨论。",
+      "notIdealFor": "纯离线协作、或组织禁止使用境外白板服务的场景。",
+      "compareHint": "关注并发编辑、访客权限、导出与 SSO；可与项目管理工具链组合使用。",
+      "checklistItems": [
+        "梳理内外部协作边界",
+        "敏感内容打码后再上板",
+        "定期导出归档防丢数据"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "tldraw 能替代线下白板吗？",
+          "body": "多数在线白板可支撑分布式头脑风暴与评审，但实时性与网络质量有关。tldraw 的具体协作人数与功能以官网说明为准。"
+        },
+        {
+          "heading": "团队白板选型要看什么？",
+          "body": "权限粒度、访客策略、导出格式、与企业身份目录集成是关键。可先在本分类页浏览多款产品，再按合规要求缩小范围。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Remote workshops, review walls, roadmaps—tldraw fits whenever the team needs a shared visual surface.",
+      "notIdealFor": "Offline-only collaboration or orgs that block hosted whiteboards.",
+      "compareHint": "Compare guest access, exports, SSO, and concurrent editor limits.",
+      "checklistItems": [
+        "Classify internal vs external sharing",
+        "Redact sensitive assets",
+        "Export backups regularly"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can tldraw replace a physical whiteboard?",
+          "body": "Hosted boards work for distributed sessions; quality depends on latency and features. Check official docs for limits on guests or objects."
+        },
+        {
+          "heading": "How should teams evaluate whiteboard tools?",
+          "body": "Start with permissions, exports, and directory integrations. Browse this category for alternates, then validate compliance with IT."
+        }
+      ]
+    }
+  },
+  "logseq": {
+    "zh-CN": {
+      "suitableFor": "团队 wiki、个人知识库、项目沉淀；Logseq 适合需要可搜索「组织记忆」的场景。",
+      "notIdealFor": "强离线优先且不接受任何云同步的极致个人笔记流派。",
+      "compareHint": "试全文/向量混合搜索、权限模型与导出；评估留存与审计要求。",
+      "checklistItems": [
+        "划分工作区与对外空间",
+        "关键页面设定审核流程",
+        "定期导出备份"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Logseq 和本地笔记（如 Obsidian）怎么选？",
+          "body": "云协作/wiki 赢在权限与共享；本地优先赢在文件可控。可按团队规模与合规二选一或混用。"
+        },
+        {
+          "heading": "企业知识库失败常见原因？",
+          "body": "权限混乱、命名不统一、没有过期策略。上线前约定模板与 owner，比盲目堆功能更重要。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Team wikis and searchable knowledge—Logseq helps retain organizational memory.",
+      "notIdealFor": "Strict local-first workflows that reject cloud sync entirely.",
+      "compareHint": "Test search quality, permissions, exports, retention, and audit trails.",
+      "checklistItems": [
+        "Separate internal vs external spaces",
+        "Add review on critical pages",
+        "Back up exports"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Logseq vs local-first notes",
+          "body": "Hosted wikis excel at permissions; local editors excel at file control. Mixing both is common."
+        },
+        {
+          "heading": "Why knowledge bases stall",
+          "body": "Unclear ownership and naming hurt more than missing features—establish templates before scaling."
+        }
+      ]
+    }
+  },
+  "clickup": {
+    "zh-CN": {
+      "suitableFor": "远程工作坊、评审墙、路线草图与共创画布；ClickUp 适合需要「一起看见」的讨论。",
+      "notIdealFor": "纯离线协作、或组织禁止使用境外白板服务的场景。",
+      "compareHint": "关注并发编辑、访客权限、导出与 SSO；可与项目管理工具链组合使用。",
+      "checklistItems": [
+        "梳理内外部协作边界",
+        "敏感内容打码后再上板",
+        "定期导出归档防丢数据"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "ClickUp 能替代线下白板吗？",
+          "body": "多数在线白板可支撑分布式头脑风暴与评审，但实时性与网络质量有关。ClickUp 的具体协作人数与功能以官网说明为准。"
+        },
+        {
+          "heading": "团队白板选型要看什么？",
+          "body": "权限粒度、访客策略、导出格式、与企业身份目录集成是关键。可先在本分类页浏览多款产品，再按合规要求缩小范围。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Remote workshops, review walls, roadmaps—ClickUp fits whenever the team needs a shared visual surface.",
+      "notIdealFor": "Offline-only collaboration or orgs that block hosted whiteboards.",
+      "compareHint": "Compare guest access, exports, SSO, and concurrent editor limits.",
+      "checklistItems": [
+        "Classify internal vs external sharing",
+        "Redact sensitive assets",
+        "Export backups regularly"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can ClickUp replace a physical whiteboard?",
+          "body": "Hosted boards work for distributed sessions; quality depends on latency and features. Check official docs for limits on guests or objects."
+        },
+        {
+          "heading": "How should teams evaluate whiteboard tools?",
+          "body": "Start with permissions, exports, and directory integrations. Browse this category for alternates, then validate compliance with IT."
+        }
+      ]
+    }
+  },
+  "airtable": {
+    "zh-CN": {
+      "suitableFor": "远程工作坊、评审墙、路线草图与共创画布；Airtable 适合需要「一起看见」的讨论。",
+      "notIdealFor": "纯离线协作、或组织禁止使用境外白板服务的场景。",
+      "compareHint": "关注并发编辑、访客权限、导出与 SSO；可与项目管理工具链组合使用。",
+      "checklistItems": [
+        "梳理内外部协作边界",
+        "敏感内容打码后再上板",
+        "定期导出归档防丢数据"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Airtable 能替代线下白板吗？",
+          "body": "多数在线白板可支撑分布式头脑风暴与评审，但实时性与网络质量有关。Airtable 的具体协作人数与功能以官网说明为准。"
+        },
+        {
+          "heading": "团队白板选型要看什么？",
+          "body": "权限粒度、访客策略、导出格式、与企业身份目录集成是关键。可先在本分类页浏览多款产品，再按合规要求缩小范围。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Remote workshops, review walls, roadmaps—Airtable fits whenever the team needs a shared visual surface.",
+      "notIdealFor": "Offline-only collaboration or orgs that block hosted whiteboards.",
+      "compareHint": "Compare guest access, exports, SSO, and concurrent editor limits.",
+      "checklistItems": [
+        "Classify internal vs external sharing",
+        "Redact sensitive assets",
+        "Export backups regularly"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can Airtable replace a physical whiteboard?",
+          "body": "Hosted boards work for distributed sessions; quality depends on latency and features. Check official docs for limits on guests or objects."
+        },
+        {
+          "heading": "How should teams evaluate whiteboard tools?",
+          "body": "Start with permissions, exports, and directory integrations. Browse this category for alternates, then validate compliance with IT."
+        }
+      ]
+    }
+  },
+  "lumen5": {
+    "zh-CN": {
+      "suitableFor": "短片、口播、模版化视频与动效试验；Lumen5 适合内容团队快速出片。",
+      "notIdealFor": "电影工业级调色/混音全流程、或零预算却要求离线渲染集群。",
+      "compareHint": "对照分辨率挡位、口型/角色一致性、音乐与肖像权条款。",
+      "checklistItems": [
+        "商用前核对音乐与素材授权",
+        "生成内容存档与版本命名",
+        "公开展示注意披露要求"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Lumen5 适合做抖音/短视频吗？",
+          "body": "多数产品面向社交短视频与广告小样，具体模板与导出比例见官网。注意平台对 AI 内容的披露规则。"
+        },
+        {
+          "heading": "视频类 AI 成本怎么控？",
+          "body": "按分辨率与分钟数计费的产品居多；可用低分辨率试片通过后再升档渲染。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Short clips, talking heads, motion tests—Lumen5 accelerates social and ad creative.",
+      "notIdealFor": "Full theatrical finishing pipelines without specialist tooling.",
+      "compareHint": "Compare resolution tiers, lipsync, music licensing, and likeness rules.",
+      "checklistItems": [
+        "Clear music SFX rights",
+        "Version renders",
+        "Follow disclosure policies"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is Lumen5 good for short-form social?",
+          "body": "Many tools target vertical formats; confirm templates and codecs on the official site plus platform AI rules."
+        },
+        {
+          "heading": "Controlling generative video cost",
+          "body": "Start with low-res previews; upscale after creative approval when billing is per minute or pixel tier."
+        }
+      ]
+    }
+  },
+  "invideo": {
+    "zh-CN": {
+      "suitableFor": "短片、口播、模版化视频与动效试验；InVideo 适合内容团队快速出片。",
+      "notIdealFor": "电影工业级调色/混音全流程、或零预算却要求离线渲染集群。",
+      "compareHint": "对照分辨率挡位、口型/角色一致性、音乐与肖像权条款。",
+      "checklistItems": [
+        "商用前核对音乐与素材授权",
+        "生成内容存档与版本命名",
+        "公开展示注意披露要求"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "InVideo 适合做抖音/短视频吗？",
+          "body": "多数产品面向社交短视频与广告小样，具体模板与导出比例见官网。注意平台对 AI 内容的披露规则。"
+        },
+        {
+          "heading": "视频类 AI 成本怎么控？",
+          "body": "按分辨率与分钟数计费的产品居多；可用低分辨率试片通过后再升档渲染。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Short clips, talking heads, motion tests—InVideo accelerates social and ad creative.",
+      "notIdealFor": "Full theatrical finishing pipelines without specialist tooling.",
+      "compareHint": "Compare resolution tiers, lipsync, music licensing, and likeness rules.",
+      "checklistItems": [
+        "Clear music SFX rights",
+        "Version renders",
+        "Follow disclosure policies"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is InVideo good for short-form social?",
+          "body": "Many tools target vertical formats; confirm templates and codecs on the official site plus platform AI rules."
+        },
+        {
+          "heading": "Controlling generative video cost",
+          "body": "Start with low-res previews; upscale after creative approval when billing is per minute or pixel tier."
+        }
+      ]
+    }
+  },
+  "beautiful-ai": {
+    "zh-CN": {
+      "suitableFor": "长篇小说草稿、营销文案、演讲逐字稿与幻灯片大纲；可将 Beautiful.ai 与同类写作/演示工具对照。",
+      "notIdealFor": "强合规禁外发环境、必须离线锁死的合同审阅，或完全不想依赖云端的场景。",
+      "compareHint": "同页分类下可打开其它写作/演示产品比对导出格式、模板库与团队权限。",
+      "checklistItems": [
+        "对外发布前核对事实与品牌用词",
+        "确认商用/团队版的数据留存策略",
+        "长文档建议分段保存与版本管理"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Beautiful.ai 适合写什么类型内容？",
+          "body": "Beautiful.ai 面向写作与演示类场景，可用于文稿、摘要或 slide 叙事起草。具体模板、字数上限与价格以官网为准；重要稿件建议人工终校。"
+        },
+        {
+          "heading": "写作类 AI 工具怎么选？",
+          "body": "先区分营销短文、长报告与幻灯片三条需求，再看与现有办公套件、品牌模板是否兼容。本站同类工具内链便于横向比较，最终请在各官网核实条款。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Drafting long copy, marketing lines, speaker notes, and deck outlines—compare Beautiful.ai with other writing/deck tools on this site.",
+      "notIdealFor": "Strict no-cloud policies, offline-only legal review, or workflows that cannot use hosted assistants.",
+      "compareHint": "Open sibling tools in this category to compare export formats, templates, and team permissions.",
+      "checklistItems": [
+        "Fact-check and enforce brand voice before shipping",
+        "Read retention policies for business tiers",
+        "Version long documents in manageable chunks"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "What is Beautiful.ai used for?",
+          "body": "Beautiful.ai targets writing and presentation workflows—drafts, summaries, or narrative slides. Limits, templates, and pricing are defined on the official site; keep humans in the loop for critical copy."
+        },
+        {
+          "heading": "How do I pick a writing AI?",
+          "body": "Separate marketing snippets, long reports, and slide storytelling. Check office-suite fit and brand templates. Use in-category links here, then confirm policies on each vendor site."
+        }
+      ]
+    }
+  },
+  "tavily": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；Tavily 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Tavily 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—Tavily is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host Tavily?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "exa": {
+    "zh-CN": {
+      "suitableFor": "需要引用或片段溯源的研究型问答；Exa 适合「先摘要再跳原文」。",
+      "notIdealFor": "离线内网、或对网页抓取有严格合规限制的环境。",
+      "compareHint": "点进每一条引用核对上下文；财经医药等场景务必二次验证。",
+      "checklistItems": [
+        "警惕付费墙摘要误差",
+        "记录检索时间与来源URL",
+        "团队共享注意版权"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Exa 的答案可靠吗？",
+          "body": "检索增强类答案应视为起点而非终稿；请阅读原文并交叉比对权威来源。Exa 的抓取范围以官方说明为准。"
+        },
+        {
+          "heading": "研究型 AI 与传统搜索如何配合？",
+          "body": "可用 AI 做速览与关键词扩展，用传统搜索做精确站点与文件类型检索，两者互补。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Citation-oriented answers—Exa helps skim sources before you open originals.",
+      "notIdealFor": "Air-gapped research without approved retrieval channels.",
+      "compareHint": "Open citations; watch paywall misreads; verify market/legal/medical facts.",
+      "checklistItems": [
+        "Archive URLs and timestamps",
+        "Blend with classic search operators",
+        "Respect copyright"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "How trustworthy is Exa?",
+          "body": "Treat AI answers as starting points; verify with primary documents. Crawl coverage is defined by the vendor."
+        },
+        {
+          "heading": "Pairing research AI with classic search",
+          "body": "Use assistants for summaries and query expansion, then use search for precise site: filters and file types."
+        }
+      ]
+    }
+  },
+  "you-com": {
+    "zh-CN": {
+      "suitableFor": "需要引用或片段溯源的研究型问答；You.com 适合「先摘要再跳原文」。",
+      "notIdealFor": "离线内网、或对网页抓取有严格合规限制的环境。",
+      "compareHint": "点进每一条引用核对上下文；财经医药等场景务必二次验证。",
+      "checklistItems": [
+        "警惕付费墙摘要误差",
+        "记录检索时间与来源URL",
+        "团队共享注意版权"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "You.com 的答案可靠吗？",
+          "body": "检索增强类答案应视为起点而非终稿；请阅读原文并交叉比对权威来源。You.com 的抓取范围以官方说明为准。"
+        },
+        {
+          "heading": "研究型 AI 与传统搜索如何配合？",
+          "body": "可用 AI 做速览与关键词扩展，用传统搜索做精确站点与文件类型检索，两者互补。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Citation-oriented answers—You.com helps skim sources before you open originals.",
+      "notIdealFor": "Air-gapped research without approved retrieval channels.",
+      "compareHint": "Open citations; watch paywall misreads; verify market/legal/medical facts.",
+      "checklistItems": [
+        "Archive URLs and timestamps",
+        "Blend with classic search operators",
+        "Respect copyright"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "How trustworthy is You.com?",
+          "body": "Treat AI answers as starting points; verify with primary documents. Crawl coverage is defined by the vendor."
+        },
+        {
+          "heading": "Pairing research AI with classic search",
+          "body": "Use assistants for summaries and query expansion, then use search for precise site: filters and file types."
+        }
+      ]
+    }
+  },
+  "phind": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Phind 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Phind 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Phind 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Phind targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Phind train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "jina-ai": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；Jina AI 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Jina AI 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—Jina AI is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host Jina AI?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "mem0": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；Mem0 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Mem0 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—Mem0 is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host Mem0?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "comet-browser": {
+    "zh-CN": {
+      "suitableFor": "需要引用或片段溯源的研究型问答；Comet 适合「先摘要再跳原文」。",
+      "notIdealFor": "离线内网、或对网页抓取有严格合规限制的环境。",
+      "compareHint": "点进每一条引用核对上下文；财经医药等场景务必二次验证。",
+      "checklistItems": [
+        "警惕付费墙摘要误差",
+        "记录检索时间与来源URL",
+        "团队共享注意版权"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Comet 的答案可靠吗？",
+          "body": "检索增强类答案应视为起点而非终稿；请阅读原文并交叉比对权威来源。Comet 的抓取范围以官方说明为准。"
+        },
+        {
+          "heading": "研究型 AI 与传统搜索如何配合？",
+          "body": "可用 AI 做速览与关键词扩展，用传统搜索做精确站点与文件类型检索，两者互补。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Citation-oriented answers—Comet helps skim sources before you open originals.",
+      "notIdealFor": "Air-gapped research without approved retrieval channels.",
+      "compareHint": "Open citations; watch paywall misreads; verify market/legal/medical facts.",
+      "checklistItems": [
+        "Archive URLs and timestamps",
+        "Blend with classic search operators",
+        "Respect copyright"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "How trustworthy is Comet?",
+          "body": "Treat AI answers as starting points; verify with primary documents. Crawl coverage is defined by the vendor."
+        },
+        {
+          "heading": "Pairing research AI with classic search",
+          "body": "Use assistants for summaries and query expansion, then use search for precise site: filters and file types."
+        }
+      ]
+    }
+  },
+  "brave-leo": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；Brave Leo 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Brave Leo 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 Brave Leo 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—Brave Leo is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Brave Leo free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "raycast": {
+    "zh-CN": {
+      "suitableFor": "跨 SaaS 连接、定时任务、Webhook 编排；Raycast 适合 glue 工作流。",
+      "notIdealFor": "完全零运维且流程极度复杂的关键账务链路（需专门工程化）。",
+      "compareHint": "评估自托管 vs 云、错误重试、速率限制与供应商锁定。",
+      "checklistItems": [
+        "分环境管理密钥",
+        "为关键流加重试与告警",
+        "记录变更便于审计"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Raycast 和 Zapier 有什么区别？",
+          "body": "差异通常在连接器数量、自托管能力、定价模型与开发者体验。请对照官网连接器目录与计价说明。"
+        },
+        {
+          "heading": "自动化上线前必做什么？",
+          "body": "沙箱演练失败路径，确认幂等与补偿策略；生产再逐步放大流量。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "SaaS glue, schedules, webhooks—Raycast helps orchestrate integrations.",
+      "notIdealFor": "Mission-critical finance flows without engineering rigor.",
+      "compareHint": "Compare hosted vs self-managed, retries, rate limits, and lock-in.",
+      "checklistItems": [
+        "Isolate secrets per env",
+        "Add alerts for failures",
+        "Document changes"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Raycast vs other automation tools",
+          "body": "Differentiators include connector breadth, self-hosting, pricing, and developer UX—verify on official pages."
+        },
+        {
+          "heading": "Before shipping automations",
+          "body": "Rehearse failure modes, idempotency, and compensating transactions before scaling load."
+        }
+      ]
+    }
+  },
+  "alfred": {
+    "zh-CN": {
+      "suitableFor": "跨 SaaS 连接、定时任务、Webhook 编排；Alfred 适合 glue 工作流。",
+      "notIdealFor": "完全零运维且流程极度复杂的关键账务链路（需专门工程化）。",
+      "compareHint": "评估自托管 vs 云、错误重试、速率限制与供应商锁定。",
+      "checklistItems": [
+        "分环境管理密钥",
+        "为关键流加重试与告警",
+        "记录变更便于审计"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Alfred 和 Zapier 有什么区别？",
+          "body": "差异通常在连接器数量、自托管能力、定价模型与开发者体验。请对照官网连接器目录与计价说明。"
+        },
+        {
+          "heading": "自动化上线前必做什么？",
+          "body": "沙箱演练失败路径，确认幂等与补偿策略；生产再逐步放大流量。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "SaaS glue, schedules, webhooks—Alfred helps orchestrate integrations.",
+      "notIdealFor": "Mission-critical finance flows without engineering rigor.",
+      "compareHint": "Compare hosted vs self-managed, retries, rate limits, and lock-in.",
+      "checklistItems": [
+        "Isolate secrets per env",
+        "Add alerts for failures",
+        "Document changes"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Alfred vs other automation tools",
+          "body": "Differentiators include connector breadth, self-hosting, pricing, and developer UX—verify on official pages."
+        },
+        {
+          "heading": "Before shipping automations",
+          "body": "Rehearse failure modes, idempotency, and compensating transactions before scaling load."
+        }
+      ]
+    }
+  },
+  "loom": {
+    "zh-CN": {
+      "suitableFor": "远程工作坊、评审墙、路线草图与共创画布；Loom 适合需要「一起看见」的讨论。",
+      "notIdealFor": "纯离线协作、或组织禁止使用境外白板服务的场景。",
+      "compareHint": "关注并发编辑、访客权限、导出与 SSO；可与项目管理工具链组合使用。",
+      "checklistItems": [
+        "梳理内外部协作边界",
+        "敏感内容打码后再上板",
+        "定期导出归档防丢数据"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Loom 能替代线下白板吗？",
+          "body": "多数在线白板可支撑分布式头脑风暴与评审，但实时性与网络质量有关。Loom 的具体协作人数与功能以官网说明为准。"
+        },
+        {
+          "heading": "团队白板选型要看什么？",
+          "body": "权限粒度、访客策略、导出格式、与企业身份目录集成是关键。可先在本分类页浏览多款产品，再按合规要求缩小范围。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Remote workshops, review walls, roadmaps—Loom fits whenever the team needs a shared visual surface.",
+      "notIdealFor": "Offline-only collaboration or orgs that block hosted whiteboards.",
+      "compareHint": "Compare guest access, exports, SSO, and concurrent editor limits.",
+      "checklistItems": [
+        "Classify internal vs external sharing",
+        "Redact sensitive assets",
+        "Export backups regularly"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can Loom replace a physical whiteboard?",
+          "body": "Hosted boards work for distributed sessions; quality depends on latency and features. Check official docs for limits on guests or objects."
+        },
+        {
+          "heading": "How should teams evaluate whiteboard tools?",
+          "body": "Start with permissions, exports, and directory integrations. Browse this category for alternates, then validate compliance with IT."
+        }
+      ]
+    }
+  },
+  "riverside": {
+    "zh-CN": {
+      "suitableFor": "配音、播客粗剪、会议转写与生成式配乐试验；Riverside 面向音频内容生产。",
+      "notIdealFor": "广播级母带或复杂杜比全景声混音仍以专业 DAW 流程为准。",
+      "compareHint": "对照语种、延迟、音色库克隆政策与商用授权。",
+      "checklistItems": [
+        "对外发布读授权与水印要求",
+        "存证生成批次与参数",
+        "高价值内容走法务审听"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Riverside 的语音可以用于商业项目吗？",
+          "body": "取决于套餐与声库协议；部分声音禁止二次分发或要求署名。以官网最新条款为准。"
+        },
+        {
+          "heading": "会议转写要注意隐私吗？",
+          "body": "涉及客户或员工对话时，先确认合规与留存政策，再做云上传或本地处理选择。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Voiceovers, transcripts, generative music sketches—Riverside helps audio creatives move faster.",
+      "notIdealFor": "Broadcast mastering without a traditional DAW pipeline.",
+      "compareHint": "Check languages, latency, voice-clone rules, and commercial licenses.",
+      "checklistItems": [
+        "Read redistribution rules",
+        "Log generations",
+        "Legal listen for premium releases"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I use Riverside audio commercially?",
+          "body": "Plans and voice packs set the rules—including attribution or redistribution bans. Verify on the official site."
+        },
+        {
+          "heading": "Privacy for meeting transcription",
+          "body": "Confirm HR/legal policies before uploading customer or employee audio; consider on-device options when required."
+        }
+      ]
+    }
+  },
+  "napkin-ai": {
+    "zh-CN": {
+      "suitableFor": "界面视觉、品牌模板与演示成稿；Napkin AI 适合设计与演示交叉场景。",
+      "notIdealFor": "大型印刷拼版与长篇幅排版仍以专业排版软件为主。",
+      "compareHint": "对照设计系统同步、组件库与交付给开发的标注链路。",
+      "checklistItems": [
+        "统一设计令牌与命名",
+        "导出前检查字体授权",
+        "与前端对齐断点与状态"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Napkin AI 能做品牌设计系统吗？",
+          "body": "视产品而定：有的强在画布与组件，有的在演示叙事。请以官网功能清单为准并与设计负责人评估。"
+        },
+        {
+          "heading": "设计协作常见坑？",
+          "body": "组件过期不删、命名混乱、与设计令牌脱节。建立 owner 与过期策略能减少返工。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Visual design plus polished decks—Napkin AI spans design/presentation workflows.",
+      "notIdealFor": "Long-print composing—dedicated layout apps may still win.",
+      "compareHint": "Check design-token sync, libraries, and handoff clarity.",
+      "checklistItems": [
+        "Align tokens with engineering",
+        "Confirm font licensing",
+        "Define responsive states"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can Napkin AI host a design system?",
+          "body": "Capabilities vary—some excel at components, others at storytelling decks. Read feature lists and test with designers."
+        },
+        {
+          "heading": "Design ops pitfalls",
+          "body": "Stale components and unclear naming slow teams; assign owners and sunset rules early."
+        }
+      ]
+    }
+  },
+  "tome": {
+    "zh-CN": {
+      "suitableFor": "长篇小说草稿、营销文案、演讲逐字稿与幻灯片大纲；可将 Tome 与同类写作/演示工具对照。",
+      "notIdealFor": "强合规禁外发环境、必须离线锁死的合同审阅，或完全不想依赖云端的场景。",
+      "compareHint": "同页分类下可打开其它写作/演示产品比对导出格式、模板库与团队权限。",
+      "checklistItems": [
+        "对外发布前核对事实与品牌用词",
+        "确认商用/团队版的数据留存策略",
+        "长文档建议分段保存与版本管理"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Tome 适合写什么类型内容？",
+          "body": "Tome 面向写作与演示类场景，可用于文稿、摘要或 slide 叙事起草。具体模板、字数上限与价格以官网为准；重要稿件建议人工终校。"
+        },
+        {
+          "heading": "写作类 AI 工具怎么选？",
+          "body": "先区分营销短文、长报告与幻灯片三条需求，再看与现有办公套件、品牌模板是否兼容。本站同类工具内链便于横向比较，最终请在各官网核实条款。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Drafting long copy, marketing lines, speaker notes, and deck outlines—compare Tome with other writing/deck tools on this site.",
+      "notIdealFor": "Strict no-cloud policies, offline-only legal review, or workflows that cannot use hosted assistants.",
+      "compareHint": "Open sibling tools in this category to compare export formats, templates, and team permissions.",
+      "checklistItems": [
+        "Fact-check and enforce brand voice before shipping",
+        "Read retention policies for business tiers",
+        "Version long documents in manageable chunks"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "What is Tome used for?",
+          "body": "Tome targets writing and presentation workflows—drafts, summaries, or narrative slides. Limits, templates, and pricing are defined on the official site; keep humans in the loop for critical copy."
+        },
+        {
+          "heading": "How do I pick a writing AI?",
+          "body": "Separate marketing snippets, long reports, and slide storytelling. Check office-suite fit and brand templates. Use in-category links here, then confirm policies on each vendor site."
+        }
+      ]
+    }
+  },
+  "spline": {
+    "zh-CN": {
+      "suitableFor": "界面视觉、品牌模板与演示成稿；Spline 适合设计与演示交叉场景。",
+      "notIdealFor": "大型印刷拼版与长篇幅排版仍以专业排版软件为主。",
+      "compareHint": "对照设计系统同步、组件库与交付给开发的标注链路。",
+      "checklistItems": [
+        "统一设计令牌与命名",
+        "导出前检查字体授权",
+        "与前端对齐断点与状态"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Spline 能做品牌设计系统吗？",
+          "body": "视产品而定：有的强在画布与组件，有的在演示叙事。请以官网功能清单为准并与设计负责人评估。"
+        },
+        {
+          "heading": "设计协作常见坑？",
+          "body": "组件过期不删、命名混乱、与设计令牌脱节。建立 owner 与过期策略能减少返工。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Visual design plus polished decks—Spline spans design/presentation workflows.",
+      "notIdealFor": "Long-print composing—dedicated layout apps may still win.",
+      "compareHint": "Check design-token sync, libraries, and handoff clarity.",
+      "checklistItems": [
+        "Align tokens with engineering",
+        "Confirm font licensing",
+        "Define responsive states"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can Spline host a design system?",
+          "body": "Capabilities vary—some excel at components, others at storytelling decks. Read feature lists and test with designers."
+        },
+        {
+          "heading": "Design ops pitfalls",
+          "body": "Stale components and unclear naming slow teams; assign owners and sunset rules early."
+        }
+      ]
+    }
+  },
+  "meshy": {
+    "zh-CN": {
+      "suitableFor": "界面视觉、品牌模板与演示成稿；Meshy 适合设计与演示交叉场景。",
+      "notIdealFor": "大型印刷拼版与长篇幅排版仍以专业排版软件为主。",
+      "compareHint": "对照设计系统同步、组件库与交付给开发的标注链路。",
+      "checklistItems": [
+        "统一设计令牌与命名",
+        "导出前检查字体授权",
+        "与前端对齐断点与状态"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Meshy 能做品牌设计系统吗？",
+          "body": "视产品而定：有的强在画布与组件，有的在演示叙事。请以官网功能清单为准并与设计负责人评估。"
+        },
+        {
+          "heading": "设计协作常见坑？",
+          "body": "组件过期不删、命名混乱、与设计令牌脱节。建立 owner 与过期策略能减少返工。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Visual design plus polished decks—Meshy spans design/presentation workflows.",
+      "notIdealFor": "Long-print composing—dedicated layout apps may still win.",
+      "compareHint": "Check design-token sync, libraries, and handoff clarity.",
+      "checklistItems": [
+        "Align tokens with engineering",
+        "Confirm font licensing",
+        "Define responsive states"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can Meshy host a design system?",
+          "body": "Capabilities vary—some excel at components, others at storytelling decks. Read feature lists and test with designers."
+        },
+        {
+          "heading": "Design ops pitfalls",
+          "body": "Stale components and unclear naming slow teams; assign owners and sunset rules early."
+        }
+      ]
+    }
+  },
+  "manus": {
+    "zh-CN": {
+      "suitableFor": "日常问答、rewrite、轻量代码与学习计划；Manus 属于通用助手型产品。",
+      "notIdealFor": "必须离线、必须单一厂商零绑定、或强审计闭环的自动化。",
+      "compareHint": "用相同 prompt 在少数候选间 A/B；关注上下文长度、联网与地区可用性。",
+      "checklistItems": [
+        "核对模型档位与价格",
+        "敏感内容阅读隐私政策",
+        "重要输出多方验证"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Manus 免费版和付费版差在哪里？",
+          "body": "通常差异在模型版本、速率、上下文长度与高级功能。具体以 Manus 官网定价页为准，且可能随时间调整。"
+        },
+        {
+          "heading": "国内/国外大模型怎么选？",
+          "body": "结合数据合规、网络可用性、中文效果与生态集成。可在本分类页横向打开多款产品页面比较简介与官网链接。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "General Q&A, rewriting, light coding, and study plans—Manus is a broad assistant.",
+      "notIdealFor": "Offline-only mandates or architectures that cannot depend on a hosted model.",
+      "compareHint": "Benchmark a few vendors with identical prompts; compare context, browsing, regions.",
+      "checklistItems": [
+        "Read tier limits and logging",
+        "Validate mission-critical outputs",
+        "Check data residency rules"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Manus free vs paid—what changes?",
+          "body": "Plans usually differ by model tier, rate limits, and context windows. Pricing pages are authoritative and change often."
+        },
+        {
+          "heading": "How do I choose between chat assistants?",
+          "body": "Start with compliance, language quality, integrations, and pricing. Browse peer tools in this category before deciding."
+        }
+      ]
+    }
+  },
+  "lovable": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Lovable 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Lovable 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Lovable 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Lovable targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Lovable train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "devin": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Devin 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Devin 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Devin 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Devin targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Devin train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "warp": {
+    "zh-CN": {
+      "suitableFor": "IDE 内补全、云开发环境、脚手架与代码解释；Warp 面向开发者日常提效。",
+      "notIdealFor": "禁止代码出境或未经安全评估的 CI 场景。",
+      "compareHint": "对照索引范围、隐私开关、价格与对 monorepo 的体验。",
+      "checklistItems": [
+        "限制上传目录与密钥路径",
+        "大 diff 坚持人工审",
+        "在分支上试验再合并"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Warp 会拿走我的代码吗？",
+          "body": "是否上传训练、保留多久因产品与设置而异。请阅读 Warp 安全/隐私文档并在团队内统一配置。"
+        },
+        {
+          "heading": "编程助手如何提高接受率？",
+          "body": "明确代码风格、测试要求与提交规范；把助手当「草稿生成器」，审查与测试仍由人负责。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "IDE assistance, cloud workspaces, codegen—Warp targets daily developer throughput.",
+      "notIdealFor": "Code exfiltration bans without enterprise guarantees.",
+      "compareHint": "Compare indexing scopes, privacy toggles, pricing, and monorepo performance.",
+      "checklistItems": [
+        "Exclude secrets from cloud index",
+        "Review large diffs",
+        "Experiment on branches"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Warp train on my code?",
+          "body": "Policies differ by plan and settings. Read the security page and enforce team-wide configuration."
+        },
+        {
+          "heading": "Getting real value from coding AI",
+          "body": "Define style, tests, and review expectations; treat suggestions as drafts, not merges."
+        }
+      ]
+    }
+  },
+  "zed": {
+    "zh-CN": {
+      "suitableFor": "自建服务、模型托管、框架集成与本地试验；Zed 偏工程与开发者。",
+      "notIdealFor": "只想零配置网页聊天、完全不愿意运维的用户。",
+      "compareHint": "评估许可证、硬件、观测与服务等级；供应链与权重来源要可查。",
+      "checklistItems": [
+        "确认许可证与再分发条款",
+        "记录依赖与镜像来源",
+        "生产环境加监控与回滚"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Zed 适合自托管吗？",
+          "body": "是否支持自托管取决于项目形态：有些是云服务，有些提供开源部署包。请查阅官方仓库与文档中的部署章节。"
+        },
+        {
+          "heading": "开发者平台选型要点？",
+          "body": "看 API 稳定性、配额、多云/私有化选项与社区活跃度。本分类内工具可逐项打开比较。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Self-hosting, model hubs, framework glue—Zed is aimed at builders.",
+      "notIdealFor": "Consumers who want zero-configuration chat only.",
+      "compareHint": "Inspect licenses, hardware needs, observability, and provenance statements.",
+      "checklistItems": [
+        "Track licenses and redistribution",
+        "Pin dependencies",
+        "Add monitoring for prod"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Can I self-host Zed?",
+          "body": "Some offerings are cloud-only; others ship containers or binaries. Read the deployment section in official docs."
+        },
+        {
+          "heading": "Evaluating developer platforms",
+          "body": "Compare SLAs, quotas, private cloud options, and community health using in-category links here."
+        }
+      ]
+    }
+  },
+  "granola": {
+    "zh-CN": {
+      "suitableFor": "团队 wiki、个人知识库、项目沉淀；Granola 适合需要可搜索「组织记忆」的场景。",
+      "notIdealFor": "强离线优先且不接受任何云同步的极致个人笔记流派。",
+      "compareHint": "试全文/向量混合搜索、权限模型与导出；评估留存与审计要求。",
+      "checklistItems": [
+        "划分工作区与对外空间",
+        "关键页面设定审核流程",
+        "定期导出备份"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Granola 和本地笔记（如 Obsidian）怎么选？",
+          "body": "云协作/wiki 赢在权限与共享；本地优先赢在文件可控。可按团队规模与合规二选一或混用。"
+        },
+        {
+          "heading": "企业知识库失败常见原因？",
+          "body": "权限混乱、命名不统一、没有过期策略。上线前约定模板与 owner，比盲目堆功能更重要。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Team wikis and searchable knowledge—Granola helps retain organizational memory.",
+      "notIdealFor": "Strict local-first workflows that reject cloud sync entirely.",
+      "compareHint": "Test search quality, permissions, exports, retention, and audit trails.",
+      "checklistItems": [
+        "Separate internal vs external spaces",
+        "Add review on critical pages",
+        "Back up exports"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Granola vs local-first notes",
+          "body": "Hosted wikis excel at permissions; local editors excel at file control. Mixing both is common."
+        },
+        {
+          "heading": "Why knowledge bases stall",
+          "body": "Unclear ownership and naming hurt more than missing features—establish templates before scaling."
+        }
+      ]
     }
   }
 }

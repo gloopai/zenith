@@ -32,7 +32,9 @@
     "example": "Пример",
     "scenarioClusters": "Сценарные подборки",
     "scenarioClustersHint": "Списки под популярные запросы с внутренними ссылками на карточки инструментов.",
-    "allClusters": "Все подборки"
+    "allClusters": "Все подборки",
+    "categoryHubTitle": "Категории",
+    "categoryHubHint": "Хабы с Q&A, списками инструментов и ссылками на официальные сайты."
   },
   "clusterPage": {
     "eyebrow": "Тематические хабы",

@@ -32,7 +32,9 @@
     "example": "उदाहरण",
     "scenarioClusters": "परिदृश्य क्लस्टर",
     "scenarioClustersHint": "खोज इरादे अनुसार टूल समूहीकृत—विवरण पृष्ठों पर आंतरिक लिंक।",
-    "allClusters": "सभी क्लस्टर"
+    "allClusters": "सभी क्लस्टर",
+    "categoryHubTitle": "श्रेणी से ब्राउज़ करें",
+    "categoryHubHint": "FAQ अनुभाग, पूर्ण टूल सूची व आधिकारिक लिंक।"
   },
   "clusterPage": {
     "eyebrow": "विषय केंद्र",

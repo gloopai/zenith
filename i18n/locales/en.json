@@ -32,7 +32,9 @@
     "example": "Sample",
     "scenarioClusters": "Scenario clusters",
     "scenarioClustersHint": "Topic hubs with internal links into tool detail pages—useful for long-tail discovery.",
-    "allClusters": "All clusters"
+    "allClusters": "All clusters",
+    "categoryHubTitle": "Browse by category",
+    "categoryHubHint": "Editorial hubs with FAQ-style sections, full tool rosters, and links to every official site."
   },
   "clusterPage": {
     "eyebrow": "Topic hubs",
@@ -134,15 +136,15 @@
     "skillNotFound": "Skill not found"
   },
   "seo": {
-    "siteDescription": "Curated AI tools directory, practical guides, and an OpenClaw / AgentSkills catalog—compare assistants, builders, and agents in one place.",
-    "homeTitle": "AI tools directory, OpenClaw skills & guides",
-    "homeDescription": "Discover AI chat apps, coding assistants, media tools, and agents. Browse categories, read short guides, and explore OpenClaw skills with official docs links.",
+    "siteDescription": "AI tools directory with 15+ category hubs, deep tool pages (FAQs + checklists), and an OpenClaw / AgentSkills catalog—dense internal linking for discovery.",
+    "homeTitle": "AI tools directory — category hubs, deep pages & OpenClaw skills",
+    "homeDescription": "Category landing pages plus 100+ tool pages with suitability notes, checklists, and FAQ structured data. Explore scenario clusters, news, and AgentSkills—all with official links.",
     "navTitle": "AI tools — curated directory & category hubs",
     "navDescription": "Category landing pages plus search; each tool page links to related picks, breadcrumbs, and the official site for pricing and policies.",
     "newsTitle": "AI news, prompts & workflow guides",
     "newsDescription": "Practical AI articles: model choices, privacy habits, multimodal workflows, and agent skills—readable summaries with full posts.",
     "openclawTitle": "OpenClaw skills directory (AgentSkills)",
     "openclawDescription": "Explore OpenClaw skills from the official GitHub repo plus common custom examples—CLI/API integrations, SKILL.md, ClawHub, and documentation links.",
-    "ogHomeTitle": "Plunget — AI tools directory & OpenClaw skills"
+    "ogHomeTitle": "Plunget — Curated AI category hubs & tool guides"
   }
 }

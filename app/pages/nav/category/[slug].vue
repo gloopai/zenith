@@ -121,6 +121,20 @@ const itemListJsonLd = computed(() => ({
 
 const defaultOg = computed(() => `${siteOrigin.value}/og-default.png`)
 
+const faqJsonLd = computed(() => {
+  const blocks = payload.value.gscBlocks
+  if (!blocks?.length) return null
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: blocks.map((b) => ({
+      '@type': 'Question',
+      name: b.heading,
+      acceptedAnswer: { '@type': 'Answer', text: b.body },
+    })),
+  }
+})
+
 useSeoMeta(
   computed(() => ({
     title: payload.value.title,
@@ -140,9 +154,8 @@ useSeoMeta(
 )
 
 useHead(
-  computed(() => ({
-    link: [{ rel: 'canonical', href: canonical.value }],
-    script: [
+  computed(() => {
+    const scripts: { key: string; type: string; innerHTML: string }[] = [
       {
         key: `ldjson-category-bc-${payload.value.slug}`,
         type: 'application/ld+json',
@@ -153,7 +166,16 @@ useHead(
         type: 'application/ld+json',
         innerHTML: JSON.stringify(itemListJsonLd.value),
       },
-    ],
-  })),
+    ]
+    const faq = faqJsonLd.value
+    if (faq) {
+      scripts.push({
+        key: `ldjson-category-faq-${payload.value.slug}`,
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify(faq),
+      })
+    }
+    return { link: [{ rel: 'canonical', href: canonical.value }], script: scripts }
+  }),
 )
 </script>

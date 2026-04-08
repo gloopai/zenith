@@ -182,6 +182,20 @@ const breadcrumbJsonLd = computed(() => {
   }
 })
 
+const faqJsonLd = computed(() => {
+  const paragraphs = seoExtra.value?.gscParagraphs
+  if (!paragraphs?.length) return null
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: paragraphs.map((p) => ({
+      '@type': 'Question',
+      name: p.heading,
+      acceptedAnswer: { '@type': 'Answer', text: p.body },
+    })),
+  }
+})
+
 useSeoMeta(
   computed(() => ({
     title: `${tool.value.name} · ${t('toolPage.titleSuffix')}`,
@@ -201,9 +215,8 @@ useSeoMeta(
 )
 
 useHead(
-  computed(() => ({
-    link: [{ rel: 'canonical', href: canonical.value }],
-    script: [
+  computed(() => {
+    const scripts: { key: string; type: string; innerHTML: string }[] = [
       {
         key: `ldjson-tool-${tool.value.slug}`,
         type: 'application/ld+json',
@@ -214,7 +227,16 @@ useHead(
         type: 'application/ld+json',
         innerHTML: JSON.stringify(breadcrumbJsonLd.value),
       },
-    ],
-  })),
+    ]
+    const faq = faqJsonLd.value
+    if (faq) {
+      scripts.push({
+        key: `ldjson-tool-faq-${tool.value.slug}`,
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify(faq),
+      })
+    }
+    return { link: [{ rel: 'canonical', href: canonical.value }], script: scripts }
+  }),
 )
 </script>

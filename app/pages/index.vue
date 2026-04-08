@@ -87,6 +87,27 @@
       </section>
     </div>
 
+    <section v-if="categoryLinks.length" class="glass-card p-7 sm:p-8">
+      <div class="flex flex-col gap-4 border-b border-white/[0.06] pb-6 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <h2 class="text-lg font-semibold text-white">{{ t('home.categoryHubTitle') }}</h2>
+          <p class="mt-1.5 text-sm text-zinc-500">{{ t('home.categoryHubHint') }}</p>
+        </div>
+        <NuxtLink class="link-accent shrink-0 text-sm" :to="localePath('/nav')">{{ t('home.enterNav') }}</NuxtLink>
+      </div>
+      <div class="mt-6 flex flex-wrap gap-2">
+        <NuxtLink
+          v-for="c in categoryLinks"
+          :key="c.slug"
+          :to="localePath(`/nav/category/${c.slug}`)"
+          class="btn-pill inline-flex items-center gap-1.5 !no-underline"
+        >
+          <span>{{ c.label }}</span>
+          <span class="text-[10px] font-normal text-zinc-500">{{ c.count }}</span>
+        </NuxtLink>
+      </div>
+    </section>
+
     <section class="glass-card p-7 sm:p-8">
       <div class="flex flex-col gap-4 border-b border-white/[0.06] pb-6 sm:flex-row sm:items-start sm:justify-between">
         <div>
@@ -143,7 +164,7 @@
 </template>
 
 <script setup lang="ts">
-import type { ClusterSummary, NewsListItem, OpenClawSkill, Tool } from '~~/shared/types/site'
+import type { ClusterSummary, NavCategoryListItem, NewsListItem, OpenClawSkill, Tool } from '~~/shared/types/site'
 import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
@@ -155,6 +176,8 @@ const navSearchActionTemplate = computed(
   () => `${siteOrigin.value}${localePath('/nav')}?q={search_term_string}`,
 )
 
+const defaultOg = computed(() => `${siteOrigin.value}/og-default.png`)
+
 useSeoMeta(
   computed(() => ({
     title: t('seo.homeTitle'),
@@ -163,44 +186,13 @@ useSeoMeta(
     ogDescription: t('seo.homeDescription'),
     ogType: 'website',
     ogUrl: canonical.value,
+    ogImage: defaultOg.value,
+    ogImageWidth: 1200,
+    ogImageHeight: 630,
+    ogImageType: 'image/png',
     twitterTitle: t('seo.ogHomeTitle'),
     twitterDescription: t('seo.homeDescription'),
-  })),
-)
-
-const homeJsonLd = computed(() =>
-  JSON.stringify({
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'WebSite',
-        '@id': `${canonical.value}#website`,
-        url: canonical.value,
-        name: 'Plunget',
-        description: t('seo.siteDescription'),
-        inLanguage: locale.value.replace(/_/g, '-'),
-        publisher: { '@id': `${siteOrigin.value}/#organization` },
-        potentialAction: {
-          '@type': 'SearchAction',
-          target: navSearchActionTemplate.value,
-          'query-input': 'required name=search_term_string',
-        },
-      },
-      {
-        '@type': 'Organization',
-        '@id': `${siteOrigin.value}/#organization`,
-        name: 'Plunget',
-        url: siteOrigin.value,
-        logo: { '@type': 'ImageObject', url: `${siteOrigin.value}/icon.png` },
-      },
-    ],
-  }),
-)
-
-useHead(
-  computed(() => ({
-    link: [{ rel: 'canonical', href: canonical.value }],
-    script: [{ key: 'ldjson-home', type: 'application/ld+json', innerHTML: homeJsonLd.value }],
+    twitterImage: defaultOg.value,
   })),
 )
 
@@ -235,6 +227,67 @@ const { data: clustersRes } = await useAsyncData(
       query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
     }),
   { watch: [locale] },
+)
+const { data: catRes } = await useAsyncData(
+  () => `home-categories-${locale.value}`,
+  () =>
+    $fetch<{ categories: NavCategoryListItem[] }>('/api/nav/categories', {
+      query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
+    }),
+  { watch: [locale] },
+)
+
+const categoryLinks = computed(() => catRes.value?.categories ?? [])
+
+const homeJsonLd = computed(() => {
+  const cats = categoryLinks.value
+  const categoryItemList =
+    cats.length > 0
+      ? {
+          '@type': 'ItemList',
+          '@id': `${canonical.value}#tool-categories`,
+          name: t('home.categoryHubTitle'),
+          numberOfItems: cats.length,
+          itemListElement: cats.map((c, idx) => ({
+            '@type': 'ListItem',
+            position: idx + 1,
+            name: c.label,
+            url: `${siteOrigin.value}${localePath(`/nav/category/${c.slug}`)}`,
+          })),
+        }
+      : null
+  const graph = [
+    {
+      '@type': 'WebSite',
+      '@id': `${canonical.value}#website`,
+      url: canonical.value,
+      name: 'Plunget',
+      description: t('seo.siteDescription'),
+      inLanguage: locale.value.replace(/_/g, '-'),
+      publisher: { '@id': `${siteOrigin.value}/#organization` },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: navSearchActionTemplate.value,
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    {
+      '@type': 'Organization',
+      '@id': `${siteOrigin.value}/#organization`,
+      name: 'Plunget',
+      url: siteOrigin.value,
+      logo: { '@type': 'ImageObject', url: `${siteOrigin.value}/og-default.png` },
+    },
+  ]
+  if (categoryItemList) graph.push(categoryItemList)
+  return JSON.stringify({ '@context': 'https://schema.org', '@graph': graph })
+})
+
+useHead(
+  computed(() => ({
+    link: [{ rel: 'canonical', href: canonical.value }],
+    script: [{ key: 'ldjson-home', type: 'application/ld+json', innerHTML: homeJsonLd.value }],
+  })),
 )
 
 const featured = computed(() => {

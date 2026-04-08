@@ -32,7 +32,9 @@
     "example": "サンプル",
     "scenarioClusters": "シナリオ別まとめ",
     "scenarioClustersHint": "検索意図ごとにツールを束ね、詳細ページへ内部リンクします。",
-    "allClusters": "まとめ一覧"
+    "allClusters": "まとめ一覧",
+    "categoryHubTitle": "カテゴリ別に見る",
+    "categoryHubHint": "FAQ 形式の解説とツール一覧、公式サイトへの導線付き。"
   },
   "clusterPage": {
     "eyebrow": "トピックハブ",

@@ -32,7 +32,9 @@
     "example": "예시",
     "scenarioClusters": "시나리오 모음",
     "scenarioClustersHint": "검색 의도별로 도구를 묶고 상세 페이지로 연결합니다.",
-    "allClusters": "모든 모음"
+    "allClusters": "모든 모음",
+    "categoryHubTitle": "분류별 둘러보기",
+    "categoryHubHint": "FAQ형 설명·도구 목록·공식 사이트 링크를 한 페이지에."
   },
   "clusterPage": {
     "eyebrow": "토픽 허브",

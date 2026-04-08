@@ -32,7 +32,9 @@
     "example": "Ejemplo",
     "scenarioClusters": "Colecciones por escenario",
     "scenarioClustersHint": "Listas alineadas con búsquedas frecuentes y enlaces internos a cada ficha.",
-    "allClusters": "Ver todas"
+    "allClusters": "Ver todas",
+    "categoryHubTitle": "Explorar por categoría",
+    "categoryHubHint": "Hubs con preguntas frecuentes, listas completas y enlaces oficiales."
   },
   "clusterPage": {
     "eyebrow": "Hubs temáticos",
