@@ -3,6 +3,7 @@
     "tagline": "Directorio IA · Noticias",
     "home": "Inicio",
     "nav": "Herramientas",
+    "cluster": "Colecciones",
     "openclaw": "OpenClaw",
     "news": "Noticias",
     "exploreTools": "Explorar herramientas",
@@ -28,7 +29,22 @@
     "openclawSectionHint": "Paquetes compatibles con AgentSkills: oficiales y ejemplos personalizados, con enlaces a GitHub y documentación.",
     "allSkills": "Todas las habilidades",
     "official": "Oficial",
-    "example": "Ejemplo"
+    "example": "Ejemplo",
+    "scenarioClusters": "Colecciones por escenario",
+    "scenarioClustersHint": "Listas alineadas con búsquedas frecuentes y enlaces internos a cada ficha.",
+    "allClusters": "Ver todas"
+  },
+  "clusterPage": {
+    "eyebrow": "Hubs temáticos",
+    "title": "Colecciones por escenario",
+    "subtitle": "Listas curadas por intención de búsqueda; precios y términos en cada sitio oficial.",
+    "breadcrumb": "Colecciones",
+    "openclawCta": "Abrir índice de skills OpenClaw",
+    "toolListTitle": "Herramientas en esta colección",
+    "toolCount": "{count} entradas",
+    "missingToolsHint": "El catálogo puede haber cambiado—faltan algunas entradas.",
+    "emptyTools": "No hay herramientas resueltas ahora.",
+    "notFound": "Colección no encontrada"
   },
   "navPage": {
     "eyebrow": "Catálogo",
@@ -101,15 +117,15 @@
     "skillNotFound": "Habilidad no encontrada"
   },
   "seo": {
-    "siteDescription": "Directorio de herramientas IA y noticias: descubre productos y lee novedades.",
-    "homeTitle": "Inicio",
-    "homeDescription": "Plunget: herramientas IA y noticias. Explora en escritorio o móvil.",
-    "navTitle": "Directorio IA",
-    "navDescription": "Explora herramientas IA: categorías, búsqueda y fichas con enlaces externos.",
-    "newsTitle": "Noticias",
-    "newsDescription": "Noticias y opiniones sobre IA: artículos con resumen y texto completo.",
-    "openclawTitle": "Habilidades OpenClaw",
-    "openclawDescription": "Catálogo AgentSkills de OpenClaw: habilidades oficiales y ejemplos de nombres con enlaces.",
-    "ogHomeTitle": "Plunget"
+    "siteDescription": "Directorio curado de herramientas de IA, guías prácticas e índice OpenClaw / AgentSkills: chat, código, medios y agentes en un solo sitio.",
+    "homeTitle": "Directorio de herramientas IA, skills OpenClaw y guías",
+    "homeDescription": "Explora chatbots, asistentes de código, imagen/vídeo, automatización y agentes con filtros y búsqueda; lee notas breves y abre skills OpenClaw con enlaces a documentación oficial.",
+    "navTitle": "Lista de herramientas IA por categoría y caso de uso",
+    "navDescription": "Catálogo con categorías y búsqueda: escritura, desarrollo, imagen, vídeo e integraciones; cada ficha resume el producto y enlaza al sitio oficial.",
+    "newsTitle": "Noticias de IA y guías de prompts / flujos de trabajo",
+    "newsDescription": "Artículos prácticos: elección de modelos, privacidad, multimodal, LLM locales, OpenClaw y agentes—con resumen y texto completo.",
+    "openclawTitle": "Directorio de skills OpenClaw (AgentSkills)",
+    "openclawDescription": "Skills del repo oficial más ejemplos habituales de nombres personalizados: CLI/API, SKILL.md, ClawHub y enlaces a la documentación.",
+    "ogHomeTitle": "Plunget — herramientas IA y skills OpenClaw"
   }
 }

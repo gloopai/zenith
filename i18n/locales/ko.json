@@ -3,6 +3,7 @@
     "tagline": "AI 안내 · 뉴스",
     "home": "홈",
     "nav": "도구",
+    "cluster": "시나리오 모음",
     "openclaw": "OpenClaw",
     "news": "뉴스",
     "exploreTools": "도구 둘러보기",
@@ -28,7 +29,22 @@
     "openclawSectionHint": "AgentSkills 호환 팩: 공식 스킬과 예시, GitHub·문서 링크 포함.",
     "allSkills": "모든 스킬",
     "official": "공식",
-    "example": "예시"
+    "example": "예시",
+    "scenarioClusters": "시나리오 모음",
+    "scenarioClustersHint": "검색 의도별로 도구를 묶고 상세 페이지로 연결합니다.",
+    "allClusters": "모든 모음"
+  },
+  "clusterPage": {
+    "eyebrow": "토픽 허브",
+    "title": "시나리오 모음",
+    "subtitle": "자주 검색되는 주제별 목록—요약은 여기, 요금·약관은 공식 사이트에서 확인하세요.",
+    "breadcrumb": "모음",
+    "openclawCta": "OpenClaw 스킬 색인 열기",
+    "toolListTitle": "이 모음의 도구",
+    "toolCount": "{count}개",
+    "missingToolsHint": "카탈로그 변경으로 일부 항목이 빠질 수 있습니다.",
+    "emptyTools": "도구를 불러오지 못했습니다.",
+    "notFound": "모음을 찾을 수 없습니다"
   },
   "navPage": {
     "eyebrow": "목차",
@@ -101,15 +117,15 @@
     "skillNotFound": "스킬을 찾을 수 없습니다"
   },
   "seo": {
-    "siteDescription": "AI 도구 안내와 뉴스 허브: 제품을 발견하고 업데이트를 읽습니다.",
-    "homeTitle": "홈",
-    "homeDescription": "Plunget: AI 도구와 뉴스. 데스크톱과 모바일에서 탐색하세요.",
-    "navTitle": "AI 도구 목록",
-    "navDescription": "AI 도구 탐색: 분류, 검색, 상세 페이지와 외부 링크.",
-    "newsTitle": "뉴스",
-    "newsDescription": "AI 뉴스와 관점: 요약과 본문이 있는 글 페이지.",
-    "openclawTitle": "OpenClaw 스킬",
-    "openclawDescription": "OpenClaw AgentSkills 카탈로그: 공식 스킬과 이름 예시, 링크 포함.",
-    "ogHomeTitle": "Plunget"
+    "siteDescription": "큐레이션된 AI 도구 목록·실무 가이드·OpenClaw/AgentSkills 스킬 허브. 챗봇, 코딩, 미디어, 에이전트까지 한곳에서 비교.",
+    "homeTitle": "AI 도구 디렉터리, OpenClaw 스킬 & 가이드",
+    "homeDescription": "채팅·코딩 어시스턴트, 이미지·영상, 자동화, 에이전트형 서비스를 분류·검색으로 탐색하고 짧은 가이드를 읽으며 공식 문서로 이어지는 OpenClaw 스킬을 확인하세요.",
+    "navTitle": "AI 도구 모음 — 용도·카테고리별 탐색",
+    "navDescription": "카테고리와 키워드 검색이 가능한 AI 제품 디렉터리. 글쓰기, 개발, 이미지, 영상 등 각 도구 요약과 공식 사이트 링크를 제공합니다.",
+    "newsTitle": "AI 뉴스와 프롬프트·워크플로 팁",
+    "newsDescription": "모델 선택, 프라이버시, 멀티모달, 로컬 LLM, OpenClaw·에이전트 운용 등 실무 중심 글. 요약과 전문을 모두 제공합니다.",
+    "openclawTitle": "OpenClaw 스킬 디렉터리 (AgentSkills)",
+    "openclawDescription": "공식 저장소 스킬과 자주 쓰이는 커스텀 예시 이름을 정리. CLI/API 연동, SKILL.md, ClawHub, 공식 문서로 연결합니다.",
+    "ogHomeTitle": "Plunget — AI 도구 & OpenClaw 스킬"
   }
 }

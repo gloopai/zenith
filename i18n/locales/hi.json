@@ -3,6 +3,7 @@
     "tagline": "AI निर्देशिका · समाचार",
     "home": "होम",
     "nav": "टूल्स",
+    "cluster": "क्लस्टर",
     "openclaw": "OpenClaw",
     "news": "समाचार",
     "exploreTools": "टूल देखें",
@@ -28,7 +29,22 @@
     "openclawSectionHint": "AgentSkills-संगत पैक: आधिकारिक स्किल्स व उदाहरण, GitHub व दस्तावेज़ लिंक।",
     "allSkills": "सभी स्किल्स",
     "official": "आधिकारिक",
-    "example": "उदाहरण"
+    "example": "उदाहरण",
+    "scenarioClusters": "परिदृश्य क्लस्टर",
+    "scenarioClustersHint": "खोज इरादे अनुसार टूल समूहीकृत—विवरण पृष्ठों पर आंतरिक लिंक।",
+    "allClusters": "सभी क्लस्टर"
+  },
+  "clusterPage": {
+    "eyebrow": "विषय केंद्र",
+    "title": "परिदृश्य क्लस्टर",
+    "subtitle": "लोग जो खोजते हैं उसके अनुसार सूचियाँ; मूल्य व नीति आधिकारिक साइट पर जाँचें।",
+    "breadcrumb": "क्लस्टर",
+    "openclawCta": "OpenClaw स्किल इंडेक्स खोलें",
+    "toolListTitle": "इस क्लस्टर में टूल",
+    "toolCount": "{count} चयन",
+    "missingToolsHint": "कैटलॉग बदलने से कुछ आइटम गायब हो सकते हैं।",
+    "emptyTools": "अभी कोई टूल नहीं मिला।",
+    "notFound": "क्लस्टर नहीं मिला"
   },
   "navPage": {
     "eyebrow": "सूची",
@@ -101,15 +117,15 @@
     "skillNotFound": "स्किल नहीं मिली"
   },
   "seo": {
-    "siteDescription": "AI टूल निर्देशिका व समाचार: उत्पाद खोजें, उद्योग अपडेट पढ़ें।",
-    "homeTitle": "होम",
-    "homeDescription": "Plunget: AI टूल और समाचार। डेस्कटॉप व मोबाइल पर ब्राउज़ करें।",
-    "navTitle": "AI निर्देशिका",
-    "navDescription": "AI टूल ब्राउज़ करें: श्रेणी, खोज, विवरण पृष्ठ व बाहरी लिंक।",
-    "newsTitle": "समाचार",
-    "newsDescription": "AI समाचार व विचार: सारांश व पूर्ण पाठ वाले लेख।",
-    "openclawTitle": "OpenClaw स्किल्स",
-    "openclawDescription": "OpenClaw AgentSkills कैटलॉग: आधिकारिक स्किल व नाम उदाहरण, लिंक सहित।",
-    "ogHomeTitle": "Plunget"
+    "siteDescription": "चुनी हुई AI टूल सूची, व्यावहारिक गाइड और OpenClaw / AgentSkills स्किल इंडेक्स—चैट, कोडिंग, मीडिया और एजेंट एक ही जगह।",
+    "homeTitle": "AI टूल डायरेक्टरी, OpenClaw स्किल व गाइड",
+    "homeDescription": "चैट, कोड सहायक, इमेज/वीडियो, ऑटोमेशन और एजेंट—श्रेणी व खोज से ढूँढें, छोटे लेख पढ़ें, OpenClaw आधिकारिक दस्तावेज़ व स्किल लिंक खोलें।",
+    "navTitle": "AI टूल सूची — उपयोग व श्रेणी के अनुसार",
+    "navDescription": "श्रेणी व कीवर्ड खोज वाली AI प्रोडक्ट डायरेक्टरी: लेखन, डेवलपमेंट, विज़ुअल आदि; संक्षिप्त विवरण व आधिकारिक साइट लिंक।",
+    "newsTitle": "AI समाचार व प्रॉम्प्ट/वर्कफ़्लो गाइड",
+    "newsDescription": "मॉडल चयन, गोपनीयता, मल्टीमोडल, लोकरल LLM, OpenClaw व एजेंट पर व्यावहारिक लेख—सार व पूरा पाठ।",
+    "openclawTitle": "OpenClaw स्किल डायरेक्टरी (AgentSkills)",
+    "openclawDescription": "आधिकारिक रिपो व आम कस्टम नाम उदाहरण—CLI/API, SKILL.md, ClawHub व डॉक लिंक।",
+    "ogHomeTitle": "Plunget — AI टूल व OpenClaw स्किल"
   }
 }

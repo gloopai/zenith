@@ -533,7 +533,7 @@ const skills = [...officialSkills, ...customSkills].sort((a, b) => {
   return a.slug.localeCompare(b.slug)
 })
 
-const payload = { skills }
+const payload = { _meta: { updatedAt: new Date().toISOString().slice(0, 10) }, skills }
 
 writeFileSync(join(root, 'data/openclaw-skills.json'), JSON.stringify(payload, null, 2) + '\n', 'utf-8')
 console.log('Wrote', skills.length, 'skills (official:', officialSkills.length, ', examples:', customSkills.length, ')')

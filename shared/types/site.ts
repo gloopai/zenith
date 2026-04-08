@@ -6,6 +6,8 @@ export interface Tool {
   category: string
   tags?: string[]
   featured?: boolean
+  /** ISO date YYYY-MM-DD — tool copy or pricing last reviewed; falls back to catalog meta in sitemap */
+  updatedAt?: string
 }
 
 export interface NewsListItem {
@@ -30,4 +32,17 @@ export interface OpenClawSkill {
   featured?: boolean
   /** 官方仓库内置为 true；教程/自定义示例为 false */
   official?: boolean
+}
+
+export interface ClusterSummary {
+  slug: string
+  title: string
+  description: string
+  updatedAt?: string
+  toolCount: number
+}
+
+export interface ClusterDetail extends ClusterSummary {
+  intro: string
+  tools: Tool[]
 }

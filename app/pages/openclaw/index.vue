@@ -110,14 +110,24 @@ import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
+const siteOrigin = useSiteOrigin()
+
+const canonical = computed(() => `${siteOrigin.value}${localePath('/openclaw')}`)
 
 useSeoMeta(
   computed(() => ({
     title: t('seo.openclawTitle'),
     description: t('seo.openclawDescription'),
-    ogTitle: `${t('seo.openclawTitle')} · Plunget`,
+    ogTitle: t('seo.openclawTitle'),
     ogDescription: t('seo.openclawDescription'),
     ogType: 'website',
+    ogUrl: canonical.value,
+  })),
+)
+
+useHead(
+  computed(() => ({
+    link: [{ rel: 'canonical', href: canonical.value }],
   })),
 )
 

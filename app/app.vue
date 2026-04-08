@@ -149,6 +149,31 @@ const { t, locale, locales } = useI18n()
 const localePath = useLocalePath()
 const switchLocalePath = useSwitchLocalePath()
 const i18nHead = useLocaleHead({ dir: true, lang: true, seo: true })
+const siteOrigin = useSiteOrigin()
+const defaultSocialImage = computed(() => `${siteOrigin.value}/icon.png`)
+
+useSeoMeta({
+  ogSiteName: 'Plunget',
+  ogLocale: computed(() => {
+    const map: Record<string, string> = {
+      en: 'en_US',
+      'zh-CN': 'zh_CN',
+      'zh-TW': 'zh_TW',
+      ja: 'ja_JP',
+      ko: 'ko_KR',
+      ru: 'ru_RU',
+      hi: 'hi_IN',
+      es: 'es_ES',
+    }
+    return map[locale.value] ?? 'en_US'
+  }),
+  ogImage: defaultSocialImage,
+  ogImageWidth: 512,
+  ogImageHeight: 512,
+  ogImageType: 'image/png',
+  ogImageAlt: 'Plunget',
+  twitterImage: defaultSocialImage,
+})
 
 useHead(() => ({
   htmlAttrs: {
@@ -184,6 +209,7 @@ function hreflangFor(loc: LocaleLink) {
 const navItems = computed(() => [
   { label: t('layout.home'), to: localePath('/') },
   { label: t('layout.nav'), to: localePath('/nav') },
+  { label: t('layout.cluster'), to: localePath('/cluster') },
   { label: t('layout.openclaw'), to: localePath('/openclaw') },
   { label: t('layout.news'), to: localePath('/news') },
 ])

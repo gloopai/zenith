@@ -75,9 +75,10 @@ const jsonLd = computed(() => ({
   name: tool.value.name,
   description: tool.value.description,
   applicationCategory: 'WebApplication',
+  applicationSubCategory: tool.value.category,
   operatingSystem: 'Web',
   url: canonical.value,
-  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  sameAs: tool.value.url,
 }))
 
 useSeoMeta(
@@ -95,8 +96,10 @@ useSeoMeta(
 
 useHead(
   computed(() => ({
+    link: [{ rel: 'canonical', href: canonical.value }],
     script: [
       {
+        key: `ldjson-tool-${tool.value.slug}`,
         type: 'application/ld+json',
         innerHTML: JSON.stringify(jsonLd.value),
       },

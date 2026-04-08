@@ -87,7 +87,7 @@
     "description": "Otter.ai: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
   },
   "cursor": {
-    "description": "Cursor: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+    "description": "Cursor (forked VS Code distro) is an AI‑native code editor from cursor.com: chat, tab completion, and agentic multi‑file edits live inside the IDE. This site only summarizes neutrally—models, privacy/code upload rules, and pricing change often; confirm on the official site before pasting proprietary code."
   },
   "github-copilot": {
     "description": "GitHub Copilot: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."

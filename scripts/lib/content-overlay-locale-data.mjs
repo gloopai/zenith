@@ -416,6 +416,16 @@ const HIGHLIGHTS = {
     hi: 'Baidu का चीनी चैट उत्पाद, खोज व Baidu सेवाओं से जुड़ा—सुविधाएँ व प्लान साइट पर देखें।',
     es: 'Producto de chat en chino de Baidu vinculado a la búsqueda y servicios Baidu—consulta funciones y planes en el sitio.',
   },
+  cursor: {
+    en: 'Cursor (forked VS Code distro) is an AI‑native code editor from cursor.com: chat, tab completion, and agentic multi‑file edits live inside the IDE. This site only summarizes neutrally—models, privacy/code upload rules, and pricing change often; confirm on the official site before pasting proprietary code.',
+    'zh-TW':
+      'Cursor（cursor.com）是以 VS Code 為基礎分支的 AI 原生程式編輯器：對話、補全與代理式多檔修改深度整合在 IDE 內。本站僅作第三方中立導覽；模型、隱私／代碼上傳政策與計價請以官網即時說明為準，勿將本頁視為官方承諾。',
+    ja: 'Cursor（cursor.com）は VS Code 系の AI ネイティブ IDE。チャット／補完／エージェント的な複数ファイル編集を一体提供。本サイトは中立紹介—モデル名・プライバシー・アップロード方針・料金は必ず公式で確認。',
+    ko: 'Cursor(cursor.com)는 VS Code 기반의 AI 네이티브 IDE. 채팅·자동완성·에이전트식 다중 파일 편집. 이 페이지는 중립 소개—모델·프라이버시·업로드 정책·요금은 공식 사이트 확인.',
+    ru: 'Cursor (cursor.com) — AI‑ориентированный форк VS Code: чат, дополнение и агентные правки по нескольким файлам. Здесь нейтральное резюме; модель, конфиденциальность и оплата — только на официальном сайте.',
+    hi: 'Cursor (cursor.com) VS Code‑आधारित AI IDE—चैट, पूर्णतया व बहु‑फ़ाइल एजेंट संपादन। यह पृष्ठ तटस्थ है; मॉडल, गोपनीयता व कीमत आधिकारिक साइट पर।',
+    es: 'Cursor (cursor.com): IDE basado en VS Code con chat, autocompletado y edición agéntica multiarchivo. Resumen neutral; modelo, privacidad y precios en el sitio oficial.',
+  },
   doubao: {
     en: 'ByteDance’s assistant hub spanning chat and creative tools; handy for templates and domestic integrations—compare sub-products for export needs.',
     'zh-TW': '位元組跳動旗下的 AI 助理與多應用矩陣，涵蓋對話與創作工具；範本與在地整合方便——有匯出需求請比較各子產品。',

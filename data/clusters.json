@@ -1,0 +1,239 @@
+{
+  "clusters": [
+    {
+      "slug": "coding-agents-2026",
+      "updatedAt": "2026-04-05",
+      "toolSlugs": ["cursor", "windsurf", "devin", "cline", "aider", "github-copilot", "sourcegraph-cody", "amazon-q", "replit", "bolt-new"],
+      "locales": {
+        "en": {
+          "title": "2026 coding agents & AI-native IDEs — compared by role",
+          "description": "Cursor, Windsurf, Devin-style agents, Copilot, and helpers for PR/issue workflows. Jump to each tool’s page for a neutral summary and the official signup link.",
+          "intro": "This cluster groups products people mean when they search “coding agent” or “AI IDE”: editor-native assistants, terminal-friendly workflows, and tools that try to carry a task from ticket to patch.\n\nNothing here is a ranking. Disclosure, pricing, model names, and data-retention rules change often—always verify on the vendor site before you paste proprietary code or connect org SSO."
+        },
+        "zh-CN": {
+          "title": "2026 编程代理与 AI IDE 列表 — 从编辑器到工单流转",
+          "description": "收录 Cursor、Windsurf、Devin、Copilot、Cline/Aider 等常见「AI 写代码 / 代理」入口，各条目可跳到详情页查看中立简介与官网链接。",
+          "intro": "本合集对应中文搜索里常出现的「编程 Agent」「AI 代码编辑器」「从需求到 PR」等需求：一类深度嵌在 IDE/终端里辅助补全与多文件修改，另一类更强调任务编排与自动化评审流程。\n\n本站不做排名，也不替代厂商说明：模型版本、是否上传代码训练、企业套餐与合规条款请以各产品官网为准；向工具粘贴核心业务代码前，务必先做数据与安全评估。"
+        },
+        "zh-TW": {
+          "title": "2026 程式代理與 AI IDE 清單 — 從編輯器到需求／PR 流程",
+          "description": "整理 Cursor、Windsurf、Devin、Copilot、Cline／Aider 等常見 AI 編程／代理入口，各卡可前往詳情與官網。",
+          "intro": "對應「AI 寫程式」「coding agent」「IDE 內助理」等搜尋意圖：有的強調編輯器內對話與多檔改寫，有的強調從工單到修訂稿的流程編排。\n\n本站不提供排名，亦非官方說明：模型名稱、資料是否用於訓練、企業方案與法遵請一律以官網為準。"
+        },
+        "ja": {
+          "title": "2026年：コーディングエージェント／AI IDE の整理リスト",
+          "description": "Cursor、Windsurf、Devin 系、Copilot、Cline/Aider などを一覧し、各公式サイトへ誘導します。",
+          "intro": "「AI IDE」「コーディングエージェント」「チケットからPRまで」といった需要向けに、エディタ組み込み型とタスクオーケストレーション寄りの製品をまとめました。\n\n順位付けではありません。モデル名・プライバシー・料金は都度公式で確認してください。"
+        },
+        "ko": {
+          "title": "2026 코딩 에이전트·AI IDE 모음",
+          "description": "Cursor, Windsurf, Devin, Copilot, Cline/Aider 등 개발 보조 도구를 묶어 공식 사이트로 안내합니다.",
+          "intro": "IDE·터미널 중심 보조와 이슈→PR 짝맞추기형 워크플로를 한눈에 보기 위한 클러스터입니다. 순위가 아니며 요금·데이터 정책은 항상 공식 문서를 확인하세요."
+        },
+        "ru": {
+          "title": "Агенты и AI‑IDE для кода в 2026 — список по ролям",
+          "description": "Cursor, Windsurf, Devin, Copilot, Cline/Aider и смежные продукты с переходом на официальные сайты.",
+          "intro": "Подборка под запросы вроде «AI IDE» и «coding agent»: редакторы с встроенным ассистентом и инструменты сквозных задач. Это не рейтинг — проверяйте цены и политику данных на сайте вендора."
+        },
+        "hi": {
+          "title": "2026: कोडिंग एजेंट और AI IDE — तुलनात्मक सूची",
+          "description": "Cursor, Windsurf, Devin, Copilot, Cline/AIDER जैसे टूल—प्रत्येक पृष्ठ पर संक्षिप्त विवरण व आधिकारिक लिंक।",
+          "intro": "यह क्लस्टर उन उत्पादों को इकट्ठा करता है जिन्हें लोग «AI code editor» या «coding agent» से ढूँढते हैं। यह रैंकिंग नहीं—कीमत व डेटा नीति हमेशा आधिकारिक साइट से जाँचें।"
+        },
+        "es": {
+          "title": "Agentes de código e IDEs con IA (2026) — lista por enfoque",
+          "description": "Cursor, Windsurf, Devin, Copilot, Cline/Aider: resumen neutral y enlace al sitio oficial en cada ficha.",
+          "intro": "Agrupa lo que la gente busca como «AI IDE» o «coding agent»: asistentes en el editor y flujos hacia PR. No es un ranking; precios y privacidad deben confirmarse en cada proveedor."
+        }
+      }
+    },
+    {
+      "slug": "chinese-ai-writing-chat",
+      "updatedAt": "2026-04-05",
+      "toolSlugs": ["kimi", "tongyi-qianwen", "ernie-bot", "doubao", "chatgpt", "deepseek", "jasper"],
+      "locales": {
+        "en": {
+          "title": "Chinese-friendly AI writing & chat assistants — compare before you commit",
+          "description": "Kimi, Tongyi, Ernie, Doubao, plus general assistants often used for Chinese copy. Each card links out to the vendor for models, quotas, and regional availability.",
+          "intro": "These tools show up in queries like “Chinese AI writing” or “国内大模型 对话”. Some are China-first products; others are global assistants with strong Chinese support.\n\nWe keep the tone neutral and link to official sites so you can check **training data claims**, **PIPL-style data handling**, and whether **API vs web** fits your workflow."
+        },
+        "zh-CN": {
+          "title": "中文 AI 写作与对话工具对比 — 如何快速定位需求",
+          "description": "覆盖月之暗面 Kimi、通义、文心、豆包及常用通用助手在中文场景下的典型用途；详情页通向官网以核对模型、额度与地区策略。",
+          "intro": "对应「中文 AI 写作」「国产大模型」「长文档总结」等长尾：有的偏长上下文与办公协作，有的偏营销文案或垂域行业模板。\n\n本站条目不讨论股票或“谁最强”，只提供可跳转的**中立摘要 + 官网**；涉及个人信息与重要合同文本，请先阅读各厂商隐私政策与数据处理说明。"
+        },
+        "zh-TW": {
+          "title": "中文 AI 寫作與對話工具 — 實務取向整理",
+          "description": "整理常被華語使用者拿來寫作、摘要、對話的產品與通用助手；實際方案與地區可用性以官網為準。",
+          "intro": "適合「中文長文」「備忘與摘要」「行銷文稿」等情境的比對入口。請以官方頁面確認模型名稱、帳號方案與資料處理方式。"
+        },
+        "ja": {
+          "title": "中国語向けAI執筆・チャット製品の入口",
+          "description": "Kimi、Tongyi、Ernie、Doubao などと汎用アシスタント。各公式サイトで地域と料金を確認してください。",
+          "intro": "中国語コンテキストでの執筆・要約ニーズ向けのまとめです。順位ではなく、用途に合わせて公式情報を見比べるためのハブとして使えます。"
+        },
+        "ko": {
+          "title": "중국어 중심 AI 글쓰기·챗 도구",
+          "description": "Kimi, 통의, Ernie, 두바오와 범용 어시스턴트. 지역·요금·쿼터는 공식 사이트에서 확인하세요.",
+          "intro": "중문 장문·요약·마케팅 카피 등 검색 의도에 가까운 제품을 묶었습니다. 순위가 아니라 빠른 비교용 목록입니다."
+        },
+        "ru": {
+          "title": "Китайские и китаецельные AI‑чаты для текста",
+          "description": "Kimi, Tongyi, Ernie, Doubao и универсальные помощники; официальные сайты — источник правды по регионам.",
+          "intro": "Подборка под китайский контент и «домашние» модели плюс глобальные сервисы с хорошей китайской поддержкой."
+       },
+        "hi": {
+          "title": "चीनी भाषा के लिए लेखन व चैट AI सहायक",
+          "description": "Kimi, Tongyi, Ernie, Doubao और सामान्य सहायक—क्षेत्र व नियम आधिकारिक साइट पर।",
+          "intro": "'Chinese AI writing' जैसे प्रश्नों से जुड़े उत्पाद; यह रैंकिंग नहीं, केवल त्वरित ढूँढ व आधिकारिक लिंक।"
+        },
+        "es": {
+          "title": "Asistentes de escritura y chat con enfoque en chino",
+          "description": "Kimi, Tongyi, Ernie, Doubao y asistentes generales; comprobar región y precios en cada web oficial.",
+          "intro": "Página puente para comparar productos populares en consultas de texto en chino; no es una clasificación."
+        }
+      }
+    },
+    {
+      "slug": "openclaw-workspace-automation",
+      "updatedAt": "2026-04-05",
+      "toolSlugs": ["notion", "obsidian", "n8n", "zapier", "cursor", "replit"],
+      "locales": {
+        "en": {
+          "title": "OpenClaw & your stack — knowledge bases, automation, dev workspaces",
+          "description": "Products that often appear next to OpenClaw skills (notes, workflows, IDE). Open the site-wide OpenClaw index for SKILL.md packs; use this list for vendor context.",
+          "intro": "**OpenClaw** (open-source agent runtime) connects CLIs, APIs, and local apps through AgentSkills-style `SKILL.md` folders. People searching “OpenClaw skills” usually also evaluate where notes live (Notion/Obsidian) and how tasks cross systems (n8n/Zapier).\n\nOn Plunget, the canonical skill listing lives under **/openclaw**. This cluster only highlights common adjacent tools—always confirm binaries, secrets handling, and enterprise policies on the official docs."
+        },
+        "zh-CN": {
+          "title": "OpenClaw 与知识库、自动化、研发环境 — 常见搭配工具",
+          "description": "围绕 OpenClaw / AgentSkills 常见工作流：笔记与知识库、自动化编排、IDE 与在线开发环境。完整技能请访问本站 /openclaw 频道。",
+          "intro": "**OpenClaw** 一类运行时通过 `SKILL.md` 把命令行、API 与本地应用接到代理里；检索「OpenClaw 技能」「AgentSkills」的用户，往往同时在选笔记底座（Notion／Obsidian）和跨系统自动化（n8n／Zapier）。\n\n本站 **/openclaw** 提供与上游仓库对齐的技能索引；本合集只列高频「隔壁栈」产品，**不接替官方安全与合规说明**——密钥与权限策略务必阅读 OpenClaw 与各 SaaS 官方文档。"
+        },
+        "zh-TW": {
+          "title": "OpenClaw 與筆記、自動化、開發環境 — 常見組合",
+          "description": "對應 AgentSkills／OpenClaw 實務：知識庫、流程編排、IDE。完整技能請到本站 /openclaw。",
+          "intro": "OpenClaw 以 `SKILL.md` 將 CLI／API 接到代理；實務上常搭配 Notion／Obsidian、n8n／Zapier 與 IDE。請以官方文件確認憑證與權限，本頁僅作導覽。"
+        },
+        "ja": {
+          "title": "OpenClaw 周辺：ナレッジ、自動化、開発環境",
+          "description": "Notion/Obsidian、n8n/Zapier、IDE などskillsと並列検討されがちな製品。 skills一覧は /openclaw。",
+          "intro": "OpenClaw は SKILL.md 経由でCLI/APIをエージェントに接続します。本ページはよく隣で比較されるツールの入口であり、セキュリティは各公式ドキュメントで確認してください。"
+        },
+        "ko": {
+          "title": "OpenClaw와 스택: 지식베이스·자동화·개발환경",
+          "description": "Notion/Obsidian, n8n/Zapier, IDE 등과 함께 검토되는 제품. 스킬 목록은 /openclaw.",
+          "intro": "OpenClaw는 SKILL.md로 CLI·API를 에이전트에 붙입니다. 인접 도구를 빠르게 열기 위한 허브이며, 보안은 공식 문서를 따르세요."
+        },
+        "ru": {
+          "title": "OpenClaw и стек: базы знаний, автоматизация, IDE",
+          "description": "Notion/Obsidian, n8n/Zapier, IDE — что часто сравнивают со сценариями AgentSkills. Полный список навыков — /openclaw.",
+          "intro": "OpenClaw подключает CLI/API через SKILL.md. Это не руководство по безопасности — проверяйте официальные доки."
+        },
+        "hi": {
+          "title": "OpenClaw के साथ नॉलेज बेस, ऑटोमेशन व IDE",
+          "description": "Notion/Obsidian, n8n/Zapier, Cursor/Replit जैसे पड़ोसी टूल। पूरी स्किल सूची /openclaw पर।",
+          "intro": "OpenClaw AgentSkills के आसपास आने वाली खोजों के लिए तटस्थ लिंक; सुरक्षा हमेशा आधिकारिक दस्तावेज़।"
+        },
+        "es": {
+          "title": "OpenClaw y el stack: notas, automatización, IDE",
+          "description": "Notion/Obsidian, n8n/Zapier, entornos de dev que suelen evaluarse con AgentSkills. Índice en /openclaw.",
+          "intro": "OpenClaw enlaza CLI/API vía SKILL.md. Esta lista es contextual; la seguridad está en la documentación oficial."
+        }
+      }
+    },
+    {
+      "slug": "generative-image-video-audio",
+      "updatedAt": "2026-04-05",
+      "toolSlugs": ["midjourney", "runway", "pika", "luma-dream-machine", "suno", "heygen", "elevenlabs"],
+      "locales": {
+        "en": {
+          "title": "Generative image, video & audio — creative stacks in one view",
+          "description": "Midjourney-style diffusion, motion tools, music, and voice APIs. Follow each link for current plans, commercial licenses, and watermarking rules.",
+          "intro": "These products map to searches like “AI video generator” or “text to song”. Capabilities overlap: some are pro-creator suites, others are API-first.\n\nCopyright, likeness, and export terms differ wildly—use the vendor’s policy pages before shipping assets to clients."
+        },
+        "zh-CN": {
+          "title": "生成式图像、视频与音乐 — 创作向工具合集",
+          "description": "文生图、视频生成、配乐与配音等方向的常见产品入口；商用授权与水印规则以各官网为准。",
+          "intro": "对应「AI 拍电影感视频」「文生音乐」「数字人配音」等需求。不同产品在订阅档位、可商用范围、是否支持 API 上差异很大，下单前请在官网核对条款。"
+        },
+        "zh-TW": {
+          "title": "生成式影像·影片·音訊 — 創作向工具",
+          "description": "影像、影片、音樂與聲音 API 等產品摘要與官網連結；商用請查各站授權。",
+          "intro": "整理擴散模型影片、配樂、配音等搜尋意圖。客戶交付前務必確認授权與肖像權政策。"
+        },
+        "ja": {
+          "title": "生成AI：画像・動画・音楽のツール一覧",
+          "description": "Midjourney系、動画、音楽、ボイスAPIなど。商用条件は各公式で。",
+          "intro": "クリエイター向けの検索をまとめたハブです。権利・ライセンスは必ずベンダー側で確認してください。"
+        },
+        "ko": {
+          "title": "생성형 이미지·영상·오디오 도구",
+          "description": "이미지, 영상, 음악, 음성 API 제품. 상업 이용 조건은 공식 사이트에서 확인.",
+          "intro": "크리에이터 검색 의도용 묶음; 저작권·초상권은 각 공급사 정책 준수."
+        },
+        "ru": {
+          "title": "Генеративные картинки, видео и аудио",
+          "description": "Midjourney, Runway, Pika, музыка, голос. Коммерческие условия — на сайтах вендоров.",
+          "intro": "Подборка под «AI video» и смежные запросы. Лицензии проверяйте отдельно."
+        },
+        "hi": {
+          "title": "जनरेटिव इमेज, वीडियो और ऑडियो टूल",
+          "description": "मिडजर्नी-स्टाइल, मोशन, संगीत, वॉइस API—व्यावसायिक शर्तें आधिकारिक साइट पर।",
+          "intro": "क्रिएटिव खोजों के लिए एक हब; क्लाइंट डिलीवरी से पहले लाइसेंस जाँचें।"
+        },
+        "es": {
+          "title": "Imagen, vídeo y audio generativos",
+          "description": "Difusión, vídeo, música y voz. Licencias comerciales en cada proveedor.",
+          "intro": "Hub para búsquedas creativas; no sustituye el asesoramiento legal del proveedor."
+        }
+      }
+    },
+    {
+      "slug": "flagship-chat-llm-compare",
+      "updatedAt": "2026-04-05",
+      "toolSlugs": ["chatgpt", "claude", "google-gemini", "deepseek", "perplexity", "microsoft-copilot"],
+      "locales": {
+        "en": {
+          "title": "Flagship chat LLMs — ChatGPT, Claude, Gemini & peers",
+          "description": "A tight list for “which AI chat should I use?” Pick a card, read the neutral blurb, then confirm models, regions, and pricing on the official site.",
+          "intro": "These are the products behind queries like **ChatGPT vs Claude**, **Gemini vs Copilot**, or “best AI for coding/writing”. Each has different defaults for context length, grounding/search, and enterprise controls.\n\nWe don’t run benchmarks—use this page as a launch pad and validate claims where you’ll actually deploy."
+        },
+        "zh-CN": {
+          "title": "旗舰对话大模型怎么选 — ChatGPT、Claude、Gemini 与国产/搜索向对手",
+          "description": "面向「ChatGPT 和 Claude 区别」「Gemini 适合谁」类问题：精简列表 + 官网直达，便于先看定位再核对模型名与地区。",
+          "intro": "本合集只覆盖**高曝光、常被一起比较**的几款：通用对话、搜索增强、以及与微软/Google 生态绑定的路线。**不输出结论性排名**；长上下文、联网检索、企业域控与价格均以官方页面为准。若要编程或代理工作流，可搭配「编程代理」合集与 /openclaw 技能索引。"
+        },
+        "zh-TW": {
+          "title": "旗艦對話模型速覽 — ChatGPT、Claude、Gemini 等",
+          "description": "常被放在一起的通用助理與搜尋向產品；實際模型與方案以官網為準。",
+          "intro": "協助釐清「該從哪個官方入口試起」，而非替代評測。企業治理與資料落地請另做資安評估。"
+        },
+        "ja": {
+          "title": "主要チャットLLM：ChatGPT・Claude・Gemini ほか",
+          "description": "汎用チャットと検索寄りの製品を短く整理。モデル名と料金は公式で確認。",
+          "intro": "「どれから試すか」の入口用。ベンチマークではなく、公式情報への導線です。"
+        },
+        "ko": {
+          "title": "대표 챗 LLM — ChatGPT, Claude, Gemini 등",
+          "description": "자주 비교되는 제품만 모았습니다. 모델·요금·지역은 공식 사이트 기준.",
+          "intro": "벤치마크 대신 빠른 진입용; 기업 규제 요구는 별도 검토."
+        },
+        "ru": {
+          "title": "Флагманские чат‑LLM: ChatGPT, Claude, Gemini и др.",
+          "description": "Короткий список для сравнения позиционирования; модели и цены — на официальных сайтах.",
+          "intro": "Точка входа, не рейтинг. Для агентских сценариев смотрите также список coding‑агентов."
+        },
+        "hi": {
+          "title": "प्रमुख चैट LLM — ChatGPT, Claude, Gemini आदि",
+          "description": "आधिकारिक पृष्ठों पर मॉडल व कीमत जाँचें; तटस्थ परिचय के लिए कार्ड खोलें।",
+          "intro": "तुलना शुरू करने का केंद्र बिंदु; बेंचमार्क नहीं।"
+        },
+        "es": {
+          "title": "LLM de chat principales — ChatGPT, Claude, Gemini…",
+          "description": "Lista corta para orientarse; modelos y precios en cada sitio oficial.",
+          "intro": "Punto de partida neutral; no sustituye pruebas propias ni informes de compliance."
+        }
+      }
+    }
+  ]
+}

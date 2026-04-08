@@ -112,19 +112,21 @@ useSeoMeta(
   computed(() => ({
     title: skill.value.name,
     description: skill.value.description.slice(0, 160),
-    ogTitle: `${skill.value.name} · ${t('openclawSkillPage.ogSuffix')}`,
+    ogTitle: `${skill.value.name} — ${t('openclawSkillPage.ogSuffix')}`,
     ogDescription: skill.value.description.slice(0, 200),
     ogType: 'article',
     ogUrl: canonical.value,
-    twitterTitle: `${skill.value.name} · ${t('openclawSkillPage.ogSuffix')}`,
+    twitterTitle: `${skill.value.name} — ${t('openclawSkillPage.ogSuffix')}`,
     twitterDescription: skill.value.description.slice(0, 200),
   })),
 )
 
 useHead(
   computed(() => ({
+    link: [{ rel: 'canonical', href: canonical.value }],
     script: [
       {
+        key: `ldjson-openclaw-${skill.value.slug}`,
         type: 'application/ld+json',
         innerHTML: JSON.stringify(jsonLd.value),
       },

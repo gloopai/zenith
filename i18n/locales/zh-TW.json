@@ -3,6 +3,7 @@
     "tagline": "AI 導覽 · 資訊",
     "home": "首頁",
     "nav": "導覽",
+    "cluster": "場景合集",
     "openclaw": "OpenClaw",
     "news": "資訊",
     "exploreTools": "探索工具",
@@ -28,7 +29,22 @@
     "openclawSectionHint": "AgentSkills 相容技能包：官方倉庫內建與自訂範例，附 GitHub 與文件連結。",
     "allSkills": "全部技能",
     "official": "官方",
-    "example": "範例"
+    "example": "範例",
+    "scenarioClusters": "場景合集",
+    "scenarioClustersHint": "依常見搜尋意圖整理的工具清單，並連回各工具詳情頁，利於長尾主題聚合。",
+    "allClusters": "查看全部合集"
+  },
+  "clusterPage": {
+    "eyebrow": "主題聚合",
+    "title": "場景合集",
+    "subtitle": "依搜尋意圖整理的工具列表；先讀中立摘要，再到官網確認方案與條款。",
+    "breadcrumb": "場景合集",
+    "openclawCta": "開啟 OpenClaw 技能索引",
+    "toolListTitle": "本合集收錄的工具",
+    "toolCount": "{count} 個條目",
+    "missingToolsHint": "目錄可能已調整，部分 slug 若下架將不會顯示。",
+    "emptyTools": "目前無法解析到可用工具。",
+    "notFound": "找不到此合集"
   },
   "navPage": {
     "eyebrow": "目錄",
@@ -101,15 +117,15 @@
     "skillNotFound": "找不到該技能"
   },
   "seo": {
-    "siteDescription": "AI 工具導覽與資訊匯整：發現好用的 AI 產品，閱讀產業更新。",
-    "homeTitle": "首頁",
-    "homeDescription": "Plunget：AI 工具導覽與資訊。探索產品、閱讀動態，桌機與行動裝置皆可使用。",
-    "navTitle": "AI 導覽",
-    "navDescription": "瀏覽 AI 相關工具與站點：依分類篩選、搜尋查找，並進入詳情了解產品與外連。",
-    "newsTitle": "資訊",
-    "newsDescription": "AI 相關資訊與觀點：獨立文章頁，含摘要與正文。",
-    "openclawTitle": "OpenClaw 技能",
-    "openclawDescription": "OpenClaw AgentSkills 技能目錄：官方倉庫內建技能與自訂命名範例，附說明與連結。",
-    "ogHomeTitle": "Plunget"
+    "siteDescription": "AI 工具導覽與實務導讀：整理對話、程式、影像影音、自動化等類別，並提供 OpenClaw / AgentSkills 技能索引與文件連結。",
+    "homeTitle": "AI 工具導覽、OpenClaw 技能與專題筆記",
+    "homeDescription": "集中瀏覽 AI 對話、程式助理、生成式媒體與代理型產品；支援分類與關鍵字搜尋、閱讀短篇指南，並查閱 OpenClaw 官方技能與社群示例。",
+    "navTitle": "AI 工具清單丨依場景與分類瀏覽",
+    "navDescription": "人工智慧產品目錄：可用分類與關鍵字搜尋，涵蓋寫作、開發、影像、影片、流程自動化等；詳情頁提供簡介與官網連結，方便試用與比較方案。",
+    "newsTitle": "AI 新聞與提示詞、工作流程筆記",
+    "newsDescription": "偏實務的 AI 文章：模型選擇、隱私習慣、多模態流程、本機與雲端語言模型、OpenClaw 與代理技能等，附摘要與全文。",
+    "openclawTitle": "OpenClaw 技能目錄（AgentSkills）",
+    "openclawDescription": "整理 OpenClaw 官方倉庫技能與常見自訂示例命名，涵蓋 CLI/API 整合、SKILL.md 結構、ClawHub 與官方文件入口。",
+    "ogHomeTitle": "Plunget — AI 工具導覽與 OpenClaw 技能"
   }
 }

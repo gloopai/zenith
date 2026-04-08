@@ -35,14 +35,24 @@ import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
+const siteOrigin = useSiteOrigin()
+
+const canonical = computed(() => `${siteOrigin.value}${localePath('/news')}`)
 
 useSeoMeta(
   computed(() => ({
     title: t('seo.newsTitle'),
     description: t('seo.newsDescription'),
-    ogTitle: `${t('seo.newsTitle')} · Plunget`,
+    ogTitle: t('seo.newsTitle'),
     ogDescription: t('seo.newsDescription'),
     ogType: 'website',
+    ogUrl: canonical.value,
+  })),
+)
+
+useHead(
+  computed(() => ({
+    link: [{ rel: 'canonical', href: canonical.value }],
   })),
 )
 

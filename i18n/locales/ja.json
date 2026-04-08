@@ -3,6 +3,7 @@
     "tagline": "AI ナビ · ニュース",
     "home": "ホーム",
     "nav": "ツール",
+    "cluster": "シナリオ集",
     "openclaw": "OpenClaw",
     "news": "ニュース",
     "exploreTools": "ツールを探す",
@@ -28,7 +29,22 @@
     "openclawSectionHint": "AgentSkills 互換パック：公式スキルとカスタム例、GitHub とドキュメントリンク付き。",
     "allSkills": "すべてのスキル",
     "official": "公式",
-    "example": "サンプル"
+    "example": "サンプル",
+    "scenarioClusters": "シナリオ別まとめ",
+    "scenarioClustersHint": "検索意図ごとにツールを束ね、詳細ページへ内部リンクします。",
+    "allClusters": "まとめ一覧"
+  },
+  "clusterPage": {
+    "eyebrow": "トピックハブ",
+    "title": "シナリオ別まとめ",
+    "subtitle": "よくある検索に合わせたリスト。概要はここ、料金と規約は各公式で確認。",
+    "breadcrumb": "まとめ",
+    "openclawCta": "OpenClaw スキル索引を開く",
+    "toolListTitle": "このまとめのツール",
+    "toolCount": "{count} 件",
+    "missingToolsHint": "カタログ変更で一部 slug が欠ける場合があります。",
+    "emptyTools": "現在ツールを解決できません。",
+    "notFound": "まとめが見つかりません"
   },
   "navPage": {
     "eyebrow": "カタログ",
@@ -101,15 +117,15 @@
     "skillNotFound": "スキルが見つかりません"
   },
   "seo": {
-    "siteDescription": "AI ツールのナビとニュース：製品を発見し業界の動きを読む。",
-    "homeTitle": "ホーム",
-    "homeDescription": "Plunget：AI ツールとニュース。PC とモバイルから探索できます。",
-    "navTitle": "AI ツール一覧",
-    "navDescription": "AI ツールを閲覧：カテゴリで絞り込み、検索、詳細ページから外部リンクへ。",
-    "newsTitle": "ニュース",
-    "newsDescription": "AI ニュースと視点：概要と本文がある記事ページ。",
-    "openclawTitle": "OpenClaw スキル",
-    "openclawDescription": "OpenClaw AgentSkills カタログ：公式スキルと命名例、リンク付き。",
-    "ogHomeTitle": "Plunget"
+    "siteDescription": "生成 AI ツールのキュレーション一覧と実践ガイド、OpenClaw / AgentSkills のスキル索引。チャット、開発、アセット制作、エージェントを横断的に比較。",
+    "homeTitle": "生成 AI ツール一覧・OpenClaw スキルとガイド",
+    "homeDescription": "チャット／コーディング支援、画像・動画、自動化、エージェント系ツールを分類と検索で探索。短い解説記事と、公式ドキュメントへつながる OpenClaw スキル一覧。",
+    "navTitle": "AI ツールを用途・カテゴリから探す",
+    "navDescription": "カテゴリ絞り込みとキーワード検索に対応した AI 製品ディレクトリ。ライティング、開発、画像、動画など各ツールの概要と公式サイトへの導線。",
+    "newsTitle": "AI ニュースとプロンプト・ワークフローのヒント",
+    "newsDescription": "モデル選定、プライバシー、マルチモーダル、ローカル LLM、OpenClaw／エージェント運用など実務向け記事。要約と全文で読める。",
+    "openclawTitle": "OpenClaw スキルディレクトリ（AgentSkills）",
+    "openclawDescription": "公式 GitHub スキルとコミュニティでよく見るカスタム例の索引。CLI・API 連想、SKILL.md、ClawHub、公式ドキュメントへの入り口。",
+    "ogHomeTitle": "Plunget — AI ツールと OpenClaw スキル"
   }
 }

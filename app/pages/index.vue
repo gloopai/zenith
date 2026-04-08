@@ -90,6 +90,28 @@
     <section class="glass-card p-7 sm:p-8">
       <div class="flex flex-col gap-4 border-b border-white/[0.06] pb-6 sm:flex-row sm:items-start sm:justify-between">
         <div>
+          <h2 class="text-lg font-semibold text-white">{{ t('home.scenarioClusters') }}</h2>
+          <p class="mt-1.5 text-sm text-zinc-500">{{ t('home.scenarioClustersHint') }}</p>
+        </div>
+        <NuxtLink class="link-accent shrink-0 text-sm" :to="localePath('/cluster')">{{ t('home.allClusters') }}</NuxtLink>
+      </div>
+      <ul class="mt-6 grid gap-3 sm:grid-cols-2">
+        <li v-for="c in clusterPreview" :key="c.slug">
+          <NuxtLink
+            :to="localePath(`/cluster/${c.slug}`)"
+            class="glass-panel group block rounded-xl p-4 transition hover:border-violet-500/20 hover:bg-white/[0.03]"
+          >
+            <div class="font-medium text-white group-hover:text-violet-100">{{ c.title }}</div>
+            <div class="mt-1 line-clamp-2 text-sm text-zinc-500">{{ c.description }}</div>
+            <div class="mt-2 text-[11px] text-zinc-600">{{ t('clusterPage.toolCount', { count: c.toolCount }) }}</div>
+          </NuxtLink>
+        </li>
+      </ul>
+    </section>
+
+    <section class="glass-card p-7 sm:p-8">
+      <div class="flex flex-col gap-4 border-b border-white/[0.06] pb-6 sm:flex-row sm:items-start sm:justify-between">
+        <div>
           <h2 class="text-lg font-semibold text-white">{{ t('home.openclawSectionTitle') }}</h2>
           <p class="mt-1.5 text-sm text-zinc-500">
             {{ t('home.openclawSectionHint') }}
@@ -121,11 +143,17 @@
 </template>
 
 <script setup lang="ts">
-import type { NewsListItem, OpenClawSkill, Tool } from '~~/shared/types/site'
+import type { ClusterSummary, NewsListItem, OpenClawSkill, Tool } from '~~/shared/types/site'
 import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
+const siteOrigin = useSiteOrigin()
+
+const canonical = computed(() => `${siteOrigin.value}${localePath('/')}`)
+const navSearchActionTemplate = computed(
+  () => `${siteOrigin.value}${localePath('/nav')}?q={search_term_string}`,
+)
 
 useSeoMeta(
   computed(() => ({
@@ -134,8 +162,45 @@ useSeoMeta(
     ogTitle: t('seo.ogHomeTitle'),
     ogDescription: t('seo.homeDescription'),
     ogType: 'website',
+    ogUrl: canonical.value,
     twitterTitle: t('seo.ogHomeTitle'),
     twitterDescription: t('seo.homeDescription'),
+  })),
+)
+
+const homeJsonLd = computed(() =>
+  JSON.stringify({
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        '@id': `${canonical.value}#website`,
+        url: canonical.value,
+        name: 'Plunget',
+        description: t('seo.siteDescription'),
+        inLanguage: locale.value.replace(/_/g, '-'),
+        publisher: { '@id': `${siteOrigin.value}/#organization` },
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: navSearchActionTemplate.value,
+          'query-input': 'required name=search_term_string',
+        },
+      },
+      {
+        '@type': 'Organization',
+        '@id': `${siteOrigin.value}/#organization`,
+        name: 'Plunget',
+        url: siteOrigin.value,
+        logo: { '@type': 'ImageObject', url: `${siteOrigin.value}/icon.png` },
+      },
+    ],
+  }),
+)
+
+useHead(
+  computed(() => ({
+    link: [{ rel: 'canonical', href: canonical.value }],
+    script: [{ key: 'ldjson-home', type: 'application/ld+json', innerHTML: homeJsonLd.value }],
   })),
 )
 
@@ -163,6 +228,14 @@ const { data: openclawRes } = await useAsyncData(
     }),
   { watch: [locale] },
 )
+const { data: clustersRes } = await useAsyncData(
+  () => `home-clusters-${locale.value}`,
+  () =>
+    $fetch<{ clusters: ClusterSummary[] }>('/api/clusters', {
+      query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
+    }),
+  { watch: [locale] },
+)
 
 const featured = computed(() => {
   const list = toolsRes.value?.tools ?? []
@@ -178,4 +251,6 @@ const openClawPreview = computed(() => {
   const base = featured.length ? featured : list.filter((s) => s.official)
   return base.slice(0, 6)
 })
+
+const clusterPreview = computed(() => (clustersRes.value?.clusters ?? []).slice(0, 4))
 </script>

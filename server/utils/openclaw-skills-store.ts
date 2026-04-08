@@ -5,6 +5,7 @@ import { readTaxonomy, localizeCategoryLabel, type TaxonomyFile } from './taxono
 
 interface SkillsFile {
   skills: OpenClawSkill[]
+  _meta?: { updatedAt?: string }
 }
 
 function applySkillPatches(
@@ -27,6 +28,12 @@ function applySkillPatches(
     category: localizeCategoryLabel(categoryKey, locale, tax),
     tags,
   }
+}
+
+export async function readOpenclawSkillsDatasetUpdatedAt(): Promise<string | undefined> {
+  const parsed = await readSiteDataJson<SkillsFile>('openclaw-skills.json')
+  const v = parsed._meta?.updatedAt
+  return typeof v === 'string' && v ? v : undefined
 }
 
 export async function readOpenclawSkillsLocalized(locale: string): Promise<OpenClawSkill[]> {

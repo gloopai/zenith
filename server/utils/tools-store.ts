@@ -4,6 +4,7 @@ import { readMergedJsonOverlays } from './i18n-overlays'
 import { readTaxonomy, localizeCategoryLabel } from './taxonomy-store'
 
 interface ToolsFile {
+  meta?: { catalogUpdatedAt?: string }
   tools: Tool[]
 }
 

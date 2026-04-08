@@ -55,6 +55,17 @@ const jsonLd = computed(() => ({
   headline: article.value.title,
   description: article.value.description,
   datePublished: article.value.date,
+  dateModified: article.value.date,
+  author: {
+    '@type': 'Organization',
+    name: 'Plunget',
+    url: siteOrigin.value,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Plunget',
+    logo: { '@type': 'ImageObject', url: `${siteOrigin.value}/icon.png` },
+  },
   mainEntityOfPage: { '@type': 'WebPage', '@id': canonical.value },
 }))
 
@@ -73,8 +84,10 @@ useSeoMeta(
 
 useHead(
   computed(() => ({
+    link: [{ rel: 'canonical', href: canonical.value }],
     script: [
       {
+        key: `ldjson-news-${article.value.slug}`,
         type: 'application/ld+json',
         innerHTML: JSON.stringify(jsonLd.value),
       },

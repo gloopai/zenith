@@ -78,14 +78,26 @@ import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
+const route = useRoute()
+const router = useRouter()
+const siteOrigin = useSiteOrigin()
+
+const canonical = computed(() => `${siteOrigin.value}${localePath('/nav')}`)
 
 useSeoMeta(
   computed(() => ({
     title: t('seo.navTitle'),
     description: t('seo.navDescription'),
-    ogTitle: `${t('seo.navTitle')} · Plunget`,
+    ogTitle: t('seo.navTitle'),
     ogDescription: t('seo.navDescription'),
     ogType: 'website',
+    ogUrl: canonical.value,
+  })),
+)
+
+useHead(
+  computed(() => ({
+    link: [{ rel: 'canonical', href: canonical.value }],
   })),
 )
 
@@ -107,7 +119,34 @@ const categories = computed(() => {
 })
 
 const selectedCategory = ref('')
-const query = ref('')
+const query = ref(String(route.query.q ?? ''))
+
+let searchUrlDebounce: ReturnType<typeof setTimeout> | undefined
+watch(query, (q) => {
+  if (import.meta.server) return
+  const next = trimQueryForUrl(q)
+  const current = String(route.query.q ?? '').trim()
+  if (next === current) return
+  if (searchUrlDebounce) clearTimeout(searchUrlDebounce)
+  searchUrlDebounce = setTimeout(() => {
+    const rq = { ...route.query }
+    if (next) rq.q = next
+    else delete rq.q
+    router.replace({ path: route.path, query: rq })
+  }, 350)
+})
+
+watch(
+  () => route.query.q,
+  (q) => {
+    const s = String(q ?? '').trim()
+    if (s !== query.value.trim()) query.value = s
+  },
+)
+
+function trimQueryForUrl(q: string) {
+  return q.trim().slice(0, 200)
+}
 
 const filtered = computed(() => {
   const q = query.value.trim().toLowerCase()

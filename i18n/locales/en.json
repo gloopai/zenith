@@ -3,6 +3,7 @@
     "tagline": "AI directory · News",
     "home": "Home",
     "nav": "Tools",
+    "cluster": "Clusters",
     "openclaw": "OpenClaw",
     "news": "News",
     "exploreTools": "Explore tools",
@@ -28,7 +29,22 @@
     "openclawSectionHint": "AgentSkills-compatible packs: official skills plus custom examples, with GitHub and docs links.",
     "allSkills": "All skills",
     "official": "Official",
-    "example": "Sample"
+    "example": "Sample",
+    "scenarioClusters": "Scenario clusters",
+    "scenarioClustersHint": "Topic hubs with internal links into tool detail pages—useful for long-tail discovery.",
+    "allClusters": "All clusters"
+  },
+  "clusterPage": {
+    "eyebrow": "Topic hubs",
+    "title": "Scenario clusters",
+    "subtitle": "Curated tool lists aligned with how people search—open neutral detail pages, then confirm pricing on the official site.",
+    "breadcrumb": "Clusters",
+    "openclawCta": "Open the OpenClaw skills index",
+    "toolListTitle": "Tools in this cluster",
+    "toolCount": "{count} picks",
+    "missingToolsHint": "The directory may have changed—some linked slugs are no longer present.",
+    "emptyTools": "No tools resolved for this cluster right now.",
+    "notFound": "Cluster not found"
   },
   "navPage": {
     "eyebrow": "Catalog",
@@ -101,15 +117,15 @@
     "skillNotFound": "Skill not found"
   },
   "seo": {
-    "siteDescription": "AI tools directory and news: discover products and read industry updates.",
-    "homeTitle": "Home",
-    "homeDescription": "Plunget: AI tools and news. Explore products and updates on desktop or mobile.",
-    "navTitle": "AI directory",
-    "navDescription": "Browse AI tools: filter by category, search, and open detail pages with outbound links.",
-    "newsTitle": "News",
-    "newsDescription": "AI news and perspectives: article pages with summaries and full text.",
-    "openclawTitle": "OpenClaw skills",
-    "openclawDescription": "OpenClaw AgentSkills catalog: built-in repo skills plus naming examples with links.",
-    "ogHomeTitle": "Plunget"
+    "siteDescription": "Curated AI tools directory, practical guides, and an OpenClaw / AgentSkills catalog—compare assistants, builders, and agents in one place.",
+    "homeTitle": "AI tools directory, OpenClaw skills & guides",
+    "homeDescription": "Discover AI chat apps, coding assistants, media tools, and agents. Browse categories, read short guides, and explore OpenClaw skills with official docs links.",
+    "navTitle": "AI tools list & categories — browse by use case",
+    "navDescription": "Search and filter an AI tools directory: writing, coding, image/video, automation, and more. Each page links to the official product for signup or pricing.",
+    "newsTitle": "AI news, prompts & workflow guides",
+    "newsDescription": "Practical AI articles: model choices, privacy habits, multimodal workflows, and agent skills—readable summaries with full posts.",
+    "openclawTitle": "OpenClaw skills directory (AgentSkills)",
+    "openclawDescription": "Explore OpenClaw skills from the official GitHub repo plus common custom examples—CLI/API integrations, SKILL.md, ClawHub, and documentation links.",
+    "ogHomeTitle": "Plunget — AI tools directory & OpenClaw skills"
   }
 }
