@@ -370,8 +370,6 @@
   },
   "meshy": {
     "description": "Meshy: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
-<<<<<<< Updated upstream
-=======
   },
   "manus": {
     "description": "General-purpose autonomous assistant product from Manus AI: delegates multi-step browser and research-style tasks behind a chat interface—check the site for task limits, regions, and data handling."
@@ -525,6 +523,5 @@
   },
   "pipecat": {
     "description": "Pipecat: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
->>>>>>> Stashed changes
   }
 }

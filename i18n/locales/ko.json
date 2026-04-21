@@ -29,9 +29,6 @@
     "openclawSectionHint": "AgentSkills 호환 팩: 공식 스킬과 예시, GitHub·문서 링크 포함.",
     "allSkills": "모든 스킬",
     "official": "공식",
-<<<<<<< Updated upstream
-    "example": "예시"
-=======
     "example": "예시",
     "scenarioClusters": "시나리오 모음",
     "scenarioClustersHint": "검색 의도별로 도구를 묶고 상세 페이지로 연결합니다.",
@@ -60,7 +57,6 @@
     "mcpListHint": "Claude / Cursor / Zed 등 MCP 클라이언트에 구성하면 에이전트가 외부 도구·데이터·실행 환경을 사용할 수 있습니다.",
     "mcpBadgeOfficial": "공식",
     "mcpBadgeCommunity": "커뮤니티"
->>>>>>> Stashed changes
   },
   "navPage": {
     "eyebrow": "목차",
@@ -134,18 +130,6 @@
     "mcpServerNotFound": "해당 MCP 서버를 찾을 수 없습니다"
   },
   "seo": {
-<<<<<<< Updated upstream
-    "siteDescription": "AI 도구 안내와 뉴스 허브: 제품을 발견하고 업데이트를 읽습니다.",
-    "homeTitle": "홈",
-    "homeDescription": "Plunget: AI 도구와 뉴스. 데스크톱과 모바일에서 탐색하세요.",
-    "navTitle": "AI 도구 목록",
-    "navDescription": "AI 도구 탐색: 분류, 검색, 상세 페이지와 외부 링크.",
-    "newsTitle": "뉴스",
-    "newsDescription": "AI 뉴스와 관점: 요약과 본문이 있는 글 페이지.",
-    "openclawTitle": "OpenClaw 스킬",
-    "openclawDescription": "OpenClaw AgentSkills 카탈로그: 공식 스킬과 이름 예시, 링크 포함.",
-    "ogHomeTitle": "Plunget"
-=======
     "siteDescription": "큐레이션된 AI 도구 목록·실무 가이드·OpenClaw/AgentSkills 스킬 허브. 챗봇, 코딩, 미디어, 에이전트까지 한곳에서 비교.",
     "homeTitle": "AI 도구 디렉터리, OpenClaw 스킬 & 가이드",
     "homeDescription": "채팅·코딩 어시스턴트, 이미지·영상, 자동화, 에이전트형 서비스를 분류·검색으로 탐색하고 짧은 가이드를 읽으며 공식 문서로 이어지는 OpenClaw 스킬을 확인하세요.",
@@ -195,6 +179,5 @@
     "noteCommunity": "커뮤니티 또는 예시 구현입니다. 학습과 빠른 검증에 적합하며, 운영 전에 유지보수 상태와 의존성, 데이터 정책을 평가하세요.",
     "upstreamFallback": "업스트림 팀",
     "ogSuffix": "MCP Server"
->>>>>>> Stashed changes
   }
 }

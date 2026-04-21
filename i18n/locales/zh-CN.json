@@ -29,9 +29,6 @@
     "openclawSectionHint": "AgentSkills 兼容技能包：官方仓库内置与自定义示例，附 GitHub 与文档链接。",
     "allSkills": "全部技能",
     "official": "官方",
-<<<<<<< Updated upstream
-    "example": "示例"
-=======
     "example": "示例",
     "scenarioClusters": "场景合集",
     "scenarioClustersHint": "按搜索意图整理的工具清单，内含指向各工具详情页的内链，利于长尾主题聚合。",
@@ -60,7 +57,6 @@
     "mcpListHint": "可在 Claude / Cursor / Zed 等 MCP 客户端配置后直接调用，用来给代理接上外部工具、数据源或执行环境。",
     "mcpBadgeOfficial": "官方",
     "mcpBadgeCommunity": "社区"
->>>>>>> Stashed changes
   },
   "navPage": {
     "eyebrow": "目录",
@@ -134,18 +130,6 @@
     "mcpServerNotFound": "未找到该 MCP 服务器"
   },
   "seo": {
-<<<<<<< Updated upstream
-    "siteDescription": "AI 工具导航与资讯聚合：发现好用的 AI 产品，阅读行业更新。",
-    "homeTitle": "首页",
-    "homeDescription": "Plunget：AI 工具导航与资讯。发现产品、阅读动态，桌面与移动端均可使用。",
-    "navTitle": "AI 导航",
-    "navDescription": "浏览 AI 相关工具与站点：按分类筛选、搜索查找，并进入详情了解产品与外链。",
-    "newsTitle": "资讯",
-    "newsDescription": "AI 相关资讯与观点：独立文章页，含摘要与正文。",
-    "openclawTitle": "OpenClaw 技能",
-    "openclawDescription": "OpenClaw AgentSkills 技能目录：官方仓库内置技能与自定义命名示例，附说明与链接。",
-    "ogHomeTitle": "Plunget"
-=======
     "siteDescription": "AI 工具目录：对话、编程、图像/视频、翻译、自动化等 15+ 分类落地页，附工具详解、常见问答与 OpenClaw / AgentSkills 技能索引，站内内链密集。",
     "homeTitle": "AI 工具大全丨分类落地页·工具详解·OpenClaw 技能",
     "homeDescription": "分类聚合页 + 百余款工具详情：适用场景、自检清单与检索向 Q&A（支持结构化数据展示）。另含场景合集、资讯与 AgentSkills 目录，直达官网试用与比价。",
@@ -195,6 +179,5 @@
     "noteCommunity": "本条为社区或示例实现，适合学习与快速验证；生产环境请评估维护状态、依赖链与数据合规。",
     "upstreamFallback": "上游团队",
     "ogSuffix": "MCP Server"
->>>>>>> Stashed changes
   }
 }

@@ -29,9 +29,6 @@
     "openclawSectionHint": "Paquetes compatibles con AgentSkills: oficiales y ejemplos personalizados, con enlaces a GitHub y documentación.",
     "allSkills": "Todas las habilidades",
     "official": "Oficial",
-<<<<<<< Updated upstream
-    "example": "Ejemplo"
-=======
     "example": "Ejemplo",
     "scenarioClusters": "Colecciones por escenario",
     "scenarioClustersHint": "Listas alineadas con búsquedas frecuentes y enlaces internos a cada ficha.",
@@ -60,7 +57,6 @@
     "mcpListHint": "Configúralos en Claude, Cursor o Zed (cualquier cliente MCP) para que el agente acceda a herramientas externas, datos y entornos de ejecución.",
     "mcpBadgeOfficial": "Oficial",
     "mcpBadgeCommunity": "Comunidad"
->>>>>>> Stashed changes
   },
   "navPage": {
     "eyebrow": "Catálogo",
@@ -134,18 +130,6 @@
     "mcpServerNotFound": "Servidor MCP no encontrado"
   },
   "seo": {
-<<<<<<< Updated upstream
-    "siteDescription": "Directorio de herramientas IA y noticias: descubre productos y lee novedades.",
-    "homeTitle": "Inicio",
-    "homeDescription": "Plunget: herramientas IA y noticias. Explora en escritorio o móvil.",
-    "navTitle": "Directorio IA",
-    "navDescription": "Explora herramientas IA: categorías, búsqueda y fichas con enlaces externos.",
-    "newsTitle": "Noticias",
-    "newsDescription": "Noticias y opiniones sobre IA: artículos con resumen y texto completo.",
-    "openclawTitle": "Habilidades OpenClaw",
-    "openclawDescription": "Catálogo AgentSkills de OpenClaw: habilidades oficiales y ejemplos de nombres con enlaces.",
-    "ogHomeTitle": "Plunget"
-=======
     "siteDescription": "Directorio curado de herramientas de IA, guías prácticas e índice OpenClaw / AgentSkills: chat, código, medios y agentes en un solo sitio.",
     "homeTitle": "Directorio de herramientas IA, skills OpenClaw y guías",
     "homeDescription": "Explora chatbots, asistentes de código, imagen/vídeo, automatización y agentes con filtros y búsqueda; lee notas breves y abre skills OpenClaw con enlaces a documentación oficial.",
@@ -195,6 +179,5 @@
     "noteCommunity": "Implementación comunitaria o de ejemplo — ideal para aprender y validar rápido. Evalúa mantenimiento, dependencias y políticas de datos antes de producción.",
     "upstreamFallback": "el equipo upstream",
     "ogSuffix": "MCP Server"
->>>>>>> Stashed changes
   }
 }

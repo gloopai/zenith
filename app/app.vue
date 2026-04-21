@@ -184,11 +184,8 @@ function hreflangFor(loc: LocaleLink) {
 const navItems = computed(() => [
   { label: t('layout.home'), to: localePath('/') },
   { label: t('layout.nav'), to: localePath('/nav') },
-<<<<<<< Updated upstream
-=======
   { label: t('layout.cluster'), to: localePath('/cluster') },
   { label: t('layout.mcp'), to: localePath('/mcp') },
->>>>>>> Stashed changes
   { label: t('layout.openclaw'), to: localePath('/openclaw') },
   { label: t('layout.news'), to: localePath('/news') },
 ])

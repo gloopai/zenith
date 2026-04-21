@@ -31,8 +31,6 @@ export interface OpenClawSkill {
   /** 官方仓库内置为 true；教程/自定义示例为 false */
   official?: boolean
 }
-<<<<<<< Updated upstream
-=======
 
 /** Model Context Protocol server directory entry. */
 export interface McpServer {
@@ -116,4 +114,3 @@ export interface NavCategoryListItem {
   label: string
   count: number
 }
->>>>>>> Stashed changes

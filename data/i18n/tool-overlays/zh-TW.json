@@ -370,8 +370,6 @@
   },
   "meshy": {
     "description": "Meshy：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
-<<<<<<< Updated upstream
-=======
   },
   "manus": {
     "description": "Manus AI 旗下的通用型自主助理：在對話介面後承接多步驟的瀏覽與研究型任務——任務限制、地區與資料處理請以官網為準。"
@@ -525,6 +523,5 @@
   },
   "pipecat": {
     "description": "Pipecat：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
->>>>>>> Stashed changes
   }
 }

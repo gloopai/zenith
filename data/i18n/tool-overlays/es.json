@@ -370,8 +370,6 @@
   },
   "meshy": {
     "description": "Meshy: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
-<<<<<<< Updated upstream
-=======
   },
   "manus": {
     "description": "Asistente autónomo de propósito general de Manus AI: delega tareas de navegación e investigación en varios pasos tras un chat—límites, regiones y datos en el sitio."
@@ -525,6 +523,5 @@
   },
   "pipecat": {
     "description": "Pipecat: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
->>>>>>> Stashed changes
   }
 }

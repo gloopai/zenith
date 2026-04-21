@@ -29,9 +29,6 @@
     "openclawSectionHint": "AgentSkills-compatible packs: official skills plus custom examples, with GitHub and docs links.",
     "allSkills": "All skills",
     "official": "Official",
-<<<<<<< Updated upstream
-    "example": "Sample"
-=======
     "example": "Sample",
     "scenarioClusters": "Scenario clusters",
     "scenarioClustersHint": "Topic hubs with internal links into tool detail pages—useful for long-tail discovery.",
@@ -60,7 +57,6 @@
     "mcpListHint": "Configure in Claude, Cursor, or Zed (any MCP client) to give agents access to external tools, data sources, or execution environments.",
     "mcpBadgeOfficial": "Official",
     "mcpBadgeCommunity": "Community"
->>>>>>> Stashed changes
   },
   "navPage": {
     "eyebrow": "Catalog",
@@ -134,18 +130,6 @@
     "mcpServerNotFound": "MCP server not found"
   },
   "seo": {
-<<<<<<< Updated upstream
-    "siteDescription": "AI tools directory and news: discover products and read industry updates.",
-    "homeTitle": "Home",
-    "homeDescription": "Plunget: AI tools and news. Explore products and updates on desktop or mobile.",
-    "navTitle": "AI directory",
-    "navDescription": "Browse AI tools: filter by category, search, and open detail pages with outbound links.",
-    "newsTitle": "News",
-    "newsDescription": "AI news and perspectives: article pages with summaries and full text.",
-    "openclawTitle": "OpenClaw skills",
-    "openclawDescription": "OpenClaw AgentSkills catalog: built-in repo skills plus naming examples with links.",
-    "ogHomeTitle": "Plunget"
-=======
     "siteDescription": "AI tools directory with 15+ category hubs, deep tool pages (FAQs + checklists), and an OpenClaw / AgentSkills catalog—dense internal linking for discovery.",
     "homeTitle": "AI tools directory — category hubs, deep pages & OpenClaw skills",
     "homeDescription": "Category landing pages plus 100+ tool pages with suitability notes, checklists, and FAQ structured data. Explore scenario clusters, news, and AgentSkills—all with official links.",
@@ -195,6 +179,5 @@
     "noteCommunity": "Community or sample implementation—great for learning and quick validation. Review maintenance, dependencies, and data policies before production.",
     "upstreamFallback": "the upstream team",
     "ogSuffix": "MCP Server"
->>>>>>> Stashed changes
   }
 }

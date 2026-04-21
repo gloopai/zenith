@@ -29,9 +29,6 @@
     "openclawSectionHint": "Пакеты AgentSkills: официальные навыки и примеры, ссылки на GitHub и документацию.",
     "allSkills": "Все навыки",
     "official": "Официально",
-<<<<<<< Updated upstream
-    "example": "Пример"
-=======
     "example": "Пример",
     "scenarioClusters": "Сценарные подборки",
     "scenarioClustersHint": "Списки под популярные запросы с внутренними ссылками на карточки инструментов.",
@@ -60,7 +57,6 @@
     "mcpListHint": "Подключите в Claude, Cursor или Zed (любом MCP-клиенте), чтобы дать агенту доступ к внешним инструментам, данным и средам выполнения.",
     "mcpBadgeOfficial": "Официально",
     "mcpBadgeCommunity": "Сообщество"
->>>>>>> Stashed changes
   },
   "navPage": {
     "eyebrow": "Каталог",
@@ -134,18 +130,6 @@
     "mcpServerNotFound": "MCP-сервер не найден"
   },
   "seo": {
-<<<<<<< Updated upstream
-    "siteDescription": "Каталог AI‑инструментов и новости: продукты и обновления отрасли.",
-    "homeTitle": "Главная",
-    "homeDescription": "Plunget: AI‑инструменты и новости. Удобно на десктопе и в мобильном браузере.",
-    "navTitle": "Каталог AI",
-    "navDescription": "Обзор AI‑инструментов: категории, поиск и страницы с внешними ссылками.",
-    "newsTitle": "Новости",
-    "newsDescription": "Новости и мнения об AI: отдельные страницы с анонсом и текстом.",
-    "openclawTitle": "Навыки OpenClaw",
-    "openclawDescription": "Каталог AgentSkills для OpenClaw: официальные навыки и примеры имён со ссылками.",
-    "ogHomeTitle": "Plunget"
-=======
     "siteDescription": "Курируемый каталог AI‑инструментов, практические гайды и справочник навыков OpenClaw / AgentSkills: чаты, код, медиа и агенты в одном месте.",
     "homeTitle": "Каталог AI‑инструментов, навыки OpenClaw и гайды",
     "homeDescription": "Чат‑помощники, кодинг, генерация изображений и видео, автоматизация и агенты — фильтры по категориям, поиск, короткие статьи и ссылки на официальные страницы и доки OpenClaw.",
@@ -195,6 +179,5 @@
     "noteCommunity": "Реализация от сообщества или пример — отлично для обучения и быстрой проверки. Перед продом оцените сопровождение, зависимости и политику данных.",
     "upstreamFallback": "команда upstream",
     "ogSuffix": "MCP Server"
->>>>>>> Stashed changes
   }
 }

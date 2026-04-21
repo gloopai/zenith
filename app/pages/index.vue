@@ -162,9 +162,6 @@
 </template>
 
 <script setup lang="ts">
-<<<<<<< Updated upstream
-import type { NewsListItem, OpenClawSkill, Tool } from '~~/shared/types/site'
-=======
 import type {
   ClusterSummary,
   McpServer,
@@ -173,7 +170,6 @@ import type {
   OpenClawSkill,
   Tool,
 } from '~~/shared/types/site'
->>>>>>> Stashed changes
 import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
@@ -215,8 +211,6 @@ const { data: openclawRes } = await useAsyncData(
     }),
   { watch: [locale] },
 )
-<<<<<<< Updated upstream
-=======
 const { data: mcpRes } = await useAsyncData(
   () => `home-mcp-${locale.value}`,
   () =>
@@ -294,7 +288,6 @@ useHead(
     script: [{ key: 'ldjson-home', type: 'application/ld+json', innerHTML: homeJsonLd.value }],
   })),
 )
->>>>>>> Stashed changes
 
 const featured = computed(() => {
   const list = toolsRes.value?.tools ?? []
@@ -310,8 +303,6 @@ const openClawPreview = computed(() => {
   const base = featured.length ? featured : list.filter((s) => s.official)
   return base.slice(0, 6)
 })
-<<<<<<< Updated upstream
-=======
 
 const mcpPreview = computed(() => {
   const list = mcpRes.value?.servers ?? []
@@ -321,5 +312,4 @@ const mcpPreview = computed(() => {
 })
 
 const clusterPreview = computed(() => (clustersRes.value?.clusters ?? []).slice(0, 4))
->>>>>>> Stashed changes
 </script>

@@ -425,8 +425,6 @@ const HIGHLIGHTS = {
     hi: 'ByteDance का असिस्टेंट हब: चैट और रचनात्मक टूल; टेम्प्लेट और घरेलू इंटीग्रेशन के लिए सुविधाजनक—निर्यात ज़रूरतों के लिए उप‑उत्पादों की तुलना करें।',
     es: 'Hub de asistentes de ByteDance con chat y herramientas creativas; práctico para plantillas e integraciones locales—compara subproductos si necesitas exportar.',
   },
-<<<<<<< Updated upstream
-=======
   manus: {
     en: 'General-purpose autonomous assistant product from Manus AI: delegates multi-step browser and research-style tasks behind a chat interface—check the site for task limits, regions, and data handling.',
     'zh-TW':
@@ -604,7 +602,6 @@ const HIGHLIGHTS = {
     hi: 'कम लेटेंसी TTS (Sonic सीरीज़)—स्ट्रीमिंग API व कस्टम आवाज़ें; प्राकृतिक वॉइस एजेंट/ऑडियो उत्पादों में लोकप्रिय।',
     es: 'TTS de baja latencia (serie Sonic) con API en streaming y voces personalizadas—capa habitual para agentes de voz con sensación natural.',
   },
->>>>>>> Stashed changes
 }
 
 export function toolDescription(t, locale) {

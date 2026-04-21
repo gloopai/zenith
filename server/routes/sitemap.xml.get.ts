@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
-import { readOpenclawSkillsLocalized } from '../utils/openclaw-skills-store'
-=======
 import { readOpenclawSkillsDatasetUpdatedAt, readOpenclawSkillsLocalized } from '../utils/openclaw-skills-store'
 import { readMcpServersDatasetUpdatedAt, readMcpServersLocalized } from '../utils/mcp-servers-store'
->>>>>>> Stashed changes
 import { readToolsLocalized } from '../utils/tools-store'
 import { listNewsMeta } from '../utils/news-store'
 import { I18N_DEFAULT_LOCALE, I18N_LOCALES, localePathPrefix } from '~~/shared/i18n-public'
@@ -16,28 +12,21 @@ export default defineEventHandler(async (event) => {
   const tools = await readToolsLocalized('zh-CN')
   const news = await listNewsMeta('zh-CN')
   const openclawSkills = await readOpenclawSkillsLocalized('zh-CN')
-<<<<<<< Updated upstream
-=======
   const openclawDataset = (await readOpenclawSkillsDatasetUpdatedAt()) ?? catalogFallback
   const mcpServers = await readMcpServersLocalized('zh-CN')
   const mcpDataset = (await readMcpServersDatasetUpdatedAt()) ?? catalogFallback
->>>>>>> Stashed changes
 
   const urls: string[] = []
 
   for (const code of I18N_LOCALES) {
     const p = localePathPrefix(code)
     const home = code === I18N_DEFAULT_LOCALE ? `${base}/` : `${base}${p}`
-<<<<<<< Updated upstream
-    urls.push(home, `${base}${p}/nav`, `${base}${p}/news`, `${base}${p}/openclaw`)
-=======
     entries.push({ loc: home, priority: '1.0', lastmod: catalogFallback })
     entries.push({ loc: `${base}${p}/nav`, priority: '0.9', lastmod: catalogFallback })
     entries.push({ loc: `${base}${p}/news`, priority: '0.85', lastmod: newsIndexLastmod })
     entries.push({ loc: `${base}${p}/openclaw`, priority: '0.85', lastmod: openclawDataset })
     entries.push({ loc: `${base}${p}/mcp`, priority: '0.85', lastmod: mcpDataset })
     entries.push({ loc: `${base}${p}/cluster`, priority: '0.88', lastmod: clusterIndexLastmod })
->>>>>>> Stashed changes
   }
 
   for (const code of I18N_LOCALES) {
@@ -49,9 +38,6 @@ export default defineEventHandler(async (event) => {
       urls.push(`${base}${p}/news/${encodeURIComponent(n.slug)}`)
     }
     for (const s of openclawSkills) {
-<<<<<<< Updated upstream
-      urls.push(`${base}${p}/openclaw/${encodeURIComponent(s.slug)}`)
-=======
       entries.push({
         loc: `${base}${p}/openclaw/${encodeURIComponent(s.slug)}`,
         priority: '0.65',
@@ -80,7 +66,6 @@ export default defineEventHandler(async (event) => {
         priority: '0.74',
         lastmod: maxIsoDate([ce.updatedAt, catalogFallback]),
       })
->>>>>>> Stashed changes
     }
   }
 

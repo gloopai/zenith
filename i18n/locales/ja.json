@@ -29,9 +29,6 @@
     "openclawSectionHint": "AgentSkills 互換パック：公式スキルとカスタム例、GitHub とドキュメントリンク付き。",
     "allSkills": "すべてのスキル",
     "official": "公式",
-<<<<<<< Updated upstream
-    "example": "サンプル"
-=======
     "example": "サンプル",
     "scenarioClusters": "シナリオ別まとめ",
     "scenarioClustersHint": "検索意図ごとにツールを束ね、詳細ページへ内部リンクします。",
@@ -60,7 +57,6 @@
     "mcpListHint": "Claude / Cursor / Zed など MCP クライアントに設定すれば、エージェントに外部ツール・データ・実行環境を接続できます。",
     "mcpBadgeOfficial": "公式",
     "mcpBadgeCommunity": "コミュニティ"
->>>>>>> Stashed changes
   },
   "navPage": {
     "eyebrow": "カタログ",
@@ -134,18 +130,6 @@
     "mcpServerNotFound": "指定の MCP サーバーが見つかりませんでした"
   },
   "seo": {
-<<<<<<< Updated upstream
-    "siteDescription": "AI ツールのナビとニュース：製品を発見し業界の動きを読む。",
-    "homeTitle": "ホーム",
-    "homeDescription": "Plunget：AI ツールとニュース。PC とモバイルから探索できます。",
-    "navTitle": "AI ツール一覧",
-    "navDescription": "AI ツールを閲覧：カテゴリで絞り込み、検索、詳細ページから外部リンクへ。",
-    "newsTitle": "ニュース",
-    "newsDescription": "AI ニュースと視点：概要と本文がある記事ページ。",
-    "openclawTitle": "OpenClaw スキル",
-    "openclawDescription": "OpenClaw AgentSkills カタログ：公式スキルと命名例、リンク付き。",
-    "ogHomeTitle": "Plunget"
-=======
     "siteDescription": "生成 AI ツールのキュレーション一覧と実践ガイド、OpenClaw / AgentSkills のスキル索引。チャット、開発、アセット制作、エージェントを横断的に比較。",
     "homeTitle": "生成 AI ツール一覧・OpenClaw スキルとガイド",
     "homeDescription": "チャット／コーディング支援、画像・動画、自動化、エージェント系ツールを分類と検索で探索。短い解説記事と、公式ドキュメントへつながる OpenClaw スキル一覧。",
@@ -195,6 +179,5 @@
     "noteCommunity": "コミュニティまたはサンプル実装です。学習と早期検証に向いています。本番採用前にメンテ状況、依存関係、データ取り扱いを確認してください。",
     "upstreamFallback": "上流チーム",
     "ogSuffix": "MCP Server"
->>>>>>> Stashed changes
   }
 }

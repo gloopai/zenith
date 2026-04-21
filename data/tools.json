@@ -1115,8 +1115,6 @@
       "category": "设计 / 演示",
       "tags": ["3D", "生成", "游戏"],
       "featured": false
-<<<<<<< Updated upstream
-=======
     },
     {
       "slug": "manus",
@@ -1622,7 +1620,6 @@
       "category": "语音代理 / 实时",
       "tags": ["开源", "多模态", "管道"],
       "featured": false
->>>>>>> Stashed changes
     }
   ]
 }

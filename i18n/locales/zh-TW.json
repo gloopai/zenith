@@ -29,9 +29,6 @@
     "openclawSectionHint": "AgentSkills 相容技能包：官方倉庫內建與自訂範例，附 GitHub 與文件連結。",
     "allSkills": "全部技能",
     "official": "官方",
-<<<<<<< Updated upstream
-    "example": "範例"
-=======
     "example": "範例",
     "scenarioClusters": "場景合集",
     "scenarioClustersHint": "依常見搜尋意圖整理的工具清單，並連回各工具詳情頁，利於長尾主題聚合。",
@@ -60,7 +57,6 @@
     "mcpListHint": "於 Claude / Cursor / Zed 等 MCP 客戶端設定後即可直接使用，為代理接上外部工具、資料或執行環境。",
     "mcpBadgeOfficial": "官方",
     "mcpBadgeCommunity": "社群"
->>>>>>> Stashed changes
   },
   "navPage": {
     "eyebrow": "目錄",
@@ -134,18 +130,6 @@
     "mcpServerNotFound": "找不到該 MCP 伺服器"
   },
   "seo": {
-<<<<<<< Updated upstream
-    "siteDescription": "AI 工具導覽與資訊匯整：發現好用的 AI 產品，閱讀產業更新。",
-    "homeTitle": "首頁",
-    "homeDescription": "Plunget：AI 工具導覽與資訊。探索產品、閱讀動態，桌機與行動裝置皆可使用。",
-    "navTitle": "AI 導覽",
-    "navDescription": "瀏覽 AI 相關工具與站點：依分類篩選、搜尋查找，並進入詳情了解產品與外連。",
-    "newsTitle": "資訊",
-    "newsDescription": "AI 相關資訊與觀點：獨立文章頁，含摘要與正文。",
-    "openclawTitle": "OpenClaw 技能",
-    "openclawDescription": "OpenClaw AgentSkills 技能目錄：官方倉庫內建技能與自訂命名範例，附說明與連結。",
-    "ogHomeTitle": "Plunget"
-=======
     "siteDescription": "AI 工具導覽與實務導讀：整理對話、程式、影像影音、自動化等類別，並提供 OpenClaw / AgentSkills 技能索引與文件連結。",
     "homeTitle": "AI 工具導覽、OpenClaw 技能與專題筆記",
     "homeDescription": "集中瀏覽 AI 對話、程式助理、生成式媒體與代理型產品；支援分類與關鍵字搜尋、閱讀短篇指南，並查閱 OpenClaw 官方技能與社群示例。",
@@ -195,6 +179,5 @@
     "noteCommunity": "本條為社群或範例實作，適合學習與快速驗證；上生產前請評估維護狀態、相依鏈與資料合規。",
     "upstreamFallback": "上游團隊",
     "ogSuffix": "MCP Server"
->>>>>>> Stashed changes
   }
 }

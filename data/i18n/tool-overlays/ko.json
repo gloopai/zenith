@@ -370,8 +370,6 @@
   },
   "meshy": {
     "description": "Meshy: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
-<<<<<<< Updated upstream
-=======
   },
   "manus": {
     "description": "Manus AI 의 범용 자율형 어시스턴트. 챗 뒤에서 다단계 브라우징·조사형 작업 위임—한도·지역·데이터 처리는 공식 사이트 확인."
@@ -525,6 +523,5 @@
   },
   "pipecat": {
     "description": "Pipecat: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
->>>>>>> Stashed changes
   }
 }
