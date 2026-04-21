@@ -1,0 +1,92 @@
+{
+  "filesystem": {
+    "description": "허용된 디렉터리에서 파일 읽기/쓰기/나열을 지원하는 공식 참조 MCP 서버. 민감 데이터는 최소 권한 경로와 읽기 전용 모드로 운영하세요."
+  },
+  "git": {
+    "description": "status·log·diff·blame 등 git 주요 작업을 에이전트에 노출하는 공식 MCP 서버. 읽기 전용 코드 리뷰 에이전트의 시작점으로 적합하며, 쓰기 권한은 신중히 부여."
+  },
+  "github": {
+    "description": "GitHub 공식 MCP 서버: 저장소 R/W, Issue/PR 관리, 코드 검색. 운영 환경에서는 스코프 제한 PAT 또는 GitHub App+감사 로그를 사용하세요."
+  },
+  "gitlab": {
+    "description": "GitLab: Model Context Protocol 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "postgres": {
+    "description": "읽기 전용 연결로 PostgreSQL 쿼리와 스키마 탐색을 허용하는 공식 MCP 서버. 읽기 전용 역할 + 스키마 허용 목록으로 제한하세요."
+  },
+  "sqlite": {
+    "description": "SQLite: Model Context Protocol 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "memory": {
+    "description": "Memory: Model Context Protocol 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "fetch": {
+    "description": "임의 HTTP URL을 가져와 Markdown으로 변환하는 공식 MCP 서버—에이전트 \"브라우징\" 최소 구현으로 자주 사용. 도메인 허용 목록과 속도 제한 권장."
+  },
+  "puppeteer": {
+    "description": "Puppeteer: Model Context Protocol 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "playwright-mcp": {
+    "description": "Microsoft 의 Playwright MCP 서버: Chromium/Firefox/WebKit 크로스브라우저 자동화—스크레이퍼·UI 테스트 에이전트에 적합."
+  },
+  "time": {
+    "description": "Time: Model Context Protocol 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "sequential-thinking": {
+    "description": "Sequential Thinking: Model Context Protocol 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "brave-search": {
+    "description": "Brave Search: Model Context Protocol 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "google-drive": {
+    "description": "Google Drive: Model Context Protocol 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "google-maps": {
+    "description": "Google Maps: Model Context Protocol 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "slack": {
+    "description": "Slack 메시지 송수신과 히스토리 검색을 제공하는 공식 MCP 서버—Slack을 에이전트 통신 계층으로. 최소 scope Bot Token 사용."
+  },
+  "sentry": {
+    "description": "Sentry: Model Context Protocol 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "cloudflare-mcp": {
+    "description": "Cloudflare 공식 MCP 모음: Workers·KV·D1·R2·Pages·DNS 지원, HTTP Remote MCP 가능—로컬 바이너리 없이 Claude/Cursor 에 연결."
+  },
+  "stripe-mcp": {
+    "description": "Stripe 공식 MCP 서버: 계정·주문·환불·상품 API를 도구로 노출—커머스 에이전트에 유용. 운영 환경은 테스트 / 제한 키로 제한."
+  },
+  "linear-mcp": {
+    "description": "Linear 공식 MCP 서버: Issue·Project·Cycle 생성·조회—엔지니어/프로덕트 에이전트의 경량 태스크 파이프라인. 개인 API Key 또는 OAuth 인증."
+  },
+  "notion-mcp": {
+    "description": "Notion 공식 MCP 서버: 페이지와 DB 항목 R/W—요구사항·주간 리포트·지식베이스를 에이전트에 연결. 워크스페이스 단위 권한."
+  },
+  "atlassian-mcp": {
+    "description": "Atlassian Remote MCP: Atlassian 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "supabase-mcp": {
+    "description": "Supabase 공식 MCP 서버: DB·Storage·Auth 주요 작업—Supabase 프로젝트를 AI IDE 및 운영 에이전트에 연결."
+  },
+  "neon-mcp": {
+    "description": "Neon: Neon 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "mongodb-mcp": {
+    "description": "MongoDB: MongoDB 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "exa-mcp": {
+    "description": "Exa: Exa 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "tavily-mcp": {
+    "description": "Tavily MCP 서버: 에이전트용 검색 API를 MCP 도구로 노출—어떤 MCP 클라이언트에든 “웹 검색” 능력을 API Key 로 제공."
+  },
+  "firecrawl-mcp": {
+    "description": "Firecrawl: Mendable / Firecrawl 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "e2b-mcp": {
+    "description": "E2B Code Interpreter: E2B 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  },
+  "apify-mcp": {
+    "description": "Apify Actors: Apify 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요."
+  }
+}

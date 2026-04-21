@@ -9,7 +9,8 @@
     "menu": "メニュー",
     "footerDescription": "厳選の AI ツールと業界ニュースをひとつの場所で。",
     "sitemap": "サイトマップ",
-    "language": "言語"
+    "language": "言語",
+    "mcp": "MCP"
   },
   "home": {
     "eyebrow": "Plunget",
@@ -28,7 +29,38 @@
     "openclawSectionHint": "AgentSkills 互換パック：公式スキルとカスタム例、GitHub とドキュメントリンク付き。",
     "allSkills": "すべてのスキル",
     "official": "公式",
+<<<<<<< Updated upstream
     "example": "サンプル"
+=======
+    "example": "サンプル",
+    "scenarioClusters": "シナリオ別まとめ",
+    "scenarioClustersHint": "検索意図ごとにツールを束ね、詳細ページへ内部リンクします。",
+    "allClusters": "まとめ一覧",
+    "categoryHubTitle": "カテゴリ別に見る",
+    "categoryHubHint": "FAQ 形式の解説とツール一覧、公式サイトへの導線付き。",
+    "mcpServers": "MCP サーバー",
+    "mcpSectionTitle": "MCP サーバー注目ピック",
+    "mcpSectionHint": "Claude / Cursor / Zed にそのまま接続できる Model Context Protocol サーバー—公式リファレンスと主要ベンダー公式実装をインストールコマンド／トランスポート情報付きで。",
+    "allMcpServers": "すべての MCP サーバー",
+    "mcpOfficial": "公式",
+    "mcpCommunity": "コミュニティ"
+  },
+  "clusterPage": {
+    "eyebrow": "トピックハブ",
+    "title": "シナリオ別まとめ",
+    "subtitle": "よくある検索に合わせたリスト。概要はここ、料金と規約は各公式で確認。",
+    "breadcrumb": "まとめ",
+    "openclawCta": "OpenClaw スキル索引を開く",
+    "toolListTitle": "このまとめのツール",
+    "toolCount": "{count} 件",
+    "missingToolsHint": "カタログ変更で一部 slug が欠ける場合があります。",
+    "emptyTools": "現在ツールを解決できません。",
+    "notFound": "まとめが見つかりません",
+    "mcpListTitle": "関連する MCP サーバー",
+    "mcpListHint": "Claude / Cursor / Zed など MCP クライアントに設定すれば、エージェントに外部ツール・データ・実行環境を接続できます。",
+    "mcpBadgeOfficial": "公式",
+    "mcpBadgeCommunity": "コミュニティ"
+>>>>>>> Stashed changes
   },
   "navPage": {
     "eyebrow": "カタログ",
@@ -98,9 +130,11 @@
   "errors": {
     "toolNotFound": "ツールが見つかりません",
     "articleNotFound": "記事が見つかりません",
-    "skillNotFound": "スキルが見つかりません"
+    "skillNotFound": "スキルが見つかりません",
+    "mcpServerNotFound": "指定の MCP サーバーが見つかりませんでした"
   },
   "seo": {
+<<<<<<< Updated upstream
     "siteDescription": "AI ツールのナビとニュース：製品を発見し業界の動きを読む。",
     "homeTitle": "ホーム",
     "homeDescription": "Plunget：AI ツールとニュース。PC とモバイルから探索できます。",
@@ -111,5 +145,56 @@
     "openclawTitle": "OpenClaw スキル",
     "openclawDescription": "OpenClaw AgentSkills カタログ：公式スキルと命名例、リンク付き。",
     "ogHomeTitle": "Plunget"
+=======
+    "siteDescription": "生成 AI ツールのキュレーション一覧と実践ガイド、OpenClaw / AgentSkills のスキル索引。チャット、開発、アセット制作、エージェントを横断的に比較。",
+    "homeTitle": "生成 AI ツール一覧・OpenClaw スキルとガイド",
+    "homeDescription": "チャット／コーディング支援、画像・動画、自動化、エージェント系ツールを分類と検索で探索。短い解説記事と、公式ドキュメントへつながる OpenClaw スキル一覧。",
+    "navTitle": "厳選 AI ツール一覧・カテゴリハブ",
+    "navDescription": "カテゴリ別ハブと検索で製品を横断。各ツールページから関連ピック・パンくず・公式サイト（料金・規約確認）へ。",
+    "newsTitle": "AI ニュースとプロンプト・ワークフローのヒント",
+    "newsDescription": "モデル選定、プライバシー、マルチモーダル、ローカル LLM、OpenClaw／エージェント運用など実務向け記事。要約と全文で読める。",
+    "openclawTitle": "OpenClaw スキルディレクトリ（AgentSkills）",
+    "openclawDescription": "公式 GitHub スキルとコミュニティでよく見るカスタム例の索引。CLI・API 連想、SKILL.md、ClawHub、公式ドキュメントへの入り口。",
+    "ogHomeTitle": "Plunget — AI ツールと OpenClaw スキル",
+    "mcpTitle": "MCP サーバーディレクトリ（Model Context Protocol）",
+    "mcpDescription": "30 以上の MCP サーバーを厳選：公式リファレンス、主要ベンダー公式、コミュニティ実装。ファイル、Git/GitHub、DB、クラウド運用、検索、ブラウザ、決済までカバーし Claude/Cursor/Zed で活用できます。"
+  },
+  "mcpPage": {
+    "eyebrow": "Model Context Protocol",
+    "title": "MCP サーバーディレクトリ",
+    "introBeforeSpecLink": "Model Context Protocol（MCP）は Anthropic が提唱した仕様です。詳細は ",
+    "introAfterSpecLink": "、公式リファレンス実装は ",
+    "introAfterRefRepo": " の servers ディレクトリにまとまっています。本ページでは代表的な MCP サーバーを収録します：",
+    "introStrong": "公式リファレンスと主要ベンダー公式実装",
+    "introEnd": "。Claude、Cursor、Zed などの MCP クライアントからすぐ接続できます。",
+    "filterAll": "すべて",
+    "filterOfficial": "公式",
+    "filterCommunity": "コミュニティ",
+    "searchLabel": "検索",
+    "searchPlaceholder": "名前、説明、ベンダー、タグ",
+    "count": "{count} 件",
+    "filterApplied": "フィルター適用中",
+    "badgeOfficial": "公式",
+    "badgeCommunity": "コミュニティ",
+    "empty": "条件に一致するサーバーがありません。"
+  },
+  "mcpServerPage": {
+    "breadcrumb": "MCP サーバー",
+    "badgeOfficial": "公式公開",
+    "badgeCommunity": "コミュニティ / サンプル",
+    "featured": "注目",
+    "transport": "トランスポート：{transport}",
+    "vendorBy": "提供元：{vendor}",
+    "viewUpstream": "上流リポジトリを見る",
+    "opensNewWindow": "新しいタブで開く",
+    "installTitle": "インストールと起動",
+    "installHint": "上記コマンドは参考です。環境変数、権限スコープ、クライアント設定は上流ドキュメントを確認してください。",
+    "notesTitle": "備考",
+    "noteOfficial1": "本エントリは ",
+    "noteOfficial2": " 公式、または modelcontextprotocol/servers のリファレンス実装です。本番投入前にバージョン、最小権限トークン、監査方針を確認してください。",
+    "noteCommunity": "コミュニティまたはサンプル実装です。学習と早期検証に向いています。本番採用前にメンテ状況、依存関係、データ取り扱いを確認してください。",
+    "upstreamFallback": "上流チーム",
+    "ogSuffix": "MCP Server"
+>>>>>>> Stashed changes
   }
 }

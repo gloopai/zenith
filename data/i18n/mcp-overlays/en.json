@@ -1,0 +1,92 @@
+{
+  "filesystem": {
+    "description": "Reference MCP server letting agents read/write/list files under an allow-listed directory. Run with least-privilege paths and read-only mode for sensitive data; ideal when you want to scope a project folder as an agent workspace."
+  },
+  "git": {
+    "description": "Reference MCP server exposing common git operations (status, log, diff, blame) to an agent. Great starting point for read-only code reviewers; grant write access carefully."
+  },
+  "github": {
+    "description": "GitHub’s official MCP server: read/write repos, manage issues/PRs, and search code. Use scoped PATs or a GitHub App with audit logging for production."
+  },
+  "gitlab": {
+    "description": "GitLab: official MCP server from Model Context Protocol—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "postgres": {
+    "description": "Reference MCP server for read-only Postgres access and schema introspection—ideal for data-analysis agents. Lock down with a read-only role and schema allow-list."
+  },
+  "sqlite": {
+    "description": "SQLite: official MCP server from Model Context Protocol—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "memory": {
+    "description": "Memory: official MCP server from Model Context Protocol—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "fetch": {
+    "description": "Reference MCP server that fetches any HTTP URL and converts it to Markdown—often the minimal “browsing” capability for agents. Add a domain allow-list and rate limits."
+  },
+  "puppeteer": {
+    "description": "Puppeteer: official MCP server from Model Context Protocol—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "playwright-mcp": {
+    "description": "Microsoft’s Playwright MCP server: cross-browser automation with broader coverage than Puppeteer—fits scrapers and UI-testing agents that need headless Chromium, Firefox, and WebKit."
+  },
+  "time": {
+    "description": "Time: official MCP server from Model Context Protocol—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "sequential-thinking": {
+    "description": "Sequential Thinking: official MCP server from Model Context Protocol—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "brave-search": {
+    "description": "Brave Search: official MCP server from Model Context Protocol—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "google-drive": {
+    "description": "Google Drive: official MCP server from Model Context Protocol—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "google-maps": {
+    "description": "Google Maps: official MCP server from Model Context Protocol—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "slack": {
+    "description": "Reference MCP server that reads/writes Slack messages and searches history—turns Slack into an agent’s comms layer. Use a bot token with minimal scopes."
+  },
+  "sentry": {
+    "description": "Sentry: official MCP server from Model Context Protocol—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "cloudflare-mcp": {
+    "description": "Cloudflare’s official MCP suite covering Workers, KV, D1, R2, Pages, and DNS. Supports Remote MCP over HTTP, so you can plug it into Claude or Cursor without a local binary."
+  },
+  "stripe-mcp": {
+    "description": "Stripe’s official MCP server exposing accounts, orders, refunds, and products as tools—handy for commerce agents. Restrict to test / restricted keys in production."
+  },
+  "linear-mcp": {
+    "description": "Linear’s official MCP server: create and query Issues, Projects, and Cycles—a lightweight task pipeline for engineering/product agents. Auth via personal API key or OAuth."
+  },
+  "notion-mcp": {
+    "description": "Notion’s official MCP server: read/write pages and database items—perfect for wiring requirement docs, weekly reports, and knowledge bases into agents. Workspace-level auth applies."
+  },
+  "atlassian-mcp": {
+    "description": "Atlassian Remote MCP: official MCP server from Atlassian—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "supabase-mcp": {
+    "description": "Supabase’s official MCP server covering database, Storage, and Auth operations—great for wiring a Supabase project into AI IDEs and ops agents."
+  },
+  "neon-mcp": {
+    "description": "Neon: official MCP server from Neon—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "mongodb-mcp": {
+    "description": "MongoDB: official MCP server from MongoDB—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "exa-mcp": {
+    "description": "Exa: official MCP server from Exa—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "tavily-mcp": {
+    "description": "Tavily MCP server exposes the agent-focused search API as MCP tools—an easy way to give any MCP client a “can search the web” capability with API key control."
+  },
+  "firecrawl-mcp": {
+    "description": "Firecrawl: official MCP server from Mendable / Firecrawl—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "e2b-mcp": {
+    "description": "E2B Code Interpreter: official MCP server from E2B—confirm version, auth scopes, and transport with the upstream docs before production use."
+  },
+  "apify-mcp": {
+    "description": "Apify Actors: official MCP server from Apify—confirm version, auth scopes, and transport with the upstream docs before production use."
+  }
+}

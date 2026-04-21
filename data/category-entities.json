@@ -1,0 +1,898 @@
+{
+  "entities": [
+    {
+      "canonicalKey": "写作 / 演示",
+      "slug": "writing-decks",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "AI 写作与演示工具丨起草、排版与幻灯片",
+          "description": "覆盖文案、幻灯片与结构化写作类产品：中立简介、内链到同类工具与官网，便于按需选用。",
+          "intro": "这一类工具侧重把想法落成可读文本或演示材料。选型时可以先区分「长文/报告」「营销短文」「幻灯片叙事」三块需求，再看是否依赖团队模板、品牌规范或与现有办公套件联动。本站条目仅作信息整理，定价与数据策略请以各产品官网为准。",
+          "gscBlocks": [
+            {
+              "heading": "AI 写作工具能代替专业文案吗？",
+              "body": "更适合打底稿、扩写与多语言初翻；品牌调性、事实核对与合规用词仍需人工。可把本分类下多款产品横向打开对比模板与协作能力。"
+            },
+            {
+              "heading": "写周报/PPT 用哪个 AI 更顺手？",
+              "body": "先确定输出形态：长文档、短文还是 slide。再看与现有 Office/在线文档是否集成。本站条目链向各工具独立介绍页与官网。"
+            },
+            {
+              "heading": "企业用 AI 写作要考虑什么？",
+              "body": "数据是否用于模型训练、日志留存周期、地区部署与 SSO 往往是采购焦点；请在各产品官网下载白皮书或安全说明。"
+            }
+          ]
+        },
+        "en": {
+          "title": "AI writing & deck tools — drafting, layout, and slides",
+          "description": "Curated assistants for copy, decks, and structured writing. Neutral summaries with internal links and official sites.",
+          "intro": "These tools help turn ideas into readable text or presentation-ready narratives. Start by separating long-form reports, short marketing copy, and slide storytelling, then check team templates, brand constraints, and office-suite integrations. Pricing and data handling are always confirmed on each vendor’s site.",
+          "gscBlocks": [
+            {
+              "heading": "Can AI writing replace copywriters?",
+              "body": "Great for drafts and variants; brand voice, fact checking, and compliance still need humans. Browse this category to compare templates and collaboration."
+            },
+            {
+              "heading": "Which AI helps with decks or memos?",
+              "body": "Decide whether you need long docs, snippets, or slide narrative, then test integrations with your office stack. Each listing links to deep pages and vendors."
+            },
+            {
+              "heading": "Enterprise AI writing checklist",
+              "body": "Training data use, logging, residency, and SSO matter—download security sheets from each official site before rollout."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "协作 / 白板",
+      "slug": "collaboration-whiteboard",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "协作与白板工具丨远程对齐与可视化讨论",
+          "description": "在线白板、协作文档与团队可视化产品目录；通过内链在同类工具间跳转对比。",
+          "intro": "适合需要「一起看清问题」的团队：工作坊、路线图、需求澄清与评审。关注实时协作人数、权限粒度、导出格式以及与企业身份体系的集成，再决定与聊天/项目管理工具如何搭配。",
+          "gscBlocks": [
+            {
+              "heading": "远程团队白板工具有哪些选型维度？",
+              "body": "并发人数、访客权限、模板库、导出与合规认证常决定成败。可先在本页挑选数家，再安排 pilot。"
+            },
+            {
+              "heading": "白板内容可以长期归档吗？",
+              "body": "不同产品对历史版本、导出格式与存储期限不同；涉及客户草图时建议定期导出备份。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Collaboration & whiteboard tools for shared thinking",
+          "description": "Online whiteboards and co-editing surfaces—with internal links between related tools.",
+          "intro": "Best when a team needs a shared picture: workshops, roadmaps, discovery, and reviews. Compare concurrent editing limits, permission models, export options, and SSO before pairing with chat or project trackers.",
+          "gscBlocks": [
+            {
+              "heading": "How to pick a remote whiteboard",
+              "body": "Evaluate guests, exports, SSO, and concurrent editors. Shortlist from this hub, then pilot with a real workshop."
+            },
+            {
+              "heading": "Archiving whiteboard work",
+              "body": "Retention and export formats differ—schedule backups when boards include client-sensitive sketches."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "图像生成",
+      "slug": "image-generation",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "AI 图像生成工具丨文生图与风格控制",
+          "description": "文生图与创意生成类产品精选；查看简介后前往官网确认授权与商用条款。",
+          "intro": "从「提示词可控性」「参考图/角色一致性」「批量与 API」三条线评估更符合工作流。生成类工具迭代快，模型名称与订阅档位常在变；下单前请核对许可范围与水印策略。",
+          "gscBlocks": [
+            {
+              "heading": "文生图提示词怎么写更容易出效果？",
+              "body": "尽量写主体、风格、光线、镜头与负面提示；迭代时一次改一个变量。可多试用同分类不同模型寻找审美契合。"
+            },
+            {
+              "heading": "AI 画画有没有版权风险？",
+              "body": "训练数据与许可条款因厂商而异，商用前务必阅读最新协议；复杂项目请咨询法务。"
+            },
+            {
+              "heading": "需要固定角色形象该用哪些能力？",
+              "body": "关注参考图、角色/风格锁、LoRA 或品牌微调等企业功能是否提供，具体以各工具说明为准。"
+            }
+          ]
+        },
+        "en": {
+          "title": "AI image generation tools — text-to-image with style control",
+          "description": "Curated text-to-image products. Read the summary here, confirm licensing on the official site.",
+          "intro": "Compare prompt controllability, reference/character consistency, and API batch paths. Names and tiers change often—verify licenses and watermark rules before production use.",
+          "gscBlocks": [
+            {
+              "heading": "Writing better text-to-image prompts",
+              "body": "Describe subject, style, lighting, lens, and negatives; change one variable per iteration. Sample multiple models from this list."
+            },
+            {
+              "heading": "Copyright considerations",
+              "body": "Training and usage rules vary—read each vendor’s license before commercial release and involve legal for complex cases."
+            },
+            {
+              "heading": "Consistent characters",
+              "body": "Look for reference inputs, style locks, or enterprise fine-tuning—confirm on official feature matrices."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "图像编辑",
+      "slug": "image-editing",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "AI 图像编辑工具丨抠图、修复与局部重绘",
+          "description": "面向修图、抠图、放大与局部编辑的产品列表，附内链与官网入口。",
+          "intro": "与「生成」不同，编辑类更看像素级结果与批量能力。注意输出分辨率、是否破坏源文件元数据，以及团队是否需要本地处理或私有化部署。个人敏感图片请谨慎上传。",
+          "gscBlocks": [
+            {
+              "heading": "抠图 API 和图片空间 API 有什么不同？",
+              "body": "抠图偏遮罩与通道；增强/超分偏分辨率与降噪。按业务调用形态选择 REST、批处理或 SDK。"
+            },
+            {
+              "heading": "批量修图适合走云端还是本地？",
+              "body": "数据敏感走本地或私有云；吞吐大且可外发可评估托管 API 的单价与配额。"
+            }
+          ]
+        },
+        "en": {
+          "title": "AI image editing — cutouts, cleanup, and inpainting",
+          "description": "Tools for retouching, background removal, upscaling, and local edits.",
+          "intro": "Editing workflows care about pixel fidelity and throughput. Check export resolution, metadata handling, and whether you need on-prem or private cloud. Be cautious uploading sensitive imagery.",
+          "gscBlocks": [
+            {
+              "heading": "Cutout vs upscale APIs",
+              "body": "Cutouts focus on masks; enhancement focuses on resolution/noise. Pick REST, batch, or SDK paths to match your pipeline."
+            },
+            {
+              "heading": "Cloud vs on-prem batch edits",
+              "body": "Sensitive imagery may require local runs; high throughput with approved data can use hosted APIs—compare quotas and $/image."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "学习 / 数据",
+      "slug": "learning-data",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "学习与数据工具丨文献、数据集与实验跟踪",
+          "description": "论文检索、数据科学学习与实验管理相关入口；以站内导航串联到具体产品页。",
+          "intro": "学生与研究者常用这一类工具加速综述、复现与管理实验。权衡免费额度、引用格式、是否与机构订阅对接；涉及论文全文时务必遵守版权与机构政策。",
+          "gscBlocks": [
+            {
+              "heading": "文献综述可以用 AI 更快吗？",
+              "body": "可以辅助归类、提问与摘要草稿，但引用与结论仍需你核对原文。结合 Semantic Scholar、arXiv 等权威入口更稳。"
+            },
+            {
+              "heading": "做 ML 实验必须上 Weights & Biases 吗？",
+              "body": "不是必须；取决于团队规模与可观测性需求。可在本分类浏览多款实验跟踪与数据产品再决定。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Learning & data tools — papers, datasets, and experiments",
+          "description": "Discover tools for literature review, datasets, and experiment tracking.",
+          "intro": "Students and researchers use these to speed up surveys, reproduction, and logging. Compare free tiers, citation formats, and library integrations—and respect copyright for full-text sources.",
+          "gscBlocks": [
+            {
+              "heading": "Speeding up literature reviews",
+              "body": "AI can cluster and draft notes, but citations must trace to originals—pair with trusted indexes like arXiv or Semantic Scholar."
+            },
+            {
+              "heading": "Do I need experiment tracking?",
+              "body": "Depends on team scale and reproducibility needs; compare tracking and dataset tools linked from this category page."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "对话 / 通用",
+      "slug": "chat-general",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "对话与通用大模型助手丨多厂商入口对照",
+          "description": "主流对话产品与通用助手合集；可按模型生态、价格与地区可用性对比。",
+          "intro": "这是最拥挤但也最通用的类别。建议用「是否需要长上下文」「是否必须联网检索」「是否走 API / 私有化」三个问题缩小范围，再用同一批任务在少数候选人之间做实测。",
+          "gscBlocks": [
+            {
+              "heading": "ChatGPT、Claude、Gemini 怎么简单区分？",
+              "body": "可从上下文长度、是否便于联网、中文体验、定价与生态集成入手；本站为每款工具提供独立页面与同类推荐。"
+            },
+            {
+              "heading": "大模型回答有幻觉怎么办？",
+              "body": "对数字、日期与专有名词要求证；复杂任务分解步骤并保留引用。不要把单次输出当作事实来源。"
+            },
+            {
+              "heading": "企业采购大模型看哪几条？",
+              "body": "数据使用条款、地区部署、审计日志、角色权限与 SLA；建议让安全与法务同事并行评审官网材料。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Chat & general assistants — compare major providers",
+          "description": "A directory of conversational AI products with links to detailed pages.",
+          "intro": "The broadest category. Narrow choices with long-context needs, live web retrieval, and API or private deployment requirements, then benchmark a handful on your real tasks.",
+          "gscBlocks": [
+            {
+              "heading": "ChatGPT vs Claude vs Gemini—quickly",
+              "body": "Compare context, browsing, language quality, pricing, and integrations. Each tool here has its own page plus related picks."
+            },
+            {
+              "heading": "Handling hallucinations",
+              "body": "Verify numbers, dates, and names; break tasks into steps and keep citations. Never treat a single answer as ground truth."
+            },
+            {
+              "heading": "Enterprise LLM procurement",
+              "body": "Review data use, residency, audit logs, RBAC, and SLAs with security/legal alongside vendor documentation."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "开源 / 开发者",
+      "slug": "open-source-developer",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "开源与开发者平台丨模型、框架与本地部署",
+          "description": "面向开发者的模型托管、框架与本地运行栈；附文档与社区入口链接。",
+          "intro": "这一页更偏工程向：集成方式、许可证、硬件门槛与运维成本往往比界面功能更重要。若在做合规或内网部署，优先核实权重来源、遥测默认值与依赖供应链。",
+          "gscBlocks": [
+            {
+              "heading": "本地跑大模型最低配置大概多少？",
+              "body": "视模型参数与量化而定；7B/8B 量化常见消费级显卡可试，更大模型需多卡或云主机。以各推理框架文档为准。"
+            },
+            {
+              "heading": "LangChain 还值得学吗？",
+              "body": "生态仍活跃但竞争多；可按项目需求评估编排框架、托管 API 与云函数方案的组合。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Open-source & developer platforms",
+          "description": "Frameworks, model hubs, and self-hosted stacks for builders.",
+          "intro": "Engineering concerns dominate: integration surfaces, licenses, hardware, and operations. For regulated or air-gapped setups, verify weight provenance, telemetry defaults, and supply-chain notes first.",
+          "gscBlocks": [
+            {
+              "heading": "Hardware for local LLMs",
+              "body": "Depends on parameter count and quantization—consumer GPUs may run 7B/8B quantized models; larger stacks need multi-GPU or cloud. Read framework guides."
+            },
+            {
+              "heading": "Orchestration frameworks",
+              "body": "LangChain is one option among several—match frameworks to your hosting, latency, and observability requirements."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "搜索 / 研究",
+      "slug": "search-research",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "搜索与研究型 AI丨引用、摘要与事实核查",
+          "description": "强调检索增强与引用展示的助手；适合文献与市场信息搜集场景。",
+          "intro": "关注来源是否可追溯、是否混入了不可见的网页抓取策略，以及付费墙内容如何处理。研究用途下，建议与其他检索渠道交叉验证关键事实。",
+          "gscBlocks": [
+            {
+              "heading": "Perplexity 类产品适合论文吗？",
+              "body": "适合找线索与摘要起点，但引用链路要认真点开核对；学位论文请遵守院校对生成内容的政策。"
+            },
+            {
+              "heading": "怎么做可验证的调研摘要？",
+              "body": "要求模型列出可点击来源、记录检索日期，并与数据库原始条目对照。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Search & research assistants with citations",
+          "description": "Tools that blend language models with retrieval and source pointers.",
+          "intro": "Check how sources are surfaced, what crawling policies apply, and how paywalled material is handled. Cross-check critical claims with primary retrieval channels.",
+          "gscBlocks": [
+            {
+              "heading": "Research assistants for papers",
+              "body": "Use them to discover leads, but verify every citation; follow institutional policies on generated text."
+            },
+            {
+              "heading": "Verifiable research briefs",
+              "body": "Ask for clickable sources, log retrieval dates, and compare against database records manually."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "文档 / 知识库",
+      "slug": "docs-knowledge-base",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "文档与知识库工具丨团队记忆与二次发现",
+          "description": "笔记、wiki 与企业知识 products；重视权限、导入导出与搜索体验。",
+          "intro": "知识类产品成败常在「能不能稳定找回半年前的结论」。重点试移动端、离线、全文/向量混合搜索，以及是否满足贵司的审计与保留策略。",
+          "gscBlocks": [
+            {
+              "heading": "Notion 类 wiki 和飞书文档怎么选？",
+              "body": "看团队已有生态、权限模型、自动化与审计；跨国团队还要考虑数据区域与移动端体验。"
+            },
+            {
+              "heading": "个人知识库用双链笔记更好吗？",
+              "body": "若你重视本地文件与插件生态，Obsidian/Logseq 等更灵活；若重度协作优先在线工作区。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Docs & knowledge bases for teams",
+          "description": "Note-taking, wikis, and company knowledge hubs.",
+          "intro": "Success is often whether you can rediscover last quarter’s decisions. Test mobile/offline, hybrid vs keyword search, and retention or audit features your org requires.",
+          "gscBlocks": [
+            {
+              "heading": "Notion-like vs suite docs",
+              "body": "Weigh existing ecosystem, permissions, automation, auditing, and data regions—especially for distributed teams."
+            },
+            {
+              "heading": "Personal PKM vs team wiki",
+              "body": "Graph notes excel at local control; hosted wikis excel at permissions—many teams use both."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "编程 / 开发",
+      "slug": "coding-development",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "编程与开发助手丨IDE、云开发与代码生成",
+          "description": "IDE 内助手、云 IDE 与代码伙伴类产品；详情页链接官网与同类对比。",
+          "intro": "评估时请带上真实仓库：看对大型代码库导航、测试、重构与评审流程是否加分，并确认代码上传范围、离线模式与企业安全要求是否冲突。",
+          "gscBlocks": [
+            {
+              "heading": "GitHub Copilot 和 Cursor 怎么选？",
+              "body": "Copilot 深度集成 GitHub；Cursor 强调整仓索引与对话式编辑。可按仓库规模与隐私要求试用二者。"
+            },
+            {
+              "heading": "AI 写的代码要审查什么？",
+              "body": "安全漏洞、许可证头、错误处理与测试覆盖；不要把未审代码直接进主干。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Coding & dev assistants — IDE, cloud IDEs, codegen",
+          "description": "Tools that assist developers inside editors or hosted workspaces.",
+          "intro": "Benchmark on your own repos: navigation, tests, refactors, and review workflows. Double-check what code may be transmitted, offline modes, and enterprise security constraints.",
+          "gscBlocks": [
+            {
+              "heading": "Copilot vs Cursor",
+              "body": "Copilot leans on GitHub integration; Cursor emphasizes repo-wide indexing and chat editing—pilot both with real repositories."
+            },
+            {
+              "heading": "Reviewing AI-written code",
+              "body": "Watch for security, licensing headers, error handling, and tests—never merge unreviewed suggestions to main."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "翻译 / 语言",
+      "slug": "translation-language",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "翻译与多语言工具丨网页、文档与口语场景",
+          "description": "机翻、双语网页与术语一致类产品；适合跨境协作与内容本地化。",
+          "intro": "关注术语表、品牌名保护、文件格式保留与批量处理能力。对外发布前仍建议人工校对关键文案与法律条款。",
+          "gscBlocks": [
+            {
+              "heading": "DeepL 和沉浸式翻译冲突吗？",
+              "body": "不冲突：前者偏文档级质量，后者偏浏览外语网页效率，可按场景组合。"
+            },
+            {
+              "heading": "机翻合同有效吗？",
+              "body": "法律效力因地而异；重要合同应使用持证译员或双语律师审核，勿仅依赖机翻。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Translation & multilingual workflows",
+          "description": "Machine translation, bilingual browsing, and glossary-aware tools.",
+          "intro": "Look for glossary support, brand-name locks, format fidelity, and batch throughput. Keep humans in the loop for customer-facing or legal copy.",
+          "gscBlocks": [
+            {
+              "heading": "DeepL plus browser translators",
+              "body": "DeepL targets documents; immersive tools target browsing—combine by workflow rather than choosing one forever."
+            },
+            {
+              "heading": "Machine translating contracts",
+              "body": "Legal validity varies by jurisdiction—use certified translators or counsel for binding agreements."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "自动化 / 集成",
+      "slug": "automation-integration",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "自动化与工作流集成丨低代码、编排与 API",
+          "description": "Zapier 类编排、低代码自动化与 API 聚合；从站内跳到具体工具详情。",
+          "intro": "先画清触发源与数据边界，再评估错误重试、审计日志、速率限制与供应商锁定。复杂编排建议分阶段上线并保留回滚路径。",
+          "gscBlocks": [
+            {
+              "heading": "n8n 自托管和 Zapier 云服务怎么取舍？",
+              "body": "要可控与数据不出境选自托管；要少运维与快速连通选云服务。还要估算连接数与执行次数成本。"
+            },
+            {
+              "heading": "自动化失败后怎么止血？",
+              "body": "设计幂等、死信队列与告警；关键财务流要有人工复核点。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Automation & integrations — orchestration and APIs",
+          "description": "Low-code automation, connectors, and workflow builders.",
+          "intro": "Map triggers and data boundaries first, then compare retries, audit logs, rate limits, and lock-in. Roll out complex flows in stages with rollback plans.",
+          "gscBlocks": [
+            {
+              "heading": "Self-hosted vs cloud automation",
+              "body": "Self-host for control/residency; hosted for speed and maintenance—model connector counts and task pricing."
+            },
+            {
+              "heading": "Failure handling",
+              "body": "Plan idempotency, dead-letter queues, alerts, and human checkpoints for money-moving workflows."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "视频 / 动效",
+      "slug": "video-motion",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "视频与动效 AI丨生成、剪辑与数字人",
+          "description": "视频生成、剪辑辅助与口播类工具汇总；注意授权素材与肖像权合规。",
+          "intro": "视频链路长：分镜、口型、分辨率、导出编码与商用音乐授权都要问清。若要批量生产，优先考察 API、队列与模板化能力。",
+          "gscBlocks": [
+            {
+              "heading": "Runway、Pika 这类工具适合什么人？",
+              "body": "适合短视频、广告小样与动效探索；电影长片仍以传统流程为主。可按分辨率与口型能力筛选。"
+            },
+            {
+              "heading": "AI 生成视频会不会侵权？",
+              "body": "训练数据与输出权利因平台政策不同；商用前阅读用户协议并避免未授权肖像。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Video & motion AI — generation, editing, avatars",
+          "description": "Curated tools across generative video and motion workflows.",
+          "intro": "Video stacks are long: storyboards, lipsync, resolution, codecs, and licensed music. For scale, look at APIs, queues, and templating.",
+          "gscBlocks": [
+            {
+              "heading": "Who benefits from tools like Runway or Pika?",
+              "body": "Great for social clips and ad tests; long-form cinema still relies on classic pipelines—compare resolution and lipsync features."
+            },
+            {
+              "heading": "IP risks in generative video",
+              "body": "Policies on training data and likeness differ—read terms and avoid unapproved likenesses in commercial work."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "设计 / 演示",
+      "slug": "design-decks",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "设计与演示工具丨视觉稿、组件库与演示稿",
+          "description": "界面设计、品牌模板与演示成稿相关产品；与纯写作/白板形成互补。",
+          "intro": "设计类更重组件体系、设计令牌、交付给开发的标注链路。若团队已有一套设计系统，优先选能同步或至少不破坏命名规范的方案。",
+          "gscBlocks": [
+            {
+              "heading": "Canva 和 Figma 是竞争关系吗？",
+              "body": "有重叠也有差异：Canva 偏模板化创意物料，Figma 偏界面系统与工程协作。可按交付物类型选择。"
+            },
+            {
+              "heading": "AI 能直接生成可上线 UI 吗？",
+              "body": "多为起点稿，仍需设计评审与前端实现；注意无障碍与多端适配。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Design & presentation tooling",
+          "description": "UI design surfaces, brand templates, and polished decks.",
+          "intro": "Design workflows hinge on component libraries, tokens, and handoff to engineering. If you already have a system, favor tools that stay aligned with naming and states.",
+          "gscBlocks": [
+            {
+              "heading": "Canva vs Figma",
+              "body": "Overlap exists but Canva skews templated marketing while Figma skews UI systems—match the deliverable."
+            },
+            {
+              "heading": "AI-generated UI readiness",
+              "body": "Treat as starting concepts; accessibility and responsive QA remain human-led."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "语音 / 音乐",
+      "slug": "voice-music",
+      "updatedAt": "2026-04-06",
+      "locales": {
+        "zh-CN": {
+          "title": "语音与音乐 AI丨合成、转写与生成式配乐",
+          "description": "语音合成、会议转写与生成式音乐工具；商用请关注许可与署名要求。",
+          "intro": "听感、延迟、语种支持与音色克隆政策差异很大。对外发布内容前确认是否允许该用途、是否需要水印或版税说明。",
+          "gscBlocks": [
+            {
+              "heading": "Suno、Udio 生成音乐能上传 Spotify 吗？",
+              "body": "视各平台分发规则与版权状态而定；请阅读服务商条款与流媒体政策。"
+            },
+            {
+              "heading": "会议录音转文字准确吗？",
+              "body": "安静环境、清晰麦克风与领域词典可显著提升准确率；涉密会议禁用未批准云服务。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Voice & music AI — TTS, transcription, generative audio",
+          "description": "Speech synthesis, meeting notes, and music generation stacks.",
+          "intro": "Latency, language coverage, and voice-clone policies vary. Before shipping externally, verify usage rights, watermarks, or royalty disclosures.",
+          "gscBlocks": [
+            {
+              "heading": "Publishing AI music to streaming",
+              "body": "Depends on distributor rules and rights from the generator—read ToS for both the AI vendor and the streaming platform."
+            },
+            {
+              "heading": "Transcription accuracy",
+              "body": "Quiet rooms, good mics, and domain vocab help; block unapproved clouds for confidential meetings."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "评测 / 可观测",
+      "slug": "evals-observability",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "LLM 评测与可观测平台丨Trace、打分与线上监控",
+          "description": "把 LLM 应用当作生产系统运营：跑离线评测、抓线上 trace、盯规模化指标。此分类汇聚主流评测 / Eval / Observability 平台与开源方案。",
+          "intro": "从把 prompt 改好一次，到「改一版就跑 200 条回归 + 线上 99 分位延迟不劣化」之间，差的就是这一类工具。选型时看三条：是否支持**自定义评分器**、是否打通**trace + 评测 + 回放**一体、是否能**离线和在线共用一套数据集**。与 LangChain/LlamaIndex/OpenAI SDK 的集成深度也是高频差异点。",
+          "gscBlocks": [
+            {
+              "heading": "LangSmith、Langfuse、Braintrust 怎么选？",
+              "body": "LangSmith 与 LangChain 生态黏度最高；Langfuse 走开源自部署路线；Braintrust 偏「eval first」。建议用一条真实链路同时接 2 家跑两周，再看工程师实际打开频率。"
+            },
+            {
+              "heading": "RAG 系统怎么做评测？",
+              "body": "通常分检索（recall/precision、nDCG）与生成（correctness、faithfulness、groundedness）两层打分，再加人工抽检。工具层面关注是否自带 LLM‑as‑judge 与黄金答案数据集管理。"
+            },
+            {
+              "heading": "线上 LLM 调用怎么监控？",
+              "body": "关注 P50/P95 延迟、token 成本分布、失败率与 PII 泄露检测；日志留存与训练授权条款务必在官网核对。"
+            }
+          ]
+        },
+        "en": {
+          "title": "LLM evals & observability — traces, scoring, live monitoring",
+          "description": "Treat LLM apps like production systems: offline evals, live traces, and metrics at scale. This hub covers major eval/observability platforms and OSS options.",
+          "intro": "The gap between “I tuned this prompt once” and “I can ship a change and watch 200 regressions pass plus P99 latency stay flat” is filled by this category. Key comparisons: custom scorer support, unified **trace + eval + replay**, and whether offline/online share one dataset. Depth of LangChain/LlamaIndex/OpenAI SDK integration is another frequent deciding factor.",
+          "gscBlocks": [
+            {
+              "heading": "LangSmith vs Langfuse vs Braintrust",
+              "body": "LangSmith leans into LangChain; Langfuse is self-hostable OSS; Braintrust is eval-first. Run one real pipeline through two of them for two weeks and see which tab engineers actually open."
+            },
+            {
+              "heading": "How do I eval a RAG stack?",
+              "body": "Typically retrieval metrics (recall/precision/nDCG) + generation scores (correctness, faithfulness, groundedness), topped with human spot-checks. Look for built-in LLM-as-judge and golden dataset management."
+            },
+            {
+              "heading": "Monitoring LLMs in production",
+              "body": "Track P50/P95 latency, token cost distribution, failure rate, and PII leakage. Confirm log retention and training-use clauses on each vendor site."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "向量库 / 检索",
+      "slug": "vector-retrieval",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "向量数据库与检索工具丨RAG 的底座选型",
+          "description": "向量库、嵌入服务、重排序与记忆层的产品合集：为 RAG 与 Agent 选一条顺手的检索栈。",
+          "intro": "和「对话 LLM」不同，检索栈的差异在**吞吐、召回、过滤能力与运维形态**。先区分 serverless（Pinecone / Turbopuffer）与自部署（Milvus / Qdrant / Weaviate / Chroma / LanceDB），再看是否需要混合检索（BM25 + 向量）、metadata 过滤、命名空间隔离、按租户权限。嵌入与重排序可作为独立层组合（Jina、Cohere、OpenAI embeddings）。",
+          "gscBlocks": [
+            {
+              "heading": "Pinecone、Qdrant、Weaviate、Milvus 怎么选？",
+              "body": "小团队要速度用 Pinecone / Turbopuffer；要自部署选 Qdrant / Milvus；要本地跑评测用 Chroma / LanceDB。数据量 > 1 亿条时把运维成本与备份方案纳入对比。"
+            },
+            {
+              "heading": "需要 Rerank 吗？",
+              "body": "当召回噪声大、Top‑K 后答案仍漂移时，加一层 Cross-Encoder rerank 往往比换向量模型便宜有效。Cohere Rerank、Jina Reranker、bge‑reranker 是常见选项。"
+            },
+            {
+              "heading": "Agent 要不要长期记忆？",
+              "body": "多数应用用会话 + RAG 就够；只有需要「跨会话记住个体」的产品才引入 Mem0 / 自建记忆层，并务必设计可删除与审计。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Vector DBs & retrieval — pick the base layer for RAG",
+          "description": "Vector databases, embeddings, rerankers, and memory layers—compare the stack that feeds your RAG and agents.",
+          "intro": "Unlike chat LLMs, retrieval stacks differ mostly on **throughput, recall quality, filtering, and ops shape**. Split the short list into serverless (Pinecone, Turbopuffer) vs self-hosted (Milvus, Qdrant, Weaviate, Chroma, LanceDB), then check hybrid search (BM25 + vectors), metadata filters, namespaces, and per-tenant auth. Embedders and rerankers (Jina, Cohere, OpenAI) plug in as independent layers.",
+          "gscBlocks": [
+            {
+              "heading": "Pinecone vs Qdrant vs Weaviate vs Milvus",
+              "body": "Small teams chasing speed: Pinecone/Turbopuffer. Self-host camp: Qdrant/Milvus. Local evals and dev: Chroma/LanceDB. Past 100M vectors, ops cost and backup story dominate the choice."
+            },
+            {
+              "heading": "Do I need a reranker?",
+              "body": "If your Top-K retrieval is noisy and answers drift, a cross-encoder rerank is often cheaper than swapping embeddings. Cohere Rerank, Jina Reranker, and bge-reranker are common picks."
+            },
+            {
+              "heading": "Do agents need long-term memory?",
+              "body": "Most apps get by with session state plus RAG. Only reach for Mem0 or a custom memory layer when you truly need cross-session personalization—and design deletion and audits up front."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "推理 / 托管",
+      "slug": "inference-hosting",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "LLM 推理与模型托管平台丨聚合网关、低延迟与定价",
+          "description": "按 token 计费的推理服务、聚合网关、专用 LPU/ASIC 与无服务器 GPU 平台一览。",
+          "intro": "本分类是「应用层不想自管 GPU」的补给线。选型维度：**单价**（按 token / 按秒）、**尾延迟**（同模型 P95）、**可用模型清单**、**数据是否路由出境**、**是否有 OpenAI 兼容接口**。极低延迟需求（语音代理、交互式 IDE）看 Groq / Cerebras / SambaNova；要一个 key 吃多家选 OpenRouter / LiteLLM；要部署自定义权重看 Replicate / Modal / Baseten / Together / Fireworks。",
+          "gscBlocks": [
+            {
+              "heading": "聚合网关（OpenRouter）和直连厂商的差别？",
+              "body": "聚合网关胜在切换快、对照便宜；缺点是数据要过第三方与 SLA 链路更长。企业关键路径多数最终会走直连合同。"
+            },
+            {
+              "heading": "Groq / Cerebras 真的比 GPU 云便宜吗？",
+              "body": "在延迟敏感场景单 token 价和延迟曲线常更好，但可用模型集合和高并发额度受限，生产切换前请跑一次带真实流量的压测。"
+            },
+            {
+              "heading": "微调后的模型部署在哪？",
+              "body": "Replicate / Modal / Baseten / Together / Fireworks 都提供自定义权重 + 按量计费；注意冷启动时延与专有硬件占用计费方式。"
+            }
+          ]
+        },
+        "en": {
+          "title": "LLM inference & hosting — aggregators, low-latency hardware, pricing",
+          "description": "Token-metered inference services, aggregator gateways, custom-silicon providers, and serverless GPU platforms at a glance.",
+          "intro": "This is the feeder line for apps that don’t want to babysit GPUs. Compare **unit price** (token or second), **tail latency** (P95 on the same model), **model catalog**, **data routing**, and **OpenAI-compatible endpoints**. Ultra-low-latency use cases (voice agents, interactive IDEs) look at Groq/Cerebras/SambaNova. Multi-vendor experimenting leans on OpenRouter/LiteLLM. Custom weights land on Replicate/Modal/Baseten/Together/Fireworks.",
+          "gscBlocks": [
+            {
+              "heading": "Aggregator gateways vs direct vendor contracts",
+              "body": "Gateways win on speed-of-switch and A/B pricing; they lose on extra data hop and longer SLA chain. Critical enterprise paths usually graduate to direct contracts."
+            },
+            {
+              "heading": "Are Groq and Cerebras actually cheaper than GPU clouds?",
+              "body": "On latency-sensitive loads the $/token and tail-latency curve are often better, but model catalog and burst quotas are narrower—load test with real traffic before cutover."
+            },
+            {
+              "heading": "Where do I deploy a fine-tuned model?",
+              "body": "Replicate, Modal, Baseten, Together, and Fireworks all offer custom weights with metered billing. Watch cold-start tail latency and how reserved hardware is billed."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "会议 / 笔记",
+      "slug": "meetings-notes",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "AI 会议纪要与笔记丨自动转写、摘要与行动项",
+          "description": "会议自动记录、摘要、行动项提取与会后分发：面向销售、PM、咨询顾问的省时工具合集。",
+          "intro": "这一类工具核心是「别再会后花一小时补笔记」。区别主要在**录音/转写策略**（机器人入会 vs 系统音频捕获 vs 硬件挂坠）、**模板化输出**（MEDDIC、SPIN、1-on-1 等）、**CRM 同步**（HubSpot / Salesforce / Lark）、以及**数据训练条款**。敏感客户会议优先选本地录音 + 自定义删除策略的产品。",
+          "gscBlocks": [
+            {
+              "heading": "Granola、Fireflies、Otter、Fathom 怎么选？",
+              "body": "Granola 偏个人助理，不靠机器人入会；Fireflies / Otter 走机器人路线、CRM 集成成熟；Fathom 免费档开口大、面向销售流水线。团队先试 2–3 款一周看留存。"
+            },
+            {
+              "heading": "录音与转写合规吗？",
+              "body": "很多司法辖区要求双方同意录音。启用前请核对法务政策并在会议开头明确告知；企业版多提供可删除与地区部署选项。"
+            },
+            {
+              "heading": "硬件挂坠（Limitless / Plaud）适合谁？",
+              "body": "适合线下会议多、不方便让 Bot 入会的用户。须评估常携带风险与持续上传的隐私边界，并在面见客户前先询问对方是否接受。"
+            }
+          ]
+        },
+        "en": {
+          "title": "AI meeting notetakers — transcription, summaries, action items",
+          "description": "Auto-record, summarize, extract action items, and fan-out meeting notes. Time-savers for sales, PMs, and consultants.",
+          "intro": "The core job is “stop spending an hour after every call typing notes.” Differences: **capture method** (bot joins the call vs system audio vs wearable), **templated output** (MEDDIC, SPIN, 1-on-1), **CRM sync** (HubSpot, Salesforce, Lark), and **training-data clauses**. For sensitive customer calls prefer on-device recording plus explicit deletion controls.",
+          "gscBlocks": [
+            {
+              "heading": "Granola vs Fireflies vs Otter vs Fathom",
+              "body": "Granola reads like a personal assistant and skips meeting bots. Fireflies/Otter use bots and have mature CRM sync. Fathom’s free tier is generous and sales-focused. Pilot two or three for a week, check what people actually revisit."
+            },
+            {
+              "heading": "Is auto-recording compliant?",
+              "body": "Two-party consent rules apply in many jurisdictions. Announce recording at the start of the call and confirm policy with legal. Enterprise tiers usually provide deletion and regional hosting."
+            },
+            {
+              "heading": "Who should use wearables (Limitless, Plaud)?",
+              "body": "People with lots of in-person meetings where a bot isn’t welcome. Mind the always-on capture footprint and ask counterparts before recording face-to-face."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "UI / 前端生成",
+      "slug": "ui-frontend",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "AI UI 与前端生成丨从 prompt / 截图到可部署页面",
+          "description": "把文字或设计稿变成 React / Tailwind / Figma 组件的生成工具合集；从原型到 MVP 都能用。",
+          "intro": "这是 2024–2026 之间独立成类的新品类：过去分散在「编程」或「设计」里的 v0、Bolt、Lovable、Figma Make 等，都是**以设计意图直接产出可运行代码**的工具。选型时关注：是否输出**你要的技术栈**（React vs Vue vs 原生）、是否能**沿用设计系统**（Tailwind、shadcn、Radix 或自家 Design Tokens）、是否能**一键部署**或直接推到你现有 repo。风格差异很大，试用一到两款真实业务页面后再选。",
+          "gscBlocks": [
+            {
+              "heading": "v0、Bolt、Lovable、Figma Make 怎么分工？",
+              "body": "v0 强在 shadcn/Tailwind + Vercel 生态；Bolt 全栈（前后端一体，可装依赖）；Lovable 面向「一整个产品」；Figma Make 把 Figma 设计稿直接编到 React。按起点（文字/设计/仓库）挑趁手的即可。"
+            },
+            {
+              "heading": "AI 生成的前端代码能直接上线吗？",
+              "body": "原型可以；生产要做的依旧不少：a11y、国际化、响应式、性能与安全都不会自动做对。把生成结果视作「很强的脚手架」而非交付物。"
+            },
+            {
+              "heading": "UI 生成会替代设计师吗？",
+              "body": "短期会压缩重复性布局工作，但真正的信息架构、品牌表达与跨场景一致性仍需设计与前端协同。"
+            }
+          ]
+        },
+        "en": {
+          "title": "AI UI & front-end generation — from prompt or mockup to shippable pages",
+          "description": "Tools that turn prompts or Figma files into React/Tailwind/Vue components—useful from prototype to MVP.",
+          "intro": "This slice became its own category between 2024 and 2026. v0, Bolt, Lovable, Figma Make and peers all **turn design intent into runnable code**. Check: target **stack** (React vs Vue vs plain HTML), fit with your **design system** (Tailwind, shadcn, Radix, custom tokens), and whether output can **deploy in one click** or push to your existing repo. Aesthetics vary a lot—run a real page through two of them before committing.",
+          "gscBlocks": [
+            {
+              "heading": "v0 vs Bolt vs Lovable vs Figma Make",
+              "body": "v0 nails shadcn/Tailwind and Vercel. Bolt is full-stack (installs deps, ships backend). Lovable targets end-to-end product workflows. Figma Make compiles Figma files into React. Pick based on your starting artifact (prompt, design, or repo)."
+            },
+            {
+              "heading": "Can generated UI ship to production?",
+              "body": "Prototypes yes. Production still needs a11y, i18n, responsive polish, perf, and security work—treat output as a strong scaffold, not a deliverable."
+            },
+            {
+              "heading": "Does this replace designers?",
+              "body": "It compresses repetitive layout work. Information architecture, brand voice, and cross-surface consistency still need designers and front-end engineers working together."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "浏览器 / 桌面代理",
+      "slug": "browser-agent",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "浏览器与桌面代理丨让 AI 替你操作网页与应用",
+          "description": "Browser Use、Skyvern、Claude Computer Use、OpenAI Operator、Manus 等：让模型点网页、填表单、跑流程。",
+          "intro": "这是 2025 年开始跑起来的「**让模型操作 GUI 而不是仅调 API**」路线。常见形态有三种：**浏览器内扩展**（Comet 等）、**云端虚拟桌面**（Operator、Claude Computer Use）、**开源自部署**（Browser Use、Skyvern、Reworkd）。选型先问三件事：要不要**持续在用户环境跑**、错误动作的**回滚与审计**怎么做、**凭据管理**（Cookie、2FA、SSO）是否隔离到最小权限。",
+          "gscBlocks": [
+            {
+              "heading": "浏览器代理和 RPA 有什么区别？",
+              "body": "RPA 多为脚本化、基于坐标/控件规则；浏览器代理由 LLM 规划动作，具备一定的适应性但更不确定。面对 100% 确定流程请继续用 RPA；面对「页面会变」或半结构化数据，浏览器代理更合适。"
+            },
+            {
+              "heading": "Operator、Claude Computer Use 可以托付敏感账号吗？",
+              "body": "生产场景建议先用一次性凭据、最小权限会话与沙盒 VM；启用前读完数据留存与训练条款，关键操作加人类确认。"
+            },
+            {
+              "heading": "开源自部署（Browser Use、Skyvern）适合谁？",
+              "body": "适合需要定制策略、把凭据留在内网、或做批量爬虫/工单处理的团队。稳定性与反爬对抗通常仍需工程投入。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Browser & computer-use agents — let AI drive web and desktop apps",
+          "description": "Browser Use, Skyvern, Claude Computer Use, OpenAI Operator, Manus and more—models that click pages, fill forms, and run workflows.",
+          "intro": "This lane, “**drive the GUI instead of only calling APIs**”, broke out in 2025. Three shapes are common: **in-browser extensions** (Comet, etc.), **hosted virtual desktops** (Operator, Claude Computer Use), and **open-source self-hosted** (Browser Use, Skyvern, Reworkd). Ask three questions up front: does it run in the user’s live environment, how do wrong actions **roll back and audit**, and how are **credentials** (cookies, 2FA, SSO) scoped down?",
+          "gscBlocks": [
+            {
+              "heading": "Browser agents vs RPA",
+              "body": "RPA is scripted against fixed widgets/coords. Browser agents plan with an LLM and adapt better but are less deterministic. Use RPA for 100%-fixed flows and browser agents when pages shift or data is semi-structured."
+            },
+            {
+              "heading": "Can I trust Operator/Claude Computer Use with sensitive accounts?",
+              "body": "Use ephemeral credentials, least-privilege sessions, and sandboxed VMs. Read retention and training clauses; gate critical actions behind a human confirm."
+            },
+            {
+              "heading": "Who should self-host (Browser Use, Skyvern)?",
+              "body": "Teams that need custom policies, keep credentials on-prem, or run high-volume scraping/ticket work. Stability and anti-bot resilience still take engineering."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "语音代理 / 实时",
+      "slug": "voice-realtime",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "语音代理与实时 AI丨电话、客服与实时对话栈",
+          "description": "Vapi、Retell、Bland、LiveKit Agents、Cartesia、Hume、Deepgram、Pipecat 等：搭建可拨打电话的 AI。",
+          "intro": "语音代理是 2025 年爆发的品类：把 **STT + LLM + TTS + 电话 / WebRTC** 串起来，做前台、售前、预约、回访。选型看四件事：**端到端尾延迟**（目标 < 700ms）、**被打断处理**与对话轮转、**出海电话号码与合规**（TCPA / 双方同意）、**自建还是托管**。TTS 侧关注真实感与自定义声音的授权；STT 侧关注噪声和口音鲁棒性。",
+          "gscBlocks": [
+            {
+              "heading": "Vapi、Retell、Bland 怎么选？",
+              "body": "Vapi / Retell 偏开发者灵活，可自选 STT/LLM/TTS；Bland 面向「上架即能打电话」的开箱方案。把你要打的真实业务录一段脚本，在三家各跑 50 通再看留存率。"
+            },
+            {
+              "heading": "实时打断与低延迟怎么做？",
+              "body": "关键是 VAD + 双工音频 + 流式 STT + 流式 LLM + 低延迟 TTS。底层常用 LiveKit Agents / Pipecat；TTS 侧 Cartesia、ElevenLabs 的流式端到端延迟决定「感觉自然」的门槛。"
+            },
+            {
+              "heading": "合规与告知义务？",
+              "body": "多数司法辖区要求告知或书面同意被录音与转写；出海电话业务还涉及号码归属、节假日、时段与反骚扰名单，务必以当地法务意见为准。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Voice agents & realtime AI — phone, support, and live conversation stacks",
+          "description": "Vapi, Retell, Bland, LiveKit Agents, Cartesia, Hume, Deepgram, Pipecat and more—build AI that can pick up the phone.",
+          "intro": "Voice agents exploded in 2025: chain **STT + LLM + TTS + telephony/WebRTC** to run front-desk, pre-sales, scheduling, and follow-ups. Four things decide the build: **end-to-end tail latency** (target < 700ms), **barge-in and turn-taking**, **regional numbering and compliance** (TCPA, two-party consent), and **hosted vs self-built**. On TTS, judge realism and voice-clone licensing; on STT, stress-test noise and accents.",
+          "gscBlocks": [
+            {
+              "heading": "Vapi vs Retell vs Bland",
+              "body": "Vapi and Retell are dev-first and let you swap STT/LLM/TTS. Bland is more batteries-included. Record a real script and run 50 calls through each before committing."
+            },
+            {
+              "heading": "How do you get low latency with barge-in?",
+              "body": "You need VAD plus duplex audio, streaming STT, streaming LLM, and streaming TTS. LiveKit Agents and Pipecat are popular plumbing; Cartesia and ElevenLabs drive the TTS-side latency that makes conversations feel natural."
+            },
+            {
+              "heading": "Compliance and disclosure duties?",
+              "body": "Most jurisdictions require consent before recording/transcription. Outbound phone work also involves numbering rules, holiday/time windows, and do-not-call lists—get local counsel."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

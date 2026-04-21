@@ -370,5 +370,161 @@
   },
   "meshy": {
     "description": "Meshy: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+<<<<<<< Updated upstream
+=======
+  },
+  "manus": {
+    "description": "Manus AI 의 범용 자율형 어시스턴트. 챗 뒤에서 다단계 브라우징·조사형 작업 위임—한도·지역·데이터 처리는 공식 사이트 확인."
+  },
+  "lovable": {
+    "description": "Lovable 의 AI 앱 빌더. 프롬프트 중심 풀스택 UI·백엔드 뼈대와 반복 미리보기—프로덕션 전 내보내기·호스팅·팀 권한 확인."
+  },
+  "devin": {
+    "description": "Cognition 의 «AI 소프트웨어 엔지니어» 성향 제품. 티켓→PR 다단계 작업—출력은 초안으로, 리뷰·테스트·보안·지역 정책 필수."
+  },
+  "warp": {
+    "description": "AI 보조가 있는 현대적 터미널. 자동완성·공유 명령·워크플로 블록—CLI/SSH 다용도. 클라우드 AI 시 전송 데이터 확인."
+  },
+  "zed": {
+    "description": "Rust 기반 저지연 에디터. 멀티플레이 협업 편집·선택적 AI—팀 전환 전 VS Code 등과 확장 깊이 비교."
+  },
+  "granola": {
+    "description": "캘린더·전사 흐름과 맞춰 회의를 검색 가능 요약으로. 전사 도입 전 보존·학습 사용·엔터프라이즈 통제 확인."
+  },
+  "langsmith": {
+    "description": "LangChain 공식 평가·트레이스 플랫폼. 데이터셋·스코어러·실시간 모니터링·사람 리뷰를 LangChain/LangGraph와 가장 깊게 연동."
+  },
+  "langfuse": {
+    "description": "오픈소스 LLM 옵저버빌리티·평가 플랫폼. 트레이스·데이터셋·스코어러·프롬프트 관리, Docker 자체 호스팅 가능."
+  },
+  "braintrust": {
+    "description": "Braintrust: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "arize-phoenix": {
+    "description": "Arize Phoenix: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "helicone": {
+    "description": "Helicone: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "galileo-ai": {
+    "description": "Galileo: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "patronus-ai": {
+    "description": "Patronus AI: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "pinecone": {
+    "description": "매니지드 벡터 DB. 서버리스 티어와 네임스페이스로 RAG를 빠르게 운영; 규모 커지면 Qdrant/Milvus 자체호스팅 비교."
+  },
+  "weaviate": {
+    "description": "Weaviate: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "qdrant": {
+    "description": "Rust로 구현한 오픈소스 벡터 DB. 매니지드·엔터프라이즈 제공, payload 필터·하이브리드·양자화로 메모리와 처리량 최적화."
+  },
+  "chroma": {
+    "description": "Chroma: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "milvus": {
+    "description": "Milvus / Zilliz: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "lancedb": {
+    "description": "LanceDB: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "turbopuffer": {
+    "description": "Turbopuffer: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "cerebras": {
+    "description": "Cerebras 웨이퍼 스케일 추론. 주요 OSS LLM에서 극한 토큰 처리; 인터랙티브 앱에 유리, 모델 목록은 공식 사이트."
+  },
+  "sambanova": {
+    "description": "SambaNova Cloud: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "baseten": {
+    "description": "Baseten: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "modal": {
+    "description": "Modal: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "litellm": {
+    "description": "오픈소스 LLM 프록시 게이트웨이. OpenAI 호환 API 하나로 100+ 벤더 통합—라우팅·예산·폴백·로그까지."
+  },
+  "fireflies-ai": {
+    "description": "회의에 자동 참여해 전사·액션 아이템을 HubSpot/Salesforce/Slack로 동기화. 세일즈·CS 적합; 도입 전 동의·보존 정책 확인."
+  },
+  "fathom": {
+    "description": "Fathom: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "read-ai": {
+    "description": "Read.AI: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "tldv": {
+    "description": "tl;dv: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "limitless": {
+    "description": "Limitless: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "plaud": {
+    "description": "Plaud: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "notta": {
+    "description": "Notta: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "tempo-ai": {
+    "description": "Tempo: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "subframe": {
+    "description": "Subframe: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "figma-make": {
+    "description": "Figma Make: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "relume": {
+    "description": "Relume: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "onlook": {
+    "description": "Onlook: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "browser-use": {
+    "description": "오픈소스 브라우저 에이전트 프레임워크. 구조화된 DOM 조작으로 웹을 제어—Operator/Computer Use의 자체 호스팅 대안."
+  },
+  "skyvern": {
+    "description": "Skyvern: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "multion": {
+    "description": "MultiOn: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "anthropic-computer-use": {
+    "description": "Anthropic의 Claude가 화면을 보고 컴퓨터를 조작하는 API 기능. 샌드박스 VM·최소권한·중요 단계 사람 확인 권장."
+  },
+  "openai-operator": {
+    "description": "OpenAI의 클라우드 브라우저 에이전트(ChatGPT Agent로 통합 중). 제품명·지역은 공식 사이트에서 확인."
+  },
+  "reworkd": {
+    "description": "Reworkd: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "vapi": {
+    "description": "개발자 친화 보이스 에이전트 플랫폼. STT/LLM/TTS 선택과 번호 임대, 분 단위 과금."
+  },
+  "retell-ai": {
+    "description": "저지연·자연스러운 인터럽트에 특화된 보이스 에이전트; 비주얼 오케스트레이션과 번호 임대 제공."
+  },
+  "bland-ai": {
+    "description": "Bland AI: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "livekit-agents": {
+    "description": "LiveKit Agents: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "cartesia": {
+    "description": "저지연 TTS(Sonic 시리즈). 스트리밍 API와 커스텀 보이스—자연스러운 보이스 에이전트·오디오 제품에 자주 사용."
+  },
+  "hume-ai": {
+    "description": "Hume AI: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "deepgram": {
+    "description": "Deepgram: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+  },
+  "pipecat": {
+    "description": "Pipecat: 인기 AI 제품—기능·가격·지원 지역·데이터 처리·최신 모델은 공식 사이트를 확인하세요."
+>>>>>>> Stashed changes
   }
 }

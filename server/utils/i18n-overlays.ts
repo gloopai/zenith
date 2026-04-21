@@ -3,7 +3,7 @@ import { readSiteDataJsonOptional } from './site-assets'
 type OverlayMap = Record<string, Record<string, unknown>>
 
 /** Merge overlay JSON files: en base, then locale-specific (except zh-CN only uses its file). */
-export async function readMergedJsonOverlays(subdir: 'tool-overlays' | 'openclaw-overlays', locale: string): Promise<OverlayMap> {
+export async function readMergedJsonOverlays(subdir: 'tool-overlays' | 'openclaw-overlays' | 'mcp-overlays', locale: string): Promise<OverlayMap> {
   const codes = locale === 'zh-CN' ? ['zh-CN'] : locale === 'en' ? ['en'] : ['en', locale]
   const merged: OverlayMap = {}
   for (const code of codes) {

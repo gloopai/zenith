@@ -370,5 +370,161 @@
   },
   "meshy": {
     "description": "Meshy: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+<<<<<<< Updated upstream
+=======
+  },
+  "manus": {
+    "description": "Asistente autónomo de propósito general de Manus AI: delega tareas de navegación e investigación en varios pasos tras un chat—límites, regiones y datos en el sitio."
+  },
+  "lovable": {
+    "description": "Constructor de apps Lovable: UI y backend full-stack desde prompts con vistas previas iterativas—antes de producción revisa exportación, hosting y permisos del equipo."
+  },
+  "devin": {
+    "description": "Producto tipo “ingeniero de software con IA” de Cognition: tareas en varios pasos de ticket a PR—trata la salida como borrador; exige revisión humana, pruebas, seguridad y política regional."
+  },
+  "warp": {
+    "description": "Terminal moderna con IA: autocompletado, comandos compartidos y bloques de flujo—para usuarios intensivos de CLI/SSH; verifica qué datos salen al usar IA en la nube."
+  },
+  "zed": {
+    "description": "Editor en Rust con baja latencia y colaboración multijugador más IA opcional—compara profundidad de extensiones vs VS Code antes de migrar al equipo."
+  },
+  "granola": {
+    "description": "Notas de reunión con contexto de calendario y flujos de transcripción a resúmenes buscables—antes del despliegue corporativo revisa retención, uso para entrenamiento y controles enterprise."
+  },
+  "langsmith": {
+    "description": "Plataforma de evals y traces de LangChain—datasets, scorers, monitoreo en vivo y revisión humana con la integración más profunda con LangChain/LangGraph."
+  },
+  "langfuse": {
+    "description": "Plataforma open‑source de observabilidad y evals para LLM—traces, datasets, scorers y gestión de prompts; self‑host con Docker."
+  },
+  "braintrust": {
+    "description": "Braintrust: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "arize-phoenix": {
+    "description": "Arize Phoenix: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "helicone": {
+    "description": "Helicone: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "galileo-ai": {
+    "description": "Galileo: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "patronus-ai": {
+    "description": "Patronus AI: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "pinecone": {
+    "description": "Vector DB gestionada con tiers serverless y namespaces—camino rápido a RAG; a gran escala compara coste con Qdrant/Milvus self-host."
+  },
+  "weaviate": {
+    "description": "Weaviate: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "qdrant": {
+    "description": "Vector DB open source en Rust con nube gestionada y enterprise—filtro por payload, búsqueda híbrida y cuantización para memoria/rendimiento."
+  },
+  "chroma": {
+    "description": "Chroma: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "milvus": {
+    "description": "Milvus / Zilliz: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "lancedb": {
+    "description": "LanceDB: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "turbopuffer": {
+    "description": "Turbopuffer: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "cerebras": {
+    "description": "Inferencia de Cerebras en silicio wafer‑scale con throughput extremo en LLMs OSS populares; apto para apps interactivas, consulta modelos en la web."
+  },
+  "sambanova": {
+    "description": "SambaNova Cloud: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "baseten": {
+    "description": "Baseten: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "modal": {
+    "description": "Modal: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "litellm": {
+    "description": "Gateway proxy open source para 100+ proveedores LLM con API compatible con OpenAI—enrutado, presupuestos, fallbacks y logs."
+  },
+  "fireflies-ai": {
+    "description": "Bot que se une solo a llamadas, transcribe y sincroniza tareas con HubSpot/Salesforce/Slack—apto para ventas/CS; revisa consentimiento y retención."
+  },
+  "fathom": {
+    "description": "Fathom: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "read-ai": {
+    "description": "Read.AI: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "tldv": {
+    "description": "tl;dv: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "limitless": {
+    "description": "Limitless: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "plaud": {
+    "description": "Plaud: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "notta": {
+    "description": "Notta: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "tempo-ai": {
+    "description": "Tempo: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "subframe": {
+    "description": "Subframe: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "figma-make": {
+    "description": "Figma Make: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "relume": {
+    "description": "Relume: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "onlook": {
+    "description": "Onlook: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "browser-use": {
+    "description": "Framework open source de agente de navegador que controla páginas vía DOM estructurado—alternativa self‑host a Operator/Computer Use."
+  },
+  "skyvern": {
+    "description": "Skyvern: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "multion": {
+    "description": "MultiOn: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "anthropic-computer-use": {
+    "description": "Capacidad de Claude (Anthropic) para ver la pantalla y operar un ordenador vía API—en producción usa VMs aisladas, credenciales acotadas y confirmación humana."
+  },
+  "openai-operator": {
+    "description": "Agente de navegador en la nube de OpenAI (en integración con ChatGPT Agent)—nombre y regiones actuales en el sitio oficial."
+  },
+  "reworkd": {
+    "description": "Reworkd: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "vapi": {
+    "description": "Plataforma de agentes de voz para desarrolladores con STT/LLM/TTS intercambiables y números de teléfono; tarifa por minuto."
+  },
+  "retell-ai": {
+    "description": "Plataforma de agentes de voz centrada en baja latencia y barge‑in natural; orquestación visual y alquiler de números."
+  },
+  "bland-ai": {
+    "description": "Bland AI: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "livekit-agents": {
+    "description": "LiveKit Agents: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "cartesia": {
+    "description": "TTS de baja latencia (serie Sonic) con API en streaming y voces personalizadas—capa habitual para agentes de voz con sensación natural."
+  },
+  "hume-ai": {
+    "description": "Hume AI: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "deepgram": {
+    "description": "Deepgram: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+  },
+  "pipecat": {
+    "description": "Pipecat: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales."
+>>>>>>> Stashed changes
   }
 }
