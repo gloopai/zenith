@@ -19,6 +19,12 @@
           </NuxtLink>
           <NuxtLink
             class="btn-secondary inline-flex items-center justify-center rounded-2xl px-8 py-3.5 text-center"
+            :to="localePath('/mcp')"
+          >
+            {{ t('home.mcpServers') }}
+          </NuxtLink>
+          <NuxtLink
+            class="btn-secondary inline-flex items-center justify-center rounded-2xl px-8 py-3.5 text-center"
             :to="localePath('/openclaw')"
           >
             {{ t('home.openclawSkills') }}
@@ -133,6 +139,41 @@
     <section class="glass-card p-7 sm:p-8">
       <div class="flex flex-col gap-4 border-b border-white/[0.06] pb-6 sm:flex-row sm:items-start sm:justify-between">
         <div>
+          <h2 class="text-lg font-semibold text-white">{{ t('home.mcpSectionTitle') }}</h2>
+          <p class="mt-1.5 text-sm text-zinc-500">
+            {{ t('home.mcpSectionHint') }}
+          </p>
+        </div>
+        <NuxtLink class="link-accent shrink-0 text-sm" :to="localePath('/mcp')">{{ t('home.allMcpServers') }}</NuxtLink>
+      </div>
+      <ul class="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+        <li v-for="s in mcpPreview" :key="s.slug">
+          <NuxtLink
+            :to="localePath(`/mcp/${s.slug}`)"
+            class="glass-panel group block rounded-xl p-4 transition hover:border-violet-500/20 hover:bg-white/[0.03]"
+          >
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-medium text-white group-hover:text-violet-100">{{ s.name }}</span>
+              <span
+                class="shrink-0 rounded-md px-1.5 py-0.5 text-[10px] font-medium"
+                :class="s.official ? 'bg-emerald-500/15 text-emerald-300' : 'bg-amber-500/15 text-amber-200'"
+              >
+                {{ s.official ? t('home.mcpOfficial') : t('home.mcpCommunity') }}
+              </span>
+            </div>
+            <div class="mt-1 line-clamp-2 text-xs text-zinc-500">{{ s.description }}</div>
+            <div v-if="s.transport || s.vendor" class="mt-2 flex flex-wrap gap-1.5 text-[10px] text-zinc-600">
+              <span v-if="s.transport" class="rounded bg-sky-500/10 px-1.5 py-0.5 text-sky-300">{{ s.transport }}</span>
+              <span v-if="s.vendor" class="rounded bg-white/[0.04] px-1.5 py-0.5">{{ s.vendor }}</span>
+            </div>
+          </NuxtLink>
+        </li>
+      </ul>
+    </section>
+
+    <section class="glass-card p-7 sm:p-8">
+      <div class="flex flex-col gap-4 border-b border-white/[0.06] pb-6 sm:flex-row sm:items-start sm:justify-between">
+        <div>
           <h2 class="text-lg font-semibold text-white">{{ t('home.openclawSectionTitle') }}</h2>
           <p class="mt-1.5 text-sm text-zinc-500">
             {{ t('home.openclawSectionHint') }}
@@ -164,7 +205,14 @@
 </template>
 
 <script setup lang="ts">
-import type { ClusterSummary, NavCategoryListItem, NewsListItem, OpenClawSkill, Tool } from '~~/shared/types/site'
+import type {
+  ClusterSummary,
+  McpServer,
+  NavCategoryListItem,
+  NewsListItem,
+  OpenClawSkill,
+  Tool,
+} from '~~/shared/types/site'
 import { I18N_DEFAULT_LOCALE } from '~~/shared/i18n-public'
 
 const { t, locale } = useI18n()
@@ -219,6 +267,14 @@ const { data: openclawRes } = await useAsyncData(
   () => `home-openclaw-${locale.value}`,
   () =>
     $fetch<{ skills: OpenClawSkill[] }>('/api/openclaw', {
+      query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
+    }),
+  { watch: [locale] },
+)
+const { data: mcpRes } = await useAsyncData(
+  () => `home-mcp-${locale.value}`,
+  () =>
+    $fetch<{ servers: McpServer[] }>('/api/mcp', {
       query: { locale: (locale.value as string) || I18N_DEFAULT_LOCALE },
     }),
   { watch: [locale] },
@@ -303,6 +359,13 @@ const latestNews = computed(() => newsRes.value?.items ?? [])
 
 const openClawPreview = computed(() => {
   const list = openclawRes.value?.skills ?? []
+  const featured = list.filter((s) => s.featured)
+  const base = featured.length ? featured : list.filter((s) => s.official)
+  return base.slice(0, 6)
+})
+
+const mcpPreview = computed(() => {
+  const list = mcpRes.value?.servers ?? []
   const featured = list.filter((s) => s.featured)
   const base = featured.length ? featured : list.filter((s) => s.official)
   return base.slice(0, 6)

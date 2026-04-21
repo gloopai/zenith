@@ -10,7 +10,8 @@
     "menu": "菜单",
     "footerDescription": "精选 AI 工具与行业资讯，一站浏览。",
     "sitemap": "网站地图",
-    "language": "语言"
+    "language": "语言",
+    "mcp": "MCP"
   },
   "home": {
     "eyebrow": "Plunget",
@@ -34,7 +35,13 @@
     "scenarioClustersHint": "按搜索意图整理的工具清单，内含指向各工具详情页的内链，利于长尾主题聚合。",
     "allClusters": "查看全部合集",
     "categoryHubTitle": "按分类浏览（长尾落地页）",
-    "categoryHubHint": "每类含导读、检索向问答与工具列表；内链到详情与官网，便于比较与发现。"
+    "categoryHubHint": "每类含导读、检索向问答与工具列表；内链到详情与官网，便于比较与发现。",
+    "mcpServers": "MCP 服务器",
+    "mcpSectionTitle": "MCP 服务器精选",
+    "mcpSectionHint": "可直接接入 Claude / Cursor / Zed 的 Model Context Protocol 服务器：官方参考与主流厂商发布，含安装命令、传输方式与上游链接。",
+    "allMcpServers": "全部 MCP 服务器",
+    "mcpOfficial": "官方",
+    "mcpCommunity": "社区"
   },
   "clusterPage": {
     "eyebrow": "主题聚合",
@@ -46,7 +53,11 @@
     "toolCount": "{count} 个条目",
     "missingToolsHint": "目录可能有调整，部分 slug 若已下线将不会出现在列表中。",
     "emptyTools": "当前未能解析到可用工具条目。",
-    "notFound": "未找到该合集"
+    "notFound": "未找到该合集",
+    "mcpListTitle": "本合集相关 MCP 服务器",
+    "mcpListHint": "可在 Claude / Cursor / Zed 等 MCP 客户端配置后直接调用，用来给代理接上外部工具、数据源或执行环境。",
+    "mcpBadgeOfficial": "官方",
+    "mcpBadgeCommunity": "社区"
   },
   "navPage": {
     "eyebrow": "目录",
@@ -139,7 +150,8 @@
   "errors": {
     "toolNotFound": "未找到该工具",
     "articleNotFound": "未找到该文章",
-    "skillNotFound": "未找到该技能"
+    "skillNotFound": "未找到该技能",
+    "mcpServerNotFound": "未找到该 MCP 服务器"
   },
   "seo": {
     "siteDescription": "AI 工具目录：对话、编程、图像/视频、翻译、自动化等 15+ 分类落地页，附工具详解、常见问答与 OpenClaw / AgentSkills 技能索引，站内内链密集。",
@@ -151,6 +163,45 @@
     "newsDescription": "面向实践的 AI 文章：模型选型、隐私习惯、多模态流程、本地与云端语言模型、OpenClaw 与代理技能等，附摘要与全文。",
     "openclawTitle": "OpenClaw 技能目录（AgentSkills）",
     "openclawDescription": "汇总 OpenClaw 官方仓库技能与常见自定义示例命名，涵盖 CLI/API 集成思路、SKILL.md 结构、ClawHub 与官方文档入口。",
-    "ogHomeTitle": "Plunget — AI 工具分类目录与精选详解"
+    "ogHomeTitle": "Plunget — AI 工具分类目录与精选详解",
+    "mcpTitle": "MCP 服务器目录（Model Context Protocol）",
+    "mcpDescription": "精选 30+ MCP 服务器：官方参考实现、主流厂商发布与社区常用项，覆盖文件、Git/GitHub、数据库、云运维、搜索、浏览器与支付等，面向 Claude/Cursor/Zed 等 MCP 客户端使用者。"
+  },
+  "mcpPage": {
+    "eyebrow": "Model Context Protocol",
+    "title": "MCP 服务器目录",
+    "introBeforeSpecLink": "Model Context Protocol（MCP）由 Anthropic 提出，规范见 ",
+    "introAfterSpecLink": "，官方参考实现集中在 ",
+    "introAfterRefRepo": " 的 servers 目录。本页收录常见的 MCP 服务器：",
+    "introStrong": "官方参考与主流厂商发布",
+    "introEnd": "，便于在 Claude、Cursor、Zed 等客户端里给代理接上外部工具与数据源。",
+    "filterAll": "全部",
+    "filterOfficial": "官方发布",
+    "filterCommunity": "社区 / 示例",
+    "searchLabel": "搜索",
+    "searchPlaceholder": "名称、描述、厂商或标签",
+    "count": "共 {count} 条",
+    "filterApplied": "筛选已应用",
+    "badgeOfficial": "官方",
+    "badgeCommunity": "社区",
+    "empty": "没有符合筛选的结果。"
+  },
+  "mcpServerPage": {
+    "breadcrumb": "MCP 服务器",
+    "badgeOfficial": "官方发布",
+    "badgeCommunity": "社区 / 示例",
+    "featured": "精选",
+    "transport": "传输：{transport}",
+    "vendorBy": "发布方：{vendor}",
+    "viewUpstream": "查看源仓库",
+    "opensNewWindow": "新窗口打开",
+    "installTitle": "安装与启动",
+    "installHint": "以上命令仅供参考；具体环境变量、权限范围与客户端配置请以上游文档为准。",
+    "notesTitle": "说明",
+    "noteOfficial1": "本条由 ",
+    "noteOfficial2": " 官方或 modelcontextprotocol/servers 参考实现提供；生产环境使用前请确认版本、最小权限令牌与审计策略。",
+    "noteCommunity": "本条为社区或示例实现，适合学习与快速验证；生产环境请评估维护状态、依赖链与数据合规。",
+    "upstreamFallback": "上游团队",
+    "ogSuffix": "MCP Server"
   }
 }

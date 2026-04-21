@@ -578,6 +578,321 @@
           ]
         }
       }
+    },
+    {
+      "canonicalKey": "评测 / 可观测",
+      "slug": "evals-observability",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "LLM 评测与可观测平台丨Trace、打分与线上监控",
+          "description": "把 LLM 应用当作生产系统运营：跑离线评测、抓线上 trace、盯规模化指标。此分类汇聚主流评测 / Eval / Observability 平台与开源方案。",
+          "intro": "从把 prompt 改好一次，到「改一版就跑 200 条回归 + 线上 99 分位延迟不劣化」之间，差的就是这一类工具。选型时看三条：是否支持**自定义评分器**、是否打通**trace + 评测 + 回放**一体、是否能**离线和在线共用一套数据集**。与 LangChain/LlamaIndex/OpenAI SDK 的集成深度也是高频差异点。",
+          "gscBlocks": [
+            {
+              "heading": "LangSmith、Langfuse、Braintrust 怎么选？",
+              "body": "LangSmith 与 LangChain 生态黏度最高；Langfuse 走开源自部署路线；Braintrust 偏「eval first」。建议用一条真实链路同时接 2 家跑两周，再看工程师实际打开频率。"
+            },
+            {
+              "heading": "RAG 系统怎么做评测？",
+              "body": "通常分检索（recall/precision、nDCG）与生成（correctness、faithfulness、groundedness）两层打分，再加人工抽检。工具层面关注是否自带 LLM‑as‑judge 与黄金答案数据集管理。"
+            },
+            {
+              "heading": "线上 LLM 调用怎么监控？",
+              "body": "关注 P50/P95 延迟、token 成本分布、失败率与 PII 泄露检测；日志留存与训练授权条款务必在官网核对。"
+            }
+          ]
+        },
+        "en": {
+          "title": "LLM evals & observability — traces, scoring, live monitoring",
+          "description": "Treat LLM apps like production systems: offline evals, live traces, and metrics at scale. This hub covers major eval/observability platforms and OSS options.",
+          "intro": "The gap between “I tuned this prompt once” and “I can ship a change and watch 200 regressions pass plus P99 latency stay flat” is filled by this category. Key comparisons: custom scorer support, unified **trace + eval + replay**, and whether offline/online share one dataset. Depth of LangChain/LlamaIndex/OpenAI SDK integration is another frequent deciding factor.",
+          "gscBlocks": [
+            {
+              "heading": "LangSmith vs Langfuse vs Braintrust",
+              "body": "LangSmith leans into LangChain; Langfuse is self-hostable OSS; Braintrust is eval-first. Run one real pipeline through two of them for two weeks and see which tab engineers actually open."
+            },
+            {
+              "heading": "How do I eval a RAG stack?",
+              "body": "Typically retrieval metrics (recall/precision/nDCG) + generation scores (correctness, faithfulness, groundedness), topped with human spot-checks. Look for built-in LLM-as-judge and golden dataset management."
+            },
+            {
+              "heading": "Monitoring LLMs in production",
+              "body": "Track P50/P95 latency, token cost distribution, failure rate, and PII leakage. Confirm log retention and training-use clauses on each vendor site."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "向量库 / 检索",
+      "slug": "vector-retrieval",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "向量数据库与检索工具丨RAG 的底座选型",
+          "description": "向量库、嵌入服务、重排序与记忆层的产品合集：为 RAG 与 Agent 选一条顺手的检索栈。",
+          "intro": "和「对话 LLM」不同，检索栈的差异在**吞吐、召回、过滤能力与运维形态**。先区分 serverless（Pinecone / Turbopuffer）与自部署（Milvus / Qdrant / Weaviate / Chroma / LanceDB），再看是否需要混合检索（BM25 + 向量）、metadata 过滤、命名空间隔离、按租户权限。嵌入与重排序可作为独立层组合（Jina、Cohere、OpenAI embeddings）。",
+          "gscBlocks": [
+            {
+              "heading": "Pinecone、Qdrant、Weaviate、Milvus 怎么选？",
+              "body": "小团队要速度用 Pinecone / Turbopuffer；要自部署选 Qdrant / Milvus；要本地跑评测用 Chroma / LanceDB。数据量 > 1 亿条时把运维成本与备份方案纳入对比。"
+            },
+            {
+              "heading": "需要 Rerank 吗？",
+              "body": "当召回噪声大、Top‑K 后答案仍漂移时，加一层 Cross-Encoder rerank 往往比换向量模型便宜有效。Cohere Rerank、Jina Reranker、bge‑reranker 是常见选项。"
+            },
+            {
+              "heading": "Agent 要不要长期记忆？",
+              "body": "多数应用用会话 + RAG 就够；只有需要「跨会话记住个体」的产品才引入 Mem0 / 自建记忆层，并务必设计可删除与审计。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Vector DBs & retrieval — pick the base layer for RAG",
+          "description": "Vector databases, embeddings, rerankers, and memory layers—compare the stack that feeds your RAG and agents.",
+          "intro": "Unlike chat LLMs, retrieval stacks differ mostly on **throughput, recall quality, filtering, and ops shape**. Split the short list into serverless (Pinecone, Turbopuffer) vs self-hosted (Milvus, Qdrant, Weaviate, Chroma, LanceDB), then check hybrid search (BM25 + vectors), metadata filters, namespaces, and per-tenant auth. Embedders and rerankers (Jina, Cohere, OpenAI) plug in as independent layers.",
+          "gscBlocks": [
+            {
+              "heading": "Pinecone vs Qdrant vs Weaviate vs Milvus",
+              "body": "Small teams chasing speed: Pinecone/Turbopuffer. Self-host camp: Qdrant/Milvus. Local evals and dev: Chroma/LanceDB. Past 100M vectors, ops cost and backup story dominate the choice."
+            },
+            {
+              "heading": "Do I need a reranker?",
+              "body": "If your Top-K retrieval is noisy and answers drift, a cross-encoder rerank is often cheaper than swapping embeddings. Cohere Rerank, Jina Reranker, and bge-reranker are common picks."
+            },
+            {
+              "heading": "Do agents need long-term memory?",
+              "body": "Most apps get by with session state plus RAG. Only reach for Mem0 or a custom memory layer when you truly need cross-session personalization—and design deletion and audits up front."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "推理 / 托管",
+      "slug": "inference-hosting",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "LLM 推理与模型托管平台丨聚合网关、低延迟与定价",
+          "description": "按 token 计费的推理服务、聚合网关、专用 LPU/ASIC 与无服务器 GPU 平台一览。",
+          "intro": "本分类是「应用层不想自管 GPU」的补给线。选型维度：**单价**（按 token / 按秒）、**尾延迟**（同模型 P95）、**可用模型清单**、**数据是否路由出境**、**是否有 OpenAI 兼容接口**。极低延迟需求（语音代理、交互式 IDE）看 Groq / Cerebras / SambaNova；要一个 key 吃多家选 OpenRouter / LiteLLM；要部署自定义权重看 Replicate / Modal / Baseten / Together / Fireworks。",
+          "gscBlocks": [
+            {
+              "heading": "聚合网关（OpenRouter）和直连厂商的差别？",
+              "body": "聚合网关胜在切换快、对照便宜；缺点是数据要过第三方与 SLA 链路更长。企业关键路径多数最终会走直连合同。"
+            },
+            {
+              "heading": "Groq / Cerebras 真的比 GPU 云便宜吗？",
+              "body": "在延迟敏感场景单 token 价和延迟曲线常更好，但可用模型集合和高并发额度受限，生产切换前请跑一次带真实流量的压测。"
+            },
+            {
+              "heading": "微调后的模型部署在哪？",
+              "body": "Replicate / Modal / Baseten / Together / Fireworks 都提供自定义权重 + 按量计费；注意冷启动时延与专有硬件占用计费方式。"
+            }
+          ]
+        },
+        "en": {
+          "title": "LLM inference & hosting — aggregators, low-latency hardware, pricing",
+          "description": "Token-metered inference services, aggregator gateways, custom-silicon providers, and serverless GPU platforms at a glance.",
+          "intro": "This is the feeder line for apps that don’t want to babysit GPUs. Compare **unit price** (token or second), **tail latency** (P95 on the same model), **model catalog**, **data routing**, and **OpenAI-compatible endpoints**. Ultra-low-latency use cases (voice agents, interactive IDEs) look at Groq/Cerebras/SambaNova. Multi-vendor experimenting leans on OpenRouter/LiteLLM. Custom weights land on Replicate/Modal/Baseten/Together/Fireworks.",
+          "gscBlocks": [
+            {
+              "heading": "Aggregator gateways vs direct vendor contracts",
+              "body": "Gateways win on speed-of-switch and A/B pricing; they lose on extra data hop and longer SLA chain. Critical enterprise paths usually graduate to direct contracts."
+            },
+            {
+              "heading": "Are Groq and Cerebras actually cheaper than GPU clouds?",
+              "body": "On latency-sensitive loads the $/token and tail-latency curve are often better, but model catalog and burst quotas are narrower—load test with real traffic before cutover."
+            },
+            {
+              "heading": "Where do I deploy a fine-tuned model?",
+              "body": "Replicate, Modal, Baseten, Together, and Fireworks all offer custom weights with metered billing. Watch cold-start tail latency and how reserved hardware is billed."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "会议 / 笔记",
+      "slug": "meetings-notes",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "AI 会议纪要与笔记丨自动转写、摘要与行动项",
+          "description": "会议自动记录、摘要、行动项提取与会后分发：面向销售、PM、咨询顾问的省时工具合集。",
+          "intro": "这一类工具核心是「别再会后花一小时补笔记」。区别主要在**录音/转写策略**（机器人入会 vs 系统音频捕获 vs 硬件挂坠）、**模板化输出**（MEDDIC、SPIN、1-on-1 等）、**CRM 同步**（HubSpot / Salesforce / Lark）、以及**数据训练条款**。敏感客户会议优先选本地录音 + 自定义删除策略的产品。",
+          "gscBlocks": [
+            {
+              "heading": "Granola、Fireflies、Otter、Fathom 怎么选？",
+              "body": "Granola 偏个人助理，不靠机器人入会；Fireflies / Otter 走机器人路线、CRM 集成成熟；Fathom 免费档开口大、面向销售流水线。团队先试 2–3 款一周看留存。"
+            },
+            {
+              "heading": "录音与转写合规吗？",
+              "body": "很多司法辖区要求双方同意录音。启用前请核对法务政策并在会议开头明确告知；企业版多提供可删除与地区部署选项。"
+            },
+            {
+              "heading": "硬件挂坠（Limitless / Plaud）适合谁？",
+              "body": "适合线下会议多、不方便让 Bot 入会的用户。须评估常携带风险与持续上传的隐私边界，并在面见客户前先询问对方是否接受。"
+            }
+          ]
+        },
+        "en": {
+          "title": "AI meeting notetakers — transcription, summaries, action items",
+          "description": "Auto-record, summarize, extract action items, and fan-out meeting notes. Time-savers for sales, PMs, and consultants.",
+          "intro": "The core job is “stop spending an hour after every call typing notes.” Differences: **capture method** (bot joins the call vs system audio vs wearable), **templated output** (MEDDIC, SPIN, 1-on-1), **CRM sync** (HubSpot, Salesforce, Lark), and **training-data clauses**. For sensitive customer calls prefer on-device recording plus explicit deletion controls.",
+          "gscBlocks": [
+            {
+              "heading": "Granola vs Fireflies vs Otter vs Fathom",
+              "body": "Granola reads like a personal assistant and skips meeting bots. Fireflies/Otter use bots and have mature CRM sync. Fathom’s free tier is generous and sales-focused. Pilot two or three for a week, check what people actually revisit."
+            },
+            {
+              "heading": "Is auto-recording compliant?",
+              "body": "Two-party consent rules apply in many jurisdictions. Announce recording at the start of the call and confirm policy with legal. Enterprise tiers usually provide deletion and regional hosting."
+            },
+            {
+              "heading": "Who should use wearables (Limitless, Plaud)?",
+              "body": "People with lots of in-person meetings where a bot isn’t welcome. Mind the always-on capture footprint and ask counterparts before recording face-to-face."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "UI / 前端生成",
+      "slug": "ui-frontend",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "AI UI 与前端生成丨从 prompt / 截图到可部署页面",
+          "description": "把文字或设计稿变成 React / Tailwind / Figma 组件的生成工具合集；从原型到 MVP 都能用。",
+          "intro": "这是 2024–2026 之间独立成类的新品类：过去分散在「编程」或「设计」里的 v0、Bolt、Lovable、Figma Make 等，都是**以设计意图直接产出可运行代码**的工具。选型时关注：是否输出**你要的技术栈**（React vs Vue vs 原生）、是否能**沿用设计系统**（Tailwind、shadcn、Radix 或自家 Design Tokens）、是否能**一键部署**或直接推到你现有 repo。风格差异很大，试用一到两款真实业务页面后再选。",
+          "gscBlocks": [
+            {
+              "heading": "v0、Bolt、Lovable、Figma Make 怎么分工？",
+              "body": "v0 强在 shadcn/Tailwind + Vercel 生态；Bolt 全栈（前后端一体，可装依赖）；Lovable 面向「一整个产品」；Figma Make 把 Figma 设计稿直接编到 React。按起点（文字/设计/仓库）挑趁手的即可。"
+            },
+            {
+              "heading": "AI 生成的前端代码能直接上线吗？",
+              "body": "原型可以；生产要做的依旧不少：a11y、国际化、响应式、性能与安全都不会自动做对。把生成结果视作「很强的脚手架」而非交付物。"
+            },
+            {
+              "heading": "UI 生成会替代设计师吗？",
+              "body": "短期会压缩重复性布局工作，但真正的信息架构、品牌表达与跨场景一致性仍需设计与前端协同。"
+            }
+          ]
+        },
+        "en": {
+          "title": "AI UI & front-end generation — from prompt or mockup to shippable pages",
+          "description": "Tools that turn prompts or Figma files into React/Tailwind/Vue components—useful from prototype to MVP.",
+          "intro": "This slice became its own category between 2024 and 2026. v0, Bolt, Lovable, Figma Make and peers all **turn design intent into runnable code**. Check: target **stack** (React vs Vue vs plain HTML), fit with your **design system** (Tailwind, shadcn, Radix, custom tokens), and whether output can **deploy in one click** or push to your existing repo. Aesthetics vary a lot—run a real page through two of them before committing.",
+          "gscBlocks": [
+            {
+              "heading": "v0 vs Bolt vs Lovable vs Figma Make",
+              "body": "v0 nails shadcn/Tailwind and Vercel. Bolt is full-stack (installs deps, ships backend). Lovable targets end-to-end product workflows. Figma Make compiles Figma files into React. Pick based on your starting artifact (prompt, design, or repo)."
+            },
+            {
+              "heading": "Can generated UI ship to production?",
+              "body": "Prototypes yes. Production still needs a11y, i18n, responsive polish, perf, and security work—treat output as a strong scaffold, not a deliverable."
+            },
+            {
+              "heading": "Does this replace designers?",
+              "body": "It compresses repetitive layout work. Information architecture, brand voice, and cross-surface consistency still need designers and front-end engineers working together."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "浏览器 / 桌面代理",
+      "slug": "browser-agent",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "浏览器与桌面代理丨让 AI 替你操作网页与应用",
+          "description": "Browser Use、Skyvern、Claude Computer Use、OpenAI Operator、Manus 等：让模型点网页、填表单、跑流程。",
+          "intro": "这是 2025 年开始跑起来的「**让模型操作 GUI 而不是仅调 API**」路线。常见形态有三种：**浏览器内扩展**（Comet 等）、**云端虚拟桌面**（Operator、Claude Computer Use）、**开源自部署**（Browser Use、Skyvern、Reworkd）。选型先问三件事：要不要**持续在用户环境跑**、错误动作的**回滚与审计**怎么做、**凭据管理**（Cookie、2FA、SSO）是否隔离到最小权限。",
+          "gscBlocks": [
+            {
+              "heading": "浏览器代理和 RPA 有什么区别？",
+              "body": "RPA 多为脚本化、基于坐标/控件规则；浏览器代理由 LLM 规划动作，具备一定的适应性但更不确定。面对 100% 确定流程请继续用 RPA；面对「页面会变」或半结构化数据，浏览器代理更合适。"
+            },
+            {
+              "heading": "Operator、Claude Computer Use 可以托付敏感账号吗？",
+              "body": "生产场景建议先用一次性凭据、最小权限会话与沙盒 VM；启用前读完数据留存与训练条款，关键操作加人类确认。"
+            },
+            {
+              "heading": "开源自部署（Browser Use、Skyvern）适合谁？",
+              "body": "适合需要定制策略、把凭据留在内网、或做批量爬虫/工单处理的团队。稳定性与反爬对抗通常仍需工程投入。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Browser & computer-use agents — let AI drive web and desktop apps",
+          "description": "Browser Use, Skyvern, Claude Computer Use, OpenAI Operator, Manus and more—models that click pages, fill forms, and run workflows.",
+          "intro": "This lane, “**drive the GUI instead of only calling APIs**”, broke out in 2025. Three shapes are common: **in-browser extensions** (Comet, etc.), **hosted virtual desktops** (Operator, Claude Computer Use), and **open-source self-hosted** (Browser Use, Skyvern, Reworkd). Ask three questions up front: does it run in the user’s live environment, how do wrong actions **roll back and audit**, and how are **credentials** (cookies, 2FA, SSO) scoped down?",
+          "gscBlocks": [
+            {
+              "heading": "Browser agents vs RPA",
+              "body": "RPA is scripted against fixed widgets/coords. Browser agents plan with an LLM and adapt better but are less deterministic. Use RPA for 100%-fixed flows and browser agents when pages shift or data is semi-structured."
+            },
+            {
+              "heading": "Can I trust Operator/Claude Computer Use with sensitive accounts?",
+              "body": "Use ephemeral credentials, least-privilege sessions, and sandboxed VMs. Read retention and training clauses; gate critical actions behind a human confirm."
+            },
+            {
+              "heading": "Who should self-host (Browser Use, Skyvern)?",
+              "body": "Teams that need custom policies, keep credentials on-prem, or run high-volume scraping/ticket work. Stability and anti-bot resilience still take engineering."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "canonicalKey": "语音代理 / 实时",
+      "slug": "voice-realtime",
+      "updatedAt": "2026-04-21",
+      "locales": {
+        "zh-CN": {
+          "title": "语音代理与实时 AI丨电话、客服与实时对话栈",
+          "description": "Vapi、Retell、Bland、LiveKit Agents、Cartesia、Hume、Deepgram、Pipecat 等：搭建可拨打电话的 AI。",
+          "intro": "语音代理是 2025 年爆发的品类：把 **STT + LLM + TTS + 电话 / WebRTC** 串起来，做前台、售前、预约、回访。选型看四件事：**端到端尾延迟**（目标 < 700ms）、**被打断处理**与对话轮转、**出海电话号码与合规**（TCPA / 双方同意）、**自建还是托管**。TTS 侧关注真实感与自定义声音的授权；STT 侧关注噪声和口音鲁棒性。",
+          "gscBlocks": [
+            {
+              "heading": "Vapi、Retell、Bland 怎么选？",
+              "body": "Vapi / Retell 偏开发者灵活，可自选 STT/LLM/TTS；Bland 面向「上架即能打电话」的开箱方案。把你要打的真实业务录一段脚本，在三家各跑 50 通再看留存率。"
+            },
+            {
+              "heading": "实时打断与低延迟怎么做？",
+              "body": "关键是 VAD + 双工音频 + 流式 STT + 流式 LLM + 低延迟 TTS。底层常用 LiveKit Agents / Pipecat；TTS 侧 Cartesia、ElevenLabs 的流式端到端延迟决定「感觉自然」的门槛。"
+            },
+            {
+              "heading": "合规与告知义务？",
+              "body": "多数司法辖区要求告知或书面同意被录音与转写；出海电话业务还涉及号码归属、节假日、时段与反骚扰名单，务必以当地法务意见为准。"
+            }
+          ]
+        },
+        "en": {
+          "title": "Voice agents & realtime AI — phone, support, and live conversation stacks",
+          "description": "Vapi, Retell, Bland, LiveKit Agents, Cartesia, Hume, Deepgram, Pipecat and more—build AI that can pick up the phone.",
+          "intro": "Voice agents exploded in 2025: chain **STT + LLM + TTS + telephony/WebRTC** to run front-desk, pre-sales, scheduling, and follow-ups. Four things decide the build: **end-to-end tail latency** (target < 700ms), **barge-in and turn-taking**, **regional numbering and compliance** (TCPA, two-party consent), and **hosted vs self-built**. On TTS, judge realism and voice-clone licensing; on STT, stress-test noise and accents.",
+          "gscBlocks": [
+            {
+              "heading": "Vapi vs Retell vs Bland",
+              "body": "Vapi and Retell are dev-first and let you swap STT/LLM/TTS. Bland is more batteries-included. Record a real script and run 50 calls through each before committing."
+            },
+            {
+              "heading": "How do you get low latency with barge-in?",
+              "body": "You need VAD plus duplex audio, streaming STT, streaming LLM, and streaming TTS. LiveKit Agents and Pipecat are popular plumbing; Cartesia and ElevenLabs drive the TTS-side latency that makes conversations feel natural."
+            },
+            {
+              "heading": "Compliance and disclosure duties?",
+              "body": "Most jurisdictions require consent before recording/transcription. Outbound phone work also involves numbering rules, holiday/time windows, and do-not-call lists—get local counsel."
+            }
+          ]
+        }
+      }
     }
   ]
 }

@@ -5458,5 +5458,481 @@
         }
       ]
     }
+  },
+  "langsmith": {
+    "zh-CN": {
+      "suitableFor": "深度使用 LangChain / LangGraph 的团队；需要一条链把 trace、打分、数据集与回放闭环，尤其重视「一次改动、一键 200 条回归」的工作流。",
+      "notIdealFor": "纯裸调 API 的极简栈、对闭源 SaaS 有严格限制、团队完全不用 LangChain 生态的场景。",
+      "compareHint": "与 Langfuse / Braintrust / Arize Phoenix 对比时，先看自定义 scorer 深度、数据集管理与离线在线是否共用一套。",
+      "checklistItems": [
+        "确认项目级权限与 PII 脱敏配置",
+        "梳理 trace 采样率与成本曲线",
+        "搭一条至少 50 条的回归数据集做选型验证",
+        "评估自托管/企业计划对合规的要求"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "LangSmith 和 Langfuse 怎么选？",
+          "body": "LangSmith 与 LangChain/LangGraph 集成最深，适合已经用它们搭应用的团队；Langfuse 是开源可自托管，要求 OSS 或数据留在自己机房时更合适。两者功能重叠大，建议用同一批真实流量同时接两家跑一周再决策。"
+        },
+        {
+          "heading": "LLM 评测要上哪些指标？",
+          "body": "业务问答类看命中度 + 有害/幻觉抽样 + 人类评分；结构化提取看字段级 F1；代理类再加任务成功率与步骤数。以上都配上线上 P95 延迟与单次成本，才是工程可用的 eval 看板。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Teams already deep on LangChain / LangGraph that want traces, scoring, datasets, and replay in one loop—especially to ship a change and run 200 regressions in one click.",
+      "notIdealFor": "Minimal stacks that call APIs directly, strict OSS/air-gapped requirements, or teams that don’t use the LangChain ecosystem.",
+      "compareHint": "Compare with Langfuse / Braintrust / Arize Phoenix on custom scorer depth, dataset management, and whether offline/online share one store.",
+      "checklistItems": [
+        "Verify project-level permissions and PII redaction",
+        "Model trace sampling vs cost at your volume",
+        "Build a 50+ example regression set before deciding",
+        "Review self-hosting/enterprise plan requirements"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "LangSmith vs Langfuse—how to choose?",
+          "body": "LangSmith is deepest if you already build with LangChain/LangGraph; Langfuse is open-source and self-hostable, which wins when OSS/data-locality matters. Features overlap—wire real traffic into both for a week before committing."
+        },
+        {
+          "heading": "What metrics should an LLM eval cover?",
+          "body": "Business Q&A needs groundedness + hallucination sampling + human scores; structured extraction needs field-level F1; agentic tasks add success rate and step count. Always pair these with P95 latency and per-call cost."
+        }
+      ]
+    }
+  },
+  "langfuse": {
+    "zh-CN": {
+      "suitableFor": "想开源自托管 / 可 audit 的 LLM 可观测方案；中等规模产品需要统一 trace、prompt 管理与离线 eval 的团队。",
+      "notIdealFor": "完全不想自部署、也不愿接受 OSS 维护成本的团队；或只跑极小流量、用官方 dashboard 就够的场景。",
+      "compareHint": "与 LangSmith / Helicone / Phoenix 对比：Langfuse 最大优势是 OSS 和数据主权；但 UI/生态深度相比闭源 SaaS 仍需自己补。",
+      "checklistItems": [
+        "评估自托管资源与升级节奏",
+        "定义 prompt version + trace + eval 的一条主线",
+        "把线上 trace 采样和线下 golden set 打通",
+        "准备 SSO / RBAC / PII 策略"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Langfuse 自托管复杂吗？",
+          "body": "官方提供 Docker Compose 与 Helm，单节点起步几十分钟。主要复杂度在后续：Postgres/ClickHouse 的备份、模型成本表的维护、多租户 RBAC。生产上线前至少跑一次灾备演练。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Teams wanting open-source, self-hostable, auditable LLM observability with unified tracing, prompt management, and offline evals.",
+      "notIdealFor": "Teams unwilling to host, or very small traffic where a vendor dashboard is enough.",
+      "compareHint": "Compared to LangSmith / Helicone / Phoenix: Langfuse wins on OSS and data sovereignty—you own the gap between UI polish and closed-source SaaS.",
+      "checklistItems": [
+        "Plan self-hosting resources and upgrade cadence",
+        "Tie prompt versions + traces + evals into one pipeline",
+        "Bridge sampled live traces with offline golden sets",
+        "Set SSO / RBAC / PII policies up-front"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is Langfuse self-hosting complex?",
+          "body": "Docker Compose and Helm charts bring you up in ~1 hour. The real work is ongoing: Postgres/ClickHouse backups, cost-table upkeep, multi-tenant RBAC. Run a disaster-recovery drill before production."
+        }
+      ]
+    }
+  },
+  "pinecone": {
+    "zh-CN": {
+      "suitableFor": "需要托管向量库、追求稳定低延迟、想要 Serverless 自动扩容的中大型 RAG 场景；团队不愿维护 OSS 数据库。",
+      "notIdealFor": "对成本极端敏感、数据必须留在自机房、或只需要几十万条向量的小项目（SQLite/pgvector 也许更划算）。",
+      "compareHint": "对比 Qdrant / Weaviate / Milvus：Pinecone 是托管的代表；自托管向量数据库请看 Qdrant / Weaviate，行级混合检索还可看 pgvector。",
+      "checklistItems": [
+        "核对 Serverless / pod 两种计费模型",
+        "评估多租户 namespace 隔离与备份",
+        "测试真实流量下的 recall@k 与尾延迟",
+        "准备索引 schema 演进方案"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Pinecone 和 pgvector 怎么选？",
+          "body": "数据量在百万以下、已有 Postgres、对一致性/事务要求强 → pgvector 往往更省事；数据量上千万且需要稳定的低延迟与自动扩缩 → Pinecone 托管优势明显。真实取舍还要看 recall、混合检索与运维成本。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Managed vector search with predictable latency and serverless scaling for medium/large RAG—teams that don’t want to run an OSS vector DB.",
+      "notIdealFor": "Cost-sensitive projects, on-prem-only data, or small corpora where pgvector/SQLite works fine.",
+      "compareHint": "Compared to Qdrant / Weaviate / Milvus: Pinecone leads in managed simplicity; for self-hosting, look at Qdrant/Weaviate; for relational + vector hybrid, pgvector.",
+      "checklistItems": [
+        "Model Serverless vs pod-based pricing at your volume",
+        "Verify namespace isolation, backups, and snapshots",
+        "Benchmark recall@k and tail latency with real traffic",
+        "Plan for index schema evolution"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Pinecone vs pgvector—how to decide?",
+          "body": "Below a few million vectors with Postgres already in place, pgvector is usually cheaper. Tens of millions and demanding latency/scaling pushes you to Pinecone. Always weigh recall, hybrid search needs, and ops effort."
+        }
+      ]
+    }
+  },
+  "qdrant": {
+    "zh-CN": {
+      "suitableFor": "需要开源自托管的向量库、重视性能与过滤器表达能力的团队；也支持云托管，中小规模 RAG 的高性价比选择。",
+      "notIdealFor": "完全不想运维的超小团队、或仅需极简向量检索（用 SQLite/pgvector 足矣）。",
+      "compareHint": "与 Weaviate / Milvus / Pinecone 对比：Qdrant 在 Rust 实现的性能与过滤器方面口碑好；多租户隔离与云托管成熟度逐步追上。",
+      "checklistItems": [
+        "选择 OSS vs Qdrant Cloud 的边界",
+        "设计 collection + payload 索引避免全表扫",
+        "压测真实 recall@k 与 p95 延迟",
+        "备份/快照策略与复制模式"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Qdrant 适合做什么规模的 RAG？",
+          "body": "从数十万到数亿向量都能覆盖，日常业务问答/知识库/语义搜索是主流用法。若要求多机分布式写入与多租户严格隔离，建议先试 Qdrant Cloud 或自建集群 + 负载压测。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Open-source, self-hostable vector DB with strong performance and expressive filters—solid pick for small/medium RAG. Cloud offering available too.",
+      "notIdealFor": "Teams with zero ops capacity, or trivial vector needs where pgvector/SQLite is enough.",
+      "compareHint": "Vs Weaviate / Milvus / Pinecone: Qdrant is praised for Rust-based speed and filter expressiveness; multi-tenant and cloud maturity keep improving.",
+      "checklistItems": [
+        "Decide OSS vs Qdrant Cloud boundary",
+        "Design collection + payload indexes to avoid full scans",
+        "Benchmark recall@k and P95 latency with real data",
+        "Plan backups/snapshots and replication"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "What RAG scale fits Qdrant?",
+          "body": "From hundreds of thousands to hundreds of millions of vectors. For cross-node writes and strict multi-tenant isolation, consider Qdrant Cloud or benchmark a self-managed cluster first."
+        }
+      ]
+    }
+  },
+  "cerebras": {
+    "zh-CN": {
+      "suitableFor": "追求极高推理吞吐和超低延迟（尤其是长上下文）的场景；Llama 3.x / Mixtral 等开源权重的生产部署。",
+      "notIdealFor": "专有模型非自家重训的团队、或算力需求很小却对 OpenAI/Anthropic 有品牌依赖的场景。",
+      "compareHint": "与 Groq / Fireworks / Together 对比：Cerebras 在吞吐/长上下文延迟上具优势；模型覆盖、价格、流式 API 质量请以各家最新文档为准。",
+      "checklistItems": [
+        "确认支持的模型列表与上下文长度",
+        "压测尾延迟与并发限流",
+        "评估单位 token 成本（价格随规模浮动）",
+        "与 OpenRouter / LiteLLM 等路由层的兼容性"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Cerebras 和 Groq 在工程上有什么差异？",
+          "body": "两家都以高吞吐闻名，但硬件路线不同。实测长上下文 token/s、并发 burst 下 P99 延迟、流式 API 稳定性，才有明确结论；同时别忘了测试模型长尾任务的准确率。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "High-throughput, low-latency inference (long context especially); production serving of open-weight models like Llama 3.x / Mixtral.",
+      "notIdealFor": "Teams using only proprietary frontier models from OpenAI/Anthropic without open-weight needs.",
+      "compareHint": "Vs Groq / Fireworks / Together: Cerebras stands out on throughput and long-context latency; always confirm model coverage, pricing, and streaming APIs on the latest docs.",
+      "checklistItems": [
+        "Confirm supported models and context length",
+        "Benchmark tail latency under realistic concurrency",
+        "Model per-token cost at your scale",
+        "Check compatibility with routers like OpenRouter/LiteLLM"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Cerebras vs Groq in production?",
+          "body": "Both claim high throughput on different hardware paths. Real decisions come from long-context tokens/s, P99 under burst concurrency, streaming stability—plus accuracy on your long-tail prompts."
+        }
+      ]
+    }
+  },
+  "litellm": {
+    "zh-CN": {
+      "suitableFor": "需要在多个 LLM 供应商之间切换/路由、统一计费与审计日志、做灰度实验的团队；企业场景下的 AI 网关首选之一。",
+      "notIdealFor": "只用一家模型、极致追求最薄接入层、或需要深度自定义路由策略但不想自己维护的超小团队。",
+      "compareHint": "与 OpenRouter / Portkey / Braintrust Proxy 对比：LiteLLM 开源灵活、生态广；OpenRouter 更偏消费级路由层；Portkey 在 guardrails 与缓存方向深耕。",
+      "checklistItems": [
+        "规划 API key/多租户隔离与审计",
+        "设定速率限制与 fallback 策略",
+        "监控每个模型的成本/延迟基线",
+        "准备自托管或 LiteLLM Cloud 的容量规划"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "LiteLLM 和 OpenRouter 怎么选？",
+          "body": "LiteLLM 更像企业内部的 AI 网关：部署在你的 VPC、可扩展策略、支持审计；OpenRouter 是消费级/对外暴露的模型市场，开箱即用但策略定制较弱。两者不冲突，常见组合是：OpenRouter 做模型目录，LiteLLM 做治理层。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Teams routing between multiple LLM vendors with unified billing, auditing, and gradual rollouts—a common enterprise AI gateway.",
+      "notIdealFor": "Single-vendor setups, or teams wanting zero self-hosted middleware.",
+      "compareHint": "Vs OpenRouter / Portkey / Braintrust Proxy: LiteLLM is OSS-flexible with broad ecosystem; OpenRouter is consumer-grade routing; Portkey leans into guardrails and caching.",
+      "checklistItems": [
+        "Design API key / multi-tenant isolation and auditing",
+        "Define rate limits and fallback policies",
+        "Monitor per-model cost/latency baselines",
+        "Size self-hosted deployment or LiteLLM Cloud capacity"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "LiteLLM vs OpenRouter—how to choose?",
+          "body": "LiteLLM acts like an internal AI gateway in your VPC with policy/audit depth; OpenRouter is a consumer-friendly model marketplace. Many teams combine both—OpenRouter as catalog, LiteLLM as governance layer."
+        }
+      ]
+    }
+  },
+  "fireflies-ai": {
+    "zh-CN": {
+      "suitableFor": "需要自动录制、转录并生成会议摘要/行动项的团队；重视和 Slack/HubSpot/Notion 等工具集成的销售与客成场景。",
+      "notIdealFor": "合规要求禁止第三方 bot 加入会议、或完全本地化处理敏感会议纪要的团队。",
+      "compareHint": "与 Otter.ai / Granola / Notta 对比：Fireflies 的 CRM 集成与回放搜索生态较全；Granola 偏本机优先体验，Otter 语言覆盖广。",
+      "checklistItems": [
+        "确认语言支持与准确率基线",
+        "评估会议数据的存储位置与合规",
+        "与现有 CRM/工单系统对接方案",
+        "摘要模板/行动项抽取的调参空间"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Fireflies 会议记录合规吗？",
+          "body": "需要看你的地区法规、对方同意规则与数据存储地点。国内场景请与法务/安全共同评估；跨境业务注意 GDPR 与各州「双方同意录音」要求。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Teams wanting automatic meeting recording, transcription, and summaries with strong CRM/collab integrations (Slack, HubSpot, Notion).",
+      "notIdealFor": "Regulated environments banning third-party bots or requiring fully local processing.",
+      "compareHint": "Vs Otter.ai / Granola / Notta: Fireflies wins on CRM reach and searchable archives; Granola shines on local-first UX; Otter has broad language coverage.",
+      "checklistItems": [
+        "Confirm language support and accuracy baselines",
+        "Check data residency and retention",
+        "Plan CRM/ticketing integrations",
+        "Tune summary templates and action-item extraction"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Is Fireflies compliant for meeting capture?",
+          "body": "Depends on your jurisdiction, consent rules, and residency needs. Two-party consent states and GDPR both require careful configuration; loop in security/legal before wide rollout."
+        }
+      ]
+    }
+  },
+  "browser-use": {
+    "zh-CN": {
+      "suitableFor": "想自建浏览器代理、要求可控且可 audit 的自动化流程；研究员与产品团队做 scraping、表单填写、UI 测试的开源起点。",
+      "notIdealFor": "希望开箱即用、无运维、直接得到 SaaS 级成品的团队；或只需要单次浏览器任务的小场景（用 Playwright 原生即可）。",
+      "compareHint": "与 Skyvern / MultiOn / Anthropic Computer Use 对比：Browser Use 开源、可深入改造；SaaS 产品省事但策略/鉴权定制弱。",
+      "checklistItems": [
+        "决定宿主（本机 vs 云沙盒）",
+        "设计凭据注入与日志打码策略",
+        "准备多步操作的可回滚机制",
+        "评估目标站点 robots/条款合规"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Browser Use 和 Playwright 有什么区别？",
+          "body": "Playwright 是底层浏览器自动化库；Browser Use 在其上把页面状态、LLM 决策、工具调用封装成代理循环。换言之：Playwright 负责「怎么点」，Browser Use 负责「要不要点、点哪里」。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Teams building controlled, auditable browser agents for scraping, form-filling, or UI tests—good OSS baseline.",
+      "notIdealFor": "Zero-ops users wanting a turnkey SaaS, or one-off browser jobs where Playwright alone suffices.",
+      "compareHint": "Vs Skyvern / MultiOn / Anthropic Computer Use: Browser Use is OSS and hackable; SaaS saves setup time but limits policy/auth customization.",
+      "checklistItems": [
+        "Pick host: local vs cloud sandbox",
+        "Design credential injection and log redaction",
+        "Add rollback hooks around multi-step actions",
+        "Check target-site ToS and robots compliance"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Browser Use vs Playwright?",
+          "body": "Playwright is the low-level browser automation library. Browser Use wraps it with LLM decision-making and tool loops. Playwright: how to click. Browser Use: whether and where to click."
+        }
+      ]
+    }
+  },
+  "anthropic-computer-use": {
+    "zh-CN": {
+      "suitableFor": "有资格使用 Claude Computer Use 的开发者；希望用 Claude 直接操作虚拟桌面/浏览器完成 long-horizon 任务。",
+      "notIdealFor": "需要低延迟、成本敏感、或必须离线本地的场景；涉及个人账户凭据的敏感流程。",
+      "compareHint": "与 OpenAI Operator / Browser Use / Manus 对比：Claude Computer Use 胜在 Claude 自家的理解深度；需要大厂托管 VM 时可与 Operator 并列评估，开源自部署则看 Browser Use。",
+      "checklistItems": [
+        "使用云沙盒 + 快照，严禁生产机直跑",
+        "只注入最小权限凭据，失败时立刻销毁",
+        "关键步骤加人类确认",
+        "审计操作日志与截图"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Computer Use 真的能替代 RPA 吗？",
+          "body": "目前更像「可解释的 RPA 起点」：面对变化中的网页与桌面，Claude 能自适应；但对稳定流水线、严格 SLA、审计留痕要求仍需要传统 RPA 配合，才能兼顾可用性与合规。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Developers with Claude Computer Use access who want long-horizon desktop/browser automation directly from Claude.",
+      "notIdealFor": "Low-latency, cost-sensitive, offline, or highly regulated personal-credential flows.",
+      "compareHint": "Vs OpenAI Operator / Browser Use / Manus: Claude Computer Use leverages Claude’s native reasoning; Operator competes on hosted VMs; Browser Use wins if you must self-host.",
+      "checklistItems": [
+        "Run only inside cloud sandboxes with snapshots",
+        "Inject least-privilege credentials; destroy on failure",
+        "Add human confirmations on critical steps",
+        "Audit operation logs and screenshots"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Does Computer Use replace RPA?",
+          "body": "It’s closer to an adaptive RPA primer today—great on shifting UIs but still needs traditional RPA for strict SLAs and audit trails in enterprise pipelines."
+        }
+      ]
+    }
+  },
+  "openai-operator": {
+    "zh-CN": {
+      "suitableFor": "ChatGPT 用户里想让 AI 在托管浏览器里帮自己做预订、填表、跨站办事的场景；开发者验证 \"AI 操作网页\" 的早期想法。",
+      "notIdealFor": "企业严格合规场景、对成本和时延有明确 SLA、需要深度自定义代理行为的大型团队。",
+      "compareHint": "与 Anthropic Computer Use / Browser Use / Manus 对比：Operator 胜在 OpenAI 托管的稳定性与 ChatGPT 集成；定制化与自建请看开源方案。",
+      "checklistItems": [
+        "在 Operator 沙盒内完成所有敏感操作",
+        "只在需要时授权具体网站与凭据",
+        "对高风险步骤设置人工确认",
+        "记录会话回放供审计"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Operator 什么场景最值？",
+          "body": "面对多网站拼接的琐事（例如比价、批量发邮件、表单重复填写）效果显著；但涉及登录关键账户或金融操作时，建议分步人工复核，避免误点。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "ChatGPT users wanting a hosted browser agent for bookings, forms, and cross-site chores; developers prototyping UI-operating agents.",
+      "notIdealFor": "Heavy compliance needs, strict cost/latency SLAs, or teams needing deep behavioural customization.",
+      "compareHint": "Vs Anthropic Computer Use / Browser Use / Manus: Operator wins on OpenAI hosting + ChatGPT integration; pick OSS like Browser Use for customization.",
+      "checklistItems": [
+        "Keep sensitive actions inside the Operator sandbox",
+        "Grant site + credential access per task only",
+        "Require human confirmation on risky steps",
+        "Save session replays for audit"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Where is Operator most useful?",
+          "body": "Multi-site chores—price comparison, form refills, batch lookups—benefit most. For logins and financial flows, review each step manually to avoid costly misclicks."
+        }
+      ]
+    }
+  },
+  "vapi": {
+    "zh-CN": {
+      "suitableFor": "需要快速上线电话/语音代理的产品团队；卖家支持、预约、调查问卷等高并发外呼场景。",
+      "notIdealFor": "对尾延迟有极端要求、或必须完全自控每一层栈的团队；涉及多国电话合规的复杂大项目需配合法务与电信运营商。",
+      "compareHint": "与 Retell AI / Bland / LiveKit Agents 对比：Vapi 主打开发者体验与端到端 SDK；LiveKit 更底层灵活；Retell、Bland 同台竞争。",
+      "checklistItems": [
+        "端到端延迟压测（含呼叫方网络波动）",
+        "打断/轮转策略与话术模板",
+        "号码池、DID 与合规（TCPA、双方同意等）",
+        "计费和并发上限估算"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Vapi 和 Retell 怎么挑？",
+          "body": "看团队偏好：Vapi 的开发者体验细腻、SDK 文档完整；Retell 在某些语种/电话质量上表现突出。建议同一个场景录两段真实呼叫做 A/B，再看长 session 的稳定性。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Product teams launching phone/voice agents quickly—sales support, appointment booking, surveys, and high-concurrency outbound.",
+      "notIdealFor": "Sub-500ms tail-latency zealots or teams requiring full-stack control; complex multi-country telephony compliance needs legal + carrier effort.",
+      "compareHint": "Vs Retell / Bland / LiveKit Agents: Vapi leads on DX and end-to-end SDKs; LiveKit is lower-level; Retell and Bland compete head-on.",
+      "checklistItems": [
+        "Benchmark end-to-end latency under real network jitter",
+        "Design barge-in and turn-taking templates",
+        "Plan DID/number pool + compliance (TCPA, consent)",
+        "Size concurrency and billing caps"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Vapi vs Retell—pick which?",
+          "body": "Vapi’s DX and SDK docs are excellent; Retell often wins on specific language/telephony quality. Record real A/B calls on your flow and check long-session stability before choosing."
+        }
+      ]
+    }
+  },
+  "retell-ai": {
+    "zh-CN": {
+      "suitableFor": "需要生产级语音代理、面向呼叫中心或客服场景、重视 STT 与 TTS 链路稳定的团队。",
+      "notIdealFor": "预算极紧张的原型阶段；或希望自研编排的深度定制团队。",
+      "compareHint": "与 Vapi / Bland / LiveKit Agents 对比：Retell 在语音质量与电话稳定方面口碑不错；DX 与定价请以实际体验为准。",
+      "checklistItems": [
+        "多语言/口音识别测试",
+        "打断处理与情绪语调策略",
+        "通话中工具调用（查库存、改订单）",
+        "SLA 与容量规划"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Retell 在电话客服上表现如何？",
+          "body": "高并发 + 实时打断 + 多语音识别是常见痛点。Retell 在这三点上普遍不错，但最终仍要看你真实的网络/电信通路与业务场景下的长时稳定。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Production-grade voice agents for call centres or customer support—teams valuing reliable STT/TTS pipelines.",
+      "notIdealFor": "Budget-tight prototypes or teams needing deep orchestration control.",
+      "compareHint": "Vs Vapi / Bland / LiveKit Agents: Retell is well-regarded for voice quality and telephony stability; DX and pricing vary—trial with real calls.",
+      "checklistItems": [
+        "Test multi-language / accent recognition",
+        "Tune barge-in and emotional prosody",
+        "Wire in-call tool calls (inventory, orders)",
+        "Size SLAs and capacity"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "How does Retell handle real call centres?",
+          "body": "Concurrency, barge-in, and multilingual STT are the usual pain points. Retell handles them well in benchmarks, but long-session stability on your exact carrier/network is the real test."
+        }
+      ]
+    }
+  },
+  "cartesia": {
+    "zh-CN": {
+      "suitableFor": "需要低延迟、自然度高 TTS 的应用：语音代理、有声读物、可访问性场景；希望定制品牌音色的产品。",
+      "notIdealFor": "仅需静态播报/预录音频的简单场景；对 TTS 供应商独立性要求极高（只接开源自建）的团队。",
+      "compareHint": "与 ElevenLabs / Play.ht / OpenAI TTS 对比：Cartesia 主打低延迟与流式；ElevenLabs 胜在声音市场与定制；OpenAI TTS 集成简单。",
+      "checklistItems": [
+        "流式 API 的延迟与 barge-in 表现",
+        "声音克隆/品牌音色的合规与版权",
+        "多语种支持与情感控制",
+        "并发计费与回退策略"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "语音代理用哪家 TTS？",
+          "body": "追求最低端到端延迟、与 STT+LLM 链路配合紧密：Cartesia 是热门选择；需要最大声音多样性：ElevenLabs；快速接入 OpenAI 生态：OpenAI TTS。建议把相同话术用三家各录一段做对比。"
+        }
+      ]
+    },
+    "en": {
+      "suitableFor": "Low-latency, natural TTS for voice agents, audiobooks, and accessibility; products that want custom brand voices.",
+      "notIdealFor": "Simple pre-recorded audio use cases, or teams requiring fully OSS/self-hosted TTS.",
+      "compareHint": "Vs ElevenLabs / Play.ht / OpenAI TTS: Cartesia leads on latency/streaming; ElevenLabs on voice marketplace/custom voices; OpenAI TTS on quick integration.",
+      "checklistItems": [
+        "Test streaming latency and barge-in behaviour",
+        "Clear licensing around voice cloning",
+        "Check multi-language and emotion controls",
+        "Plan concurrency pricing and fallback vendors"
+      ],
+      "gscParagraphs": [
+        {
+          "heading": "Which TTS for a voice agent?",
+          "body": "Cartesia is popular when end-to-end latency with STT+LLM matters most; ElevenLabs wins on voice catalogue; OpenAI TTS is easiest to drop into an existing OpenAI stack. A/B recordings of the same script give the clearest picture."
+        }
+      ]
+    }
   }
 }

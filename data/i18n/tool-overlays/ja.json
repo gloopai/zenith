@@ -388,5 +388,140 @@
   },
   "granola": {
     "description": "カレンダー文脈と文字起こしを組み合わせ、会議を検索可能な要約へ。全社展開前に保持・学習利用・企業管理を確認。"
+  },
+  "langsmith": {
+    "description": "LangChain 公式の評価・トレース基盤。データセット／スコアラー／本番監視／人手レビューを LangChain・LangGraph と最深統合。"
+  },
+  "langfuse": {
+    "description": "OSS の LLM 可観測・評価プラットフォーム。トレース／データセット／スコアラー／プロンプト管理、Docker でセルフホスト可能。"
+  },
+  "braintrust": {
+    "description": "Braintrust: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "arize-phoenix": {
+    "description": "Arize Phoenix: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "helicone": {
+    "description": "Helicone: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "galileo-ai": {
+    "description": "Galileo: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "patronus-ai": {
+    "description": "Patronus AI: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "pinecone": {
+    "description": "マネージドのベクトルDB。サーバーレスと名前空間で RAG を速く本番化；規模拡大時は Qdrant/Milvus 自ホストと比較。"
+  },
+  "weaviate": {
+    "description": "Weaviate: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "qdrant": {
+    "description": "Rust 製 OSS ベクトルDB。マネージドと企業版あり。ペイロードフィルタ／ハイブリッド検索／量子化でメモリと吞吐を両立。"
+  },
+  "chroma": {
+    "description": "Chroma: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "milvus": {
+    "description": "Milvus / Zilliz: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "lancedb": {
+    "description": "LanceDB: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "turbopuffer": {
+    "description": "Turbopuffer: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "cerebras": {
+    "description": "Cerebras ウェハースケールの推論。主要OSS LLMで極速のトークン吞吐。対話型用途に最適、モデル一覧は公式で確認。"
+  },
+  "sambanova": {
+    "description": "SambaNova Cloud: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "baseten": {
+    "description": "Baseten: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "modal": {
+    "description": "Modal: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "litellm": {
+    "description": "OSS の LLM 代理ゲートウェイ。OpenAI 互換 API 一本で百超のベンダを統合、ルーティング／予算／フォールバック／ログまで。"
+  },
+  "fireflies-ai": {
+    "description": "会議に自動参加し文字起こし・アクション項目を HubSpot/Salesforce/Slack へ同期。営業・CS 向け。導入前に録音同意と保持期間を確認。"
+  },
+  "fathom": {
+    "description": "Fathom: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "read-ai": {
+    "description": "Read.AI: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "tldv": {
+    "description": "tl;dv: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "limitless": {
+    "description": "Limitless: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "plaud": {
+    "description": "Plaud: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "notta": {
+    "description": "Notta: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "tempo-ai": {
+    "description": "Tempo: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "subframe": {
+    "description": "Subframe: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "figma-make": {
+    "description": "Figma Make: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "relume": {
+    "description": "Relume: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "onlook": {
+    "description": "Onlook: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "browser-use": {
+    "description": "OSS のブラウザエージェント。構造化 DOM 操作で Web を駆動。Operator／Computer Use の自部署代替として開発者向け。"
+  },
+  "skyvern": {
+    "description": "Skyvern: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "multion": {
+    "description": "MultiOn: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "anthropic-computer-use": {
+    "description": "Anthropic の Claude が画面を見て PC を操作する機能（API）。本番ではサンドボックス VM、最小権限、人手確認が必要。"
+  },
+  "openai-operator": {
+    "description": "OpenAI のクラウド型ブラウザエージェント（ChatGPT Agent に統合進行中）。製品名・地域は公式で要確認。"
+  },
+  "reworkd": {
+    "description": "Reworkd: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "vapi": {
+    "description": "開発者志向のボイスエージェント基盤。STT/LLM/TTS を自由に組み合わせ、電話番号も利用可、分課金。"
+  },
+  "retell-ai": {
+    "description": "低遅延と自然な割り込みに注力したボイスエージェント。ビジュアル編成と番号レンタル、呼入／外呼テンプレあり。"
+  },
+  "bland-ai": {
+    "description": "Bland AI: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "livekit-agents": {
+    "description": "LiveKit Agents: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "cartesia": {
+    "description": "低遅延 TTS（Sonic 系）。ストリーミング API とカスタム音声。自然なボイスエージェント／音声プロダクト向け定番。"
+  },
+  "hume-ai": {
+    "description": "Hume AI: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "deepgram": {
+    "description": "Deepgram: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
+  },
+  "pipecat": {
+    "description": "Pipecat: 人気のAI製品です。機能・料金・対応地域・データ取り扱い・最新モデルは公式サイトで確認してください。"
   }
 }

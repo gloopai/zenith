@@ -495,6 +495,123 @@ const HIGHLIGHTS = {
     hi: 'कैलेंडर संदर्भ व ट्रांसक्रिप्शन के साथ मीटिंग नोट्स—कॉल को खोज योग्य सार में; कंपनीव्यापी रोडआउट से पहले रिटेन्शन, मॉडल ट्रेनिंग व एंटरप्राइज नियंत्रण जाँचें।',
     es: 'Notas de reunión con contexto de calendario y flujos de transcripción a resúmenes buscables—antes del despliegue corporativo revisa retención, uso para entrenamiento y controles enterprise.',
   },
+  langsmith: {
+    en: 'LangChain’s eval and trace platform for LLM apps—datasets, scorers, live monitoring, and human review with the deepest LangChain/LangGraph integration.',
+    'zh-TW': 'LangChain 團隊的 LLM 評測與 trace 平台——資料集、評分器、線上監控與人工標註，與 LangChain/LangGraph 整合最深。',
+    ja: 'LangChain 公式の評価・トレース基盤。データセット／スコアラー／本番監視／人手レビューを LangChain・LangGraph と最深統合。',
+    ko: 'LangChain 공식 평가·트레이스 플랫폼. 데이터셋·스코어러·실시간 모니터링·사람 리뷰를 LangChain/LangGraph와 가장 깊게 연동.',
+    ru: 'Платформа оценок и трейсинга от LangChain: датасеты, скореры, мониторинг и human review с глубочайшей интеграцией LangChain/LangGraph.',
+    hi: 'LangChain की eval व trace प्लेटफ़ॉर्म—डेटासेट, स्कोरर, लाइव मॉनिटरिंग व मानव समीक्षा; LangChain/LangGraph से सबसे गहरा एकीकरण।',
+    es: 'Plataforma de evals y traces de LangChain—datasets, scorers, monitoreo en vivo y revisión humana con la integración más profunda con LangChain/LangGraph.',
+  },
+  langfuse: {
+    en: 'Open-source LLM observability and eval platform with traces, datasets, scorers, and prompt management—self-host via Docker to keep data on your own network.',
+    'zh-TW': '開源 LLM 可觀測與評測平台：trace、資料集、評分器與提示管理；可 Docker 自部署，把資料留在內網。',
+    ja: 'OSS の LLM 可観測・評価プラットフォーム。トレース／データセット／スコアラー／プロンプト管理、Docker でセルフホスト可能。',
+    ko: '오픈소스 LLM 옵저버빌리티·평가 플랫폼. 트레이스·데이터셋·스코어러·프롬프트 관리, Docker 자체 호스팅 가능.',
+    ru: 'Open-source платформа наблюдаемости и оценок LLM: трейсы, датасеты, скореры и управление промптами; self-host в Docker.',
+    hi: 'ओपन‑सोर्स LLM ऑब्ज़र्वेबिलिटी व eval—trace, डेटासेट, स्कोरर व प्रॉम्प्ट प्रबंधन; Docker सेल्फ‑होस्ट विकल्प।',
+    es: 'Plataforma open‑source de observabilidad y evals para LLM—traces, datasets, scorers y gestión de prompts; self‑host con Docker.',
+  },
+  pinecone: {
+    en: 'Managed vector database with serverless tiers and namespaces—fast path to production RAG; compare cost at scale with Qdrant/Milvus self-host.',
+    'zh-TW': '託管型向量資料庫，提供 Serverless 方案與命名空間；RAG 上線快，規模變大時再與 Qdrant／Milvus 自部署比較成本。',
+    ja: 'マネージドのベクトルDB。サーバーレスと名前空間で RAG を速く本番化；規模拡大時は Qdrant/Milvus 自ホストと比較。',
+    ko: '매니지드 벡터 DB. 서버리스 티어와 네임스페이스로 RAG를 빠르게 운영; 규모 커지면 Qdrant/Milvus 자체호스팅 비교.',
+    ru: 'Управляемая векторная БД с serverless и namespace — быстрый путь к RAG в проде; на масштабе сверяйте цену с Qdrant/Milvus self-host.',
+    hi: 'मैनेज्ड वेक्टर DB—serverless टियर व namespaces; उत्पादन RAG के लिए तेज़; बड़े स्केल पर Qdrant/Milvus से लागत तुलना करें।',
+    es: 'Vector DB gestionada con tiers serverless y namespaces—camino rápido a RAG; a gran escala compara coste con Qdrant/Milvus self-host.',
+  },
+  qdrant: {
+    en: 'Rust-built open-source vector DB with managed cloud and enterprise options—strong payload filtering, hybrid search, and quantization for tight memory/throughput budgets.',
+    'zh-TW': 'Rust 打造的開源向量資料庫，附雲端與企業版；payload 過濾、混合搜索與量化壓縮兼顧記憶體與吞吐。',
+    ja: 'Rust 製 OSS ベクトルDB。マネージドと企業版あり。ペイロードフィルタ／ハイブリッド検索／量子化でメモリと吞吐を両立。',
+    ko: 'Rust로 구현한 오픈소스 벡터 DB. 매니지드·엔터프라이즈 제공, payload 필터·하이브리드·양자화로 메모리와 처리량 최적화.',
+    ru: 'Open-source векторная БД на Rust с управляемой облачной и enterprise-версией; мощные фильтры по payload, гибридный поиск и квантование.',
+    hi: 'Rust में बना ओपन‑सोर्स वेक्टर DB—मैनेज्ड व एंटरप्राइज़ विकल्प; payload फ़िल्टर, hybrid सर्च व quantization।',
+    es: 'Vector DB open source en Rust con nube gestionada y enterprise—filtro por payload, búsqueda híbrida y cuantización para memoria/rendimiento.',
+  },
+  cerebras: {
+    en: 'Wafer-scale inference service from Cerebras claiming extreme token throughput on popular open LLMs—great for latency-sensitive interactive apps; verify model list and quotas on the site.',
+    'zh-TW': 'Cerebras 晶圓級推論服務，對主流開源 LLM 宣稱極速 token 吞吐；延遲敏感互動型應用首選，模型清單以官網為準。',
+    ja: 'Cerebras ウェハースケールの推論。主要OSS LLMで極速のトークン吞吐。対話型用途に最適、モデル一覧は公式で確認。',
+    ko: 'Cerebras 웨이퍼 스케일 추론. 주요 OSS LLM에서 극한 토큰 처리; 인터랙티브 앱에 유리, 모델 목록은 공식 사이트.',
+    ru: 'Инференс Cerebras на чипах wafer-scale с заявленной экстремальной пропускной способностью по известным OSS LLM; модели сверяйте на сайте.',
+    hi: 'Cerebras की wafer‑scale इंफ़रेंस सर्विस—बड़े OSS LLM पर अति उच्च टोकन थ्रूपुट; इंटरैक्टिव ऐप्स के लिए उत्तम।',
+    es: 'Inferencia de Cerebras en silicio wafer‑scale con throughput extremo en LLMs OSS populares; apto para apps interactivas, consulta modelos en la web.',
+  },
+  litellm: {
+    en: 'Open-source proxy gateway exposing 100+ LLM vendors through one OpenAI-compatible API—routing, budgets, fallbacks, and logging without reinventing plumbing.',
+    'zh-TW': '開源 LLM 聚合代理：以單一 OpenAI 相容 API 接上百家供應商，支援路由、預算、fallback 與日誌，不必重造基礎設施。',
+    ja: 'OSS の LLM 代理ゲートウェイ。OpenAI 互換 API 一本で百超のベンダを統合、ルーティング／予算／フォールバック／ログまで。',
+    ko: '오픈소스 LLM 프록시 게이트웨이. OpenAI 호환 API 하나로 100+ 벤더 통합—라우팅·예산·폴백·로그까지.',
+    ru: 'OSS прокси-шлюз для 100+ провайдеров LLM через единый OpenAI-совместимый API: маршрутизация, бюджеты, fallback и логи.',
+    hi: 'ओपन‑सोर्स LLM प्रॉक्सी गेटवे—एक OpenAI‑संगत API से 100+ वेंडर; राउटिंग, बजट, fallback व लॉग।',
+    es: 'Gateway proxy open source para 100+ proveedores LLM con API compatible con OpenAI—enrutado, presupuestos, fallbacks y logs.',
+  },
+  'fireflies-ai': {
+    en: 'Meeting bot that auto-joins calls, transcribes, and syncs action items to HubSpot/Salesforce/Slack—great for sales and CS teams; check retention and consent rules before rolling out.',
+    'zh-TW': '自動入會的會議機器人：轉寫與行動項同步到 HubSpot／Salesforce／Slack，適合銷售與客服；推廣前確認錄音同意與保存策略。',
+    ja: '会議に自動参加し文字起こし・アクション項目を HubSpot/Salesforce/Slack へ同期。営業・CS 向け。導入前に録音同意と保持期間を確認。',
+    ko: '회의에 자동 참여해 전사·액션 아이템을 HubSpot/Salesforce/Slack로 동기화. 세일즈·CS 적합; 도입 전 동의·보존 정책 확인.',
+    ru: 'Бот, который сам присоединяется к встречам, транскрибирует и синхронизирует action items с HubSpot/Salesforce/Slack — хорошо для sales/CS.',
+    hi: 'मीटिंग बॉट जो कॉल में आता है, ट्रांसक्राइब करता है और HubSpot/Salesforce/Slack से सिंक करता है—सेल्स/CS के लिए उपयोगी.',
+    es: 'Bot que se une solo a llamadas, transcribe y sincroniza tareas con HubSpot/Salesforce/Slack—apto para ventas/CS; revisa consentimiento y retención.',
+  },
+  'browser-use': {
+    en: 'Open-source browser agent framework that drives web pages through structured DOM actions—a self-hostable alternative to Operator/Computer Use for developers who want control.',
+    'zh-TW': '開源瀏覽器代理框架，以結構化 DOM 操作網頁；面向想自部署、要控制權的開發者，可替代 Operator／Computer Use。',
+    ja: 'OSS のブラウザエージェント。構造化 DOM 操作で Web を駆動。Operator／Computer Use の自部署代替として開発者向け。',
+    ko: '오픈소스 브라우저 에이전트 프레임워크. 구조화된 DOM 조작으로 웹을 제어—Operator/Computer Use의 자체 호스팅 대안.',
+    ru: 'Open-source фреймворк браузерного агента: структурированные DOM-действия; self-host альтернатива Operator/Computer Use для разработчиков.',
+    hi: 'ओपन‑सोर्स ब्राउज़र एजेंट फ्रेमवर्क—स्ट्रक्चर्ड DOM क्रियाओं से वेब चलाता है; Operator/Computer Use का self‑host विकल्प।',
+    es: 'Framework open source de agente de navegador que controla páginas vía DOM estructurado—alternativa self‑host a Operator/Computer Use.',
+  },
+  'anthropic-computer-use': {
+    en: 'Anthropic’s Claude capability to see the screen and operate a computer via API—best used with sandboxed VMs, scoped credentials, and human confirm on critical actions.',
+    'zh-TW': 'Anthropic 讓 Claude 看螢幕並以 API 操作電腦的能力；生產建議搭配沙盒 VM、最小權限憑證與關鍵動作人工確認。',
+    ja: 'Anthropic の Claude が画面を見て PC を操作する機能（API）。本番ではサンドボックス VM、最小権限、人手確認が必要。',
+    ko: 'Anthropic의 Claude가 화면을 보고 컴퓨터를 조작하는 API 기능. 샌드박스 VM·최소권한·중요 단계 사람 확인 권장.',
+    ru: 'Возможность Claude видеть экран и управлять компьютером через API; в проде — песочница, минимальные права, подтверждение важных шагов.',
+    hi: 'Anthropic की वह क्षमता जिससे Claude स्क्रीन देखकर कंप्यूटर चलाए (API); उत्पादन में sandbox VM व सीमित अधिकार आवश्यक।',
+    es: 'Capacidad de Claude (Anthropic) para ver la pantalla y operar un ordenador vía API—en producción usa VMs aisladas, credenciales acotadas y confirmación humana.',
+  },
+  'openai-operator': {
+    en: 'OpenAI’s cloud browser agent (evolving into ChatGPT Agent) that operates websites remotely on your behalf—check current product name, regions, and data rules on the site.',
+    'zh-TW': 'OpenAI 雲端瀏覽器代理（隨版本併入 ChatGPT Agent），在遠端瀏覽器替你操作網站；產品名稱與地區以官網為準。',
+    ja: 'OpenAI のクラウド型ブラウザエージェント（ChatGPT Agent に統合進行中）。製品名・地域は公式で要確認。',
+    ko: 'OpenAI의 클라우드 브라우저 에이전트(ChatGPT Agent로 통합 중). 제품명·지역은 공식 사이트에서 확인.',
+    ru: 'Облачный браузер-агент OpenAI (сливается с ChatGPT Agent) — управляет сайтами удалённо; актуальное имя и регионы — на сайте.',
+    hi: 'OpenAI का क्लाउड ब्राउज़र एजेंट (ChatGPT Agent में समाहित); नाम व क्षेत्र आधिकारिक साइट पर देखें।',
+    es: 'Agente de navegador en la nube de OpenAI (en integración con ChatGPT Agent)—nombre y regiones actuales en el sitio oficial.',
+  },
+  vapi: {
+    en: 'Developer-first voice agent platform with pluggable STT/LLM/TTS and phone numbers—minute-metered pricing for inbound/outbound bots and scheduling agents.',
+    'zh-TW': '開發者優先的語音代理平台，可自選 STT／LLM／TTS 與租用號碼；以分鐘計費，適合呼入／外呼與預約機器人。',
+    ja: '開発者志向のボイスエージェント基盤。STT/LLM/TTS を自由に組み合わせ、電話番号も利用可、分課金。',
+    ko: '개발자 친화 보이스 에이전트 플랫폼. STT/LLM/TTS 선택과 번호 임대, 분 단위 과금.',
+    ru: 'Платформа голосовых агентов с заменяемыми STT/LLM/TTS и номерами телефона; оплата по минутам.',
+    hi: 'डेवलपर‑केंद्रित वॉइस एजेंट प्लेटफ़ॉर्म; STT/LLM/TTS चुनें, नंबर किराए पर; प्रति मिनट बिलिंग।',
+    es: 'Plataforma de agentes de voz para desarrolladores con STT/LLM/TTS intercambiables y números de teléfono; tarifa por minuto.',
+  },
+  'retell-ai': {
+    en: 'Voice agent platform tuned for low latency and natural barge-in—visual orchestration, rented phone numbers, and templates for inbound/outbound call flows.',
+    'zh-TW': '強調低延遲與自然打斷的語音代理平台，可視化編排 + 號碼租用，面向呼入／外呼流程。',
+    ja: '低遅延と自然な割り込みに注力したボイスエージェント。ビジュアル編成と番号レンタル、呼入／外呼テンプレあり。',
+    ko: '저지연·자연스러운 인터럽트에 특화된 보이스 에이전트; 비주얼 오케스트레이션과 번호 임대 제공.',
+    ru: 'Голосовой агент с упором на низкую задержку и естественное прерывание; визуальная оркестрация и аренда номеров.',
+    hi: 'कम लेटेंसी व प्राकृतिक बार्ज‑इन पर केंद्रित वॉइस एजेंट; विज़ुअल ऑर्केस्ट्रेशन व नंबर किराया।',
+    es: 'Plataforma de agentes de voz centrada en baja latencia y barge‑in natural; orquestación visual y alquiler de números.',
+  },
+  cartesia: {
+    en: 'Low-latency TTS with streaming APIs and custom voices (Sonic series)—a go-to layer for natural-feeling voice agents and audio products.',
+    'zh-TW': '低延遲 TTS（Sonic 系列），支援流式 API 與自訂聲音；語音代理與音訊產品追求「自然感」的常見選擇。',
+    ja: '低遅延 TTS（Sonic 系）。ストリーミング API とカスタム音声。自然なボイスエージェント／音声プロダクト向け定番。',
+    ko: '저지연 TTS(Sonic 시리즈). 스트리밍 API와 커스텀 보이스—자연스러운 보이스 에이전트·오디오 제품에 자주 사용.',
+    ru: 'Low-latency TTS (серия Sonic) со стриминговыми API и кастомными голосами — частый выбор для натуральных голосовых агентов.',
+    hi: 'कम लेटेंसी TTS (Sonic सीरीज़)—स्ट्रीमिंग API व कस्टम आवाज़ें; प्राकृतिक वॉइस एजेंट/ऑडियो उत्पादों में लोकप्रिय।',
+    es: 'TTS de baja latencia (serie Sonic) con API en streaming y voces personalizadas—capa habitual para agentes de voz con sensación natural.',
+  },
 }
 
 export function toolDescription(t, locale) {
@@ -510,4 +627,166 @@ export function toolDescription(t, locale) {
     es: (n) => `${n}: producto de IA popular—consulta el sitio oficial para funciones, precios, regiones, datos y modelos actuales.`,
   }
   return (g[locale] ?? g.en)(t.name)
+}
+
+const MCP_HIGHLIGHTS = {
+  filesystem: {
+    en: 'Reference MCP server letting agents read/write/list files under an allow-listed directory. Run with least-privilege paths and read-only mode for sensitive data; ideal when you want to scope a project folder as an agent workspace.',
+    'zh-TW': '官方參考 MCP 伺服器：讓代理在允許目錄中讀寫檔案、列出目錄、建立或移動項目。請用最小權限路徑與唯讀模式保護敏感資料。',
+    ja: '公式リファレンス MCP サーバー。許可したディレクトリ配下でファイル読み書き・一覧・作成・移動を可能にします。機微データには最小権限パスと読み取り専用モードを。',
+    ko: '허용된 디렉터리에서 파일 읽기/쓰기/나열을 지원하는 공식 참조 MCP 서버. 민감 데이터는 최소 권한 경로와 읽기 전용 모드로 운영하세요.',
+    ru: 'Эталонный MCP-сервер: чтение/запись/листинг файлов внутри разрешённой директории. Для чувствительных данных — минимальные права и режим только-чтение.',
+    hi: 'संदर्भ MCP सर्वर: अनुमति-सूचीबद्ध डायरेक्टरी में फ़ाइल पढ़ना/लिखना/सूची बनाना। संवेदनशील डेटा के लिए न्यूनतम अधिकार व केवल-पढ़ने का मोड उपयोग करें।',
+    es: 'Servidor MCP oficial de referencia para leer, escribir y listar archivos dentro de un directorio permitido. Usa rutas con mínimo privilegio y modo solo-lectura para datos sensibles.',
+  },
+  git: {
+    en: 'Reference MCP server exposing common git operations (status, log, diff, blame) to an agent. Great starting point for read-only code reviewers; grant write access carefully.',
+    'zh-TW': '官方 MCP 伺服器：把常見 git 操作（狀態、log、diff、blame）暴露給代理。適合唯讀程式審閱代理起手；寫入請謹慎授權。',
+    ja: '公式 MCP サーバー：status / log / diff / blame など git の主要操作をエージェントに公開。読み取り専用のコードレビュー起点として最適。書き込みは慎重に許可を。',
+    ko: 'status·log·diff·blame 등 git 주요 작업을 에이전트에 노출하는 공식 MCP 서버. 읽기 전용 코드 리뷰 에이전트의 시작점으로 적합하며, 쓰기 권한은 신중히 부여.',
+    ru: 'Эталонный MCP-сервер: stat/log/diff/blame git для агента. Отличная отправная точка для ревьюверов кода в read-only; запись — только по необходимости.',
+    hi: 'संदर्भ MCP सर्वर: git के सामान्य ऑपरेशन (status/log/diff/blame) एजेंट को उपलब्ध कराता है। पढ़ने-मात्र कोड रिव्यूअर्स के लिए बढ़िया शुरुआत; लेखन अनुमति सोच-समझकर।',
+    es: 'Servidor MCP de referencia que expone operaciones git comunes (status, log, diff, blame) al agente. Perfecto como base para revisores de código en solo lectura; otorga escritura con prudencia.',
+  },
+  github: {
+    en: 'GitHub’s official MCP server: read/write repos, manage issues/PRs, and search code. Use scoped PATs or a GitHub App with audit logging for production.',
+    'zh-TW': 'GitHub 官方 MCP 伺服器：讀寫倉庫、管理 Issue/PR、搜尋程式。生產環境請用受限 PAT 或 GitHub App 並做稽核。',
+    ja: 'GitHub 公式 MCP サーバー。リポジトリの読み書き、Issue/PR 管理、コード検索。本番はスコープ限定 PAT か GitHub App＋監査ログを。',
+    ko: 'GitHub 공식 MCP 서버: 저장소 R/W, Issue/PR 관리, 코드 검색. 운영 환경에서는 스코프 제한 PAT 또는 GitHub App+감사 로그를 사용하세요.',
+    ru: 'Официальный MCP-сервер GitHub: чтение/запись репозиториев, управление Issues/PR, поиск по коду. Для прод — PAT с ограниченной областью или GitHub App с аудитом.',
+    hi: 'GitHub का आधिकारिक MCP सर्वर: रिपॉज़िटरी R/W, Issue/PR प्रबंधन, कोड खोज। प्रोडक्शन में सीमित PAT या GitHub App + ऑडिट लॉग का उपयोग करें।',
+    es: 'Servidor MCP oficial de GitHub: repos R/W, gestión de Issues/PR y búsqueda de código. En producción usa PAT con alcance limitado o una GitHub App con auditoría.',
+  },
+  postgres: {
+    en: 'Reference MCP server for read-only Postgres access and schema introspection—ideal for data-analysis agents. Lock down with a read-only role and schema allow-list.',
+    'zh-TW': '官方 MCP 伺服器：透過唯讀連線讓代理執行 PostgreSQL 查詢與 schema 探索，適合分析型代理。強烈建議唯讀帳號＋schema 白名單。',
+    ja: '公式 MCP サーバー：読み取り専用接続で PostgreSQL にクエリ・スキーマ探索を実行。分析系エージェント向け。読み取り専用ロールとスキーマ許可リストで運用を。',
+    ko: '읽기 전용 연결로 PostgreSQL 쿼리와 스키마 탐색을 허용하는 공식 MCP 서버. 읽기 전용 역할 + 스키마 허용 목록으로 제한하세요.',
+    ru: 'Эталонный MCP-сервер: read-only подключение к Postgres с запросами и обзором схем — хорошо для аналитических агентов. Используйте read-only роль и allow-list схем.',
+    hi: 'संदर्भ MCP सर्वर: केवल-पढ़ने की कनेक्शन से PostgreSQL क्वेरी व schema खोज—एनालिटिक्स एजेंट के लिए बढ़िया। Read-only रोल + schema allow-list ज़रूर लगाएँ।',
+    es: 'Servidor MCP de referencia con acceso solo-lectura a Postgres e introspección de esquemas—ideal para agentes analíticos. Bloquea con un rol solo lectura y lista blanca de esquemas.',
+  },
+  fetch: {
+    en: 'Reference MCP server that fetches any HTTP URL and converts it to Markdown—often the minimal “browsing” capability for agents. Add a domain allow-list and rate limits.',
+    'zh-TW': '官方 MCP 伺服器：抓取 HTTP URL 並轉為 Markdown——代理最常見的「瀏覽」起點。請設定網域白名單與速率限制。',
+    ja: '公式 MCP サーバー：任意の HTTP URL を取得して Markdown に変換—エージェントの最小限「ブラウジング」能力として定番。ドメイン許可リストとレート制限を。',
+    ko: '임의 HTTP URL을 가져와 Markdown으로 변환하는 공식 MCP 서버—에이전트 "브라우징" 최소 구현으로 자주 사용. 도메인 허용 목록과 속도 제한 권장.',
+    ru: 'Эталонный MCP-сервер: качает любой HTTP URL и приводит к Markdown — минимальная «навигация» для агента. Добавьте allow-list доменов и лимиты.',
+    hi: 'संदर्भ MCP सर्वर: किसी भी HTTP URL को लाकर Markdown में बदलता है—एजेंट की न्यूनतम "ब्राउज़िंग" क्षमता। डोमेन अनुमति-सूची व दर सीमा लगाएँ।',
+    es: 'Servidor MCP de referencia que descarga cualquier URL HTTP y la convierte a Markdown—suele ser la capacidad mínima de “navegar” para un agente. Añade allow-list de dominios y límites de tasa.',
+  },
+  'playwright-mcp': {
+    en: 'Microsoft’s Playwright MCP server: cross-browser automation with broader coverage than Puppeteer—fits scrapers and UI-testing agents that need headless Chromium, Firefox, and WebKit.',
+    'zh-TW': 'Microsoft 出品的 Playwright MCP：跨瀏覽器自動化，覆蓋 Chromium / Firefox / WebKit——適合爬取與 UI 測試代理。',
+    ja: 'Microsoft 製 Playwright MCP サーバー。Chromium / Firefox / WebKit のクロスブラウザ自動化でスクレイパーや UI テストエージェント向き。',
+    ko: 'Microsoft 의 Playwright MCP 서버: Chromium/Firefox/WebKit 크로스브라우저 자동화—스크레이퍼·UI 테스트 에이전트에 적합.',
+    ru: 'MCP-сервер Playwright от Microsoft: кросс-браузерная автоматизация (Chromium/Firefox/WebKit) — для скрейперов и UI-тест агентов.',
+    hi: 'Microsoft का Playwright MCP सर्वर: Chromium/Firefox/WebKit क्रॉस-ब्राउज़र ऑटोमेशन—स्क्रैपर व UI-टेस्ट एजेंट के लिए।',
+    es: 'Servidor MCP Playwright de Microsoft: automatización entre navegadores (Chromium/Firefox/WebKit)—ideal para scrapers y agentes de pruebas UI.',
+  },
+  slack: {
+    en: 'Reference MCP server that reads/writes Slack messages and searches history—turns Slack into an agent’s comms layer. Use a bot token with minimal scopes.',
+    'zh-TW': '官方 MCP 伺服器：讀寫 Slack 訊息、搜尋歷史；把 Slack 作為代理的通訊層。請使用 Bot Token 並設定最小 scope。',
+    ja: '公式 MCP サーバー：Slack のメッセージ送受信と履歴検索 — Slack をエージェントの通信層に。Bot Token は最小スコープで運用。',
+    ko: 'Slack 메시지 송수신과 히스토리 검색을 제공하는 공식 MCP 서버—Slack을 에이전트 통신 계층으로. 최소 scope Bot Token 사용.',
+    ru: 'Эталонный MCP-сервер: чтение/запись сообщений в Slack и поиск — превращает Slack в коммуникационный слой агента. Используйте Bot Token с минимальными правами.',
+    hi: 'संदर्भ MCP सर्वर: Slack संदेश R/W व इतिहास खोज—Slack को एजेंट का कम्युनिकेशन लेयर बनाता है। न्यूनतम scope वाला Bot Token ही उपयोग करें।',
+    es: 'Servidor MCP de referencia para leer/escribir mensajes de Slack y buscar en el historial—convierte Slack en la capa de comunicación del agente. Usa Bot Token con scopes mínimos.',
+  },
+  'cloudflare-mcp': {
+    en: 'Cloudflare’s official MCP suite covering Workers, KV, D1, R2, Pages, and DNS. Supports Remote MCP over HTTP, so you can plug it into Claude or Cursor without a local binary.',
+    'zh-TW': 'Cloudflare 官方 MCP 套件：Workers、KV、D1、R2、Pages、DNS；支援 HTTP Remote MCP，免本機二進位即可接入 Claude / Cursor。',
+    ja: 'Cloudflare 公式 MCP スイート。Workers / KV / D1 / R2 / Pages / DNS を網羅し、HTTP 版 Remote MCP に対応—ローカル実行ファイル不要で Claude / Cursor に接続。',
+    ko: 'Cloudflare 공식 MCP 모음: Workers·KV·D1·R2·Pages·DNS 지원, HTTP Remote MCP 가능—로컬 바이너리 없이 Claude/Cursor 에 연결.',
+    ru: 'Официальный набор MCP от Cloudflare: Workers, KV, D1, R2, Pages, DNS. Поддержка Remote MCP по HTTP — подключать к Claude / Cursor без локальных бинарей.',
+    hi: 'Cloudflare का आधिकारिक MCP सेट: Workers, KV, D1, R2, Pages, DNS—HTTP Remote MCP सपोर्ट, बिना लोकल बाइनरी Claude/Cursor से जोड़ें।',
+    es: 'Paquete MCP oficial de Cloudflare con Workers, KV, D1, R2, Pages y DNS. Soporta Remote MCP por HTTP—se conecta a Claude o Cursor sin binario local.',
+  },
+  'stripe-mcp': {
+    en: 'Stripe’s official MCP server exposing accounts, orders, refunds, and products as tools—handy for commerce agents. Restrict to test / restricted keys in production.',
+    'zh-TW': 'Stripe 官方 MCP 伺服器：把帳戶、訂單、退款、產品等 API 以工具形式暴露——商務與支付代理實用。生產環境請限制在測試 / 受限金鑰。',
+    ja: 'Stripe 公式 MCP サーバー。アカウント・注文・返金・商品などの API をツールとして公開—商取引エージェントに便利。本番はテスト / 制限付きキーに限定を。',
+    ko: 'Stripe 공식 MCP 서버: 계정·주문·환불·상품 API를 도구로 노출—커머스 에이전트에 유용. 운영 환경은 테스트 / 제한 키로 제한.',
+    ru: 'Официальный MCP-сервер Stripe: счета, заказы, возвраты, продукты как инструменты — удобно для коммерческих агентов. В проде используйте test / restricted ключи.',
+    hi: 'Stripe का आधिकारिक MCP सर्वर: accounts/orders/refunds/products API टूल के रूप में—कॉमर्स एजेंट के लिए काम का। प्रोडक्शन में test/restricted की सीमा रखें।',
+    es: 'Servidor MCP oficial de Stripe con cuentas, pedidos, reembolsos y productos como herramientas—ideal para agentes de comercio. Restringe a claves de prueba o limitadas en producción.',
+  },
+  'linear-mcp': {
+    en: 'Linear’s official MCP server: create and query Issues, Projects, and Cycles—a lightweight task pipeline for engineering/product agents. Auth via personal API key or OAuth.',
+    'zh-TW': 'Linear 官方 MCP 伺服器：建立與查詢 Issue、Project、Cycle——工程與產品代理的輕量任務管道。使用個人 API Key 或 OAuth 授權。',
+    ja: 'Linear 公式 MCP サーバー。Issue / Project / Cycle の作成・照会—エンジニア／プロダクトエージェントの軽量タスク基盤。個人 API Key か OAuth で認可。',
+    ko: 'Linear 공식 MCP 서버: Issue·Project·Cycle 생성·조회—엔지니어/프로덕트 에이전트의 경량 태스크 파이프라인. 개인 API Key 또는 OAuth 인증.',
+    ru: 'Официальный MCP Linear: создание и запросы Issues/Projects/Cycles — лёгкий task-pipeline для agents разработки/продукта. Авторизация через API Key или OAuth.',
+    hi: 'Linear का आधिकारिक MCP सर्वर: Issue/Project/Cycle बनाना व क्वेरी—इंजीनियरिंग/प्रोडक्ट एजेंट के लिए हल्का टास्क पाइपलाइन। API Key या OAuth से ऑथ।',
+    es: 'Servidor MCP oficial de Linear: crea y consulta Issues, Projects y Cycles—una pipeline de tareas ligera para agentes de ingeniería/producto. Autenticación con API key o OAuth.',
+  },
+  'notion-mcp': {
+    en: 'Notion’s official MCP server: read/write pages and database items—perfect for wiring requirement docs, weekly reports, and knowledge bases into agents. Workspace-level auth applies.',
+    'zh-TW': 'Notion 官方 MCP 伺服器：讀寫頁面與資料庫項——把需求、週報、知識庫接入代理。以工作區為單位授權。',
+    ja: 'Notion 公式 MCP サーバー。ページとデータベース項目の R/W—要件書・週報・ナレッジベースをエージェントに接続するのに最適。ワークスペース単位で認可。',
+    ko: 'Notion 공식 MCP 서버: 페이지와 DB 항목 R/W—요구사항·주간 리포트·지식베이스를 에이전트에 연결. 워크스페이스 단위 권한.',
+    ru: 'Официальный MCP Notion: R/W страниц и элементов БД — удобно для подключения требований, weekly и БЗ к агенту. Авторизация — по рабочему пространству.',
+    hi: 'Notion का आधिकारिक MCP सर्वर: पेज व डेटाबेस आइटम R/W—आवश्यकताएँ, वीकली व नॉलेज बेस को एजेंट से जोड़ने में बढ़िया। वर्कस्पेस स्तर पर ऑथ।',
+    es: 'Servidor MCP oficial de Notion: lectura/escritura de páginas y elementos de base de datos—perfecto para enganchar documentos, reportes y bases de conocimiento. Auth por workspace.',
+  },
+  'supabase-mcp': {
+    en: 'Supabase’s official MCP server covering database, Storage, and Auth operations—great for wiring a Supabase project into AI IDEs and ops agents.',
+    'zh-TW': 'Supabase 官方 MCP 伺服器：涵蓋資料庫、Storage、Auth——把 Supabase 專案接到 AI IDE 與維運代理。',
+    ja: 'Supabase 公式 MCP サーバー。DB / Storage / Auth の主要操作をカバー—Supabase プロジェクトを AI IDE や運用エージェントに接続。',
+    ko: 'Supabase 공식 MCP 서버: DB·Storage·Auth 주요 작업—Supabase 프로젝트를 AI IDE 및 운영 에이전트에 연결.',
+    ru: 'Официальный MCP Supabase: операции с БД, Storage и Auth — удобно подключать Supabase-проект к AI IDE и ops-агентам.',
+    hi: 'Supabase का आधिकारिक MCP सर्वर: DB, Storage, Auth संचालन—Supabase प्रोजेक्ट को AI IDE व ops एजेंट से जोड़ने के लिए बढ़िया।',
+    es: 'Servidor MCP oficial de Supabase para base de datos, Storage y Auth—ideal para conectar un proyecto Supabase a IDEs de IA y agentes de operaciones.',
+  },
+  'tavily-mcp': {
+    en: 'Tavily MCP server exposes the agent-focused search API as MCP tools—an easy way to give any MCP client a “can search the web” capability with API key control.',
+    'zh-TW': 'Tavily MCP 伺服器：把面向代理的搜尋 API 暴露為 MCP 工具——給任何 MCP 客戶端接上「會聯網」能力，並用 API Key 控管。',
+    ja: 'Tavily MCP サーバー。エージェント向け検索 API を MCP ツールとして公開—任意の MCP クライアントに「ウェブ検索可」能力を付与（API Key で制御）。',
+    ko: 'Tavily MCP 서버: 에이전트용 검색 API를 MCP 도구로 노출—어떤 MCP 클라이언트에든 “웹 검색” 능력을 API Key 로 제공.',
+    ru: 'MCP-сервер Tavily: API поиска, заточенный под агентов, как инструменты MCP — лёгкий способ дать любому MCP-клиенту «веб-поиск» с контролем по API Key.',
+    hi: 'Tavily MCP सर्वर: एजेंट-केंद्रित सर्च API को MCP टूल के रूप में—किसी भी MCP क्लाइंट को API Key से "वेब सर्च" क्षमता देना आसान।',
+    es: 'Servidor MCP de Tavily que expone la API de búsqueda orientada a agentes como herramientas MCP—dota a cualquier cliente MCP de capacidad de búsqueda web controlada por API key.',
+  },
+}
+
+const MCP_GENERIC_OFFICIAL = {
+  en: (n, vendor) =>
+    `${n}: official MCP server from ${vendor || 'the upstream team'}—confirm version, auth scopes, and transport with the upstream docs before production use.`,
+  'zh-TW': (n, vendor) =>
+    `${n}：由 ${vendor || '上游團隊'} 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。`,
+  ja: (n, vendor) =>
+    `${n}：${vendor || '上流チーム'} の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。`,
+  ko: (n, vendor) =>
+    `${n}: ${vendor || '업스트림 팀'} 제공의 공식 MCP 서버—운영 전에 버전·권한 scope·전송 방식을 업스트림 문서로 확인하세요.`,
+  ru: (n, vendor) =>
+    `${n}: официальный MCP-сервер от ${vendor || 'команды upstream'} — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией.`,
+  hi: (n, vendor) =>
+    `${n}: ${vendor || 'अपस्ट्रीम टीम'} का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।`,
+  es: (n, vendor) =>
+    `${n}: servidor MCP oficial de ${vendor || 'el equipo upstream'}—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción.`,
+}
+
+const MCP_GENERIC_COMMUNITY = {
+  en: (n) =>
+    `${n}: community MCP implementation—great for learning and quick validation. Review maintenance, dependencies, and data policies before production use.`,
+  'zh-TW': (n) =>
+    `${n}：社群 MCP 實作——適合學習與快速驗證。上線前請評估維護、相依鏈與資料策略。`,
+  ja: (n) =>
+    `${n}：コミュニティ由来の MCP 実装—学習と早期検証に適しています。本番前にメンテ状況・依存・データポリシーを確認してください。`,
+  ko: (n) =>
+    `${n}: 커뮤니티 MCP 구현—학습과 빠른 검증에 적합합니다. 운영 전에 유지보수·의존성·데이터 정책을 점검하세요.`,
+  ru: (n) =>
+    `${n}: реализация MCP от сообщества — хорошо для обучения и быстрой проверки. Перед продом оцените сопровождение, зависимости и политику данных.`,
+  hi: (n) =>
+    `${n}: सामुदायिक MCP इम्प्लीमेंटेशन—सीखने व त्वरित सत्यापन के लिए बढ़िया। प्रोडक्शन से पहले मेंटेनेंस, डिपेंडेंसी व डेटा नीति जाँचें।`,
+  es: (n) =>
+    `${n}: implementación MCP de la comunidad—ideal para aprender y validar rápido. Antes de producción revisa mantenimiento, dependencias y políticas de datos.`,
+}
+
+export function mcpDescription(s, locale) {
+  const hi = MCP_HIGHLIGHTS[s.slug]?.[locale] ?? MCP_HIGHLIGHTS[s.slug]?.en
+  if (hi) return hi
+  const map = s.official ? MCP_GENERIC_OFFICIAL : MCP_GENERIC_COMMUNITY
+  const fn = map[locale] ?? map.en
+  return s.official ? fn(s.name, s.vendor) : fn(s.name)
 }

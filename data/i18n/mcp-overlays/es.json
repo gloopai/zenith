@@ -1,0 +1,92 @@
+{
+  "filesystem": {
+    "description": "Servidor MCP oficial de referencia para leer, escribir y listar archivos dentro de un directorio permitido. Usa rutas con mínimo privilegio y modo solo-lectura para datos sensibles."
+  },
+  "git": {
+    "description": "Servidor MCP de referencia que expone operaciones git comunes (status, log, diff, blame) al agente. Perfecto como base para revisores de código en solo lectura; otorga escritura con prudencia."
+  },
+  "github": {
+    "description": "Servidor MCP oficial de GitHub: repos R/W, gestión de Issues/PR y búsqueda de código. En producción usa PAT con alcance limitado o una GitHub App con auditoría."
+  },
+  "gitlab": {
+    "description": "GitLab: servidor MCP oficial de Model Context Protocol—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "postgres": {
+    "description": "Servidor MCP de referencia con acceso solo-lectura a Postgres e introspección de esquemas—ideal para agentes analíticos. Bloquea con un rol solo lectura y lista blanca de esquemas."
+  },
+  "sqlite": {
+    "description": "SQLite: servidor MCP oficial de Model Context Protocol—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "memory": {
+    "description": "Memory: servidor MCP oficial de Model Context Protocol—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "fetch": {
+    "description": "Servidor MCP de referencia que descarga cualquier URL HTTP y la convierte a Markdown—suele ser la capacidad mínima de “navegar” para un agente. Añade allow-list de dominios y límites de tasa."
+  },
+  "puppeteer": {
+    "description": "Puppeteer: servidor MCP oficial de Model Context Protocol—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "playwright-mcp": {
+    "description": "Servidor MCP Playwright de Microsoft: automatización entre navegadores (Chromium/Firefox/WebKit)—ideal para scrapers y agentes de pruebas UI."
+  },
+  "time": {
+    "description": "Time: servidor MCP oficial de Model Context Protocol—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "sequential-thinking": {
+    "description": "Sequential Thinking: servidor MCP oficial de Model Context Protocol—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "brave-search": {
+    "description": "Brave Search: servidor MCP oficial de Model Context Protocol—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "google-drive": {
+    "description": "Google Drive: servidor MCP oficial de Model Context Protocol—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "google-maps": {
+    "description": "Google Maps: servidor MCP oficial de Model Context Protocol—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "slack": {
+    "description": "Servidor MCP de referencia para leer/escribir mensajes de Slack y buscar en el historial—convierte Slack en la capa de comunicación del agente. Usa Bot Token con scopes mínimos."
+  },
+  "sentry": {
+    "description": "Sentry: servidor MCP oficial de Model Context Protocol—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "cloudflare-mcp": {
+    "description": "Paquete MCP oficial de Cloudflare con Workers, KV, D1, R2, Pages y DNS. Soporta Remote MCP por HTTP—se conecta a Claude o Cursor sin binario local."
+  },
+  "stripe-mcp": {
+    "description": "Servidor MCP oficial de Stripe con cuentas, pedidos, reembolsos y productos como herramientas—ideal para agentes de comercio. Restringe a claves de prueba o limitadas en producción."
+  },
+  "linear-mcp": {
+    "description": "Servidor MCP oficial de Linear: crea y consulta Issues, Projects y Cycles—una pipeline de tareas ligera para agentes de ingeniería/producto. Autenticación con API key o OAuth."
+  },
+  "notion-mcp": {
+    "description": "Servidor MCP oficial de Notion: lectura/escritura de páginas y elementos de base de datos—perfecto para enganchar documentos, reportes y bases de conocimiento. Auth por workspace."
+  },
+  "atlassian-mcp": {
+    "description": "Atlassian Remote MCP: servidor MCP oficial de Atlassian—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "supabase-mcp": {
+    "description": "Servidor MCP oficial de Supabase para base de datos, Storage y Auth—ideal para conectar un proyecto Supabase a IDEs de IA y agentes de operaciones."
+  },
+  "neon-mcp": {
+    "description": "Neon: servidor MCP oficial de Neon—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "mongodb-mcp": {
+    "description": "MongoDB: servidor MCP oficial de MongoDB—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "exa-mcp": {
+    "description": "Exa: servidor MCP oficial de Exa—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "tavily-mcp": {
+    "description": "Servidor MCP de Tavily que expone la API de búsqueda orientada a agentes como herramientas MCP—dota a cualquier cliente MCP de capacidad de búsqueda web controlada por API key."
+  },
+  "firecrawl-mcp": {
+    "description": "Firecrawl: servidor MCP oficial de Mendable / Firecrawl—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "e2b-mcp": {
+    "description": "E2B Code Interpreter: servidor MCP oficial de E2B—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  },
+  "apify-mcp": {
+    "description": "Apify Actors: servidor MCP oficial de Apify—revisa versión, scopes de permisos y transporte en la documentación upstream antes de producción."
+  }
+}

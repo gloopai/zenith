@@ -262,7 +262,7 @@
       "name": "Otter.ai",
       "description": "会议与访谈转写工具，支持实时字幕、摘要与简单协作，适合远程会议纪要与采访整理。对隐私敏感的行业需评估云端存储与合规选项。",
       "url": "https://otter.ai",
-      "category": "语音 / 音乐",
+      "category": "会议 / 笔记",
       "tags": ["转写", "会议", "摘要"],
       "featured": false
     },
@@ -299,7 +299,7 @@
       "name": "v0",
       "description": "Vercel 旗下从自然语言生成 UI 组件与页面的工具，适合前端与产品快速出原型、对接 Tailwind 与 shadcn 生态。生成代码后仍需人工审阅可访问性与业务逻辑。",
       "url": "https://v0.dev",
-      "category": "编程 / 开发",
+      "category": "UI / 前端生成",
       "tags": ["UI", "前端", "原型"],
       "featured": false
     },
@@ -659,7 +659,7 @@
       "name": "Groq",
       "description": "以自研 LPU 推理芯片与极低延迟著称的推理平台，提供多款开源模型的极速对话体验，适合对响应速度敏感的原型与演示。高峰期排队与可用模型列表会变化，生产环境需评估稳定性与条款。",
       "url": "https://groq.com",
-      "category": "开源 / 开发者",
+      "category": "推理 / 托管",
       "tags": ["推理", "低延迟", "API"],
       "featured": true
     },
@@ -677,7 +677,7 @@
       "name": "Replicate",
       "description": "按调用计费的模型托管与 API 平台，聚合大量开源图像、语音与语言模型，适合快速试验而无需自管 GPU。成本随调用量上升，建议加缓存与批处理控制账单。",
       "url": "https://replicate.com",
-      "category": "开源 / 开发者",
+      "category": "推理 / 托管",
       "tags": ["API", "图像", "按量计费"],
       "featured": false
     },
@@ -686,7 +686,7 @@
       "name": "fal",
       "description": "面向创作者的生成式 API 与工作流，强调低延迟图像/视频推理与队列管理，适合把开源模型封装进产品。开发者需阅读各模型的许可与商用边界。",
       "url": "https://fal.ai",
-      "category": "开源 / 开发者",
+      "category": "推理 / 托管",
       "tags": ["API", "图像", "视频"],
       "featured": false
     },
@@ -695,7 +695,7 @@
       "name": "Together AI",
       "description": "专注开源模型推理与微调的云平台，提供高吞吐 API 与专用算力，适合需要 Llama、Mixtral 等模型私有化实验的团队。定价与区域节点以官网为准。",
       "url": "https://www.together.ai",
-      "category": "开源 / 开发者",
+      "category": "推理 / 托管",
       "tags": ["开源模型", "API", "微调"],
       "featured": false
     },
@@ -704,7 +704,7 @@
       "name": "Fireworks AI",
       "description": "面向企业的快速推理与部署平台，强调低延迟与 OpenAI 兼容接口，适合在已有应用内无缝切换模型后端。适合已有工程团队评估与压测。",
       "url": "https://fireworks.ai",
-      "category": "开源 / 开发者",
+      "category": "推理 / 托管",
       "tags": ["推理", "企业", "API"],
       "featured": false
     },
@@ -713,7 +713,7 @@
       "name": "OpenRouter",
       "description": "统一调用多家模型厂商的聚合网关，一个接口可切换不同模型与定价，适合原型与 A/B 测试。需注意数据路由策略与供应商条款，敏感业务建议走直连与合同。",
       "url": "https://openrouter.ai",
-      "category": "开源 / 开发者",
+      "category": "推理 / 托管",
       "tags": ["聚合", "API", "多模型"],
       "featured": false
     },
@@ -722,7 +722,7 @@
       "name": "硅基流动 SiliconFlow",
       "description": "国内团队提供的模型推理与微调平台，支持多种开源模型与中文场景优化，适合国内开发者降低实验门槛。合规与备案要求请按你所在行业自行确认。",
       "url": "https://siliconflow.cn",
-      "category": "开源 / 开发者",
+      "category": "推理 / 托管",
       "tags": ["国产", "API", "推理"],
       "featured": false
     },
@@ -821,7 +821,7 @@
       "name": "Bolt.new",
       "description": "StackBlitz 推出的浏览器内全栈生成与预览环境，适合从一句话需求快速出可运行原型。生成代码的结构与依赖需人工清理后再用于生产。",
       "url": "https://bolt.new",
-      "category": "编程 / 开发",
+      "category": "UI / 前端生成",
       "tags": ["原型", "全栈", "浏览器"],
       "featured": true
     },
@@ -983,7 +983,7 @@
       "name": "Tavily",
       "description": "面向 AI Agent 与 RAG 的搜索 API，返回带摘要的网页结果，适合给自建助手接「可联网」能力。调用成本与速率限制需写进系统提示与重试策略。",
       "url": "https://tavily.com",
-      "category": "开源 / 开发者",
+      "category": "向量库 / 检索",
       "tags": ["搜索API", "RAG", "Agent"],
       "featured": false
     },
@@ -1019,7 +1019,7 @@
       "name": "Jina AI",
       "description": "提供嵌入、重排序与 Reader 等面向 RAG 的基础设施，开源组件丰富，适合自建搜索与问答流水线。企业部署需评估延迟与缓存策略。",
       "url": "https://jina.ai",
-      "category": "开源 / 开发者",
+      "category": "向量库 / 检索",
       "tags": ["RAG", "嵌入", "开源"],
       "featured": false
     },
@@ -1028,7 +1028,7 @@
       "name": "Mem0",
       "description": "为 AI 应用提供长期记忆层的开源框架，帮助 Agent 记住用户偏好与历史事实，适合个性化助手。记忆内容涉及隐私时需加密与可删除设计。",
       "url": "https://mem0.ai",
-      "category": "开源 / 开发者",
+      "category": "向量库 / 检索",
       "tags": ["Agent", "记忆", "开源"],
       "featured": false
     },
@@ -1128,7 +1128,7 @@
       "updatedAt": "2026-04-05",
       "description": "Manus（manus.im）定位为通用型 AI 代理产品，常见宣传点多在浏览器自动化、研究总结与多步骤任务交付（如报告、表格、代码仓库草稿等）。本站仅提供中立摘录与外链入口；任务边界、数据留存、是否训练模型、可用国家/地区与计费规则请务必以 Manus 官网及当期用户协议为准，涉及敏感数据前宜做独立合规评估。",
       "url": "https://manus.im",
-      "category": "对话 / 通用",
+      "category": "浏览器 / 桌面代理",
       "tags": ["代理", "自动化", "研究"],
       "featured": true
     },
@@ -1137,7 +1137,7 @@
       "name": "Lovable",
       "description": "用自然语言生成可部署的全栈/前端项目（常见为 React 技术栈），适合快速做 MVP 与交互演示。安全审计、后端扩展与团队协作仍要按工程规范迭代，而非一键上线即生产。",
       "url": "https://lovable.dev",
-      "category": "编程 / 开发",
+      "category": "UI / 前端生成",
       "tags": ["全栈", "React", "原型"],
       "featured": true
     },
@@ -1173,8 +1173,458 @@
       "name": "Granola",
       "description": "面向会议的笔记与摘要工具，常结合日历与转写把讨论整理成可检索要点；适合销售人员、PM 与顾问减少会后整理时间。准确性与隐私（录音存储、模型训练策略）请按官方当前政策与企业版条款评估。",
       "url": "https://www.granola.ai",
-      "category": "文档 / 知识库",
+      "category": "会议 / 笔记",
       "tags": ["会议", "转写", "摘要"],
+      "featured": false
+    },
+    {
+      "slug": "langsmith",
+      "name": "LangSmith",
+      "updatedAt": "2026-04-21",
+      "description": "LangChain 团队推出的 LLM 评测与 trace 平台，覆盖离线评测、数据集版本、线上监控与人工标注，与 LangChain/LangGraph 集成最紧密。若已用 LangChain 生态，接入成本最低；否则对比 Langfuse / Braintrust 再决定。",
+      "url": "https://smith.langchain.com",
+      "category": "评测 / 可观测",
+      "tags": ["评测", "Trace", "LangChain"],
+      "featured": true
+    },
+    {
+      "slug": "langfuse",
+      "name": "Langfuse",
+      "updatedAt": "2026-04-21",
+      "description": "开源的 LLM 可观测与评测平台，支持 trace、数据集、评分器与 prompt 管理，可 Docker 自部署把数据留在内网。面向重视数据主权或需要私有化部署的团队是口碑选项。",
+      "url": "https://langfuse.com",
+      "category": "评测 / 可观测",
+      "tags": ["开源", "自部署", "Trace"],
+      "featured": true
+    },
+    {
+      "slug": "braintrust",
+      "name": "Braintrust",
+      "updatedAt": "2026-04-21",
+      "description": "以「eval first」定位的 LLM 评测与 Playground 平台，强调数据集管理、LLM-as-judge 与 CI 中跑回归。适合已把评测作为主要工程实践的团队；个人开发者可从其免费额度试用。",
+      "url": "https://www.braintrust.dev",
+      "category": "评测 / 可观测",
+      "tags": ["评测", "数据集", "CI"],
+      "featured": false
+    },
+    {
+      "slug": "arize-phoenix",
+      "name": "Arize Phoenix",
+      "updatedAt": "2026-04-21",
+      "description": "Arize AI 开源的 LLM / ML 可观测工具 Phoenix，支持 OpenTelemetry、trace 可视化与 RAG 评测，可本地运行或嵌入 Notebook。适合研究与调试场景的自由度。",
+      "url": "https://phoenix.arize.com",
+      "category": "评测 / 可观测",
+      "tags": ["开源", "OpenTelemetry", "RAG"],
+      "featured": false
+    },
+    {
+      "slug": "helicone",
+      "name": "Helicone",
+      "updatedAt": "2026-04-21",
+      "description": "通过代理网关记录 LLM 请求的可观测工具，自动抓取成本、延迟、错误与内容，支持 OpenAI 兼容接口一行代码接入。适合把观测加到已有应用而无需改动业务代码。",
+      "url": "https://www.helicone.ai",
+      "category": "评测 / 可观测",
+      "tags": ["网关", "成本", "日志"],
+      "featured": false
+    },
+    {
+      "slug": "galileo-ai",
+      "name": "Galileo",
+      "updatedAt": "2026-04-21",
+      "description": "面向企业的 LLM 评测与防护平台，提供幻觉检测、提示与输出护栏、RAG 质量评估等能力，适合在合规与金融等受监管行业做 AI 风险治理。",
+      "url": "https://www.galileo.ai",
+      "category": "评测 / 可观测",
+      "tags": ["企业", "护栏", "合规"],
+      "featured": false
+    },
+    {
+      "slug": "patronus-ai",
+      "name": "Patronus AI",
+      "updatedAt": "2026-04-21",
+      "description": "专注 LLM 自动评测与红队的平台，提供 Lynx、Glider 等评测模型与安全分类器，适合对 AI 输出风险敏感的企业做回归与上线前把关。",
+      "url": "https://www.patronus.ai",
+      "category": "评测 / 可观测",
+      "tags": ["评测", "红队", "安全"],
+      "featured": false
+    },
+    {
+      "slug": "pinecone",
+      "name": "Pinecone",
+      "updatedAt": "2026-04-21",
+      "description": "托管型向量数据库老牌玩家，提供 Serverless 版本与命名空间隔离，适合生产级 RAG 快速上线。定价按存储与查询计费，规模上去后建议评估 Qdrant / Milvus 等替代。",
+      "url": "https://www.pinecone.io",
+      "category": "向量库 / 检索",
+      "tags": ["向量库", "Serverless", "RAG"],
+      "featured": true
+    },
+    {
+      "slug": "weaviate",
+      "name": "Weaviate",
+      "updatedAt": "2026-04-21",
+      "description": "开源向量数据库，内置模块化的嵌入与混合检索，支持 Cloud 与自部署，适合需要 BM25 + 向量混合检索的业务。运维成本略高，建议搭配自己的监控栈。",
+      "url": "https://weaviate.io",
+      "category": "向量库 / 检索",
+      "tags": ["开源", "混合检索", "自部署"],
+      "featured": false
+    },
+    {
+      "slug": "qdrant",
+      "name": "Qdrant",
+      "updatedAt": "2026-04-21",
+      "description": "Rust 编写的开源向量数据库，提供本地、云与企业版本，支持 payload 过滤、混合搜索与量化压缩，适合对内存占用与吞吐敏感的生产环境。",
+      "url": "https://qdrant.tech",
+      "category": "向量库 / 检索",
+      "tags": ["开源", "Rust", "高性能"],
+      "featured": true
+    },
+    {
+      "slug": "chroma",
+      "name": "Chroma",
+      "updatedAt": "2026-04-21",
+      "description": "开发者友好的开源向量数据库，几行 Python 即可本地跑起来，适合原型、笔记本实验与小规模 RAG。线上大规模时建议切换到更偏运维的方案。",
+      "url": "https://www.trychroma.com",
+      "category": "向量库 / 检索",
+      "tags": ["开源", "Python", "原型"],
+      "featured": false
+    },
+    {
+      "slug": "milvus",
+      "name": "Milvus / Zilliz",
+      "updatedAt": "2026-04-21",
+      "description": "Milvus 是 LF AI & Data 托管的开源向量数据库，面向亿级以上规模；Zilliz 提供其托管云版本。适合大数据量 RAG、向量搜索与图片/视频 Embedding 检索。",
+      "url": "https://milvus.io",
+      "category": "向量库 / 检索",
+      "tags": ["开源", "大规模", "Zilliz"],
+      "featured": false
+    },
+    {
+      "slug": "lancedb",
+      "name": "LanceDB",
+      "updatedAt": "2026-04-21",
+      "description": "基于 Lance 列式格式的嵌入式向量数据库，与 pandas / PyArrow 无缝协作，可直接放到对象存储，适合数据科学笔记本与离线评测流水线。",
+      "url": "https://lancedb.com",
+      "category": "向量库 / 检索",
+      "tags": ["嵌入式", "列式", "数据科学"],
+      "featured": false
+    },
+    {
+      "slug": "turbopuffer",
+      "name": "Turbopuffer",
+      "updatedAt": "2026-04-21",
+      "description": "基于对象存储的 Serverless 向量数据库，主打低成本 + 过滤查询，适合预算敏感的团队做大批量文档 RAG。写入与查询延迟特性请在你自己的数据集上实测。",
+      "url": "https://turbopuffer.com",
+      "category": "向量库 / 检索",
+      "tags": ["Serverless", "低成本", "对象存储"],
+      "featured": false
+    },
+    {
+      "slug": "cerebras",
+      "name": "Cerebras Inference",
+      "updatedAt": "2026-04-21",
+      "description": "Cerebras 基于 WSE 晶圆级芯片的推理服务，宣称对主流开源 LLM 的极速 token 吞吐，适合对延迟敏感的交互型应用。配额与模型清单会随发布节奏变化。",
+      "url": "https://inference.cerebras.ai",
+      "category": "推理 / 托管",
+      "tags": ["低延迟", "专用芯片", "API"],
+      "featured": true
+    },
+    {
+      "slug": "sambanova",
+      "name": "SambaNova Cloud",
+      "updatedAt": "2026-04-21",
+      "description": "SambaNova 推出的 AI 云推理服务，基于自研 RDU 芯片，支持 Llama 等大模型的高速推理。面向企业的合规与专有部署选项相对完整。",
+      "url": "https://cloud.sambanova.ai",
+      "category": "推理 / 托管",
+      "tags": ["低延迟", "企业", "RDU"],
+      "featured": false
+    },
+    {
+      "slug": "baseten",
+      "name": "Baseten",
+      "updatedAt": "2026-04-21",
+      "description": "面向机器学习团队的模型部署与推理平台，支持自定义容器、自定义权重与按秒计费。适合需要把自研或开源模型上线成可扩缩容服务的工程团队。",
+      "url": "https://www.baseten.co",
+      "category": "推理 / 托管",
+      "tags": ["自定义", "部署", "MLOps"],
+      "featured": false
+    },
+    {
+      "slug": "modal",
+      "name": "Modal",
+      "updatedAt": "2026-04-21",
+      "description": "Python 优先的 Serverless 容器与 GPU 平台，一行装饰器即可把函数跑到远程 GPU，适合数据科学原型、批处理与自托管 LLM 推理。定价按秒计，冷启动时延需做预热策略。",
+      "url": "https://modal.com",
+      "category": "推理 / 托管",
+      "tags": ["Serverless", "GPU", "Python"],
+      "featured": false
+    },
+    {
+      "slug": "litellm",
+      "name": "LiteLLM",
+      "updatedAt": "2026-04-21",
+      "description": "开源的 LLM 聚合代理网关，用一套 OpenAI 兼容 API 对接百余家模型厂商，支持路由、预算、fallback 与日志。适合自建多供应商策略又不想重复造基础设施。",
+      "url": "https://www.litellm.ai",
+      "category": "推理 / 托管",
+      "tags": ["开源", "代理", "聚合"],
+      "featured": true
+    },
+    {
+      "slug": "fireflies-ai",
+      "name": "Fireflies.ai",
+      "updatedAt": "2026-04-21",
+      "description": "会议机器人自动入会并转写摘要，可与 HubSpot、Salesforce、Slack 等同步行动项，适合销售与 CS 团队固化会后流程。敏感会议建议使用私密频道并核对数据留存。",
+      "url": "https://fireflies.ai",
+      "category": "会议 / 笔记",
+      "tags": ["转写", "销售", "CRM"],
+      "featured": true
+    },
+    {
+      "slug": "fathom",
+      "name": "Fathom",
+      "updatedAt": "2026-04-21",
+      "description": "强调「不限时长免费转写」的会议记录工具，可自动生成摘要、章节与行动项，适合独立顾问与小团队入门。高阶 CRM 自动化走付费档。",
+      "url": "https://fathom.video",
+      "category": "会议 / 笔记",
+      "tags": ["转写", "免费", "销售"],
+      "featured": false
+    },
+    {
+      "slug": "read-ai",
+      "name": "Read.AI",
+      "updatedAt": "2026-04-21",
+      "description": "会议教练定位的 AI，不止转写摘要，还会反馈会议质量指标（参与度、语速、时长分布等），适合偏重会议文化优化的团队。数据可视化对隐私敏感者较强，接入前读透政策。",
+      "url": "https://www.read.ai",
+      "category": "会议 / 笔记",
+      "tags": ["会议分析", "参与度", "摘要"],
+      "featured": false
+    },
+    {
+      "slug": "tldv",
+      "name": "tl;dv",
+      "updatedAt": "2026-04-21",
+      "description": "面向销售与招聘的会议记录与时间戳片段工具，支持多语言转写与可分享高亮，适合把冗长的客户会议压成「关键瞬间」。",
+      "url": "https://tldv.io",
+      "category": "会议 / 笔记",
+      "tags": ["转写", "销售", "多语言"],
+      "featured": false
+    },
+    {
+      "slug": "limitless",
+      "name": "Limitless",
+      "updatedAt": "2026-04-21",
+      "description": "主打随身挂坠式硬件 + AI 会议助理，面向线下会议密集的角色。持续记录对隐私敏感，使用前请按本地法律征询与会方同意。",
+      "url": "https://www.limitless.ai",
+      "category": "会议 / 笔记",
+      "tags": ["硬件", "挂坠", "线下"],
+      "featured": false
+    },
+    {
+      "slug": "plaud",
+      "name": "Plaud",
+      "updatedAt": "2026-04-21",
+      "description": "贴在手机背面的录音硬件 + AI 摘要 App，擅长把长录音切章节摘要并输出文字稿，适合差旅与访谈密集场景。企业使用请建立统一的录音政策。",
+      "url": "https://www.plaud.ai",
+      "category": "会议 / 笔记",
+      "tags": ["硬件", "录音", "摘要"],
+      "featured": false
+    },
+    {
+      "slug": "notta",
+      "name": "Notta",
+      "updatedAt": "2026-04-21",
+      "description": "面向亚洲市场的多语言会议转写与摘要产品，对中日英混合场景友好，提供 App、Chrome 插件与会议机器人。",
+      "url": "https://www.notta.ai",
+      "category": "会议 / 笔记",
+      "tags": ["多语言", "亚洲", "转写"],
+      "featured": false
+    },
+    {
+      "slug": "tempo-ai",
+      "name": "Tempo",
+      "updatedAt": "2026-04-21",
+      "description": "Tempo Labs 推出的 AI UI 生成器，支持把 Figma/自然语言转成带交互的 React 组件，可直接接到现有仓库。适合已有设计体系又想加速页面交付的前端团队。",
+      "url": "https://www.tempo.new",
+      "category": "UI / 前端生成",
+      "tags": ["React", "Figma", "生成"],
+      "featured": false
+    },
+    {
+      "slug": "subframe",
+      "name": "Subframe",
+      "updatedAt": "2026-04-21",
+      "description": "定位设计 + 前端双栈的 UI 生成平台，输出现代、可复用的 React + Tailwind 组件，适合希望兼顾审美与工程规范的团队。自有设计系统的接入深度是选型关键。",
+      "url": "https://subframe.com",
+      "category": "UI / 前端生成",
+      "tags": ["React", "Tailwind", "设计系统"],
+      "featured": false
+    },
+    {
+      "slug": "figma-make",
+      "name": "Figma Make",
+      "updatedAt": "2026-04-21",
+      "description": "Figma 推出的 AI 代码生成能力，可把设计稿直接转成可运行的 React 原型并在 Figma 中预览。与 Figma 设计系统绑定紧密，适合设计驱动的产品团队。",
+      "url": "https://www.figma.com/make",
+      "category": "UI / 前端生成",
+      "tags": ["Figma", "设计", "React"],
+      "featured": false
+    },
+    {
+      "slug": "relume",
+      "name": "Relume",
+      "updatedAt": "2026-04-21",
+      "description": "以「站点地图 → 线框 → 可运行页面」为主线的 AI 设计协作工具，内置大量可复用模块，适合 Webflow / Framer 等落地站点的营销工程流水线。",
+      "url": "https://www.relume.io",
+      "category": "UI / 前端生成",
+      "tags": ["线框", "Webflow", "营销"],
+      "featured": false
+    },
+    {
+      "slug": "onlook",
+      "name": "Onlook",
+      "updatedAt": "2026-04-21",
+      "description": "开源的「设计师用的 Cursor」，在浏览器里直接以所见即所得方式编辑 React 项目并写回仓库，适合想让设计师参与代码迭代的小团队。",
+      "url": "https://onlook.com",
+      "category": "UI / 前端生成",
+      "tags": ["开源", "所见即所得", "React"],
+      "featured": false
+    },
+    {
+      "slug": "browser-use",
+      "name": "Browser Use",
+      "updatedAt": "2026-04-21",
+      "description": "开源的浏览器代理框架，让 LLM 通过结构化 DOM 操作网页，完成表单、抓取与多步骤任务，常被用作 Operator / Computer Use 的自部署替代。对工程能力有要求。",
+      "url": "https://browser-use.com",
+      "category": "浏览器 / 桌面代理",
+      "tags": ["开源", "DOM", "自动化"],
+      "featured": true
+    },
+    {
+      "slug": "skyvern",
+      "name": "Skyvern",
+      "updatedAt": "2026-04-21",
+      "description": "开源浏览器代理平台，结合计算机视觉与 LLM 做表单填写、多步流程与工作流编排，适合后台运营自动化。需评估反爬对抗与网站服务条款。",
+      "url": "https://www.skyvern.com",
+      "category": "浏览器 / 桌面代理",
+      "tags": ["开源", "视觉", "流程"],
+      "featured": false
+    },
+    {
+      "slug": "multion",
+      "name": "MultiOn",
+      "updatedAt": "2026-04-21",
+      "description": "面向消费者与开发者的浏览器代理，可通过自然语言执行购物、预订等任务，提供 API 与浏览器扩展。商业任务请关注错误动作的回滚机制。",
+      "url": "https://www.multion.ai",
+      "category": "浏览器 / 桌面代理",
+      "tags": ["浏览器", "API", "消费者"],
+      "featured": false
+    },
+    {
+      "slug": "anthropic-computer-use",
+      "name": "Claude Computer Use",
+      "updatedAt": "2026-04-21",
+      "description": "Anthropic 推出的让 Claude 看屏并操作电脑的能力（API 形态），可在沙盒桌面内点击、输入与执行多步任务。生产环境建议配合 VM 隔离与人工确认。",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/computer-use",
+      "category": "浏览器 / 桌面代理",
+      "tags": ["Claude", "桌面", "API"],
+      "featured": true
+    },
+    {
+      "slug": "openai-operator",
+      "name": "OpenAI Operator",
+      "updatedAt": "2026-04-21",
+      "description": "OpenAI 推出的云端浏览器代理产品（随版本演进而整合到 ChatGPT Agent），可在远程浏览器中替用户操作网站。具体产品命名与地区可用性以官网为准。",
+      "url": "https://openai.com/index/introducing-operator/",
+      "category": "浏览器 / 桌面代理",
+      "tags": ["云端浏览器", "ChatGPT", "代理"],
+      "featured": true
+    },
+    {
+      "slug": "reworkd",
+      "name": "Reworkd",
+      "updatedAt": "2026-04-21",
+      "description": "面向数据抓取场景的代理平台，结合代码生成与托管运行把「把这个网站变成 API」做成一条流水线，适合业务数据聚合团队。合规请核对目标站点 ToS。",
+      "url": "https://www.reworkd.ai",
+      "category": "浏览器 / 桌面代理",
+      "tags": ["爬虫", "数据", "API"],
+      "featured": false
+    },
+    {
+      "slug": "vapi",
+      "name": "Vapi",
+      "updatedAt": "2026-04-21",
+      "description": "面向开发者的语音代理平台，可自选 STT / LLM / TTS 供应商搭建电话与 WebRTC 语音机器人。定价按分钟计，适合搭建客服、预约与外呼机器人。",
+      "url": "https://vapi.ai",
+      "category": "语音代理 / 实时",
+      "tags": ["电话", "语音代理", "API"],
+      "featured": true
+    },
+    {
+      "slug": "retell-ai",
+      "name": "Retell AI",
+      "updatedAt": "2026-04-21",
+      "description": "强调低延迟与自然打断的语音代理平台，提供可视化编排与电话号码租用，适合快速落地外呼/呼入场景。出海电话请关注合规与 Do-Not-Call 名单。",
+      "url": "https://www.retellai.com",
+      "category": "语音代理 / 实时",
+      "tags": ["电话", "低延迟", "编排"],
+      "featured": true
+    },
+    {
+      "slug": "bland-ai",
+      "name": "Bland AI",
+      "updatedAt": "2026-04-21",
+      "description": "主打「一条链接就能打电话」的语音代理产品，模板化工作流上线快，企业版支持自建号码池与更严数据策略。复杂合规需求仍需走定制。",
+      "url": "https://www.bland.ai",
+      "category": "语音代理 / 实时",
+      "tags": ["电话", "外呼", "快速上线"],
+      "featured": false
+    },
+    {
+      "slug": "livekit-agents",
+      "name": "LiveKit Agents",
+      "updatedAt": "2026-04-21",
+      "description": "LiveKit 在自家 WebRTC 基础设施之上推出的开源语音代理框架，适合想自建实时语音应用、又不想自造 RTC 层的团队。可与任意 STT/LLM/TTS 串联。",
+      "url": "https://docs.livekit.io/agents/",
+      "category": "语音代理 / 实时",
+      "tags": ["WebRTC", "开源", "实时"],
+      "featured": false
+    },
+    {
+      "slug": "cartesia",
+      "name": "Cartesia",
+      "updatedAt": "2026-04-21",
+      "description": "Sonic 系列 TTS 为代表的低延迟语音合成厂商，强调流式 API 与自定义声音，适合对「自然感」敏感的语音代理与音频内容产品。",
+      "url": "https://cartesia.ai",
+      "category": "语音代理 / 实时",
+      "tags": ["TTS", "低延迟", "自定义声音"],
+      "featured": true
+    },
+    {
+      "slug": "hume-ai",
+      "name": "Hume AI",
+      "updatedAt": "2026-04-21",
+      "description": "以情感与韵律研究切入的语音模型提供商，EVI 系列强调共情对话与情绪感知，适合心理、陪伴与客服等强共情场景。",
+      "url": "https://www.hume.ai",
+      "category": "语音代理 / 实时",
+      "tags": ["情感", "EVI", "对话"],
+      "featured": false
+    },
+    {
+      "slug": "deepgram",
+      "name": "Deepgram",
+      "updatedAt": "2026-04-21",
+      "description": "老牌语音识别平台，Nova 系列 STT 在延迟与准确率上口碑稳，提供实时与批处理 API。语音代理栈里常作为 STT 层担当。",
+      "url": "https://deepgram.com",
+      "category": "语音代理 / 实时",
+      "tags": ["STT", "实时", "API"],
+      "featured": false
+    },
+    {
+      "slug": "pipecat",
+      "name": "Pipecat",
+      "updatedAt": "2026-04-21",
+      "description": "Daily 开源的实时多模态管道框架，把 STT、LLM、TTS、打断与 VAD 等组件以模块化方式串起来，适合想自建语音代理工程的团队。",
+      "url": "https://www.pipecat.ai",
+      "category": "语音代理 / 实时",
+      "tags": ["开源", "多模态", "管道"],
       "featured": false
     }
   ]

@@ -10,7 +10,8 @@
     "menu": "메뉴",
     "footerDescription": "엄선된 AI 도구와 업계 뉴스를 한곳에서.",
     "sitemap": "사이트맵",
-    "language": "언어"
+    "language": "언어",
+    "mcp": "MCP"
   },
   "home": {
     "eyebrow": "Plunget",
@@ -34,7 +35,13 @@
     "scenarioClustersHint": "검색 의도별로 도구를 묶고 상세 페이지로 연결합니다.",
     "allClusters": "모든 모음",
     "categoryHubTitle": "분류별 둘러보기",
-    "categoryHubHint": "FAQ형 설명·도구 목록·공식 사이트 링크를 한 페이지에."
+    "categoryHubHint": "FAQ형 설명·도구 목록·공식 사이트 링크를 한 페이지에.",
+    "mcpServers": "MCP 서버",
+    "mcpSectionTitle": "MCP 서버 추천",
+    "mcpSectionHint": "Claude / Cursor / Zed 에 바로 연결되는 Model Context Protocol 서버—공식 참조와 주요 벤더 구현, 설치 명령·전송 방식 포함.",
+    "allMcpServers": "모든 MCP 서버",
+    "mcpOfficial": "공식",
+    "mcpCommunity": "커뮤니티"
   },
   "clusterPage": {
     "eyebrow": "토픽 허브",
@@ -46,7 +53,11 @@
     "toolCount": "{count}개",
     "missingToolsHint": "카탈로그 변경으로 일부 항목이 빠질 수 있습니다.",
     "emptyTools": "도구를 불러오지 못했습니다.",
-    "notFound": "모음을 찾을 수 없습니다"
+    "notFound": "모음을 찾을 수 없습니다",
+    "mcpListTitle": "관련 MCP 서버",
+    "mcpListHint": "Claude / Cursor / Zed 등 MCP 클라이언트에 구성하면 에이전트가 외부 도구·데이터·실행 환경을 사용할 수 있습니다.",
+    "mcpBadgeOfficial": "공식",
+    "mcpBadgeCommunity": "커뮤니티"
   },
   "navPage": {
     "eyebrow": "목차",
@@ -139,7 +150,8 @@
   "errors": {
     "toolNotFound": "도구를 찾을 수 없습니다",
     "articleNotFound": "글을 찾을 수 없습니다",
-    "skillNotFound": "스킬을 찾을 수 없습니다"
+    "skillNotFound": "스킬을 찾을 수 없습니다",
+    "mcpServerNotFound": "해당 MCP 서버를 찾을 수 없습니다"
   },
   "seo": {
     "siteDescription": "큐레이션된 AI 도구 목록·실무 가이드·OpenClaw/AgentSkills 스킬 허브. 챗봇, 코딩, 미디어, 에이전트까지 한곳에서 비교.",
@@ -151,6 +163,45 @@
     "newsDescription": "모델 선택, 프라이버시, 멀티모달, 로컬 LLM, OpenClaw·에이전트 운용 등 실무 중심 글. 요약과 전문을 모두 제공합니다.",
     "openclawTitle": "OpenClaw 스킬 디렉터리 (AgentSkills)",
     "openclawDescription": "공식 저장소 스킬과 자주 쓰이는 커스텀 예시 이름을 정리. CLI/API 연동, SKILL.md, ClawHub, 공식 문서로 연결합니다.",
-    "ogHomeTitle": "Plunget — AI 도구 & OpenClaw 스킬"
+    "ogHomeTitle": "Plunget — AI 도구 & OpenClaw 스킬",
+    "mcpTitle": "MCP 서버 디렉터리 (Model Context Protocol)",
+    "mcpDescription": "30+ MCP 서버를 선별: 공식 참조, 주요 벤더 공개, 커뮤니티 구현. 파일, Git/GitHub, DB, 클라우드, 검색, 브라우저, 결제까지 Claude/Cursor/Zed 사용자에 최적."
+  },
+  "mcpPage": {
+    "eyebrow": "Model Context Protocol",
+    "title": "MCP 서버 디렉터리",
+    "introBeforeSpecLink": "Model Context Protocol(MCP)은 Anthropic이 제안한 표준입니다. 스펙은 ",
+    "introAfterSpecLink": ", 공식 참조 구현은 ",
+    "introAfterRefRepo": "의 servers 디렉터리에 모여 있습니다. 본 페이지는 대표 MCP 서버 — ",
+    "introStrong": "공식 참조와 주요 벤더 공개 구현",
+    "introEnd": " — 을 모아 Claude, Cursor, Zed 같은 MCP 클라이언트에서 즉시 연결할 수 있게 정리했습니다.",
+    "filterAll": "전체",
+    "filterOfficial": "공식",
+    "filterCommunity": "커뮤니티",
+    "searchLabel": "검색",
+    "searchPlaceholder": "이름, 설명, 벤더, 태그",
+    "count": "{count} 개",
+    "filterApplied": "필터 적용 중",
+    "badgeOfficial": "공식",
+    "badgeCommunity": "커뮤니티",
+    "empty": "조건에 맞는 서버가 없습니다."
+  },
+  "mcpServerPage": {
+    "breadcrumb": "MCP 서버",
+    "badgeOfficial": "공식 공개",
+    "badgeCommunity": "커뮤니티 / 예시",
+    "featured": "추천",
+    "transport": "전송 방식: {transport}",
+    "vendorBy": "제공: {vendor}",
+    "viewUpstream": "업스트림 보기",
+    "opensNewWindow": "새 창에서 열기",
+    "installTitle": "설치 및 실행",
+    "installHint": "위 명령은 참고용입니다. 환경 변수, 권한 스코프, 클라이언트 설정은 업스트림 문서를 확인하세요.",
+    "notesTitle": "비고",
+    "noteOfficial1": "본 항목은 ",
+    "noteOfficial2": " 공식 또는 modelcontextprotocol/servers 참조 구현입니다. 운영 환경 전에 버전, 최소 권한 토큰, 감사 정책을 점검하세요.",
+    "noteCommunity": "커뮤니티 또는 예시 구현입니다. 학습과 빠른 검증에 적합하며, 운영 전에 유지보수 상태와 의존성, 데이터 정책을 평가하세요.",
+    "upstreamFallback": "업스트림 팀",
+    "ogSuffix": "MCP Server"
   }
 }

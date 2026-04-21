@@ -1,0 +1,92 @@
+{
+  "filesystem": {
+    "description": "官方參考 MCP 伺服器：讓代理在允許目錄中讀寫檔案、列出目錄、建立或移動項目。請用最小權限路徑與唯讀模式保護敏感資料。"
+  },
+  "git": {
+    "description": "官方 MCP 伺服器：把常見 git 操作（狀態、log、diff、blame）暴露給代理。適合唯讀程式審閱代理起手；寫入請謹慎授權。"
+  },
+  "github": {
+    "description": "GitHub 官方 MCP 伺服器：讀寫倉庫、管理 Issue/PR、搜尋程式。生產環境請用受限 PAT 或 GitHub App 並做稽核。"
+  },
+  "gitlab": {
+    "description": "GitLab：由 Model Context Protocol 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "postgres": {
+    "description": "官方 MCP 伺服器：透過唯讀連線讓代理執行 PostgreSQL 查詢與 schema 探索，適合分析型代理。強烈建議唯讀帳號＋schema 白名單。"
+  },
+  "sqlite": {
+    "description": "SQLite：由 Model Context Protocol 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "memory": {
+    "description": "Memory：由 Model Context Protocol 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "fetch": {
+    "description": "官方 MCP 伺服器：抓取 HTTP URL 並轉為 Markdown——代理最常見的「瀏覽」起點。請設定網域白名單與速率限制。"
+  },
+  "puppeteer": {
+    "description": "Puppeteer：由 Model Context Protocol 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "playwright-mcp": {
+    "description": "Microsoft 出品的 Playwright MCP：跨瀏覽器自動化，覆蓋 Chromium / Firefox / WebKit——適合爬取與 UI 測試代理。"
+  },
+  "time": {
+    "description": "Time：由 Model Context Protocol 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "sequential-thinking": {
+    "description": "Sequential Thinking：由 Model Context Protocol 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "brave-search": {
+    "description": "Brave Search：由 Model Context Protocol 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "google-drive": {
+    "description": "Google Drive：由 Model Context Protocol 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "google-maps": {
+    "description": "Google Maps：由 Model Context Protocol 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "slack": {
+    "description": "官方 MCP 伺服器：讀寫 Slack 訊息、搜尋歷史；把 Slack 作為代理的通訊層。請使用 Bot Token 並設定最小 scope。"
+  },
+  "sentry": {
+    "description": "Sentry：由 Model Context Protocol 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "cloudflare-mcp": {
+    "description": "Cloudflare 官方 MCP 套件：Workers、KV、D1、R2、Pages、DNS；支援 HTTP Remote MCP，免本機二進位即可接入 Claude / Cursor。"
+  },
+  "stripe-mcp": {
+    "description": "Stripe 官方 MCP 伺服器：把帳戶、訂單、退款、產品等 API 以工具形式暴露——商務與支付代理實用。生產環境請限制在測試 / 受限金鑰。"
+  },
+  "linear-mcp": {
+    "description": "Linear 官方 MCP 伺服器：建立與查詢 Issue、Project、Cycle——工程與產品代理的輕量任務管道。使用個人 API Key 或 OAuth 授權。"
+  },
+  "notion-mcp": {
+    "description": "Notion 官方 MCP 伺服器：讀寫頁面與資料庫項——把需求、週報、知識庫接入代理。以工作區為單位授權。"
+  },
+  "atlassian-mcp": {
+    "description": "Atlassian Remote MCP：由 Atlassian 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "supabase-mcp": {
+    "description": "Supabase 官方 MCP 伺服器：涵蓋資料庫、Storage、Auth——把 Supabase 專案接到 AI IDE 與維運代理。"
+  },
+  "neon-mcp": {
+    "description": "Neon：由 Neon 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "mongodb-mcp": {
+    "description": "MongoDB：由 MongoDB 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "exa-mcp": {
+    "description": "Exa：由 Exa 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "tavily-mcp": {
+    "description": "Tavily MCP 伺服器：把面向代理的搜尋 API 暴露為 MCP 工具——給任何 MCP 客戶端接上「會聯網」能力，並用 API Key 控管。"
+  },
+  "firecrawl-mcp": {
+    "description": "Firecrawl：由 Mendable / Firecrawl 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "e2b-mcp": {
+    "description": "E2B Code Interpreter：由 E2B 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  },
+  "apify-mcp": {
+    "description": "Apify Actors：由 Apify 提供的官方 MCP 伺服器——上線前請以上游文件確認版本、權限範圍與傳輸方式。"
+  }
+}

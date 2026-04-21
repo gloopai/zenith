@@ -10,7 +10,8 @@
     "menu": "Menu",
     "footerDescription": "Curated AI tools and industry news in one place.",
     "sitemap": "Sitemap",
-    "language": "Language"
+    "language": "Language",
+    "mcp": "MCP"
   },
   "home": {
     "eyebrow": "Plunget",
@@ -34,7 +35,13 @@
     "scenarioClustersHint": "Topic hubs with internal links into tool detail pages—useful for long-tail discovery.",
     "allClusters": "All clusters",
     "categoryHubTitle": "Browse by category",
-    "categoryHubHint": "Editorial hubs with FAQ-style sections, full tool rosters, and links to every official site."
+    "categoryHubHint": "Editorial hubs with FAQ-style sections, full tool rosters, and links to every official site.",
+    "mcpServers": "MCP servers",
+    "mcpSectionTitle": "MCP server picks",
+    "mcpSectionHint": "Model Context Protocol servers ready to plug into Claude, Cursor, or Zed—official references and vendor-published implementations with install commands and transport details.",
+    "allMcpServers": "All MCP servers",
+    "mcpOfficial": "Official",
+    "mcpCommunity": "Community"
   },
   "clusterPage": {
     "eyebrow": "Topic hubs",
@@ -46,7 +53,11 @@
     "toolCount": "{count} picks",
     "missingToolsHint": "The directory may have changed—some linked slugs are no longer present.",
     "emptyTools": "No tools resolved for this cluster right now.",
-    "notFound": "Cluster not found"
+    "notFound": "Cluster not found",
+    "mcpListTitle": "Related MCP servers",
+    "mcpListHint": "Configure in Claude, Cursor, or Zed (any MCP client) to give agents access to external tools, data sources, or execution environments.",
+    "mcpBadgeOfficial": "Official",
+    "mcpBadgeCommunity": "Community"
   },
   "navPage": {
     "eyebrow": "Catalog",
@@ -139,7 +150,8 @@
   "errors": {
     "toolNotFound": "Tool not found",
     "articleNotFound": "Article not found",
-    "skillNotFound": "Skill not found"
+    "skillNotFound": "Skill not found",
+    "mcpServerNotFound": "MCP server not found"
   },
   "seo": {
     "siteDescription": "AI tools directory with 15+ category hubs, deep tool pages (FAQs + checklists), and an OpenClaw / AgentSkills catalog—dense internal linking for discovery.",
@@ -151,6 +163,45 @@
     "newsDescription": "Practical AI articles: model choices, privacy habits, multimodal workflows, and agent skills—readable summaries with full posts.",
     "openclawTitle": "OpenClaw skills directory (AgentSkills)",
     "openclawDescription": "Explore OpenClaw skills from the official GitHub repo plus common custom examples—CLI/API integrations, SKILL.md, ClawHub, and documentation links.",
-    "ogHomeTitle": "Plunget — Curated AI category hubs & tool guides"
+    "ogHomeTitle": "Plunget — Curated AI category hubs & tool guides",
+    "mcpTitle": "MCP server directory (Model Context Protocol)",
+    "mcpDescription": "Curated 30+ MCP servers: official references plus major vendor and community implementations—filesystem, Git/GitHub, databases, cloud ops, search, browser, and payments—ready for Claude, Cursor, and Zed users."
+  },
+  "mcpPage": {
+    "eyebrow": "Model Context Protocol",
+    "title": "MCP server directory",
+    "introBeforeSpecLink": "The Model Context Protocol (MCP) was proposed by Anthropic—see the spec at ",
+    "introAfterSpecLink": " and the reference servers in ",
+    "introAfterRefRepo": ". This page collects common MCP servers: ",
+    "introStrong": "official reference and major vendor-published implementations",
+    "introEnd": ", ready to plug into Claude, Cursor, Zed, and other MCP clients.",
+    "filterAll": "All",
+    "filterOfficial": "Official",
+    "filterCommunity": "Community",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Name, description, vendor, or tags",
+    "count": "{count} items",
+    "filterApplied": "Filter active",
+    "badgeOfficial": "Official",
+    "badgeCommunity": "Community",
+    "empty": "No results match your filters."
+  },
+  "mcpServerPage": {
+    "breadcrumb": "MCP servers",
+    "badgeOfficial": "Officially published",
+    "badgeCommunity": "Community / sample",
+    "featured": "Featured",
+    "transport": "Transport: {transport}",
+    "vendorBy": "Published by {vendor}",
+    "viewUpstream": "View upstream",
+    "opensNewWindow": "Opens in a new tab",
+    "installTitle": "Install & run",
+    "installHint": "Commands are indicative—see the upstream docs for env vars, scopes, and client configuration.",
+    "notesTitle": "Notes",
+    "noteOfficial1": "This entry ships from ",
+    "noteOfficial2": " or the modelcontextprotocol/servers reference set. Verify version, least-privilege tokens, and audit before production.",
+    "noteCommunity": "Community or sample implementation—great for learning and quick validation. Review maintenance, dependencies, and data policies before production.",
+    "upstreamFallback": "the upstream team",
+    "ogSuffix": "MCP Server"
   }
 }

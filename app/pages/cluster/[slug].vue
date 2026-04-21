@@ -24,7 +24,7 @@
       </div>
     </header>
 
-    <section>
+    <section v-if="cluster.tools.length">
       <h2 class="text-sm font-semibold uppercase tracking-widest text-zinc-500">{{ t('clusterPage.toolListTitle') }}</h2>
       <ul class="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
         <li v-for="tool in cluster.tools" :key="tool.slug">
@@ -40,9 +40,46 @@
           </NuxtLink>
         </li>
       </ul>
-      <p v-if="cluster.tools.length === 0" class="mt-6 text-sm text-zinc-500">{{ t('clusterPage.emptyTools') }}</p>
-      <p v-else-if="cluster.tools.length < cluster.toolCount" class="mt-6 text-sm text-zinc-600">{{ t('clusterPage.missingToolsHint') }}</p>
     </section>
+
+    <section v-if="cluster.mcpServers && cluster.mcpServers.length">
+      <h2 class="text-sm font-semibold uppercase tracking-widest text-zinc-500">{{ t('clusterPage.mcpListTitle') }}</h2>
+      <p class="mt-3 max-w-3xl text-sm leading-relaxed text-zinc-500">{{ t('clusterPage.mcpListHint') }}</p>
+      <ul class="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+        <li v-for="s in cluster.mcpServers" :key="s.slug">
+          <NuxtLink
+            :to="localePath(`/mcp/${s.slug}`)"
+            class="glass-card group flex h-full flex-col p-5 transition hover:border-violet-500/15"
+          >
+            <div class="flex items-start justify-between gap-2">
+              <div class="font-medium text-white group-hover:text-violet-100">{{ s.name }}</div>
+              <span
+                class="shrink-0 rounded-md px-1.5 py-0.5 text-[10px] font-medium"
+                :class="s.official ? 'bg-emerald-500/15 text-emerald-300' : 'bg-amber-500/15 text-amber-200'"
+              >
+                {{ s.official ? t('clusterPage.mcpBadgeOfficial') : t('clusterPage.mcpBadgeCommunity') }}
+              </span>
+            </div>
+            <p class="mt-2 line-clamp-3 text-sm leading-relaxed text-zinc-500">{{ s.description }}</p>
+            <div class="mt-4 flex flex-wrap gap-2 border-t border-white/[0.05] pt-4">
+              <span class="pill text-[11px]">{{ s.category }}</span>
+              <span v-if="s.transport" class="rounded bg-sky-500/10 px-1.5 py-0.5 text-[10px] text-sky-300">{{ s.transport }}</span>
+              <span v-if="s.vendor" class="rounded bg-white/[0.04] px-1.5 py-0.5 text-[10px] text-zinc-500">{{ s.vendor }}</span>
+            </div>
+          </NuxtLink>
+        </li>
+      </ul>
+    </section>
+
+    <p v-if="cluster.tools.length === 0 && (!cluster.mcpServers || cluster.mcpServers.length === 0)" class="text-sm text-zinc-500">
+      {{ t('clusterPage.emptyTools') }}
+    </p>
+    <p
+      v-else-if="cluster.tools.length + (cluster.mcpServers?.length ?? 0) < cluster.toolCount"
+      class="text-sm text-zinc-600"
+    >
+      {{ t('clusterPage.missingToolsHint') }}
+    </p>
   </div>
 </template>
 
@@ -75,12 +112,20 @@ const showOpenClawCta = computed(() => cluster.value.slug === 'openclaw-workspac
 const canonical = computed(() => `${siteOrigin.value}${localePath(`/cluster/${cluster.value.slug}`)}`)
 
 const jsonLd = computed(() => {
-  const items = cluster.value.tools.map((tool, i) => ({
+  const toolItems = cluster.value.tools.map((tool, i) => ({
     '@type': 'ListItem',
     position: i + 1,
     name: tool.name,
     url: `${siteOrigin.value}${localePath(`/nav/${tool.slug}`)}`,
   }))
+  const mcpOffset = toolItems.length
+  const mcpItems = (cluster.value.mcpServers ?? []).map((m, i) => ({
+    '@type': 'ListItem',
+    position: mcpOffset + i + 1,
+    name: m.name,
+    url: `${siteOrigin.value}${localePath(`/mcp/${m.slug}`)}`,
+  }))
+  const items = [...toolItems, ...mcpItems]
   return {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',

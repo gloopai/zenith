@@ -388,5 +388,140 @@
   },
   "granola": {
     "description": "會議筆記產品，常結合行事曆與轉寫流程，把通話變成可搜尋摘要——全公司推廣前請確認保存期限、模型訓練與企業管控選項。"
+  },
+  "langsmith": {
+    "description": "LangChain 團隊的 LLM 評測與 trace 平台——資料集、評分器、線上監控與人工標註，與 LangChain/LangGraph 整合最深。"
+  },
+  "langfuse": {
+    "description": "開源 LLM 可觀測與評測平台：trace、資料集、評分器與提示管理；可 Docker 自部署，把資料留在內網。"
+  },
+  "braintrust": {
+    "description": "Braintrust：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "arize-phoenix": {
+    "description": "Arize Phoenix：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "helicone": {
+    "description": "Helicone：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "galileo-ai": {
+    "description": "Galileo：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "patronus-ai": {
+    "description": "Patronus AI：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "pinecone": {
+    "description": "託管型向量資料庫，提供 Serverless 方案與命名空間；RAG 上線快，規模變大時再與 Qdrant／Milvus 自部署比較成本。"
+  },
+  "weaviate": {
+    "description": "Weaviate：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "qdrant": {
+    "description": "Rust 打造的開源向量資料庫，附雲端與企業版；payload 過濾、混合搜索與量化壓縮兼顧記憶體與吞吐。"
+  },
+  "chroma": {
+    "description": "Chroma：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "milvus": {
+    "description": "Milvus / Zilliz：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "lancedb": {
+    "description": "LanceDB：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "turbopuffer": {
+    "description": "Turbopuffer：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "cerebras": {
+    "description": "Cerebras 晶圓級推論服務，對主流開源 LLM 宣稱極速 token 吞吐；延遲敏感互動型應用首選，模型清單以官網為準。"
+  },
+  "sambanova": {
+    "description": "SambaNova Cloud：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "baseten": {
+    "description": "Baseten：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "modal": {
+    "description": "Modal：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "litellm": {
+    "description": "開源 LLM 聚合代理：以單一 OpenAI 相容 API 接上百家供應商，支援路由、預算、fallback 與日誌，不必重造基礎設施。"
+  },
+  "fireflies-ai": {
+    "description": "自動入會的會議機器人：轉寫與行動項同步到 HubSpot／Salesforce／Slack，適合銷售與客服；推廣前確認錄音同意與保存策略。"
+  },
+  "fathom": {
+    "description": "Fathom：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "read-ai": {
+    "description": "Read.AI：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "tldv": {
+    "description": "tl;dv：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "limitless": {
+    "description": "Limitless：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "plaud": {
+    "description": "Plaud：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "notta": {
+    "description": "Notta：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "tempo-ai": {
+    "description": "Tempo：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "subframe": {
+    "description": "Subframe：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "figma-make": {
+    "description": "Figma Make：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "relume": {
+    "description": "Relume：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "onlook": {
+    "description": "Onlook：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "browser-use": {
+    "description": "開源瀏覽器代理框架，以結構化 DOM 操作網頁；面向想自部署、要控制權的開發者，可替代 Operator／Computer Use。"
+  },
+  "skyvern": {
+    "description": "Skyvern：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "multion": {
+    "description": "MultiOn：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "anthropic-computer-use": {
+    "description": "Anthropic 讓 Claude 看螢幕並以 API 操作電腦的能力；生產建議搭配沙盒 VM、最小權限憑證與關鍵動作人工確認。"
+  },
+  "openai-operator": {
+    "description": "OpenAI 雲端瀏覽器代理（隨版本併入 ChatGPT Agent），在遠端瀏覽器替你操作網站；產品名稱與地區以官網為準。"
+  },
+  "reworkd": {
+    "description": "Reworkd：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "vapi": {
+    "description": "開發者優先的語音代理平台，可自選 STT／LLM／TTS 與租用號碼；以分鐘計費，適合呼入／外呼與預約機器人。"
+  },
+  "retell-ai": {
+    "description": "強調低延遲與自然打斷的語音代理平台，可視化編排 + 號碼租用，面向呼入／外呼流程。"
+  },
+  "bland-ai": {
+    "description": "Bland AI：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "livekit-agents": {
+    "description": "LiveKit Agents：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "cartesia": {
+    "description": "低延遲 TTS（Sonic 系列），支援流式 API 與自訂聲音；語音代理與音訊產品追求「自然感」的常見選擇。"
+  },
+  "hume-ai": {
+    "description": "Hume AI：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "deepgram": {
+    "description": "Deepgram：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
+  },
+  "pipecat": {
+    "description": "Pipecat：常見的 AI 產品——功能、價格、支援地區、資料處理與最新模型，請以官網說明為準。"
   }
 }

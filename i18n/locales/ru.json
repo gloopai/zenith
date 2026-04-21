@@ -10,7 +10,8 @@
     "menu": "Меню",
     "footerDescription": "Отобранные AI‑инструменты и отраслевые новости в одном месте.",
     "sitemap": "Карта сайта",
-    "language": "Язык"
+    "language": "Язык",
+    "mcp": "MCP"
   },
   "home": {
     "eyebrow": "Plunget",
@@ -34,7 +35,13 @@
     "scenarioClustersHint": "Списки под популярные запросы с внутренними ссылками на карточки инструментов.",
     "allClusters": "Все подборки",
     "categoryHubTitle": "Категории",
-    "categoryHubHint": "Хабы с Q&A, списками инструментов и ссылками на официальные сайты."
+    "categoryHubHint": "Хабы с Q&A, списками инструментов и ссылками на официальные сайты.",
+    "mcpServers": "MCP-серверы",
+    "mcpSectionTitle": "Подборка MCP-серверов",
+    "mcpSectionHint": "MCP-серверы, готовые к подключению из Claude, Cursor и Zed—официальные референсы и реализации от крупных вендоров с командами установки и транспортом.",
+    "allMcpServers": "Все MCP-серверы",
+    "mcpOfficial": "Официально",
+    "mcpCommunity": "Сообщество"
   },
   "clusterPage": {
     "eyebrow": "Тематические хабы",
@@ -46,7 +53,11 @@
     "toolCount": "{count} позиций",
     "missingToolsHint": "Каталог мог измениться — часть slug не отобразится.",
     "emptyTools": "Сейчас нет доступных инструментов для подборки.",
-    "notFound": "Подборка не найдена"
+    "notFound": "Подборка не найдена",
+    "mcpListTitle": "Связанные MCP-серверы",
+    "mcpListHint": "Подключите в Claude, Cursor или Zed (любом MCP-клиенте), чтобы дать агенту доступ к внешним инструментам, данным и средам выполнения.",
+    "mcpBadgeOfficial": "Официально",
+    "mcpBadgeCommunity": "Сообщество"
   },
   "navPage": {
     "eyebrow": "Каталог",
@@ -139,7 +150,8 @@
   "errors": {
     "toolNotFound": "Инструмент не найден",
     "articleNotFound": "Статья не найдена",
-    "skillNotFound": "Навык не найден"
+    "skillNotFound": "Навык не найден",
+    "mcpServerNotFound": "MCP-сервер не найден"
   },
   "seo": {
     "siteDescription": "Курируемый каталог AI‑инструментов, практические гайды и справочник навыков OpenClaw / AgentSkills: чаты, код, медиа и агенты в одном месте.",
@@ -151,6 +163,45 @@
     "newsDescription": "Практичные материалы: выбор моделей, приватность, мультимодальность, локальные LLM, OpenClaw и агенты — анонс и полный текст.",
     "openclawTitle": "Справочник навыков OpenClaw (AgentSkills)",
     "openclawDescription": "Официальные навыки из репозитория и типичные пользовательские имена: CLI/API, SKILL.md, ClawHub и ссылки на документацию.",
-    "ogHomeTitle": "Plunget — каталог AI и навыки OpenClaw"
+    "ogHomeTitle": "Plunget — каталог AI и навыки OpenClaw",
+    "mcpTitle": "Каталог MCP-серверов (Model Context Protocol)",
+    "mcpDescription": "Подборка 30+ MCP-серверов: официальные референсы, публикации крупных вендоров и решения сообщества — файлы, Git/GitHub, БД, облако, поиск, браузер, платежи — для Claude, Cursor и Zed."
+  },
+  "mcpPage": {
+    "eyebrow": "Model Context Protocol",
+    "title": "Каталог MCP-серверов",
+    "introBeforeSpecLink": "Model Context Protocol (MCP) — стандарт от Anthropic. Спецификация: ",
+    "introAfterSpecLink": ", эталонные реализации собраны в ",
+    "introAfterRefRepo": ", директория servers. Здесь мы собрали популярные MCP-серверы — ",
+    "introStrong": "официальные референсы и публикации ведущих вендоров",
+    "introEnd": " — готовые к подключению из Claude, Cursor, Zed и других MCP-клиентов.",
+    "filterAll": "Все",
+    "filterOfficial": "Официальные",
+    "filterCommunity": "Сообщество",
+    "searchLabel": "Поиск",
+    "searchPlaceholder": "Имя, описание, вендор или теги",
+    "count": "Всего: {count}",
+    "filterApplied": "Фильтр активен",
+    "badgeOfficial": "Официально",
+    "badgeCommunity": "Сообщество",
+    "empty": "Ничего не найдено под эти фильтры."
+  },
+  "mcpServerPage": {
+    "breadcrumb": "MCP-серверы",
+    "badgeOfficial": "Официальная публикация",
+    "badgeCommunity": "Сообщество / пример",
+    "featured": "Рекомендуем",
+    "transport": "Транспорт: {transport}",
+    "vendorBy": "Публикует: {vendor}",
+    "viewUpstream": "Перейти в upstream",
+    "opensNewWindow": "Открывается в новой вкладке",
+    "installTitle": "Установка и запуск",
+    "installHint": "Команды ориентировочны — переменные окружения, права и настройки клиента уточняйте в upstream-документации.",
+    "notesTitle": "Примечание",
+    "noteOfficial1": "Поставляется командой ",
+    "noteOfficial2": " или из эталонного набора modelcontextprotocol/servers. Перед продом проверьте версию, минимальные токены и аудит.",
+    "noteCommunity": "Реализация от сообщества или пример — отлично для обучения и быстрой проверки. Перед продом оцените сопровождение, зависимости и политику данных.",
+    "upstreamFallback": "команда upstream",
+    "ogSuffix": "MCP Server"
   }
 }

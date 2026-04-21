@@ -1,0 +1,92 @@
+{
+  "filesystem": {
+    "description": "संदर्भ MCP सर्वर: अनुमति-सूचीबद्ध डायरेक्टरी में फ़ाइल पढ़ना/लिखना/सूची बनाना। संवेदनशील डेटा के लिए न्यूनतम अधिकार व केवल-पढ़ने का मोड उपयोग करें।"
+  },
+  "git": {
+    "description": "संदर्भ MCP सर्वर: git के सामान्य ऑपरेशन (status/log/diff/blame) एजेंट को उपलब्ध कराता है। पढ़ने-मात्र कोड रिव्यूअर्स के लिए बढ़िया शुरुआत; लेखन अनुमति सोच-समझकर।"
+  },
+  "github": {
+    "description": "GitHub का आधिकारिक MCP सर्वर: रिपॉज़िटरी R/W, Issue/PR प्रबंधन, कोड खोज। प्रोडक्शन में सीमित PAT या GitHub App + ऑडिट लॉग का उपयोग करें।"
+  },
+  "gitlab": {
+    "description": "GitLab: Model Context Protocol का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "postgres": {
+    "description": "संदर्भ MCP सर्वर: केवल-पढ़ने की कनेक्शन से PostgreSQL क्वेरी व schema खोज—एनालिटिक्स एजेंट के लिए बढ़िया। Read-only रोल + schema allow-list ज़रूर लगाएँ।"
+  },
+  "sqlite": {
+    "description": "SQLite: Model Context Protocol का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "memory": {
+    "description": "Memory: Model Context Protocol का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "fetch": {
+    "description": "संदर्भ MCP सर्वर: किसी भी HTTP URL को लाकर Markdown में बदलता है—एजेंट की न्यूनतम \"ब्राउज़िंग\" क्षमता। डोमेन अनुमति-सूची व दर सीमा लगाएँ।"
+  },
+  "puppeteer": {
+    "description": "Puppeteer: Model Context Protocol का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "playwright-mcp": {
+    "description": "Microsoft का Playwright MCP सर्वर: Chromium/Firefox/WebKit क्रॉस-ब्राउज़र ऑटोमेशन—स्क्रैपर व UI-टेस्ट एजेंट के लिए।"
+  },
+  "time": {
+    "description": "Time: Model Context Protocol का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "sequential-thinking": {
+    "description": "Sequential Thinking: Model Context Protocol का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "brave-search": {
+    "description": "Brave Search: Model Context Protocol का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "google-drive": {
+    "description": "Google Drive: Model Context Protocol का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "google-maps": {
+    "description": "Google Maps: Model Context Protocol का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "slack": {
+    "description": "संदर्भ MCP सर्वर: Slack संदेश R/W व इतिहास खोज—Slack को एजेंट का कम्युनिकेशन लेयर बनाता है। न्यूनतम scope वाला Bot Token ही उपयोग करें।"
+  },
+  "sentry": {
+    "description": "Sentry: Model Context Protocol का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "cloudflare-mcp": {
+    "description": "Cloudflare का आधिकारिक MCP सेट: Workers, KV, D1, R2, Pages, DNS—HTTP Remote MCP सपोर्ट, बिना लोकल बाइनरी Claude/Cursor से जोड़ें।"
+  },
+  "stripe-mcp": {
+    "description": "Stripe का आधिकारिक MCP सर्वर: accounts/orders/refunds/products API टूल के रूप में—कॉमर्स एजेंट के लिए काम का। प्रोडक्शन में test/restricted की सीमा रखें।"
+  },
+  "linear-mcp": {
+    "description": "Linear का आधिकारिक MCP सर्वर: Issue/Project/Cycle बनाना व क्वेरी—इंजीनियरिंग/प्रोडक्ट एजेंट के लिए हल्का टास्क पाइपलाइन। API Key या OAuth से ऑथ।"
+  },
+  "notion-mcp": {
+    "description": "Notion का आधिकारिक MCP सर्वर: पेज व डेटाबेस आइटम R/W—आवश्यकताएँ, वीकली व नॉलेज बेस को एजेंट से जोड़ने में बढ़िया। वर्कस्पेस स्तर पर ऑथ।"
+  },
+  "atlassian-mcp": {
+    "description": "Atlassian Remote MCP: Atlassian का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "supabase-mcp": {
+    "description": "Supabase का आधिकारिक MCP सर्वर: DB, Storage, Auth संचालन—Supabase प्रोजेक्ट को AI IDE व ops एजेंट से जोड़ने के लिए बढ़िया।"
+  },
+  "neon-mcp": {
+    "description": "Neon: Neon का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "mongodb-mcp": {
+    "description": "MongoDB: MongoDB का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "exa-mcp": {
+    "description": "Exa: Exa का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "tavily-mcp": {
+    "description": "Tavily MCP सर्वर: एजेंट-केंद्रित सर्च API को MCP टूल के रूप में—किसी भी MCP क्लाइंट को API Key से \"वेब सर्च\" क्षमता देना आसान।"
+  },
+  "firecrawl-mcp": {
+    "description": "Firecrawl: Mendable / Firecrawl का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "e2b-mcp": {
+    "description": "E2B Code Interpreter: E2B का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  },
+  "apify-mcp": {
+    "description": "Apify Actors: Apify का आधिकारिक MCP सर्वर—प्रोडक्शन से पहले अपस्ट्रीम दस्तावेज़ों में वर्ज़न, स्कोप व ट्रांसपोर्ट जाँचें।"
+  }
+}

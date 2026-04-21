@@ -10,7 +10,8 @@
     "menu": "選單",
     "footerDescription": "精選 AI 工具與產業資訊，一站瀏覽。",
     "sitemap": "網站地圖",
-    "language": "語言"
+    "language": "語言",
+    "mcp": "MCP"
   },
   "home": {
     "eyebrow": "Plunget",
@@ -34,7 +35,13 @@
     "scenarioClustersHint": "依常見搜尋意圖整理的工具清單，並連回各工具詳情頁，利於長尾主題聚合。",
     "allClusters": "查看全部合集",
     "categoryHubTitle": "依分類瀏覽（主題落地頁）",
-    "categoryHubHint": "各分類含導讀、常見問答與工具清單；內鏈到詳情與官網，方便比較與探索。"
+    "categoryHubHint": "各分類含導讀、常見問答與工具清單；內鏈到詳情與官網，方便比較與探索。",
+    "mcpServers": "MCP 伺服器",
+    "mcpSectionTitle": "MCP 伺服器精選",
+    "mcpSectionHint": "可直接接入 Claude / Cursor / Zed 的 Model Context Protocol 伺服器：官方參考與主流廠商發布，附安裝指令與傳輸方式。",
+    "allMcpServers": "全部 MCP 伺服器",
+    "mcpOfficial": "官方",
+    "mcpCommunity": "社群"
   },
   "clusterPage": {
     "eyebrow": "主題聚合",
@@ -46,7 +53,11 @@
     "toolCount": "{count} 個條目",
     "missingToolsHint": "目錄可能已調整，部分 slug 若下架將不會顯示。",
     "emptyTools": "目前無法解析到可用工具。",
-    "notFound": "找不到此合集"
+    "notFound": "找不到此合集",
+    "mcpListTitle": "本合集相關 MCP 伺服器",
+    "mcpListHint": "於 Claude / Cursor / Zed 等 MCP 客戶端設定後即可直接使用，為代理接上外部工具、資料或執行環境。",
+    "mcpBadgeOfficial": "官方",
+    "mcpBadgeCommunity": "社群"
   },
   "navPage": {
     "eyebrow": "目錄",
@@ -139,7 +150,8 @@
   "errors": {
     "toolNotFound": "找不到該工具",
     "articleNotFound": "找不到該文章",
-    "skillNotFound": "找不到該技能"
+    "skillNotFound": "找不到該技能",
+    "mcpServerNotFound": "找不到該 MCP 伺服器"
   },
   "seo": {
     "siteDescription": "AI 工具導覽與實務導讀：整理對話、程式、影像影音、自動化等類別，並提供 OpenClaw / AgentSkills 技能索引與文件連結。",
@@ -151,6 +163,45 @@
     "newsDescription": "偏實務的 AI 文章：模型選擇、隱私習慣、多模態流程、本機與雲端語言模型、OpenClaw 與代理技能等，附摘要與全文。",
     "openclawTitle": "OpenClaw 技能目錄（AgentSkills）",
     "openclawDescription": "整理 OpenClaw 官方倉庫技能與常見自訂示例命名，涵蓋 CLI/API 整合、SKILL.md 結構、ClawHub 與官方文件入口。",
-    "ogHomeTitle": "Plunget — AI 工具導覽與 OpenClaw 技能"
+    "ogHomeTitle": "Plunget — AI 工具導覽與 OpenClaw 技能",
+    "mcpTitle": "MCP 伺服器目錄（Model Context Protocol）",
+    "mcpDescription": "嚴選 30+ MCP 伺服器：官方參考、主流廠商發布與社群常見實作，涵蓋檔案、Git/GitHub、資料庫、雲端維運、搜尋、瀏覽器與支付，服務 Claude/Cursor/Zed 等 MCP 用戶。"
+  },
+  "mcpPage": {
+    "eyebrow": "Model Context Protocol",
+    "title": "MCP 伺服器目錄",
+    "introBeforeSpecLink": "Model Context Protocol（MCP）由 Anthropic 提出，規範見 ",
+    "introAfterSpecLink": "，官方參考實作集中在 ",
+    "introAfterRefRepo": " 的 servers 目錄。本頁收錄常見的 MCP 伺服器：",
+    "introStrong": "官方參考與主流廠商發布",
+    "introEnd": "，便於在 Claude、Cursor、Zed 等客戶端中為代理接上外部工具與資料來源。",
+    "filterAll": "全部",
+    "filterOfficial": "官方發布",
+    "filterCommunity": "社群 / 範例",
+    "searchLabel": "搜尋",
+    "searchPlaceholder": "名稱、描述、廠商或標籤",
+    "count": "共 {count} 條",
+    "filterApplied": "篩選已套用",
+    "badgeOfficial": "官方",
+    "badgeCommunity": "社群",
+    "empty": "沒有符合篩選的結果。"
+  },
+  "mcpServerPage": {
+    "breadcrumb": "MCP 伺服器",
+    "badgeOfficial": "官方發布",
+    "badgeCommunity": "社群 / 範例",
+    "featured": "精選",
+    "transport": "傳輸：{transport}",
+    "vendorBy": "發布方：{vendor}",
+    "viewUpstream": "前往來源倉庫",
+    "opensNewWindow": "新視窗開啟",
+    "installTitle": "安裝與啟動",
+    "installHint": "以上指令僅供參考；環境變數、權限範圍與客戶端設定請以上游文件為準。",
+    "notesTitle": "說明",
+    "noteOfficial1": "本條由 ",
+    "noteOfficial2": " 官方或 modelcontextprotocol/servers 參考實作提供；上生產前請確認版本、最小權限權杖與稽核策略。",
+    "noteCommunity": "本條為社群或範例實作，適合學習與快速驗證；上生產前請評估維護狀態、相依鏈與資料合規。",
+    "upstreamFallback": "上游團隊",
+    "ogSuffix": "MCP Server"
   }
 }

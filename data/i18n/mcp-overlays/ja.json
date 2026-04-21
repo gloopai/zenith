@@ -1,0 +1,92 @@
+{
+  "filesystem": {
+    "description": "公式リファレンス MCP サーバー。許可したディレクトリ配下でファイル読み書き・一覧・作成・移動を可能にします。機微データには最小権限パスと読み取り専用モードを。"
+  },
+  "git": {
+    "description": "公式 MCP サーバー：status / log / diff / blame など git の主要操作をエージェントに公開。読み取り専用のコードレビュー起点として最適。書き込みは慎重に許可を。"
+  },
+  "github": {
+    "description": "GitHub 公式 MCP サーバー。リポジトリの読み書き、Issue/PR 管理、コード検索。本番はスコープ限定 PAT か GitHub App＋監査ログを。"
+  },
+  "gitlab": {
+    "description": "GitLab：Model Context Protocol の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "postgres": {
+    "description": "公式 MCP サーバー：読み取り専用接続で PostgreSQL にクエリ・スキーマ探索を実行。分析系エージェント向け。読み取り専用ロールとスキーマ許可リストで運用を。"
+  },
+  "sqlite": {
+    "description": "SQLite：Model Context Protocol の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "memory": {
+    "description": "Memory：Model Context Protocol の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "fetch": {
+    "description": "公式 MCP サーバー：任意の HTTP URL を取得して Markdown に変換—エージェントの最小限「ブラウジング」能力として定番。ドメイン許可リストとレート制限を。"
+  },
+  "puppeteer": {
+    "description": "Puppeteer：Model Context Protocol の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "playwright-mcp": {
+    "description": "Microsoft 製 Playwright MCP サーバー。Chromium / Firefox / WebKit のクロスブラウザ自動化でスクレイパーや UI テストエージェント向き。"
+  },
+  "time": {
+    "description": "Time：Model Context Protocol の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "sequential-thinking": {
+    "description": "Sequential Thinking：Model Context Protocol の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "brave-search": {
+    "description": "Brave Search：Model Context Protocol の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "google-drive": {
+    "description": "Google Drive：Model Context Protocol の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "google-maps": {
+    "description": "Google Maps：Model Context Protocol の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "slack": {
+    "description": "公式 MCP サーバー：Slack のメッセージ送受信と履歴検索 — Slack をエージェントの通信層に。Bot Token は最小スコープで運用。"
+  },
+  "sentry": {
+    "description": "Sentry：Model Context Protocol の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "cloudflare-mcp": {
+    "description": "Cloudflare 公式 MCP スイート。Workers / KV / D1 / R2 / Pages / DNS を網羅し、HTTP 版 Remote MCP に対応—ローカル実行ファイル不要で Claude / Cursor に接続。"
+  },
+  "stripe-mcp": {
+    "description": "Stripe 公式 MCP サーバー。アカウント・注文・返金・商品などの API をツールとして公開—商取引エージェントに便利。本番はテスト / 制限付きキーに限定を。"
+  },
+  "linear-mcp": {
+    "description": "Linear 公式 MCP サーバー。Issue / Project / Cycle の作成・照会—エンジニア／プロダクトエージェントの軽量タスク基盤。個人 API Key か OAuth で認可。"
+  },
+  "notion-mcp": {
+    "description": "Notion 公式 MCP サーバー。ページとデータベース項目の R/W—要件書・週報・ナレッジベースをエージェントに接続するのに最適。ワークスペース単位で認可。"
+  },
+  "atlassian-mcp": {
+    "description": "Atlassian Remote MCP：Atlassian の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "supabase-mcp": {
+    "description": "Supabase 公式 MCP サーバー。DB / Storage / Auth の主要操作をカバー—Supabase プロジェクトを AI IDE や運用エージェントに接続。"
+  },
+  "neon-mcp": {
+    "description": "Neon：Neon の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "mongodb-mcp": {
+    "description": "MongoDB：MongoDB の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "exa-mcp": {
+    "description": "Exa：Exa の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "tavily-mcp": {
+    "description": "Tavily MCP サーバー。エージェント向け検索 API を MCP ツールとして公開—任意の MCP クライアントに「ウェブ検索可」能力を付与（API Key で制御）。"
+  },
+  "firecrawl-mcp": {
+    "description": "Firecrawl：Mendable / Firecrawl の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "e2b-mcp": {
+    "description": "E2B Code Interpreter：E2B の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  },
+  "apify-mcp": {
+    "description": "Apify Actors：Apify の公式 MCP サーバー。本番投入前にバージョン・権限スコープ・トランスポートを上流ドキュメントで確認してください。"
+  }
+}

@@ -2,8 +2,19 @@
   "clusters": [
     {
       "slug": "coding-agents-2026",
-      "updatedAt": "2026-04-05",
-      "toolSlugs": ["cursor", "windsurf", "devin", "cline", "aider", "github-copilot", "sourcegraph-cody", "amazon-q", "replit", "bolt-new"],
+      "updatedAt": "2026-04-21",
+      "toolSlugs": [
+        "cursor",
+        "windsurf",
+        "devin",
+        "cline",
+        "aider",
+        "github-copilot",
+        "sourcegraph-cody",
+        "amazon-q",
+        "replit",
+        "bolt-new"
+      ],
       "locales": {
         "en": {
           "title": "2026 coding agents & AI-native IDEs — compared by role",
@@ -45,12 +56,27 @@
           "description": "Cursor, Windsurf, Devin, Copilot, Cline/Aider: resumen neutral y enlace al sitio oficial en cada ficha.",
           "intro": "Agrupa lo que la gente busca como «AI IDE» o «coding agent»: asistentes en el editor y flujos hacia PR. No es un ranking; precios y privacidad deben confirmarse en cada proveedor."
         }
-      }
+      },
+      "mcpServerSlugs": [
+        "github",
+        "git",
+        "filesystem",
+        "postgres",
+        "e2b-mcp"
+      ]
     },
     {
       "slug": "chinese-ai-writing-chat",
       "updatedAt": "2026-04-05",
-      "toolSlugs": ["kimi", "tongyi-qianwen", "ernie-bot", "doubao", "chatgpt", "deepseek", "jasper"],
+      "toolSlugs": [
+        "kimi",
+        "tongyi-qianwen",
+        "ernie-bot",
+        "doubao",
+        "chatgpt",
+        "deepseek",
+        "jasper"
+      ],
       "locales": {
         "en": {
           "title": "Chinese-friendly AI writing & chat assistants — compare before you commit",
@@ -81,7 +107,7 @@
           "title": "Китайские и китаецельные AI‑чаты для текста",
           "description": "Kimi, Tongyi, Ernie, Doubao и универсальные помощники; официальные сайты — источник правды по регионам.",
           "intro": "Подборка под китайский контент и «домашние» модели плюс глобальные сервисы с хорошей китайской поддержкой."
-       },
+        },
         "hi": {
           "title": "चीनी भाषा के लिए लेखन व चैट AI सहायक",
           "description": "Kimi, Tongyi, Ernie, Doubao और सामान्य सहायक—क्षेत्र व नियम आधिकारिक साइट पर।",
@@ -96,8 +122,15 @@
     },
     {
       "slug": "openclaw-workspace-automation",
-      "updatedAt": "2026-04-05",
-      "toolSlugs": ["notion", "obsidian", "n8n", "zapier", "cursor", "replit"],
+      "updatedAt": "2026-04-21",
+      "toolSlugs": [
+        "notion",
+        "obsidian",
+        "n8n",
+        "zapier",
+        "cursor",
+        "replit"
+      ],
       "locales": {
         "en": {
           "title": "OpenClaw & your stack — knowledge bases, automation, dev workspaces",
@@ -139,12 +172,27 @@
           "description": "Notion/Obsidian, n8n/Zapier, entornos de dev que suelen evaluarse con AgentSkills. Índice en /openclaw.",
           "intro": "OpenClaw enlaza CLI/API vía SKILL.md. Esta lista es contextual; la seguridad está en la documentación oficial."
         }
-      }
+      },
+      "mcpServerSlugs": [
+        "filesystem",
+        "notion-mcp",
+        "slack",
+        "linear-mcp",
+        "github"
+      ]
     },
     {
       "slug": "generative-image-video-audio",
       "updatedAt": "2026-04-05",
-      "toolSlugs": ["midjourney", "runway", "pika", "luma-dream-machine", "suno", "heygen", "elevenlabs"],
+      "toolSlugs": [
+        "midjourney",
+        "runway",
+        "pika",
+        "luma-dream-machine",
+        "suno",
+        "heygen",
+        "elevenlabs"
+      ],
       "locales": {
         "en": {
           "title": "Generative image, video & audio — creative stacks in one view",
@@ -191,7 +239,14 @@
     {
       "slug": "flagship-chat-llm-compare",
       "updatedAt": "2026-04-05",
-      "toolSlugs": ["chatgpt", "claude", "google-gemini", "deepseek", "perplexity", "microsoft-copilot"],
+      "toolSlugs": [
+        "chatgpt",
+        "claude",
+        "google-gemini",
+        "deepseek",
+        "perplexity",
+        "microsoft-copilot"
+      ],
       "locales": {
         "en": {
           "title": "Flagship chat LLMs — ChatGPT, Claude, Gemini & peers",
@@ -232,6 +287,533 @@
           "title": "LLM de chat principales — ChatGPT, Claude, Gemini…",
           "description": "Lista corta para orientarse; modelos y precios en cada sitio oficial.",
           "intro": "Punto de partida neutral; no sustituye pruebas propias ni informes de compliance."
+        }
+      }
+    },
+    {
+      "slug": "llm-observability-evals",
+      "updatedAt": "2026-04-21",
+      "toolSlugs": [
+        "langsmith",
+        "langfuse",
+        "braintrust",
+        "arize-phoenix",
+        "helicone",
+        "galileo-ai",
+        "patronus-ai",
+        "wandb"
+      ],
+      "locales": {
+        "en": {
+          "title": "LLM evals & observability stack — ship changes with confidence",
+          "description": "LangSmith, Langfuse, Braintrust, Arize Phoenix, Helicone, Galileo, Patronus — where teams look when prompts become production systems.",
+          "intro": "This cluster groups the platforms people reach for once an LLM app stops being a toy: trace every call, replay failures, score with LLM-as-judge or human rubric, and watch cost and latency at P95.\n\nEach card opens a neutral blurb and a link to the vendor. Match depth of LangChain/LlamaIndex integration, self-host vs SaaS, and dataset-management model against your actual stack before committing."
+        },
+        "zh-CN": {
+          "title": "LLM 评测与可观测栈 — 把「提示工程」变成工程学科",
+          "description": "LangSmith、Langfuse、Braintrust、Arize Phoenix、Helicone、Galileo、Patronus：线上 trace、回归评测与成本延迟监控一网打尽。",
+          "intro": "当 LLM 应用从 demo 变成生产，团队会开始关心：每一次 prompt 变更是否不劣化 200 条回归？线上 P95 延迟和 token 成本是否被盯住？幻觉与 PII 泄露有没有人管？\n\n本合集汇聚的就是这一层的基础设施；每张卡片中立介绍 + 直达官网。选型时务必对比 LangChain / LlamaIndex 集成深度、自部署与 SaaS 的权衡，以及数据集管理范式，再决定主栈。"
+        },
+        "zh-TW": {
+          "title": "LLM 評測與可觀測棧 — 讓提示工程走向工程學科",
+          "description": "LangSmith、Langfuse、Braintrust、Arize Phoenix、Helicone、Galileo、Patronus 等：trace、評測與成本延遲監控。",
+          "intro": "LLM 應用從 demo 轉向正式產品後，回歸評測、線上 trace 與成本延遲監控才是關鍵；本合集整理此層常用產品。請以官方資料核對集成深度與資料政策。"
+        },
+        "ja": {
+          "title": "LLM 評価・可観測性スタック — 本番投入の確信を得るために",
+          "description": "LangSmith、Langfuse、Braintrust、Arize Phoenix、Helicone、Galileo、Patronus 等。",
+          "intro": "プロダクション運用に入ったLLMアプリで必要となる trace・回帰評価・コスト/遅延監視のプラットフォームを集めたクラスタ。製品選定は公式情報で確認してください。"
+        },
+        "ko": {
+          "title": "LLM 평가·관측성 스택 — 자신 있게 배포하기",
+          "description": "LangSmith, Langfuse, Braintrust, Arize Phoenix, Helicone, Galileo, Patronus 등.",
+          "intro": "LLM 앱이 장난이 아닌 제품이 되는 순간 필요한 trace·회귀 평가·비용/지연 모니터링 플랫폼 모음. 세부 사항은 각 공급사 공식 사이트에서 확인하세요."
+        },
+        "ru": {
+          "title": "Стек оценок и наблюдаемости LLM — уверенно катим изменения",
+          "description": "LangSmith, Langfuse, Braintrust, Arize Phoenix, Helicone, Galileo, Patronus и др.",
+          "intro": "Подборка платформ, к которым прибегают, когда LLM-приложение превращается в продакшн: trace, регрессионные оценки, мониторинг стоимости и задержек."
+        },
+        "hi": {
+          "title": "LLM मूल्यांकन व ऑब्ज़र्वेबिलिटी — आत्मविश्वास से रिलीज़",
+          "description": "LangSmith, Langfuse, Braintrust, Arize Phoenix, Helicone, Galileo, Patronus आदि.",
+          "intro": "LLM ऐप जब प्रयोग से आगे बढ़कर प्रोडक्शन बनते हैं, तब trace, रिग्रेशन eval व लागत/लेटेंसी मॉनिटरिंग आवश्यक हो जाती है—यह क्लस्टर उसी परत के प्लेटफ़ॉर्म को सूचीबद्ध करता है."
+        },
+        "es": {
+          "title": "Pila de evals y observabilidad LLM — desplegar con confianza",
+          "description": "LangSmith, Langfuse, Braintrust, Arize Phoenix, Helicone, Galileo, Patronus y más.",
+          "intro": "Colección de plataformas para cuando una app LLM se vuelve producción: trace, evaluaciones en regresión y monitoreo de coste y latencia."
+        }
+      },
+      "mcpServerSlugs": [
+        "postgres",
+        "sentry"
+      ]
+    },
+    {
+      "slug": "vector-databases-compare",
+      "updatedAt": "2026-04-21",
+      "toolSlugs": [
+        "pinecone",
+        "weaviate",
+        "qdrant",
+        "chroma",
+        "milvus",
+        "lancedb",
+        "turbopuffer",
+        "jina-ai"
+      ],
+      "locales": {
+        "en": {
+          "title": "Vector databases compared — pick the retrieval layer for your RAG",
+          "description": "Pinecone, Weaviate, Qdrant, Chroma, Milvus, LanceDB, Turbopuffer. Neutral blurbs and official links to compare throughput, filtering, and hosting shape.",
+          "intro": "Shortlist for queries like “best vector database 2026”, “Pinecone vs Qdrant”, or “self-hosted RAG”. Differences land on throughput, recall with filters, metadata model, multi-tenancy, and whether you run serverless or self-hosted.\n\nThis is a neutral launch pad—always confirm pricing, backups, and region hosting on each vendor’s docs before committing."
+        },
+        "zh-CN": {
+          "title": "向量数据库选型对比 — 为 RAG 挑一条顺手的检索底座",
+          "description": "Pinecone、Weaviate、Qdrant、Chroma、Milvus、LanceDB、Turbopuffer 速查：吞吐、过滤、托管形态一眼看完。",
+          "intro": "对应「向量数据库对比」「Pinecone vs Qdrant」「自建 RAG」等搜索意图。核心差异在吞吐、带过滤的召回质量、metadata 模型、多租户、Serverless 与自部署的取舍。\n\n本合集中立列出，便于作为选型起点；定价、备份与区域部署请在各自官网核对。"
+        },
+        "zh-TW": {
+          "title": "向量資料庫選型 — 為 RAG 挑基礎層",
+          "description": "Pinecone、Weaviate、Qdrant、Chroma、Milvus、LanceDB、Turbopuffer 等速查。",
+          "intro": "對應「vector database」「RAG 底層」等搜尋；以官方文件為準確認定價與區域部署。"
+        },
+        "ja": {
+          "title": "ベクトルDB比較 — RAGの検索層を選ぶ",
+          "description": "Pinecone、Weaviate、Qdrant、Chroma、Milvus、LanceDB、Turbopuffer など。",
+          "intro": "「ベクトルDB 選び方」等のクエリ向け比較ハブ。料金・バックアップ・リージョンは各公式で確認してください。"
+        },
+        "ko": {
+          "title": "벡터 DB 비교 — RAG 검색 계층 고르기",
+          "description": "Pinecone, Weaviate, Qdrant, Chroma, Milvus, LanceDB, Turbopuffer.",
+          "intro": "RAG 기반 선택을 위한 비교 허브; 가격과 지역 호스팅은 공식 문서 기준."
+        },
+        "ru": {
+          "title": "Сравнение векторных БД — выбираем слой поиска для RAG",
+          "description": "Pinecone, Weaviate, Qdrant, Chroma, Milvus, LanceDB, Turbopuffer.",
+          "intro": "Отправная точка для запросов «лучшая векторная БД» и «самохостинг RAG». Итог проверяйте на сайтах вендоров."
+        },
+        "hi": {
+          "title": "वेक्टर DB तुलना — RAG के लिए रिट्रीवल लेयर",
+          "description": "Pinecone, Weaviate, Qdrant, Chroma, Milvus, LanceDB, Turbopuffer.",
+          "intro": "RAG बेस चुनने के लिए तटस्थ हब; मूल्य/होस्टिंग आधिकारिक साइट पर पुष्टि करें."
+        },
+        "es": {
+          "title": "Bases vectoriales comparadas — capa de recuperación para RAG",
+          "description": "Pinecone, Weaviate, Qdrant, Chroma, Milvus, LanceDB, Turbopuffer.",
+          "intro": "Hub neutral para elegir base RAG; precios y hosting se confirman en cada proveedor."
+        }
+      }
+    },
+    {
+      "slug": "llm-inference-providers",
+      "updatedAt": "2026-04-21",
+      "toolSlugs": [
+        "groq",
+        "cerebras",
+        "sambanova",
+        "together-ai",
+        "fireworks-ai",
+        "openrouter",
+        "litellm",
+        "replicate",
+        "fal",
+        "modal",
+        "baseten",
+        "siliconflow"
+      ],
+      "locales": {
+        "en": {
+          "title": "LLM inference providers — low-latency, custom weights, aggregators",
+          "description": "Groq, Cerebras, SambaNova, Together, Fireworks, OpenRouter, LiteLLM, Replicate, fal, Modal, Baseten, SiliconFlow — where to run models without babysitting GPUs.",
+          "intro": "People searching “LLM inference pricing”, “fastest LLM”, “OpenAI alternative API” end up here. Three shapes matter: **low-latency custom silicon** (Groq/Cerebras/SambaNova), **aggregator gateways** (OpenRouter/LiteLLM), and **custom-weight serverless** (Together/Fireworks/Replicate/Modal/Baseten).\n\nThis is not a ranking—match your model catalog, data-routing rules, and OpenAI-compatible needs against each site."
+        },
+        "zh-CN": {
+          "title": "LLM 推理平台一览 — 低延迟、自定义权重、聚合网关",
+          "description": "Groq、Cerebras、SambaNova、Together、Fireworks、OpenRouter、LiteLLM、Replicate、fal、Modal、Baseten、硅基流动：在哪跑模型不头疼。",
+          "intro": "对应「LLM 推理价格」「最快的大模型 API」「OpenAI 备胎」等搜索。本合集覆盖三种形态：**低延迟专用芯片**（Groq / Cerebras / SambaNova）、**聚合网关**（OpenRouter / LiteLLM）、**自定义权重 Serverless**（Together / Fireworks / Replicate / Modal / Baseten）。\n\n不做排名；对照你要跑的模型、数据路由要求与是否需要 OpenAI 兼容接口，再决定主备栈。"
+        },
+        "zh-TW": {
+          "title": "LLM 推論服務清單 — 低延遲、自訂權重、聚合網關",
+          "description": "Groq、Cerebras、SambaNova、Together、Fireworks、OpenRouter、LiteLLM 等。",
+          "intro": "提供推論價格、速度、資料路由與相容性的比較起點；請以官網為準。"
+        },
+        "ja": {
+          "title": "LLM 推論プロバイダ一覧 — 低遅延・カスタム重み・ゲートウェイ",
+          "description": "Groq、Cerebras、SambaNova、Together、Fireworks、OpenRouter、LiteLLM 等。",
+          "intro": "「LLM 推論 料金」等の検索に対応した比較ハブ。料金・互換性は各公式で確認してください。"
+        },
+        "ko": {
+          "title": "LLM 추론 제공자 모음 — 저지연·커스텀 가중치·게이트웨이",
+          "description": "Groq, Cerebras, SambaNova, Together, Fireworks, OpenRouter, LiteLLM 등.",
+          "intro": "가격/속도/호환성 비교용 허브; 상세는 공식 사이트에서 확인."
+        },
+        "ru": {
+          "title": "Провайдеры инференса LLM — низкая задержка, свои веса, агрегаторы",
+          "description": "Groq, Cerebras, SambaNova, Together, Fireworks, OpenRouter, LiteLLM и др.",
+          "intro": "Ориентирован на запросы о ценах и скорости инференса; детали — на сайтах провайдеров."
+        },
+        "hi": {
+          "title": "LLM इंफ़रेंस प्रदाता — कम लेटेंसी, कस्टम वेट, एग्रीगेटर",
+          "description": "Groq, Cerebras, SambaNova, Together, Fireworks, OpenRouter, LiteLLM आदि.",
+          "intro": "मूल्य/गति/संगतता तुलना केंद्र; विस्तार आधिकारिक साइटों पर."
+        },
+        "es": {
+          "title": "Proveedores de inferencia LLM — baja latencia, pesos propios, agregadores",
+          "description": "Groq, Cerebras, SambaNova, Together, Fireworks, OpenRouter, LiteLLM, etc.",
+          "intro": "Hub para comparar precios y velocidades; los detalles están en cada proveedor."
+        }
+      }
+    },
+    {
+      "slug": "ai-meeting-notetakers",
+      "updatedAt": "2026-04-21",
+      "toolSlugs": [
+        "granola",
+        "fireflies-ai",
+        "otter",
+        "fathom",
+        "read-ai",
+        "tldv",
+        "limitless",
+        "plaud",
+        "notta"
+      ],
+      "locales": {
+        "en": {
+          "title": "AI meeting notetakers — summaries and action items without the cleanup",
+          "description": "Granola, Fireflies, Otter, Fathom, Read.AI, tl;dv, Limitless, Plaud, Notta. Bots-in-the-meeting, on-device capture, and wearable pendants side by side.",
+          "intro": "Typical queries: “best AI meeting notes”, “Fireflies vs Otter”, “Granola alternative”. Capture styles differ: bots that join calls, on-device audio capture, and physical wearables. Compare CRM integration (HubSpot/Salesforce), template libraries (sales/HR/1-on-1), and data retention before rolling out.\n\nNeutral hub—sensitive meetings should always check consent rules and enterprise controls on the vendor site."
+        },
+        "zh-CN": {
+          "title": "AI 会议纪要工具合集 — 会后不再手敲笔记",
+          "description": "Granola、Fireflies、Otter、Fathom、Read.AI、tl;dv、Limitless、Plaud、Notta 同屏对比。",
+          "intro": "对应「AI 会议纪要」「Fireflies 和 Otter 区别」「Granola 替代品」等搜索。形态有三种：**机器人入会转写**（Fireflies / Otter / tl;dv）、**本地音频捕获**（Granola / Fathom / Notta）、**可穿戴硬件**（Limitless / Plaud）。\n\n对比时关注 CRM 集成（HubSpot / Salesforce / 飞书）、模板库（销售 / HR / 1on1）、录音合规与数据留存。敏感会议请以官方政策和企业版控制为准。"
+        },
+        "zh-TW": {
+          "title": "AI 會議紀要工具合集",
+          "description": "Granola、Fireflies、Otter、Fathom、Read.AI、tl;dv、Limitless、Plaud、Notta 等。",
+          "intro": "整理 AI 會議紀錄與摘要工具，敏感會議請以官方政策為準。"
+        },
+        "ja": {
+          "title": "AI 会議ノート・議事録ツール",
+          "description": "Granola、Fireflies、Otter、Fathom、Read.AI、tl;dv、Limitless、Plaud、Notta ほか。",
+          "intro": "ボット参加型・ローカル音声取得・ウェアラブル型の3系統を整理。機微情報は公式ポリシーに従ってください。"
+        },
+        "ko": {
+          "title": "AI 미팅 노트·요약 도구 모음",
+          "description": "Granola, Fireflies, Otter, Fathom, Read.AI, tl;dv, Limitless, Plaud, Notta 등.",
+          "intro": "봇 참여형·로컬 캡처·웨어러블 하드웨어 세 가지를 한눈에. 민감 회의는 공식 정책을 따르세요."
+        },
+        "ru": {
+          "title": "AI-помощники для заметок с встреч",
+          "description": "Granola, Fireflies, Otter, Fathom, Read.AI, tl;dv, Limitless, Plaud, Notta.",
+          "intro": "Боты на звонках, локальный захват, носимые устройства — сравните сценарии и политику данных на сайтах вендоров."
+        },
+        "hi": {
+          "title": "AI मीटिंग नोट्स व सारांश टूल",
+          "description": "Granola, Fireflies, Otter, Fathom, Read.AI, tl;dv, Limitless, Plaud, Notta आदि.",
+          "intro": "बॉट-इन-मीटिंग, लोकल कैप्चर और वियरेबल — संवेदनशील मीटिंग के लिए आधिकारिक नीति देखें."
+        },
+        "es": {
+          "title": "Tomadores de notas IA para reuniones",
+          "description": "Granola, Fireflies, Otter, Fathom, Read.AI, tl;dv, Limitless, Plaud, Notta y más.",
+          "intro": "Bots en reunión, captura local y dispositivos vestibles comparados; revisa política de datos en cada sitio."
+        }
+      }
+    },
+    {
+      "slug": "browser-computer-use-agents",
+      "updatedAt": "2026-04-21",
+      "toolSlugs": [
+        "anthropic-computer-use",
+        "openai-operator",
+        "browser-use",
+        "skyvern",
+        "multion",
+        "manus",
+        "reworkd",
+        "comet-browser"
+      ],
+      "locales": {
+        "en": {
+          "title": "Browser & computer-use agents — AI that clicks the web for you",
+          "description": "Claude Computer Use, OpenAI Operator, Browser Use, Skyvern, MultiOn, Manus, Reworkd, Comet. Hosted vs open-source vs in-browser side by side.",
+          "intro": "Search intents: “AI browser agent”, “Operator alternative”, “computer use Claude”, “RPA with LLM”. Three shapes: **in-browser assistants**, **hosted virtual desktops**, and **open-source self-hosted** agents.\n\nLink-through cards give a neutral summary. Production use still needs sandboxing, credential scoping, rollbacks, and human confirmation on critical steps."
+        },
+        "zh-CN": {
+          "title": "浏览器与电脑操作代理 — 让 AI 替你点网页",
+          "description": "Claude Computer Use、OpenAI Operator、Browser Use、Skyvern、MultiOn、Manus、Reworkd、Comet：托管 vs 开源 vs 浏览器内一张图看完。",
+          "intro": "对应「AI 浏览器代理」「Operator 平替」「Computer Use」「用 LLM 做 RPA」等搜索。三种形态：**浏览器内助手**、**云端虚拟桌面**、**开源自部署**。\n\n卡片中立介绍 + 直达官网；生产使用仍需要最小权限凭据、沙盒 VM、可回滚的动作日志和关键步骤的人工确认。"
+        },
+        "zh-TW": {
+          "title": "瀏覽器與桌面代理清單",
+          "description": "Claude Computer Use、OpenAI Operator、Browser Use、Skyvern、MultiOn、Manus、Reworkd、Comet 等。",
+          "intro": "整理 AI 操作網頁／桌面的新類別；請先評估憑證隔離與回滾機制再上生產。"
+        },
+        "ja": {
+          "title": "ブラウザ/コンピュータ操作エージェント",
+          "description": "Claude Computer Use、OpenAI Operator、Browser Use、Skyvern、MultiOn、Manus、Reworkd、Comet など。",
+          "intro": "ブラウザ内／ホスト型／自部署の3形態を整理。運用では資格情報分離とロールバック必須。"
+        },
+        "ko": {
+          "title": "브라우저·컴퓨터 조작 에이전트 모음",
+          "description": "Claude Computer Use, OpenAI Operator, Browser Use, Skyvern, MultiOn, Manus, Reworkd, Comet.",
+          "intro": "브라우저 내·호스트형·오픈소스 자체 호스팅 세 형태를 비교. 운영 시 자격증명 분리와 롤백 필수."
+        },
+        "ru": {
+          "title": "Агенты для браузера и ПК — ИИ, который кликает сам",
+          "description": "Claude Computer Use, OpenAI Operator, Browser Use, Skyvern, MultiOn, Manus, Reworkd, Comet.",
+          "intro": "Три формы: в браузере, размещённые виртуальные десктопы, open-source self-hosted. Для продакшна — песочницы и разграничение прав."
+        },
+        "hi": {
+          "title": "ब्राउज़र और कंप्यूटर एजेंट",
+          "description": "Claude Computer Use, OpenAI Operator, Browser Use, Skyvern, MultiOn, Manus, Reworkd, Comet आदि.",
+          "intro": "ब्राउज़र-इन, होस्टेड, ओपन-सोर्स सेल्फ-होस्ट — उत्पादन में सैंडबॉक्स व क्रेडेंशियल स्कोप ज़रूरी."
+        },
+        "es": {
+          "title": "Agentes de navegador y escritorio",
+          "description": "Claude Computer Use, OpenAI Operator, Browser Use, Skyvern, MultiOn, Manus, Reworkd, Comet.",
+          "intro": "Tres formas: en navegador, escritorios virtuales y self-hosted. En producción, sandboxes y control de credenciales."
+        }
+      },
+      "mcpServerSlugs": [
+        "playwright-mcp",
+        "puppeteer",
+        "firecrawl-mcp"
+      ]
+    },
+    {
+      "slug": "voice-agents-stack",
+      "updatedAt": "2026-04-21",
+      "toolSlugs": [
+        "vapi",
+        "retell-ai",
+        "bland-ai",
+        "livekit-agents",
+        "cartesia",
+        "hume-ai",
+        "elevenlabs",
+        "deepgram",
+        "assemblyai",
+        "pipecat"
+      ],
+      "locales": {
+        "en": {
+          "title": "Voice agents & realtime stack — AI that picks up the phone",
+          "description": "Vapi, Retell, Bland, LiveKit Agents, Cartesia, Hume, ElevenLabs, Deepgram, AssemblyAI, Pipecat — build low-latency voice apps without reinventing telephony.",
+          "intro": "Typical search intents: “AI phone agent”, “ElevenLabs realtime alternative”, “voice bot builder”. Four knobs decide the build: **end-to-end tail latency** (aim < 700ms), **barge-in and turn-taking**, **numbering & compliance** (TCPA, consent), and **hosted vs self-built**.\n\nPair STT (Deepgram/AssemblyAI), LLM, TTS (ElevenLabs/Cartesia/Hume), and either a hosted agent (Vapi/Retell/Bland) or open plumbing (LiveKit Agents/Pipecat)."
+        },
+        "zh-CN": {
+          "title": "语音代理与实时栈 — 搭建能打电话的 AI",
+          "description": "Vapi、Retell、Bland、LiveKit Agents、Cartesia、Hume、ElevenLabs、Deepgram、AssemblyAI、Pipecat：低延迟语音应用的完整栈。",
+          "intro": "对应「AI 电话客服」「实时语音机器人」「ElevenLabs 实时平替」等搜索。四个关键变量：**端到端尾延迟**（目标 < 700ms）、**打断与轮转**、**号码与合规**（双方同意、Do-Not-Call）、**自建 vs 托管**。\n\n典型组合：STT（Deepgram / AssemblyAI）+ LLM + TTS（ElevenLabs / Cartesia / Hume）+ 托管代理（Vapi / Retell / Bland）或开源管道（LiveKit Agents / Pipecat）。"
+        },
+        "zh-TW": {
+          "title": "語音代理與即時棧",
+          "description": "Vapi、Retell、Bland、LiveKit、Cartesia、Hume、ElevenLabs、Deepgram、AssemblyAI、Pipecat 等。",
+          "intro": "整理可打電話的 AI 所需的完整棧；出海電話業務請遵守當地合規要求。"
+        },
+        "ja": {
+          "title": "ボイスエージェント／リアルタイム音声スタック",
+          "description": "Vapi、Retell、Bland、LiveKit、Cartesia、Hume、ElevenLabs、Deepgram、AssemblyAI、Pipecat。",
+          "intro": "電話を取れるAIを組み立てるための主要コンポーネントを整理。レイテンシ・法令順守は各公式で要確認。"
+        },
+        "ko": {
+          "title": "보이스 에이전트·실시간 스택",
+          "description": "Vapi, Retell, Bland, LiveKit, Cartesia, Hume, ElevenLabs, Deepgram, AssemblyAI, Pipecat 등.",
+          "intro": "전화 응대 가능한 AI 스택 모음; 지역 규제와 지연은 공식 사이트 기준."
+        },
+        "ru": {
+          "title": "Голосовые агенты и realtime-стек",
+          "description": "Vapi, Retell, Bland, LiveKit, Cartesia, Hume, ElevenLabs, Deepgram, AssemblyAI, Pipecat.",
+          "intro": "Стек для ИИ, отвечающего по телефону; задержки и законодательство проверяйте на сайтах."
+        },
+        "hi": {
+          "title": "वॉइस एजेंट व रियलटाइम स्टैक",
+          "description": "Vapi, Retell, Bland, LiveKit, Cartesia, Hume, ElevenLabs, Deepgram, AssemblyAI, Pipecat.",
+          "intro": "फोन उठा सकने वाले AI के लिए घटक; अनुपालन व लेटेंसी आधिकारिक साइटों पर जाँचें."
+        },
+        "es": {
+          "title": "Agentes de voz y stack en tiempo real",
+          "description": "Vapi, Retell, Bland, LiveKit, Cartesia, Hume, ElevenLabs, Deepgram, AssemblyAI, Pipecat.",
+          "intro": "Stack para IA que atiende llamadas; latencia y cumplimiento se verifican en cada proveedor."
+        }
+      }
+    },
+    {
+      "slug": "ui-from-prompt",
+      "updatedAt": "2026-04-21",
+      "toolSlugs": [
+        "v0",
+        "bolt-new",
+        "lovable",
+        "tempo-ai",
+        "subframe",
+        "figma-make",
+        "relume",
+        "onlook"
+      ],
+      "locales": {
+        "en": {
+          "title": "AI UI & front-end generators — from prompt or mockup to code",
+          "description": "v0, Bolt.new, Lovable, Tempo, Subframe, Figma Make, Relume, Onlook. Pick the shape that matches your starting artifact.",
+          "intro": "Queries like “v0 vs Bolt”, “Lovable alternative”, “AI UI generator” land here. Compare the output stack (React/Tailwind/shadcn vs plain HTML), design-system fit, and whether the tool writes to your existing repo or its own walled garden.\n\nGenerated UI is production-adjacent: treat the output as a fast scaffold—a11y, i18n, responsive polish, and security still need engineering."
+        },
+        "zh-CN": {
+          "title": "AI UI 与前端生成器 — 从 prompt / 设计稿到可运行代码",
+          "description": "v0、Bolt.new、Lovable、Tempo、Subframe、Figma Make、Relume、Onlook：按你要的起点挑工具。",
+          "intro": "对应「v0 vs Bolt」「Lovable 替代」「AI 生成 UI」等搜索。选型维度：输出技术栈（React / Tailwind / shadcn vs 原生 HTML）、是否沿用设计系统、是否能写回现有仓库。\n\n生成结果适合做「很强的脚手架」；可访问性、国际化、响应式、性能与安全仍需工程团队把关。"
+        },
+        "zh-TW": {
+          "title": "AI UI 與前端生成器",
+          "description": "v0、Bolt.new、Lovable、Tempo、Subframe、Figma Make、Relume、Onlook。",
+          "intro": "整理以 prompt/設計稿為輸入產生前端程式碼的工具；生產前請做 a11y 與安全審查。"
+        },
+        "ja": {
+          "title": "AI UI/フロントエンド生成ツール",
+          "description": "v0、Bolt.new、Lovable、Tempo、Subframe、Figma Make、Relume、Onlook。",
+          "intro": "プロンプト/デザインから実行可能なUIを作る製品群。a11y・i18n・セキュリティは別途必須。"
+        },
+        "ko": {
+          "title": "AI UI·프런트엔드 생성기",
+          "description": "v0, Bolt.new, Lovable, Tempo, Subframe, Figma Make, Relume, Onlook.",
+          "intro": "프롬프트·디자인에서 동작하는 UI 코드를 만드는 도구 모음; 프로덕션 품질은 별도 검토."
+        },
+        "ru": {
+          "title": "AI-генераторы UI и фронтенда",
+          "description": "v0, Bolt.new, Lovable, Tempo, Subframe, Figma Make, Relume, Onlook.",
+          "intro": "Инструменты «из промпта/макета в код»; готовность к проду проверяйте отдельно."
+        },
+        "hi": {
+          "title": "AI UI व फ्रंट‑एंड जनरेटर",
+          "description": "v0, Bolt.new, Lovable, Tempo, Subframe, Figma Make, Relume, Onlook.",
+          "intro": "प्रॉम्प्ट/डिज़ाइन से चालू UI कोड बनाने वाले टूल; प्रोडक्शन हेतु a11y/सुरक्षा समीक्षा अलग से."
+        },
+        "es": {
+          "title": "Generadores de UI y front-end con IA",
+          "description": "v0, Bolt.new, Lovable, Tempo, Subframe, Figma Make, Relume, Onlook.",
+          "intro": "Herramientas de prompt/diseño a código; revisa a11y, i18n y seguridad antes de producción."
+        }
+      }
+    },
+    {
+      "slug": "ai-image-gen-2026",
+      "updatedAt": "2026-04-21",
+      "toolSlugs": [
+        "midjourney",
+        "dall-e",
+        "ideogram",
+        "adobe-firefly",
+        "stability-ai",
+        "leonardo-ai",
+        "google-gemini",
+        "chatgpt"
+      ],
+      "locales": {
+        "en": {
+          "title": "AI image generation 2026 — Midjourney, GPT Image, Ideogram, Firefly & more",
+          "description": "Flagship image models side by side. Confirm commercial licenses, watermarking, and likeness rules on each vendor site.",
+          "intro": "This cluster maps to queries like “best AI image generator 2026”, “Midjourney vs GPT Image”, “Ideogram for text”. Each product has strengths: prompt steering, reference/character consistency, typographic accuracy, and commercial license clarity vary widely.\n\nNeutral launch pad—read each site for current model names (v7, Nano Banana, etc.), pricing, and watermark rules before shipping client work."
+        },
+        "zh-CN": {
+          "title": "2026 AI 文生图合集 — Midjourney、GPT Image、Ideogram、Firefly 等",
+          "description": "主流文生图产品对照：提示词可控性、角色一致性、文字生成准确性与商用条款各有取舍。",
+          "intro": "对应「2026 AI 画画」「Midjourney 和 GPT Image」「Ideogram 文字生图」等搜索。每个产品长板不同：提示词控制力、参考图与角色一致性、字体/文字准确性、商用授权清晰度差异明显。\n\n中立导航页；对外交付前请以各官网为准核对当期模型名（v7、Nano Banana 等）、定价与水印规则。"
+        },
+        "zh-TW": {
+          "title": "2026 AI 文生圖合集",
+          "description": "主流文生圖產品對照：提示詞、角色一致性、商用條款。",
+          "intro": "整理 2026 的文生圖主力產品；實際授權請以各官網為準。"
+        },
+        "ja": {
+          "title": "2026 AI 画像生成ツール一覧",
+          "description": "Midjourney、GPT Image、Ideogram、Firefly ほか。",
+          "intro": "主要な画像生成製品を整理。商用ライセンスとウォーターマークは各公式で確認。"
+        },
+        "ko": {
+          "title": "2026 AI 이미지 생성 모음",
+          "description": "Midjourney, GPT Image, Ideogram, Firefly 등.",
+          "intro": "주요 텍스트‑투‑이미지 제품 비교 진입점; 상업 이용 조건은 공식 사이트 기준."
+        },
+        "ru": {
+          "title": "AI‑генерация изображений 2026",
+          "description": "Midjourney, GPT Image, Ideogram, Firefly и др.",
+          "intro": "Сравнение флагманских генераторов; лицензии и вотермарки — на сайтах вендоров."
+        },
+        "hi": {
+          "title": "2026 AI इमेज जनरेटर संग्रह",
+          "description": "Midjourney, GPT Image, Ideogram, Firefly आदि.",
+          "intro": "प्रमुख टेक्स्ट‑टू‑इमेज उत्पादों का तुलनात्मक केंद्र; व्यावसायिक शर्तें आधिकारिक साइटों पर."
+        },
+        "es": {
+          "title": "Generación de imágenes con IA 2026",
+          "description": "Midjourney, GPT Image, Ideogram, Firefly y más.",
+          "intro": "Comparativa neutral de generadores de imagen; licencias y marcas de agua en cada proveedor."
+        }
+      }
+    },
+    {
+      "slug": "mcp-essential-servers",
+      "updatedAt": "2026-04-21",
+      "toolSlugs": [],
+      "mcpServerSlugs": [
+        "filesystem",
+        "git",
+        "github",
+        "postgres",
+        "fetch",
+        "playwright-mcp",
+        "slack",
+        "cloudflare-mcp",
+        "stripe-mcp",
+        "linear-mcp",
+        "notion-mcp",
+        "supabase-mcp",
+        "tavily-mcp",
+        "e2b-mcp"
+      ],
+      "locales": {
+        "en": {
+          "title": "MCP essentials — servers every Claude/Cursor/Zed user should know",
+          "description": "A starter kit of Model Context Protocol servers: files, git/GitHub, Postgres, web fetch, browser automation, Slack, Cloudflare, Stripe, Linear, Notion, Supabase, Tavily, and sandboxes — ready to plug into Claude, Cursor, or Zed.",
+          "intro": "Common search intents: “best MCP servers”, “must-have MCP”, “MCP Claude Desktop setup”, “Cursor MCP servers”. Pick one per capability and keep scopes tight: least-privilege tokens, read-only where possible, and domain allow-lists for anything that touches the internet.\n\nFor production, combine an **edit/read backbone** (filesystem, git, github), a **data plane** (postgres, supabase), and **reach** (fetch, playwright, tavily) with **ops** (cloudflare, sentry) and **business** (stripe, notion, linear, slack)."
+        },
+        "zh-CN": {
+          "title": "MCP 服务器必装清单 — Claude / Cursor / Zed 用户入门包",
+          "description": "一份可直接抄走的 MCP 启动包：文件、Git/GitHub、Postgres、网页抓取、浏览器自动化、Slack、Cloudflare、Stripe、Linear、Notion、Supabase、Tavily 与沙盒——接入 Claude、Cursor、Zed 即用。",
+          "intro": "对应搜索意图：「MCP 服务器 推荐」「Claude Desktop MCP 配置」「Cursor MCP servers」「必装 MCP」。选型原则：**每个能力选一个**、**最小权限令牌**、**可读则不要写**、**外网请求加域名白名单**。\n\n生产落地的通用搭配：**编辑/读写底座**（filesystem、git、github）+ **数据平面**（postgres、supabase）+ **触达网络**（fetch、playwright、tavily）+ **运维**（cloudflare、sentry）+ **业务**（stripe、notion、linear、slack）。"
+        },
+        "zh-TW": {
+          "title": "MCP 伺服器必裝清單 — Claude／Cursor／Zed 入門包",
+          "description": "Model Context Protocol 起手套件：檔案、Git/GitHub、Postgres、網頁抓取、瀏覽器自動化、Slack、Cloudflare、Stripe、Linear、Notion、Supabase、Tavily 與沙盒——接入 Claude / Cursor / Zed 即用。",
+          "intro": "對應「MCP 伺服器 推薦」「Claude Desktop MCP 設定」「Cursor MCP servers」等搜尋。選型守則：每個能力挑一個、最小權限權杖、能唯讀不寫入、外網請求加網域白名單。"
+        },
+        "ja": {
+          "title": "MCP 必須サーバー集 — Claude/Cursor/Zed ユーザー向け入門パック",
+          "description": "Model Context Protocol のスタータセット：ファイル、Git/GitHub、Postgres、Web 取得、ブラウザ自動化、Slack、Cloudflare、Stripe、Linear、Notion、Supabase、Tavily、サンドボックス。",
+          "intro": "「MCP おすすめ」「Claude Desktop MCP 設定」「Cursor MCP servers」などの検索向け。選定原則：能力ごとに 1 つ、最小権限トークン、できる限り読み取り専用、外部アクセスにはドメイン許可リスト。"
+        },
+        "ko": {
+          "title": "MCP 필수 서버 — Claude/Cursor/Zed 사용자 입문 팩",
+          "description": "Model Context Protocol 스타터 세트: 파일, Git/GitHub, Postgres, 웹 패치, 브라우저 자동화, Slack, Cloudflare, Stripe, Linear, Notion, Supabase, Tavily, 샌드박스.",
+          "intro": "\"MCP 추천\", \"Claude Desktop MCP 설정\", \"Cursor MCP servers\" 같은 검색에 대응. 기본 원칙: 기능별 1개, 최소 권한 토큰, 가능하면 읽기 전용, 외부 요청에는 도메인 허용 목록."
+        },
+        "ru": {
+          "title": "Базовый набор MCP-серверов для Claude/Cursor/Zed",
+          "description": "Стартовый комплект Model Context Protocol: файлы, Git/GitHub, Postgres, web fetch, браузерная автоматизация, Slack, Cloudflare, Stripe, Linear, Notion, Supabase, Tavily, песочницы.",
+          "intro": "Для запросов «лучшие MCP-серверы», «Claude Desktop MCP», «Cursor MCP». Принципы выбора: по одному на возможность, минимальные права, по возможности read-only, allow-list доменов для внешних запросов."
+        },
+        "hi": {
+          "title": "MCP ज़रूरी सर्वर — Claude/Cursor/Zed यूज़र के लिए स्टार्टर पैक",
+          "description": "Model Context Protocol स्टार्टर सेट: Files, Git/GitHub, Postgres, Web Fetch, ब्राउज़र ऑटोमेशन, Slack, Cloudflare, Stripe, Linear, Notion, Supabase, Tavily, सैंडबॉक्स।",
+          "intro": "\"Best MCP servers\", \"Claude Desktop MCP setup\" जैसे प्रश्नों के लिए। नियम: प्रति क्षमता एक, न्यूनतम-अधिकार टोकन, जहाँ संभव read-only, बाहरी कॉल के लिए डोमेन allow-list।"
+        },
+        "es": {
+          "title": "MCP esenciales — servidores para usuarios de Claude/Cursor/Zed",
+          "description": "Paquete inicial de Model Context Protocol: archivos, Git/GitHub, Postgres, fetch web, automatización de navegador, Slack, Cloudflare, Stripe, Linear, Notion, Supabase, Tavily y sandbox.",
+          "intro": "Para búsquedas tipo “best MCP servers”, “Claude Desktop MCP setup” o “Cursor MCP servers”. Reglas: uno por capacidad, tokens de mínimo privilegio, solo lectura cuando sea posible y allow-list de dominios para llamadas externas."
         }
       }
     }

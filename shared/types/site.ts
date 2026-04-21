@@ -43,6 +43,25 @@ export interface OpenClawSkill {
   official?: boolean
 }
 
+/** Model Context Protocol server directory entry. */
+export interface McpServer {
+  slug: string
+  name: string
+  description: string
+  url: string
+  category: string
+  tags?: string[]
+  featured?: boolean
+  /** Official = vendor-published or in modelcontextprotocol/servers; community forks are false. */
+  official?: boolean
+  /** Typical transport: stdio | http | sse | ws. Free-form to track future additions. */
+  transport?: string
+  /** Quick-start install command (npx/uvx/docker/etc.) or link-style hint. */
+  install?: string
+  /** Publisher of the server (Anthropic, Cloudflare, Stripe, community, etc.). */
+  vendor?: string
+}
+
 export interface ClusterSummary {
   slug: string
   title: string
@@ -54,6 +73,8 @@ export interface ClusterSummary {
 export interface ClusterDetail extends ClusterSummary {
   intro: string
   tools: Tool[]
+  /** Optional curated MCP servers attached to the cluster (rendered after tools). */
+  mcpServers?: McpServer[]
 }
 
 /** Extra editorial SEO blocks for tool detail (locale-keyed in data/tool-seo-extras.json). */

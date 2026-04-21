@@ -10,7 +10,8 @@
     "menu": "Menú",
     "footerDescription": "Herramientas de IA seleccionadas y noticias del sector en un solo lugar.",
     "sitemap": "Mapa del sitio",
-    "language": "Idioma"
+    "language": "Idioma",
+    "mcp": "MCP"
   },
   "home": {
     "eyebrow": "Plunget",
@@ -34,7 +35,13 @@
     "scenarioClustersHint": "Listas alineadas con búsquedas frecuentes y enlaces internos a cada ficha.",
     "allClusters": "Ver todas",
     "categoryHubTitle": "Explorar por categoría",
-    "categoryHubHint": "Hubs con preguntas frecuentes, listas completas y enlaces oficiales."
+    "categoryHubHint": "Hubs con preguntas frecuentes, listas completas y enlaces oficiales.",
+    "mcpServers": "Servidores MCP",
+    "mcpSectionTitle": "Selección de servidores MCP",
+    "mcpSectionHint": "Servidores Model Context Protocol listos para Claude, Cursor o Zed—referencias oficiales e implementaciones de proveedores con comandos de instalación y transporte.",
+    "allMcpServers": "Todos los servidores MCP",
+    "mcpOfficial": "Oficial",
+    "mcpCommunity": "Comunidad"
   },
   "clusterPage": {
     "eyebrow": "Hubs temáticos",
@@ -46,7 +53,11 @@
     "toolCount": "{count} entradas",
     "missingToolsHint": "El catálogo puede haber cambiado—faltan algunas entradas.",
     "emptyTools": "No hay herramientas resueltas ahora.",
-    "notFound": "Colección no encontrada"
+    "notFound": "Colección no encontrada",
+    "mcpListTitle": "Servidores MCP relacionados",
+    "mcpListHint": "Configúralos en Claude, Cursor o Zed (cualquier cliente MCP) para que el agente acceda a herramientas externas, datos y entornos de ejecución.",
+    "mcpBadgeOfficial": "Oficial",
+    "mcpBadgeCommunity": "Comunidad"
   },
   "navPage": {
     "eyebrow": "Catálogo",
@@ -139,7 +150,8 @@
   "errors": {
     "toolNotFound": "Herramienta no encontrada",
     "articleNotFound": "Artículo no encontrado",
-    "skillNotFound": "Habilidad no encontrada"
+    "skillNotFound": "Habilidad no encontrada",
+    "mcpServerNotFound": "Servidor MCP no encontrado"
   },
   "seo": {
     "siteDescription": "Directorio curado de herramientas de IA, guías prácticas e índice OpenClaw / AgentSkills: chat, código, medios y agentes en un solo sitio.",
@@ -151,6 +163,45 @@
     "newsDescription": "Artículos prácticos: elección de modelos, privacidad, multimodal, LLM locales, OpenClaw y agentes—con resumen y texto completo.",
     "openclawTitle": "Directorio de skills OpenClaw (AgentSkills)",
     "openclawDescription": "Skills del repo oficial más ejemplos habituales de nombres personalizados: CLI/API, SKILL.md, ClawHub y enlaces a la documentación.",
-    "ogHomeTitle": "Plunget — herramientas IA y skills OpenClaw"
+    "ogHomeTitle": "Plunget — herramientas IA y skills OpenClaw",
+    "mcpTitle": "Directorio de servidores MCP (Model Context Protocol)",
+    "mcpDescription": "Selección de más de 30 servidores MCP: referencia oficial, publicaciones de grandes proveedores e implementaciones de la comunidad — archivos, Git/GitHub, bases de datos, nube, búsqueda, navegador y pagos — para Claude, Cursor y Zed."
+  },
+  "mcpPage": {
+    "eyebrow": "Model Context Protocol",
+    "title": "Directorio de servidores MCP",
+    "introBeforeSpecLink": "El Model Context Protocol (MCP) fue propuesto por Anthropic; mira la especificación en ",
+    "introAfterSpecLink": " y las implementaciones de referencia en ",
+    "introAfterRefRepo": ", directorio servers. Esta página reúne los servidores MCP más usados: ",
+    "introStrong": "referencia oficial e implementaciones publicadas por los principales proveedores",
+    "introEnd": ", listos para conectarse desde Claude, Cursor, Zed y otros clientes MCP.",
+    "filterAll": "Todos",
+    "filterOfficial": "Oficial",
+    "filterCommunity": "Comunidad",
+    "searchLabel": "Buscar",
+    "searchPlaceholder": "Nombre, descripción, vendedor o etiquetas",
+    "count": "{count} elementos",
+    "filterApplied": "Filtro activo",
+    "badgeOfficial": "Oficial",
+    "badgeCommunity": "Comunidad",
+    "empty": "No hay resultados para tus filtros."
+  },
+  "mcpServerPage": {
+    "breadcrumb": "Servidores MCP",
+    "badgeOfficial": "Publicado oficialmente",
+    "badgeCommunity": "Comunidad / ejemplo",
+    "featured": "Destacado",
+    "transport": "Transporte: {transport}",
+    "vendorBy": "Publicado por {vendor}",
+    "viewUpstream": "Ver upstream",
+    "opensNewWindow": "Se abre en otra pestaña",
+    "installTitle": "Instalación y ejecución",
+    "installHint": "Los comandos son orientativos: revisa variables de entorno, permisos y configuración del cliente en la documentación upstream.",
+    "notesTitle": "Notas",
+    "noteOfficial1": "Este elemento lo publica ",
+    "noteOfficial2": " o forma parte del conjunto de referencia modelcontextprotocol/servers. Antes de producción, verifica versión, tokens de mínimo privilegio y auditoría.",
+    "noteCommunity": "Implementación comunitaria o de ejemplo — ideal para aprender y validar rápido. Evalúa mantenimiento, dependencias y políticas de datos antes de producción.",
+    "upstreamFallback": "el equipo upstream",
+    "ogSuffix": "MCP Server"
   }
 }

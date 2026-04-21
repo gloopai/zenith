@@ -1,0 +1,92 @@
+{
+  "filesystem": {
+    "description": "Эталонный MCP-сервер: чтение/запись/листинг файлов внутри разрешённой директории. Для чувствительных данных — минимальные права и режим только-чтение."
+  },
+  "git": {
+    "description": "Эталонный MCP-сервер: stat/log/diff/blame git для агента. Отличная отправная точка для ревьюверов кода в read-only; запись — только по необходимости."
+  },
+  "github": {
+    "description": "Официальный MCP-сервер GitHub: чтение/запись репозиториев, управление Issues/PR, поиск по коду. Для прод — PAT с ограниченной областью или GitHub App с аудитом."
+  },
+  "gitlab": {
+    "description": "GitLab: официальный MCP-сервер от Model Context Protocol — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "postgres": {
+    "description": "Эталонный MCP-сервер: read-only подключение к Postgres с запросами и обзором схем — хорошо для аналитических агентов. Используйте read-only роль и allow-list схем."
+  },
+  "sqlite": {
+    "description": "SQLite: официальный MCP-сервер от Model Context Protocol — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "memory": {
+    "description": "Memory: официальный MCP-сервер от Model Context Protocol — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "fetch": {
+    "description": "Эталонный MCP-сервер: качает любой HTTP URL и приводит к Markdown — минимальная «навигация» для агента. Добавьте allow-list доменов и лимиты."
+  },
+  "puppeteer": {
+    "description": "Puppeteer: официальный MCP-сервер от Model Context Protocol — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "playwright-mcp": {
+    "description": "MCP-сервер Playwright от Microsoft: кросс-браузерная автоматизация (Chromium/Firefox/WebKit) — для скрейперов и UI-тест агентов."
+  },
+  "time": {
+    "description": "Time: официальный MCP-сервер от Model Context Protocol — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "sequential-thinking": {
+    "description": "Sequential Thinking: официальный MCP-сервер от Model Context Protocol — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "brave-search": {
+    "description": "Brave Search: официальный MCP-сервер от Model Context Protocol — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "google-drive": {
+    "description": "Google Drive: официальный MCP-сервер от Model Context Protocol — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "google-maps": {
+    "description": "Google Maps: официальный MCP-сервер от Model Context Protocol — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "slack": {
+    "description": "Эталонный MCP-сервер: чтение/запись сообщений в Slack и поиск — превращает Slack в коммуникационный слой агента. Используйте Bot Token с минимальными правами."
+  },
+  "sentry": {
+    "description": "Sentry: официальный MCP-сервер от Model Context Protocol — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "cloudflare-mcp": {
+    "description": "Официальный набор MCP от Cloudflare: Workers, KV, D1, R2, Pages, DNS. Поддержка Remote MCP по HTTP — подключать к Claude / Cursor без локальных бинарей."
+  },
+  "stripe-mcp": {
+    "description": "Официальный MCP-сервер Stripe: счета, заказы, возвраты, продукты как инструменты — удобно для коммерческих агентов. В проде используйте test / restricted ключи."
+  },
+  "linear-mcp": {
+    "description": "Официальный MCP Linear: создание и запросы Issues/Projects/Cycles — лёгкий task-pipeline для agents разработки/продукта. Авторизация через API Key или OAuth."
+  },
+  "notion-mcp": {
+    "description": "Официальный MCP Notion: R/W страниц и элементов БД — удобно для подключения требований, weekly и БЗ к агенту. Авторизация — по рабочему пространству."
+  },
+  "atlassian-mcp": {
+    "description": "Atlassian Remote MCP: официальный MCP-сервер от Atlassian — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "supabase-mcp": {
+    "description": "Официальный MCP Supabase: операции с БД, Storage и Auth — удобно подключать Supabase-проект к AI IDE и ops-агентам."
+  },
+  "neon-mcp": {
+    "description": "Neon: официальный MCP-сервер от Neon — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "mongodb-mcp": {
+    "description": "MongoDB: официальный MCP-сервер от MongoDB — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "exa-mcp": {
+    "description": "Exa: официальный MCP-сервер от Exa — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "tavily-mcp": {
+    "description": "MCP-сервер Tavily: API поиска, заточенный под агентов, как инструменты MCP — лёгкий способ дать любому MCP-клиенту «веб-поиск» с контролем по API Key."
+  },
+  "firecrawl-mcp": {
+    "description": "Firecrawl: официальный MCP-сервер от Mendable / Firecrawl — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "e2b-mcp": {
+    "description": "E2B Code Interpreter: официальный MCP-сервер от E2B — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  },
+  "apify-mcp": {
+    "description": "Apify Actors: официальный MCP-сервер от Apify — перед продом сверяйте версию, scope прав и транспорт с upstream-документацией."
+  }
+}

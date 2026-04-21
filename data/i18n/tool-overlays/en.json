@@ -388,5 +388,140 @@
   },
   "granola": {
     "description": "Meeting notes product that pairs calendar context with transcription-friendly flows to turn calls into searchable summaries—validate retention, training use, and enterprise controls before rolling out company-wide."
+  },
+  "langsmith": {
+    "description": "LangChain’s eval and trace platform for LLM apps—datasets, scorers, live monitoring, and human review with the deepest LangChain/LangGraph integration."
+  },
+  "langfuse": {
+    "description": "Open-source LLM observability and eval platform with traces, datasets, scorers, and prompt management—self-host via Docker to keep data on your own network."
+  },
+  "braintrust": {
+    "description": "Braintrust: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "arize-phoenix": {
+    "description": "Arize Phoenix: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "helicone": {
+    "description": "Helicone: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "galileo-ai": {
+    "description": "Galileo: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "patronus-ai": {
+    "description": "Patronus AI: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "pinecone": {
+    "description": "Managed vector database with serverless tiers and namespaces—fast path to production RAG; compare cost at scale with Qdrant/Milvus self-host."
+  },
+  "weaviate": {
+    "description": "Weaviate: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "qdrant": {
+    "description": "Rust-built open-source vector DB with managed cloud and enterprise options—strong payload filtering, hybrid search, and quantization for tight memory/throughput budgets."
+  },
+  "chroma": {
+    "description": "Chroma: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "milvus": {
+    "description": "Milvus / Zilliz: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "lancedb": {
+    "description": "LanceDB: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "turbopuffer": {
+    "description": "Turbopuffer: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "cerebras": {
+    "description": "Wafer-scale inference service from Cerebras claiming extreme token throughput on popular open LLMs—great for latency-sensitive interactive apps; verify model list and quotas on the site."
+  },
+  "sambanova": {
+    "description": "SambaNova Cloud: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "baseten": {
+    "description": "Baseten: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "modal": {
+    "description": "Modal: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "litellm": {
+    "description": "Open-source proxy gateway exposing 100+ LLM vendors through one OpenAI-compatible API—routing, budgets, fallbacks, and logging without reinventing plumbing."
+  },
+  "fireflies-ai": {
+    "description": "Meeting bot that auto-joins calls, transcribes, and syncs action items to HubSpot/Salesforce/Slack—great for sales and CS teams; check retention and consent rules before rolling out."
+  },
+  "fathom": {
+    "description": "Fathom: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "read-ai": {
+    "description": "Read.AI: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "tldv": {
+    "description": "tl;dv: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "limitless": {
+    "description": "Limitless: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "plaud": {
+    "description": "Plaud: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "notta": {
+    "description": "Notta: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "tempo-ai": {
+    "description": "Tempo: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "subframe": {
+    "description": "Subframe: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "figma-make": {
+    "description": "Figma Make: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "relume": {
+    "description": "Relume: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "onlook": {
+    "description": "Onlook: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "browser-use": {
+    "description": "Open-source browser agent framework that drives web pages through structured DOM actions—a self-hostable alternative to Operator/Computer Use for developers who want control."
+  },
+  "skyvern": {
+    "description": "Skyvern: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "multion": {
+    "description": "MultiOn: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "anthropic-computer-use": {
+    "description": "Anthropic’s Claude capability to see the screen and operate a computer via API—best used with sandboxed VMs, scoped credentials, and human confirm on critical actions."
+  },
+  "openai-operator": {
+    "description": "OpenAI’s cloud browser agent (evolving into ChatGPT Agent) that operates websites remotely on your behalf—check current product name, regions, and data rules on the site."
+  },
+  "reworkd": {
+    "description": "Reworkd: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "vapi": {
+    "description": "Developer-first voice agent platform with pluggable STT/LLM/TTS and phone numbers—minute-metered pricing for inbound/outbound bots and scheduling agents."
+  },
+  "retell-ai": {
+    "description": "Voice agent platform tuned for low latency and natural barge-in—visual orchestration, rented phone numbers, and templates for inbound/outbound call flows."
+  },
+  "bland-ai": {
+    "description": "Bland AI: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "livekit-agents": {
+    "description": "LiveKit Agents: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "cartesia": {
+    "description": "Low-latency TTS with streaming APIs and custom voices (Sonic series)—a go-to layer for natural-feeling voice agents and audio products."
+  },
+  "hume-ai": {
+    "description": "Hume AI: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "deepgram": {
+    "description": "Deepgram: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
+  },
+  "pipecat": {
+    "description": "Pipecat: popular AI product—see the official site for features, pricing, supported regions, data handling, and latest model lineup."
   }
 }

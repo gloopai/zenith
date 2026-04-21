@@ -1,4 +1,5 @@
 import { readOpenclawSkillsDatasetUpdatedAt, readOpenclawSkillsLocalized } from '../utils/openclaw-skills-store'
+import { readMcpServersDatasetUpdatedAt, readMcpServersLocalized } from '../utils/mcp-servers-store'
 import { readToolsLocalized } from '../utils/tools-store'
 import { listNewsMeta } from '../utils/news-store'
 import { listClusterDefs, maxClusterUpdatedAt } from '../utils/clusters-store'
@@ -36,6 +37,8 @@ export default defineEventHandler(async (event) => {
   const news = await listNewsMeta('zh-CN')
   const openclawSkills = await readOpenclawSkillsLocalized('zh-CN')
   const openclawDataset = (await readOpenclawSkillsDatasetUpdatedAt()) ?? catalogFallback
+  const mcpServers = await readMcpServersLocalized('zh-CN')
+  const mcpDataset = (await readMcpServersDatasetUpdatedAt()) ?? catalogFallback
 
   const clusters = await listClusterDefs()
   const clusterIndexLastmod = maxIsoDate([await maxClusterUpdatedAt(), catalogFallback])
@@ -53,6 +56,7 @@ export default defineEventHandler(async (event) => {
     entries.push({ loc: `${base}${p}/nav`, priority: '0.9', lastmod: catalogFallback })
     entries.push({ loc: `${base}${p}/news`, priority: '0.85', lastmod: newsIndexLastmod })
     entries.push({ loc: `${base}${p}/openclaw`, priority: '0.85', lastmod: openclawDataset })
+    entries.push({ loc: `${base}${p}/mcp`, priority: '0.85', lastmod: mcpDataset })
     entries.push({ loc: `${base}${p}/cluster`, priority: '0.88', lastmod: clusterIndexLastmod })
   }
 
@@ -77,6 +81,13 @@ export default defineEventHandler(async (event) => {
         loc: `${base}${p}/openclaw/${encodeURIComponent(s.slug)}`,
         priority: '0.65',
         lastmod: openclawDataset,
+      })
+    }
+    for (const s of mcpServers) {
+      entries.push({
+        loc: `${base}${p}/mcp/${encodeURIComponent(s.slug)}`,
+        priority: '0.65',
+        lastmod: mcpDataset,
       })
     }
     for (const c of clusters) {
